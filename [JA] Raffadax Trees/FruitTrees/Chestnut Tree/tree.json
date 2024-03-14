@@ -1,0 +1,12 @@
+{
+	"Name": "Chestnut Tree",
+    	"Product": "Chestnut",
+    	"SaplingName": "Chestnut Sapling",
+    	"SaplingDescription": "A tree that produces spiny pods containing nuts. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Pookah",
+    	"SaplingPurchasePrice": 10000,
+	"SaplingPurchaseRequirements": ["f Puck 500"],
+	"DisableWithMod": "BonsterTrees",
+
+}

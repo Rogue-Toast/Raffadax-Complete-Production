@@ -1,0 +1,18 @@
+{
+	"Name": "Dried Sakura Blossom",
+  	"Description": "A sakura blossom that has been dried for preservation. It can be used to make potpourri or brewed into a fragrant tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Flower",
+  	"Edibility": -300,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gunther" ],
+		"Like": [ "Abigail", "Beatrice", "Caroline", "Claire", "Elliott", "Emily", "Evelyn", "Haley", "Hekate", "Lewis", "Linus", "Pam", "Penny", "Sam", "Sandy", "Sheila", "Alecto", "Wizard" ],
+        	"Neutral": [ "Alex", "Clint", "Dwarf", "George", "Gregory", "Gus", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Marnie", "Martin", "Maru", "Morgan", "Olivia", "Pierre", "Robin", "Shane", "Sophia", "Susan", "Victor" ],
+		"Dislike": [ "Amanra", "Apples", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Marlon", "Morgan", "Morris", "Sebastian", "Vincent", "Wednesday", "Willy" ]
+		},
+}

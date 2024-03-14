@@ -1,0 +1,52 @@
+{
+  	"Name": "Catholicon",
+  	"Description": "A faintly luminous liquid that becomes a powder if spilled, reverting to liquid form once returned to its bottle. This solution can cure any ailment; whether physical, genetic, psychological or spiritual. It is capable of bringing a person near death back to perfect health, and can even regrow lost limbs and organs.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Dust",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 100,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 1440,
+		},
+  	"Price": 25000,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 1,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Azoth",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Aurora Powder",
+            		"Count": 1,
+       	 		}
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Coyotl",
+        	"PurchasePrice": 500000,
+        	"PurchaseRequirements": [ "y 2" ],
+		},  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Dwarf", "Gunther", "Harvey", "Hekate", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy",  "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		"Neutral": [ "Hephaestus" ],
+		"Hate": [ "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

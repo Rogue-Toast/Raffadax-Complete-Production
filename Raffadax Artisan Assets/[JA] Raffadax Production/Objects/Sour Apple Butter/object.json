@@ -1,0 +1,19 @@
+{
+	"Name": "Sour Apple Butter",
+	"Description": "Crabapples that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+	"Edibility": 40,
+	"EdibleIsDrink": true,
+	"Price": 100,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Leo", "Linus", "Morgan", "Vincent" ],
+		"Like": [ "Andy", "Apples", "Eloise", "Hephaestus", "Jas", "Marnie", "Martin", "Shane", "Sheila", "Sophia", "Wednesday" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Emily", "Gregory", "Gunther", "Harvey", "Hekate", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Mephisto", "Pam", "Pierre", "Puck", "Robin", "Sandy", "Shuck", "Victor", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Alex", "Beatrice", "Demetrius", "Elliott", "George", "Claire", "Jodi" ],
+		"Hate": [  "Evelyn", "Gus", "Haley", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Sebastian", "Susan" ],
+		},
+}

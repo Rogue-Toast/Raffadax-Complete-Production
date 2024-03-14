@@ -1,0 +1,16 @@
+{
+  	"Name": "Minced Garlic",
+  	"Description": "Dried garlic that has been chopped into fine pieces. It can be used as a salad or pizza topping, or rehydrated in soups and stews.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Seasoning",
+  	"Edibility": -300,
+  	"Price": 110,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Olivia", "Pierre", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Claire", "Coyote", "Dwarf", "Mephisto", "Morgan", "Pam", "Penny", "Puck", "Shuck" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

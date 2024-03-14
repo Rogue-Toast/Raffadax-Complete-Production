@@ -1,0 +1,33 @@
+{
+    	"Name": "Infernal Negus",
+    	"Description": "A sweet, purple liqueur seething with infernal energies. It is incredibly popular with denizens of the netherworld, but is considered dangerous for humans to drink.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Cursed Libation",
+	"Edibility": -175,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -6,
+        	"MaxStamina": 6,
+		"MagnetRadius": 6,
+        	"Speed": 5,
+
+		"Attack": -6,
+        	"Defense": -6,
+
+        	"Duration": 240,
+		},
+	"Price": 40000,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", ],
+		},
+}

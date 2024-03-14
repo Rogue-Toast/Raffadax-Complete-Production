@@ -1,0 +1,17 @@
+{
+    	"Name": "White Grapes",
+    	"Description": "A cluster of green grapes. They have a crisper, lighter, more refreshing flavor than darker varieties of grape.",
+  	"Category": "Fruit",
+  	"Edibility": 15,
+  	"Price": 80,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Vincent" ],
+        	"Like": [ "Amanra", "Apples", "Astrid", "Beatrice", "Claire", "Coyote", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Martin", "Mephisto", "Morgan", "Morris", "Pam", "Puck", "Robin", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Wednesday", "Xolotl" ],
+		"Neutral": [ "Alex", "Andy", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Lewis", "Marnie", "Maru", "Pierre", "Sam", "Sebastian", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Victor" ],
+		"Hate": [ "Olivia", "Penny" ]
+		},
+}

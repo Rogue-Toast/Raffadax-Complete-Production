@@ -1,0 +1,17 @@
+{
+  	"Name": "Agar Powder",
+  	"Description": "Dessicated red algae that has been ground into a fine powder. It is used as a plant based gelatin in food production.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Baking Component",
+  	"Edibility": -300,
+  	"Price": 90,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Alex", "Demetrius", "Emily", "Haley", "Harvey", "Kent", "Leah", "Lewis", "Maru" ],
+		"Neutral": [ "Abigail", "Beatrice", "Caroline", "Clint", "Elliott", "Gregory", "Hekate", "Hephaestus", "Morgan", "Olivia", "Robin", "Sandy", "Alecto", "Wizard" ],
+        	"Dislike": [ "Amanra", "Apples", "Astrid", "Claire", "Coyote", "Evelyn", "Gus", "Jacob", "Jodi", "Marnie", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Xolotl" ],
+		"Hate": [ "Andy", "Dwarf", "Eloise", "George", "Gunther", "Jas", "Krobus", "Leo", "Linus", "Marlon", "Martin", "Penny", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

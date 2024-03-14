@@ -1,0 +1,18 @@
+{
+  	"Name": "Qi Bean Juice",
+    	"Description": "A strange blue juice made from qi beans. It tastes...Unique.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Juice",
+    	"Edibility": 25,
+	"EdibleIsDrink": true,
+    	"Price": 2,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jas", "Krobus", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Penny", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

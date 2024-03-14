@@ -1,0 +1,10 @@
+{
+	"Name": "Anjou Pear Tree",
+    	"Product": "Red Anjou Pear",
+    	"SaplingName": "Anjou Pear Sapling",
+    	"SaplingDescription": "A pear tree which produces a red-skinned fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 7000,
+	"SaplingPurchaseRequirements": [ "f Astrid 1000" ],
+}

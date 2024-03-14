@@ -1,0 +1,18 @@
+{
+	"Name": "Basil Seed",
+  	"Description": "Whole seeds from a basil plant. When soaked in water, they form a tapioca-like jelly coating; the texture of which is popular in desserts and cold beverages.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Whole Spice",
+  	"Edibility": -300,
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,  	
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "Gus", "Olivia" ],
+		"Like": [ "Beatrice", "Emily", "Pierre", "Robin", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Claire", "Coyote", "Dwarf", "Mephisto", "Morgan", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

@@ -1,0 +1,15 @@
+{
+    	"Name": "Rhubarb Stalks",
+  	"Description": "The edible stalks of rhubarb, without the toxic portions of the leaves. They can be used for coooking or brewed into a tea. This rhubarb is perfectly sectioned for pickling.",
+  	"Category": "Vegetable",
+  	"Edibility": 25,
+ 	"Price": 270,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Elliott", "Harvey", "Hekate", "Jodi", "Kent", "Leah", "Linus", "Mephisto", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hephaestus", "Jacob", "Krobus", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Penny", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Abigail", "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Vincent" ]
+		},
+}

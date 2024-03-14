@@ -1,0 +1,36 @@
+{
+	"Name": "Sparkling Java Banana Wine",
+	"Description": "A tropical sparkling wine made by fermenting blue Java bananas. It has a pale blue hue and a sweet vanilla flavor. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Sparkling Wine",
+	"Edibility": 125,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 1350,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Elliott", "Gregory", "Harvey", "Hekate", "Jodi", "Kent", "Leah", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Like": [ "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hephaestus", "Jacob", "Krobus", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Sam", "Sheila", "Victor", "Willy", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Dislike": [ "Abigail", "Haley", "Sebastian" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ]
+		},
+}

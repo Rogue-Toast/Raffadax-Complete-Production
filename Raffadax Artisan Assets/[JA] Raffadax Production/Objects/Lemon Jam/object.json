@@ -1,0 +1,18 @@
+{
+  	"Name": "Lemon Jam",
+  	"Description": "A sweet-sour, bright yellow jam made with pulp from lemons.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 70,
+  	"Price": 850,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Leo", "Olivia", "Pam" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Eloise", "Krobus", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Jas", "Sebastian" ]
+		},
+}

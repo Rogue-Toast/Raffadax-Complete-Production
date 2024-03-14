@@ -1,0 +1,16 @@
+{
+	"Name": "Dried Blue Oyster Mushroom",
+  	"Description": "A blue oyster mushroom that has been dried for preservation. It will rehydrate when cooked into soups, stews, sauces and dips.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Mushroom",
+  	"Edibility": -300,
+  	"Price": 125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Harvey", "Leah", "Linus", "Olivia", "Victor" ],
+		"Dislike": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Emily", "Evelyn", "George", "Gus", "Jacob", "Kent", "Hekate", "Marlon", "Martin", "Mephisto", "Morris", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Puck", "Robin", "Sandy", "Sheila", "Shuck", "Sophia", "Wednesday", "Xolotl" ],
+        	"Hate": [ "Andy", "Caroline", "Claire", "Dwarf", "Elliott", "Eloise", "Gregory", "Gunther", "Haley", "Hephaestus", "Jas", "Jodi", "Krobus", "Leo", "Morgan", "Pierre", "Sam", "Sebastian", "Shane", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ]	
+		},
+}

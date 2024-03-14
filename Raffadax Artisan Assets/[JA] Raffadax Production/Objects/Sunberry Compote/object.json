@@ -1,0 +1,33 @@
+{
+    	"Name": "Sunberry Compote",
+    	"Description": "A golden-white syrup with whole sunberries in it. It can be used as a pastry and dessert topping.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Compote",
+  	"Edibility": 225,
+	"EdibleBuffs":
+		{
+        	"Farming": 10,
+        	"Fishing": 0,
+      		"Foraging": 10,
+        	"Mining": 0,
+
+        	"Luck": 10,
+        	"MaxStamina": 10,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 10,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 35200,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Hephaestus" ],
+		"Hate": [ "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

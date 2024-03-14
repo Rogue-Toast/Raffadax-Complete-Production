@@ -1,0 +1,17 @@
+{
+	"Name": "Sea Star ",
+	"Description": "A dried up sea star that washed up on shore.",
+	"Category": "-23",
+  	"CategoryTextOverride": "Beach Forage",
+	"Edibility": "-300",
+	"EdibleIsDrink": "false",
+	"EdibleBuffs": null,
+	"Price": "100",
+	"IsColored": "false",
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Gunther", "Mephisto", "Penny", "Puck", "Shuck", "Willy", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morgan", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Hate": [ "Andy", "Marlon", "Morris", "Olivia" ],
+		},
+}

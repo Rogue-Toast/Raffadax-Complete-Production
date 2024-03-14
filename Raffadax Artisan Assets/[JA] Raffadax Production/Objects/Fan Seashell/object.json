@@ -1,0 +1,18 @@
+{
+	"Name": "Fan Seashell",
+	"Description": "A large, flat, fan-shaped shell that washed up on shore. These shells are primarily used as decorative objects.",
+	"Category": "-23",
+  	"CategoryTextOverride": "Beach Forage",
+	"Edibility": "-300",
+	"EdibleIsDrink": "false",
+	"EdibleBuffs": null,
+	"Price": "250",
+	"IsColored": "false",
+  	"GiftTastes": 
+		{
+		"Love": [ "Eloise", "Emily", "Jas", "Penny" ],
+		"Like": [ "Amanra", "Apples", "Astrid", "Coyote", "Demetrius", "Elliott", "Evelyn", "Gunther", "Jodi", "Mephisto", "Pam", "Puck", "Robin", "Shuck", "Willy", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Madam","Marnie", "Martin", "Maru", "Morgan", "Olivia", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "Marlon", "Morris" ]
+		},
+}

@@ -1,0 +1,10 @@
+{
+	"Name": "Moonberry Willow",
+    	"Product": "Moonberry",
+    	"SaplingName": "Moonberry Sapling",
+    	"SaplingDescription": "A pale willow with faintly glowing leaves. It produces a luminous, moon shaped fruit with arcane properties. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Coyotl",
+    	"SaplingPurchasePrice": 50000,
+    	"SaplingPurchaseRequirements": [ "f Coyote 2500" ],
+}

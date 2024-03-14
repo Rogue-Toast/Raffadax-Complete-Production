@@ -1,0 +1,35 @@
+{
+  	"Name": "Arnold Palmer",
+  	"Description": "A refreshing beverage made from sweetened lemon juice and black tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Lemonade",
+  	"Edibility": 95,
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 750,
+	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Apples", "Caroline", "Claire", "Evelyn", "Haley", "Kent", "Lewis", "Martin", "Olivia", "Pam", "Robin", "Sam", "Sandy", "Sophia", "Susan" ],
+        	"Like": [ "Abigail", "Alex", "Beatrice", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gregory", "Gunther", "Gus", "Harvey", "Jacob", "Jodi", "Leah", "Linus", "Marlon", "Marnie", "Maru", "Penny", "Pierre", "Shane", "Sheila", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Hekate", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Hephaestus", "Morris" ], 
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Morgan", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

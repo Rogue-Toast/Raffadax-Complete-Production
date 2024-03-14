@@ -1,0 +1,37 @@
+{
+  	"Name": "Sarsaparilla Berry Liqueur",
+  	"Description": "A spicy-sweet liqueur made with sarsaparilla berries. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+  	"Edibility": 110,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 340,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Gus", "Hekate", "Hephaestus", "Kent", "Lewis", "Linus", "Mephisto", "Pam", "Puck", "Sam", "Shane", "Shuck", "Xolotl" ],
+		"Like": [ "Apples", "Gregory", "Clint", "Wednesday", "Willy" ],
+        	"Neutral": [ "Abigail", "Beatrice", "Caroline", "Claire", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Haley", "Harvey", "Jodi", "Leah", "Marlon", "Marnie", "Maru", "Pierre", "Robin", "Sandy", "Sheila", "Sophia", "Alecto", "Wizard" ],
+		"Neutral": [  "Susan" ],
+		"Dislike": [ "Jacob" ],
+		"Hate": [ "Eloise", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Morris", "Olivia", "Penny", "Sebastian", "Victor", "Vincent" ]
+		},
+}

@@ -1,0 +1,16 @@
+{
+  	"Name": "Serendipit Tea Leaf",
+  	"Description": "Ginkgo leaves that have been infused with the oil of a Buddha's hand fruit. They produce a refreshing golden tea. Due to both of its components being symbols of luck, this tea is claimed to be a charm of good fortune.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Tea Leaf",
+  	"Edibility": -300,
+	"Price": 1040,
+	"IsColored": false,
+	"Recipe": null,
+   	"GiftTastes": 
+		{
+		"Like": [ "Caroline", "Claire", "Elliott", "Emily", "George", "Lewis", "Morris", "Olivia" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "Hephaestus", "Jas", "Krobus", "Morgan", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

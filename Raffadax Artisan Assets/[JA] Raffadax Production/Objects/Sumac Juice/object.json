@@ -1,0 +1,19 @@
+{
+  	"Name": "Sumac Juice",
+  	"Description": "A tangy juice that can be used to balance dishes and cocktails. Sumac is a popular cooking component in North African cuisines.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 45,
+  	"EdibleIsDrink": true,
+  	"Price": 170,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Martin", "Olivia", "Sandy" ],
+		"Like": [ "Apples", "Gus", "Kent", "Leo" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Demetrius", "Dwarf", "Eloise", "Emily", "Evelyn", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Mephisto", "Pam", "Pierre", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Susan", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Claire", "Elliott", "Krobus", "Martin", "Morgan", "Penny", "Sam", "Shane", "Victor", "Willy" ],
+		"Hate": [ "Alex", "Andy", "George", "Haley", "Eloise", "Jas", "Linus", "Morris", "Sebastian", "Vincent" ]		
+		},
+}

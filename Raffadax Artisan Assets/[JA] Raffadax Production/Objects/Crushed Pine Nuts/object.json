@@ -1,0 +1,18 @@
+{
+  	"Name": "Crushed Pine Nuts",
+  	"Description": "Pulverized pine nuts; they are great for cooking and can be used as a salad and pasta topping.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Crushed Nuts",
+  	"Edibility": 50,
+	"Price": 210,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Beatrice", "Evelyn", "Gus", "Susan" ],
+		"Like": [ "Clint", "Dwarf", "Elliott", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Krobus", "Leah", "Linus", "Olivia", "Willy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Demetrius", "Eloise", "Emily", "Haley", "Hekate", "Jas", "Jodi", "Kent", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Vincent", "Wednesday", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Gregory" ]
+		},
+}

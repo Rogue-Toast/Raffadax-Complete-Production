@@ -1,0 +1,23 @@
+{
+	"Name": "Hawkweed",
+	"Product": "Hawkweed",
+	"SeedName": "Hawkweed Seeds",
+	"SeedDescription": "Seeds for an orange variety of wildflower. Takes 5 days to mature. Plant in the fall.",
+    	"Type": "Flower",
+    	"Seasons": ["fall"],
+    	"Phases": [ 1, 1, 2, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 30,
+	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": ["f Coyote 1000"],
+}

@@ -1,0 +1,10 @@
+{
+	"Name": "Dogwood Tree",
+	"Product": "Dogwood",
+	"SaplingName": "Dogwood Sapling",
+	"SaplingDescription": "A popular ornamental tree which produces large pink flowers. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Flowers in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 600,
+    	"SaplingPurchaseRequirements": [ "f Shuck 1500" ],
+}

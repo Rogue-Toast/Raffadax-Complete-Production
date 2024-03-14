@@ -1,0 +1,34 @@
+{
+  	"Name": "Jacaranda Jelly",
+  	"Description": "A vibrant purple jelly made from poisonous flowers. It does not smell very appealing, but it is apparently quite popular with demi-humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Jelly",
+  	"Edibility": -175,
+	"EdibleBuffs":
+		{
+        	"Farming": 6,
+        	"Fishing": 6,
+      		"Foraging": 6,
+        	"Mining": 6,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 1050,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Wednesday" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Hekate", "Hephaestus", "Sebastian", "Alecto", "Wizard" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

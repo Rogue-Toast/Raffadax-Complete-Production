@@ -1,0 +1,35 @@
+{
+  	"Name": "Blackthorn Jam",
+  	"Description": "An amazingly flavorful jam made with pulp from wild sloe plums.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 75,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 8,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 700,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Kent", "Krobus", "Linus", "Shane", "Wednesday" ],
+        	"Like": [ "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Haley", "Jas", "Jodi", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Olivia", "Pam", "Pierre", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Abigail", "Amanra", "Astrid", "Coyote", "Haley", "Jacob", "Mephisto", "Morris", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Eloise", "Jas", "Martin", "Morgan", "Sam", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

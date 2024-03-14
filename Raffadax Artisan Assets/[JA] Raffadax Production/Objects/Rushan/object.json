@@ -1,0 +1,18 @@
+{
+    	"Name": "Rushan",
+    	"Description": "A leathery cow's milk cheese made by drying cheese on bamboo racks. It has a toasty, sweet-sour taste.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Cheese",
+    	"Edibility": 100,
+    	"Price": 700,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Gregory", "Gus", "Lewis", "Morris", "Olivia", "Willy" ], 
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Wednesday", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Victor", "Xolotl" ], 
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Jas", "Sebastian", "Vincent" ],
+		},
+}

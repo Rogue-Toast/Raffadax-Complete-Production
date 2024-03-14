@@ -1,0 +1,18 @@
+{
+  	"Name": "Sandalwood",
+  	"Description": "A highly fragrant red wood with an iconic, rich aroma that is utilized in many soaps and perfumes. This wood can be ground into chandan powder, which has a multitude of aromatic and culinary uses. ",
+  	"Category": "-16",
+  	"CategoryTextOverride": "Resource",	
+  	"Edibility": -300,
+  	"Price": 300,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Gregory", "Robin" ],
+		"Like": [ "Alex", "Amanra", "Andy", "Abigail", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Haley", "Hekate", "Hephaestus", "Kent", "Leo", "Mephisto", "Morgan", "Olivia", "Puck", "Sandy", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Neutral": [ "Apples", "Claire", "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Jodi", "Leah", "Lewis", "Marnie", "Maru", "Morris", "Pam", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Dislike": [ "George", "Penny", "Marlon", "Martin" ],
+		"Hate": [ "Dwarf","Eloise", "Jas", "Krobus", "Linus", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

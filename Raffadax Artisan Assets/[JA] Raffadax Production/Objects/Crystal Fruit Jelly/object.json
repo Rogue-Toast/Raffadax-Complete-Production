@@ -1,0 +1,18 @@
+{
+    	"Name": "Crystal Fruit Jelly",
+    	"Description": "A sweet blue jelly made from crystal fruit.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jelly",
+  	"Edibility": 55,
+  	"Price": 350,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Jacob", "Krobus", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Morgan", "Morris", "Penny", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Claire", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Maru", "Olivia", "Victor", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

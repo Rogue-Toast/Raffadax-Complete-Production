@@ -1,0 +1,16 @@
+{
+  	"Name": "Puffed Rice",
+  	"Description": "Crispy, puffy rice grains. They can be eaten as a cereal, or used as a candy and baking component.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Baking Component",
+  	"Edibility": 30,
+	"Price": 450,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "Gus", "Susan" ],
+		"Like": [ "Alex", "Clint", "Dwarf", "Elliott", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Krobus", "Leah", "Linus", "Olivia", "Willy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Demetrius", "Eloise", "Emily", "Gregory", "Haley", "Hekate", "Jas", "Jodi", "Kent", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Vincent", "Wednesday", "Xolotl" ]
+		},
+}

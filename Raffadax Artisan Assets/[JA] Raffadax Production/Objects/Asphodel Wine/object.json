@@ -1,0 +1,35 @@
+{
+	"Name": "Asphodel Wine",
+	"Description": "A wine commonly drank in the underworld. When living beings dink this wine, they lose all interest in the world around them; becoming shades of their former selves.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Fortified Wine",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -25,
+        	"MaxStamina": -25,
+		"MagnetRadius": 0,
+        	"Speed": 10,
+
+		"Attack": 50,
+        	"Defense": 50,
+
+        	"Duration": 360,
+		},
+	"Price": 90000,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

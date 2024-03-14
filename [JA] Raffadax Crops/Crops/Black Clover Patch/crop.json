@@ -1,0 +1,23 @@
+{
+	"Name": "Black Clover Patch",
+	"Product": "Black Shamrock",
+	"SeedName": "Black Clover Seeds",
+	"SeedDescription": "Seeds for a dark variety of shamrock which may additionally produce clover flowers and unlucky clovers. Takes 4 days to mature, then continues to produce every four days after. Plant in the fall or winter.",
+    	"Type": "Greens",
+    	"Seasons": ["fall", "winter"],
+    	"Phases": [ 1, 2, 1 ],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 5,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.2,
+    		},
+	"SeedPurchasePrice": 50,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": [ "f Shuck 2500" ],
+}

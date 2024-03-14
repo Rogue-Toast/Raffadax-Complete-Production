@@ -1,0 +1,18 @@
+{
+  	"Name": "Aurelia",
+  	"Description": "A golden scickle used by the godess of harvests to command the plants to sleep for the winter.",
+  	"Type": "Sword",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 250,
+  	"Knockback": 1.0,
+  	"Speed": 4,
+  	"Accuracy": 100,
+  	"Defense": 400,
+	"ExtraSwingArea": 10,
+  	"CritChance": 0.25,
+  	"CritMultiplier": 4.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

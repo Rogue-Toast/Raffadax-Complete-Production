@@ -1,0 +1,35 @@
+{
+	"Name": "Infernal Mead",
+	"Description": "A faintly luminous mead made from the honey of bees that have traveled to the netherworld.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Mead",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -20,
+        	"MaxStamina": -20,
+		"MagnetRadius": 0,
+        	"Speed": 15,
+
+		"Attack": 30,
+        	"Defense": 30,
+
+        	"Duration": 120,
+		},
+	"Price": 40200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Hekate", "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ]
+		},
+}

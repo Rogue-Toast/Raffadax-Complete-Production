@@ -1,0 +1,17 @@
+{
+	"Name": "Olive Paste",
+  	"Description": "Olives that have been mashed into a smooth, thin paste. It can be used as a spread, as a base for tapenade, or to produce extra virgin olive oil.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Puree",
+  	"Edibility": 50,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Caroline",  "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam", "Sebastian" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Haley", "Hekate", "Hephaestus", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ]	
+		},
+}

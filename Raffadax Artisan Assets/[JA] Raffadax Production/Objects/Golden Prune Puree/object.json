@@ -1,0 +1,19 @@
+{
+	"Name": "Golden Prune Puree",
+    	"Description": "Savory golden prunes that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 65,
+	"EdibleIsDrink": true,
+    	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Demetrius", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Pam", "Robin", "Sandy", "Sheila" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Caroline", "Clint", "Claire", "Eloise", "Gregory", "Gus", "Hekate", "Hephaestus", "Jacob", "Jas", "Marlon", "Marnie", "Martin", "Maru", "Pierre", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Dwarf", "Emily", "Haley", "Morgan", "Olivia", "Penny", "Morris", "Sam", "Shane" ],
+		"Hate": [ "Alex", "Haley", "Jas", "Krobus", "Leo", "Sebastian", "Vincent" ]
+		},
+}

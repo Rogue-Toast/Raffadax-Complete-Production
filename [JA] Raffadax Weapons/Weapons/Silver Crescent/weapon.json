@@ -1,0 +1,18 @@
+{
+  	"Name": "Silver Crescent",
+  	"Description": "The divine bow of Artemis which transforms arrows shot from it into beams of pure moonlight.  When shot into the sea, this bow can direct the tide to rise or fall, depending on where its arrows fall.",
+  	"Type": "Dagger",
+	"MinimumDamage": 150,
+  	"MaximumDamage": 250,
+  	"Knockback": 0.25,
+  	"Speed": 5,
+  	"Accuracy": 100,
+  	"Defense": 150,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.25,
+  	"CritMultiplier": 2.5,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

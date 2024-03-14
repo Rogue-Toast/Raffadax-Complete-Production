@@ -1,0 +1,18 @@
+{
+    	"Name": "Cream",
+    	"Description": "The thick, high fat portion of milk that is skimmed off during homogenization. It can be used to make icings and sauces, and is often blended into both hot beverages and cocktails.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Dairy",
+    	"Edibility": 50,
+    	"EdibleIsDrink": true,
+    	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Evelyn", "Jodi", "Leah", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin" ], 
+        	"Neutral": [ "Abigail", "Alecto", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Eloise", "Emily", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Krobus", "Leo", "Marlon", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Puck", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Elliott", "Haley", "Lewis", "Wizard" ],
+		"Dislike": [ "Kent" ],
+		},
+}

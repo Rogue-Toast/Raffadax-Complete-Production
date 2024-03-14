@@ -1,0 +1,11 @@
+{
+	"Name": "Olive Tree",
+    	"Product": "Olive",
+    	"SaplingName": "Olive Sapling",
+    	"SaplingDescription": "A tree which produces green olives. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": null,
+    	"SaplingPurchasePrice": 5000,
+    	"SaplingPurchaseRequirements": null,
+	"DisableWithMod": "ppja.moretrees",
+}

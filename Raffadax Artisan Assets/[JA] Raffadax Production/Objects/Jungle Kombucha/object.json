@@ -1,0 +1,35 @@
+{
+  	"Name": "Jungle Kombucha",
+  	"Description": "A lightly effervescent beverage made by fermenting jungle potion. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Shamanistic Potion",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 25,
+        	"Fishing": 25,
+      		"Foraging": 25,
+        	"Mining": 25,
+
+        	"Luck": 25,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 10,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 20000,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Emily", "Harvey", "Hekate", "Hephaestus", "Krobus", "Maru", "Mephisto", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail" ], 
+		"Neutral": [ "Leo", "Morgan" ],
+        	"Dislike": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Willy" ],
+		"Hate": [ "Eloise", "Jas", "Vincent" ]
+		},
+}

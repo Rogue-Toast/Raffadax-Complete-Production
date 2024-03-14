@@ -1,0 +1,34 @@
+{
+	"Name": "Mead of Loki",
+	"Description": "A mystical dark wine crafted from toxins. Those who drink this wine gain the cunning and skill of the Trixter, and are said to be able to negotiate any deal in their favor.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Divine Libation",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 100,
+        	"Fishing": 100,
+      		"Foraging": 100,
+        	"Mining": 100,
+
+        	"Luck": 100,
+        	"MaxStamina": 100,
+		"MagnetRadius": 100,
+        	"Speed": 7,
+
+		"Attack": 100,
+        	"Defense": 100,
+
+        	"Duration": 1440,
+		},
+	"Price": 3000000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

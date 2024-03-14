@@ -1,0 +1,16 @@
+{
+	"Name": "Grape Vine Powder",
+  	"Description": "A fine dust made from dried grape leaves. It is used as an herbal remedy in some parts of the world, and can also be used as a flavoring agent in culinary dishes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Powder",
+  	"Edibility": -300,
+  	"Price": 65,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Harvey", "Hekate", "Maru", "Morgan", "Olivia", "Alecto", "Wizard" ], 
+        	"Dislike": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Mephisto", "Morris", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

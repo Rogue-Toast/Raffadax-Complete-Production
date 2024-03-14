@@ -1,0 +1,18 @@
+{
+  	"Name": "Pimento Jelly",
+  	"Description": "A dark purple jelly that tastes like a combination of baking spices.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+  	"Edibility": 45,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Evelyn", "Gus", "Olivia", "Pierre", "Susan" ],
+		"Like": [ "Apples", "Leo" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Emily", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sandy", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Hekate", "Hephaestus", "Jas", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent"]
+		},
+}

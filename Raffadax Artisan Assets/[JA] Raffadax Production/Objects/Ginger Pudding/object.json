@@ -1,0 +1,17 @@
+{
+    	"Name": "Ginger Pudding",
+    	"Description": "A sweet, spicy dessert made with ginger.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pudding",
+  	"Edibility": 65,
+  	"Price": 740,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Apples", "Eloise", "Evelyn", "Jas", "Leo", "Morgan", "Susan", "Vincent" ],
+        	"Like": [ "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Gunther", "Gus", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Alex", "Haley", "Hekate", "Hephaestus", "Krobus", "Morris", "Sebastian", "Wednesday" ]
+		},
+}

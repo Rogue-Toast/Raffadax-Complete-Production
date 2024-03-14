@@ -1,0 +1,19 @@
+{
+  	"Name": "Banana Juice",
+    	"Description": "A sweet yellow juice made from bananas.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 100,
+	"EdibleIsDrink": true,
+    	"Price": 340,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Martin", "Sandy" ],
+		"Like": [ "Alex", "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Morris", "Olivia", "Pam", "Robin", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Lewis", "Marnie", "Maru", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Krobus", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

@@ -1,0 +1,16 @@
+{
+	"Name": "Lychee",
+  	"Description": "A strange round fruit with a pink, spiny skin. It has a white flesh with a sweet, mildly floral flavor.",
+  	"Category": "Fruit",
+  	"Edibility": 30,
+  	"Price": 115,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gunther", "Gus", "Haley", "Jacob", "Leah", "Lewis", "Leo", "Sophia", "Victor" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Hekate", "Hephaestus", "Jas", "Jodi", "Kent", "Krobus", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Susan", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Dwarf" ]
+		},
+	"DisableWithMod": "ppja.moretrees",
+}

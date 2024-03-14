@@ -1,0 +1,36 @@
+{
+  	"Name": "Sarsaparilla Berry Wine",
+  	"Description": "A spicy-sweet wine made from sarsaparilla berries. This wine has been made for generations by native peoples. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Wine",
+  	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 30,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Leah", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Like": [ "Apples", "Gregory", "Clint", "Hephaestus", "Shane", "Wednesday", "Willy" ],
+        	"Neutral": [ "Abigail", "Alex", "Beatrice", "Caroline", "Claire", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Jodi", "Kent", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sheila", "Sophia", "Susan", "Alecto", "Wizard" ],
+		"Dislike": [ "Jacob" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Morris", "Olivia", "Penny", "Sebastian", "Victor", "Vincent" ]
+		},
+}

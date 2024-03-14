@@ -1,0 +1,16 @@
+{
+  	"Name": "Roasted Acorns",
+  	"Description": "Leached acorns that have been roasted to bring out their flavor. They are sweet, nutty and crunchy.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Roasted Nuts",
+  	"Edibility": 50,
+	"Price": 420,
+	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Leo", "Linus" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

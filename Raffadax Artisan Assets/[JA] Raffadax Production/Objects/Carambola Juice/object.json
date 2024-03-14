@@ -1,0 +1,36 @@
+{
+	"Name": "Carambola Juice",
+  	"Description": "A tropical juice made from carambola fruit; its color changes from green to yellow to orange depending on how you hold the bottle in the light. The flavor of this juice can vary widely depending on the weather conditions the fruit was grown in, or the ripeness of the fruit at time of production.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 100,
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming":0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 5,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 675,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Clint", "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Martin", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Apples", "Beatrice", "Caroline", "Claire", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Lewis", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Dwarf", "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

@@ -1,0 +1,49 @@
+{
+  	"Name": "Blue Cheese Dressing",
+  	"Description": "A creamy salad dressing with a pungent and tangy flavor due to the incorporation of blue cheese. It is popular on salads, but is also commonly used as a dipping sauce.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Salad Dressing",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+  	"Price": 2225,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Buttermilk",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Mayonnaise",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Sour Cream",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Vinegar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Blue Cheese",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Parsley",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		}, 
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Caroline", "Elliott", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Leah", "Lewis", "Morris", "Olivia", "Penny" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Hekate", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Hephaestus", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Sebastian", "Vincent" ]	
+		},
+}

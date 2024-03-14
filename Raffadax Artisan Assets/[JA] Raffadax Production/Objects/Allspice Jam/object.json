@@ -1,0 +1,17 @@
+{
+  	"Name": "Allspice Jam",
+  	"Description": "A savory-sweet jam made with mashed allspice berries. It has a flavor reminiscent of a combination of spices.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 75,
+  	"Price": 1000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "Gus", "Olivia", "Pierre", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sandy", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent"]
+		},
+}

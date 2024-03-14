@@ -1,0 +1,10 @@
+{
+	"Name": "Illicium Tree",
+	"Product": "Star Anise",
+	"SaplingName": "Illicium Sapling",
+	"SaplingDescription": "A mid-sized tree which produces an aromatic, star-shaped spice. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 12000,
+    	"SaplingPurchaseRequirements": [ "f Amanra 1500" ],
+}

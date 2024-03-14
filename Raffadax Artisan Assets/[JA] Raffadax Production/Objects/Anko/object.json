@@ -1,0 +1,18 @@
+{
+	"Name": "Anko",
+  	"Description": "Red adzuki beans which have been mashed into a smooth, thin paste. It can be used as cooking and baking component in pastries, confections and ice creams.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Baking Component",
+  	"Edibility": 45,
+  	"Price": 70,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Elliott", "Evelyn", "Gus", "Hekate", "Olivia", "Pierre", "Sandy", "Susan" ],
+		"Like": [ "Apples", "Emily", "George" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Gunther", "Emily", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

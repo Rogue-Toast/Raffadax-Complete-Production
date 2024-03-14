@@ -1,0 +1,17 @@
+{
+  	"Name": "Fern Flower Dust",
+  	"Description": "A vibrant pink dust made from an enchanted forest flower. It is used for a variety of arcane purposes, and is said to be a powerful luck charm.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Flower Dust",
+  	"Edibility": -300,
+  	"Price": 7500,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Dwarf", "Gunther", "Hekate", "Marlon", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		"Dislike": [ "Hephaestus" ],
+		"Hate" : [ "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

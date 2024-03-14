@@ -1,0 +1,17 @@
+{
+  	"Name": "Red Tea Leaf",
+  	"Description": "Fully oxidized needles from a rooibos shrub. They can be brewed into an herbal beverage known traditionally as red tea, though rooibos is not a true tea.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Tea Leaf",
+  	"Edibility": -300,
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Caroline", "Claire", "Dwarf", "Elliott", "Harvey", "Kent", "Sandy", "Sebastian" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Emily", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Martin", "Penny", "Sam", "Shane", "Victor" ],
+		"Hate": [ "Eloise", "George", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

@@ -1,0 +1,24 @@
+{
+	"Name": "Blue Lotus Planter",
+	"Product": "Blue Lotus Flower",
+	"SeedName": "Blue Lotus Starter",
+	"SeedDescription": "A planter and seeds for a sacred lotus flower, which may additionally produce usable leaves, stalks and roots. Takes 21 days to mature, then produces every three weeks after. Set up planter in the spring, summer or fall.",
+	"Type": "Flower",
+	"Seasons": [ "spring", "summer", "fall" ],
+	"Phases": [1,7,8,8,1],
+	"RegrowthPhase": 21,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"CropType": "Paddy",
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 1,
+		"MaxIncreasePerFarmLevel": 50,
+		"ExtraChance": 0.0,
+		},
+	"SeedPurchasePrice": 2000,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": [ "f Astrid 2500" ],
+}

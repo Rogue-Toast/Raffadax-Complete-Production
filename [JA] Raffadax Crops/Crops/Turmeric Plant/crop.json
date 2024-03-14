@@ -1,0 +1,24 @@
+{
+	"Name": "Turmeric Plant",
+    	"Product": "Turmeric",
+    	"SeedName": "Turmeric Seeds",
+    	"SeedDescription": "A root vegetable commonly ground and used as a cooking spice. Plant in the fall, takes 10 days to mature.",
+    	"Type": "Vegetable",
+    	"Seasons": ["fall"],
+    	"Phases": [ 1, 4, 4, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+    	"SeedPurchasePrice": 35,
+ 	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": ["f Xolotl 2000"],
+	"DisableWithMod": "SSaturn.TropicalFarm",
+}

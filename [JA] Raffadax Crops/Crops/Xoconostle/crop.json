@@ -1,0 +1,24 @@
+{
+	"Name": "Xoconostle Cactus",
+	"Product": "Xoconostle",
+	"SeedName": "Xoconostle Cactus Starter",
+	"SeedDescription": "A starter for a paddle cactus with edible fruits. May also produce opuntia flowers and edible nopal pads at harvest. This crop is too spiny to walk through. Takes 20 days to mature, then produces every seven days after. Only grows indoors.",
+    	"Type": "Fruit",
+    	"Seasons": null,
+    	"Phases": [ 1, 5, 5, 5, 1 ],
+    	"RegrowthPhase": 7,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+	"CropType": "IndoorsOnly",
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 400,
+	"SeedPurchaseFrom": "Djinn",
+	"SeedPurchaseRequirements": [ "f Amanra 2500" ]
+}

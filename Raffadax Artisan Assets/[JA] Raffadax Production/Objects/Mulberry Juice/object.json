@@ -1,0 +1,19 @@
+{
+  	"Name": "Mulberry Juice",
+  	"Description": "A dark juice made from mulberries. It has a pleasant sweet-tart flavor that mixes well in cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 40,
+  	"EdibleIsDrink": true,
+  	"Price": 170,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Dwarf", "Haley", "Linus", "Martin", "Morgan", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Morris", "Olivia", "Sebastian", "Victor" ]	
+		},
+}

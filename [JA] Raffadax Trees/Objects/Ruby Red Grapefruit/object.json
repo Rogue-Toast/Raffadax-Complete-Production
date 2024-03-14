@@ -1,0 +1,15 @@
+{
+	"Name": "Ruby Red Grapefruit",
+  	"Description": "A large, juicy citrus with a sweeter, more full-bodied flavor than lighter-fleshed varieties of grapefruit.",
+  	"Category": "Fruit",
+  	"Edibility": 40,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gunther", "Gus", "Haley", "Jacob", "Leah", "Leo", "Lewis", "Linus", "Sophia", "Victor", "Willy" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Hekate", "Hephaestus", "Jodi", "Kent", "Krobus", "Marlon", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Susan", "Vincent", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Dwarf", "Jas", "Marnie" ]
+		},
+}

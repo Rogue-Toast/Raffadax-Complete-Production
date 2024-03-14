@@ -1,0 +1,23 @@
+{
+	"Name": "Woodruff Plant",
+	"Product": "Woodruff",
+	"SeedName": "Woodruff Seeds",
+	"SeedDescription": "Seeds for a fragrant green herb used as a flavoring component in sweets, beers and traditional festival wines. May produce flowers in addition to herbs. Takes 15 days to mature. Plant in the spring.",
+    	"Type": "Greens",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 4, 4, 5, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+	"SeedPurchasePrice": 75,
+	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": ["f Puck 2000"]
+}

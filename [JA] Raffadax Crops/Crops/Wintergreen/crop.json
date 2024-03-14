@@ -1,0 +1,23 @@
+{
+	"Name": "Wintergreen",
+	"Product": "Wintergreen",
+	"SeedName": "Wintergreen Seeds",
+	"SeedDescription": "Seeds for a fragrant green herb which is commonly used as a flavoring component. May produce flowers and berries in addition to herbs. Takes 10 days to mature. Plant in winter.",
+    	"Type": "Greens",
+    	"Seasons": ["winter"],
+    	"Phases": [ 1, 4, 4, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+	"SeedPurchasePrice": 15,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": ["f Astrid 1500"],
+}

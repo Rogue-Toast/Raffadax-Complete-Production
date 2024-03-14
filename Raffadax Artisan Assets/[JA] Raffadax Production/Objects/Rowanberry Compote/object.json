@@ -1,0 +1,34 @@
+{
+    	"Name": "Rowanberry Compote",
+    	"Description": "A rich, fruity syrup with whole preserved rowanberries in it. It makes a beautiful, festive addition to roast meats and charcuterie boards.",
+   	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Compote",
+  	"Edibility": 80,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 4,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 480,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Demetrius", "Gus", "Leah", "Leo", "Linus", "Maru", "Olivia", "Pam", "Robin", "Sandy", "Shane", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Claire", "Clint", "Coyote", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Mephisto", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Vincent", "Willy", "Xolotl" ],
+		"Dislike": [ "Apples", "Caroline", "Elliott", "Eloise", "Evelyn", "George", "Martin", "Morgan", "Morris", "Penny", "Victor", "Wednesday" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

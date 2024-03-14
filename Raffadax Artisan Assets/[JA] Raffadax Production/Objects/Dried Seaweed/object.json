@@ -1,0 +1,17 @@
+{
+    	"Name": "Dried Seaweed",
+  	"Description": "Sheets of dried seaweed. It can be rehydrated into stocks and soups, or can be used as is for making sushi and onigiri.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Seaweed",
+  	"Edibility": -300,
+ 	"Price": 70,
+  	"IsColored": false,
+	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Alex" ],
+		"Like": [ "Caroline", "Claire", "Demetrius", "Gus", "Hephaestus", "Lewis", "Olivia", "Pierre", "Sebastian", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Pam", "Penny", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

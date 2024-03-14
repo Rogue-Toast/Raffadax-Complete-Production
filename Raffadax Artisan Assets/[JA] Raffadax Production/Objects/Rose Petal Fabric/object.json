@@ -1,0 +1,15 @@
+{
+    	"Name": "Rose Petal Fabric",
+    	"Description": "A wonderous red fabric woven from wool dyed with forest rose petals. This cloth feels as though it is one large flower petal, but is as strong as woven steel. It gives off a stong aroma of roses, which will not fade no matter how many times it is washed.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Cloth",
+  	"Edibility": -300,
+  	"Price": 22000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Coyote", "Dwarf", "Emily", "Hekate", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		"Hate": [ "Hephaestus", "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

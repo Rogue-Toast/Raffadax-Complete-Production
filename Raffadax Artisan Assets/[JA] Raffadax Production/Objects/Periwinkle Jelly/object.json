@@ -1,0 +1,17 @@
+{
+  	"Name": "Periwinkle Jelly",
+  	"Description": "A bluish-lavender jelly made from poisonous periwinkle flowers. It is not safe for humans, but it is apparently quite popular in the nether realms.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Jelly",
+  	"Edibility": -100,
+  	"Price": 110,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Wednesday" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Hekate", "Hephaestus", "Sebastian", "Alecto", "Wizard" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

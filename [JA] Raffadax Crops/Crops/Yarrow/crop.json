@@ -1,0 +1,23 @@
+{
+	"Name": "Yarrow Flower",
+    	"Product": "Yarrow",
+    	"SeedName": "Yarrow Seeds",
+    	"SeedDescription": "Seeds for a medicinal flower which has been used to make beer since ancient times. May produce usable leaves and roots in addition to flowers. Takes 10 days to mature. Plant in the winter.",
+    	"Type": "Flower",
+    	"Seasons": ["winter"],
+    	"Phases": [ 1, 2, 3, 3, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 10,
+        	"ExtraChance": 0.1,
+    		},
+    	"SeedPurchasePrice": 50,
+ 	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": [ "f Astrid 2000" ],
+}

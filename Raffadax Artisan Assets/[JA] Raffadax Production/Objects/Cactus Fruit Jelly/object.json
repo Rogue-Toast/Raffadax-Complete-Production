@@ -1,0 +1,18 @@
+{
+    	"Name": "Cactus Fruit Jelly",
+    	"Description": "A sweet green jelly made from cactus fruit.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jelly",
+  	"Edibility": 60,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Linus", "Pam", "Sam" ],
+        	"Like": [ "Andy", "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marlon", "Martin", "Morris", "Olivia", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Marnie", "Maru", "Mephisto", "Morgan", "Penny", "Pierre", "Puck", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

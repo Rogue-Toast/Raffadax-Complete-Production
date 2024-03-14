@@ -1,0 +1,14 @@
+{
+    	"Name": "Fur Pelt",
+    	"Description": "Fabric that has been transmuted into a fine fur pelt using berserk powder. Those who wear this pelt gain the strength of a wild beast.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Cloth",
+  	"Edibility": -300,
+  	"Price": 4000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Emily", "Gregory", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

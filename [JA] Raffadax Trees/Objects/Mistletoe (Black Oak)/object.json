@@ -1,0 +1,34 @@
+{
+	"Name": "Mistletoe",
+  	"Description": "A white berry from a parasitic plant which grows in the branches of trees. It holds a variety of symbolisms throughout many cultures, and is often used decoratively in the winter. This berry is not safe for humans to consume, but is commonly eaten by wild birds.",
+  	"Category": "Fruit",
+  	"Edibility": -50,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 10,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": -5,
+
+        	"Duration": 90,
+		},
+  	"Price": 60,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Hekate", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Evelyn", "Krobus", "Marnie", "Mephisto", "Puck", "Shuck", "Susan", "Xolotl" ],
+		"Neutral": [ "Abigail" ],
+        	"Dislike": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hephaestus", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morris", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Vincent", "Willy" ],
+		"Hate": [ "Jacob", "Jas", "Leo", "Marlon", "Olivia", "Pam" ]
+		},
+}

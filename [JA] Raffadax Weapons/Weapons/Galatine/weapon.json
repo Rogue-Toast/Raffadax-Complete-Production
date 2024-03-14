@@ -1,0 +1,18 @@
+{
+  	"Name": "Galatine",
+  	"Description": "An enigmatic sword which grows stronger in sunlight, yet strikes with a dark power when wielded. The blade appears to be a single strange leaf, but it is stronger and sharper than steel.",
+  	"Type": "Sword",
+  	"MinimumDamage": 333,
+  	"MaximumDamage": 666,
+  	"Knockback": 5.0,
+  	"Speed": 1,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 5.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

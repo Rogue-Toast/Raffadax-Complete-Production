@@ -1,0 +1,17 @@
+{
+  	"Name": "Dried Yarrow Leaf",
+  	"Description": "A yarrow leaf that has been dried for preservation. It can be ground and used as a cooking herb or medicinal component, or it can be brewed into a medicinal tea.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Herb",
+  	"Edibility": -300,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Dwarf", "Evelyn", "Gus", "Harvey", "Hekate", "Marlon", "Maru", "Morgan", "Olivia", "Pierre", "Susan", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Alex", "Apples", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Amanra", "Andy", "Astrid", "Claire", "Coyote", "Mephisto", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

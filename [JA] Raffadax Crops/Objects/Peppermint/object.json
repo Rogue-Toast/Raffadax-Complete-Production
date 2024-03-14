@@ -1,0 +1,17 @@
+{
+  	"Name": "Peppermint",
+    	"Description": "A relative of spearmint with a stronger flaver due to its higher menthol content. This herb is traditionally used to make medicines; and also as a flavor for sweet beverages, desserts and candies.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Herb",  	
+    	"Edibility": 5,
+    	"Price": 25,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Dwarf", "Evelyn", "George", "Gus", "Harvey", "Leo", "Linus", "Marlon", "Maru", "Mephisto", "Olivia", "Puck", "Shuck", "Susan", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Martin", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Willy", "Alecto", "Wizard" ],
+	"Dislike": [ "Andy", "Eloise", "Jas", "Morgan", "Vincent" ],
+	"Hate": [ "Hephaestus", "Krobus", "Wednesday" ]
+		},
+}

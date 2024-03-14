@@ -1,0 +1,10 @@
+{
+	"Name": "Linden Tree",
+	"Product": "Linden",
+    	"SaplingName": "Linden Sapling",
+    	"SaplingDescription": "A spade-leafed tree with many symbolic and legendary associations. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest leaves in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Pookah",
+    	"SaplingPurchasePrice": 3000,
+    	"SaplingPurchaseRequirements": [ "f Puck 1000" ],
+}

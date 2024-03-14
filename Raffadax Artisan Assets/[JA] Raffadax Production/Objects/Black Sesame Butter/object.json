@@ -1,0 +1,18 @@
+{
+    	"Name": "Black Sesame Butter",
+    	"Description": "A smooth, creamy butter made from sesame seeds. It can be used as a spread or as a baking component. This butter is safe for those with nut allergies.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Seed Butter",
+    	"Edibility": 50,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "Gus", "Haley", "Kent", "Olivia", "Susan", "Shane" ],
+		"Like": [ "Clint", "George", "Hephaestus", "Jacob", "Lewis" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Gunther", "Harvey", "Hekate", "Jas", "Jodi", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sheila", "Shuck", "Sophia", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Eloise" ],
+		"Hate": [ "Gregory", "Sebastian", "Victor" ]
+		},
+}

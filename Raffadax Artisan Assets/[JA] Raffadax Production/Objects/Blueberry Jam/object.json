@@ -1,0 +1,18 @@
+{
+    	"Name": "Blueberry Jam",
+    	"Description": "A sweet, sticky jam made with the skins and pulp of blueberries.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jam",
+  	"Edibility": 60,
+  	"Price": 400,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Like": [ "Andy", "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Morris", "Morgan", "Olivia", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Marnie", "Martin", "Maru", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+	"DisableWithMod": "Vyranity.Pies",
+}

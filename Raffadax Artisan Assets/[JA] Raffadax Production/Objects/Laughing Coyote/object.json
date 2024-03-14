@@ -1,0 +1,35 @@
+{
+	"Name": "Laughing Coyote",
+	"Description": "A wine invented by the trixter, Coyote, that is made from the fruit of a divine, man-eating flower. It is said that those who drink this wine attain great knowledge, but are too overcome with laughter to do anything with it.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Fortified Wine",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 50,
+        	"Fishing": 50,
+      		"Foraging": 50,
+        	"Mining": 50,
+
+        	"Luck": 0,
+        	"MaxStamina": -25,
+		"MagnetRadius": 0,
+        	"Speed": -25,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 360,
+		},
+  	"Price": 67500,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

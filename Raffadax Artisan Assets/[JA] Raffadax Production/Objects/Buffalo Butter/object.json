@@ -1,0 +1,17 @@
+{
+    	"Name": "Buffalo Butter",
+    	"Description": "A spreadable dairy product made by churning buffalo milk. It has a sweeter flavor and a higher caloric content than cow butter.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Butter",
+    	"Edibility": 100,
+    	"Price": 800,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Penny", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]	
+		},
+}

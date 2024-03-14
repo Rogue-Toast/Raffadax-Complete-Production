@@ -1,0 +1,17 @@
+{
+	"Name": "Preserved Portobello Mushrooms",
+  	"Description": "Chopped portobello mushrooms that have been preserved in a pickling brine.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickled Mushrooms",
+  	"Edibility": 50,
+  	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Olivia" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Harvey", "Leah", "Linus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Hekate", "Hephaestus", "Jacob", "Kent", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Hate": [ "Caroline", "Dwarf", "Elliott", "Eloise", "Haley", "Jas", "Jodi", "Krobus", "Leo", "Morgan", "Pierre", "Sam", "Sebastian", "Shane", "Vincent", "Willy", "Alecto", "Wizard" ]
+		},
+}

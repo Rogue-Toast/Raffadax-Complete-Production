@@ -1,0 +1,20 @@
+{
+    	"Name": "Black Walnut Butter",
+    	"Description": "A smooth, creamy butter with bits of crunchy black walnut. It can be used as a spread or as a baking component.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nut Butter",
+    	"Edibility": 50,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Clint", "Dwarf", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Krobus", "Leah", "Linus", "Marnie", "Olivia", "Susan", "Willy", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Caroline", "Claire", "Demetrius", "Eloise", "Emily", "Gus", "Haley", "Hekate", "Jas", "Jodi", "Kent", "Leo", "Lewis", "Marlon", "Martin", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Vincent", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Gregory" ]
+		},
+	"DisableWithMod": "draconicarcher.JA.boardinghousenutbutters",
+
+}

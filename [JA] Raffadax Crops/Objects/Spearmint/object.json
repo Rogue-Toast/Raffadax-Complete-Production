@@ -1,0 +1,17 @@
+{
+  	"Name": "Spearmint",
+    	"Description": "A tender, minty scented leaf from a wild herb. Spearmint has a fresh, cool flavor and a distinctive aroma. This herb is traditionally used to make medicines; and also as a flavoring for sweet beverages, desserts and candies.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Herb",  	
+    	"Edibility": 5,
+    	"Price": 25,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Dwarf", "Evelyn", "George", "Gus", "Harvey", "Leo", "Linus", "Marlon", "Maru", "Mephisto", "Olivia", "Puck", "Shuck", "Susan", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Martin", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Willy", "Alecto", "Wizard" ],
+	"Dislike": [ "Andy", "Eloise", "Jas", "Morgan", "Vincent" ],
+	"Hate": [ "Hephaestus", "Krobus", "Wednesday" ]
+		},
+}

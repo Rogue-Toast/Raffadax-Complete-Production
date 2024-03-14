@@ -1,0 +1,31 @@
+{
+  	"Name": "Hostili Tea",
+  	"Description": "A golden tea that glows with a dark, yet alluring light. Those who drink this tea become argumentative and prideful.",
+	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Arcane Tea",
+	"Edibility": -150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -50,
+        	"MaxStamina": -25,
+		"MagnetRadius": 0,
+        	"Speed": -25,
+
+		"Attack": -25,
+        	"Defense": -25,
+
+        	"Duration": 240,
+		},
+  	"Price": 50100,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

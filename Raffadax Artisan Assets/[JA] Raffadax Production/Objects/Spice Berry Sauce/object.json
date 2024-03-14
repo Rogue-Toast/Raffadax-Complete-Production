@@ -1,0 +1,18 @@
+{
+  	"Name": "Spice Berry Sauce",
+    	"Description": "Spice berries that have been pureed into a potent sauce. It is a popular condiment in certain cuisines.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Hot Sauce",
+    	"Edibility": 35,
+	"EdibleIsDrink": true,
+    	"Price": 160,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Demetrius", "Elliott", "Kent", "Leah", "Leo", "Linus", "Pam", "Robin", "Sandy", "Shane" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Krobus", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Sam", "Sebastian", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Morgan", "Vincent" ],
+		"Hate": [ "Evelyn", "Harvey", "Jodi" ]
+		},
+}

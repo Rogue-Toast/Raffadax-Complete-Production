@@ -1,0 +1,27 @@
+{
+	"Name": "Oxidizer",
+	"Description": "A machine with climate control functionality that can dehydrate fruits, flowers, mushrooms and herbs. Certain snack foods require table salt for production. Can infuse tea leaves and coffee beans to produce specialty beverages; this may require additional production pouches, sold seperately.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 7,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": 388,
+            		"Count": 50,
+        		},
+        		{
+            		"Object": 335,
+            		"Count": 5,
+        		},
+        		{
+            		"Object": "Lodestone",
+            		"Count": 2,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

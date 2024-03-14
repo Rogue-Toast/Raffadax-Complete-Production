@@ -1,0 +1,17 @@
+{
+  	"Name": "Sarsaparilla Berry Jelly",
+  	"Description": "A spicy-sweet jelly made from sarsaparilla berries.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+  	"Edibility": 35,
+	"Price": 70,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Andy", "Apples", "Gregory", "Clint", "Shane", "Willy", "Susan", "Wednesday" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Astrid", "Beatrice", "Caroline", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sheila", "Shuck", "Sophia", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Jacob", "Morgan" ],
+		"Hate": [ "Eloise", "Hekate", "Hephaestus", "Jas", "Krobus", "Leo", "Martin", "Morris", "Olivia", "Sebastian", "Victor", "Vincent" ]
+		},
+}

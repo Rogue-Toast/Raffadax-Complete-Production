@@ -1,0 +1,14 @@
+{
+    	"Name": "Harmonic Fabric",
+    	"Description": "A shining fabric woven entirely out of gold and silver fibers. It is surprisingly heavy. The silver and gold on this fabric seem to shift in waves over the surface of the cloth. Due to its ever-shifting nature, it is impossible to isolate the individual components in this material.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Cloth",
+  	"Edibility": -300,
+  	"Price": 102000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Emily", "Gregory", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

@@ -1,0 +1,19 @@
+{
+    	"Name": "Cactus Fruit Jam",
+    	"Description": "A sweet green jam made with cactus pulp.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jam",
+  	"Edibility": 85,
+  	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Linus", "Pam", "Sam" ],
+        	"Like": [ "Andy", "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marlon", "Martin", "Morris", "Olivia", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Marnie", "Maru", "Mephisto", "Morgan", "Penny", "Pierre", "Puck", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+	"DisableWithMod": "Vyranity.Pies",
+}

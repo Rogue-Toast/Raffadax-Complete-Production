@@ -1,0 +1,36 @@
+{
+    	"Name": "Kümmel",
+    	"Description": "A clear pungeant liqueur made from cumin and caraway seeds. It has an anisette flavor, and can be blended into craft cocktails. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Herbal Liqueur",
+	"Edibility": 100, 
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 1140,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Astrid", "Beatrice", "Caroline", "Claire", "Coyote", "Dwarf", "Evelyn", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Kent", "Lewis", "Mephisto", "Morris", "Olivia", "Puck", "Sandy", "Shuck", "Victor", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Andy", "Apples", "Clint", "Elliott", "George", "Jacob", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Pam", "Pierre", "Robin", "Shane", "Wednesday" ],
+		"Neutral": [ "Demetrius", "Emily", "Sam" ],
+		"Dislike": [ "Haley", "Jodi", "Maru", "Sheila", "Sophia", "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

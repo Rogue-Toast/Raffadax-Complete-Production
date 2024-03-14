@@ -1,0 +1,52 @@
+{
+	"Name": "Creole Seasoning",
+  	"Description": "A popular south-western spice blend with a smoky, herbal flavor.  It can be added to soups and stews, or used to season meats and side dishes.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 540,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 7,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Basil Flakes",
+            		"Count": 1,
+        		},
+      			{
+            		"Object": "Ground Black Pepper",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Oregano Flakes",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Paprika",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Rosemary Needles",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Thyme Leaves",
+            		"Count": 1,
+        		},
+      			{
+            		"Object": "Table Salt",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Inkanyamba",
+  	"Description": "A giant tooth from an immense eel. It is wrapped in the hide of a mysterious creature to make it safe to wield.",
+  	"Type": "Sword",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 250,
+  	"Knockback": 1.0,
+  	"Speed": 10,
+  	"Accuracy": 100,
+  	"Defense": 250,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.50,
+  	"CritMultiplier": 4.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

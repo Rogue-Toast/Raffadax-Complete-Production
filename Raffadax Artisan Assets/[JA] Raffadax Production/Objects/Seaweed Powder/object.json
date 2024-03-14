@@ -1,0 +1,17 @@
+{
+    	"Name": "Seaweed Powder",
+  	"Description": "Dried seaweed that has been ground into a fine powder. It can be used as a seasoning, adding a briny, vegetal flavor to dishes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Seasoning",
+  	"Edibility": -300,
+ 	"Price": 120,
+  	"IsColored": false,
+	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Alex", "Caroline", "Claire", "Demetrius", "Gus", "Hephaestus", "Lewis", "Morgan", "Olivia", "Pierre", "Sebastian", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Andy", "Beatrice", "Clint", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Amanra", "Apples", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Vincent" ]
+		},
+}

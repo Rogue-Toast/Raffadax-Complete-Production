@@ -1,0 +1,49 @@
+{
+    	"Name": "Apple of Discord",
+    	"Description": "A divine apple that glows with a dark light. Strange golden letters glow upon the surface of this fruit, they appear to spell 'KALLISTI'. Despite the malevolent aura put forth by this fruit, it is one of the most highly coveted items in the world.",
+    	"Category": "Fruit",
+	"CategoryTextOverride": "Divine Fruit",
+    	"Edibility": -299,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -10,
+        	"MaxStamina": -10,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 20,
+        	"Defense": -10,
+
+        	"Duration": 120,
+		},
+    	"Price": 20000,
+    	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 1,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Hesperidium",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Abyssal Sand",
+            		"Count": 1,
+       	 		}
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Barghest",
+        	"PurchasePrice": 1000000,
+        	"PurchaseRequirements": [ "y 2" ],
+		},
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

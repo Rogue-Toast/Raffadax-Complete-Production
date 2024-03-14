@@ -1,0 +1,18 @@
+{
+	"Name": "Bay Leaf",
+  	"Description": "A pungeant leaf with a sharp, bitter taste. Bay leaves are often cooked whole in soups and sauces, then removed before serving.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Herb",
+  	"Edibility": 20,
+  	"Price": 35,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "Gus", "Jodi", "Olivia", "Susan" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Kent", "Marnie", "Mephisto", "Puck", "Sandy", "Shane", "Sheila", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Gregory", "Gunther", "Leah", "Lewis", "Linus", "Marlon", "Martin", "Maru", "Pam", "Pierre", "Robin", "Sebastian", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "George", "Krobus", "Penny", "Sam" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Morris", "Morgan", "Vincent" ]
+		},
+}

@@ -1,0 +1,15 @@
+{
+    	"Name": "Auric Powder",
+    	"Description": "A radiant golden dust that shines like the setting sun; it is made from the remains of a divine fruit. Auric dust is indistinguishable from actual gold, though this powder holds divine powers. Items dyed with this dust will be transmuted into real gold.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Dust",
+  	"Edibility": -300,
+  	"Price": 10000,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Clint", "Coyote", "Demetrius", "Dwarf", "Gregory", "Gunther", "Hekate", "Hephaestus", "Krobus", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

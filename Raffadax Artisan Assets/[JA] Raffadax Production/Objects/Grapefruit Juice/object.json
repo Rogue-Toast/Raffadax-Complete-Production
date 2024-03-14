@@ -1,0 +1,19 @@
+{
+	"Name": "Grapefruit Juice",
+    	"Description": "A bitter-sweet citrus juice made from grapefruit. It is used as a mixer in many classic cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 75,
+	"EdibleIsDrink": true,
+    	"Price": 565,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Gunther", "Gus", "Haley", "Jacob", "Leah", "Leo", "Lewis", "Linus", "Martin", "Sandy", "Sophia", "Victor", "Willy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Hekate", "Hephaestus", "Jodi", "Kent", "Marlon", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Susan", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Jas", "Krobus", "Marnie" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

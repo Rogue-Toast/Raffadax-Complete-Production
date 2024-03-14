@@ -1,0 +1,34 @@
+{
+	"Name": "Starlight Wine",
+	"Description": "A wine made from a wonderous dust produced by starberries. The liquid in this bottle shimmers and sparkles as though the lights of a thousand stars are contained within it. When poured into a glass, starlight wine appears completely opaque; gazing into it is like looking into a portal to the stars.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Arcane Wine",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 15,
+      		"Foraging": 0,
+        	"Mining": 15,
+
+        	"Luck": 15,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 15,
+
+        	"Duration": 120,
+		},
+	"Price": 15000,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

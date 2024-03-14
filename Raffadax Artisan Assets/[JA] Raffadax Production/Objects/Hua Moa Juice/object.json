@@ -1,0 +1,19 @@
+{
+  	"Name": "Hua Moa Juice",
+    	"Description": "A sweet juice made from hua moa bananas.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 175,
+	"EdibleIsDrink": true,
+    	"Price": 900,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Martin", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Lewis", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Krobus", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

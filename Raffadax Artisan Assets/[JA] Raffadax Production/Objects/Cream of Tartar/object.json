@@ -1,0 +1,17 @@
+{
+	"Name": "Cream of Tartar",
+  	"Description": "An acid salt which is a biproduct of winemaking. It has a variety of baking applications, and can be used to add volume and tenderness to cakes and cookies.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Baking Component",
+  	"Edibility": -300,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Evelyn", "Gus", "Olivia" ],
+		"Neutral": [ "Beatrice", "Emily", "Pierre", "Robin", "Susan" ],
+        	"Dislike": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morgan", "Morris", "Pam", "Penny", "Puck", "Sandy", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

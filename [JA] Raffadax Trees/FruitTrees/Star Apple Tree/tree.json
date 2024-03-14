@@ -1,0 +1,11 @@
+{
+	"Name": "Star Apple Tree",
+	"Product": "Star Apple",
+	"SaplingName": "Star Apple Sapling",
+	"SaplingDescription": "A tropical tree which produces purple sopote fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 4000,
+    	"SaplingPurchaseRequirements": [ "f Astrid 1500" ],
+	"DisableWithMod": "PlatonicsExoticTrees",
+}

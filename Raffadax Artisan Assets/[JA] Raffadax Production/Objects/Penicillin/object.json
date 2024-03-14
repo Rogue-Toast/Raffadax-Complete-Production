@@ -1,0 +1,17 @@
+{
+  	"Name": "Penicillin",
+    	"Description": "A medicinal compound made from a special type of fungus. It can be used to treat a wide variety of bacterial infections.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Extract",
+    	"Edibility": -300,
+    	"Price": 170,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Harvey", "Jacob" ],
+		"Like": [ "Alecto", "Hekate", "Marlon", "Maru", "Wizard" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hephaestus", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Xolotl" ],
+		},
+}

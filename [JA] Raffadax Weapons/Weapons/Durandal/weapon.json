@@ -1,0 +1,18 @@
+{
+  	"Name": "Durandal",
+  	"Description": "The indestructible sword of the hero Roland. In the right hands, this weapon can cleave entire mountains in half with a single swing.",
+  	"Type": "Sword",
+  	"MinimumDamage": 500,
+  	"MaximumDamage": 999,
+  	"Knockback": 5.0,
+  	"Speed": 1,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.10,
+  	"CritMultiplier": 10.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

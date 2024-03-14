@@ -1,0 +1,18 @@
+{
+    	"Name": "Apricot Kernel",
+    	"Description": "The pit from the center of an apricot. It is toxic to humans, but can be used to produce oils and specialty liqueur.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Pit",
+    	"Edibility": -300,
+  	"Price": 30,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Puck", "Shuck", "Xolotl" ],
+		"Like": [ "Beatrice", "Dwarf", "Elliott", "Evelyn", "Gus", "Hekate", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Emily", "George", "Gunther", "Emily", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Dislike": [ "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane",  "Vincent"]
+		},
+}

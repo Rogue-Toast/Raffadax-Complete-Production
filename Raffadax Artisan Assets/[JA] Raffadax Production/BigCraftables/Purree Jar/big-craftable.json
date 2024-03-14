@@ -1,0 +1,27 @@
+{
+	"Name": "Puree Jar",
+	"Description": "A food processor that produces butters, purees, nut butters, sauces and dips.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 7,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Black Bamboo",
+            		"Count": 25,
+        		},
+        		{
+            		"Object": 335,
+            		"Count": 2,
+        		},
+        		{
+            		"Object": "Lodestone",
+            		"Count": 2,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

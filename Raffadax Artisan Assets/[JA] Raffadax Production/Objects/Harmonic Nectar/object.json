@@ -1,0 +1,34 @@
+{
+	"Name": "Harmonic Nectar",
+	"Description": "A divine nectar made by distilling the honey of bees exposed to the Apple of Idunn. This nectar swirls with radiant gold and silver light.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Nectar",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 30,
+        	"Fishing": 30,
+      		"Foraging": 30,
+        	"Mining": 30,
+
+        	"Luck": 40,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 160700,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Claire", "Hekate", "Susan" ],
+		"Neutral": [ "Morgan", "Olivia", "Sebastian", "Sophia", "Victor" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Vincent" ]
+		},
+}

@@ -1,0 +1,15 @@
+{
+    	"Name": "Mahogany Seed Powder",
+  	"Description": "A fine powder made from ground, hulled mahogany seeds. Some take this powder as a medicinal and dietary aid, though overconsumption may be harmful to your health.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Powder",
+  	"Edibility": -300,
+ 	"Price": 300,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Like": [ "Harvey", "Hekate", "Maru", "Morgan", "Alecto", "Wizard" ], 
+        	"Dislike": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane",  "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

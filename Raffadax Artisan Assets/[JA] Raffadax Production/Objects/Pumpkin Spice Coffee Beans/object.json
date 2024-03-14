@@ -1,0 +1,17 @@
+{
+	"Name": "Pumpkin Spice Coffee Beans",
+  	"Description": "Coffee beans that have been infused with a specific spice blend. It makes a sweet, fragrant coffee beverage that is very popular around autumn.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Coffee Beans",
+  	"Edibility": -300,
+  	"Price": 1260,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Harvey" ],
+        	"Neutral": [ "Andy", "Abigail", "Alex", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Dislike": [ "Amanra", "Astrid", "Leo", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Vincent" ]
+		},
+}

@@ -1,0 +1,23 @@
+{
+	"Name": "White Asparagus",
+    	"Product": "White Asparagus",
+    	"SeedName": "White Asparagus Seeds",
+    	"SeedDescription": "Seeds for a bitter, white variety of asparagus that grows in conditions of reduced light. Takes 10 days to mature. Plant in the winter.",
+    	"Type": "Vegetable",
+    	"Seasons": ["winter"],
+    	"Phases": [ 1, 4, 4, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+    	"SeedPurchasePrice": 75,
+ 	"SeedPurchaseFrom": "Djinn",
+	"SeedPurchaseRequirements": [ "f Amanra 1500" ],
+}

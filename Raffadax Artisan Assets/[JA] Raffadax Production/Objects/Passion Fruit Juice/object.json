@@ -1,0 +1,19 @@
+{
+  	"Name": "Passion Fruit Juice",
+    	"Description": "A dark, flavorful juice made from passion fruit.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 75,
+	"EdibleIsDrink": true,
+    	"Price": 1125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Haley", "Leah", "Lewis", "Leo", "Martin", "Robin", "Sandy", "Sophia", "Victor", "Wednesday" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Shane", "Sheila", "Susan", "Vincent", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

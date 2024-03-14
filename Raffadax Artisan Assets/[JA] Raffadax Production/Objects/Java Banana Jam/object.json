@@ -1,0 +1,17 @@
+{
+	"Name": "Java Banana Jam",
+  	"Description": "A sweet, dessert-like jam⁬ made with pulp from blue Java bananas.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 125,
+  	"Price": 1900,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Jacob", "Jas", "Krobus", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Hekate", "Hephaestus", "Sebastian" ],
+		},
+}

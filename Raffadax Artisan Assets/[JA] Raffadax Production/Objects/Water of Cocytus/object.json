@@ -1,0 +1,35 @@
+{
+    	"Name": "Water of Cocytus",
+    	"Description": "A freezing cold water from one of the five rivers of Hades. Mortals who drink this water become overcome with lamentation, and will wail uncontrollably until falling unconscious from exhaustion.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Legendary Water",
+	"Edibility": -150,
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 5,
+        	"MaxStamina": 10,
+		"MagnetRadius": 10,
+        	"Speed": 2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 30300,
+	"IsColored": false,
+	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", ],
+		},
+}

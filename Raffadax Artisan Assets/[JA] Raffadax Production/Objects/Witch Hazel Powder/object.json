@@ -1,0 +1,20 @@
+{
+	"Name": "Witch Hazel Powder",
+  	"Description": "A fragrant yellow dust made from pulverised witch hazel flowers. It is traditionally used as a component in medicines and potions.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Dust",
+  	"Edibility": -300,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Harvey", "Hekate", "Maru", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Evelyn", "George" ], 
+		"Neutral": [ "Alex", "Haley", "Robin" ],
+        	"Dislike": [ "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Gregory", "Gunther", "Gus", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}
+
+

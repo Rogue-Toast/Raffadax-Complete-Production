@@ -1,0 +1,33 @@
+{
+  	"Name": "Icaro",
+  	"Description": "A fermented shamanistic beverage with extreme hallucinogenic effects. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Shamanistic Potion",
+  	"Edibility": -150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 75,
+        	"Fishing": 0,
+      		"Foraging": 75,
+        	"Mining": 0,
+
+        	"Luck": 100,
+        	"MaxStamina": -75,
+		"MagnetRadius": 25,
+        	"Speed": -75,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 37500,
+		},
+  	"Price": 80500,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Leo", "Mephisto", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail", "Morgan" ], 
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

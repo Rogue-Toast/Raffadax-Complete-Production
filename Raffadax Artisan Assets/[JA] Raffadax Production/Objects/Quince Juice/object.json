@@ -1,0 +1,19 @@
+{
+	"Name": "Quince Juice",
+	"Description": "A fragrant, sweet-tart juice made from quince. It has an  intense flavor; making this juice best suited for cooking and cocktail mixing, rather than drinking by the glass.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 30,
+	"EdibleIsDrink": true,
+    	"Price": 170,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Caroline", "Elliott", "Evelyn", "Gus", "Martin", "Olivia", "Pam", "Sandy", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Clint", "Claire", "Demetrius", "Dwarf", "Emily", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus", "Penny", "Morgan", "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Linus", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

@@ -1,0 +1,23 @@
+﻿{
+	"Name": "Wild Grape Vine",
+    	"Product": "Wild Grapes",
+    	"SeedName": "Wild Grape Starter",
+    	"SeedDescription": "A fast growing, trellised grape vine which produces tart, immature grapes and edible leaves. Takes 5 days to mature, then produces every three days after. Plant in spring or summer.",
+    	"Type": "Fruit",
+    	"Seasons": ["spring", "summer"],
+    	"Phases": [1, 1, 1, 1, 1],
+    	"RegrowthPhase": 3,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus":
+    		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+    	"SeedPurchasePrice": 5,
+	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": null,
+}

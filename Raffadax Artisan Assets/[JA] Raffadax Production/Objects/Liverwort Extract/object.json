@@ -1,0 +1,36 @@
+{
+  	"Name": "Liverwort Extract",
+  	"Description": "The extracted essence of liverwort. It seems this item has certain arcane uses.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Herb Extract",
+  	"Edibility": -30,
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming":0,
+        	"Fishing": 0,
+      		"Foraging": 2,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": -2,
+
+        	"Duration": 120,
+		},
+	"Price": 15,
+  	"IsColored": false,
+  	"Recipe": null,  	
+  	"GiftTastes": 
+		{
+		"Love": [ "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Demetrius", "Gunther", "Sebastian" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}
+

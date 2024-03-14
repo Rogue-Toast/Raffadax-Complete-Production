@@ -1,0 +1,37 @@
+{
+	"Name": "Bergamot Liqueur",
+    	"Description": "An amazingly fragrant citrus liqueur with floral undertones. It blends well in fruit cocktails and white wines. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Wine",
+	"Edibility": 135,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 15,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 1100,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Astrid", "Caroline", "Coyote", "Elliott", "Evelyn", "Gus", "Hekate", "Hephaestus", "Kent", "Lewis", "Mephisto", "Olivia", "Pam", "Puck", "Sam", "Shane", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Emily", "George", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Krobus", "Leah", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Robin", "Sandy", "Sophia", "Sheila" ],
+		"Neutral": [ "Susan" ],
+		"Dislike": [ "Victor", "Willy" ], 
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Leo", "Linus", "Martin", "Morgan", "Penny", "Sebastian", "Vincent", "Wednesday" ]	
+		},
+}

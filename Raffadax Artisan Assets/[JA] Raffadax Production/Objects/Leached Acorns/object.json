@@ -1,0 +1,16 @@
+{
+  	"Name": "Leached Acorns",
+  	"Description": "Acorns which have been cracked, and then soaked and drained repeatedly to remove harmful tannins. These acorns are safe for humans to eat, and can be processed into a variety of specialty goods.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nut",
+  	"Edibility": 5,
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Leo", "Linus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

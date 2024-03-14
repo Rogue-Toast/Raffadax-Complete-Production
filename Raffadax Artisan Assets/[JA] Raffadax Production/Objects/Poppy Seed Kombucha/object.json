@@ -1,0 +1,36 @@
+{
+    	"Name": "Poppy Seed Kombucha",
+    	"Description": "A lightly effervescent beverage made by fermenting poppy seed tea. This beverage has a soporific effect on those who drink it, and should not be served to children.",
+   	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Spice Kombucha",
+  	"Edibility": -10,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": -10,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 400,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Hekate", "Hephaestus", "Mephisto", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Dwarf", "Krobus", "Wednesday" ],  
+		"Neutral": [ "Abigail", "Beatrice", "Caroline", "Claire", "Clint", "Evelyn", "George", "Harvey", "Lewis", "Maru", "Sandy", "Susan" ],
+        	"Dislike": [ "Alex", "Apples", "Demetrius", "Elliott", "Emily", "Gregory", "Gunther", "Gus", "Jacob", "Jodi", "Kent", "Leah", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Leo", "Linus", "Morgan", "Sam", "Vincent" ]
+		},
+}

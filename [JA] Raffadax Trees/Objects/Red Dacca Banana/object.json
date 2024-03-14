@@ -1,0 +1,15 @@
+{
+	"Name": "Red Dacca Banana",
+  	"Description": "A banana with a bright red peel. Dacca bananas have a creamy texture and a sweet flavor reminiscent of raspberries.",
+  	"Category": "Fruit",
+  	"Edibility": 50,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Krobus", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Willy", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Sebastian", "Vincent" ],
+		},
+}

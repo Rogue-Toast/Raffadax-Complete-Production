@@ -1,0 +1,35 @@
+{
+	"Name": "Cintamani Champagne",
+	"Description": "A radiant sparkling wine made from cintamani flowers. The bubbles in this wine glow with an intense blue light.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Sparkling Wine",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 20,
+        	"Fishing": 20,
+      		"Foraging": 20,
+        	"Mining": 20,
+
+        	"Luck": 20,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 45000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Hephaestus", "Morgan" ],
+		"Dislike": [ "Wednesday" ],
+		"Hate": [ "Eloise", "Jas", "Krobus", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

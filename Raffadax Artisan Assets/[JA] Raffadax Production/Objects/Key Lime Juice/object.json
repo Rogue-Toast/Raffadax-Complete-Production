@@ -1,0 +1,19 @@
+{
+  	"Name": "Key Lime Juice",
+  	"Description": "An acidic lime juice that can be used to brighten up spicy dishes and desserts. It is also perfect for mixing cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 50,
+  	"EdibleIsDrink": true,
+  	"Price": 340,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Gus", "Haley", "Leo", "Martin", "Pam", "Sandy", "Shane" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Olivia", "Penny", "Pierre", "Robin", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Eloise", "Krobus", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Jas", "Sebastian" ]
+		},
+}

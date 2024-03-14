@@ -1,0 +1,16 @@
+{
+	"Name": "Cantaloupe",
+  	"Description": "A tannish melon with a web-like exterior and a pale orange interior. It has a sweet, juicy flavor and a slightly musky aftertaste.",
+  	"Category": "Fruit",
+  	"Edibility": 75,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Penny" ],
+        	"Like": [ "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Claire", "Coyote", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Martin", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Xolotl" ],
+		"Neutral": [ "Alex", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Lewis", "Marnie", "Maru", "Pierre", "Sam", "Sebastian", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Vincent" ]
+		},
+}

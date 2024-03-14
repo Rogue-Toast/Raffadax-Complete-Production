@@ -1,0 +1,19 @@
+{
+	"Name": "Cayenne Pepper Juice",
+  	"Description": "A moderately spicey chili juice made from cayenne peppers. It can be added to soups and chilis, or blended into cold juices or cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Juice",
+  	"Edibility": 35,
+  	"EdibleIsDrink": true,
+  	"Price": 35,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gus", "Lewis", "Olivia", "Shane" ],
+        	"Like": [ "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Hekate", "Hephaestus", "Jacob", "Krobus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Morris" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Sebastian", "Vincent" ]
+		},
+}

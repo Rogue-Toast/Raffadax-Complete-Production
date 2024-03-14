@@ -1,0 +1,37 @@
+{
+    	"Name": "Sylvan Powder",
+    	"Description": "A vibrant green dust made by pulverising enchanted plants from deep in the woods. This dust is said to have arcane properties known only to faeries and other denizens of the forest.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Dust",
+  	"Edibility": -300,
+  	"Price": 22500,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 1,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Fern Flower Dust",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Forest Rose Powder",
+            		"Count": 1,
+       	 		},
+        		{
+            		"Object": "Mandrake Powder",
+            		"Count": 1,
+       	 		},
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Pookah",
+        	"PurchasePrice": 500000,
+        	"PurchaseRequirements": [ "y 2" ],
+		},  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Coyote", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

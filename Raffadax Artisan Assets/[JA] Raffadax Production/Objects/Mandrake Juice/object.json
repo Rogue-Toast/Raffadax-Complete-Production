@@ -1,0 +1,33 @@
+{
+  	"Name": "Mandrake Juice",
+  	"Description": "A poisonous juice extracted from the roots of a magical plant. This liquid is poisonous to humans, and is primarily used for spellcraft.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Fruit Juice",
+  	"Edibility": -175,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 15,
+        	"MaxStamina": 15,
+		"MagnetRadius": 0,
+        	"Speed": -10,
+
+		"Attack": 15,
+        	"Defense": 15,
+
+        	"Duration": 120,
+		},
+  	"Price": 11250,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

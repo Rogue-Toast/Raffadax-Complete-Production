@@ -1,0 +1,18 @@
+{
+	"Name": "Mugwort Powder",
+  	"Description": "A bitter powder made from mugwort leaves. It is sometimes used as a medicinal and arcane component, but is also utilized as a cooking herb in some countries.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Powder",
+  	"Edibility": -300,
+  	"Price": 70,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Harvey", "Hekate", "Maru", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Beatrice", "Evelyn", "George", "Gus", "Olivia" ], 
+		"Neutral": [ "Alex", "Haley", "Robin" ],
+        	"Dislike": [ "Amanra", "Apples", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Gregory", "Gunther", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Mephisto", "Morris", "Pam", "Penny", "Pierre", "Puck", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+	"Name": "Chanterelle Powder",
+	"Description": "Chanterelle mushrooms that have been ground into a powder. It can be mixed with soups, sauces and gravies to add extra flavor without the addition of solids or texture.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mushroom Powder",
+  	"Edibility": -300,
+  	"Price": 260,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Olivia" ],
+		"Neutral": [ "Abigail", "Alex", "Beatrice", "Evelyn", "Harvey", "Hekate", "Jodi", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Sheila", "Sophia" ],
+        	"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Hephaestus", "Kent", "Leah", "Lewis", "Mephisto", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Shuck", "Susan", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "George", "Jacob", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		},
+}

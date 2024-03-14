@@ -1,0 +1,17 @@
+{
+	"Name": "Saffron",
+  	"Description": "A highly prized spice made from the stamens of certain crocus flowers. It adds an earthy, nuanced flavor and a vibrant yellow color to dishes.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Spice", 
+  	"Edibility": 0,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Dwarf", "Evelyn", "George", "Gus", "Marlon", "Mephisto", "Olivia", "Puck", "Shuck", "Susan", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+	"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ],
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

@@ -1,0 +1,33 @@
+{
+	"Name": "Nopal",
+  	"Description": "The edible pad of a cactus plant. It has a crunchy, slimy texture and a tart, citrusy taste.",
+  	"Category": "Vegetable",
+  	"Edibility": 25,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 1,
+
+        	"Duration": 90,
+		},
+  	"Price": 35,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+	"Like": [ "Alex", "Amanra", "Astrid", "Coyote", "Haley", "Harvey", "Hekate", "Hephaestus", "Leo", "Linus", "Marlon", "Maru", "Mephisto", "Morgan", "Olivia", "Puck", "Sandy", "Shuck", "Xolotl" ],
+	"Neutral": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Gregory", "Gunther", "Gus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Marnie", "Martin", "Morris", "Pam", "Pierre", "Robin", "Sam", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+	"Dislike": [ "Andy", "Penny" ],
+	"Hate": [  "Eloise", "Evelyn", "George", "Jas", "Vincent" ],
+		},
+}

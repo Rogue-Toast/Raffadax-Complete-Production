@@ -1,0 +1,19 @@
+{
+  	"Name": "Mandarin Orange Juice",
+  	"Description": "A sweet, dark orange juice made from mandarines. Its natural sweetness makes it great for mimosas.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 60,
+  	"EdibleIsDrink": true,
+  	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Gunther", "Gus", "Haley", "Jacob", "Leah", "Lewis", "Linus", "Martin", "Sandy", "Sophia", "Victor" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Hekate", "Hephaestus", "Jas", "Jodi", "Kent", "Leo", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Susan", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+	"Name": "Wolfsbane Honey Jelly",
+	"Description": "A sweet jelly made from wolfsbane honey. It is toxic to humans, but seems to be well liked by shape-shifters.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Honey Jelly",
+	"Edibility": -125,
+	"Price": 370,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Hekate", "Hephaestus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

@@ -1,0 +1,37 @@
+{
+  	"Name": "Wine of Bacchus",
+  	"Description": "A gleaming, silver libation favored by the God of Wine. This wine is so intoxicating that it even effects deities and divine beasts. Humans who drink too much of this wine can be driven to insanity.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Divine Libation",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 100,
+        	"Fishing": 0,
+      		"Foraging": 100,
+        	"Mining": 0,
+
+        	"Luck": 100,
+        	"MaxStamina": -50,
+		"MagnetRadius": 25,
+        	"Speed": -10,
+
+		"Attack": 100,
+        	"Defense": 0,
+
+        	"Duration": 1440,
+		},
+	"Price": 1000000,
+  	"IsColored": false,
+  	"Recipe": null,
+	"Price": 1000000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

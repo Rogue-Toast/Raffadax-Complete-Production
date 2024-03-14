@@ -1,0 +1,18 @@
+{
+	"Name": "Jabuticaba Jam",
+  	"Description": "A dark purple jam made with pulp from jabuticaba fruit. It has a flavor similar to grape candy.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 100,
+  	"Price": 1900,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gunther", "Gus", "Haley", "Jacob", "Leah", "Lewis", "Leo", "Sophia", "Victor" ],
+        	"Like": [ "Alex", "Abigail", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Susan", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Dwarf" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

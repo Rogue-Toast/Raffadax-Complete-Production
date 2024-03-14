@@ -1,0 +1,36 @@
+{
+	"Name": "Blackthorn Brandy",
+	"Description": "A dark blue wine made by distilling blackthorn wine. The natural tartness of the sloe plums resonates well in this brandy. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Brandy",
+	"Edibility": 75,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 8,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 600,
+	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Gus", "Harvey", "Hekate", "Kent", "Krobus", "Leah", "Linus", "Mephisto", "Puck", "Sebastian", "Shane", "Shuck", "Wednesday", "Xolotl" ],
+        	"Like": [ "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Hephaestus", "Jodi", "Lewis", "Marlon", "Marnie", "Maru", "Olivia", "Pam", "Pierre", "Robin", "Sandy", "Sheila", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Dislike": [ "Abigail", "Haley", "Jacob", "Morris" ], 
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sam", "Vincent" ]	
+		},
+}

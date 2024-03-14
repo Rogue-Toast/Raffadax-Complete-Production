@@ -1,0 +1,17 @@
+{
+	"Name": "Dried Mosshroom",
+  	"Description": "A mosshroom that has been dried for preservation.  It will rehydrate when cooked into potions and culinary dishes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Mushroom",
+  	"Edibility": -300,
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Dwarf", "Hekate", "Hephaestus", "Morgan", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Gus", "Harvey", "Krobus", "Leah", "Linus", "Mephisto", "Olivia", "Puck", "Shuck", "Wednesday", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Jacob", "Kent", "Lewis", "Marlon", "Marnie", "Martin", "Morris", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Caroline", "Elliott", "Eloise", "Haley", "Jas", "Jodi", "Leo", "Maru", "Pierre", "Sam", "Sebastian", "Shane", "Vincent", "Willy" ]
+		},
+}

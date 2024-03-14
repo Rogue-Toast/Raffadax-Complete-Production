@@ -1,0 +1,15 @@
+{
+	"Name": "Mandarin Orange",
+  	"Description": "A juicy, easily peeled variant of orange; they are generally smaller and sweeter than other oranges. Tangerines, clementines and satsumas are all variants of mandarin orange.",
+  	"Category": "Fruit",
+  	"Edibility": 35,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gunther", "Gus", "Haley", "Jacob", "Leah", "Lewis", "Linus", "Sophia", "Victor" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Hekate", "Hephaestus", "Jas", "Jodi", "Kent", "Krobus", "Leo", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Susan", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Dwarf" ]
+		},
+}

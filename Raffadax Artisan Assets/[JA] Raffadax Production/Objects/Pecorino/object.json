@@ -1,0 +1,18 @@
+{
+    	"Name": "Pecorino",
+    	"Description": "A hard white cheese made from sheep's milk. It has a slightly tangy flavor, and gains a sharpness as it ages.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Cheese",
+    	"Edibility": 100,
+    	"Price": 650,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Elliott", "Gregory", "Gus", "Marnie", "Morris", "Olivia" ], 
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Martin", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Victor", "Xolotl" ], 
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Jas", "Sebastian", "Vincent" ],
+		},
+}

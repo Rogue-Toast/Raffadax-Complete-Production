@@ -1,0 +1,19 @@
+{
+	"Name": "Ambergris",
+	"Description": "A peculiar waxy substance regurgitated by a whale. It is prized as a component in highly valuable colognes and perfumes.",
+	"Category": "-23",
+  	"CategoryTextOverride": "Beach Forage",
+	"Edibility": "-300",
+	"EdibleIsDrink": "false",
+	"EdibleBuffs": null,
+	"Price": "5000",
+	"IsColored": "false",
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gunther", "Hekate", "Morgan", "Alecto", "Wizard" ], 
+		"Like": [ "Willy" ], 
+		"Neutral": [ "Dwarf", "Krobus", "Hephaestus" ],
+        	"Dislike": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Marlon", "Maru", "Mephisto", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Xolotl" ],
+		"Hate": [ "Andy",  "Morris", "Olivia" ],
+		},
+}

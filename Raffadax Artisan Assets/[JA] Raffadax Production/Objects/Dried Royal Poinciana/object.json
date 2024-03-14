@@ -1,0 +1,17 @@
+{
+  	"Name": "Dried Royal Poinciana",
+  	"Description": "A poinciana flower that has been dried for preservation. It can be used to make potpourris, but it is poisonous to humans and animals. It seems some demi-humans enjoy brewing this flower into a tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Flower",
+  	"Edibility": -300,
+  	"Price": 550,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Evelyn", "Sandy" ], 
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Sebastian", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

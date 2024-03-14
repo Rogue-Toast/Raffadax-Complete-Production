@@ -1,0 +1,15 @@
+{
+    	"Name": "Rennet",
+    	"Description": "A complex set of enzymes harvested from the stomachs of ruminant animals. It is used to curdle and harden milk during cheesemaking.",
+    	"Category": "Crafting",
+	"CategoryTextOverride": "Enzyme",
+    	"Edibility": -300,
+    	"EdibleIsDrink": false,
+    	"Price": 75,
+    	"Recipe": null,
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+        	"Hate": [ "Abigail", "Alecto", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Wizard", "Xolotl" ],
+		},
+}

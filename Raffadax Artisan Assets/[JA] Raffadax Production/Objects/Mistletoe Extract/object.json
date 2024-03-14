@@ -1,0 +1,36 @@
+{
+	"Name": "Mistletoe Extract",
+  	"Description": "The extracted essence of mistletoe berries. It is primarily used as a component in magical brews, though skilled apothecarists can make medicines using this toxic liquid.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Berry Extract",
+  	"Edibility": -75,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 11,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": -6,
+
+        	"Duration": 120,
+		},
+  	"Price": 135,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Harvey", "Hekate", "Maru", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Evelyn", "George" ], 
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Coyote", "Haley", "Mephisto", "Robin", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Gregory", "Gunther", "Gus", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

@@ -1,0 +1,34 @@
+{
+	"Name": "Waldmeister Kombucha",
+  	"Description": "A lightly effervescent beverage made by fermenting woodruff flower tea. Drink in moderation.",
+ 	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Floral Kombucha",
+  	"Edibility": 75,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 10,
+        	"Mining": 0,
+
+        	"Luck": 12,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 1200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Evelyn", "Haley", "Hekate", "Lewis", "Mephisto", "Puck", "Sandy", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Apples", "Beatrice", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Martin", "Maru", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Marlon", "Morgan", "Morris", "Sebastian", "Vincent", "Wednesday", "Willy" ]
+		},
+}

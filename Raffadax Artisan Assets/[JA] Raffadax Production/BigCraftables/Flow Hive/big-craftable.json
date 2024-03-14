@@ -1,0 +1,27 @@
+{
+	"Name": "Flow Hive",
+	"Description": "A self contained bee hive. The bees in this hive will only produce excess honey when fresh flowers are placed in the feeding hopper. These hives will work indoors, and will produce consistently all year round if fed regularly. Honey collected from flow hives has such a concentrated flavor of the added flowers, that it can be used to produce uniquely flavored meads, nectars and jellies.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": 709,
+            		"Count": 25,
+        		},
+        		{
+            		"Object": "Glass Pane",
+            		"Count": 2,
+        		},
+        		{
+            		"Object": "Beeswax",
+            		"Count": 5,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

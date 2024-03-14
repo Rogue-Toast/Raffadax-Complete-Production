@@ -1,0 +1,17 @@
+{
+  	"Name": "Foxy Lady",
+  	"Description": "A perfume made from the extract of foxglove flowers. It's aroma is not fantastic, but it seems popular with magical creatures.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Perfume",
+  	"Edibility": -300,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Hekate" ],
+		"Neutral": [ "Dwarf", "Hephaestus", "Krobus", "Sebastian", "Wednesday" ],
+		"Dislike": [ "Evelyn", "Marnie", "Susan" ],
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Elliott", "Eloise", "Emily", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Vincent", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

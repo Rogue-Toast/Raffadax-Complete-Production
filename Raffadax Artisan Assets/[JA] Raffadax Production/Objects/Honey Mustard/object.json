@@ -1,0 +1,18 @@
+{
+  	"Name": "Honey Mustard",
+  	"Description": "A sweet variant of mustard made with honey. It is used as both a sandwich topping and a dipping sauce.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Condiment",
+  	"Edibility": 50,
+	"EdibleIsDrink": true,
+  	"Price": 440,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline",  "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Haley", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

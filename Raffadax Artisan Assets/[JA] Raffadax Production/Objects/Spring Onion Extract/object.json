@@ -1,0 +1,19 @@
+{
+	"Name": "Spring Onion Extract",
+  	"Description": "The extracted essence of spring onions. It has been distilled into a flavoring agent and aromatic.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flavor Extract",
+  	"Edibility": 35,
+    	"EdibleIsDrink": true,
+  	"Price": 90,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "Gus", "Olivia" ],
+		"Like": [ "Beatrice", "Emily", "Hekate", "Pierre", "Susan", "Alecto", "Wizard" ],
+        	"Neutral": [ "Alex", "Abigail", "Apples", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday" ],
+		"Dislike": [ "Amanra", "Astrid", "Claire", "Coyote", "Krobus", "Mephisto", "Pam", "Penny", "Puck", "Shuck", "Willy", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

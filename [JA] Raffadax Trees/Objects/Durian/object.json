@@ -1,0 +1,18 @@
+{
+	"Name": "Durian",
+  	"Description": "A large spiny fruit infamous for its pungent aroma. It has a creamy texture and a savory-sweet flavor.",
+  	"Category": "Fruit",
+  	"Edibility": 40,
+  	"Price": 400,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Krobus", "Leo", "Linus", "Morgan", "Sebastian", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Andy", "Astrid", "Coyote", "Eloise", "Jas", "Marnie", "Martin", "Mephisto", "Puck", "Shane", "Sheila", "Shuck", "Sophia", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Caroline", "Clint", "Emily", "Gregory", "Harvey", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Pam", "Pierre", "Robin", "Sandy", "Victor", "Willy" ],
+		"Dislike": [ "Alex", "Beatrice", "Elliott", "George", "Claire", "Jodi" ],
+		"Hate": [  "Apples", "Evelyn", "Gus", "Haley", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Susan" ],
+		},
+	"DisableWithMod": "ppja.moretrees",
+}

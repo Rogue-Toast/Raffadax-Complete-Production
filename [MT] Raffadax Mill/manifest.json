@@ -1,0 +1,19 @@
+{
+    "Name": "[MT] Raffadax Mill",
+    "Author": "Raffadax",
+    "Version": "4.3",
+    "Description": "Allows use of mill for Raffadax items.",
+    "UniqueID": "MT.Raffadax",
+    "ContentPackFor": 
+		{
+        	"UniqueID": "Satozaki.MillerTime"
+    		},
+    "Dependencies": 
+		[
+        	{
+            "UniqueID": "Raffadax.Complete.Production",
+            "IsRequired": false
+        	}
+    		]	
+
+}

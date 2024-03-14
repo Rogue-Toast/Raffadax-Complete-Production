@@ -1,0 +1,18 @@
+{
+    	"Name": "Mango Jelly",
+    	"Description": "A bright, tropical jelly made from mangoes.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jelly",
+  	"Edibility": 75,
+  	"Price": 310,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Leo" ],
+        	"Like": [ "Andy", "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Martin", "Morgan", "Morris", "Olivia", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Lewis", "Marnie", "Maru", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

@@ -1,0 +1,36 @@
+{
+  	"Name": "Baobab Butter",
+  	"Description": "Baobab fruit that has been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 5,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 1500,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Dwarf", "Elliott", "Gus", "Gunther", "Kent", "Leo", "Penny", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Eloise", "Emily", "Evelyn", "Gregory", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Martin", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sebastian", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Martin", "Sam", "Shane", "Victor" ],
+		"Hate": [ "Andy", "George", "Haley", "Eloise", "Jas", "Linus", "Morgan", "Vincent" ]		
+		},
+}

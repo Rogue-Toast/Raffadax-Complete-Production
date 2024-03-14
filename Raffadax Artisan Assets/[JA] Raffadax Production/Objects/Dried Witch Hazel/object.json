@@ -1,0 +1,19 @@
+{
+	"Name": "Dried Witch Hazel",
+  	"Description": "A witch hazel flower that has been dried for preservation. It can be used to make medicinal powders or brewed into a fragrant tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Flower",
+  	"Edibility": -300,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gunther", "Harvey", "Hekate", "Maru", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Beatrice", "Elliott", "Evelyn", "Linus", "Pam", "Penny", "Sam", "Sandy", "Sheila" ], 
+		"Neutral": [ "Gus", "Jodi", "Leah", "Lewis", "Marnie", "Robin", "Shane", "Sophia" ],
+        	"Dislike": [ "Alex", "Amanra", "Andy", "Apples", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Gregory", "Kent", "Leo", "Mephisto", "Olivia", "Pierre", "Puck", "Shuck", "Susan", "Willy", "Xolotl" ],
+		"Hate": [ "George", "Haley", "Hephaestus", "Jas", "Jacob", "Krobus", "Marlon", "Martin", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		},
+}
+

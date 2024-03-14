@@ -1,0 +1,18 @@
+{
+  	"Name": "Phoenix Pinion",
+  	"Description": "A giant flight feather from a massive fire bird. It glows brightly and emits an intense heat.",
+  	"Type": "Sword",
+  	"MinimumDamage": 150,
+  	"MaximumDamage": 250,
+  	"Knockback": 1.0,
+  	"Speed": 5,
+  	"Accuracy": 100,
+  	"Defense": 150,
+	"ExtraSwingArea": 1,
+  	"CritChance": .25,
+  	"CritMultiplier": 2.5,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

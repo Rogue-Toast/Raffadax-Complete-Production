@@ -1,0 +1,35 @@
+{
+	"Name": "Breidablik Mead",
+	"Description": "A radiant, shining mead that was first brewed in the halls of Asgard.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Fortified Mead",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 30,
+        	"MaxStamina": 30,
+		"MagnetRadius": 0,
+        	"Speed": 15,
+
+		"Attack": 30,
+        	"Defense": 30,
+
+        	"Duration": 240,
+		},
+	"Price": 120600,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Claire", "Hekate", "Hephaestus", "Susan" ],
+		"Neutral": [ "Morgan", "Olivia", "Sophia", "Victor" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Krobus", "Martin", "Penny", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

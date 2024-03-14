@@ -1,0 +1,33 @@
+{
+  	"Name": "Nutmeg ",
+  	"Description": "The fragrant seed of a myristica fruit, known commonly as nutmeg. It has a warm, nutty flavor and pairs well with both sweet and savory dishes. This spice is popular in beverages and desserts around the winter holiday season.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Spice",
+  	"Edibility": 55,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 3,
+        	"MaxStamina": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 60,
+		},
+ 	"Price": 200,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Elliott", "Evelyn", "Gus", "Hekate", "Olivia", "Pierre", "Sandy", "Susan" ],
+		"Like": [ "Amanra", "Emily", "George", "Puck", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Gunther", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Dislike": [ "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane",  "Vincent"]
+		},
+}

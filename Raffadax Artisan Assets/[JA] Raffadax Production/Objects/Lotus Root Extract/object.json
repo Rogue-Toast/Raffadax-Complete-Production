@@ -1,0 +1,35 @@
+{
+	"Name": "Lotus Root Extract",
+  	"Description": "The extracted essence of lotus root. It has been distilled into a flavoring agent and aromatic. It also has medicinal properties, and can be used to craft healing tonics.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herbal Extract",
+  	"Edibility": 175,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 7,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Evelyn", "Gus", "Harvey", "Hekate", "Marlon", "Maru", "Morgan", "Olivia", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Emily", "Mephisto", "Pierre", "Puck", "Shuck", "Susan", "Xolotl" ],
+        	"Neutral": [ "Alex", "Abigail", "Apples", "Caroline", "Clint", "Demetrius", "Elliott", "George", "Gunther", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday" ],
+		"Dislike": [ "Claire", "Krobus", "Pam", "Penny", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

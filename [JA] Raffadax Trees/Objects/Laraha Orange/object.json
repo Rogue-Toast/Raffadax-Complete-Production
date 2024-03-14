@@ -1,0 +1,17 @@
+{
+	"Name": "Laraha Orange",
+    	"Description": "A fibrous orange that is too bitter to be considered edible without processing. The fruit can range from green to orange, and is used to produce specialty liquors.",
+  	"Category": "Fruit",
+    	"Edibility": 5,
+    	"Price": 175,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Krobus" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Gus", "Hephaestus", "Mephisto", "Puck", "Shuck", "Wednesday", "Xolotl" ],
+		"Neutral": [ "Hekate", "Morgan", "Olivia", "Sebastian", "Willy", "Alecto", "Wizard" ],
+        	"Dislike": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Linus", "Vincent" ]
+		},
+}

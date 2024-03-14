@@ -1,0 +1,18 @@
+{
+  	"Name": "Zephyros",
+  	"Description": "The divine fan with which the god of the west wind directs the weather. It is capable of comanding the strength and direction of the winds.",
+  	"Type": "Club",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 500,
+  	"Knockback": 5,
+  	"Speed": 5,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 5,
+  	"CritChance": 0.5,
+  	"CritMultiplier": 4.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

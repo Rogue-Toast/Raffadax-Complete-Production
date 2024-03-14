@@ -1,0 +1,17 @@
+{
+  	"Name": "Tulikko Fur",
+  	"Description": "The radiant fur from the tail of a fire fox. They glisten with the shining light of the aurora.",
+  	"Category": "-18",
+  	"CategoryTextOverride": "Mythic Forage",
+  	"Edibility": -300,
+  	"Price": 10000,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Mephisto", "Morgan", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Demetrius", "Gunther" ],
+		"Dislike": [ "Krobus", "Hephaestus" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

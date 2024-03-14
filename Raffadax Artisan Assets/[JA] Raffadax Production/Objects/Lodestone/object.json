@@ -1,0 +1,17 @@
+{
+  	"Name": "Lodestone",
+  	"Description": "A mysterious stone which naturally produces a magnetic field.",
+  	"Category": "-16",
+  	"CategoryTextOverride": "Resource",
+  	"Edibility": -300,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alecto", "Demetrius", "Maru", "Morgan", "Wizard" ],
+		"Like": [ "Clint", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Robin" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+		},
+}

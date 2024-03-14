@@ -1,0 +1,17 @@
+{
+  	"Name": "Chicory Jelly",
+  	"Description": "A pleasantly bitter jelly made from chicory root. It works well as a filling for cookies and cakes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herb Jelly",
+  	"Edibility": 35,
+  	"Price": 80,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Haley", "Harvey", "Martin", "Olivia", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Gregory", "Gunther", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pierre", "Pam", "Puck", "Robin", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "George", "Penny", "Sam" ],
+		"Hate": [ "Andy", "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Morgan", "Morris", "Sebastian", "Vincent" ]
+		},
+}

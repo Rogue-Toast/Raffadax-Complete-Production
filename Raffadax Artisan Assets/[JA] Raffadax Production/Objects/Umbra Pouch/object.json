@@ -1,0 +1,33 @@
+{
+    	"Name": "Umbra Pouch",
+    	"Description": "A pouch that infuses tea leaves with shade. Gyokuro tea leaves can be produced by loading these pouches stuffed with tea leaves into the oxidizer.",
+    	"Category": "Crafting",
+	"CategoryTextOverride": "Production Tool",
+    	"Edibility": -300,
+    	"EdibleIsDrink": false,
+    	"Price": 5,
+    	"Recipe":
+    		{
+        	"ResultCount": 10,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Void Essence",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Hemp Paper",
+            		"Count": 1,
+       	 		}
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Azeban",
+	       	"PurchasePrice": 500,
+		},
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Neutral": [ "Caroline" ],
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

@@ -1,0 +1,23 @@
+{
+	"Name": "Mandragora Plant",
+	"Product": "Mandrake",
+	"SeedName": "Mandrake Seeds",
+	"SeedDescription": "Seeds for an arcane plant with a humanoid root with potent magical properties, as well as toxic flowers which are known to be hallucinogenic. Takes 27 days to mature. Plant in the fall.",
+    	"Type": "Vegetable",
+    	"Seasons": ["fall"],
+    	"Phases": [ 5, 5, 8, 8, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 50,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 3000,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": [ "f Shuck 2500" ],
+}

@@ -1,0 +1,24 @@
+{
+	"Name": "Anemushroom",
+	"Product": "Anemushroom",
+	"SeedName": "Anemushroom Starter",
+	"SeedDescription": "Spores for a strange variety of beach mushroom. Takes 7 days to mature. Plant in the summer.",
+    	"Type": "Greens",
+    	"Seasons": ["summer"],
+    	"Phases": [ 1, 2, 3, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+	"CropType": "Paddy",
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 75,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": [ "f Astrid 2500" ]
+}

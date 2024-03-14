@@ -1,0 +1,11 @@
+{
+	"Name": "Raffadax Crops",
+   	"Author": "Raffadax",
+   	"Description": "Adds a variety of crops. Requires Json Assets.",
+   	"UniqueID": "Raffadax.Crops",
+   	"Version": "4.3",
+   	"ContentPackFor": 
+		{
+      		"UniqueID": "spacechase0.JsonAssets"
+    		},
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Hibiscus Bush",
+	"Product": "Hibiscus",
+	"SaplingName": "Hibiscus Sapling",
+	"SaplingDescription": "An ornamental shrub which produces striking magenta flowers. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Flowers in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 14000,
+    	"SaplingPurchaseRequirements": [ "f Astrid 1500" ],
+	"DisableWithMod": "kildarien.farmertoflorist",
+}

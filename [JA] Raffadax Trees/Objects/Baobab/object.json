@@ -1,0 +1,33 @@
+{
+  	"Name": "Baobab",
+  	"Description": "A large pod with a velvety husk that grew on a massive tree. The innards of this fruit have a tart, citrusy flavor, and have the consistency of a gritty pear.",
+  	"Category": "Fruit",
+  	"Edibility": 75,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 3,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 3,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 750,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Alex", "Amanra", "Astrid", "Coyote", "Demetrius", "Dwarf", "Elliott", "Gunther", "Kent", "Leo", "Mephisto", "Penny", "Puck", "Sandy", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Eloise", "Emily", "Evelyn", "Gregory", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Martin", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sebastian", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Martin", "Sam", "Shane", "Victor" ],
+		"Hate": [ "Andy", "George", "Haley", "Eloise", "Jas", "Linus", "Morgan", "Vincent" ]		
+		},
+}

@@ -1,0 +1,39 @@
+{
+	"Name": "Void Ice Cream",
+  	"Description": "A vile ice cream made with ingredients unfit for human consumption.",
+  	"Category": -7,
+  	"CategoryTextOverride": "Ice Cream",
+  	"Edibility": -100,
+  	"Price": 750,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 1,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Void Milk",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Sugar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Bat Wing",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		}, 
+	"CanPurchase": false,
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alecto", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Wednesday" ],
+		"Like": [ "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Morgan", "Puck", "Sebastian", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}
+

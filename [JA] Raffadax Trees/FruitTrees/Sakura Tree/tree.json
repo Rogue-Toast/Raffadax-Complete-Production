@@ -1,0 +1,10 @@
+{
+	"Name": "Sakura Tree",
+	"Product": "Sakura",
+	"SaplingName": "Sakura Sapling",
+	"SaplingDescription": "An ornamental tree which produces fragrant pink cherry blossoms. This tree has many religious and cultural associations, and is used as a flavoring agent in many desserts and confections. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Flowers in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 6000,
+    	"SaplingPurchaseRequirements": [ "f Astrid 2000" ],
+}

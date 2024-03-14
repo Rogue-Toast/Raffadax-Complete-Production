@@ -1,0 +1,17 @@
+{
+  	"Name": "Silver Bar",
+  	"Description": "A solid bar of shining silver.",
+  	"Category": "ArtisanGoods",
+  	"Edibility": -300,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Clint", "Maru" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Krobus", "Mephisto", "Puck", "Shuck", "Willy", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Hate": [ "Sam" ]
+		},
+	"DisableWithMod": "KAYA.JAMoreGem",
+}

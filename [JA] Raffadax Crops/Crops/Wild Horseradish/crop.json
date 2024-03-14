@@ -1,0 +1,24 @@
+{
+	"Name": "Wild Horseradish",
+	"Product": "Wild Horseradish",
+	"SeedName": "Horseradish Seeds",
+	"SeedDescription": "Seeds for a wild root vegetable commonly used as a flavoring component. Takes 10 days to mature. Plant in the spring.",
+    	"Type": "Vegetable",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 2, 3, 3, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 30,
+	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": ["f Coyote 1000"],
+	"DisableWithMod": "Mae.foragetofarm",
+}

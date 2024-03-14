@@ -1,0 +1,10 @@
+{
+	"Name": "Jacaranda Tree",
+	"Product": "Jacaranda",
+	"SaplingName": "Jacaranda Sapling",
+	"SaplingDescription": "An ornamental tree with fern-like leaves which produces beautiful purple flowers. Takes 28 days to mature. All parts of this tree are toxic to humans and animals. Only grows if the 8 surrounding tiles are empty. Flowers in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 20000,
+    	"SaplingPurchaseRequirements": [ "f Shuck 2000" ],
+}

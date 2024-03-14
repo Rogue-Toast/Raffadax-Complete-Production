@@ -1,0 +1,11 @@
+{
+	"Name": "Cacao Tree",
+	"Product": "Cacao Pod",
+	"SaplingName": "Cacao Sapling",
+	"SaplingDescription": "A jungle tree which produces pods used for chocolate production. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Nagual",
+    	"SaplingPurchasePrice": 16000,
+    	"SaplingPurchaseRequirements": [ "f Xolotl 1500" ],
+	"DisableWithMod": "callysquared.marshmallows",
+}

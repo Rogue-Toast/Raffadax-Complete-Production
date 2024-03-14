@@ -1,0 +1,21 @@
+{
+    	"Name": "Brazil Nut Oil",
+    	"Description": "A smooth, buttery oil made from Brazil nuts. It can be used to flavor baked goods, or blended into dressings and sauces.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Oil",
+    	"Edibility": -300,
+    	"Price": 600,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Olivia" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Leo", "Morgan", "Sebastian", "Vincent" ]
+		},
+	"ContextTags": 
+        	[
+        	"oil_item"
+        	],
+}

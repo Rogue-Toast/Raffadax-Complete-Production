@@ -1,0 +1,36 @@
+{
+    	"Name": "Pisco",
+    	"Description": "A strong brandy made from grapes. It has smooth, herbal, earthy flavor. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Spirit",
+  	"Edibility": 200,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 420,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Leah", "Mephisto", "Olivia", "Puck", "Shane", "Shuck", "Xolotl" ],
+        	"Like": [ "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Gregory", "Gunther", "Hephaestus", "Jacob", "Jodi", "Kent", "Linus", "Marlon", "Morris", "Pam", "Robin", "Sandy", "Sheila", "Wednesday" ],
+		"Neutral": [ "Alex", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Lewis", "Marnie", "Maru", "Pierre", "Sam", "Sophia", "Susan", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Haley", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ] 
+		},
+}

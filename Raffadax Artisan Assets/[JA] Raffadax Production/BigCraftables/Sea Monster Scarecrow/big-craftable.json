@@ -1,0 +1,33 @@
+{
+    "Name": "Sea Monster Scarecrow",
+    "Description": "A scarecrow fashioned after a sea monster. It seems crows have a natural fear of this creature. Placing this totem too near the sea may attract bathic creatures.",
+    "Price": 5000,
+    "ProvidesLight": true,
+    "Recipe": 
+		{
+    		"ResultCount": 1,
+    		"Ingredients": 
+			[
+      		{
+        		"Object": "Scale Cloth",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Leviathan Scale",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Dragon's Breath",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Sandalwood",
+        		"Count": 50
+      		},
+    			],
+    "CanPurchase": true,
+    "PurchaseFrom": "Pookah",
+    "PurchasePrice": 5000
+  		},
+    "CanPurchase": false,
+}

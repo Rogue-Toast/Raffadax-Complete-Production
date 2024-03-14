@@ -1,0 +1,17 @@
+{
+  	"Name": "Shards of Bifrost",
+  	"Description": "Petals from the divine flowers that grow on the World Tree; they have taken on the appearance of broken shards from a mirror. Each fragment radiates with spectral light so bright it is difficult to look at.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Flower Petals",
+  	"Edibility": -300,
+  	"Price": 15000,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Coyote", "Demetrius", "Dwarf", "Gunther", "Hekate", "Marlon", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		"Dislike": [ "Hephaestus" ],
+		"Hate" : [ "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

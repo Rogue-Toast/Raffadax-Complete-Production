@@ -1,0 +1,18 @@
+{
+  	"Name": "Dried Fairy Rose",
+  	"Description": "A fairy rose that has been dried for preservation. It can be brewed into a tea or used as a component in potpourris.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Flower",
+  	"Edibility": -300,
+  	"Price": 340,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gunther" ],
+		"Like": [ "Abigail", "Beatrice", "Elliott", "Evelyn", "Linus", "Pam", "Penny", "Sam", "Sandy", "Sheila", "Sophia" ], 
+		"Neutral": [ "Gus", "Harvey", "Hekate", "Jodi", "Leah", "Lewis", "Marnie", "Maru", "Morgan", "Robin", "Shane", "Alecto", "Wizard" ],
+        	"Dislike": [ "Alex", "Amanra", "Andy", "Apples", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Gregory", "Kent", "Leo", "Mephisto", "Olivia", "Pierre", "Puck", "Shuck", "Susan", "Willy", "Xolotl" ],
+		"Hate": [ "George", "Haley", "Hephaestus", "Jas", "Jacob", "Krobus", "Marlon", "Martin", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		},
+}

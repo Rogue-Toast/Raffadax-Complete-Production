@@ -1,0 +1,17 @@
+{
+	"Name": "Dried Woodruff",
+  	"Description": "Woodruff leaves that have been dried for preservation. They can be used as a flavoring agent, or brewed into a sweet and flavorful tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Herb",
+  	"Edibility": -300,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Apples", "Beatrice", "Evelyn", "Gus", "Hekate", "Hephaestus", "Morgan", "Olivia", "Pierre", "Susan", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Amanra", "Andy", "Astrid", "Claire", "Coyote", "Mephisto", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

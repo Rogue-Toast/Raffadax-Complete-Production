@@ -1,0 +1,17 @@
+{
+  	"Name": "Dried Jungle Moss",
+  	"Description": "A dessicated patch of jungle moss. It has lost much of its nutritional value, but can be brewed into an herbal rainforest tea.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Dried Mythic Herb",
+  	"Edibility": -300,
+  	"Price": 5050,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hephaestus", "Krobus", "Maru", "Mephisto", "Puck", "Shuck", "Wednesday", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Willy" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Vincent" ]
+		},
+}

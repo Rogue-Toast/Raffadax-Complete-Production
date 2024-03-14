@@ -1,0 +1,36 @@
+{
+  	"Name": "Frenzy Kombucha",
+  	"Description": "A lightly effervescent beverage made by fermenting berserker mushrooms. This beverage throws those who drink it into a blood-hungry rage.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Mushroom Kombucha",
+  	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 0,
+        	"Mining": 2,
+
+        	"Luck": 0,
+        	"MaxStamina": 50,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 50,
+        	"Defense": 50,
+
+        	"Duration": 180,
+		},
+  	"Price": 2200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [  "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Like": [ "Dwarf", "Krobus", "Wednesday" ],
+		"Neutral": [ "Abigail", "Alex", "Caroline", "Claire", "Evelyn", "George", "Haley", "Harvey", "Hekate", "Hephaestus", "Lewis", "Maru", "Alecto", "Wizard" ], 
+        	"Dislike": [ "Andy", "Apples", "Beatrice", "Clint", "Demetrius", "Elliott", "Emily", "Gregory", "Gunther", "Gus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Willy" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Vincent" ],
+		},
+}

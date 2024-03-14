@@ -1,0 +1,24 @@
+{
+	"Name": "Fennel",
+    	"Product": "Fennel",
+    	"SeedName": "Fennel Seeds",
+    	"SeedDescription": "Seeds that can be used as a cooking spice, or planted to grow fennel. They have a warm, sweet, aniseed flavor. May produce usable leaves, flowers and pollen at harvest. Takes 10 days to mature. Plant in the spring.",
+    	"Type": "Vegetable",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 2, 3, 3, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+    	"SeedPurchasePrice": 20,
+ 	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": [ "f Xolotl 1000" ],
+	"DisableWithMod": "ppja.fruitsandveggies",
+}

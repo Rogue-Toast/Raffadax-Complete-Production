@@ -1,0 +1,17 @@
+{
+    	"Name": "Pickled Eggs",
+    	"Description": "Hard boiled eggs that have been preserved in a salt and vinegar solution. They are a popular bar food in some parts of the world.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickled Eggs",
+  	"Edibility": 35,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,  
+ 	"GiftTastes": 
+		{
+		"Like": [ "Dwarf", "Gus", "Hephaestus", "Krobus", "Willy" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Leo", "Morgan", "Sebastian", "Vincent" ]
+		},
+}

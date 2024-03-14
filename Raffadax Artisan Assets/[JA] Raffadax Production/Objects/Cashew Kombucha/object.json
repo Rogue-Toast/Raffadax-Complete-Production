@@ -1,0 +1,35 @@
+{
+    	"Name": "Cashew Kombucha",
+    	"Description": "A lightly effervescent beverage made by fermenting cashew nut tea. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nut Tea Kombucha",
+	"Edibility": 75,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 2,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 800,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Dwarf", "Gunther", "Hephaestus", "Lewis", "Linus", "Marlon", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Marnie", "Martin", "Maru", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": ["Morris" ],
+		"Hate": [ "Eloise", "Gregory", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+  	"Name": "Radiant Buddha",
+  	"Description": "A perfume made from the extract of the Buddha's Hand fruit. It has a delicate citrus aroma with floral undertones.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Perfume",
+  	"Edibility": -300,
+  	"Price": 2400,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Beatrice", "Caroline", "Claire", "Eloise", "Emily", "Evelyn", "Haley", "Jas", "Jodi", "Leah", "Marnie", "Maru", "Olivia", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Susan" ],
+		"Neutral": [ "Demetrius", "George", "Hekate", "Kent", "Lewis", "Pierre" ],
+		"Dislike": [ "Alex", "Andy", "Clint", "Elliott", "Gregory", "Gunther", "Gus", "Harvey", "Jacob", "Martin", "Morris", "Alecto", "Wizard" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Leo", "Linus", "Marlon", "Mephisto", "Puck", "Sam", "Sebastian", "Shane", "Shuck", "Victor", "Vincent", "Wednesday", "Willy", "Xolotl" ],
+		},
+}

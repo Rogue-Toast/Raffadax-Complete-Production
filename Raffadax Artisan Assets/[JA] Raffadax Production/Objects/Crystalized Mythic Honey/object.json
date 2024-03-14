@@ -1,0 +1,32 @@
+{
+	"Name": "Crystalized Mythic Honey",
+	"Description": "Luminous chunks of crystalized honey that was sourced from a mythical flower. It seems to possess strange arcane powers.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Baking Component",
+	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 10,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 7777,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Wednesday", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Xolotl" ],
+		"Dislike": [ "Sebastian" ]
+		},
+}

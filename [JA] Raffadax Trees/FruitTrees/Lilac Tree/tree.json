@@ -1,0 +1,10 @@
+{
+	"Name": "Lilac Tree",
+	"Product": "Lilac",
+	"SaplingName": "Lilac Sapling",
+	"SaplingDescription": "An ornamental tree which produces fragrant purple flowers. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Flowers in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Pookah",
+    	"SaplingPurchasePrice": 3000,
+    	"SaplingPurchaseRequirements": [ "f Puck 1000" ],
+}

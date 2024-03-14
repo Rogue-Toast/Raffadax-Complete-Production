@@ -1,0 +1,49 @@
+{
+  	"Name": "Catalina Dressing",
+  	"Description": "A bright red dressing with a strong tomato flavor. It is commonly used on both salads and sandwiiches.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Salad Dressing",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+  	"Price": 1135,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Vinegar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Oil",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ketchup",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Sugar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Lemon Juice",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Paprika",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		}, 
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Caroline", "Elliott", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Leah", "Lewis", "Morris", "Olivia", "Penny" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Hekate", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Hephaestus", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Sebastian", "Vincent" ]	
+		},
+}

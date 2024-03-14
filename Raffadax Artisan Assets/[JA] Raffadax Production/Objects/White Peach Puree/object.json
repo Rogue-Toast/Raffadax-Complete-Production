@@ -1,0 +1,19 @@
+{
+  	"Name": "White Peach Puree",
+    	"Description": "Sweet white peaches that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into sparkling wine to make a refreshing bellini.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 60,
+	"EdibleIsDrink": true,
+    	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "Gunther", "Hekate", "Olivia", "Pam", "Penny", "Sheila", "Robin", "Sophia" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "George", "Gregory", "Gus", "Harvey", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Pierre", "Sam", "Sandy", "Shane", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Morris" ],
+		"Hate": [ "Dwarf", "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

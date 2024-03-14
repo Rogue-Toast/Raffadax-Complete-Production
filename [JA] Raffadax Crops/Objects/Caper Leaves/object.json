@@ -1,0 +1,16 @@
+{
+	"Name": "Caper Leaves",
+  	"Description": "Fresh leaves from a caper bush. They have a similar, yet milder flavor to caper buds; and can be used as salad, pasta and pizza toppings.",
+  	"Category": "Vegetable",
+  	"Edibility": 5,
+  	"Price": 10,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam", "Sebastian" ],
+        	"Like": [ "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Hephaestus", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pam", "Puck", "Robin", "Sandy", "Shuck", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Gregory", "Haley", "Hekate", "Shane", "Sheila", "Sophia", "Susan" ], 
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ]	
+		},
+}

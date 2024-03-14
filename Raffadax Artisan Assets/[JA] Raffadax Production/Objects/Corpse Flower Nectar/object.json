@@ -1,0 +1,35 @@
+{
+    	"Name": "Corpse Flower Nectar",
+    	"Description": "A malodorous nectar made from the honey of an enchanted flower. This beverage is popular with denizens of the netherworld, but is toxic to humans.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Nectar",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -35,
+        	"MaxStamina": -35,
+		"MagnetRadius": 0,
+        	"Speed": -35,
+
+		"Attack": -35,
+        	"Defense": -35,
+
+        	"Duration": 300,
+		},
+  	"Price": 40700,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Hekate", "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ]
+		},
+}

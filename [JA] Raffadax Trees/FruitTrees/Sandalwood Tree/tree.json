@@ -1,0 +1,10 @@
+{
+	"Name": "Sandalwood Tree",
+	"Product": "Sandalwood",
+	"SaplingName": "Sandalwood Sapling",
+	"SaplingDescription": "A tree prized for its aromatic red wood. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. To minimize damage to the tree's overall health, harvest mature branches in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 12000,
+    	"SaplingPurchaseRequirements": [ "f Amanra 1500" ],
+}

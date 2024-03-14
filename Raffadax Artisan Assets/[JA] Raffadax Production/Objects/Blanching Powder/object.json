@@ -1,0 +1,32 @@
+{
+    	"Name": "Blanching Powder",
+    	"Description": "A powdered substance that can be used in a preserves jar to blanch certain crops. Can also be used to bleach wool and produce white paints.",
+    	"Category": "Crafting",
+	"CategoryTextOverride": "Production Tool",
+    	"Edibility": -300,
+    	"Price": 10,
+    	"Recipe":
+    		{
+        	"ResultCount": 10,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Quartz",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "White Algae",
+            		"Count": 1,
+       	 		}
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Azeban",
+       		"PurchasePrice": 500,
+		},
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Neutral": [ "Emily", "Leah" ],
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

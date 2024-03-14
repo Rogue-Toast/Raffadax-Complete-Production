@@ -1,0 +1,36 @@
+{
+    	"Name": "Agave Tea",
+  	"Description": "A sweet blue-green tea made with agave. This tea is generally drank sweetened and iced.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cold Tea",
+  	"Edibility": 35,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 1,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 1,
+
+		"Attack": 0,
+        	"Defense": 1,
+
+        	"Duration": 120,
+		},
+ 	"Price": 600,
+  	"IsColored": false,
+	"Recipe": null,
+   	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Demetrius", "Emily", "Haley", "Harvey", "Kent", "Leah", "Lewis", "Maru" ],
+		"Like": [ "Abigail", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Elliott", "Gregory", "Hekate", "Hephaestus", "Mephisto", "Olivia", "Puck", "Robin", "Sandy", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Neutral": [ "Claire", "Evelyn", "Gus", "Jacob", "Jodi", "Marnie", "Morris", "Pam", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Dislike": [ "Andy", "Dwarf", "George", "Gunther", "Krobus", "Linus", "Marlon", "Wednesday" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

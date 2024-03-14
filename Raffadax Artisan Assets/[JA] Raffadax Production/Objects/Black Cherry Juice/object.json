@@ -1,0 +1,19 @@
+{
+	"Name": "Black Cherry Juice",
+	"Description": "A dark, naturally sweet cherry juice. It mixes well with other juices and cocktails. Cherry juice is said to have long term health benefits if consumed regularly.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 60,
+  	"EdibleIsDrink": true,
+  	"Price": 285,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Haley", "Linus", "Martin", "Olivia", "Penny", "Robin", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Pam", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

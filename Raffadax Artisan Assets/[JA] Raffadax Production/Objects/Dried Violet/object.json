@@ -1,0 +1,18 @@
+{
+	"Name": "Dried Violet",
+  	"Description": "A violet which has been dried for preservation. It can be used to make potpourri or brewed into a flavorful tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Flower",
+  	"Edibility": -300,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gunther" ],
+		"Like": [ "Abigail", "Beatrice", "Elliott", "Evelyn", "Linus", "Pam", "Penny", "Sam", "Sandy", "Sheila" ], 
+		"Neutral": [ "Gus", "Harvey", "Hekate", "Jodi", "Leah", "Lewis", "Marnie", "Maru", "Morgan", "Robin", "Shane", "Sophia", "Alecto", "Wizard" ],
+        	"Dislike": [ "Alex", "Amanra", "Andy", "Apples", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Gregory", "Kent", "Leo", "Mephisto", "Olivia", "Pierre", "Puck", "Shuck", "Susan", "Willy", "Xolotl" ],
+		"Hate": [ "George", "Haley", "Hephaestus", "Jas", "Jacob", "Krobus", "Marlon", "Martin", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		},
+}

@@ -1,0 +1,27 @@
+{
+	"Name": "Dry Packer",
+	"Description": "A machine that prepares and packages herbs, spices flower petals, and other dry goods. This device has a slow bake function for processing certain flours into cereals.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 7,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": 388,
+            		"Count": 25,
+        		},
+        		{
+            		"Object": "Hemp Rope",
+            		"Count": 2,
+        		},
+        		{
+            		"Object": "Lodestone",
+            		"Count": 1,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

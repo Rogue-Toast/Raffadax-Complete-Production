@@ -1,0 +1,35 @@
+{
+	"Name": "Maenad Honey Jelly",
+	"Description": "A luminous, silver jelly made from Maenad honey. This jelly has an intoxicating effect on those who consume it, and should be treated as an alcohol.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Honey Jelly",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 20,
+        	"Fishing": 0,
+      		"Foraging": 20,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 15,
+		"MagnetRadius": 0,
+        	"Speed": -15,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 30250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Apples", "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Vincent" ]
+		},
+}
+
+

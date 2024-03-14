@@ -1,0 +1,19 @@
+{
+	"Name": "Cigar",
+  	"Description": "Dried tobacco rolled into a paper bundle.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Tobacco ",
+  	"Edibility": -300,
+  	"Price": 325,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Kent", "Lewis", "Robin" ], 
+		"Like": [ "Marlon", "Willy" ],
+		"Neutral": [ "George", "Morris", "Olivia" ], 
+		"Dislike": [ "Andy", "Pam", "Shane", "Wednesday" ], 
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Krobus", "Leah", "Leo", "Linus", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Penny", "Pierre", "Puck", "Sam", "Sandy", "Sebastian", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Alecto", "Wizard", "Xolotl" ],
+		},
+	"DisableWithMod": "kaku.ggggitc",
+}

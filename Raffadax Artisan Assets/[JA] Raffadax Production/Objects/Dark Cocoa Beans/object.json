@@ -1,0 +1,18 @@
+{
+  	"Name": "Dark Cocoa Beans",
+  	"Description": "Black cacao beans that have been roasted to allow flavors to develope. This process is necessary for the production of traditional chocolate.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cocoa",
+  	"Edibility": 50,
+	"Price": 1650,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "Gus", "Olivia", "Susan" ],
+		"Like": [ "Abigail", "Alex", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Dwarf", "Eloise", "Haley", "Jas", "Marlon", "Vincent" ],
+		"Hate": [ "Sebastian", "Wednesday" ],  
+		},
+}

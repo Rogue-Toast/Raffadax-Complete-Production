@@ -1,0 +1,35 @@
+{
+	"Name": "Infernal Brandy",
+	"Description": "An arcane brandy with an unsettling, foreboding presence. Those who drink this brandy report seeing visions of large black creatures creeping at the edges of their vision, but vanishing as soon as they turn to focus upon them. Sometimes these people vanish mysteriously from their beds at night, never to be seen again.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Brandy",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -20,
+        	"MaxStamina": -20,
+		"MagnetRadius": 0,
+        	"Speed": 10,
+
+		"Attack": 30,
+        	"Defense": 30,
+
+        	"Duration": 240,
+		},
+	"Price": 60000,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

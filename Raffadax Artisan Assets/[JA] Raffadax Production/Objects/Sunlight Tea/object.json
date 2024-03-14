@@ -1,0 +1,36 @@
+{
+    	"Name": "Sunlight Tea",
+    	"Description": "A radiant, enchanted tea made from solar dust. Rather than liquid, this tea seems to be comprised entirely of golden light. Sunlight tea cannot be spilled, only drunk; meaning the cup can safely be flipped upside down to block out its blinding radiance.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Arcane Tea",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 20,
+        	"Fishing": 0,
+      		"Foraging": 20,
+        	"Mining": 0,
+
+        	"Luck": 20,
+        	"MaxStamina": 20,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 20,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 10100,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Willy" ],
+		"Neutral": [ "Hephaestus", "Sebastian" ], 
+		"Dislike": [ "Eloise", "Jas", "Leo", "Martin", "Vincent" ],
+		"Hate": [ "Krobus", "Wednesday" ] 
+		},
+}

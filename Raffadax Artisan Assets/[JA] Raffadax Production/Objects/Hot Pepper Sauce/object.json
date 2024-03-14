@@ -1,0 +1,19 @@
+{
+  	"Name": "Hot Pepper Sauce",
+    	"Description": "Red jalapeño peppers that have been pureed into a potent sauce. It is a popular condiment in certain cuisines.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Hot Sauce",
+    	"Edibility": 30,
+	"EdibleIsDrink": true,
+    	"Price": 80,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Lewis", "Shane" ],
+        	"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Krobus", "Leo", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Morgan", "Vincent" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+  	"Name": "Gentian Bark",
+  	"Description": "A bitter, medicinal bark used as a flavoring agent.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Medicinal Herb",
+  	"Edibility": 15,
+  	"Price": 25,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Harvey", "Hekate", "Maru", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hephaestus", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Hate": [ "Eloise", "Jacob", "Jas", "Krobus", "Leo", "Martin", "Morris", "Olivia", "Victor", "Vincent", "Willy" ],
+		},
+}

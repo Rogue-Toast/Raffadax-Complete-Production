@@ -1,0 +1,33 @@
+{
+  	"Name": "Elderflower Tea",
+  	"Description": "A sophisticated floral tea made from elderflowers. It is said to have wonderous health benefits.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Floral Tea",
+  	"Edibility": 125,
+	"EdibleBuffs":
+		{
+        	"Farming": 5,
+        	"Fishing": 5,
+      		"Foraging": 5,
+        	"Mining": 5,
+
+        	"Luck": 1,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 1100,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Caroline", "Claire", "Evelyn", "Haley", "Hekate", "Lewis", "Sandy", "Alecto", "Wizard" ],
+        	"Like": [ "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Marlon", "Morris", "Sebastian", "Vincent", "Wednesday", "Willy" ]
+		},
+}

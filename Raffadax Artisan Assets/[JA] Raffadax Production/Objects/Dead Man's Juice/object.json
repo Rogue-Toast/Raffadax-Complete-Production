@@ -1,0 +1,36 @@
+{
+	"Name": "Dead Man's Juice",
+  	"Description": "A dark blue juice made from dead man's finger fruit. It has a subtle flavor like cucumber and watermelon.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 5,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 1125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Leo", "Linus", "Martin", "Morgan", "Sandy", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Eloise", "Jas", "Marnie", "Shane", "Sheila", "Sophia" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Emily", "Gregory", "Harvey", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Mephisto", "Pam", "Pierre", "Puck", "Robin", "Shuck", "Victor", "Xolotl" ],
+		"Dislike": [ "Alex", "Beatrice", "Claire", "Elliott", "George", "Jodi", "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Apples", "Evelyn", "Gus", "Haley", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Sebastian", "Susan" ],
+		},
+}

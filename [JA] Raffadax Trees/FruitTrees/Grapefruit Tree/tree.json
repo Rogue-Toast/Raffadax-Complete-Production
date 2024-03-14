@@ -1,0 +1,11 @@
+{
+	"Name": "Grapefruit Tree",
+	"Product": "Grapefruit",
+	"SaplingName": "Grapefruit Sapling",
+	"SaplingDescription": "A tree which produces a large, bitter-sweet citrus fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": null,
+    	"SaplingPurchasePrice": 7000,
+    	"SaplingPurchaseRequirements": [ "Y2" ],
+	"DisableWithMod": "ppja.moretrees",
+}

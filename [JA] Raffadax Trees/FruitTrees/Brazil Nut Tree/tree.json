@@ -1,0 +1,10 @@
+{
+	"Name": "Brazil Nut Tree",
+    	"Product": "Brazil Nut",
+    	"SaplingName": "Brazil Nut Sapling",
+    	"SaplingDescription": "A giant rainforest tree that produces large nuts filled with seeds. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": "Nagual",
+    	"SaplingPurchasePrice": 12000,
+	"SaplingPurchaseRequirements": ["f Xolotl 1500"],
+}

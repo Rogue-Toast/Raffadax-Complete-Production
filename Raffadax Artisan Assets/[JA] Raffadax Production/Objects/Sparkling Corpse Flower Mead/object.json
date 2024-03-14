@@ -1,0 +1,35 @@
+{
+    	"Name": "Sparkling Corpse Flower Mead",
+    	"Description": "A toxic sparkling mead made from the honey of a corpse flower. This mead is not safe for humans to drink.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Sparkling Mead",
+	"Edibility": -100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -30,
+        	"MaxStamina": -30,
+		"MagnetRadius": 0,
+        	"Speed": -30,
+
+		"Attack": -30,
+        	"Defense": -30,
+
+        	"Duration": 180,
+		},
+  	"Price": 30300,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Hekate", "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ]
+		},
+}

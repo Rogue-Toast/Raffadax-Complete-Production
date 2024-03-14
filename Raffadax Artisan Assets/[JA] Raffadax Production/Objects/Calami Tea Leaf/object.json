@@ -1,0 +1,16 @@
+{
+  	"Name": "Calami Tea Leaf",
+  	"Description": "A hexed tea leaf that has been mixed with unlucky clovers. It brews a tea that is not safe for humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Tea Leaf",
+  	"Edibility": -300,
+  	"Price": 1275,
+  	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like":	[ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Morgan", "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

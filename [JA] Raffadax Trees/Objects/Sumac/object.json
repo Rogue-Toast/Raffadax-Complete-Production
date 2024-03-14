@@ -1,0 +1,17 @@
+{
+  	"Name": "Sumac",
+  	"Description": "A tangy berry that is used in various Middle Eastern spice blends. It has a sour, lemony flavor and can be used to brighten dishes and dry-rubs.",
+  	"Category": "Fruit",
+  	"CategoryTextOverride": "Spice",
+  	"Edibility": 20,
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Gus", "Kent", "Leo", "Mephisto", "Olivia", "Puck", "Sandy", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Eloise", "Emily", "Evelyn", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Martin", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Claire", "Elliott", "Martin", "Penny", "Sam", "Shane", "Sebastian", "Victor" ],
+		"Hate": [ "Alex", "Andy", "George", "Haley", "Eloise", "Jas", "Linus", "Morris", "Morgan", "Vincent" ]		
+		},
+}

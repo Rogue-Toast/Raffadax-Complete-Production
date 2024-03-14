@@ -1,0 +1,33 @@
+{
+	"Name": "Sparkling Nigella Wine",
+  	"Description": "An earthy, blue sparkling wine made using black cumin flowers. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Sparkling Floral Wine",
+  	"Edibility": 55,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+        	"Duration": 180,
+		},
+  	"Price": 115,
+  	"IsColored": false,
+   	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Hekate", "Linus", "Mephisto", "Pam", "Puck", "Sheila", "Shuck", "Alecto", "Wizard", "Xolotl" ], 
+		"Like": [ "Abigail", "Apples", "Dwarf", "Elliott", "Emily", "Evelyn", "Gunther", "Gus", "Harvey", "Hephaestus", "Jodi", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Olivia", "Robin", "Sam", "Sandy" ],
+        	"Neutral": [ "Caroline", "Claire", "Clint", "Demetrius", "Gregory", "Kent", "Pierre", "Sophia", "Susan" ],
+		"Dislike": [ "Alex", "Haley", "Penny", "Shane", "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "George", "Jas", "Jacob", "Krobus", "Leo", "Martin", "Morgan", "Morris", "Sebastian", "Vincent", "Wednesday" ]	
+		},
+}

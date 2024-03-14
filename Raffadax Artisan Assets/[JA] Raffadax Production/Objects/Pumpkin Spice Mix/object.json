@@ -1,0 +1,44 @@
+{
+	"Name": "Pumpkin Spice Mix",
+  	"Description": "A popular spice blend created by merchants to be used in desserts and baked goods. It is also popular as a flavoring for coffees and cocoas.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 1135,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 5,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Ground Allspice",
+            		"Count": 1,
+        		},
+      			{
+            		"Object": "Ground Cinnamon",
+            		"Count": 1,
+        		},
+      			{
+            		"Object": "Ground Clove",
+            		"Count": 1,
+        		},
+      			{
+            		"Object": "Ground Ginger",
+            		"Count": 1,
+        		},
+      			{
+            		"Object": "Ground Nutmeg",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

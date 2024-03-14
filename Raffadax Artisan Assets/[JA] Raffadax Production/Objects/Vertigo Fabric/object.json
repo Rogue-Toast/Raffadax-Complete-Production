@@ -1,0 +1,14 @@
+{
+    	"Name": "Vertigo Fabric",
+    	"Description": "A strange cloth with an ever-shifting pattern. The design on this fabric will display vivid, rapidly evolving patterns when played near a source of music. The speed and intensity of the display will differ depending on the type of music played.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Cloth",
+  	"Edibility": -300,
+  	"Price": 42000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Coyote", "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

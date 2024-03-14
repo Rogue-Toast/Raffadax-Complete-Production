@@ -1,0 +1,34 @@
+{
+	"Name": "Royal Jelly",
+	"Description": "A waxy, honey like product made by bees to nourish new queens. It has a bitter, slightly sour taste, and is primarily consumed as a health supplement.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Honey Jelly",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 5,
+        	"Fishing": 5,
+      		"Foraging": 5,
+        	"Mining": 5,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 3050,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Hephaestus", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Xolotl", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+	 	"Hate": [ "Sebastian" ]
+		},
+}

@@ -1,0 +1,14 @@
+{
+    	"Name": "Golden Fabric",
+    	"Description": "A shining fabric woven entirely out of gold. It is surprisingly heavy.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Cloth",
+  	"Edibility": -300,
+  	"Price": 42000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Emily", "Gregory", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

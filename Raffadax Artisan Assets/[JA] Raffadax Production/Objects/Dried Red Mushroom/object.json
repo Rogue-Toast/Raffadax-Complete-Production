@@ -1,0 +1,15 @@
+{
+	"Name": "Dried Red Mushroom",
+  	"Description": "A red mushroom that has been dried for preservation, this variety is primarily used in potion making. It can also be ground into a powder and used to produce medicines, but is toxic to average humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Mushroom",
+  	"Edibility": -300,
+  	"Price": 125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Harvey", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Maru", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

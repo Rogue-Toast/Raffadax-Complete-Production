@@ -1,0 +1,37 @@
+{
+  	"Name": "Preserved Mosshrooms",
+  	"Description": "Sliced mosshrooms that have been preserved in a brine solution. They are used more commonly for arcane rather than culinary purposes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickled Mushrooms",
+  	"Edibility": 100,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 7,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Love": [ "Hekate", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Dwarf", "Harvey", "Hephaestus", "Krobus", "Maru", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Leah", "Linus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Jacob", "Kent", "Lewis", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Caroline", "Elliott", "Eloise", "Haley", "Jas", "Jodi", "Leo", "Pierre", "Sam", "Sebastian", "Shane", "Vincent", "Willy" ]
+		},
+}
+
+

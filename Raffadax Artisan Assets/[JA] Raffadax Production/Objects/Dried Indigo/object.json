@@ -1,0 +1,17 @@
+{
+	"Name": "Dried Indigo",
+  	"Description": "Indigo flowers that have been dried for preservation. They can be used to make potpourri, but are too toxic to humans to brew into a safe tea. These flowers can be ground into a vibrant dust and used to make luxurious paints and dyes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Flower",
+  	"Edibility": -300,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Evelyn", "Sandy" ], 
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Sebastian", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

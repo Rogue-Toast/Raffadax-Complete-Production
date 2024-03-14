@@ -1,0 +1,23 @@
+{
+	"Name": "Adzuki Bean Vine",
+    	"Product": "Adzuki Beans",
+    	"SeedName": "Adzuki Bean Starter",
+    	"SeedDescription": "A trellised crop which produces light brown seed pods containing sweet, red beans. Matures in 10 days, and continues to produce every four days after. Plant in the spring or summer.",
+    	"Type": "Vegetable",
+   	"Seasons": ["spring", "summer"],
+    	"Phases": [1, 2, 3, 3, 1],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus":
+    		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.5,
+    		},
+    	"SeedPurchasePrice": 80,
+    	"SeedPurchaseFrom": "Selkie",
+    	"SeedPurchaseRequirements": [ "f Astrid 2000" ],
+}

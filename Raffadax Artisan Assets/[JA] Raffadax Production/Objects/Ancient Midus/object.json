@@ -1,0 +1,34 @@
+{
+	"Name": "Ancient Midus",
+  	"Description": "A cerulean mead balsam made from ancient honey. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Mead Balsam",
+  	"Edibility": 200,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 40,
+        	"Mining": 40,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+        	"Duration": 180,
+		},
+  	"Price": 4800,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Andy", "Apples", "Astrid", "Coyote", "Mephisto", "Pam", "Puck", "Shuck", "Willy", "Xolotl" ],
+		"Like": [ "Beatrice", "Demetrius", "Elliott", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Robin", "Sandy", "Shane", "Sheila", "Victor", "Wednesday" ],
+		"Neutral": [ "Alex", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Lewis", "Marnie", "Maru", "Morgan", "Pierre", "Sam", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Claire", "Haley", "Morris", "Sophia", "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Olivia", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

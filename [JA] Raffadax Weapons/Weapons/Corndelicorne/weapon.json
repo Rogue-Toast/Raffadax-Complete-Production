@@ -1,0 +1,18 @@
+{
+  	"Name": "Corndelicorne",
+  	"Description": "An enchanted spear carved from the horn of a unicorn. It is said to be able to pierce anything, and cannot be scratched or broken by any normal means.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 111,
+  	"MaximumDamage": 333,
+  	"Knockback": 3,
+  	"Speed": 7,
+  	"Accuracy": 100,
+  	"Defense": 100,
+	"ExtraSwingArea": 7,
+  	"CritChance": 0.25,
+  	"CritMultiplier": 3.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

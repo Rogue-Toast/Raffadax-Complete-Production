@@ -1,0 +1,19 @@
+{
+  	"Name": "Blackberry Juice",
+    	"Description": "A sweet dark juice made from blackberries.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 50,
+	"EdibleIsDrink": true,
+    	"Price": 45,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Martin", "Sandy" ],
+		"Like": [ "Alex", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Morgan", "Morris", "Olivia", "Pam", "Robin", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Leo", "Lewis", "Marnie", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Krobus", "Maru", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

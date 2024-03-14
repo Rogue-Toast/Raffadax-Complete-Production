@@ -1,0 +1,49 @@
+{
+  	"Name": "Red Wine Vinaigrette",
+  	"Description": "A dark red salad dressing made from red wine vinegar. It has a sour, acidic taste and a fruity aroma.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Salad Dressing",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+  	"Price": 905,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Red Wine Vinegar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Oil",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Minced Garlic",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Oregano",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Table Salt",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Black Pepper",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		}, 
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Caroline", "Elliott", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Leah", "Lewis", "Morris", "Olivia", "Penny" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Hekate", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Hephaestus", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Sebastian", "Vincent" ]	
+		},
+}

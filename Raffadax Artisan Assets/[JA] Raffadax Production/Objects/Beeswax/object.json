@@ -1,0 +1,18 @@
+{
+	"Name": "Beeswax",
+	"Description": "A natural wax produced by bees. It has a variety of uses, and can be used to craft certain objects.",
+  	"Category": "-16",
+  	"CategoryTextOverride": "Resource",
+	"Edibility": -300,
+	"EdibleIsDrink": true,
+	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Hephaestus", "Maru", "Mephisto", "Morgan", "Puck", "Robin", "Shuck", "Xolotl", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+	 	"Hate": [ "Sebastian" ]
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

@@ -1,0 +1,35 @@
+{
+    	"Name": "White Chocolate Liqueur",
+    	"Description": "An amazingly flavorful liqueur made with white cocoa. It mixes well in dessert cocktails. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Dessert Liqueur",
+	"Edibility": 150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 8100,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Gus", "Haley", "Hekate", "Leah", "Linus", "Mephisto", "Pam", "Puck", "Robin", "Sam", "Shane", "Shuck", "Sophia", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pierre", "Sandy", "Sheila", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Krobus", "Susan", "Wednesday" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

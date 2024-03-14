@@ -1,0 +1,18 @@
+{
+  	"Name": "Clarent",
+  	"Description": "The sword of peace gifted to Uther Pendragon by the Queen of Avalon. This sword is imbued with the enchantments of the faefolk, and is primarily used for ceremonial purposes.",
+  	"Type": "Sword",
+  	"MinimumDamage": 250,
+  	"MaximumDamage": 500,
+  	"Knockback": 5.0,
+  	"Speed": 2,
+  	"Accuracy": 100,
+  	"Defense": 300,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.50,
+  	"CritMultiplier": 3.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

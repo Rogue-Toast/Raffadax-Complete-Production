@@ -1,0 +1,18 @@
+{
+  	"Name": "Antler of Cernunnos",
+  	"Description": "A shining, golden antler that was shed by a forest god.",
+  	"Type": "Club",
+  	"MinimumDamage": 150,
+  	"MaximumDamage": 250,
+  	"Knockback": 2.0,
+  	"Speed": 3,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.25,
+  	"CritMultiplier": 4.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

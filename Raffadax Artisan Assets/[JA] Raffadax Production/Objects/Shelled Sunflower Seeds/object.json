@@ -1,0 +1,17 @@
+{
+  	"Name": "Shelled Sunflower Seeds",
+  	"Description": "Sunflower seeds that have been removed from their shells. They can be used as a baking component, a salad and pasta topping, or eaten as a snack.",
+  	"CategoryTextOverride": "Baking Component",
+  	"Edibility": 25,
+	"Price": 250,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Beatrice", "Evelyn", "Gus", "Haley", "Kent", "Olivia", "Susan", "Shane", ],
+		"Like": [ "Clint", "George", "Hephaestus", "Jacob", "Lewis" ],
+        	"Neutral": [ "Abigail", "Amanra", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Gunther", "Harvey", "Hekate", "Jas", "Jodi", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sheila", "Shuck", "Sophia", "Vincent", "Wednesday", "Willy", "Xolotl", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "Eloise", "Morgan" ],
+		"Hate": [ "Gregory", "Sebastian", "Victor" ]
+		},
+}

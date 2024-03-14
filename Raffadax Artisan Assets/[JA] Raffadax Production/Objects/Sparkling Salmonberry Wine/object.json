@@ -1,0 +1,36 @@
+{
+    	"Name": "Sparkling Salmonberry Wine",
+    	"Description": "A dark pink sparkling wine made from salmonberries. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Sparkling Wine",
+  	"Edibility": 60,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 25,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Leah", "Mephisto", "Olivia", "Puck", "Shuck", "Xolotl" ],
+        	"Like": [ "Apples", "Demetrius", "Hephaestus", "Jodi", "Kent", "Linus", "Pam", "Robin", "Sandy", "Shane", "Victor" ],
+		"Neutral": [ "Beatrice", "Gregory", "Gunther", "Jacob", "Marlon", "Morris", "Sheila", "Sophia" ],
+		"Dislike": [ "Abigail", "Alex", "Claire", "Clint", "Dwarf", "Emily", "George", "Gus", "Haley", "Krobus", "Lewis", "Marnie", "Maru", "Pierre", "Sam", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Andy", "Caroline", "Elliott", "Eloise", "Evelyn", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ] 
+		},
+}

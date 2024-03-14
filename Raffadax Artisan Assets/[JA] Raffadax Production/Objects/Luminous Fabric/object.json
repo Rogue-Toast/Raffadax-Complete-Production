@@ -1,0 +1,15 @@
+{
+    	"Name": "Luminous Fabric",
+    	"Description": "A weightless, luminous cloth that appears to be woven from rays of light.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Cloth",
+  	"Edibility": -300,
+  	"Price": 4000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Coyote", "Dwarf", "Emily", "Hekate", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		"Hate": [ "Hephaestus", "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

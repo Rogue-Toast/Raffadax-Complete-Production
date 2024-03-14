@@ -1,0 +1,36 @@
+{
+	"Name": "Baobab Port Wine",
+	"Description": "A murky fortified wine made from the fruit of a baobab tree. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fortified Wine",
+	"Edibility": 150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 7,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 7,
+		"MagnetRadius": 0,
+        	"Speed": -3,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 6750,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Astrid", "Coyote", "Dwarf", "Elliott", "Gunther", "Harvey", "Hekate", "Kent", "Leah", "Mephisto", "Puck", "Sandy", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Emily", "Evelyn", "Gregory", "Gus", "Hephaestus", "Jacob", "Jodi", "Krobus", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sebastian", "Sheila", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Dislike": [ "Sam", "Shane", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "George", "Haley", "Jas", "Leo", "Linus", "Martin", "Morgan", "Penny", "Vincent" ]		
+		},
+}

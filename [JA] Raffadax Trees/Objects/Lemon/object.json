@@ -1,0 +1,17 @@
+{
+  	"Name": "Lemon",
+  	"Description": "A bright yellow fruit with a distinct sour flavor. It is used commonly in cooking, as well as in making desserts and cocktails.",
+  	"Category": "Fruit",
+  	"Edibility": 20,
+  	"Price": 125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Leo", "Olivia", "Pam" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Eloise", "Krobus", "Vincent" ],
+		"Hate": [ "Jas" ]
+		},
+	"DisableWithMod": "ppja.moretrees",
+}

@@ -1,0 +1,16 @@
+{
+  	"Name": "Mulberry",
+  	"Description": "An elongated, dark purple berry with a plesantly sweet-tart flavor.",
+  	"Category": "Fruit",
+  	"Edibility": 15,
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Andy", "Dwarf", "Linus", "Morgan", "Sebastian" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Morris", "Olivia", "Victor" ]	
+		},
+	"DisableWithMod": "KAYA.Mulberry",
+}

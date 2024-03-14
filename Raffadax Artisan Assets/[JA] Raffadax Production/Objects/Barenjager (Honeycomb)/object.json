@@ -1,0 +1,35 @@
+{
+	"Name": "Bärenjäger",
+	"Description": "A sweet, honey-flavored spirit. It is known as 'Bärenfang' in some regions of the world; and can be drunk straight, on the rocks, or blended into a cocktail.  Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Spirit",
+	"Edibility": 250,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 10,
+        	"Fishing": 10,
+      		"Foraging": 10,
+        	"Mining": 10,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 2300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Andy", "Astrid", "Coyote", "Dwarf", "Gregory", "Hephaestus", "Linus", "Marnie", "Mephisto", "Pam", "Puck", "Shuck", "Willie", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Marlon", "Maru", "Morris", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Victor", "Wednesday" ],
+		"Dislike": [ "Claire", "Hekate", "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Olivia", "Penny", "Sebastian", "Sophia", "Vincent" ]
+		},
+}

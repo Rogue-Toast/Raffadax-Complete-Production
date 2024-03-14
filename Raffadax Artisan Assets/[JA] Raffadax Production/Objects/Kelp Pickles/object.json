@@ -1,0 +1,18 @@
+{
+    	"Name": "Kelp Pickles",
+  	"Description": "Crunchy, ring-shaped pickles made from sliced kelp.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickles",
+  	"Edibility": 55,
+ 	"Price": 120,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Harvey" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Leo" ],
+		"Hate": [ "Eloise", "Haley", "Jas", "Maru", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

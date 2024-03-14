@@ -1,0 +1,16 @@
+{
+	"Name": "Fennel Greens",
+  	"Description": "The leaves from a fennel bulb. They have a bitter, anise-like flavor, and are primarily used in salads.",
+  	"Category": "Vegetable",
+  	"Edibility": 1,
+  	"Price": 10,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jodi", "Kent", "Martin", "Mephisto", "Olivia", "Puck", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gregory", "Gunther", "Jacob", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Pierre", "Robin", "Sebastian", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "George", "Pam", "Penny", "Sam" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Morgan", "Morris", "Vincent" ]
+		},
+}

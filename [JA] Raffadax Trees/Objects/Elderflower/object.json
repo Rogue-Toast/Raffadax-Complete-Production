@@ -1,0 +1,35 @@
+{
+  	"Name": "Elderflower",
+  	"Description": "A bushel of creamy white florets from an elder tree; they have a sophisticated floral aroma with heady, sweet undertones. Elderflowers can be processed into a wide wide array of products, and are to said to have a variety of beneficial properties when consumed.",
+  	"Category": "Flower",
+  	"Edibility": 100,
+	"EdibleBuffs":
+		{
+        	"Farming": 1,
+        	"Fishing": 1,
+      		"Foraging": 1,
+        	"Mining": 1,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 500,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Caroline", "Emily", "Elliott", "Evelyn", "Haley", "Harvey", "Hekate", "Jodi", "Marnie", "Maru", "Morgan", "Olivia", "Robin", "Sandy", "Sophia", "Susan", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Amanra", "Apples", "Astrid", "Clint", "Claire", "Coyote", "Eloise", "Gregory", "Jas", "Leah", "Mephisto", "Pam", "Penny", "Puck", "Sheila", "Shuck", "Willy", "Xolotl" ],
+		"Neutral": [ "Alex", "Demetrius", "Gunther", "Gus", "Hephaestus", "Kent", "Lewis", "Linus", "Pierre", "Victor" ],
+		"Dislike": [ "Andy", "Dwarf", "George", "Jacob", "Leo", "Martin", "Morris", "Sam", "Shane", "Vincent" ],
+		"Hate": [ "Krobus", "Marlon", "Sebastian", "Wednesday" ]
+		},
+	"DisableWithMod": "MelindaC.FizzyDrinks",
+}

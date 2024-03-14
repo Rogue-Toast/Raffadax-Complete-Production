@@ -1,0 +1,18 @@
+{
+  	"Name": "Sarsaparilla Berry Puree",
+  	"Description": "Sarsaparilla berries that have been mashed into a smooth, thin spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"Price": 25,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Andy", "Apples", "Gregory", "Clint", "Hekate", "Hephaestus", "Shane", "Willy", "Susan", "Wednesday" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Beatrice", "Caroline", "Claire", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sheila", "Shuck", "Sophia", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Jacob", "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Krobus", "Leo", "Martin", "Morris", "Olivia", "Sebastian", "Victor", "Vincent" ]
+		},
+}

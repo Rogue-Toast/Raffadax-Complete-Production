@@ -1,0 +1,23 @@
+{
+	"Name": "Garbanzo Bean Plant",
+    	"Product": "Garbanzo Beans",
+    	"SeedName": "Garbanzo Bean Starter",
+    	"SeedDescription": "A trellised crop which grows a highly nutritious legume, commonly called a 'chick pea'. Takes 10 days to mature, then produces every four days after. Plant in the fall.",
+    	"Type": "Vegetable",
+    	"Seasons": ["fall"],
+    	"Phases": [ 1, 2, 3, 3, 1 ],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 4,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.25,
+    		},
+    	"SeedPurchasePrice": 250,
+ 	"SeedPurchaseFrom": "Djinn",
+	"SeedPurchaseRequirements": [ "f Amanra 1000" ],
+}

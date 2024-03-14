@@ -1,0 +1,31 @@
+{
+    	"Name": "Moonberry Jam",
+    	"Description": "A jam made with the pulp of moonberries; it shines like it is filled with moonlight. This jam tastes like it contains gin, but it is not alcoholic.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Jam",
+  	"Edibility": 200,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 9,
+      		"Foraging": 0,
+        	"Mining": 9,
+
+        	"Luck": 9,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 9,
+
+		"Attack": 0,
+        	"Defense": 9,
+
+        	"Duration": 240,
+		},
+  	"Price": 1500,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

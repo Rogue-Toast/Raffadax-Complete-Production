@@ -1,0 +1,33 @@
+{
+	"Name": "Water of Nimuë",
+	"Description": "The sacred waters of the Lady of the Lake. Those who drink this water are said to gain oracular sight.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Legendary Sight",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 10,
+        	"Fishing": 10,
+      		"Foraging": 10,
+        	"Mining": 10,
+
+        	"Luck": 10,
+        	"MaxStamina": 10,
+		"MagnetRadius": 10,
+        	"Speed": 7,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 100000,
+	"IsColored": false,
+	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", ],
+		},
+}

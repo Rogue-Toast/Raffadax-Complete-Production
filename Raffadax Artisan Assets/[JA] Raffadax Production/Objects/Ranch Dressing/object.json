@@ -1,0 +1,49 @@
+{
+  	"Name": "Ranch Dressing",
+  	"Description": "A savory, creamy dressing with the flavor of buttermilk and herbs. It is popular on salads, but is also commonly used as a dipping sauce.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Salad Dressing",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+  	"Price": 1125,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Buttermilk",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Mayonnaise",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Minced Garlic",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Onion Powder",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Dill",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Black Pepper",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		}, 
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Caroline", "Elliott", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Leah", "Lewis", "Morris", "Olivia", "Penny" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Hekate", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Hephaestus", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Sebastian", "Vincent" ]	
+		},
+}

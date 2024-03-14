@@ -1,0 +1,18 @@
+{
+	"Name": "Dried Sea Sponge",
+	"Description": "A once-living animal whose body has washed up on shore. They are primarily used by humans as bathing sponges and painting tools.",
+	"Category": "-23",
+  	"CategoryTextOverride": "Beach Forage",
+	"Edibility": "-300",
+	"EdibleIsDrink": "false",
+	"EdibleBuffs": null,
+	"Price": "300",
+	"IsColored": "false",
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gunther", "Penny" ], 
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Morgan", "Puck", "Shuck", "Willy", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy",  "Marlon", "Morris", "Olivia" ],
+		},
+}

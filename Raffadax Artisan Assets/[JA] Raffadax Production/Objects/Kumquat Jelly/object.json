@@ -1,0 +1,18 @@
+{
+	"Name": "Kumquat Jelly",
+    	"Description": "A tangy, sweet-sour citrus jelly made from kumquats.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+    	"Edibility": 45,
+    	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Elliott", "Evelyn", "Gus", "Olivia", "Pam", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Clint", "Claire", "Demetrius", "Dwarf", "Emily", "George", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Penny", "Morgan", "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Hekate", "Hephaestus", "Jas", "Linus", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

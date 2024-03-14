@@ -1,0 +1,36 @@
+{
+    	"Name": "Cinnamon Schnapps",
+    	"Description": "A popular liqueur made from cinnamon. It can be drunk straight, but is also used as a component in several classic shot and cocktail recipes. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Spice Liqueur",
+	"Edibility": 110, 
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 2100,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Astrid", "Beatrice", "Caroline", "Claire", "Coyote", "Dwarf", "Evelyn", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Kent", "Lewis", "Mephisto", "Morris", "Olivia", "Puck", "Sandy", "Shuck", "Victor", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Andy", "Apples", "Clint", "Elliott", "George", "Jacob", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Pam", "Pierre", "Robin", "Shane", "Wednesday" ],
+		"Neutral": [ "Demetrius", "Emily", "Sam" ],
+		"Dislike": [ "Haley", "Jodi", "Maru", "Sheila", "Sophia", "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

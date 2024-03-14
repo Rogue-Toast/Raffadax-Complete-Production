@@ -1,0 +1,17 @@
+{
+  	"Name": "Baobab Powder",
+  	"Description": "A health powder made from ground, dried baobab fruit. It is most commonly used to make medicinal teas, but can also be used as a baking component.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Powder",
+  	"Edibility": -300,
+  	"Price": 800,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Alex", "Dwarf", "Elliott", "Emily", "Gunther", "Harvey", "Hekate", "Kent", "Morgan", "Penny", "Robin", "Sandy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Evelyn", "Gregory", "Gus", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Sebastian", "Sheila", "Sophia", "Susan", "Wednesday", "Willy" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "George", "Haley", "Eloise", "Jas", "Leo", "Linus", "Martin", "Sam", "Shane", "Victor", "Vincent" ]		
+		},
+}

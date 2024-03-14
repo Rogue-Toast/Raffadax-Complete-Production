@@ -1,0 +1,18 @@
+{
+  	"Name": "Skírnismál",
+  	"Description": "A divine sword once owned by Freyr, which he surrendered in exchange for Gerdr's hand in marraige. It is said that this sword will fight on its own and defend its owner of its own accord, if the wielder is wise enough to know how to use it.",
+  	"Type": "Sword",
+  	"MinimumDamage": 50,
+  	"MaximumDamage": 500,
+  	"Knockback": 1.0,
+  	"Speed": 5,
+  	"Accuracy": 100,
+  	"Defense": 250,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 5.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

@@ -1,0 +1,35 @@
+{
+    	"Name": "Hawthorn Liqueur",
+    	"Description": "A tangy, sweet liqueur distilled using wild hawthorn berries. The uniqueness of its flavor can elevate traditional cocktail recipes by using it as a replacement for other fruit liqueurs. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+	"Edibility": 125,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 15,
+
+        	"Duration": 300,
+		},
+	"Price": 700,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Dwarf", "Gus", "Kent", "Hekate", "Hephaestus", "Lewis", "Linus", "Mephisto", "Pam", "Puck", "Sam", "Shane", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jodi", "Krobus", "Leah", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pierre", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

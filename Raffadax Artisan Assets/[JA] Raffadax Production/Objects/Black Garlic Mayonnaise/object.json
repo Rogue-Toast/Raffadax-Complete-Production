@@ -1,0 +1,18 @@
+{
+	"Name": "Black Garlic Mayonnaise",
+  	"Description": "A dark, savory mayonnaise spread made with black garlic.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mayonnaise",
+  	"Edibility": 50,
+  	"Price": 4750,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Elliott", "Gus", "Lewis", "Morris", "Olivia", "Pierre", "Sandy", "Sophia", "Victor" ],
+        	"Like": [ "Alex", "Abigail", "Claire", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Penny", "Robin", "Shane", "Sheila", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Apples", "Andy", "Caroline" ],
+		"Hate": [ "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Vincent"]
+		},
+}

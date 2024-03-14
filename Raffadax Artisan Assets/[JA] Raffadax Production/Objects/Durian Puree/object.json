@@ -1,0 +1,19 @@
+{
+	"Name": "Durian Puree",
+  	"Description": "Durian that has been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 65,
+	"EdibleIsDrink": true,
+  	"Price": 800,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Krobus", "Leo", "Linus", "Morgan", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Andy", "Eloise", "Jas", "Marnie", "Martin", "Shane", "Sheila", "Sophia" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Emily", "Gregory", "Harvey", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Robin", "Sandy", "Shuck", "Victor", "Willy", "Xolotl" ],
+		"Dislike": [ "Alex", "Beatrice", "Elliott", "George", "Claire", "Jodi" ],
+		"Hate": [  "Apples", "Evelyn", "Gus", "Haley", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Sebastian", "Susan" ],
+		},
+}

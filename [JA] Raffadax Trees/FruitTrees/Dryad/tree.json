@@ -1,0 +1,10 @@
+{
+	"Name": "Dryad",
+    	"Product": "Hesperidium",
+    	"SaplingName": "Dryad Sapling",
+    	"SaplingDescription": "A forest spirit which slumbers within a tree and produces divine golden apples. Dryads may change position throughout the year, but they never move when humans are nearby. It is not uncommon to see birds and squirrels decorating these entities with flowers and berries. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+	"Season": "spring",
+    	"SaplingPurchaseFrom": "Pookah",
+    	"SaplingPurchasePrice": 1000000,
+    	"SaplingPurchaseRequirements": [ "f Puck 2500" ],
+}

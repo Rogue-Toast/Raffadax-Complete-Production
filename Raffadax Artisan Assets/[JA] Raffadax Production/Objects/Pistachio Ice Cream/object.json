@@ -1,0 +1,41 @@
+{
+	"Name": "Pistachio Ice Cream ",
+  	"Description": "A classic ice cream variety flavored with pistachios.",
+  	"Category": -7,
+  	"CategoryTextOverride": "Ice Cream",
+  	"Edibility": 105,
+  	"Price": 890,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 1,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Milk",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Sugar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Crushed Pistachios",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Town",
+       		"PurchasePrice": 100,
+		}, 
+	"CanPurchase": true,
+	"PurchaseFrom": "Town",
+	"PurchasePrice": 940,
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Eloise", "Jas", "Morgan", "Vincent" ], 
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Jacob", "Jodi", "Kent", "Lewis", "Linus", "Olivia", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Emily", "Harvey", "Krobus", "Hephaestus", "Leah", "Leo", "Mephisto", "Puck", "Shuck", "Willy", "Xolotl" ]
+		},
+}

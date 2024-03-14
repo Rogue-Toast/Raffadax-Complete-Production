@@ -1,0 +1,20 @@
+{
+	"Name": "Chestnut Milk",
+    	"Description": "A thin, milky substance made from blended and strained chestnuts. It has a smooth texture and mild, buttery flavor.",
+    	"Category": "Milk",
+    	"CategoryTextOverride": "Non-Dairy Milk",
+    	"Edibility": 50,
+    	"EdibleIsDrink": true,
+    	"Price": 600,
+    	"IsColored": false,
+    	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Beatrice", "Emily", "Evelyn", "Gunther", "Hephaestus", "Jacob", "Marnie", "Maru", "Olivia", "Pam", "Robin", "Sam", "Susan", "Vincent" ],
+        	"Like": [ "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "George", "Gus", "Haley", "Harvey", "Hekate", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Martin", "Morgan", "Morris", "Penny", "Pierre", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Jas", "Kent" ],
+		"Hate": [ "Gregory", "Leo" ]
+		},
+	"DisableWithMod": "Raffadax.JA.AM",
+}

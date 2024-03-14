@@ -1,0 +1,16 @@
+{
+	"Name": "Star Apple",
+	"Description": "A purple sapote fruit that is typically cut in half and eaten with a spoon. The skin and outer flesh is inedible, but the center has a flavor and texture similar to sweetened condensed milk and berries. The cross section of this fruit has a star pattern, thus its name.",
+  	"Category": "Fruit",
+	"Edibility": 30,
+	"Price": 100,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Demetrius", "Dwarf", "Leo" ],
+        	"Like": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Jodi", "Pierre", "Sebastian" ]
+		},
+	"DisableWithMod": "PlatonicsExoticTrees",
+}

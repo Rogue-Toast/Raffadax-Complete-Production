@@ -1,0 +1,23 @@
+{
+	"Name": "Black Cumin Plant",
+	"Product": "Nigella",
+	"SeedName": "Black Cumin Seeds",
+	"SeedDescription": "Seeds that can be used as a cooking spice, or planted to grow nigella flowers. They have a rich, earthy, warm flavor. Takes 7 days to mature, and may produce seeds in addition to flowers. Plant in the fall.",
+    	"Type": "Flower",
+    	"Seasons": ["fall"],
+    	"Phases": [ 1, 2, 3, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 20,
+	"SeedPurchaseFrom": "Djinn",
+	"SeedPurchaseRequirements": ["f Amanra 2000"],
+}

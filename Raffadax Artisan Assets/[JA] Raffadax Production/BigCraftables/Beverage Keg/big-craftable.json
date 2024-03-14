@@ -1,0 +1,27 @@
+{
+	"Name": "Beverage Keg",
+	"Description": "A specialized keg that mixes sweet beverages and syrups. Has a carbonation function for producing sodas. Most recipes require sugar.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 7,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Black Bamboo",
+            		"Count": 25,
+        		},
+        		{
+            		"Object": 338,
+            		"Count": 5,
+        		},
+        		{
+            		"Object": "Lodestone",
+            		"Count": 1,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

@@ -1,0 +1,17 @@
+{
+    	"Name": "Laraha Orange Jelly",
+    	"Description": "A slightly bitter jelly made from laraha oranges.",
+  	"Category": "ArtisanGoods",
+  	"Edibility": 30,
+  	"Price": 400,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Love": [ "Krobus" ],
+		"Like": [ "Dwarf", "Gus", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Olivia", "Puck", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Hekate", "Hephaestus", "Jas", "Linus", "Morgan", "Sebastian", "Vincent" ]
+		},
+}

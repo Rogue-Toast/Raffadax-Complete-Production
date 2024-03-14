@@ -1,0 +1,15 @@
+{
+	"Name": "Gros Michel",
+  	"Description": "A large banana that was once the most commonly consumed variety in the world, but was nearly driven to extinction by a blight that swept the globe. It has a stronger flavor than modern bananas, and tastes similar to artificial banana flavoring.",
+  	"Category": "Fruit",
+  	"Edibility": 150,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Krobus", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Willy", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Sebastian", "Vincent" ],
+		},
+}

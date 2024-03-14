@@ -1,0 +1,17 @@
+{
+  	"Name": "Ebony Wood",
+  	"Description": "A dark ornamental wood prized for its beauty. It can be shined to a mirror finish, and is dense enough to sink in water.",
+  	"Category": "-16",
+  	"CategoryTextOverride": "Resource",	
+  	"Edibility": -300,
+  	"Price": 500,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Gregory", "Leo", "Linus", "Robin" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Hephaestus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

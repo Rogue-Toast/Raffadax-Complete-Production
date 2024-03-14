@@ -1,0 +1,35 @@
+{
+    	"Name": "Lucky Kombucha",
+    	"Description": "A lightly effervescent beverage made by fermenting Irish breakfast tea. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Infused Mythic Kombucha",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 50,
+        	"MaxStamina": 10,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+ 	"Price": 5100,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Dwarf", "Elliott", "Emily", "George", "Hekate", "Hephaestus", "Lewis", "Mephisto", "Morris", "Olivia", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Clint", "Demetrius", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Willy" ],
+		"Neutral": [ "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Krobus", "Vincent", "Wednesday" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+  	"Name": "Pickled Fish",
+  	"Description": "Seafood which has been preserved in vinegar and pickling brine.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickled Fish",
+  	"Edibility": 25,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Dwarf", "Hephaestus", "Krobus", "Linus", "Willy" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ], 
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Wizard" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

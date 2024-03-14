@@ -1,0 +1,17 @@
+{
+    	"Name": "Cane Sugar",
+  	"Description": "A sugarcane-derived sweetener with a lightly golden hue and a slightly larger crystal size than beet sugar.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Sugar",
+  	"Edibility": 50,
+ 	"Price": 100,
+  	"IsColored": false,
+	"Recipe": null, 
+  	"GiftTastes": 
+		{
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		},
+	"DisableWithMod": "kaku.ggggitc",
+}

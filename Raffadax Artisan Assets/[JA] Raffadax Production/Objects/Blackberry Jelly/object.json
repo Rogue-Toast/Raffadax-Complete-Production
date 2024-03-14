@@ -1,0 +1,17 @@
+{
+    	"Name": "Blackberry Jelly",
+    	"Description": "A sweet, dark jelly made from wild blackberries.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jelly",
+  	"Edibility": 35,
+  	"Price": 90,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Like": [ "Andy", "Apples", "Beatrice", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Morris", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia" ],
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Lewis", "Marnie", "Martin", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Susan", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Maru", "Morgan", "Olivia", "Victor", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ] 
+		},
+}

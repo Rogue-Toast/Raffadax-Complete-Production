@@ -1,0 +1,52 @@
+{
+	"Name": "Garam Masala",
+  	"Description": "A popular south-eastern spice blend with a sweet, warm, spicy flavor. It can be added to soups and stews, or used to season meats and dry rubs.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 1345,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 7,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Ground Black Pepper",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Cardamom",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Cinnamon",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Coriander",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Cumin Seed",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Mace",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Powdered Curry Leaf",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

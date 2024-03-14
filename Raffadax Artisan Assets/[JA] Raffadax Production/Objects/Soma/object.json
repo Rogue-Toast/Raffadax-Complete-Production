@@ -1,0 +1,37 @@
+{
+    	"Name": "Soma",
+    	"Description": "A divine libation crafted by the god of the moon. Rather than liquid, this wine appears to be comprised entirely of moonlight. It is said to grant god-like qualities to those who consume it, and is considered forbidden for mortals to drink.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Divine Libation",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 25,
+        	"Fishing": 100,
+      		"Foraging": 25,
+        	"Mining": 100,
+
+        	"Luck": 100,
+        	"MaxStamina": 50,
+		"MagnetRadius": 25,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 1440,
+		},
+	"Price": 5000000,
+	"IsColored": false,
+	"Recipe": null,
+	"Price": 1000000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

@@ -1,0 +1,10 @@
+{
+	"Name": "Laraha Orange Tree",
+	"Product": "Laraha Orange",
+	"SaplingName": "Laraha Orange Sapling",
+	"SaplingDescription": "A citrus tree which produces bitter oranges used primarily for liquor production. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 7000,
+    	"SaplingPurchaseRequirements": [ "f Shuck 1000" ],
+}

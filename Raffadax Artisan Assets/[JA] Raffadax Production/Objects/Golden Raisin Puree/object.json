@@ -1,0 +1,19 @@
+{
+	"Name": "Golden Raisin Puree",
+    	"Description": "Golden raisins that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 45,
+	"EdibleIsDrink": true,
+    	"Price": 260,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "George", "Lewis", "Linus" ],
+        	"Like": [ "Apples", "Claire", "Demetrius", "Elliott", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Marlon", "Martin", "Morris", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Gus", "Krobus", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Leo", "Morgan", "Victor", "Vincent" ],
+		"Hate": [ "Olivia", "Penny", "Sebastian" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+    	"Name": "Manchega Sheep Milk",
+    	"Description": "A milk sourced from a specific breed of sheep. It is known for its production of Manchego cheeses.",
+    	"Category": "-6",
+	"CategoryTextOverride": "Milk",
+    	"Edibility": 100,
+    	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Evelyn", "Jodi", "Leah", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin" ], 
+        	"Neutral": [ "Abigail", "Alecto", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Eloise", "Emily", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Krobus", "Leo", "Marlon", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Puck", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Elliott", "Haley", "Lewis", "Wizard" ],
+		"Hate": [ "Kent" ]
+		},
+}

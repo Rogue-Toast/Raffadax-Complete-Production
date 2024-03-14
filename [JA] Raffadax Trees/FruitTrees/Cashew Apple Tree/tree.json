@@ -1,0 +1,10 @@
+{
+	"Name": "Cashew Apple Tree",
+    	"Product": "Cashew Apple",
+    	"SaplingName": "Cashew Apple Sapling",
+    	"SaplingDescription": "A tree that grows small red fruit which contain cashew nuts. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": "Pookah",
+    	"SaplingPurchasePrice": 4000,
+	"SaplingPurchaseRequirements": ["f Puck 1500"],
+}

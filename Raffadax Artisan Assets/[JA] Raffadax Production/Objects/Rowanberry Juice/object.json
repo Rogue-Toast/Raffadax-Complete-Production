@@ -1,0 +1,35 @@
+{
+  	"Name": "Rowanberry Juice",
+  	"Description": "Juice from wild rowanberries; it has an extremely tart, yet fruity flavor. This juice is used to balance culinary dishes and cocktails, it can also be used to flavor condiments and sauces.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 30,
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 2,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 45,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Hephaestus", "Olivia" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Hekate", "Leah", "Leo", "Linus", "Maru", "Mephisto", "Pam", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Morgan", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Caroline", "Elliott", "Eloise", "Evelyn", "George", "Martin", "Morris", "Penny", "Sebastian", "Victor", "Wednesday" ]
+		},
+}

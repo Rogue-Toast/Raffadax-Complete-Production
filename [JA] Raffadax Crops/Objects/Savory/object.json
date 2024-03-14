@@ -1,0 +1,18 @@
+{
+	"Name": "Savory",
+  	"Description": "A fragrant green herb with a peppery flavor.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Herb",
+  	"Edibility": 15,
+  	"Price": 25,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "Gus", "Jodi", "Olivia", "Susan" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Elliott", "Haley", "Harvey", "Hekate", "Jacob", "Kent", "Marnie", "Mephisto", "Puck", "Sandy", "Shane", "Sheila", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Emily", "Gregory", "Gunther", "Hephaestus", "Leah", "Lewis", "Martin", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sebastian", "Sophia", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "George", "Krobus", "Linus", "Marlon", "Morris", "Sam", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

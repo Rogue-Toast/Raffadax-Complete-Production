@@ -1,0 +1,17 @@
+{
+    	"Name": "Pickled Void Eggs",
+    	"Description": "Hard boiled void eggs that have been preserved in a salt and vinegar solution. They are a popular bar food in some parts of the netherworld.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickled Eggs",
+  	"Edibility": 40,
+  	"Price": 180,
+  	"IsColored": false,
+  	"Recipe": null,  
+ 	"GiftTastes": 
+		{
+		"Love": [ "Hephaestus", "Krobus" ], 
+		"Like": [ "Dwarf" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ]
+		},
+}

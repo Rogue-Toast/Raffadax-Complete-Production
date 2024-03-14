@@ -1,0 +1,33 @@
+{
+  	"Name": "Yage",
+  	"Description": "A fermented tea derived from the fruit of a divine, man-eating flower. Individuals who drink this wine will experience psychadelic visions for an extended period of time. It is said that those who drink this elixer have a life changing experience.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Shamanistic Potion",
+  	"Edibility": -100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 50,
+        	"Fishing": 0,
+      		"Foraging": 50,
+        	"Mining": 0,
+
+        	"Luck": 75,
+        	"MaxStamina": -50,
+		"MagnetRadius": 75,
+        	"Speed": -50,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 720,
+		},
+  	"Price": 75000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Leo", "Mephisto", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail", "Morgan" ], 
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

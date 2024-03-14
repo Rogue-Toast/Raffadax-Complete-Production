@@ -1,0 +1,17 @@
+{
+  	"Name": "Basil Jelly",
+  	"Description": "A fragrant herbal jelly made from basil leaves. This jelly is best used on savory foods and meats.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herb Jelly",
+  	"Edibility": 45,
+  	"Price": 120,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Haley", "Harvey", "Jodi", "Kent", "Martin", "Olivia", "Sandy", "Shane" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gregory", "Gunther", "Jacob", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "George", "Pam", "Penny", "Sam" ],
+		"Hate": [ "Andy", "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Morgan", "Morris", "Sebastian", "Vincent" ]
+		},
+}

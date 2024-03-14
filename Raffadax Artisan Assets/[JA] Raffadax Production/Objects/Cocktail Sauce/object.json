@@ -1,0 +1,49 @@
+{
+  	"Name": "Cocktail Sauce",
+  	"Description": "A bold red condiment with a spicy tomato flavor. It is primarily used as a sauce for seafood.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Condiment",
+  	"Edibility": 50,
+	"EdibleIsDrink": true,
+  	"Price": 1725,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Ketchup",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Prepared Horseradish",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Hot Pepper Sauce",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Lemon Juice",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Worcestershire Sauce",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Table Salt",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		}, 
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline",  "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Haley", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

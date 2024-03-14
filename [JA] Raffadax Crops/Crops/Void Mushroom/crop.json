@@ -1,0 +1,23 @@
+{
+	"Name": "Void Mushroom",
+	"Product": "Void Mushroom",
+	"SeedName": "Void Mushroom Starter",
+	"SeedDescription": "Spores for an arcane variety of shadow mushroom. Takes 13 days to mature. Plant in the fall.",
+    	"Type": "Greens",
+    	"Seasons": ["fall"],
+    	"Phases": [ 2, 5, 5, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 400,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": [ "f Shuck 2500" ]
+}

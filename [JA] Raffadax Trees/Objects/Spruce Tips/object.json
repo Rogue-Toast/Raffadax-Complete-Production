@@ -1,0 +1,35 @@
+{
+  	"Name": "Spruce Tips",
+  	"Description": "Fragrant evergreen shoots from a spruce tree; they can be used to make teas and sodas. The essence of these needles is also used as an aromatic in a variety of products.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Herb",
+	"Edibility": 10,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 3,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 10,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Gregory", "Hekate", "Jas", "Vincent", "Wednesday" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Harvey", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Alecto", "Wizard" ],
+		"Hate": [ "Eloise", "Krobus", "Leo", "Martin", "Morris", "Olivia", "Victor", "Willy" ],
+		},
+	"DisableWithMod": "MelindaC.FizzyDrinks",
+}

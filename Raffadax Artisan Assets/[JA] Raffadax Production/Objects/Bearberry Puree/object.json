@@ -1,0 +1,34 @@
+{
+  	"Name": "Bearberry Puree",
+  	"Description": "Bearberries that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails. When you eat this puree, you can feel the spirit of the bear enhance your senses.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Enchanted Fruit Puree",
+  	"Edibility": 150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 7,
+        	"Fishing": 7,
+      		"Foraging": 7,
+        	"Mining": 7,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 1000,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes":
+		{
+		"Love": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Gregory", "Gus", "Hekate", "Hephaestus", "Kent", "Leo", "Linus", "Marnie", "Mephisto", "Morgan", "Puck", "Sheila", "Shuck", "Sophia", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Susan", "Victor", "Vincent", "Wednesday" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

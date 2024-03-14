@@ -1,0 +1,50 @@
+{
+	"Name": "Void Salad Dressing",
+  	"Description": "A lumpy black salad dressing with a mucous-like consistency. It has an unpleasant aroma, and wilts whatever vegetable it is poured over.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Salad Dressing",
+  	"Edibility": -75,
+	"EdibleIsDrink": true,
+  	"Price": 620,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Void Mayonnaise",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Oil",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Wolfsbane Petals",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Bat Wing",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Table Salt",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Black Pepper",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		}, 
+  	"GiftTastes": 
+		{
+		"Love": [ "Alecto", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Wednesday" ],
+		"Like": [ "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Morgan", "Puck", "Sebastian", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}
+

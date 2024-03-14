@@ -1,0 +1,35 @@
+{
+    	"Name": "Chandan Kombucha",
+  	"Description": "A lightly effervescent beverage made by fermenting chandan tea. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Kombucha",
+  	"Edibility": 175,
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 10,
+        	"MaxStamina": 10,
+		"MagnetRadius": 20,
+        	"Speed": 10,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 2400,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Dwarf", "Elliott", "Haley", "Lewis", "Maru", "Mephisto", "Puck", "Sandy", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Clint", "Demetrius", "Emily", "Evelyn", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "George", "Morris", "Victor" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

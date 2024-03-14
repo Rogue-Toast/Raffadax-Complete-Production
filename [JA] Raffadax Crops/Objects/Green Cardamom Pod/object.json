@@ -1,0 +1,17 @@
+{
+	"Name": "Green Cardamom Pod",
+  	"Description": "A fragrant seed pod with a complex aroma. It has an herbal, sweet, slightly spicy flavor and fits well in both savory and sweet dishes. They can be blanched to produce white cardamom.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Spice",
+  	"Edibility": 25,
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,  	
+	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Beatrice", "Caroline", "Coyote", "Elliott", "Evelyn", "Gus", "Hekate", "Haley", "Leah", "Mephisto", "Olivia", "Pierre", "Puck", "Sandy", "Shuck", "Susan", "Xolotl" ],
+        	"Neutral": [ "Alex", "Abigail", "Claire", "Clint", "Demetrius", "Emily", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Penny", "Robin", "Sam", "Shane",  "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "Apples", "Dwarf", "Sebastian" ],
+		"Hate": [ "Eloise", "Gregory", "Jas", "Leo", "Martin", "Morgan", "Vincent" ]
+		},
+}

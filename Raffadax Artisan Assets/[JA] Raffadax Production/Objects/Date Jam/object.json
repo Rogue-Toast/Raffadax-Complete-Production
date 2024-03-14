@@ -1,0 +1,18 @@
+{
+	"Name": "Date Jam",
+    	"Description": "A savory-sweet jam made with pulp from dates.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jam",
+    	"Edibility": 90,
+    	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Demetrius", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Pam", "Robin", "Sandy", "Sheila", ],
+        	"Like": [ "Abigail", "Andy", "Caroline", "Clint", "Claire", "Eloise", "Gregory", "Gus", "Jacob", "Jas", "Marlon", "Marnie", "Martin", "Maru", "Pierre", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Neutral": [ "Amanra", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Dwarf", "Emily", "Haley", "Olivia", "Penny", "Morris", "Sam", "Shane" ],
+		"Hate": [ "Alex", "Haley", "Hekate", "Hephaestus", "Jas", "Krobus", "Leo", "Sebastian", "Vincent" ]
+		},
+}

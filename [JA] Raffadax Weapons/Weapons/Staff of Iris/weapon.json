@@ -1,0 +1,18 @@
+{
+  	"Name": "Staff of Iris",
+  	"Description": "The radiant staff of the goddess of rainbows. It appears to be comprised of strands of different colored light which have been braided together.",
+  	"Type": "Club",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 250,
+  	"Knockback": 2.0,
+  	"Speed": 10,
+  	"Accuracy": 100,
+  	"Defense": 100,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.75,
+  	"CritMultiplier": 3.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

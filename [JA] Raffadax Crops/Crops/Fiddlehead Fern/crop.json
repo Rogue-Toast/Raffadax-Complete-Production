@@ -1,0 +1,23 @@
+{
+	"Name": "Fern",
+    	"Product": "Fiddlehead Fern",
+    	"SeedName": "Fern Starter",
+    	"SeedDescription": "Spores for a variety of fern that produce edible fiddleheads. Takes 7 days to mature, then continues to produce every 5 days after. Plant in the summer.",
+    	"Type": "Vegetable",
+    	"Seasons": ["summer"],
+    	"Phases": [ 1, 1, 2, 2, 1 ],
+    	"RegrowthPhase": 5,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 4,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.25,
+    		},
+    	"SeedPurchasePrice": 100,
+ 	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": [ "f Coyote 2000" ],
+}

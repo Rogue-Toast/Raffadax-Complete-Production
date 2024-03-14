@@ -1,0 +1,19 @@
+{
+	"Name": "Topinambur Water",
+  	"Description": "A pale, fragrant water made with sunchoke flowers. It can be used to flavor foods, balance cocktails, or add fragrance to cosmetics and cleaning supplies.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Water",
+  	"Edibility": 35,
+  	"EdibleIsDrink": true,
+	"Price": 60,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "Olivia", "Pam", "Sheila", "Sandy", "Susan" ], 
+		"Like": [ "Abigail", "Apples", "Elliott", "Gus", "Harvey", "Haley", "Hekate", "Jodi", "Leah", "Lewis", "Marnie", "Maru", "Morgan", "Robin", "Shane", "Sophia", "Victor", "Alecto", "Wizard" ],
+        	"Neutral": [ "Alex", "Amanra", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Emily", "Gregory", "Gunther", "Kent", "Leo", "Linus", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Xolotl" ],
+		"Dislike": [ "Eloise", "George", "Jas", "Jacob", "Hephaestus", "Krobus", "Martin", "Morris", "Vincent", "Wednesday", "Willy" ],
+		"Hate": [ "Andy", "Marlon", "Sebastian" ]	
+		},
+}

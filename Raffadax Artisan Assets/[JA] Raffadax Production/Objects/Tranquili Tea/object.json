@@ -1,0 +1,36 @@
+{
+    	"Name": "Tranquili Tea",
+    	"Description": "A mystical tea derived from harmonic powder. Those who drink this tea are impossible to anger or agitate.",
+	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Arcane Tea",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 25,
+        	"Fishing": 25,
+      		"Foraging": 25,
+        	"Mining": 25,
+
+        	"Luck": 50,
+        	"MaxStamina": 25,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 50100,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Willy" ],
+		"Neutral": [ "Hephaestus", "Sebastian" ], 
+		"Dislike": [ "Eloise", "Jas", "Leo", "Martin", "Vincent" ],
+		"Hate": [ "Krobus", "Wednesday" ] 
+		},
+}

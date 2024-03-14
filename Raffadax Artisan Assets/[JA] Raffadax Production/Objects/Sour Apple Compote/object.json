@@ -1,0 +1,18 @@
+{
+	"Name": "Sour Apple Compote",
+	"Description": "A sour green syrup with halved, softened crabapples in it. It makes an interesting addition to tea cakes and charcuterie boards.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Compote",
+	"Edibility": 90,
+	"Price": 900,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Leo", "Linus", "Morgan", "Vincent" ],
+		"Like": [ "Andy", "Apples", "Eloise", "Jas", "Marnie", "Martin", "Shane", "Sheila", "Sophia", "Wednesday" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Emily", "Gregory", "Gunther", "Harvey", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Mephisto", "Pam", "Pierre", "Puck", "Robin", "Sandy", "Shuck", "Victor", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Alex", "Beatrice", "Demetrius", "Elliott", "George", "Claire", "Jodi", ],
+		"Hate": [  "Evelyn", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Sebastian", "Susan" ],
+		},
+}

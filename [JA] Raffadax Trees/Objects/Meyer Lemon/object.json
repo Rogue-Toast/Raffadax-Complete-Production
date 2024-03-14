@@ -1,0 +1,16 @@
+{
+  	"Name": "Meyer Lemon",
+  	"Description": "A hybrid fruit that tastes like a cross between a sour lemon and a sweet orange; it is larger and darker than a common lemon. The flavor profile of this fruit makes it excellent for juicing and zesting.",
+  	"Category": "Fruit",
+  	"Edibility": 25,
+  	"Price": 175,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Leo", "Olivia", "Pam" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Eloise", "Krobus", "Vincent" ],
+		"Hate": [ "Jas" ]
+		},
+}

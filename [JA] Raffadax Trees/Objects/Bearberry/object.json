@@ -1,0 +1,32 @@
+ {
+  	"Name": "Bearberry ",
+  	"Description": "A cold-adapted wild berry favored by bears. The shrub these berries were grown on was enchanted by forest spirits. When you eat these berries; you feel the spirit of the bear flow into you, attuning your senses to be in greater harmony with nature.",
+  	"Category": "Fruit",
+	"CategoryTextOverride": "Enchanted Fruit",
+  	"Edibility": 100,
+	"EdibleBuffs":
+		{
+        	"Farming": 5,
+        	"Fishing": 5,
+      		"Foraging": 5,
+        	"Mining": 5,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 500,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes":
+		{
+		"Love": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Clint", "Dwarf", "Gregory", "Hekate", "Hephaestus", "Kent", "Leo", "Linus", "Marnie", "Mephisto", "Morgan", "Puck", "Sheila", "Shuck", "Sophia", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Susan", "Victor", "Vincent", "Wednesday" ],
+		},
+}

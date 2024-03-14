@@ -1,0 +1,19 @@
+{
+	"Name": "Eggplant Juice",
+  	"Description": "A mildly bitter-sweet juice made from eggplant. It can be used as a cold juice component or utilized in soups and stews.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Juice",
+  	"Edibility": 35,
+    	"EdibleIsDrink": true,
+  	"Price": 135,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Emily", "Gus", "Haley", "Martin", "Maru", "Olivia", "Penny", "Robin", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Pam", "Pierre", "Sam", "Shane", "Sheila",  "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Morgan", "Sebastian", "Vincent" ]
+		},
+}

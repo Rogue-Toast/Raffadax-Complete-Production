@@ -1,0 +1,18 @@
+{
+  	"Name": "Mahuika's Talon",
+  	"Description": "An obsidian blade that flows with molten lava. This weapon will only burn that which its wielder intends.",
+  	"Type": "Sword",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 500,
+  	"Knockback": 5,
+  	"Speed": 1,
+  	"Accuracy": 100,
+  	"Defense": 250,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.50,
+  	"CritMultiplier": 2.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}
