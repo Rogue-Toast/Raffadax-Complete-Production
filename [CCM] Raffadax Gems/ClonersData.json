@@ -1,0 +1,52 @@
+﻿[
+    {
+        "Name": "Onyx",
+        "GetObjectBackOnChange": true,
+        "GetObjectBackImmediately": false,
+        "UsePfmForInput": false,
+        "CloningData": 
+		{
+            "Onyx": 3000,
+        	}
+    },
+    {
+        "Name": "Nahcolite",
+        "GetObjectBackOnChange": true,
+        "GetObjectBackImmediately": false,
+        "UsePfmForInput": false,
+        "CloningData": 
+		{
+            "Nahcolite": 300,
+        	}
+    },
+    {
+        "Name": "Prismatic Shard",
+        "GetObjectBackOnChange": true,
+        "GetObjectBackImmediately": false,
+        "UsePfmForInput": false,
+        "CloningData": 
+		{
+            "Prismatic Shard": 10000,
+        	}
+    },
+    {
+        "Name": "Sapphire",
+        "GetObjectBackOnChange": true,
+        "GetObjectBackImmediately": false,
+        "UsePfmForInput": false,
+        "CloningData": 
+		{
+            "Sapphire": 3000,
+        	}
+    },
+    {
+        "Name": "Rock Salt",
+        "GetObjectBackOnChange": true,
+        "GetObjectBackImmediately": false,
+        "UsePfmForInput": false,
+        "CloningData": 
+		{
+            "Rock Salt": 300,
+        	}
+    }
+]
