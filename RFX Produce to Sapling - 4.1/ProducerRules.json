@@ -1,0 +1,3999 @@
+[
+// SEEDMAKER 
+//
+	// "Wood" trees with produce sold by Robin do not produce seeds via seedmaker.
+		// Wood Trees - Black Bamboo, Ebony, Sandalwood.
+//
+	// Enchanted and divine crops do not produce seeds via seedmaker.
+		// Enchanted Crops - Bearberry, Deep Forest Rose, Deep Jungle Moss, Foxberry, Moonberry, Poison Apple, Polar Berry, Rose Grape, Summer Starberry, Sunberry, Winter Starberry, Wolfberry.
+		// Divine Crops - Apple of Discord, Apple of Idunn, Bifrost, Cintamani Flower, Dragon Berry, Fruit of the Netherworld, Hesperidium, Vakkhic Grape, Yateveo, Zaminkand.
+//
+//  FRUIT TREES -------------------------------------------------------
+//
+{// ACAI
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Acai Berry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Acai Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Acai Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Acai Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Acai Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// AVOCADO
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Avocado",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Avocado Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Avocado Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Avocado Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Avocado Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BAHIDAJ (SAGUARO CACTUS)
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Bahidaj",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Saguaro Cactus Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Saguaro Cactus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Saguaro Cactus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Saguaro Cactus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BAOBAB
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Baobab",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Baobab Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Baobab Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Baobab Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Baobab Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BERGAMOT ORANGE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Bergamot Orange",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Bergamot Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Bergamot Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Bergamot Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Bergamot Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BLACKBERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Blackberry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Blackberry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Blackberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Blackberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Blackberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BLACK CHERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Black Cherry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Black Cherry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Cherry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Cherry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Cherry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BLACK CURRANTS
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Black Currants",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Black Currant Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Currant Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Currant Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Currant Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BLUE JAVA BANANA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Blue Java Banana",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Java Banana Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Java Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Java Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Java Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BLUE RASPBERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Blue Raspberry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Blue Raspberry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Blue Raspberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Blue Raspberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Blue Raspberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BUDDHA'S HAND
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Buddha's Hand",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Buddha's Hand Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Buddha's Hand Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Buddha's Hand Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Buddha's Hand Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CARAMBOLA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Carambola",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Carambola Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Carambola Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Carambola Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Carambola Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CRABAPPLE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Crabapple",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Crabapple Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Crabapple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Crabapple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Crabapple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CRYSTAL FRUIT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Crystal Fruit",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Crystal Fruit Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Crystal Fruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Crystal Fruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Crystal Fruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// DEAD MAN'S FINGERS
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Dead Man's Fingers",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Dead Man's Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dead Man's Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dead Man's Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dead Man's Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// DRAGON FRUIT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Dragon Fruit",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Dragon Fruit Cactus Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dragon Fruit Cactus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dragon Fruit Cactus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dragon Fruit Cactus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// DURIAN
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Durian",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Durian Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Durian Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Durian Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Durian Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// ELDERBERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Elderberry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Elderberry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Elderberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Elderberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Elderberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// FIG
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Fig",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Ficus Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Ficus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Ficus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Ficus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// GOLDEN PLUM
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Golden Plum",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Golden Plum Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Golden Plum Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Golden Plum Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Golden Plum Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// GRAPEFRUIT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Grapefruit",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Grapefruit Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Grapefruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Grapefruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Grapefruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// GROS MICHEL
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Gros Michel",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Gros Michel Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Gros Michel Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Gros Michel Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Gros Michel Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// GUARANA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Guarana ",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Guarana Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Guarana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Guarana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Guarana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// GUAVA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Guava",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Guava Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Guava Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Guava Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Guava Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HAWTHORN BERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Hawthorn Berry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Hawthorn Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Hawthorn Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Hawthorn Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Hawthorn Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HONEYBERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Honeyberry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Honeyberry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Honeyberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Honeyberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Honeyberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HONEYCRISP APPLE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Honeycrisp Apple",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Honeycrisp Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Honeycrisp Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Honeycrisp Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Honeycrisp Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HUA MOA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Hua Moa",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Hua Moa Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Hua Moa Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Hua Moa Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Hua Moa Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HUCKLEBERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Huckleberry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Huckleberry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Huckleberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Huckleberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Huckleberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// JABUTICABA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Jabuticaba",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Jabuticaba Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Jabuticaba Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Jabuticaba Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Jabuticaba Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// JUNIPER
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Juniper",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Juniper Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Juniper Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Juniper Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Juniper Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// KEY LIME
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Key Lime",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Key Lime Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Key Lime Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Key Lime Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Key Lime Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// KIWI
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Kiwi",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Kiwi Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Kiwi Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Kiwi Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Kiwi Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// KUMQUAT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Kumquat",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Kumquat Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Kumquat Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Kumquat Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Kumquat Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// LARAHA ORANGE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Laraha Orange",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Laraha Orange Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Laraha Orange Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Laraha Orange Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Laraha Orange Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// LEMON
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Lemon",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Lemon Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// LIME
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Lime",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Lime Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lime Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lime Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lime Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// LYCHEE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Lychee",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Lychee Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lychee Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lychee Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lychee Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// MANDARIN ORANGE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Mandarin Orange",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Mandarin Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Mandarin Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Mandarin Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Mandarin Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// MEYER LEMON
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Meyer Lemon",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Meyer Lemon Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Meyer Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Meyer Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Meyer Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// MISTLETOE (BLACK OAK)
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Mistletoe",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Black Oak Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Oak Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Oak Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Oak Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+{// MONSTERA DELICIOSA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Monstera Deliciosa",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Monstera Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Monstera Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Monstera Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Monstera Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// MULBERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Mulberry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Mulberry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Mulberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Mulberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Mulberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// MYRISTICA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Myristica",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Myristica Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Myristica Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Myristica Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Myristica Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// MYRISTICA - ARIL
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Myristica Aril",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Myristica Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Myristica Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Myristica Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Myristica Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// MYRISTICA - NUTMEG
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Nutmeg ",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Myristica Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Myristica Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput":
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Myristica Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Myristica Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// NINO BANANAS
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Nino Bananas",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Nino Banana Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Nino Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Nino Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Nino Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+{// PAPAYA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Papaya",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Papaya Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Papaya Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Papaya Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Papaya Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// PEAR
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Pear",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Pear Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// PERSIMMON
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Persimmon",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Persimmon Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Persimmon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Persimmon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Persimmon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+{// PIMENTO BERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Pimento Berry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Pimento Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pimento Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pimento Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pimento Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// PINK LEMON
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Pink Lemon",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Pink Lemon Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pink Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pink Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pink Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// PLANTAIN
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Plantain",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Plantain Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Plantain Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Plantain Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Plantain Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// QUINCE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Quince",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Quince Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Quince Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Quince Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Quince Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// RAMBUTAN
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Rambutan",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Rambutan Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rambutan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rambutan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rambutan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// RASPBERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Raspberry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Raspberry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Raspberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Raspberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Raspberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// RED ANJOU PEAR
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Red Anjou Pear",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Anjou Pear Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Anjou Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Anjou Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Anjou Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// RED DACCA BANANA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Red Dacca Banana",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Dacca Banana Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dacca Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dacca Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dacca Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// ROWANBERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Rowanberry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Rowan Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rowan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rowan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rowan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+{// RUBY RED GRAPEFRUIT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Ruby Red Grapefruit",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Red Grapefruit Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Red Grapefruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Red Grapefruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Red Grapefruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// SALMONBERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Salmonberry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Salmonberry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Salmonberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Salmonberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Salmonberry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// SASKATOON
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Saskatoon",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Saskatoon Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Saskatoon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Saskatoon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Saskatoon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// SLOE PLUM (BLACKTHORN)
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Sloe Plum",	
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Blackthorn Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Blackthorn Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Blackthorn Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Blackthorn Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// SPICE BERRY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Spice Berry",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Spice Berry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Spice Berry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Spice Berry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Spice Berry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// STAR APPLE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Star Apple",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Star Apple Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Star Apple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Star Apple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Star Apple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// SUMAC
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Sumac",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Sumac Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sumac Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sumac Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sumac Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// TAMARIND
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Tamarind",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Tamarind Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Tamarind Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Tamarind Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Tamarind Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// WHITE PEACH
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "White Peach",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "White Peach Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "White Peach Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "White Peach Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "White Peach Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// WILD PLUM
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Wild Plum",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Forest Plum Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Forest Plum Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Forest Plum Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Forest Plum Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+//
+// VEGETABLE TREES -----------------------------------------------------
+//
+{// AGAVE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Agave",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Agave Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Agave Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Agave Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Agave Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BLACK OLIVE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Black Olive",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Black Olive Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Olive Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Olive Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Olive Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HEARTS OF PALM
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Hearts of Palm",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Palm Grove Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Palm Grove Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Palm Grove Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Palm Grove Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// OLIVE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Olive",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Olive Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Olive Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Olive Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Olive Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+//
+// FLOWER TREES ----------------------------------------------------
+//
+{// CLEMATIS
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Clematis",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Clematis Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Clematis Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Clematis Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Clematis Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// DOGWOOD
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Dogwood",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Dogwood Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dogwood Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dogwood Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Dogwood Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// ELDERFLOWER
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Elderflower",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Elder Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Elder Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Elder Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Elder Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// FORSYTHIA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Forsythia",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Forsythia Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Forsythia Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Forsythia Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Forsythia Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HIBISCUS
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Hibiscus",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Hibiscus Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Hibiscus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Hibiscus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Hibiscus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HONEYSUCKLE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Honeysuckle",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Honeysuckle Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Honeysuckle Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Honeysuckle Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Honeysuckle Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// JACARANDA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Jacaranda",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Jacaranda Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Jacaranda Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Jacaranda Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Jacaranda Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// LAVENDER
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Lavender",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Lavender Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lavender Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lavender Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lavender Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// LILAC
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Lilac",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Lilac Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lilac Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lilac Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Lilac Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// LINDEN
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Linden",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Linden Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Linden Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Linden Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Linden Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+{// MIMOSA FLOWER
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Mimosa Flower",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Mimosa Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Mimosa Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Mimosa Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Mimosa Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// OSMANTHUS
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Osmanthus",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Osmanthus Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Osmanthus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Osmanthus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Osmanthus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// ROYAL POINCIANA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Royal Poinciana",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Poinciana Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Poinciana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Poinciana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Poinciana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// SAKURA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Sakura",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Sakura Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sakura Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sakura Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sakura Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+{// STAR JASMINE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Star Jasmine",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Star Jasmine Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Star Jasmine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Star Jasmine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Star Jasmine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// WISTERIA
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Wisteria",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Wisteria Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Wisteria Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Wisteria Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Wisteria Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// WITCH HAZEL
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Witch Hazel",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Witch Hazel Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Witch Hazel Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Witch Hazel Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Witch Hazel Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+//
+// NUT TREES -------------------------------------------------------
+//
+{// ALMOND
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Almond",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Almond Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Almond Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Almond Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Almond Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BLACK CACAO
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Black Cacao Pod",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Black Cacao Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Cacao Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Cacao Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Cacao Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BLACK WALNUT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Black Walnut",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Black Walnut Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Walnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Walnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Black Walnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BRAZIL NUT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Brazil Nut",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Brazil Nut Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Brazil Nut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Brazil Nut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Brazil Nut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CACAO
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Cacao Pod",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Cacao Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cacao Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cacao Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cacao Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CASHEW APPLE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Cashew Apple",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Cashew Apple Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cashew Apple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cashew Apple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cashew Apple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CASHEW 
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Cashew",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Cashew Apple Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cashew Apple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cashew Apple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cashew Apple Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CHESTNUT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Chestnut",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Chestnut Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Chestnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Chestnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Chestnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// COCO DE MER
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Coco de Mer",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Coco de Mer Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Coco de Mer Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Coco de Mer Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": {
+		"Probability": 1,
+		"OutputIdentifier": "Coco de Mer Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// COCONUT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Coconut",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Island Coconut Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Island Coconut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Island Coconut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Island Coconut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HAZELNUT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Hazelnut",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Wild Hazelnut Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Wild Hazelnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Wild Hazelnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Wild Hazelnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// KOLA NUT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Kola Nut",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Kola Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Kola Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Kola Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Kola Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// MACADAMIA NUT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Macadamia Nut",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Macadamia Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Macadamia Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Macadamia Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Macadamia Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// MARCONA ALMOND
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Marcona Almond",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Marcona Almond Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Marcona Almond Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Marcona Almond Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Marcona Almond Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// PECAN
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Pecan",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Pecan Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pecan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pecan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pecan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// PINE NUT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Pine Nut",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Pine Nut Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pine Nut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pine Nut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pine Nut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// PISTACHIO
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Pistachio ",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Pistachio Sapling ",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pistachio Sapling ",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pistachio Sapling ",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Pistachio Sapling ",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// SEA HEART
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Sea Heart",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Monkey Liana Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Monkey Liana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Monkey Liana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Monkey Liana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// WALNUT
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Walnut",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Walnut Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Walnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Walnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Walnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// WHITE CACAO
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "White Cacao Pod",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "White Cacao Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "White Cacao Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "White Cacao Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "White Cacao Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+//
+// HERB TREES ----------------------------------------------------------
+//
+{// ANGUSTURA BARK
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Angostura Bark",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Angostura Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Angostura Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Angostura Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Angostura Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BAY LEAF
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Bay Leaf",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Bay Laurel Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Bay Laurel Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Bay Laurel Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Bay Laurel Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BIRCH BARK
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Birch Bark",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Birch Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Birch Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Birch Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Birch Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CINCHONA BARK
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Cinchona Bark",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Cinchona Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cinchona Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cinchona Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cinchona Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CURRY LEAF
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Curry Leaf",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Curry Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Curry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Curry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Curry Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// GINKGO LEAF
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Ginkgo Leaf",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Ginkgo Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Ginkgo Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Ginkgo Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Ginkgo Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// HOLLY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Holly",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Holly Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Holly Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Holly Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Holly Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// BAY LEAF
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Rainbow Eucalyptus Leaf",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Rainbow Eucalyptus Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rainbow Eucalyptus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rainbow Eucalyptus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rainbow Eucalyptus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// ROOIBOS
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Rooibos",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Rooibos Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rooibos Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rooibos Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rooibos Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+{// ROSEMARY
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Rosemary",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Rosemary Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rosemary Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rosemary Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Rosemary Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+{// SASSAFRAS
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Sassafras Root",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Sassafras Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sassafras Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sassafras Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sassafras Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+}, 
+{// SPRUCE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Spruce Tips",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Spruce Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Spruce Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Spruce Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Spruce Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// WILLOW
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Willow Bark",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Willow Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Willow Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Willow Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Willow Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+//
+// SPICE TREES --------------------------------------------------------------
+//
+{// ACHIOTE (ANNATTO)
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Annatto",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Achiote Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Achiote Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Achiote Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Achiote Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+
+{// CINNAMON
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Cinnamon Bark",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Cinnamomum Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cinnamomum Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cinnamomum Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Cinnamomum Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// CLOVE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Clove",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Clove Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Clove Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Clove Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Clove Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+{// ILLICIUM
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Star Anise",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Illicium Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Illicium Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Illicium Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Illicium Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+//
+// MICS TREES 
+//
+{// SUGARCANE
+	"ProducerName": "Seed Maker",
+	"InputIdentifier": "Sugarcane",
+	"MinutesUntilReady": 20,
+	"OutputIdentifier": "Sugarcane Sapling",
+	"OutputStack": 1,
+	"OutputMaxStack": 1,
+	"SilverQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sugarcane Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"GoldQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sugarcane Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},        
+	"IridiumQualityInput": 
+		{
+		"Probability": 1,
+		"OutputIdentifier": "Sugarcane Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1
+		},
+	"Sounds": ["Ship"],
+	"DelayedSounds":  [{"dirtyHit": 250}]
+},
+]

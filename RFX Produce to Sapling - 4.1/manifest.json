@@ -1,0 +1,18 @@
+{
+	"Name": "Raffadax Produce to Sapling",
+   	"Author": "Raffadax",
+   	"Description": "Adds Produce to Sapling compatability code for Raffadax tree crops. Wood, Enchanted and Divine trees do not produce seeds via seedmaker.",
+   	"UniqueID": "Raffadax.Produce2Sapling",
+	"Version": "4.1",
+   	"ContentPackFor": 
+		{
+       		"UniqueID": "Digus.ProducerFrameworkMod"
+        	},
+    	"Dependencies": 
+		[
+   		{
+      		"UniqueID": "Raffadax.Trees",
+      		"IsRequired": true,
+   		}
+		]
+}
