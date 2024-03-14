@@ -1,0 +1,17 @@
+﻿{
+	"Name": "Raffadax Complete Production",
+	"Author": "Raffadax",
+	"Version": "5.0",
+	"Description": "A massive expansion mod that adds thousands of items to the game.",
+	"UniqueID": "Raffadax.RaffadaxCompleteProduction",
+	"MinimumApiVersion": "4.0.0",
+	"Dependencies": [
+			{
+			"UniqueID": ""
+			}
+		],
+	"ContentPackFor": 
+		{
+		"UniqueID": "Pathoschild.ContentPatcher"
+		}
+}
