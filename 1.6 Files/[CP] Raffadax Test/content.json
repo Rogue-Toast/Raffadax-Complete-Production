@@ -1,0 +1,21 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/crops.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/trees.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/weapons.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/artisan.json"
+        }
+    ]
+}

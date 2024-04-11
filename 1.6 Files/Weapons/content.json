@@ -5,7 +5,7 @@
             "LogName": "Raffadax Tree Textures",
             "Action": "Load",
             "Target": "Mods/Raffadax.Weapons/Weapons",
-            "FromFile": "assets/textures/weapons.png"
+            "FromFile": "assets/textures/weaponobjects.png"
         },
         {
             "LogName": "Raffadax New Weapons",
@@ -14,8 +14,8 @@
             "Entries": {
                 "Raffadax.Weapons_Airgetlam": {
                     "Name": "Raffadax.Weapons_Airgetlam",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Airgetlam.Description}}",
+                    "DisplayName": "{{i18n:Airgetlam.Displayname}}",
+                    "Description": "{{i18n:Airgetlam.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 0,
@@ -30,13 +30,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 7.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Airgetlam.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_AntlerofCernunnos": {
                     "Name": "Raffadax.Weapons_AntlerofCernunnos",
-                    "DisplayName": "",
-                    "Description": "{{i18n: AntlerofCernunnos.Description}}",
+                    "DisplayName": "{{i18n:AntlerofCernunnos.Displayname}}",
+                    "Description": "{{i18n:AntlerofCernunnos.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 1,
@@ -51,13 +50,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: AntlerofCernunnos.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Aurelia": {
                     "Name": "Raffadax.Weapons_Aurelia",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Aurelia.Description}}",
+                    "DisplayName": "{{i18n:Aurelia.Displayname}}",
+                    "Description": "{{i18n:Aurelia.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 2,
@@ -72,13 +70,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Aurelia.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Balmung": {
                     "Name": "Raffadax.Weapons_Balmung",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Balmung.Description}}",
+                    "DisplayName": "{{i18n:Balmung.Displayname}}",
+                    "Description": "{{i18n:Balmung.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 3,
@@ -93,13 +90,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 1.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Balmung.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_BowofEros": {
                     "Name": "Raffadax.Weapons_BowofEros",
-                    "DisplayName": "",
-                    "Description": "{{i18n: BowofEros.Description}}",
+                    "DisplayName": "{{i18n:BowofEros.Displayname}}",
+                    "Description": "{{i18n:BowofEros.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 4,
@@ -114,13 +110,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 2.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: BowofEros.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Bragi": {
                     "Name": "Raffadax.Weapons_Bragi",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Bragi.Description}}",
+                    "DisplayName": "{{i18n:Bragi.Displayname}}",
+                    "Description": "{{i18n:Bragi.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 5,
@@ -135,13 +130,12 @@
                     "CritChance": 0.3,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Bragi.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Brionac": {
                     "Name": "Raffadax.Weapons_Brionac",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Brionac.Description}}",
+                    "DisplayName": "{{i18n:Brionac.Displayname}}",
+                    "Description": "{{i18n:Brionac.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 6,
@@ -156,13 +150,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 2.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Brionac.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Brisingamen": {
                     "Name": "Raffadax.Weapons_Brisingamen",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Brisingamen.Description}}",
+                    "DisplayName": "{{i18n:Brisingamen.Displayname}}",
+                    "Description": "{{i18n:Brisingamen.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 7,
@@ -177,13 +170,12 @@
                     "CritChance": 0.3,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Brisingamen.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Caladcholg": {
                     "Name": "Raffadax.Weapons_Caladcholg",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Caladcholg.Description}}",
+                    "DisplayName": "{{i18n:Caladcholg.Displayname}}",
+                    "Description": "{{i18n:Caladcholg.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 8,
@@ -198,13 +190,12 @@
                     "CritChance": 0.3,
                     "CritMultiplier": 7.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Caladcholg.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Caliburn": {
                     "Name": "Raffadax.Weapons_Caliburn",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Caliburn.Description}}",
+                    "DisplayName": "{{i18n:Caliburn.Displayname}}",
+                    "Description": "{{i18n:Caliburn.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 9,
@@ -219,13 +210,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Caliburn.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Callisto": {
                     "Name": "Raffadax.Weapons_Callisto",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Callisto.Description}}",
+                    "DisplayName": "{{i18n:Callisto.Displayname}}",
+                    "Description": "{{i18n:Callisto.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 10,
@@ -240,13 +230,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Callisto.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_ClaiomhSolais": {
                     "Name": "Raffadax.Weapons_ClaiomhSolais",
-                    "DisplayName": "",
-                    "Description": "{{i18n: ClaiomhSolais.Description}}",
+                    "DisplayName": "{{i18n:ClaiomhSolais.Displayname}}",
+                    "Description": "{{i18n:ClaiomhSolais.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 11,
@@ -261,13 +250,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: ClaiomhSolais.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Clarent": {
                     "Name": "Raffadax.Weapons_Clarent",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Clarent.Description}}",
+                    "DisplayName": "{{i18n:Clarent.Displayname}}",
+                    "Description": "{{i18n:Clarent.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 12,
@@ -282,13 +270,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Clarent.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Corndelicorne": {
                     "Name": "Raffadax.Weapons_Corndelicorne",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Corndelicorne.Description}}",
+                    "DisplayName": "{{i18n:Corndelicorne.Displayname}}",
+                    "Description": "{{i18n:Corndelicorne.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 13,
@@ -303,13 +290,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Corndelicorne.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Dainsleif": {
                     "Name": "Raffadax.Weapons_Dainsleif",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Dainsleif.Description}}",
+                    "DisplayName": "{{i18n:Dainsleif.Displayname}}",
+                    "Description": "{{i18n:Dainsleif.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 14,
@@ -324,13 +310,12 @@
                     "CritChance": 0.3,
                     "CritMultiplier": 6.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Dainsleif.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_DragonCrescentBlade": {
                     "Name": "Raffadax.Weapons_DragonCrescentBlade",
-                    "DisplayName": "",
-                    "Description": "{{i18n: DragonCrescentBlade.Description}}",
+                    "DisplayName": "{{i18n:DragonCrescentBlade.Displayname}}",
+                    "Description": "{{i18n:DragonCrescentBlade.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 15,
@@ -345,13 +330,12 @@
                     "CritChance": 0.2,
                     "CritMultiplier": 2.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: DragonCrescentBlade.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Dreamcatcher": {
                     "Name": "Raffadax.Weapons_Dreamcatcher",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Dreamcatcher.Description}}",
+                    "DisplayName": "{{i18n:Dreamcatcher.Displayname}}",
+                    "Description": "{{i18n:Dreamcatcher.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 16,
@@ -366,13 +350,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 8.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Dreamcatcher.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Durandal": {
                     "Name": "Raffadax.Weapons_Durandal",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Durandal.Description}}",
+                    "DisplayName": "{{i18n:Durandal.Displayname}}",
+                    "Description": "{{i18n:Durandal.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 17,
@@ -387,13 +370,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 10.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Durandal.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Dystopia": {
                     "Name": "Raffadax.Weapons_Dystopia",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Dystopia.Description}}",
+                    "DisplayName": "{{i18n:Dystopia.Displayname}}",
+                    "Description": "{{i18n:Dystopia.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 18,
@@ -408,13 +390,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 10.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Dystopia.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Eurydice": {
                     "Name": "Raffadax.Weapons_Eurydice",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Eurydice.Description}}",
+                    "DisplayName": "{{i18n:Eurydice.Displayname}}",
+                    "Description": "{{i18n:Eurydice.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 19,
@@ -429,13 +410,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 2.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Eurydice.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Excalibur": {
                     "Name": "Raffadax.Weapons_Excalibur",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Excalibur.Description}}",
+                    "DisplayName": "{{i18n:Excalibur.Displayname}}",
+                    "Description": "{{i18n:Excalibur.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 20,
@@ -450,13 +430,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 2.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Excalibur.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_EyeofRa": {
                     "Name": "Raffadax.Weapons_EyeofRa",
-                    "DisplayName": "",
-                    "Description": "{{i18n: EyeofRa.Description}}",
+                    "DisplayName": "{{i18n:EyeofRa.Displayname}}",
+                    "Description": "{{i18n:EyeofRa.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 21,
@@ -471,13 +450,12 @@
                     "CritChance": 0.3,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: EyeofRa.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Faunus": {
                     "Name": "Raffadax.Weapons_Faunus",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Faunus.Description}}",
+                    "DisplayName": "{{i18n:Faunus.Displayname}}",
+                    "Description": "{{i18n:Faunus.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 22,
@@ -492,13 +470,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Faunus.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_FrostFareBlade": {
                     "Name": "Raffadax.Weapons_FrostFareBlade",
-                    "DisplayName": "",
-                    "Description": "{{i18n: FrostFareBlade.Description}}",
+                    "DisplayName": "{{i18n:FrostFareBlade.Displayname}}",
+                    "Description": "{{i18n:FrostFareBlade.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 23,
@@ -513,13 +490,12 @@
                     "CritChance": 0.2,
                     "CritMultiplier": 2.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: FrostFareBlade.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Galatine": {
                     "Name": "Raffadax.Weapons_Galatine",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Galatine.Description}}",
+                    "DisplayName": "{{i18n:Galatine.Displayname}}",
+                    "Description": "{{i18n:Galatine.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 24,
@@ -534,13 +510,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Galatine.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Gambanteinn": {
                     "Name": "Raffadax.Weapons_Gambanteinn",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Gambanteinn.Description}}",
+                    "DisplayName": "{{i18n:Gambanteinn.Displayname}}",
+                    "Description": "{{i18n:Gambanteinn.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 25,
@@ -555,13 +530,12 @@
                     "CritChance": 0.2,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Gambanteinn.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Glamdring": {
                     "Name": "Raffadax.Weapons_Glamdring",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Glamdring.Description}}",
+                    "DisplayName": "{{i18n:Glamdring.Displayname}}",
+                    "Description": "{{i18n:Glamdring.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 26,
@@ -576,13 +550,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Glamdring.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Gram": {
                     "Name": "Raffadax.Weapons_Gram",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Gram.Description}}",
+                    "DisplayName": "{{i18n:Gram.Displayname}}",
+                    "Description": "{{i18n:Gram.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 27,
@@ -597,13 +570,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 2.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Gram.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Gungnir": {
                     "Name": "Raffadax.Weapons_Gungnir",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Gungnir.Description}}",
+                    "DisplayName": "{{i18n:Gungnir.Displayname}}",
+                    "Description": "{{i18n:Gungnir.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 28,
@@ -618,13 +590,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Gungnir.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Inkanyamba": {
                     "Name": "Raffadax.Weapons_Inkanyamba",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Inkanyamba.Description}}",
+                    "DisplayName": "{{i18n:Inkanyamba.Displayname}}",
+                    "Description": "{{i18n:Inkanyamba.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 29,
@@ -639,13 +610,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Inkanyamba.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Kaumodaki": {
                     "Name": "Raffadax.Weapons_Kaumodaki",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Kaumodaki.Description}}",
+                    "DisplayName": "{{i18n:Kaumodaki.Displayname}}",
+                    "Description": "{{i18n:Kaumodaki.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 30,
@@ -660,13 +630,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Kaumodaki.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Kerykeion": {
                     "Name": "Raffadax.Weapons_Kerykeion",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Kerykeion.Description}}",
+                    "DisplayName": "{{i18n:Kerykeion.Displayname}}",
+                    "Description": "{{i18n:Kerykeion.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 31,
@@ -681,13 +650,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 2.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Kerykeion.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Kusanagi": {
                     "Name": "Raffadax.Weapons_Kusanagi",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Kusanagi.Description}}",
+                    "DisplayName": "{{i18n:Kusanagi.Displayname}}",
+                    "Description": "{{i18n:Kusanagi.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 32,
@@ -702,13 +670,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 2.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Kusanagi.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_KwakuAnanse": {
                     "Name": "Raffadax.Weapons_KwakuAnanse",
-                    "DisplayName": "",
-                    "Description": "{{i18n: KwakuAnanse.Description}}",
+                    "DisplayName": "{{i18n:KwakuAnanse.Displayname}}",
+                    "Description": "{{i18n:KwakuAnanse.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 33,
@@ -723,13 +690,12 @@
                     "CritChance": 0.4,
                     "CritMultiplier": 8.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: KwakuAnanse.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Kyuubi": {
                     "Name": "Raffadax.Weapons_Kyuubi",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Kyuubi.Description}}",
+                    "DisplayName": "{{i18n:Kyuubi.Displayname}}",
+                    "Description": "{{i18n:Kyuubi.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 34,
@@ -744,13 +710,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 9.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Kyuubi.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Laevateinn": {
                     "Name": "Raffadax.Weapons_Laevateinn",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Laevateinn.Description}}",
+                    "DisplayName": "{{i18n:Laevateinn.Displayname}}",
+                    "Description": "{{i18n:Laevateinn.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 35,
@@ -765,13 +730,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 10.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Laevateinn.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Lagertha": {
                     "Name": "Raffadax.Weapons_Lagertha",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Lagertha.Description}}",
+                    "DisplayName": "{{i18n:Lagertha.Displayname}}",
+                    "Description": "{{i18n:Lagertha.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 36,
@@ -786,13 +750,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 20.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Lagertha.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Longinus": {
                     "Name": "Raffadax.Weapons_Longinus",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Longinus.Description}}",
+                    "DisplayName": "{{i18n:Longinus.Displayname}}",
+                    "Description": "{{i18n:Longinus.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 37,
@@ -807,13 +770,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 15.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Longinus.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_LorgMor": {
                     "Name": "Raffadax.Weapons_LorgMor",
-                    "DisplayName": "",
-                    "Description": "{{i18n: LorgMor.Description}}",
+                    "DisplayName": "{{i18n:LorgMor.Displayname}}",
+                    "Description": "{{i18n:LorgMor.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 38,
@@ -828,13 +790,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 1.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: LorgMor.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Mahuika'sTalon": {
                     "Name": "Raffadax.Weapons_Mahuika'sTalon",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Mahuika'sTalon.Description}}",
+                    "DisplayName": "{{i18n:Mahuika'sTalon.Displayname}}",
+                    "Description": "{{i18n:Mahuika'sTalon.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 39,
@@ -849,13 +810,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 2.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Mahuika'sTalon.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Mezzaluna": {
                     "Name": "Raffadax.Weapons_Mezzaluna",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Mezzaluna.Description}}",
+                    "DisplayName": "{{i18n:Mezzaluna.Displayname}}",
+                    "Description": "{{i18n:Mezzaluna.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 40,
@@ -870,13 +830,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 2.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Mezzaluna.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_MirrorofPachacutec": {
                     "Name": "Raffadax.Weapons_MirrorofPachacutec",
-                    "DisplayName": "",
-                    "Description": "{{i18n: MirrorofPachacutec.Description}}",
+                    "DisplayName": "{{i18n:MirrorofPachacutec.Displayname}}",
+                    "Description": "{{i18n:MirrorofPachacutec.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 41,
@@ -891,13 +850,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: MirrorofPachacutec.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Mjollnir": {
                     "Name": "Raffadax.Weapons_Mjollnir",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Mjollnir.Description}}",
+                    "DisplayName": "{{i18n:Mjollnir.Displayname}}",
+                    "Description": "{{i18n:Mjollnir.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 42,
@@ -912,13 +870,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Mjollnir.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_MomentoMori": {
                     "Name": "Raffadax.Weapons_MomentoMori",
-                    "DisplayName": "",
-                    "Description": "{{i18n: MomentoMori.Description}}",
+                    "DisplayName": "{{i18n:MomentoMori.Displayname}}",
+                    "Description": "{{i18n:MomentoMori.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 43,
@@ -933,13 +890,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 10.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: MomentoMori.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Mwindo'sScepter": {
                     "Name": "Raffadax.Weapons_Mwindo'sScepter",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Mwindo'sScepter.Description}}",
+                    "DisplayName": "{{i18n:Mwindo'sScepter.Displayname}}",
+                    "Description": "{{i18n:Mwindo'sScepter.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 44,
@@ -954,13 +910,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 2.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Mwindo'sScepter.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Naberius": {
                     "Name": "Raffadax.Weapons_Naberius",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Naberius.Description}}",
+                    "DisplayName": "{{i18n:Naberius.Displayname}}",
+                    "Description": "{{i18n:Naberius.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 45,
@@ -975,13 +930,12 @@
                     "CritChance": 0.3,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Naberius.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Nidhoggr": {
                     "Name": "Raffadax.Weapons_Nidhoggr",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Nidhoggr.Description}}",
+                    "DisplayName": "{{i18n:Nidhoggr.Displayname}}",
+                    "Description": "{{i18n:Nidhoggr.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 46,
@@ -996,13 +950,12 @@
                     "CritChance": 0.2,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Nidhoggr.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Ohto": {
                     "Name": "Raffadax.Weapons_Ohto",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Ohto.Description}}",
+                    "DisplayName": "{{i18n:Ohto.Displayname}}",
+                    "Description": "{{i18n:Ohto.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 47,
@@ -1017,13 +970,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 10.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Ohto.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Orcus": {
                     "Name": "Raffadax.Weapons_Orcus",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Orcus.Description}}",
+                    "DisplayName": "{{i18n:Orcus.Displayname}}",
+                    "Description": "{{i18n:Orcus.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 48,
@@ -1038,13 +990,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Orcus.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Orion": {
                     "Name": "Raffadax.Weapons_Orion",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Orion.Description}}",
+                    "DisplayName": "{{i18n:Orion.Displayname}}",
+                    "Description": "{{i18n:Orion.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 49,
@@ -1059,13 +1010,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 1.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Orion.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Ouroboros": {
                     "Name": "Raffadax.Weapons_Ouroboros",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Ouroboros.Description}}",
+                    "DisplayName": "{{i18n:Ouroboros.Displayname}}",
+                    "Description": "{{i18n:Ouroboros.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 50,
@@ -1080,13 +1030,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Ouroboros.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_PhoenixPinion": {
                     "Name": "Raffadax.Weapons_PhoenixPinion",
-                    "DisplayName": "",
-                    "Description": "{{i18n: PhoenixPinion.Description}}",
+                    "DisplayName": "{{i18n:PhoenixPinion.Displayname}}",
+                    "Description": "{{i18n:PhoenixPinion.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 51,
@@ -1101,13 +1050,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 2.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: PhoenixPinion.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Ragnarok": {
                     "Name": "Raffadax.Weapons_Ragnarok",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Ragnarok.Description}}",
+                    "DisplayName": "{{i18n:Ragnarok.Displayname}}",
+                    "Description": "{{i18n:Ragnarok.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 52,
@@ -1122,13 +1070,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 10.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Ragnarok.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Ratatoskr": {
                     "Name": "Raffadax.Weapons_Ratatoskr",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Ratatoskr.Description}}",
+                    "DisplayName": "{{i18n:Ratatoskr.Displayname}}",
+                    "Description": "{{i18n:Ratatoskr.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 53,
@@ -1143,13 +1090,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Ratatoskr.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Revontulet": {
                     "Name": "Raffadax.Weapons_Revontulet",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Revontulet.Description}}",
+                    "DisplayName": "{{i18n:Revontulet.Displayname}}",
+                    "Description": "{{i18n:Revontulet.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 54,
@@ -1164,13 +1110,12 @@
                     "CritChance": 0.7,
                     "CritMultiplier": 7.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Revontulet.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_SavetheQueen": {
                     "Name": "Raffadax.Weapons_SavetheQueen",
-                    "DisplayName": "",
-                    "Description": "{{i18n: SavetheQueen.Description}}",
+                    "DisplayName": "{{i18n:SavetheQueen.Displayname}}",
+                    "Description": "{{i18n:SavetheQueen.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 55,
@@ -1185,13 +1130,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 2.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: SavetheQueen.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Sedit'sWhisker": {
                     "Name": "Raffadax.Weapons_Sedit'sWhisker",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Sedit'sWhisker.Description}}",
+                    "DisplayName": "{{i18n:Sedit'sWhisker.Displayname}}",
+                    "Description": "{{i18n:Sedit'sWhisker.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 56,
@@ -1206,13 +1150,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 10.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Sedit'sWhisker.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_SilverCrescent": {
                     "Name": "Raffadax.Weapons_SilverCrescent",
-                    "DisplayName": "",
-                    "Description": "{{i18n: SilverCrescent.Description}}",
+                    "DisplayName": "{{i18n:SilverCrescent.Displayname}}",
+                    "Description": "{{i18n:SilverCrescent.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 57,
@@ -1227,13 +1170,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 2.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: SilverCrescent.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Skirnismal": {
                     "Name": "Raffadax.Weapons_Skirnismal",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Skirnismal.Description}}",
+                    "DisplayName": "{{i18n:Skirnismal.Displayname}}",
+                    "Description": "{{i18n:Skirnismal.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 58,
@@ -1248,13 +1190,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Skirnismal.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_StaffofIris": {
                     "Name": "Raffadax.Weapons_StaffofIris",
-                    "DisplayName": "",
-                    "Description": "{{i18n: StaffofIris.Description}}",
+                    "DisplayName": "{{i18n:StaffofIris.Displayname}}",
+                    "Description": "{{i18n:StaffofIris.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 59,
@@ -1269,13 +1210,12 @@
                     "CritChance": 0.75,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: StaffofIris.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_StaffofOisin": {
                     "Name": "Raffadax.Weapons_StaffofOisin",
-                    "DisplayName": "",
-                    "Description": "{{i18n: StaffofOisin.Description}}",
+                    "DisplayName": "{{i18n:StaffofOisin.Displayname}}",
+                    "Description": "{{i18n:StaffofOisin.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 60,
@@ -1290,13 +1230,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: StaffofOisin.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_StaffofYoba": {
                     "Name": "Raffadax.Weapons_StaffofYoba",
-                    "DisplayName": "",
-                    "Description": "{{i18n: StaffofYoba.Description}}",
+                    "DisplayName": "{{i18n:StaffofYoba.Displayname}}",
+                    "Description": "{{i18n:StaffofYoba.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 61,
@@ -1311,13 +1250,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: StaffofYoba.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Sundog": {
                     "Name": "Raffadax.Weapons_Sundog",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Sundog.Description}}",
+                    "DisplayName": "{{i18n:Sundog.Displayname}}",
+                    "Description": "{{i18n:Sundog.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 62,
@@ -1332,13 +1270,12 @@
                     "CritChance": 0.25,
                     "CritMultiplier": 2.5,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Sundog.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_SwordofThunderbolt": {
                     "Name": "Raffadax.Weapons_SwordofThunderbolt",
-                    "DisplayName": "",
-                    "Description": "{{i18n: SwordofThunderbolt.Description}}",
+                    "DisplayName": "{{i18n:SwordofThunderbolt.Displayname}}",
+                    "Description": "{{i18n:SwordofThunderbolt.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 63,
@@ -1353,13 +1290,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: SwordofThunderbolt.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Tezcatlipoca": {
                     "Name": "Raffadax.Weapons_Tezcatlipoca",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Tezcatlipoca.Description}}",
+                    "DisplayName": "{{i18n:Tezcatlipoca.Displayname}}",
+                    "Description": "{{i18n:Tezcatlipoca.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 64,
@@ -1374,13 +1310,12 @@
                     "CritChance": 0.2,
                     "CritMultiplier": 5.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Tezcatlipoca.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Thyrsus": {
                     "Name": "Raffadax.Weapons_Thyrsus",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Thyrsus.Description}}",
+                    "DisplayName": "{{i18n:Thyrsus.Displayname}}",
+                    "Description": "{{i18n:Thyrsus.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 65,
@@ -1395,13 +1330,12 @@
                     "CritChance": 0.1,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Thyrsus.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Triton": {
                     "Name": "Raffadax.Weapons_Triton",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Triton.Description}}",
+                    "DisplayName": "{{i18n:Triton.Displayname}}",
+                    "Description": "{{i18n:Triton.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 66,
@@ -1416,13 +1350,12 @@
                     "CritChance": 0.3,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Triton.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Tyrfing": {
                     "Name": "Raffadax.Weapons_Tyrfing",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Tyrfing.Description}}",
+                    "DisplayName": "{{i18n:Tyrfing.Displayname}}",
+                    "Description": "{{i18n:Tyrfing.Description}}",
                     "Type": 0,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 67,
@@ -1436,13 +1369,12 @@
                     "CritChance": 0.9,
                     "CritMultiplier": 10.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Tyrfing.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Vajra": {
                     "Name": "Raffadax.Weapons_Vajra",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Vajra.Description}}",
+                    "DisplayName": "{{i18n:Vajra.Displayname}}",
+                    "Description": "{{i18n:Vajra.Description}}",
                     "Type": 2,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 68,
@@ -1457,13 +1389,12 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 3.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Vajra.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Wepwawet": {
                     "Name": "Raffadax.Weapons_Wepwawet",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Wepwawet.Description}}",
+                    "DisplayName": "{{i18n:Wepwawet.Displayname}}",
+                    "Description": "{{i18n:Wepwawet.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 69,
@@ -1478,13 +1409,12 @@
                     "CritChance": 0.3,
                     "CritMultiplier": 6.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Wepwawet.Displayname}}"
+                    "MineMinLevel": -1
                 },
                 "Raffadax.Weapons_Zephyros": {
                     "Name": "Raffadax.Weapons_Zephyros",
-                    "DisplayName": "",
-                    "Description": "{{i18n: Zephyros.Description}}",
+                    "DisplayName": "{{i18n:Zephyros.Displayname}}",
+                    "Description": "{{i18n:Zephyros.Description}}",
                     "Type": 3,
                     "Texture": "Mods/Raffadax.Weapons/Weapons",
                     "SpriteIndex": 70,
@@ -1499,8 +1429,7 @@
                     "CritChance": 0.5,
                     "CritMultiplier": 4.0,
                     "MineBaseLevel": -1,
-                    "MineMinLevel": -1,
-                    "Displayname": "{{i18n: Zephyros.Displayname}}"
+                    "MineMinLevel": -1
                 }
             }
         }
