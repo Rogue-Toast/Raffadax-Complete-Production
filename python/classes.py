@@ -168,3 +168,59 @@ class SVObject():
             if k in mandatoryKeys or v:
                 outDict[k] = v
         return outDict
+
+
+@dataclass
+class Rule():
+    ProducerQualifiedItemId: str = ""
+    InputIdentifier: str = ""
+    OutputIdentifier: str = ""
+    OutputTranslationKey: str = ""
+    MinutesUntilReady: int = 0
+    Sounds: list = field(default_factory=lambda: [])
+    AdditionalFuel: Optional[dict] = field(default_factory=lambda: {})
+    AdditionalOutputs: Optional[list] = field(default_factory=lambda: [])
+    DelayedSounds: Optional[list] = field(default_factory=lambda: [])
+    ExcludeIdentifiers: Optional[list] = field(default_factory=lambda: [])
+    FuelIdentifier: Optional[str] = ""
+    FuelStack: Optional[int] = 0
+    InputPriceBased: Optional[bool] = False
+    InputStack: Optional[int] = 1
+    KeepInputQuality: Optional[bool] = False
+    OutputPriceMultiplier: Optional[float] = 1.0
+    OutputQuality: Optional[int] = 0
+    OutputStack: Optional[int] = 1
+    PlacingAnimation: Optional[str] = ""
+    PlacingAnimationColorName: Optional[str] = "White"
+
+    def to_dict(self):
+        outDict = {}
+        mandatoryKeys = ["ProducerQualifiedItemId", "InputIdentifier",
+                         "OutputIdentifier", "OutputTranslationKey"
+                         "MinutesUntilReady", "Sounds"]
+        for k, v in self.__dict__.items():
+            if k in mandatoryKeys or (k not in ["OutputPriceMultiplier", "PlacingAnimationColorName", "OutputStack", "InputStack"] and v) or (k == "OutputPriceMultiplier" and v != 1.0) or (k == "PlacingAnimationColorName" and v != "White") or (k in ["InputStack", "OutputStack"] and v != 1):
+                outDict[k] = v
+        return outDict
+
+
+@dataclass
+class PConfig():
+    """ProducersConfig for PFM"""
+    ProducerQualifiedItemId: str = ""
+    AlternateFrameProducing: bool = False
+    AlternateFrameWhenReady: bool = False
+    DisableBouncingAnimationWhileWorking: Optional[bool] = False
+    LightSource: Optional[dict] = field(default_factory=lambda: {})
+    NoInputStartMode: Optional[str] = None
+    ProducingAnimation: Optional[dict] = field(default_factory=lambda: {})
+    ReadyAnimation: Optional[dict] = field(default_factory=lambda: {})
+
+    def to_dict(self):
+        outDict = {}
+        mandatoryKeys = ["ProducerQualifiedItemId", "AlternateFrameProducing",
+                         "AlternateFrameWhenReady"]
+        for k, v in self.__dict__.items():
+            if k in mandatoryKeys or v:
+                outDict[k] = v
+        return outDict

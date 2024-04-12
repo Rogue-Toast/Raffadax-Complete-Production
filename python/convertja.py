@@ -9,6 +9,7 @@ from math import ceil, floor
 from typing import Optional
 
 import pyjson5  # for reading
+from unidecode import unidecode  # converts diacritics to ascii
 from PIL import Image
 from classes import BigObject, Buff, Crop, FruitTree, MeleeWeapon, SVObject
 
@@ -136,8 +137,16 @@ def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
             bo.IsLamp = True
         bo.Texture = "Mods/{}/BigObjects/{}".format(modId, mode)
         bo.SpriteIndex = i
+        idxIncrement = 1
+        if "ReserveExtraIndexCount" in objData:
+            frameCount = objData["ReserveExtraIndexCount"]
+            idxIncrement = frameCount
         spritename = jf[0:-5] + ".png"
         spriteFiles[spritename] = bo.SpriteIndex
+        if idxIncrement > 1:
+            for j in range(1, frameCount + 1):
+                frameName = "{}-{}.png".format(jf[0:-5], j + 1)
+                spriteFiles[frameName] = bo.SpriteIndex + j
         newObjects["Entries"][bo.Name] = bo.to_dict()
         if "NameLocalization" in objData:
             for langKey, langStr in objData["NameLocalization"]:
@@ -149,8 +158,7 @@ def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
                 if langKey not in i18n:
                     i18n[langKey] = {}
                 i18n[langKey]["{}.Description".format(nameStr)] = langStr
-        i += 1
-
+        i += idxIncrement
     return [newObjects, spriteFiles, i18n, objTexture]
 
 
@@ -242,7 +250,8 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
         data = pyjson5.load(open(jf, encoding="utf-8"))
         # seed object
         seedObj = SVObject()
-        nameStr = re.sub(NAMERE, "", data["SeedName"])
+        nameStr = unidecode(data["SeedName"])
+        nameStr = re.sub(NAMERE, "", nameStr)
         seedObj.Name = "{}_{}".format(modId, nameStr)
         i18n["en"]["{}.Displayname".format(nameStr)] = data["SeedName"]
         seedObj.DisplayName = "{{{{i18n: {}.Displayname}}}}".format(nameStr)
@@ -343,8 +352,8 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
             print(jf)
             quit()
         newObj = SVObject()
-        nameRe = r"[^a-zA-Z0-9_\.]"
-        nameStr = re.sub(nameRe, "", objData["Name"])
+        nameStr = unidecode(objData["Name"])
+        nameStr = re.sub(NAMERE, "", nameStr)
         newObj.Name = "{}_{}".format(modId, nameStr)
         newObj.DisplayName = "{{{{i18n:{}.DisplayName}}}}".format(nameStr)
         i18n["en"]["{}.DisplayName".format(nameStr)] = objData["Name"]
@@ -524,7 +533,8 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, spritesheet):
         data = pyjson5.load(open(jf, encoding="utf-8"))
         # sapling object
         saplingObj = SVObject()
-        nameStr = re.sub(NAMERE, "", data["SaplingName"])
+        nameStr = unidecode(data["SaplingName"])
+        nameStr = re.sub(NAMERE, "", nameStr)
         saplingObj.Name = "{}_{}".format(modId, nameStr)
         i18n["en"]["{}.Displayname".format(nameStr)] = data["SaplingName"]
         saplingObj.Displayname = "{{{{i18n:{}.Displayname}}}}".format(nameStr)
@@ -589,9 +599,9 @@ def buildWeapons(srcDir, modId, spritesheet, i18n):
     for jf in jsonFiles:
         data = pyjson5.load(open(jf, encoding="utf-8"))
         # sapling object
-        nameNoDiacritics = jf.rsplit("/", 2)[1]  # not sure if the game will be happy with UTF-8 items, let's take it to ascii
         newMW = MeleeWeapon()
-        nameStr = re.sub(NAMERE, "", nameNoDiacritics)
+        nameStr = unidecode(data["Name"])
+        nameStr = re.sub(NAMERE, "", nameStr)
         newMW.Name = "{}_{}".format(modId, nameStr)
         i18n["en"]["{}.Displayname".format(nameStr)] = data["Name"]
         newMW.DisplayName = "{{{{i18n:{}.Displayname}}}}".format(nameStr)
@@ -779,4 +789,5 @@ if __name__ == "__main__":
         buildSprites(objectSprites, spriteDir, "artisanobjects", "objects")
         buildSprites(bigObjectSprites, spriteDir, "artisanmachines", "bigobjects")
         # # write i18n data
+        print("Generating i18n")
         writeLanguageData(i18n, dstDir)
