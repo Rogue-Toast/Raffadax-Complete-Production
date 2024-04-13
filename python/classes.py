@@ -224,3 +224,95 @@ class PConfig():
             if k in mandatoryKeys or v:
                 outDict[k] = v
         return outDict
+
+
+@dataclass
+class Shop():
+    Items: list = field(default_factory=lambda: [])
+    SalableItemTags: Optional[list] = field(default_factory=lambda: [])
+    Owners: Optional[list] = field(default_factory=lambda: [])
+    Currency: Optional[int] = 0  # 0: Money, 1: Star tokens, 2: Qi coins, 4: Qi Gems
+    ApplyProfitMargins: Optional[bool] = None
+    StackSizeVisibility: Optional[str] = ""  # Show, Hide, ShowIfMultiple
+    OpenSound: Optional[str] = ""
+    PurchaseSound: Optional[str] = ""
+    purchaseRepeatSound: Optional[str] = ""
+    PriceModifiers: Optional[list] = field(default_factory=lambda: [])
+    PriceModifierMode: Optional[str] = ""
+    VisualTheme: Optional[list] = field(default_factory=lambda: [])
+
+    def to_dict(self):
+        outDict = {}
+        for k, v in self.__dict__.items():
+            if k == "Items" or (k == "ApplyProfitMargins" and v is not None) or (k not in ["Items", "ApplyProfitMargins"] and v):
+                outDict[k] = v
+        return outDict
+
+
+@dataclass
+class Inventory():
+    ID: Optional[str] = ""
+    ItemId: Optional[str] = ""
+    RandomItemId: Optional[list] = field(default_factory=lambda: [])
+    Condition: Optional[str] = ""
+    PerItemCondition: Optional[str] = ""
+    MaxItems: Optional[int] = 0
+    IsRecipe: Optional[bool] = False
+    Quality: Optional[int] = 0
+    MinStack: Optional[int] = -1
+    MaxStack: Optional[int] = -1
+    Price: Optional[int] = 0
+    TradeItemId: Optional[str] = ""  # Qualified or Unqualified
+    TradeItemAmount: Optional[int] = 0
+    ApplyProfitMargins: Optional[bool] = None
+    IgnoreShopPriceModifiers: Optional[bool] = False
+    AvailableStockModifiers: Optional[list] = field(default_factory=lambda: [])
+    OptionalPriceModifiers: Optional[list] = field(default_factory=lambda: [])
+    AvailableStockModifierMode: Optional[str] = ""
+    PriceModifierMode: Optional[str] = ""
+    AvoidRepeat: Optional[bool] = False
+    UseObjectDataPrice: Optional[bool] = False
+    AvailableStock: Optional[int] = 0
+    AvailableStockLimit: Optional[str] = ""  # Global, Player, None (str)
+    PerItemCondition: Optional[str] = ""
+    ActionsOnPurchase: Optional[list] = field(default_factory=lambda: [])
+
+    def to_dict(self):
+        outDict = {}
+        requiredFields = ["Id", "ItemId", "RandomItemId"]
+        for k, v in self.__dict__.items():
+            if v:
+                outDict[k] = v
+        if not any(x in outDict for x in requiredFields):
+            raise Exception("Error with creating Inventory Item: No ID specified.")
+        else:
+            return outDict
+
+
+@dataclass
+class OreNode():
+    SpriteIndex: int = 0
+    Texture: str = ""
+    Health: int = 0
+    Sound: str = ""
+    ItemDropped: str = ""
+    Tool: str = ""
+    Exp: int = 0
+    Skill: str = "mining"
+    MineSpawns: list = field(default_factory=lambda: [])
+    ExtraItems: Optional[list] = field(default_factory=lambda: [])
+    MinDrops: Optional[int] = 1
+    MaxDrops: Optional[int] = 1
+    Debris: Optional[str] = ""
+    BreakingSound: Optional[str] = ""
+    MinToolLevel: Optional[int] = ""
+
+    def to_dict(self):
+        outDict = {}
+        mandatoryKeys = ["SpriteIndex", "Texture", "Health", "Sound",
+                         "ItemDropped", "Tool", "MinDrops", "MaxDrops",
+                         "MineSpawns", "Exp", "Skill"]
+        for k, v in self.__dict__.items():
+            if k in mandatoryKeys or v:
+                outDict[k] = v
+        return outDict
