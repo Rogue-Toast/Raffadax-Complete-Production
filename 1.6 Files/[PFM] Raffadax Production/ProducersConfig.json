@@ -1,0 +1,277 @@
+[
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+        "DisableBouncingAnimationWhileWorking": true,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "FrameInterval": 10
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                0
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_BeverageKeg",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "FrameInterval": 10
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                7
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_CheeseProcessor",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "FrameInterval": 10
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                0
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_Churn",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxeWineKeg",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DistillationTank",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+        "DisableBouncingAnimationWhileWorking": true,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "FrameInterval": 10
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                0
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FermentationTank",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FlowHive",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FragranceExtractor",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+        "DisableBouncingAnimationWhileWorking": true,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "FrameInterval": 10
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                0
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_GoldenSpindle",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+        "DisableBouncingAnimationWhileWorking": true,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "FrameInterval": 10
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                0
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_IncubationTank",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_JuiceKeg",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_MagicCauldron",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+        "DisableBouncingAnimationWhileWorking": true,
+        "LightSource": {
+            "TextureIndex": 5,
+            "Radius": 2.5,
+            "OffsetX": 0,
+            "OffsetY": 0,
+            "ColorType": "DefinedColor",
+            "ColorRed": 255,
+            "ColorGreen": 0,
+            "ColorBlue": 255,
+            "ColorAlpha": 255,
+            "ColorFactor": 0.75,
+            "AlwaysOn": false
+        },
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "FrameInterval": 10
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                8
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_MilkKeg",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_MoldColony",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": true,
+        "DisableBouncingAnimationWhileWorking": true,
+        "NoInputStartMode": "Placement",
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                1
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_Oxidizer",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+        "DisableBouncingAnimationWhileWorking": true,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "FrameInterval": 10
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                0
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_PureeJar",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+        "DisableBouncingAnimationWhileWorking": true,
+        "ProducingAnimation": {
+            "RelativeFrameIndex": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "FrameInterval": 10
+        },
+        "ReadyAnimation": {
+            "RelativeFrameIndex": [
+                0
+            ]
+        }
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false
+    }
+]

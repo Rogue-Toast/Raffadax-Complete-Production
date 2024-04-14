@@ -1,10 +1,10 @@
 {
     "Harvests": [
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Basil",
+            "CropName": "Raffadax.RCP_Basil",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BasilSeeds",
+                    "ItemName": "Raffadax.RCP_BasilSeeds",
                     "minHarvest": -3,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -12,16 +12,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_BlackShamrock",
+            "CropName": "Raffadax.RCP_BlackShamrock",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Clover",
+                    "ItemName": "Raffadax.RCP_Clover",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_UnluckyClover",
+                    "ItemName": "Raffadax.RCP_UnluckyClover",
                     "minHarvest": -20,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_BlackStoneFlower",
+            "CropName": "Raffadax.RCP_BlackStoneFlower",
             "HarvestRules": [
                 {
                     "ItemName": "Common Mushroom",
@@ -38,7 +38,7 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Liverwort",
+                    "ItemName": "Raffadax.RCP_Liverwort",
                     "minHarvest": -25,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -46,10 +46,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_BlueCorn",
+            "CropName": "Raffadax.RCP_BlueCorn",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Ergot",
+                    "ItemName": "Raffadax.RCP_Ergot",
                     "minHarvest": -75,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -57,22 +57,22 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_BlueLotusFlower",
+            "CropName": "Raffadax.RCP_BlueLotusFlower",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_LotusLeaf",
+                    "ItemName": "Raffadax.RCP_LotusLeaf",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_LotusStalk",
+                    "ItemName": "Raffadax.RCP_LotusStalk",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_LotusRoot",
+                    "ItemName": "Raffadax.RCP_LotusRoot",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -80,10 +80,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_BrusselsSprouts",
+            "CropName": "Raffadax.RCP_BrusselsSprouts",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BrassicaFlower",
+                    "ItemName": "Raffadax.RCP_BrassicaFlower",
                     "minHarvest": -3,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -94,7 +94,7 @@
             "CropName": "Cactus Fruit",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_CactusBlossom",
+                    "ItemName": "Raffadax.RCP_CactusBlossom",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -102,16 +102,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_CarawayFlower",
+            "CropName": "Raffadax.RCP_CarawayFlower",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_CarawayRoot",
+                    "ItemName": "Raffadax.RCP_CarawayRoot",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_CarawaySeeds",
+                    "ItemName": "Raffadax.RCP_CarawaySeeds",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -119,22 +119,22 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Capers",
+            "CropName": "Raffadax.RCP_Capers",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_FlindersRose",
+                    "ItemName": "Raffadax.RCP_FlindersRose",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_CaperBerries",
+                    "ItemName": "Raffadax.RCP_CaperBerries",
                     "minHarvest": -3,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_CaperLeaves",
+                    "ItemName": "Raffadax.RCP_CaperLeaves",
                     "minHarvest": -3,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -142,10 +142,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_CassavaRoot",
+            "CropName": "Raffadax.RCP_CassavaRoot",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_CassavaLeaf",
+                    "ItemName": "Raffadax.RCP_CassavaLeaf",
                     "minHarvest": -2,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -153,10 +153,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Celery",
+            "CropName": "Raffadax.RCP_Celery",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_CelerySeeds",
+                    "ItemName": "Raffadax.RCP_CelerySeeds",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -164,16 +164,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_ChicoryFlower",
+            "CropName": "Raffadax.RCP_ChicoryFlower",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Chicory",
+                    "ItemName": "Raffadax.RCP_Chicory",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_ChicoryRoot",
+                    "ItemName": "Raffadax.RCP_ChicoryRoot",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -181,10 +181,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Chives",
+            "CropName": "Raffadax.RCP_Chives",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Allium",
+                    "ItemName": "Raffadax.RCP_Allium",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -192,16 +192,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Cilantro",
+            "CropName": "Raffadax.RCP_Cilantro",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Coriander",
+                    "ItemName": "Raffadax.RCP_Coriander",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_CorianderFlower",
+                    "ItemName": "Raffadax.RCP_CorianderFlower",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -212,13 +212,13 @@
             "CropName": "Corn",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BabyCorn",
+                    "ItemName": "Raffadax.RCP_BabyCorn",
                     "minHarvest": -5,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Ergot",
+                    "ItemName": "Raffadax.RCP_Ergot",
                     "minHarvest": -75,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -229,7 +229,7 @@
             "CropName": "Crocus",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Saffron",
+                    "ItemName": "Raffadax.RCP_Saffron",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -237,10 +237,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_CuminFlower",
+            "CropName": "Raffadax.RCP_CuminFlower",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BlackCuminSeeds",
+                    "ItemName": "Raffadax.RCP_BlackCuminSeeds",
                     "minHarvest": -1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -251,25 +251,25 @@
             "CropName": "Dandelion",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_DandelionGreens",
+                    "ItemName": "Raffadax.RCP_DandelionGreens",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_DandelionPuffball",
+                    "ItemName": "Raffadax.RCP_DandelionPuffball",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_DandelionRoot",
+                    "ItemName": "Raffadax.RCP_DandelionRoot",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_DandelionSeeds",
+                    "ItemName": "Raffadax.RCP_DandelionSeeds",
                     "minHarvest": -2,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -277,10 +277,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Dill",
+            "CropName": "Raffadax.RCP_Dill",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_DillSeeds",
+                    "ItemName": "Raffadax.RCP_DillSeeds",
                     "minHarvest": -1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -288,28 +288,28 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Fennel",
+            "CropName": "Raffadax.RCP_Fennel",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_FennelFlower",
+                    "ItemName": "Raffadax.RCP_FennelFlower",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_FennelGreens",
+                    "ItemName": "Raffadax.RCP_FennelGreens",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_FennelPollen",
+                    "ItemName": "Raffadax.RCP_FennelPollen",
                     "minHarvest": -9,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_FennelSeeds",
+                    "ItemName": "Raffadax.RCP_FennelSeeds",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -317,10 +317,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Fenugreek",
+            "CropName": "Raffadax.RCP_Fenugreek",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_FenugreekSeeds",
+                    "ItemName": "Raffadax.RCP_FenugreekSeeds",
                     "minHarvest": -1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -328,7 +328,7 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_FernFlower",
+            "CropName": "Raffadax.RCP_FernFlower",
             "HarvestRules": [
                 {
                     "ItemName": "Fiddlehead Fern",
@@ -339,7 +339,7 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_GemCap",
+            "CropName": "Raffadax.RCP_GemCap",
             "HarvestRules": [
                 {
                     "ItemName": "Emerald",
@@ -354,7 +354,7 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Sapphire",
+                    "ItemName": "Raffadax.RCP_Sapphire",
                     "minHarvest": -3,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -416,16 +416,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_GentianFlower",
+            "CropName": "Raffadax.RCP_GentianFlower",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GentianBark",
+                    "ItemName": "Raffadax.RCP_GentianBark",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GentianRoot",
+                    "ItemName": "Raffadax.RCP_GentianRoot",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -433,22 +433,22 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_GoldenChest",
+            "CropName": "Raffadax.RCP_GoldenChest",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GoldenLeaf",
+                    "ItemName": "Raffadax.RCP_GoldenLeaf",
                     "minHarvest": 1,
                     "maxHarvest": 4,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SilverCoin",
+                    "ItemName": "Raffadax.RCP_SilverCoin",
                     "minHarvest": 5,
                     "maxHarvest": 10,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SilverLeaf",
+                    "ItemName": "Raffadax.RCP_SilverLeaf",
                     "minHarvest": 1,
                     "maxHarvest": 4,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -466,13 +466,13 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Sapphire",
+                    "ItemName": "Raffadax.RCP_Sapphire",
                     "minHarvest": 2,
                     "maxHarvest": 5,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BlackPearl",
+                    "ItemName": "Raffadax.RCP_BlackPearl",
                     "minHarvest": 1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -532,7 +532,7 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_AncientCoin",
+                    "ItemName": "Raffadax.RCP_AncientCoin",
                     "minHarvest": 5,
                     "maxHarvest": 10,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -544,7 +544,7 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GiantPearl",
+                    "ItemName": "Raffadax.RCP_GiantPearl",
                     "minHarvest": 1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -556,13 +556,13 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GoldenAntler",
+                    "ItemName": "Raffadax.RCP_GoldenAntler",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GoldenFeather",
+                    "ItemName": "Raffadax.RCP_GoldenFeather",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -580,25 +580,25 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SilverAntler",
+                    "ItemName": "Raffadax.RCP_SilverAntler",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SilverFeather",
+                    "ItemName": "Raffadax.RCP_SilverFeather",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_IridiumFeather",
+                    "ItemName": "Raffadax.RCP_IridiumFeather",
                     "minHarvest": -8,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_MythrilFeather",
+                    "ItemName": "Raffadax.RCP_MythrilFeather",
                     "minHarvest": -8,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -612,10 +612,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_GlassGemCorn",
+            "CropName": "Raffadax.RCP_GlassGemCorn",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Ergot",
+                    "ItemName": "Raffadax.RCP_Ergot",
                     "minHarvest": -75,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -623,10 +623,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_GlassPumpkin",
+            "CropName": "Raffadax.RCP_GlassPumpkin",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SilverLeaf",
+                    "ItemName": "Raffadax.RCP_SilverLeaf",
                     "minHarvest": 2,
                     "maxHarvest": 5,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -637,7 +637,7 @@
             "CropName": "Golden Pumpkin",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GoldenLeaf",
+                    "ItemName": "Raffadax.RCP_GoldenLeaf",
                     "minHarvest": 2,
                     "maxHarvest": 5,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -648,7 +648,7 @@
             "CropName": "Grape",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GrapeLeaf",
+                    "ItemName": "Raffadax.RCP_GrapeLeaf",
                     "minHarvest": -1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -656,10 +656,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_GreenBellPepper",
+            "CropName": "Raffadax.RCP_GreenBellPepper",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_YellowBellPepper",
+                    "ItemName": "Raffadax.RCP_YellowBellPepper",
                     "minHarvest": 0,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -670,7 +670,7 @@
             "CropName": "Hot Pepper",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Jalape\u00c3\u00b1oPepper",
+                    "ItemName": "Raffadax.RCP_JalapeAoPepper",
                     "minHarvest": -2,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -678,16 +678,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_IndicaBud",
+            "CropName": "Raffadax.RCP_IndicaBud",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_HempStalk",
+                    "ItemName": "Raffadax.RCP_HempStalk",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_MaryJane",
+                    "ItemName": "Raffadax.RCP_MaryJane",
                     "minHarvest": 0,
                     "maxHarvest": 3,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -698,7 +698,7 @@
             "CropName": "Jack-O-Lantern",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SquashFlower",
+                    "ItemName": "Raffadax.RCP_SquashFlower",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -706,10 +706,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Mandrake",
+            "CropName": "Raffadax.RCP_Mandrake",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_MandragoraFlower",
+                    "ItemName": "Raffadax.RCP_MandragoraFlower",
                     "minHarvest": 1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -717,10 +717,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Mugwort",
+            "CropName": "Raffadax.RCP_Mugwort",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Artemisia",
+                    "ItemName": "Raffadax.RCP_Artemisia",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -728,16 +728,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_MustardGreens",
+            "CropName": "Raffadax.RCP_MustardGreens",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BrassicaFlower",
+                    "ItemName": "Raffadax.RCP_BrassicaFlower",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_MustardSeeds",
+                    "ItemName": "Raffadax.RCP_MustardSeeds",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -745,16 +745,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_OrangeCarrot",
+            "CropName": "Raffadax.RCP_OrangeCarrot",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_YellowCarrot",
+                    "ItemName": "Raffadax.RCP_YellowCarrot",
                     "minHarvest": 1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_WhiteCarrot",
+                    "ItemName": "Raffadax.RCP_WhiteCarrot",
                     "minHarvest": 1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -762,10 +762,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_PassionFruit",
+            "CropName": "Raffadax.RCP_PassionFruit",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_PassionFlower",
+                    "ItemName": "Raffadax.RCP_PassionFlower",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -773,10 +773,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Peppermint",
+            "CropName": "Raffadax.RCP_Peppermint",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_MintFlower",
+                    "ItemName": "Raffadax.RCP_MintFlower",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -795,16 +795,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_PortobelloMushroom",
+            "CropName": "Raffadax.RCP_PortobelloMushroom",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_ButtonMushroom",
+                    "ItemName": "Raffadax.RCP_ButtonMushroom",
                     "minHarvest": -1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_CreminiMushroom",
+                    "ItemName": "Raffadax.RCP_CreminiMushroom",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -812,16 +812,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_PricklyPear",
+            "CropName": "Raffadax.RCP_PricklyPear",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Nopal",
+                    "ItemName": "Raffadax.RCP_Nopal",
                     "minHarvest": 0,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_OpuntiaFlower",
+                    "ItemName": "Raffadax.RCP_OpuntiaFlower",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -832,7 +832,7 @@
             "CropName": "Pumpkin",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SquashFlower",
+                    "ItemName": "Raffadax.RCP_SquashFlower",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -840,10 +840,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_PurpleBellPepper",
+            "CropName": "Raffadax.RCP_PurpleBellPepper",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BlackBellPepper",
+                    "ItemName": "Raffadax.RCP_BlackBellPepper",
                     "minHarvest": 0,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -851,16 +851,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_PurpleCarrot",
+            "CropName": "Raffadax.RCP_PurpleCarrot",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BlackCarrot",
+                    "ItemName": "Raffadax.RCP_BlackCarrot",
                     "minHarvest": 1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_RedCarrot",
+                    "ItemName": "Raffadax.RCP_RedCarrot",
                     "minHarvest": 1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -868,10 +868,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Rapini",
+            "CropName": "Raffadax.RCP_Rapini",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BrassicaFlower",
+                    "ItemName": "Raffadax.RCP_BrassicaFlower",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -879,10 +879,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_RedBellPepper",
+            "CropName": "Raffadax.RCP_RedBellPepper",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_OrangeBellPepper",
+                    "ItemName": "Raffadax.RCP_OrangeBellPepper",
                     "minHarvest": 0,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -890,10 +890,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_RedCorn",
+            "CropName": "Raffadax.RCP_RedCorn",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Ergot",
+                    "ItemName": "Raffadax.RCP_Ergot",
                     "minHarvest": -75,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -901,16 +901,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_RedOnion",
+            "CropName": "Raffadax.RCP_RedOnion",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Allium",
+                    "ItemName": "Raffadax.RCP_Allium",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GreenOnion",
+                    "ItemName": "Raffadax.RCP_GreenOnion",
                     "minHarvest": -1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -918,16 +918,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_RedPeppercorns",
+            "CropName": "Raffadax.RCP_RedPeppercorns",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BlackPeppercorns",
+                    "ItemName": "Raffadax.RCP_BlackPeppercorns",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GreenPeppercorns",
+                    "ItemName": "Raffadax.RCP_GreenPeppercorns",
                     "minHarvest": -1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -938,7 +938,7 @@
             "CropName": "Rhubarb",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_RhubarbStalks",
+                    "ItemName": "Raffadax.RCP_RhubarbStalks",
                     "minHarvest": -3,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -946,10 +946,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Rose",
+            "CropName": "Raffadax.RCP_Rose",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_RoseHips",
+                    "ItemName": "Raffadax.RCP_RoseHips",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -957,16 +957,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Rutabaga",
+            "CropName": "Raffadax.RCP_Rutabaga",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_TurnipGreens",
+                    "ItemName": "Raffadax.RCP_TurnipGreens",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BrassicaFlower",
+                    "ItemName": "Raffadax.RCP_BrassicaFlower",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -974,10 +974,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Rye",
+            "CropName": "Raffadax.RCP_Rye",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Ergot",
+                    "ItemName": "Raffadax.RCP_Ergot",
                     "minHarvest": -50,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -985,10 +985,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Sarsaparilla",
+            "CropName": "Raffadax.RCP_Sarsaparilla",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SarsaparillaBerry",
+                    "ItemName": "Raffadax.RCP_SarsaparillaBerry",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -996,16 +996,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_SativaBud",
+            "CropName": "Raffadax.RCP_SativaBud",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_HempStalk",
+                    "ItemName": "Raffadax.RCP_HempStalk",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_TheDevil'sLettuce",
+                    "ItemName": "Raffadax.RCP_TheDevilsLettuce",
                     "minHarvest": 0,
                     "maxHarvest": 3,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1013,16 +1013,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Shamrock",
+            "CropName": "Raffadax.RCP_Shamrock",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Clover",
+                    "ItemName": "Raffadax.RCP_Clover",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_LuckyClover",
+                    "ItemName": "Raffadax.RCP_LuckyClover",
                     "minHarvest": -20,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1030,10 +1030,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Spearmint",
+            "CropName": "Raffadax.RCP_Spearmint",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_MintFlower",
+                    "ItemName": "Raffadax.RCP_MintFlower",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1044,13 +1044,13 @@
             "CropName": "Spring Onion",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Allium",
+                    "ItemName": "Raffadax.RCP_Allium",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Scallion",
+                    "ItemName": "Raffadax.RCP_Scallion",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1058,10 +1058,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Squash",
+            "CropName": "Raffadax.RCP_Squash",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SquashFlower",
+                    "ItemName": "Raffadax.RCP_SquashFlower",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1069,10 +1069,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_StingingNettle",
+            "CropName": "Raffadax.RCP_StingingNettle",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_NettleBlossom",
+                    "ItemName": "Raffadax.RCP_NettleBlossom",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1083,7 +1083,7 @@
             "CropName": "Tea Leaves",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_WhiteTeaLeaf",
+                    "ItemName": "Raffadax.RCP_WhiteTeaLeaf",
                     "minHarvest": -25,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1094,7 +1094,7 @@
             "CropName": "Tomato",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GreenTomato",
+                    "ItemName": "Raffadax.RCP_GreenTomato",
                     "minHarvest": -2,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1102,10 +1102,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Topinambur",
+            "CropName": "Raffadax.RCP_Topinambur",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Sunchoke",
+                    "ItemName": "Raffadax.RCP_Sunchoke",
                     "minHarvest": 1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1113,16 +1113,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Turnip",
+            "CropName": "Raffadax.RCP_Turnip",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_TurnipGreens",
+                    "ItemName": "Raffadax.RCP_TurnipGreens",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BrassicaFlower",
+                    "ItemName": "Raffadax.RCP_BrassicaFlower",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1133,13 +1133,13 @@
             "CropName": "Truffle",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_BlackTruffle",
+                    "ItemName": "Raffadax.RCP_BlackTruffle",
                     "minHarvest": -10,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_WhiteTruffle",
+                    "ItemName": "Raffadax.RCP_WhiteTruffle",
                     "minHarvest": -15,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1150,7 +1150,7 @@
             "CropName": "Unmilled Rice",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Ergot",
+                    "ItemName": "Raffadax.RCP_Ergot",
                     "minHarvest": -50,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1158,10 +1158,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_VanillaBean",
+            "CropName": "Raffadax.RCP_VanillaBean",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_VanillaOrchid",
+                    "ItemName": "Raffadax.RCP_VanillaOrchid",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1172,7 +1172,7 @@
             "CropName": "Wheat",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Ergot",
+                    "ItemName": "Raffadax.RCP_Ergot",
                     "minHarvest": -50,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1180,10 +1180,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_WhiteBellPepper",
+            "CropName": "Raffadax.RCP_WhiteBellPepper",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_IvoryBellPepper",
+                    "ItemName": "Raffadax.RCP_IvoryBellPepper",
                     "minHarvest": 0,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1191,10 +1191,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_WhiteGrapes",
+            "CropName": "Raffadax.RCP_WhiteGrapes",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GrapeLeaf",
+                    "ItemName": "Raffadax.RCP_GrapeLeaf",
                     "minHarvest": -4,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1202,16 +1202,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_WhiteOnion",
+            "CropName": "Raffadax.RCP_WhiteOnion",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Allium",
+                    "ItemName": "Raffadax.RCP_Allium",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GreenOnion",
+                    "ItemName": "Raffadax.RCP_GreenOnion",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1219,7 +1219,7 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_WhiteTeaLeaf",
+            "CropName": "Raffadax.RCP_WhiteTeaLeaf",
             "HarvestRules": [
                 {
                     "ItemName": "Tea Leaves",
@@ -1230,10 +1230,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_WildBarley",
+            "CropName": "Raffadax.RCP_WildBarley",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Ergot",
+                    "ItemName": "Raffadax.RCP_Ergot",
                     "minHarvest": -50,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1241,10 +1241,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_WildGrapes",
+            "CropName": "Raffadax.RCP_WildGrapes",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_GrapeLeaf",
+                    "ItemName": "Raffadax.RCP_GrapeLeaf",
                     "minHarvest": -1,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1252,10 +1252,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_WildOats",
+            "CropName": "Raffadax.RCP_WildOats",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Ergot",
+                    "ItemName": "Raffadax.RCP_Ergot",
                     "minHarvest": -50,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1263,16 +1263,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Wintergreen",
+            "CropName": "Raffadax.RCP_Wintergreen",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Boxberry",
+                    "ItemName": "Raffadax.RCP_Boxberry",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Gultheria",
+                    "ItemName": "Raffadax.RCP_Gultheria",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1280,10 +1280,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Woodruff",
+            "CropName": "Raffadax.RCP_Woodruff",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Waldmeister",
+                    "ItemName": "Raffadax.RCP_Waldmeister",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1291,10 +1291,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Wormwood",
+            "CropName": "Raffadax.RCP_Wormwood",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Artemisia",
+                    "ItemName": "Raffadax.RCP_Artemisia",
                     "minHarvest": -3,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1302,16 +1302,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Xoconostle",
+            "CropName": "Raffadax.RCP_Xoconostle",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_Nopal",
+                    "ItemName": "Raffadax.RCP_Nopal",
                     "minHarvest": 0,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_OpuntiaFlower",
+                    "ItemName": "Raffadax.RCP_OpuntiaFlower",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1319,16 +1319,16 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Yarrow",
+            "CropName": "Raffadax.RCP_Yarrow",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_YarrowLeaf",
+                    "ItemName": "Raffadax.RCP_YarrowLeaf",
                     "minHarvest": 0,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_YarrowRoot",
+                    "ItemName": "Raffadax.RCP_YarrowRoot",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1336,10 +1336,10 @@
             ]
         },
         {
-            "CropName": "Raffadax.RaffadaxCompleteProduction_Zucchini",
+            "CropName": "Raffadax.RCP_Zucchini",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RaffadaxCompleteProduction_SquashFlower",
+                    "ItemName": "Raffadax.RCP_SquashFlower",
                     "minHarvest": -4,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
