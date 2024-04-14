@@ -8,6 +8,9 @@
     "Dependencies": [
         {
             "UniqueID": "Pathoschild.ContentPatcher"
+        },
+        {
+            "UniqueID":"Esca.CustomNPCExclusions"
         }
     ],
     "ContentPackFor": {
