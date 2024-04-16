@@ -1,3 +1,7 @@
+"""Converts Raffadax JSON Assets to Content patcher.
+
+Run convertstf.py first to generate i18n strings."""
+
 import argparse
 import copy
 import json  # for writing
@@ -683,7 +687,8 @@ def writeLanguageData(i18n, dstDir, npcLang):
                 "Mephisto.DisplayName": "\n\t//NPCS - MEPHISTO\n",
                 "Puck.DisplayName": "\n\t//NPCS - PUCK\n",
                 "Shuck.DisplayName": "\n\t//NPCS - SHUCK\n",
-                "Xolotl.DisplayName": "\n\t//NPCS - XOLOTL\n"
+                "Xolotl.DisplayName": "\n\t//NPCS - XOLOTL\n",
+                "Djinn.ShopDialogue": "\n\t//shops.json - Shops"
                 }
     if not os.path.exists("{}i18n".format(dstDir)):
         os.mkdir("{}i18n".format(dstDir))

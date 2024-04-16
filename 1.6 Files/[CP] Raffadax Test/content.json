@@ -52,6 +52,10 @@
             "Action": "Include",
             "FromFile": "assets/data/Amanra.json"
         },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/shops.json"
+        },
         // CUSTOM NPC EXCLUSIONS
         {
             "LogName": "NPC Exclusions",
@@ -72,6 +76,6 @@
             "LogName": "StringsFromMaps",
             "Action": "Include",
             "FromFile": "assets/StringsFromMaps.json"
-        }    
+        }
     ]
 }
