@@ -1,0 +1,15 @@
+{
+    "Changes": [{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+        "Entries": {
+            "Amoxtli": "{{i18n:StringsFromMaps.Amoxtli}}",
+            "CodexGigas": "{{i18n:StringsFromMaps.CodexGigas}}",
+            "CorpusHermeticum": "{{i18n:StringsFromMaps.CorpusHermeticum}}",
+            "Galdrabok": "{{i18n:StringsFromMaps.Galdrabok}}",
+            "GrimorumArcanorum": "{{i18n:StringsFromMaps.GrimorumArcanorum}}",
+            "JoJini": "{{i18n:StringsFromMaps.JoJini}}",
+            "Necronomicon": "{{i18n:StringsFromMaps.Necronomicon}}",
+        },
+    }, ]
+}

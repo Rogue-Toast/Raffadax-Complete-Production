@@ -1,5 +1,5 @@
 ﻿{
-    "Format": "2.0.0",
+    "Format": "1.25.0",
     "ConfigSchema":
 	{
     	"ArtisanImages":
@@ -12,7 +12,7 @@
       		"Default": "true",
       		"AllowValues": "true, false",
     		},
-    	"MilkImages": 
+    	"MilkImages":
 		{
       		"Default": "true",
       		"AllowValues": "true, false",

@@ -178,7 +178,9 @@ def buildCooking(srcDir, modId, vanillaObjects):
             print(jf)
             quit()
         if "Recipe" in objData and objData["Recipe"] and (objData["Category"] == "Cooking" or objData["Category"] == -7):
-            output = "{}_{} {}".format(modId, objData["Name"].replace(" ", ""), objData["Recipe"]["ResultCount"])
+            outName = unidecode(objData["Name"])
+            outName = re.sub(NAMERE, "", outName)
+            output = "{}_{} {}".format(modId, outName, objData["Recipe"]["ResultCount"])
             ingredients = []
             for iNode in objData["Recipe"]["Ingredients"]:
                 if isinstance(iNode["Object"], int) or iNode['Object'].isnumeric():
@@ -186,7 +188,8 @@ def buildCooking(srcDir, modId, vanillaObjects):
                 elif iNode["Object"] in vanillaObjects:
                     iStr = "{} {}".format(vanillaObjects[iNode["Object"]], iNode["Count"])
                 else:
-                    nameStr = re.sub(NAMERE, "", iNode["Object"])
+                    nameStr = unidecode(iNode["Object"])
+                    nameStr = re.sub(NAMERE, "", nameStr)
                     iStr = "{}_{} {}".format(modId, nameStr, iNode["Count"])
                 ingredients.append(iStr)
             newRecipes["Entries"][objData["Name"]] = "{}//{}/none/{}".format(" ".join(ingredients), output, objData["Name"])
@@ -282,9 +285,10 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
         cropObj = Crop()
         cropObj.Seasons = data["Seasons"]
         cropObj.DaysInPhase = data["Phases"]
-        cropName = re.sub(NAMERE, "", data["Product"])
-        if cropName in vanillaObjects:
-            cropObj.HarvestItemID = vanillaObjects[cropName]
+        cropName = unidecode(data["Product"])
+        cropName = re.sub(NAMERE, "", cropName)
+        if data["Product"] in vanillaObjects:
+            cropObj.HarvestItemID = vanillaObjects[data["Product"]]
         else:
             cropObj.HarvestItemID = "{}_{}".format(modId, cropName)
         cropObj.Texture = "Mods/{}/Crops".format(modId)
@@ -461,6 +465,8 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
 
 
 def buildSprites(spriteList, dstDir, fileName, spriteType="objects"):
+    if not os.path.exists(dstDir):
+        os.mkdir(dstDir)
     if spriteType == "objects":
         imgHeight = ceil(len(spriteList) / 24) * 16
         imgWidth = 384
@@ -655,22 +661,56 @@ def writeData(textures: list, data: list, dstDir: str, dstName: str, cGifts=[]):
     if cGifts:
         jsonOut["Changes"] += cGifts
     outPath = "{}data/{}.json".format(dstDir, dstName)
-    outData = json.dumps(jsonOut, indent=4)
+    # outData = json.dumps(jsonOut, indent=4)
     if not os.path.exists("{}data".format(dstDir)):
         os.mkdir("{}data".format(dstDir))
-    with open(outPath, 'w') as f:
-        f.write(outData)
+    with open(outPath, 'w', encoding='utf-8') as f:
+        json.dump(jsonOut, f, indent=4, ensure_ascii=False)
     print("Content Patcher data written to {}".format(outPath))
 
 
-def writeLanguageData(i18n, dstDir):
+def writeLanguageData(i18n, dstDir, npcLang):
+    comments = {"AdzukiBeans.DisplayName": "\t//crops.json - Crops\n",
+                "AdzukiBeanStarter.Displayname": "\n\t//crops.json - Seeds and starters\n",
+                "AcaiBerry.DisplayName": "\n\t//trees.json - Tree Produce\n",
+                "AcaiSapling.Displayname": "\n\t//trees.json - Tree Saplings\n",
+                "Airgetlam.Displayname": "\n\t//weapons.json - Weapons\n",
+                "6-Below.DisplayName": "\n\t//artisan.json - Artisan goods\n",
+                "AnpuScarecrow.DisplayName": "\n\t//artisan.json - BigCraftables\n",
+                "Amanra.DisplayName": "\n\t//NPCS - AMANRA\n",
+                "Astrid.DisplayName": "\n\t//NPCS - ASTRID\n",
+                "Coyote.DisplayName": "\n\t//NPCS - COYOTE\n",
+                "Mephisto.DisplayName": "\n\t//NPCS - MEPHISTO\n",
+                "Puck.DisplayName": "\n\t//NPCS - PUCK\n",
+                "Shuck.DisplayName": "\n\t//NPCS - SHUCK\n",
+                "Xolotl.DisplayName": "\n\t//NPCS - XOLOTL\n"
+                }
     if not os.path.exists("{}i18n".format(dstDir)):
         os.mkdir("{}i18n".format(dstDir))
+    # get the npc language file
+    npcData = pyjson5.load(open(npcLang, encoding="utf-8"))
     for langKey, langData in i18n.items():
-        outPath = "{}i18n/default.json".format(dstDir)
-        outData = pyjson5.dumps(langData)
-        with open(outPath, 'w') as f:
-            f.write(outData)
+        if langKey == "en":
+            outKey = "default"
+        else:
+            outKey = langKey
+        outPath = "{}i18n/{}.json".format(dstDir, outKey)
+        if outKey == "default":
+            for k, v in npcData.items():
+                langData[k] = v
+        # outData = json.dumps(langData, indent=4)
+        with open(outPath, 'w', encoding='utf-8') as f:
+            json.dump(langData, f, indent=4, ensure_ascii=False)
+        # interleave the comments
+        with open(outPath, 'r+', encoding="utf-8") as fd:
+            contents = fd.readlines()
+            for index, line in enumerate(contents):
+                for needle, newtext in comments.items():
+                    if needle in line and newtext not in contents[index - 1]:
+                        contents.insert(index, newtext)
+                        break
+            fd.seek(0)
+            fd.writelines(contents)
     print("i18n data written to {}".format("{}i18n".format(dstDir)))
 
 
@@ -695,8 +735,6 @@ if __name__ == "__main__":
     spriteDir = "{}assets/textures/".format(dstDir)
     i18n = {"en": {}}
     modId = "{{ModId}}"
-    if not os.path.exists(spriteDir):
-        os.mkdir(spriteDir)
     if args.sourceDirectory:
         srcDir = args.sourceDirectory
     if args.destDirectory:
@@ -753,6 +791,7 @@ if __name__ == "__main__":
         wepDir = "{}[JA] Raffadax Weapons/".format(oldFiles)
         artiDir = "{}Raffadax Artisan Assets/[JA] Raffadax Production/".format(oldFiles)
         dstDir = "{}/1.6 Files/[CP] Raffadax Test/assets/".format(rootDir)
+        langDir = "{}/1.6 Files/[CP] Raffadax Test/".format(rootDir)
         spriteDir = "{}textures/".format(dstDir)
         i18n = {"en": {}}
         vanillaObjects = pyjson5.load(open("vanillaObjects.json"), encoding="utf-8")
@@ -783,11 +822,14 @@ if __name__ == "__main__":
         objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts = buildObjects(artiDir, modId, "artisanobjects", "Artisan", i18n)
         bigObjectData, bigObjectSprites, i18n, bigObjTexture = buildBigObjects(artiDir, modId, "artisanmachines", "Artisan", i18n)
         # recipes
+        print("Generating Cooking Data")
         cookingData = buildCooking(artiDir, modId, vanillaObjects)
+        print("Generating Crafting Data")
         craftingData = buildCrafting(artiDir, modId, vanillaObjects)
         writeData([objTexture, bigObjTexture], [objectData, bigObjectData, cookingData, craftingData], dstDir, "artisan", conditionalGifts)
         buildSprites(objectSprites, spriteDir, "artisanobjects", "objects")
         buildSprites(bigObjectSprites, spriteDir, "artisanmachines", "bigobjects")
         # # write i18n data
         print("Generating i18n")
-        writeLanguageData(i18n, dstDir)
+        npcLang = "{}/1.6 Files/npcdefault.json".format(rootDir)
+        writeLanguageData(i18n, langDir, npcLang)
