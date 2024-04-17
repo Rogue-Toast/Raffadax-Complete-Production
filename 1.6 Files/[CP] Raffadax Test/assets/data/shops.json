@@ -399,7 +399,7 @@
                     "Owners": [
                         {
                             "Name": "Amanra",
-                            "Portrait": "assets/Djinn.png",
+                            "Portrait": "assets/Shops/Amanra.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "The meaning of these symbols elude you. Amanra's eyes shine golden in the moonlight...Perhaps you should return in the morning.",
                             "Dialogues": [
@@ -812,7 +812,7 @@
                     "Owners": [
                         {
                             "Name": "Astrid",
-                            "Portrait": "assets/Selkie.png",
+                            "Portrait": "assets/shops/Astrid.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "It's too dark to read. Astrid seems distracted anyway.",
                             "Dialogues": [
@@ -1217,7 +1217,7 @@
                     "Owners": [
                         {
                             "Name": "Coyote",
-                            "Portrait": "assets/Coyotl.png",
+                            "Portrait": "assets/shops/Coyote.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "It just looks like a bunch of safety information for miners. Coyote is staring at the sky...He seems distracted.",
                             "Dialogues": [
@@ -1672,7 +1672,7 @@
                     "Owners": [
                         {
                             "Name": "Mephisto",
-                            "Portrait": "assets/Azeban.png",
+                            "Portrait": "assets/Shops/Mephisto.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "It seems that Mephisto is not paying attention at the moment.",
                             "Dialogues": [
@@ -2086,7 +2086,7 @@
                     "Owners": [
                         {
                             "Name": "Puck",
-                            "Portrait": "assets/Pookah.png",
+                            "Portrait": "assets/Shops/Puck.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "It's a map of the forest, and a poster with camping and fire safety guidelines. Puck is silently staring at you...Perhaps you should return in the morning.",
                             "Dialogues": [
@@ -2498,7 +2498,7 @@
                     "Owners": [
                         {
                             "Name": "Shuck",
-                            "Portrait": "assets/Barghest.png",
+                            "Portrait": "assets/Shops/Shuck.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "It's a faded ad for a lost dog...Three heads? It's too distorted to see clearly. You suddenly do not feel like being this close to Shuck so late at night...Perhaps you should return in the morning.",
                             "Dialogues": [
@@ -2899,7 +2899,7 @@
                     "Owners": [
                         {
                             "Name": "Xolotl",
-                            "Portrait": "assets/Nagual.png",
+                            "Portrait": "assets/Shops/Xolotl.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "The symbols on this tablet seem to move around with the shifting shadows, you cannot decipher them. Xolotl is staring at you in an unsettling manner...Perhaps you should come back in the morning.",
                             "Dialogues": [
@@ -3362,7 +3362,7 @@
                     "Owners": [
                         {
                             "Name": "AnyOrNone",
-                            "Portrait": "assets/Valkyrie.png",
+                            "Portrait": "assets/Shops/Valkyrie.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "It is too dark to read the inscription.",
                             "Dialogues": [
