@@ -316,3 +316,21 @@ class OreNode():
             if k in mandatoryKeys or v:
                 outDict[k] = v
         return outDict
+
+
+@dataclass
+class CPRule():
+    """Output Rules for a Content Patcher Machine"""
+    Id: str = ""
+    Triggers: list = field(default_factory=lambda: [])
+    UseFirstValidOutput: bool = False
+    OutputItem: list = field(default_factory=lambda: [])
+    MinutesUntilReady: int = 20
+    DaysUntilReady: int = -1
+    RecalculateOnCollect: bool = False
+
+    def to_dict(self):
+        outDict = {}
+        for k, v in self.__dict__.items():
+            outDict[k] = v
+        return outDict

@@ -12583,5 +12583,16 @@
     "Mephisto.winterThu10": "I am able to repurpose most of the trash that you bring me into usable materials to build machines with.$2#$b#Some of them require quite a few components, so you need to trade in a larger amount of material to cover the construction costs.$0#",
     "Mephisto.winterFri10": "Certain herbs, cheeses and peppers can be blended into sauces and dips using the puree jar.$0#$b#It can also be used to make dessert puddings and sweet confections, though these require additional ingredients.$1#",
     "Mephisto.winterSat10": "You can infuse teas and coffee beans using an oxidizer. By using certain flavor extracts, production pouches or spice mixes you can produce different infusions.$1#$b#Generally speaking, these items are added before the leaves or coffee beans.$0#",
-    "Mephisto.winterSun10": "I designed all of the machines that I sell, it's kind of a hobby of mine.$3#$b#The blueprints? I uh...Lost them...$5#"
+    "Mephisto.winterSun10": "I designed all of the machines that I sell, it's kind of a hobby of mine.$3#$b#The blueprints? I uh...Lost them...$5#",
+
+	//shops.json - Shops    "Djinn.ShopDialogue": "The vast desert hides many strange things. If you are interested in any, I will accept human currency as payment.",
+    "Selkie.ShopDialogue": "The sea connects all lands. I have many rare items, if you are interested...",
+    "Coyotl.ShopDialogue": "You can find everything you need growing out in the wild. Can I interest you in any of nature's bounty?",
+    "Azeban.ShopDialogue": "I'll make a deal with you, Human. If you pick up all of the litter you find, you can trade it to me here for the things I make in my spare time.",
+    "Pookah.ShopDialogue": "The deep forest hides many strange things. If you are interested in any, I suppose I could part with a few of them...In exchange for a 'monetary donation' of course.",
+    "Barghest.ShopDialogue": "Welcome, human mortal. I can offer you items of wonderous power...But all things come at a price...",
+    "Nagual.ShopDialogue": "The jungle is a living maze which hides many great wonders. If you are interested in any, I could sell them to you.",
+    "Valkyrie.ShopDialogue": "Human who has befriended nature...If you offer the gods a Divine Libation, they will bless you with a Sacred Implement of Power.",
+    "Humidor.ShopDialogue": "ADULT USE ONLY!   Government Warning: These products are known to cause cancer.",
+    "SodaMachine.ShopDialogue": "Refreshing Soda!"
 }

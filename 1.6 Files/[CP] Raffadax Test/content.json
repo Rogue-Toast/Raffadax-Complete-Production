@@ -24,7 +24,11 @@
     	"Humidor": {
       		"Default": "true",
       		"AllowValues": "true, false",
-    	}
+    	},
+        "SeedMakerSaplings": {
+            "Default": "More Saplings",
+            "AllowValues": "More Saplings, Better Saplings"
+        }
     },
     "Changes": [
         // INCLUDE DATA ASSETS
@@ -55,6 +59,10 @@
         {
             "Action": "Include",
             "FromFile": "assets/data/shops.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/saplingmachines.json"
         },
         // CUSTOM NPC EXCLUSIONS
         {

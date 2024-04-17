@@ -1,3 +1,4 @@
+"""Amends Raffadax PFM data with new item IDs."""
 import copy
 import json
 import os

@@ -6781,6 +6781,66 @@
                     "Operation": "Append",
                     "Target": [
                         "Fields",
+                        "Amanra",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Amanra",
+                        1
+                    ],
+                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_Stardrop {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Amanra",
+                        9
+                    ],
+                    "Value": "{{ModId}}_Rooibos",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Astrid",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Astrid",
+                        1
+                    ],
+                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Astrid",
+                        9
+                    ],
+                    "Value": "{{ModId}}_Rooibos",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
                         "Caroline",
                         3
                     ],
@@ -6875,6 +6935,36 @@
                         7
                     ],
                     "Value": "{{ModId}}_FruitoftheNetherworld {{ModId}}_PoisonApple {{ModId}}_Zaminkand",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Coyote",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Coyote",
+                        1
+                    ],
+                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Coyote",
+                        9
+                    ],
+                    "Value": "{{ModId}}_Rooibos",
                     "Delimiter": " "
                 },
                 {
@@ -7721,6 +7811,36 @@
                     "Operation": "Append",
                     "Target": [
                         "Fields",
+                        "Mephisto",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Mephisto",
+                        1
+                    ],
+                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Mephisto",
+                        9
+                    ],
+                    "Value": "{{ModId}}_Rooibos",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
                         "Pam",
                         3
                     ],
@@ -7865,6 +7985,36 @@
                         7
                     ],
                     "Value": "{{ModId}}_FruitoftheNetherworld {{ModId}}_PoisonApple {{ModId}}_Zaminkand",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Puck",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Puck",
+                        1
+                    ],
+                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_Stardrop {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Puck",
+                        9
+                    ],
+                    "Value": "{{ModId}}_Rooibos",
                     "Delimiter": " "
                 },
                 {
@@ -8071,6 +8221,36 @@
                     "Operation": "Append",
                     "Target": [
                         "Fields",
+                        "Shuck",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Shuck",
+                        1
+                    ],
+                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_Stardrop {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Shuck",
+                        9
+                    ],
+                    "Value": "{{ModId}}_Rooibos",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
                         "Vincent",
                         3
                     ],
@@ -8206,6 +8386,36 @@
                     ],
                     "Value": "{{ModId}}_KolaNut {{ModId}}_SassafrasRoot {{ModId}}_SpruceTips {{ModId}}_Sugarcane",
                     "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Xolotl",
+                        3
+                    ],
+                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Xolotl",
+                        1
+                    ],
+                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_Stardrop {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Xolotl",
+                        9
+                    ],
+                    "Value": "{{ModId}}_Rooibos",
+                    "Delimiter": " "
                 }
             ]
         },
@@ -8266,47 +8476,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
-            }
-        },
-        {
-            "LogName": "Raffadax Gift Taste Edit - FruitTrees",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Amanra",
-                        3
-                    ],
-                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Amanra",
-                        1
-                    ],
-                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_Stardrop {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Amanra",
-                        9
-                    ],
-                    "Value": "{{ModId}}_Rooibos",
-                    "Delimiter": " "
-                }
-            ],
-            "When": {
-                "HasMod": "Raffadax.NPCs"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -8366,7 +8536,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -8426,47 +8596,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
-            }
-        },
-        {
-            "LogName": "Raffadax Gift Taste Edit - FruitTrees",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Astrid",
-                        3
-                    ],
-                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Astrid",
-                        1
-                    ],
-                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Astrid",
-                        9
-                    ],
-                    "Value": "{{ModId}}_Rooibos",
-                    "Delimiter": " "
-                }
-            ],
-            "When": {
-                "HasMod": "Raffadax.NPCs"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -8527,46 +8657,6 @@
             ],
             "When": {
                 "HasMod": "attonbomb.Beatrice"
-            }
-        },
-        {
-            "LogName": "Raffadax Gift Taste Edit - FruitTrees",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Coyote",
-                        3
-                    ],
-                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Coyote",
-                        1
-                    ],
-                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Coyote",
-                        9
-                    ],
-                    "Value": "{{ModId}}_Rooibos",
-                    "Delimiter": " "
-                }
-            ],
-            "When": {
-                "HasMod": "Raffadax.NPCs"
             }
         },
         {
@@ -8736,7 +8826,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -8956,7 +9046,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -9016,47 +9106,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
-            }
-        },
-        {
-            "LogName": "Raffadax Gift Taste Edit - FruitTrees",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Mephisto",
-                        3
-                    ],
-                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Mephisto",
-                        1
-                    ],
-                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Mephisto",
-                        9
-                    ],
-                    "Value": "{{ModId}}_Rooibos",
-                    "Delimiter": " "
-                }
-            ],
-            "When": {
-                "HasMod": "Raffadax.NPCs"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -9116,7 +9166,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -9176,7 +9226,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -9236,47 +9286,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
-            }
-        },
-        {
-            "LogName": "Raffadax Gift Taste Edit - FruitTrees",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Puck",
-                        3
-                    ],
-                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Puck",
-                        1
-                    ],
-                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_Stardrop {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Puck",
-                        9
-                    ],
-                    "Value": "{{ModId}}_Rooibos",
-                    "Delimiter": " "
-                }
-            ],
-            "When": {
-                "HasMod": "Raffadax.NPCs"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -9348,46 +9358,6 @@
                     "Operation": "Append",
                     "Target": [
                         "Fields",
-                        "Shuck",
-                        3
-                    ],
-                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Shuck",
-                        1
-                    ],
-                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_Stardrop {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Shuck",
-                        9
-                    ],
-                    "Value": "{{ModId}}_Rooibos",
-                    "Delimiter": " "
-                }
-            ],
-            "When": {
-                "HasMod": "Raffadax.NPCs"
-            }
-        },
-        {
-            "LogName": "Raffadax Gift Taste Edit - FruitTrees",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
                         "Sophia",
                         3
                     ],
@@ -9436,7 +9406,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -9496,7 +9466,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -9556,7 +9526,7 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.SVECode"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {
@@ -9667,46 +9637,6 @@
             ],
             "When": {
                 "HasMod": "ZoeDoll.NPCAlecto"
-            }
-        },
-        {
-            "LogName": "Raffadax Gift Taste Edit - FruitTrees",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Xolotl",
-                        3
-                    ],
-                    "Value": "{{ModId}}_AcaiBerry {{ModId}}_Agave {{ModId}}_Almond {{ModId}}_AngosturaBark {{ModId}}_Annatto {{ModId}}_Avocado {{ModId}}_Bahidaj {{ModId}}_Baobab {{ModId}}_BayLeaf {{ModId}}_BergamotOrange {{ModId}}_BirchBark {{ModId}}_BlackBamboo {{ModId}}_BlackCacaoPod {{ModId}}_BlackCherry {{ModId}}_BlackCurrants {{ModId}}_BlackOlive {{ModId}}_BlackWalnut {{ModId}}_BlueJavaBanana {{ModId}}_BlueRaspberry {{ModId}}_BrazilNut {{ModId}}_BuddhasHand {{ModId}}_CacaoPod {{ModId}}_Carambola {{ModId}}_Cashew {{ModId}}_CashewApple {{ModId}}_Chestnut {{ModId}}_CinchonaBark {{ModId}}_CinnamonBark {{ModId}}_Clematis {{ModId}}_Clove {{ModId}}_CocodeMer {{ModId}}_Crabapple {{ModId}}_CurryLeaf {{ModId}}_Date {{ModId}}_DeadMansFingers {{ModId}}_Dogwood {{ModId}}_DragonFruit {{ModId}}_Durian {{ModId}}_EbonyWood {{ModId}}_Elderberry {{ModId}}_Elderflower {{ModId}}_Fig {{ModId}}_Forsythia {{ModId}}_GinkgoLeaf {{ModId}}_GoldenPlum {{ModId}}_Grapefruit {{ModId}}_GrosMichel {{ModId}}_Guarana {{ModId}}_Guava {{ModId}}_HawthornBerry {{ModId}}_HeartsofPalm {{ModId}}_Heliconia {{ModId}}_Hibiscus {{ModId}}_Honeyberry {{ModId}}_HoneycrispApple {{ModId}}_Honeysuckle {{ModId}}_HuaMoa {{ModId}}_Huckleberry {{ModId}}_Jabuticaba {{ModId}}_Jacaranda {{ModId}}_Juniper {{ModId}}_KeyLime {{ModId}}_Kiwi {{ModId}}_KolaNut {{ModId}}_Kumquat {{ModId}}_LarahaOrange {{ModId}}_Lavender {{ModId}}_Lemon {{ModId}}_Lilac {{ModId}}_Lime {{ModId}}_Linden {{ModId}}_Lychee {{ModId}}_MacadamiaNut {{ModId}}_MandarinOrange {{ModId}}_MarconaAlmond {{ModId}}_MeyerLemon {{ModId}}_MimosaFlower {{ModId}}_Mistletoe {{ModId}}_MonsteraDeliciosa {{ModId}}_Mulberry {{ModId}}_Myristica {{ModId}}_NinoBananas {{ModId}}_Olive {{ModId}}_Osmanthus {{ModId}}_Papaya {{ModId}}_Pear {{ModId}}_Pecan {{ModId}}_Persimmon {{ModId}}_PimentoBerry {{ModId}}_PineNut {{ModId}}_PinkLemon {{ModId}}_Pistachio {{ModId}}_Plantain {{ModId}}_Quince {{ModId}}_RainbowEucalyptusLeaf {{ModId}}_Rambutan {{ModId}}_Raspberry {{ModId}}_RedAnjouPear {{ModId}}_RedDaccaBanana {{ModId}}_RoseGrapes {{ModId}}_Rosemary {{ModId}}_Rowanberry {{ModId}}_RoyalPoinciana {{ModId}}_RubyRedGrapefruit {{ModId}}_Sakura {{ModId}}_Sandalwood {{ModId}}_Saskatoon {{ModId}}_SassafrasRoot {{ModId}}_SeaHeart {{ModId}}_SloePlum {{ModId}}_SpruceTips {{ModId}}_StarAnise {{ModId}}_StarApple {{ModId}}_StarJasmine {{ModId}}_Sugarcane {{ModId}}_Sumac {{ModId}}_Tamarind {{ModId}}_Walnut {{ModId}}_WhiteCacaoPod {{ModId}}_WhitePeach {{ModId}}_WillowBark {{ModId}}_Wisteria {{ModId}}_WitchHazel",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Xolotl",
-                        1
-                    ],
-                    "Value": "{{ModId}}_AppleofDiscord {{ModId}}_AppleofIdunn {{ModId}}_Bearberry {{ModId}}_Bifrost {{ModId}}_CintamaniFlower {{ModId}}_DeepJungleMoss {{ModId}}_DragonBerry {{ModId}}_Foxberry {{ModId}}_FruitoftheNetherworld {{ModId}}_Hesperidium {{ModId}}_Moonberry {{ModId}}_PoisonApple {{ModId}}_PolarBerry {{ModId}}_RoseofAvalon {{ModId}}_Stardrop {{ModId}}_SummerStarberry {{ModId}}_Sunberry {{ModId}}_VakkhicGrape {{ModId}}_WinterStarberry {{ModId}}_Wolfberry {{ModId}}_Yateveo {{ModId}}_Zaminkand",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Xolotl",
-                        9
-                    ],
-                    "Value": "{{ModId}}_Rooibos",
-                    "Delimiter": " "
-                }
-            ],
-            "When": {
-                "HasMod": "Raffadax.NPCs"
             }
         },
         {
