@@ -46,6 +46,7 @@ def convertData(filepath: str):
         cleanOutput = unidecode(rule["InputIdentifier"])
         cleanOutput = re.sub(NAMERE, "", cleanOutput)
         for ruleData in QUALITYSTRINGS:
+            # separate rules for each quality
             newRule = CPRule()
             ruleId = "Raffadax.RCP_SeedMaker_{}_{}".format(cleanName, ruleData["Postfix"])
             newRule.Id = ruleId
@@ -63,14 +64,21 @@ def convertData(filepath: str):
             quantityNode["Entries"][ruleId] = newRule.to_dict()
             me = {"ID": ruleId, "BeforeID": "Default"}
             quantityNode["MoveEntries"].append(me)
-            # edit the object and add to qualityNode
-            qtyRule = copy.deepcopy(quantityNode["Entries"][ruleId])
-            outitem = {"ItemId": "(O){}".format(translateName(rule["OutputIdentifier"])),
-                       "Id": translateName(rule["OutputIdentifier"]),
-                       "CopyQuality": True}
-            qtyRule["OutputItem"] = [outitem]
-            qualityNode["Entries"][ruleId] = qtyRule
-            qualityNode["MoveEntries"].append(me)
+        # Quality output only requires one rule
+        qtyRule = CPRule()
+        qtyruleId = "Raffadax.RCP_SeedMaker_{}".format(cleanName)
+        qtyRule.Id = qtyruleId
+        trigger = {"Id": "{}_{}".format(cleanOutput, ruleData["Postfix"]),
+                   "Trigger": "ItemPlacedInMachine",
+                   "RequiredItemId": "(O){}".format(translateName(rule["InputIdentifier"])),
+                   "RequiredCount": 1}
+        qtyRule.Triggers.append(trigger)
+        outitem = {"ItemId": "(O){}".format(translateName(rule["OutputIdentifier"])),
+                   "Id": translateName(rule["OutputIdentifier"]),
+                   "CopyQuality": True}
+        qtyRule.OutputItem.append(outitem)
+        qualityNode["Entries"][qtyruleId] = qtyRule.to_dict()
+        qualityNode["MoveEntries"].append(me)
     outData["Changes"].append(quantityNode)
     outData["Changes"].append(qualityNode)
     return outData
