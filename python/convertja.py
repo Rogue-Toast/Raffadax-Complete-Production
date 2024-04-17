@@ -55,29 +55,31 @@ VANILLANPCS = ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf",
                "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey",
                "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus",
                "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam",
-               "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"]
+               "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard",
+               "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck",
+               "Xolotl"]
 
 MODNPCS = {
-    "Amanra": "Raffadax.NPCs",
-    "Astrid": "Raffadax.NPCs",
-    "Coyote": "Raffadax.NPCs",
-    "Mephisto": "Raffadax.NPCs",
-    "Puck": "Raffadax.NPCs",
-    "Shuck": "Raffadax.NPCs",
-    "Xolotl": "Raffadax.NPCs",
+    # "Amanra": "Raffadax.NPCs",
+    # "Astrid": "Raffadax.NPCs",
+    # "Coyote": "Raffadax.NPCs",
+    # "Mephisto": "Raffadax.NPCs",
+    # "Puck": "Raffadax.NPCs",
+    # "Shuck": "Raffadax.NPCs",
+    # "Xolotl": "Raffadax.NPCs",
     "Beatrice": "attonbomb.Beatrice",
-    "Marlon": "FlashShifter.SVECode",
-    "Olivia": "FlashShifter.SVECode",
-    "Susan": "FlashShifter.SVECode",
-    "Andy": "FlashShifter.SVECode",
-    "Apples": "FlashShifter.SVECode",
-    "Claire": "FlashShifter.SVECode",
-    "Martin": "FlashShifter.SVECode",
-    "Morris": "FlashShifter.SVECode",
-    "Sophia": "FlashShifter.SVECode",
-    "Victor": "FlashShifter.SVECode",
-    "Morgan": "FlashShifter.SVECode",
-    "Gunther": "FlashShifter.SVECode",
+    "Marlon": "FlashShifter.StardewValleyExpandedCP",
+    "Olivia": "FlashShifter.StardewValleyExpandedCP",
+    "Susan": "FlashShifter.StardewValleyExpandedCP",
+    "Andy": "FlashShifter.StardewValleyExpandedCP",
+    "Apples": "FlashShifter.StardewValleyExpandedCP",
+    "Claire": "FlashShifter.StardewValleyExpandedCP",
+    "Martin": "FlashShifter.StardewValleyExpandedCP",
+    "Morris": "FlashShifter.StardewValleyExpandedCP",
+    "Sophia": "FlashShifter.StardewValleyExpandedCP",
+    "Victor": "FlashShifter.StardewValleyExpandedCP",
+    "Morgan": "FlashShifter.StardewValleyExpandedCP",
+    "Gunther": "FlashShifter.StardewValleyExpandedCP",
     "Gregory": "CPBoardingHouse",
     "Sheila": "CPBoardingHouse",
     "Hekate": "Tarniyar.NPC.GV.mod",
@@ -349,6 +351,7 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
     jsonFiles = []
     spriteFiles = {}
     giftprefs = {}
+    contextTags = []
     objDir = "{}Objects".format(srcDir)
     tasteKeys = {"Love": 1, "Like": 3, "Neutral": 9, "Dislike": 5, "Hate": 7}
     for entry in objectscan(objDir):
@@ -408,6 +411,7 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
             newObj.Buffs.append(newBuff.to_dict())
         if "ContextTags" in objData:
             newObj.ContextTags = objData["ContextTags"]
+            contextTags += objData["ContextTags"]
         if "CategoryTextOverride" in objData:  # this may have to become a CustomField
             catName = re.sub(NAMERE, "", objData["CategoryTextOverride"])
             newObj.ContextTags.append("category_{}".format(catName.lower()))
@@ -465,7 +469,8 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
     cGiftList = []
     for npc, prefData in conditionalGifts.items():
         cGiftList.append(prefData)
-    return [newObjects, spriteFiles, newGifts, i18n, objTexture, cGiftList]
+    contextTags = list(set(contextTags))
+    return [newObjects, spriteFiles, newGifts, i18n, objTexture, cGiftList, contextTags]
 
 
 def buildSprites(spriteList, dstDir, fileName, spriteType="objects"):
@@ -802,7 +807,7 @@ if __name__ == "__main__":
         vanillaObjects = pyjson5.load(open("vanillaObjects.json"), encoding="utf-8")
         # Crops
         print("Generating Crop Data")
-        objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts = buildObjects(cropDir, modId, "cropobjects", "Crops", i18n)
+        objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts, objcontextTags = buildObjects(cropDir, modId, "cropobjects", "Crops", i18n)
         # seed objects and cropdata
         objectData, cropData, cropSprites, objectSprites, i18n, cropTexture = buildCrops(cropDir, modId, objectData, objectSprites, i18n, "cropobjects", vanillaObjects)
         # write data to file
@@ -812,7 +817,7 @@ if __name__ == "__main__":
         buildSprites(cropSprites, spriteDir, "crops", "crops")
         # Trees
         print("Generating Fruit Tree Data")
-        objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts = buildObjects(treeDir, modId, "treeobjects", "FruitTrees", i18n)
+        objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts, treecontextTags = buildObjects(treeDir, modId, "treeobjects", "FruitTrees", i18n)
         objectData, treeData, treeSprites, objectSprites, i18n, treeTexture = buildTrees(treeDir, modId, objectData, objectSprites, i18n, "treeobjects")
         writeData([objTexture, treeTexture], [objectData, treeData, giftData], dstDir, "trees", conditionalGifts)
         buildSprites(objectSprites, spriteDir, "treeobjects", "objects")
@@ -824,7 +829,7 @@ if __name__ == "__main__":
         buildSprites(weaponSprites, spriteDir, "weaponobjects", "weapons")
         # artisan
         print("Generating Artisan Data")
-        objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts = buildObjects(artiDir, modId, "artisanobjects", "Artisan", i18n)
+        objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts, artisancontextTags = buildObjects(artiDir, modId, "artisanobjects", "Artisan", i18n)
         bigObjectData, bigObjectSprites, i18n, bigObjTexture = buildBigObjects(artiDir, modId, "artisanmachines", "Artisan", i18n)
         # recipes
         print("Generating Cooking Data")
@@ -838,3 +843,7 @@ if __name__ == "__main__":
         print("Generating i18n")
         npcLang = "{}/1.6 Files/npcdefault.json".format(rootDir)
         writeLanguageData(i18n, langDir, npcLang)
+        contextTags = objcontextTags + treecontextTags + artisancontextTags
+        contextTags = list(set(contextTags))
+        contextTags.sort()
+        pprint.pprint(contextTags)
