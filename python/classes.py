@@ -259,8 +259,8 @@ class Inventory():
     MaxItems: Optional[int] = 0
     IsRecipe: Optional[bool] = False
     Quality: Optional[int] = 0
-    MinStack: Optional[int] = -1
-    MaxStack: Optional[int] = -1
+    MinStack: Optional[int] = 0
+    MaxStack: Optional[int] = 0
     Price: Optional[int] = 0
     TradeItemId: Optional[str] = ""  # Qualified or Unqualified
     TradeItemAmount: Optional[int] = 0

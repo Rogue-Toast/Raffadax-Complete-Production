@@ -1,6 +1,33 @@
 {
     "Format": "2.0.0",
+    "ConfigSchema": {
+    	"ArtisanImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	},
+    	"GemImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	},
+    	"MilkImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	},
+    	"SeedsImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	},
+    	"SpecialImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	},
+    	"Humidor": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	}
+    },
     "Changes": [
+        // INCLUDE DATA ASSETS
         {
             "Action": "Include",
             "FromFile": "assets/data/crops.json"
@@ -16,6 +43,39 @@
         {
             "Action": "Include",
             "FromFile": "assets/data/artisan.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/mapedits.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Amanra.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/shops.json"
+        },
+        // CUSTOM NPC EXCLUSIONS
+        {
+            "LogName": "NPC Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+                "Amanra": "All",
+                "Astrid": "All",
+                "Coyote": "All",
+		        "Mephisto": "All",
+		        "Puck": "All",
+		        "Shuck": "All",
+		        "Xolotl": "All"
+            }
+        },
+        // STRINGS FROM MAPS
+        {
+            "LogName": "StringsFromMaps",
+            "Action": "Include",
+            "FromFile": "assets/StringsFromMaps.json"
         }
     ]
 }
