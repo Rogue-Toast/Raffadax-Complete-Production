@@ -282,7 +282,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
                         },
                         {
                             "RandomItemId": [
@@ -399,9 +399,9 @@
                     "Owners": [
                         {
                             "Name": "Amanra",
-                            "Portrait": "assets/Shops/Amanra.png",
+                            "Portrait": "assets/textures/Portraits/Amanra.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "The meaning of these symbols elude you. Amanra's eyes shine golden in the moonlight...Perhaps you should return in the morning.",
+                            "ClosedMessage": "{{i18n:Djinn.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "Djinndialogue_1",
@@ -696,7 +696,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
                         },
                         {
                             "RandomItemId": [
@@ -812,9 +812,9 @@
                     "Owners": [
                         {
                             "Name": "Astrid",
-                            "Portrait": "assets/shops/Astrid.png",
+                            "Portrait": "assets/textures/Portraits/Astrid.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It's too dark to read. Astrid seems distracted anyway.",
+                            "ClosedMessage": "{{i18n:Selkie.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "Selkiedialogue_1",
@@ -1103,7 +1103,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
                         },
                         {
                             "RandomItemId": [
@@ -1217,9 +1217,9 @@
                     "Owners": [
                         {
                             "Name": "Coyote",
-                            "Portrait": "assets/shops/Coyote.png",
+                            "Portrait": "assets/textures/Portraits/Coyote.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It just looks like a bunch of safety information for miners. Coyote is staring at the sky...He seems distracted.",
+                            "ClosedMessage": "{{i18n:Coyotl.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "Coyotldialogue_1",
@@ -1672,9 +1672,9 @@
                     "Owners": [
                         {
                             "Name": "Mephisto",
-                            "Portrait": "assets/Shops/Mephisto.png",
+                            "Portrait": "assets/textures/Portraits/Mephisto.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It seems that Mephisto is not paying attention at the moment.",
+                            "ClosedMessage": "{{i18n:Azeban.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "Azebandialogue_1",
@@ -1974,7 +1974,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2086,9 +2086,9 @@
                     "Owners": [
                         {
                             "Name": "Puck",
-                            "Portrait": "assets/Shops/Puck.png",
+                            "Portrait": "assets/textures/Portraits/Puck.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It's a map of the forest, and a poster with camping and fire safety guidelines. Puck is silently staring at you...Perhaps you should return in the morning.",
+                            "ClosedMessage": "{{i18n:Pookah.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "Pookahdialogue_1",
@@ -2388,7 +2388,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2498,9 +2498,9 @@
                     "Owners": [
                         {
                             "Name": "Shuck",
-                            "Portrait": "assets/Shops/Shuck.png",
+                            "Portrait": "assets/textures/Portraits/Shuck.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It's a faded ad for a lost dog...Three heads? It's too distorted to see clearly. You suddenly do not feel like being this close to Shuck so late at night...Perhaps you should return in the morning.",
+                            "ClosedMessage": "{{i18n:Barghest.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "Barghestdialogue_1",
@@ -2790,7 +2790,7 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "Price": 50000
                         },
                         {
@@ -2899,9 +2899,9 @@
                     "Owners": [
                         {
                             "Name": "Xolotl",
-                            "Portrait": "assets/Shops/Xolotl.png",
+                            "Portrait": "assets/textures/Portraits/Xolotl.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "The symbols on this tablet seem to move around with the shifting shadows, you cannot decipher them. Xolotl is staring at you in an unsettling manner...Perhaps you should come back in the morning.",
+                            "ClosedMessage": "{{i18n:Nagual.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "Nagualdialogue_1",
@@ -3362,9 +3362,9 @@
                     "Owners": [
                         {
                             "Name": "AnyOrNone",
-                            "Portrait": "assets/Shops/Valkyrie.png",
+                            "Portrait": "assets/textures/Shops/Valkyrie.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It is too dark to read the inscription.",
+                            "ClosedMessage": "{{i18n:Valkyrie.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "Valkyriedialogue_1",
@@ -3419,9 +3419,9 @@
                     "Owners": [
                         {
                             "Name": "AnyOrNone",
-                            "Portrait": "assets/Humidor.png",
+                            "Portrait": "assets/textures/Shops/Humidor.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It seems to be turned off.",
+                            "ClosedMessage": "{{i18n:Humidor.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "Humidordialogue_1",
@@ -3515,9 +3515,9 @@
                     "Owners": [
                         {
                             "Name": "AnyOrNone",
-                            "Portrait": "assets/SodaMachine.png",
+                            "Portrait": "assets/textures/Shops/SodaMachine.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It seems to be turned off.",
+                            "ClosedMessage": "{{i18n:SodaMachine.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "SodaMachinedialogue_1",

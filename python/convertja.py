@@ -55,9 +55,9 @@ VANILLANPCS = ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf",
                "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey",
                "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus",
                "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam",
-               "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard",
-               "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck",
-               "Xolotl"]
+               "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"]
+
+RAFFNPCS = ["Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl"]
 
 MODNPCS = {
     # "Amanra": "Raffadax.NPCs",
@@ -343,6 +343,7 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                 "Target": "Data/NPCGiftTastes",
                 "TextOperations": []}
     conditionalGifts = {}
+    raffGifts = {}
     objTexture = {"LogName": "Raffadax Object Textures - {}".format(mode),
                   "Action": "Load",
                   "Target": "Mods/{}/Objects/{}".format(modId, mode),
@@ -429,7 +430,7 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
             for tk, tdata in objData["GiftTastes"].items():
                 fieldIndex = tasteKeys[tk]
                 for npc in tdata:
-                    if npc not in VANILLANPCS and npc not in MODNPCS:
+                    if npc not in VANILLANPCS and npc not in MODNPCS and npc not in RAFFNPCS:
                         print("Nonexistent NPC: {} in {}".format(npc, newObj.Name))
                         quit()
                     if npc not in giftprefs:
@@ -450,27 +451,47 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                             "Delimiter": " "
                             }
                 newGifts["TextOperations"].append(prefDict)
-        else:
-            conditionalGifts[npc] = {"LogName": "Raffadax Gift Taste Edit - {}".format(mode),
-                                     "Action": "EditData",
-                                     "Target": "Data/NPCGiftTastes",
-                                     "TextOperations": []}
+        elif npc in RAFFNPCS:
+            raffGifts[npc] = {"LogName": "Raffadax Gift Taste Edit - {} - {}".format(npc, mode),
+                              "Action": "EditData",
+                              "Target": "Data/NPCGiftTastes",
+                              "TextOperations": []}
             for tier, itemList in tierData.items():
                 prefDict = {"Operation": "Append",
                             "Target": ["Fields", npc, int(tier)],
                             "Value": " ".join(itemList),
                             "Delimiter": " "
                             }
-                conditionalGifts[npc]["TextOperations"].append(prefDict)
+                raffGifts[npc]["TextOperations"].append(prefDict)
+        else:
+            if npc == "Marlon":
+                outnpc = "MarlonFay"
+            elif npc == "Morris":
+                outnpc = "MorrisTod"
+            elif npc == "Gunther":
+                outnpc = "GuntherSilvian"
+            else:
+                outnpc = npc
+            conditionalGifts[outnpc] = {"LogName": "Raffadax Gift Taste Edit - {} - {}".format(outnpc, mode),
+                                        "Action": "EditData",
+                                        "Target": "Data/NPCGiftTastes",
+                                        "TextOperations": []}
+            for tier, itemList in tierData.items():
+                prefDict = {"Operation": "Append",
+                            "Target": ["Fields", outnpc, int(tier)],
+                            "Value": " ".join(itemList),
+                            "Delimiter": " "
+                            }
+                conditionalGifts[outnpc]["TextOperations"].append(prefDict)
             modName = MODNPCS[npc]
-            conditionalGifts[npc]["When"] = {"HasMod": modName}
+            conditionalGifts[outnpc]["When"] = {"HasMod": modName}
     # pprint.pprint(conditionalGifts)
     # convert dict to list
     cGiftList = []
     for npc, prefData in conditionalGifts.items():
         cGiftList.append(prefData)
     contextTags = list(set(contextTags))
-    return [newObjects, spriteFiles, newGifts, i18n, objTexture, cGiftList, contextTags]
+    return [newObjects, spriteFiles, newGifts, i18n, objTexture, cGiftList, contextTags, raffGifts]
 
 
 def buildSprites(spriteList, dstDir, fileName, spriteType="objects"):
@@ -663,12 +684,10 @@ def objectscan(path):
             yield entry
 
 
-def writeData(textures: list, data: list, dstDir: str, dstName: str, cGifts=[]):
+def writeData(textures: list, data: list, dstDir: str, dstName: str):
     jsonOut = {"Changes": []}
     jsonOut["Changes"] += textures
     jsonOut["Changes"] += data
-    if cGifts:
-        jsonOut["Changes"] += cGifts
     outPath = "{}data/{}.json".format(dstDir, dstName)
     # outData = json.dumps(jsonOut, indent=4)
     if not os.path.exists("{}data".format(dstDir)):
@@ -676,6 +695,39 @@ def writeData(textures: list, data: list, dstDir: str, dstName: str, cGifts=[]):
     with open(outPath, 'w', encoding='utf-8') as f:
         json.dump(jsonOut, f, indent=4, ensure_ascii=False)
     print("Content Patcher data written to {}".format(outPath))
+
+
+def writeGiftData(vanillaData: list, raffData: list, compatData: list, dstDir: str):
+    jsonOut = {"Changes": vanillaData}
+    outPath = "{}data/vanillagifts.json".format(dstDir)
+    # outData = json.dumps(jsonOut, indent=4)
+    if not os.path.exists("{}data".format(dstDir)):
+        os.mkdir("{}data".format(dstDir))
+    with open(outPath, 'w', encoding='utf-8') as f:
+        json.dump(jsonOut, f, indent=4, ensure_ascii=False)
+    print("Vanilla NPC Gift Pref data written to {}".format(outPath))
+    for npc in RAFFNPCS:
+        jsonOut = {"Changes": []}
+        jsonOut['Changes'].append(raffData[0][npc])
+        jsonOut['Changes'].append(raffData[1][npc])
+        jsonOut['Changes'].append(raffData[2][npc])
+        outPath = "{}data/{}gifts.json".format(dstDir, npc)
+        # outData = json.dumps(jsonOut, indent=4)
+        if not os.path.exists("{}data".format(dstDir)):
+            os.mkdir("{}data".format(dstDir))
+        with open(outPath, 'w', encoding='utf-8') as f:
+            json.dump(jsonOut, f, indent=4, ensure_ascii=False)
+        print("{} Gift Pref data written to {}".format(npc, outPath))
+    jsonOut = {"Changes": []}
+    for node in compatData:
+        jsonOut["Changes"] += node
+    outPath = "{}data/compatgifts.json".format(dstDir)
+    # outData = json.dumps(jsonOut, indent=4)
+    if not os.path.exists("{}data".format(dstDir)):
+        os.mkdir("{}data".format(dstDir))
+    with open(outPath, 'w', encoding='utf-8') as f:
+        json.dump(jsonOut, f, indent=4, ensure_ascii=False)
+    print("Mod Compat NPC Gift Pref data written to {}".format(outPath))
 
 
 def writeLanguageData(i18n, dstDir, npcLang):
@@ -807,19 +859,19 @@ if __name__ == "__main__":
         vanillaObjects = pyjson5.load(open("vanillaObjects.json"), encoding="utf-8")
         # Crops
         print("Generating Crop Data")
-        objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts, objcontextTags = buildObjects(cropDir, modId, "cropobjects", "Crops", i18n)
+        objectData, objectSprites, cropgiftData, i18n, objTexture, cropconditionalGifts, objcontextTags, cropraffgifts = buildObjects(cropDir, modId, "cropobjects", "Crops", i18n)
         # seed objects and cropdata
         objectData, cropData, cropSprites, objectSprites, i18n, cropTexture = buildCrops(cropDir, modId, objectData, objectSprites, i18n, "cropobjects", vanillaObjects)
         # write data to file
-        writeData([objTexture, cropTexture], [objectData, cropData, giftData], dstDir, "crops", conditionalGifts)
+        writeData([objTexture, cropTexture], [objectData, cropData], dstDir, "crops")
         # # make sprites
         buildSprites(objectSprites, spriteDir, "cropobjects", "objects")
         buildSprites(cropSprites, spriteDir, "crops", "crops")
         # Trees
         print("Generating Fruit Tree Data")
-        objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts, treecontextTags = buildObjects(treeDir, modId, "treeobjects", "FruitTrees", i18n)
+        objectData, objectSprites, treegiftData, i18n, objTexture, treeconditionalGifts, treecontextTags, treeraffgifts = buildObjects(treeDir, modId, "treeobjects", "FruitTrees", i18n)
         objectData, treeData, treeSprites, objectSprites, i18n, treeTexture = buildTrees(treeDir, modId, objectData, objectSprites, i18n, "treeobjects")
-        writeData([objTexture, treeTexture], [objectData, treeData, giftData], dstDir, "trees", conditionalGifts)
+        writeData([objTexture, treeTexture], [objectData, treeData], dstDir, "trees")
         buildSprites(objectSprites, spriteDir, "treeobjects", "objects")
         buildSprites(treeSprites, spriteDir, "fruittrees", "fruittrees")
         # weapons
@@ -829,20 +881,22 @@ if __name__ == "__main__":
         buildSprites(weaponSprites, spriteDir, "weaponobjects", "weapons")
         # artisan
         print("Generating Artisan Data")
-        objectData, objectSprites, giftData, i18n, objTexture, conditionalGifts, artisancontextTags = buildObjects(artiDir, modId, "artisanobjects", "Artisan", i18n)
+        objectData, objectSprites, artgiftData, i18n, objTexture, artconditionalGifts, artisancontextTags, artraffgifts = buildObjects(artiDir, modId, "artisanobjects", "Artisan", i18n)
         bigObjectData, bigObjectSprites, i18n, bigObjTexture = buildBigObjects(artiDir, modId, "artisanmachines", "Artisan", i18n)
         # recipes
         print("Generating Cooking Data")
         cookingData = buildCooking(artiDir, modId, vanillaObjects)
         print("Generating Crafting Data")
         craftingData = buildCrafting(artiDir, modId, vanillaObjects)
-        writeData([objTexture, bigObjTexture], [objectData, bigObjectData, cookingData, craftingData], dstDir, "artisan", conditionalGifts)
+        writeData([objTexture, bigObjTexture], [objectData, bigObjectData, cookingData, craftingData], dstDir, "artisan")
         buildSprites(objectSprites, spriteDir, "artisanobjects", "objects")
         buildSprites(bigObjectSprites, spriteDir, "artisanmachines", "bigobjects")
         # # write i18n data
         print("Generating i18n")
         npcLang = "{}/1.6 Files/npcdefault.json".format(rootDir)
         writeLanguageData(i18n, langDir, npcLang)
+        print("Generating Gift Data")
+        writeGiftData([cropgiftData, treegiftData, artgiftData], [cropraffgifts, treeraffgifts, artraffgifts], [cropconditionalGifts, treeconditionalGifts, artconditionalGifts], dstDir)
         contextTags = objcontextTags + treecontextTags + artisancontextTags
         contextTags = list(set(contextTags))
         contextTags.sort()
