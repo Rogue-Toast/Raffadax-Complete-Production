@@ -1,0 +1,197 @@
+{
+    "Format": "2.0.0",
+
+// GMCM CONFIGURATION
+    "ConfigSchema": {
+    	"ArtisanImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	   },
+    	"GemImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	   },
+    	"MilkImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	   },
+    	"SeedsImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	   },
+    	"SpecialImages": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    	   },
+    	"Humidor": {
+      		"Default": "true",
+      		"AllowValues": "true, false",
+            },
+        "SeedMakerSaplings": {
+            "Default": "More Saplings",
+            "AllowValues": "More Saplings, Better Saplings"
+            },
+        },
+
+// DYNAMIC TOKENS
+    "DynamicTokens": [
+        {
+            "Name": "Amanra",
+            "Value": "{{ModID}}_Amanra",
+        },
+        {
+            "Name": "Astrid",
+            "Value": "{{ModID}}_Astrid",
+        },
+        {
+            "Name": "Coyote",
+            "Value": "{{ModID}}_Coyote",
+        },
+        {
+            "Name": "Mephisto",
+            "Value": "{{ModID}}_Mephisto",
+        },
+        {
+            "Name": "Puck",
+            "Value": "{{ModID}}_Puck",
+        },
+        {
+            "Name": "Shuck",
+            "Value": "{{ModID}}_Shuck",
+        },
+        {
+            "Name": "Xolotl",
+            "Value": "{{ModID}}_Xolotl",
+        },
+    ],
+
+// CHANGES
+    "Changes": [
+
+// INCLUDE DATA/ASSETS
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/crops.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/trees.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/weapons.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/artisan.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/mapedits.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Amanra.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Astrid.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Coyote.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Mephisto.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Puck.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Shuck.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Xolotl.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/shops.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/machines.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/vanillagifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/compatgifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Amanragifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Astridgifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Coyotegifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Mephistogifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Puckgifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Shuckgifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Xolotlgifts.json"
+        },
+
+// CUSTOM NPC EXCLUSIONS
+        {
+            "LogName": "NPC Exclusions",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+                "Amanra": "All",
+                "Astrid": "All",
+                "Coyote": "All",
+		        "Mephisto": "All",
+		        "Puck": "All",
+		        "Shuck": "All",
+		        "Xolotl": "All"
+            }
+        },
+
+// STRINGS FROM MAPS
+        {
+            "LogName": "StringsFromMaps",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Amoxtli": "{{i18n:StringsFromMaps.Amoxtli}}",
+                "CodexGigas": "{{i18n:StringsFromMaps.CodexGigas}}",
+                "CorpusHermeticum": "{{i18n:StringsFromMaps.CorpusHermeticum}}",
+                "Galdrabok": "{{i18n:StringsFromMaps.Galdrabok}}",
+                "GrimorumArcanorum": "{{i18n:StringsFromMaps.GrimorumArcanorum}}",
+                "JoJini": "{{i18n:StringsFromMaps.JoJini}}",
+                "Necronomicon": "{{i18n:StringsFromMaps.Necronomicon}}"
+            }
+        }    
+    ]
+}
