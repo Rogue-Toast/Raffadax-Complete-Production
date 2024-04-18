@@ -116,7 +116,7 @@
 			"Action": "EditMap",
       		"Target": "Maps/Island_SE",
       		"FromFile": "assets/textures/mapedits.tmx",
-      			"FromArea": { "X": 2, "Y": 2, "Height": 2, "Width": 1 },
+      			"FromArea": { "X": 1, "Y": 2, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 22, "Y": 10, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
@@ -125,7 +125,7 @@
 			"Action": "EditMap",
       		"Target": "Maps/Mountain",
       		"FromFile": "assets/textures/mapedits.tmx",
-      			"FromArea": { "X": 2, "Y": 3, "Height": 2, "Width": 1 },
+      			"FromArea": { "X": 2, "Y": 2, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 112, "Y": 10, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
@@ -134,7 +134,7 @@
 			"Action": "EditMap",
       		"Target": "Maps/Sewer",
       		"FromFile": "assets/textures/mapedits.tmx",
-      			"FromArea": { "X": 2, "Y": 4, "Height": 2, "Width": 1 },
+      			"FromArea": { "X": 3, "Y": 2, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 15, "Y": 9, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
@@ -143,7 +143,7 @@
 			"Action": "EditMap",
       		"Target": "Maps/Woods",
       		"FromFile": "assets/textures/mapedits.tmx",
-      			"FromArea": { "X": 2, "Y": 5, "Height": 2, "Width": 1 },
+      			"FromArea": { "X": 4, "Y": 2, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 27, "Y": 5, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
@@ -152,7 +152,7 @@
 			"Action": "EditMap",
       		"Target": "Maps/WitchSwamp",
       		"FromFile": "assets/textures/mapedits.tmx",
-				"FromArea": { "X": 2, "Y": 6, "Height": 2, "Width": 1 },
+				"FromArea": { "X": 5, "Y": 2, "Height": 2, "Width": 1 },
      			"ToArea": { "X": 21, "Y": 21, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
@@ -161,7 +161,7 @@
 			"Action": "EditMap",
       		"Target": "Maps/Island_Shrine",
       		"FromFile": "assets/textures/mapedits.tmx",
-      			"FromArea": { "X": 2, "Y": 7, "Height": 2, "Width": 1 },
+      			"FromArea": { "X": 6, "Y": 2, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 19, "Y": 23, "Height": 2, "Width": 1 },
 	   		"PatchMode": "Overlay"
 		},
@@ -170,7 +170,7 @@
 			"Action": "EditMap",
      		"Target": "Maps/Caldera",
       		"FromFile": "assets/textures/mapedits.tmx",
-      			"FromArea": { "X": 2, "Y": 8, "Height": 2, "Width": 1 },
+      			"FromArea": { "X": 7, "Y": 2, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 24, "Y": 22, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},

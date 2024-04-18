@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Shops",
             "Entries": {
-                "{{ModId}}_Djinn": {
+                "{{ModId}}_Amanra": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -404,8 +404,8 @@
                             "ClosedMessage": "The meaning of these symbols elude you. Amanra's eyes shine golden in the moonlight...Perhaps you should return in the morning.",
                             "Dialogues": [
                                 {
-                                    "Id": "Djinndialogue_1",
-                                    "Dialogue": "{{i18n:Djinn.ShopDialogue}}"
+                                    "Id": "AmanraDialogue_1",
+                                    "Dialogue": "{{i18n:Amanra.ShopDialogue}}"
                                 }
                             ]
                         }
@@ -413,13 +413,13 @@
                     "StackSizeVisibility": "ShowIfMultiple",
                     "PriceModifiers": [
                         {
-                            "Id": "Djinn_SellPriceModifier",
+                            "Id": "Amanra_SellPriceModifier",
                             "Modification": "Multiply",
                             "Amount": 0.5
                         }
                     ]
                 },
-                "{{ModId}}_Selkie": {
+                "{{ModId}}_Astrid": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -817,8 +817,8 @@
                             "ClosedMessage": "It's too dark to read. Astrid seems distracted anyway.",
                             "Dialogues": [
                                 {
-                                    "Id": "Selkiedialogue_1",
-                                    "Dialogue": "{{i18n:Selkie.ShopDialogue}}"
+                                    "Id": "AstridDialogue_1",
+                                    "Dialogue": "{{i18n:Astrid.ShopDialogue}}"
                                 }
                             ]
                         }
@@ -826,13 +826,13 @@
                     "StackSizeVisibility": "ShowIfMultiple",
                     "PriceModifiers": [
                         {
-                            "Id": "Selkie_SellPriceModifier",
+                            "Id": "Astrid_SellPriceModifier",
                             "Modification": "Multiply",
                             "Amount": 0.5
                         }
                     ]
                 },
-                "{{ModId}}_Coyotl": {
+                "{{ModId}}_Coyote": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -1222,8 +1222,8 @@
                             "ClosedMessage": "It just looks like a bunch of safety information for miners. Coyote is staring at the sky...He seems distracted.",
                             "Dialogues": [
                                 {
-                                    "Id": "Coyotldialogue_1",
-                                    "Dialogue": "{{i18n:Coyotl.ShopDialogue}}"
+                                    "Id": "CoyoteDialogue_1",
+                                    "Dialogue": "{{i18n:Coyote.ShopDialogue}}"
                                 }
                             ]
                         }
@@ -1231,13 +1231,13 @@
                     "StackSizeVisibility": "ShowIfMultiple",
                     "PriceModifiers": [
                         {
-                            "Id": "Coyotl_SellPriceModifier",
+                            "Id": "Coyote_SellPriceModifier",
                             "Modification": "Multiply",
                             "Amount": 0.5
                         }
                     ]
                 },
-                "{{ModId}}_Azeban": {
+                "{{ModId}}_Mephisto": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -1677,8 +1677,8 @@
                             "ClosedMessage": "It seems that Mephisto is not paying attention at the moment.",
                             "Dialogues": [
                                 {
-                                    "Id": "Azebandialogue_1",
-                                    "Dialogue": "{{i18n:Azeban.ShopDialogue}}"
+                                    "Id": "MephistoDialogue_1",
+                                    "Dialogue": "{{i18n:Mephisto.ShopDialogue}}"
                                 }
                             ]
                         }
@@ -1686,13 +1686,13 @@
                     "StackSizeVisibility": "ShowIfMultiple",
                     "PriceModifiers": [
                         {
-                            "Id": "Azeban_SellPriceModifier",
+                            "Id": "Mephisto_SellPriceModifier",
                             "Modification": "Multiply",
                             "Amount": 0.5
                         }
                     ]
                 },
-                "{{ModId}}_Pookah": {
+                "{{ModId}}_Puck": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -2091,8 +2091,8 @@
                             "ClosedMessage": "It's a map of the forest, and a poster with camping and fire safety guidelines. Puck is silently staring at you...Perhaps you should return in the morning.",
                             "Dialogues": [
                                 {
-                                    "Id": "Pookahdialogue_1",
-                                    "Dialogue": "{{i18n:Pookah.ShopDialogue}}"
+                                    "Id": "PuckDialogue_1",
+                                    "Dialogue": "{{i18n:Puck.ShopDialogue}}"
                                 }
                             ]
                         }
@@ -2100,13 +2100,13 @@
                     "StackSizeVisibility": "ShowIfMultiple",
                     "PriceModifiers": [
                         {
-                            "Id": "Pookah_SellPriceModifier",
+                            "Id": "Puck_SellPriceModifier",
                             "Modification": "Multiply",
                             "Amount": 0.5
                         }
                     ]
                 },
-                "{{ModId}}_Barghest": {
+                "{{ModId}}_Shuck": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -2503,8 +2503,8 @@
                             "ClosedMessage": "It's a faded ad for a lost dog...Three heads? It's too distorted to see clearly. You suddenly do not feel like being this close to Shuck so late at night...Perhaps you should return in the morning.",
                             "Dialogues": [
                                 {
-                                    "Id": "Barghestdialogue_1",
-                                    "Dialogue": "{{i18n:Barghest.ShopDialogue}}"
+                                    "Id": "ShuckDialogue_1",
+                                    "Dialogue": "{{i18n:Shuck.ShopDialogue}}"
                                 }
                             ]
                         }
@@ -2512,13 +2512,13 @@
                     "StackSizeVisibility": "ShowIfMultiple",
                     "PriceModifiers": [
                         {
-                            "Id": "Barghest_SellPriceModifier",
+                            "Id": "Shuck_SellPriceModifier",
                             "Modification": "Multiply",
                             "Amount": 0.5
                         }
                     ]
                 },
-                "{{ModId}}_Nagual": {
+                "{{ModId}}_Xolotl": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -2904,8 +2904,8 @@
                             "ClosedMessage": "The symbols on this tablet seem to move around with the shifting shadows, you cannot decipher them. Xolotl is staring at you in an unsettling manner...Perhaps you should come back in the morning.",
                             "Dialogues": [
                                 {
-                                    "Id": "Nagualdialogue_1",
-                                    "Dialogue": "{{i18n:Nagual.ShopDialogue}}"
+                                    "Id": "XolotlDialogue_1",
+                                    "Dialogue": "{{i18n:Xolotl.ShopDialogue}}"
                                 }
                             ]
                         }
@@ -2913,7 +2913,7 @@
                     "StackSizeVisibility": "ShowIfMultiple",
                     "PriceModifiers": [
                         {
-                            "Id": "Nagual_SellPriceModifier",
+                            "Id": "Xolotl_SellPriceModifier",
                             "Modification": "Multiply",
                             "Amount": 0.5
                         }
@@ -3367,7 +3367,7 @@
                             "ClosedMessage": "It is too dark to read the inscription.",
                             "Dialogues": [
                                 {
-                                    "Id": "Valkyriedialogue_1",
+                                    "Id": "ValkyrieDialogue_1",
                                     "Dialogue": "{{i18n:Valkyrie.ShopDialogue}}"
                                 }
                             ]
