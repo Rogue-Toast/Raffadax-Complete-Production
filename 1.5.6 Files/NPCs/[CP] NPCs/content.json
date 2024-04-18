@@ -1,0 +1,833 @@
+﻿{
+
+    "Changes": 
+[
+
+// VANILLA IMAGES & DATA
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields": 
+		{
+	   	"18": { "2": "-10"},
+		},
+	},
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields": 
+		{
+	   	"283": { "5": "The leaves and bright red berries make a popular winter decoration. The berries are toxic, but the leaves can be brewed into tea or gin."},
+		},
+	},
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields": 
+		{
+	   	"431": { "5": "Seeds for a large variety of yellow flower which yields more seeds at harvest. The seeds themselves can be used for baking and are often eaten roasted or raw. Takes 8 days to mature. Plant in the summer or fall."},
+		},
+	},
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields": 
+		{
+	   	"453": { "5": "Seeds for a bright red flower which may yield more seeds at harvest. The seeds themselves are commonly used for baking due to their nutty flavor. Takes 7 days to mature. Plant in the summer."},
+		},
+	},
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields": 
+		{
+	   	"490": { "5": "Seeds for a large variety of orange squash. The seeds themselves can be used for baking and are sometimes eaten roasted. Takes 13 days to mature. Plant in the fall."},
+		},
+	},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/beer_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 161, 
+				"Y": 224, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/coffee_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 176, 
+				"Y": 256, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/dandelion_object.png",
+      			"When": { "SeedsImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+         		"ToArea": 
+				{ 
+				"X": 353, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/diamond_object.png",
+      			"When": { "GemImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 0, 
+				"Y": 48, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/dino_mayo_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 240, 
+				"Y": 528, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/duck_mayo_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 304, 
+				"Y": 192, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/emerald_object.png",
+      			"When": { "GemImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 192, 
+				"Y": 33, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/goat_milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 			
+			"ToArea": 	
+				{ 
+				"X": 64, 
+				"Y": 288, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+      			{
+        	 	"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/golden_pumpkin_object.png",
+      			"When": { "GemImages": "true"},
+         		"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				 "Height": 16 
+				},	
+         		"ToArea": 
+				{ 
+				"X": 208, 
+				"Y": 241, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/green_tea_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 224, 
+				"Y": 400, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/honey_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 64, 
+				"Y": 224, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/iridium_milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 176, 
+				"Y": 528, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/jelly_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 128, 
+				"Y": 224, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/joja_cola_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 368, 
+				"Y": 96, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/juice_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 224, 
+				"Y": 224, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/large_goat_milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 96, 
+				"Y": 288, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/large_milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea":
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 288, 
+				"Y": 112, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/life_elixer_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+	         	"ToArea": 
+				{ 
+				"X": 80, 
+				"Y": 512, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/maple_syrup_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 64, 
+				"Y": 480, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/mayonnaise_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 287, 
+				"Y": 192, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/mead_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 48, 
+				"Y": 304, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 256, 
+				"Y": 112, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+     			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/monster_musk_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+	         	"ToArea": 
+				{ 
+				"X": 240, 
+				"Y": 576, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/oak_resin_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 80, 
+				"Y": 480, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/oil_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+	         	"ToArea": 
+				{ 
+				"X": 112, 
+				"Y": 160, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/oil_garlic_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+	         	"ToArea": 
+				{ 
+				"X": 64, 
+				"Y": 512, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/pale_ale_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 240, 
+				"Y": 192, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/pickles_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 96, 
+				"Y": 224, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},		
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/pine_tar_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+			"ToArea": 	
+				{ 
+				"X": 96, 
+				"Y": 480, 
+				"Width": 16, 
+				"Height": 16 
+				},
+			},	
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/poppy_seeds_object.png",
+      			"When": { "SeedsImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+         		"ToArea": 
+				{ 
+				"X": 336, 
+				"Y": 288, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/prismatic_jelly_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+         		"ToArea": 
+				{ 
+				"X": 192, 
+				"Y": 576, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/prismatic_shard_object.png",
+      			"When": { "GemImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+         		"ToArea": 
+				{ 
+				"X": 32, 
+				"Y": 48, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/pumpkin_seeds_object.png",
+      			"When": { "SeedsImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+         		"ToArea": 
+				{ 
+				"X": 160, 
+				"Y": 320, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/rainbow_shell_object.png",
+      			"When": { "GemImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+	         	"ToArea": 
+				{ 
+				"X": 160, 
+				"Y": 257, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/squid_ink_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+	         	"ToArea": 
+				{ 
+				"X": 352, 
+				"Y": 528, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/truffle_oil_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+	         	"ToArea": 
+				{ 
+				"X": 0, 
+				"Y": 288, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/vinegar_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+	         	"ToArea": 
+				{ 
+				"X": 176, 
+				"Y": 272, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/void_mayo_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+	         	"ToArea": 
+				{ 
+				"X": 321, 
+				"Y": 192, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/wine_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea": 
+				{ 
+				"X": 0, 
+				"Y": 0, 
+				"Width": 16, 
+				"Height": 16 
+				}, 
+         		"ToArea": 
+				{ 
+				"X": 192, 
+				"Y": 224, 
+				"Width": 16, 
+				"Height": 16 
+				}
+      			},
+]
+}
