@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="21">
+ <properties>
+  <property name="Action" value=""/>
+  <property name="Shop" value="Amanra"/>
+ </properties>
  <tileset firstgid="1" name="z_GrimoiresSigns" tilewidth="16" tileheight="16" tilecount="144" columns="9">
   <image source="mapedits.png" width="144" height="256"/>
  </tileset>
- <layer id="1" name="Tile Layer 1" width="8" height="8">
+ <layer id="1" name="Tile Layer" width="8" height="8">
   <data encoding="csv">
 1,2,3,4,5,6,7,8,
 10,11,12,13,14,15,16,17,
@@ -15,5 +19,91 @@
 0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="4" name="TileData" x="0" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Amanra"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Astrid"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Coyote"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Mephisto"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Puck"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="80" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Shuck"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="96" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Xolotl"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="112" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Valkyrie"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="0" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Humidor"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="16" y="80" width="32" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_SodaMachine"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;CorpusHermeticum&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="16" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Galdabrok&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="32" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;JoJini&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="48" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;CodexGigas&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="64" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GrimorumArcanorum&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="80" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Necronomicon&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="96" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Amoxtli&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
