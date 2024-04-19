@@ -1,0 +1,18 @@
+{
+    	"Name": "Nutmeg Butter",
+    	"Description": "A fragrant, spicy butter made from nutmeg. It can be used in place of peanut butter in baked goods.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Spice Puree",
+    	"Edibility": 50,
+  	"Price": 400,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Elliott", "Evelyn", "Gus", "Hekate", "Olivia", "Pierre", "Sandy", "Susan" ],
+		"Like": [ "Apples", "Emily", "George" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Gunther", "Emily", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

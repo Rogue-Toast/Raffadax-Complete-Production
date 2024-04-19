@@ -1,0 +1,18 @@
+{
+  	"Name": "Fig Jam",
+  	"Description": "A sweet jam made with blended figs. It is so packed with seeds that it has a crunchy texture.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 110,
+  	"Price": 880,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Elliott","Evelyn", "Gus", "Olivia", "Pierre", "Sandy", "Susan" ],
+		"Like": [ "Apples", "Demetrius", "Emily", "George", "Leo", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Gregory", "Gunther", "Emily", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morgan", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "Alex", "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Haley", "Hekate", "Hephaestus", "Jas", "Martin", "Sam", "Sebastian", "Shane",  "Vincent" ]
+		},
+}

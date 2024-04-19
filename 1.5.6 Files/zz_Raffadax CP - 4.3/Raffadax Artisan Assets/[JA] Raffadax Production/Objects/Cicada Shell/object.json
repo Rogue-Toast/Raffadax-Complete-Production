@@ -1,0 +1,16 @@
+{
+  	"Name": "Cicada Shell",
+  	"Description": "The shed shell of a large flying insect. Cicadas live their whole lives underground; after several years they emerge and develope wings. Adults don't even have mouths to eat with, they mate and then die.",
+  	"Category": "-28",
+  	"CategoryTextOverride": "Nature Forage",
+  	"Edibility": -300,
+  	"Price": 1,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Neutral": [ "Demetrius", "Gunther", "Penny" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		},
+}

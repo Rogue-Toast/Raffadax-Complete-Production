@@ -1,0 +1,17 @@
+{
+    	"Name": "Golden Raisin Compote",
+    	"Description": "Whole golden raisins preserved in a sweet golden sauce.",
+  	"Category": "ArtisanGoods",
+  	"Edibility": 95,
+  	"Price": 2020,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "George", "Lewis", "Linus" ],
+        	"Like": [ "Apples", "Claire", "Demetrius", "Elliott", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Marlon", "Martin", "Morris", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Gus", "Krobus", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Leo", "Morgan", "Victor", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Olivia", "Penny", "Sebastian" ]
+		},
+}

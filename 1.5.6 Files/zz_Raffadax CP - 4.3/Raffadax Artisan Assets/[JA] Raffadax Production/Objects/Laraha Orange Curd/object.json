@@ -1,0 +1,19 @@
+{
+	"Name": "Laraha Orange Curd",
+    	"Description": "Laraha oranges that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 25,
+	"EdibleIsDrink": true,
+    	"Price": 350,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Krobus" ],
+		"Like": [ "Dwarf", "Gus", "Hephaestus", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Hekate", "Mephisto", "Morgan", "Olivia", "Puck", "Sebastian", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Linus", "Vincent" ]
+		},
+}

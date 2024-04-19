@@ -1,0 +1,16 @@
+{
+  	"Name": "Smoked Agave",
+  	"Description": "A spine from an agave plant that has been smoked to infuse it with flavor. Smoked agave is traditionally used in the production of mezcal.",
+  	"Category": "Vegetable",
+  	"CategoryTextOverride": "Smoked Vegetable",
+  	"Edibility": 35,
+	"Price": 900,
+	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

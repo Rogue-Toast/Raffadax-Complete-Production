@@ -1,0 +1,31 @@
+{
+	"Name": "Cheese Processor",
+	"Description": "A machine that processes cheeses and curds into specialty varieties of cheese.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 6,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": 335,
+            		"Count": 5,
+        		}, 
+        		{
+            		"Object": 787,
+            		"Count": 1,
+        		}, 
+        		{
+            		"Object": 428,
+            		"Count": 1,
+        		},
+        		{
+            		"Object": 247,
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},
+}

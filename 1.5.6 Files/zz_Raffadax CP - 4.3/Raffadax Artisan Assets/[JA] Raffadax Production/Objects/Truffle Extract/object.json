@@ -1,0 +1,19 @@
+{
+	"Name": "Truffle Extract",
+  	"Description": "The extracted essence of truffles. It has been distilled into a flavoring agent and aromatic.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flavor Extract",
+  	"Edibility": 30,
+    	"EdibleIsDrink": true,
+  	"Price": 1410,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Olivia" ],
+		"Neutral": [ "Abigail", "Alex", "Beatrice", "Evelyn", "Harvey", "Hekate", "Jodi", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Sheila", "Sophia" ],
+        	"Dislike": [ "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Hephaestus", "Kent", "Leah", "Lewis", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Susan", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "George", "Jacob", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		},
+}

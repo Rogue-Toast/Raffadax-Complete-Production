@@ -1,0 +1,48 @@
+{
+	"Name": "Duqqa",
+  	"Description": "A mid-eastern condiment made of crushed nuts and spices. It is generally used as a dip for breads and vegetables served before meals. It has a warm, nutty, toasty flavor with hints of salt and pepper.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 410,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Black Sesame Seeds",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Crushed Hazelnuts",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Black Pepper",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Coriander",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Cumin Seed",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Table Salt",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

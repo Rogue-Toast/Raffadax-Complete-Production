@@ -1,0 +1,37 @@
+{
+    	"Name": "Nettle Tea",
+    	"Description": "A nutritious, vegetal tea brewed with leaves from a stinging nettle plant.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herbal Tea",
+	"Edibility": 25,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 1,
+        	"Fishing": 0,
+      		"Foraging": 5,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 5,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 190,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Hephaestus", "Krobus" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ], 
+		"Neutral": [ "Caroline", "Claire", "Harvey", "Hekate", "Lewis", "Maru", "Wednesday", "Alecto", "Wizard" ],
+        	"Dislike": [ "Abigail", "Alex", "Apples", "Beatrice", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan",  "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "George", "Jas", "Leo", "Vincent" ]
+		},
+	"DisableWithMod": "uberkwefty.wintercrops",
+}

@@ -1,0 +1,16 @@
+{
+    	"Name": "Dried Ginkgo Leaf",
+    	"Description": "A leaf from an ornamental tree which has been dried for preservation. It can be brewed into a medicinal tea.",
+   	"Category": "Greens",
+  	"CategoryTextOverride": "Dried Herb",
+  	"Edibility": -300,
+  	"Price": 250,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Harvey", "Hekate", "Hephaestus", "Maru", "Morgan", "Alecto", "Wizard" ], 
+		"Dislike": [  "Amanra", "Astrid", "Coyote", "Demetrius", "Leah", "Linus", "Mephisto", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+		},
+}

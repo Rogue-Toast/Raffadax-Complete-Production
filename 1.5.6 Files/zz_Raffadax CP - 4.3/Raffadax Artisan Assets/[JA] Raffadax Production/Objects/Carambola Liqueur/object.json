@@ -1,0 +1,36 @@
+{
+    	"Name": "Carambola Liqueur",
+    	"Description": "A bright, tropical liqueur distilled with carambola fruit. It is a fun substitute for more common tropical cocktail flavors. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+	"Edibility": 175,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 15,
+		"MagnetRadius": 15,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 1500,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Clint", "Coyote", "Demetrius", "Elliott", "Gregory", "Gus", "Harvey", "Hekate", "Hephaestus", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sam", "Sandy", "Shane", "Shuck", "Xolotl", ],
+        	"Like": [ "Apples", "Beatrice", "Caroline",  "Claire", "Emily", "Evelyn", "George", "Gunther", "Jacob", "Krobus", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Susan" ],
+		"Dislike": [ "Abigail", "Haley" ], 
+		"Hate": [ "Dwarf", "Eloise", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent", "Wednesday" ]	
+		},
+}

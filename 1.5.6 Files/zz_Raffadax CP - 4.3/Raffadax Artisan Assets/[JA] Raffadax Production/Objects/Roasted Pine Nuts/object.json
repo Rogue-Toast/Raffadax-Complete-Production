@@ -1,0 +1,18 @@
+{
+  	"Name": "Roasted Pine Nuts",
+  	"Description": "Pine nuts that have been roasted until lightly caramelized. They will remain crisp when baked and used in culinary dishes, and can be eaten alone as a snack food.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Roasted Nuts",
+  	"Edibility": 75,
+	"Price": 630,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Kent", "Olivia" ],
+		"Like": [ "Clint", "George", "Hephaestus", "Jacob", "Lewis", "Sebastian", "Shane", ],
+        	"Neutral": [ "Abigail", "Amanra", "Alex", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Evelyn", "Emily", "Gunther", "Haley", "Harvey", "Hekate", "Jas", "Jodi", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sheila", "Shuck", "Sophia", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Eloise", "Morris", "Susan" ],
+		"Hate": [ "Gregory", "Victor" ]
+		},
+}

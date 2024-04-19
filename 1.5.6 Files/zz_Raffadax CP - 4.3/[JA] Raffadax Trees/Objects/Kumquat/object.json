@@ -1,0 +1,17 @@
+{
+	"Name": "Kumquat",
+    	"Description": "A small, oval, bright orange citrus fruit with a strong flavor. Kumquats have a sour juice and a sweet skin, so are eaten whole and unpealed.",
+  	"Category": "Fruit",
+    	"Edibility": 20,
+    	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Elliott", "Evelyn", "Gus", "Hekate", "Olivia", "Pam", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Claire", "Coyote", "Demetrius", "Dwarf", "Emily", "George", "Gregory", "Gunther", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Xolotl" ],
+		"Dislike": [ "Morgan", "Penny", "Sebastian", "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Linus", "Vincent", "Wednesday" ]
+		},
+	"DisableWithMod": "Mae.trees",
+}

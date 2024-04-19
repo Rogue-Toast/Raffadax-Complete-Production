@@ -1,0 +1,23 @@
+{
+	"Name": "Red Corn",
+    	"Product": "Red Corn",
+    	"SeedName": "Red Corn Seeds",
+    	"SeedDescription": "Seeds for a sweet variant of corn with small, red kernels. Takes 14 days to mature, then produces every four days. Plant in the spring or summer.",
+    	"Type": "Vegetable",
+    	"Seasons": ["spring", "summer"],
+    	"Phases": [ 1, 4, 4, 4, 1 ],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+    	"SeedPurchasePrice": 300,
+ 	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": [ "f Xolotl 1500" ]
+}

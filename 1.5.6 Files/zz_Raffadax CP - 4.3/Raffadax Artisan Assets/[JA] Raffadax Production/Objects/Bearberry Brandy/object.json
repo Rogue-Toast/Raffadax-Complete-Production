@@ -1,0 +1,35 @@
+{
+	"Name": "Bearberry Brandy",
+	"Description": "A dark blue brandy made by distilling bearberry wine; it tastes like sweet cranberries. When you drink this brandy, you can feel the spirit of the bear sharpen your instincts.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Enchanted Brandy",
+	"Edibility": 200,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 8,
+        	"Fishing": 8,
+      		"Foraging": 8,
+        	"Mining": 8,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 3000,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Amanra", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Gregory", "Hekate", "Hephaestus", "Harvey", "Kent", "Leah", "Linus", "Mephisto", "Puck", "Sheila", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Jacob", "Jodi", "Krobus", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Victor", "Wednesday" ],
+		"Neutral": [ "Morgan", "Sophia", "Susan" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

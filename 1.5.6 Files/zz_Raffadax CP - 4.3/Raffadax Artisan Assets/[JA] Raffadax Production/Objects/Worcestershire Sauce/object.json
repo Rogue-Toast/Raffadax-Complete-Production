@@ -1,0 +1,53 @@
+{
+  	"Name": "Worcestershire Sauce",
+  	"Description": "A fermented liquid condiment with a sweet-sour flavor. It is used to add an umami flavor to stews and marinades.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Condiment",
+  	"Edibility": 50,
+	"EdibleIsDrink": true,
+  	"Price": 715,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 7,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Vinegar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Molasses",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Anchovy",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Tamarind Extract",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Minced Garlic",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Sugar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Table Salt",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		}, 
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline",  "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Haley", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

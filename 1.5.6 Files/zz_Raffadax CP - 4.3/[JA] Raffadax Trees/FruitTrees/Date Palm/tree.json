@@ -1,0 +1,11 @@
+{
+	"Name": "Date Palm",
+    	"Product": "Date",
+    	"SaplingName": "Date Sapling",
+    	"SaplingDescription": "A large desert palm which produces sweet dates. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 3000,
+	"SaplingPurchaseRequirements": ["f Amanra 1000"],
+	"DisableWithMod": "BonsterTrees",
+}

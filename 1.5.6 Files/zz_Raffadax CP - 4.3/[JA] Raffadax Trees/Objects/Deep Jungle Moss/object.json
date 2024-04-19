@@ -1,0 +1,35 @@
+{
+  	"Name": "Deep Jungle Moss",
+  	"Description": "A dark green patch of moss from a deep jungle tree; it has tiny flowers growing out of it. This moss is soft and tender, with the strong aroma of forest. Jungle moss is said to have wonderous arcane and medicinal properties.",
+  	"Category": "Flower",
+  	"CategoryTextOverride": "Legendary Herb",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 7,
+        	"Fishing": 7,
+      		"Foraging": 7,
+        	"Mining": 7,
+
+        	"Luck": 10,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 5000,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Coyote", "Dwarf", "Emily", "Harvey", "Hekate", "Hephaestus", "Krobus", "Marlon", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail", "Alex", "Demetrius", "George", "Gregory", "Gunther", "Kent", "Leo", "Linus", "Wednesday" ],
+        	"Neutral": [ "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Evelyn", "Gus", "Jacob", "Jodi", "Leah", "Lewis", "Marnie", "Pierre", "Robin", "Sandy", "Sheila", "Sophia", "Susan" ],
+		"Dislike": [ "Morris", "Olivia", "Pam", "Sam", "Shane", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

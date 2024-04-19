@@ -1,0 +1,35 @@
+{
+	"Name": "Sparkling Sunlight Mead",
+	"Description": "A radiant sparkling mead made using honey sourced from sunberries. This mead is favored by spirits of light.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Sparkling Mead",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 20,
+        	"Fishing": 0,
+      		"Foraging": 20,
+        	"Mining": 0,
+
+        	"Luck": 20,
+        	"MaxStamina": 20,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 20,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 15300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Claire", "Hekate", "Hephaestus", "Susan" ],
+		"Neutral": [ "Morgan", "Olivia", "Sophia", "Victor" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Krobus", "Martin", "Penny", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

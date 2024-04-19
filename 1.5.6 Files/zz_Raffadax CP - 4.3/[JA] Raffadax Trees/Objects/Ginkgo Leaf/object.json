@@ -1,0 +1,33 @@
+{
+  	"Name": "Ginkgo Leaf",
+  	"Description": "A fan-shaped leaf from an ornamental tree; they are said to have a variety of health benefits. According to some cultures, catching a falling ginkgo leaf before it hits the ground will bring good fortune.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Medicinal Herb",
+  	"Edibility": 50,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 3,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Gregory", "Hekate", "Jas", "Lewis", "Mephisto", "Morgan", "Puck", "Shuck", "Vincent", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Harvey", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan" ],
+		"Hate": [ "Eloise", "Krobus", "Leo", "Martin", "Morris", "Olivia", "Victor", "Willy" ],
+		},
+}

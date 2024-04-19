@@ -1,0 +1,18 @@
+{
+  	"Name": "Naberius",
+  	"Description": "An infernal trident carved using one tooth from each of the three heads of Cerberus. Wielders of this implement can pass freely between the realms of the living and the dead.",
+  	"Type": "Club",
+  	"MinimumDamage": 300,
+  	"MaximumDamage": 600,
+  	"Knockback": 3.0,
+  	"Speed": 6,
+  	"Accuracy": 100,
+  	"Defense": 600,
+	"ExtraSwingArea": 3,
+  	"CritChance": 0.30,
+  	"CritMultiplier": 3.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

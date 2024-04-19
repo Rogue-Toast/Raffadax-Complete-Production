@@ -1,0 +1,18 @@
+{
+  	"Name": "[CON] Raffadax Gems",
+  	"Author": "Raffadax",
+  	"Description": "Spawns gem ores in mines.",
+  	"UniqueID": "CON.Raffadax.Gems",
+  	"Version": "4.3",
+	"ContentPackFor": 
+		{
+		"UniqueID": "aedenthorn.CustomOreNodes"
+		},
+	"Dependencies": 
+		[
+   		{
+      		"UniqueID": "Raffadax.Complete.Production",
+      		"IsRequired": false,
+   		}
+		]
+}

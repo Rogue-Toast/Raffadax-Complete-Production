@@ -1,0 +1,36 @@
+{
+    	"Name": "Blackberry Wine",
+    	"Description": "A sweet, dark wine made from wild blackberries. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Wine",
+  	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 60,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Leah", "Mephisto", "Olivia", "Puck", "Shuck", "Xolotl" ], 
+        	"Like": [ "Apples", "Beatrice", "Demetrius", "Elliott", "Gregory", "Gunther", "Hephaestus", "Jacob", "Jodi", "Kent", "Linus", "Marlon", "Morris", "Pam", "Robin", "Sandy", "Shane", "Sheila" ],
+		"Neutral": [ "Alex", "Caroline", "Claire", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Lewis", "Marnie", "Pierre", "Sam", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Haley", "Maru" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ] 
+		},
+}

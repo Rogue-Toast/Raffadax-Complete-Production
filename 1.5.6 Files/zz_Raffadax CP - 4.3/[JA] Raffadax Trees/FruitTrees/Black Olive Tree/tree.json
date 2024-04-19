@@ -1,0 +1,10 @@
+{
+	"Name": "Black Olive Tree",
+    	"Product": "Black Olive",
+    	"SaplingName": "Black Olive Sapling",
+    	"SaplingDescription": "A tree which produces fully ripened black olives. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 5000,
+    	"SaplingPurchaseRequirements": ["f Shuck 500"],
+}

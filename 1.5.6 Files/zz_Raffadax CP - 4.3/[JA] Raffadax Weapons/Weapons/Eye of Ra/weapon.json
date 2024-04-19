@@ -1,0 +1,18 @@
+{
+  	"Name": "Eye of Ra",
+  	"Description": "A radiant crimson gem that is held by mystical forces within a golden ringed staff. It appears as though a molten sun is trapped within this gem.",
+  	"Type": "Club",
+  	"MinimumDamage": 300,
+  	"MaximumDamage": 600,
+  	"Knockback": 3.0,
+  	"Speed": 3,
+  	"Accuracy": 100,
+  	"Defense": 300,
+	"ExtraSwingArea": 3,
+  	"CritChance": 0.30,
+  	"CritMultiplier": 3.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

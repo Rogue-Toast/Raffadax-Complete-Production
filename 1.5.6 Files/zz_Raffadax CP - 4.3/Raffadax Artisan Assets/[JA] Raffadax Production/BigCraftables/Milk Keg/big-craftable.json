@@ -1,0 +1,27 @@
+{
+	"Name": "Milk Keg",
+	"Description": "A specialty beverage keg that produces non-dairy milks from nuts and seeds. Also produces flavored dairy milks.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Silver Bar",
+            		"Count": 10,
+        		},
+        		{
+            		"Object": "Sapphire",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": 709,
+            		"Count": 15,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

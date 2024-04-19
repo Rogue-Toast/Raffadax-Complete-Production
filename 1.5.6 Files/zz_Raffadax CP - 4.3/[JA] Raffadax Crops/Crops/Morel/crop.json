@@ -1,0 +1,23 @@
+{
+	"Name": "Morel",
+	"Product": "Morel",
+	"SeedName": "Morel Starter",
+	"SeedDescription": "Spores for a popular variety of edible wild mushroom. Takes 10 days to mature. Plant in the spring.",
+    	"Type": "Greens",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 4, 4, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 70,
+	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": ["f Coyote 2000"],
+}

@@ -1,0 +1,38 @@
+{
+	"Name": "Dryad Honey",
+	"Description": "A radiant, golden honey sourced from the flowers of a Dryad. It has a naturally intoxicating effect.",
+	"Category": "-26",
+	"CategoryTextOverride": "Mythic Honey",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 15,
+        	"Fishing": 0,
+      		"Foraging": 15,
+        	"Mining": 0,
+
+        	"Luck": 10,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -10,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 15100,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Apples", "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+	"ContextTags": 
+        	[
+        	"mythic_honey_item"
+        	],
+}

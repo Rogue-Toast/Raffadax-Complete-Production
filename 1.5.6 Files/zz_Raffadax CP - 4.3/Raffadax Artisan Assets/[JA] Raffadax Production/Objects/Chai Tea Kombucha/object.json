@@ -1,0 +1,35 @@
+{
+    	"Name": "Chai Tea Kombucha",
+    	"Description": "A lightly effervescent beverage made by fermenting chai tea. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Infused Tea Kombucha",
+	"Edibility": 175,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 10,
+        	"MaxStamina": 10,
+		"MagnetRadius": 10,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+ 	"Price": 5140,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Dwarf", "Elliott", "Emily", "George", "Jodi", "Lewis", "Mephisto", "Morris", "Olivia", "Penny", "Puck", "Sam", "Sandy", "Shuck", "Sophia", "Xolotl" ],
+        	"Like": [ "Apples", "Beatrice", "Clint", "Demetrius", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Pam", "Pierre", "Robin", "Shane", "Sheila", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "Sebastian" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

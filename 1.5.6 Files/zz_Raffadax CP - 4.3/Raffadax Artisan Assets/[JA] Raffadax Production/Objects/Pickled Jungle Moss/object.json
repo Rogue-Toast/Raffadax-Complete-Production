@@ -1,0 +1,34 @@
+{
+  	"Name": "Pickled Jungle Moss",
+  	"Description": "A strange medicinal jungle moss that has been preserved in a brine solution. It does not have a fantastic flavor, but it has amazing medicinal benefits.",
+  	"Category": "ArtisanGoods",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 11,
+        	"Fishing": 11,
+      		"Foraging": 11,
+        	"Mining": 11,
+
+        	"Luck": 11,
+        	"MaxStamina": 11,
+		"MagnetRadius": 11,
+        	"Speed": 6,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 10050,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Dwarf", "Harvey", "Hekate", "Hephaestus", "Leo", "Maru", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Alex", "Demetrius", "Emily", "Gregory", "Kent", "Krobus", "Linus", "Marlon",  ],
+		"Neutral": [ "Abigail", "Beatrice", "Caroline", "Clint", "Elliott", "Olivia", "Robin", "Sandy", "Wednesday" ],
+        	"Dislike": [ "Claire", "Evelyn", "Gus","Jacob", "Jodi", "Leah", "Lewis", "Marnie", "Morris", "Pam", "Pierre", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "George", "Gunther", "Haley", "Jas", "Martin", "Penny", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

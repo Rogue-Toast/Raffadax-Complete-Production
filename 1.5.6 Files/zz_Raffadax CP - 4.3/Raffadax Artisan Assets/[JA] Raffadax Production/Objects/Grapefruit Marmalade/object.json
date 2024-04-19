@@ -1,0 +1,18 @@
+{
+	"Name": "Grapefruit Marmalade",
+  	"Description": "A bitter-sweet syrup with pieces of rind and sliced chunks of grapefruit.",
+  	"Category": "Fruit",
+  	"CategoryTextOverride": "Marmalade",
+  	"Edibility": 100,
+  	"Price": 2650,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gunther", "Gus", "Haley", "Jacob", "Leah", "Leo", "Lewis", "Linus", "Sophia", "Victor", "Willy" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Jodi", "Kent", "Krobus", "Marlon", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Susan", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Dwarf", "Jas", "Marnie" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ] 
+		},
+}

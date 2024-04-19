@@ -1,0 +1,17 @@
+{
+	"Name": "Quince",
+    	"Description": "A hard, pear shaped fruit with an aroma like apples, roses and citrus. They have a flavor like apples and pears when cooked, but are too tough and astingent to eat raw or unprocessed.",
+  	"Category": "Fruit",
+    	"Edibility": 5,
+    	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Elliott", "Evelyn", "Gus", "Hekate", "Olivia", "Pam", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Claire", "Coyote", "Demetrius", "Dwarf", "Emily", "George", "Gregory", "Gunther", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Xolotl" ],
+		"Dislike": [ "Morgan", "Penny", "Sebastian", "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Linus", "Vincent", "Wednesday" ]
+		},
+	"DisableWithMod": "BonsterTrees",
+}

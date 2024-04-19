@@ -1,0 +1,19 @@
+{
+	"Name": "Pimento Berry Juice",
+  	"Description": "A dark, fragrant juice that makes an excellent cooking and mixing component. It tastes like a combination of various baking spices.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 45,
+  	"EdibleIsDrink": true,
+  	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Evelyn", "Gus", "Martin", "Olivia", "Pierre", "Susan" ],
+		"Like": [ "Alex", "Apples", "Leo", "Sandy" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Emily", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Claire", "Krobus", "Pam", "Penny", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Gregory", "Haley", "Jas", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

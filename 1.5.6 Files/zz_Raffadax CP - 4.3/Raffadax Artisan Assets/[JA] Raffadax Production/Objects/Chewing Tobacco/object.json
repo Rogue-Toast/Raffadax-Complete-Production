@@ -1,0 +1,16 @@
+{
+	"Name": "Chewing Tobacco",
+  	"Description": "Tobacco leaves which have been shredded and cured for chewing consumption. Not for minors. Use in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Tobacco ",
+  	"Edibility": -300,
+  	"Price": 830,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Andy" ], 
+		"Dislike": [ "Pam", "Shane", "Wednesday" ],
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

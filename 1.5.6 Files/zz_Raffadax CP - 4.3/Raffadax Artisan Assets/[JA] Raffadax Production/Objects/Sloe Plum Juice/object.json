@@ -1,0 +1,36 @@
+{
+  	"Name": "Sloe Plum Juice",
+  	"Description": "A tart blue juice made from wild dwarf plums. It is a bit too strongly flavored to drink by itself, but can be used as a flavoring agent in culinary dishes and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 50,
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 6,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Martin" ],
+		"Like": [ "Alex", "Apples", "Kent", "Leo", "Linus", "Sandy", "Shane", "Wednesday" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Haley", "Hekate", "Hephaestus", "Jas",  "Jodi", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Mephisto", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jacob", "Krobus", "Morgan", "Morris", "Penny", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Sam", "Sebastian", "Vincent" ]
+		},
+}

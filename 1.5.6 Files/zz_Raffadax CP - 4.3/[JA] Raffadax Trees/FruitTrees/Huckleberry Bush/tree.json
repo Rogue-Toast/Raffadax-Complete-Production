@@ -1,0 +1,10 @@
+{
+	"Name": "Huckleberry Bush",
+	"Product": "Huckleberry",
+	"SaplingName": "Huckleberry Sapling",
+	"SaplingDescription": "A wild shrub related to blueberries. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+	"Season": "spring",
+	"SaplingPurchaseFrom": "Pookah",
+    	"SaplingPurchasePrice": 5000,
+    	"SaplingPurchaseRequirements": [ "f Puck 1000" ],
+}

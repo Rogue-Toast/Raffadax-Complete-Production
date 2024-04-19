@@ -1,0 +1,17 @@
+{
+	"Name": "Dried Puffball Mushroom",
+  	"Description": "A puffball mushroom that has been dried for preservation. It will rehydrate when cooked into soups, stews, sauces and dips.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Mushroom",
+  	"Edibility": -300,
+  	"Price": 65,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Neutral": [ "Harvey", "Leah", "Linus", "Olivia", "Victor" ],
+		"Dislike": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Emily", "Evelyn", "George", "Gus", "Jacob", "Kent", "Hekate", "Marlon", "Martin", "Mephisto", "Morgan", "Morris", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Puck", "Robin", "Sandy", "Sheila", "Shuck", "Sophia", "Wednesday", "Xolotl" ],
+        	"Hate": [ "Andy", "Caroline", "Claire", "Dwarf", "Elliott", "Eloise", "Gregory", "Gunther", "Haley", "Hephaestus", "Jas", "Jodi", "Krobus", "Leo", "Pierre", "Sam", "Sebastian", "Shane", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ]	
+		},
+}

@@ -1,0 +1,29 @@
+{
+	"Name": "Golden Spindle",
+	"Description": "An enchanted spinning wheel that can transmute hay into gold. If used by an impure person, this wheel will sing a song telling of their misdeads as it spins.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 7,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Mythril Bar",
+            		"Count": 10,
+        		},
+        		{
+            		"Object": 336,
+            		"Count": 5,
+        		},
+        		{
+            		"Object": 337,
+            		"Count": 5,
+        		}, 
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Azeban",
+       	"PurchasePrice": 5000000,
+		},
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Persimmon Jelly",
+  	"Description": "A boldly flavored, sweet-tart jelly made from persimmon.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+  	"Edibility": 100,
+  	"Price": 400,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Elliott","Evelyn", "Gus", "Olivia", "Pierre", "Sandy", "Susan" ],
+		"Like": [ "Apples", "Demetrius", "Emily", "George", "Leo", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Gregory", "Gunther", "Emily", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morgan", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "Alex", "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Haley", "Hekate", "Hephaestus", "Jas", "Martin", "Sam", "Sebastian", "Shane",  "Vincent" ]
+		},
+}

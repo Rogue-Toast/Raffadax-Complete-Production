@@ -1,0 +1,17 @@
+{
+    	"Name": "Wild Grape Jam",
+    	"Description": "A sweet pale jam made with the pulp of wild grapes.",
+  	"Category": "ArtisanGoods",
+  	"Edibility": 50,
+  	"Price": 130,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Love": [ "Vincent" ],
+        	"Like": [ "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Martin", "Morris", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Lewis", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Morgan", "Victor" ],
+		"Hate": [ "Hekate", "Hephaestus", "Olivia", "Penny", "Sebastian" ]
+		},
+}

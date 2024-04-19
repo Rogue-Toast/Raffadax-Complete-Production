@@ -1,0 +1,23 @@
+{
+	"Name": "Chive Patch",
+	"Product": "Chives",
+	"SeedName": "Chive Seeds",
+	"SeedDescription": "Seeds for an onion relative which produces edible leaves commonly used as an herb. May also produce allium flowers at harvest. Takes 5 days to mature, then continues to produce every 3 days after. Plant in the winter or spring.",
+	"Type": "Greens",
+	"Seasons": [ "winter", "spring" ],
+	"Phases": [ 1, 1, 1, 1, 1 ],
+	"RegrowthPhase": 3,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 3,
+		"MaxIncreasePerFarmLevel": 5,
+		"ExtraChance": 0.3,
+		},
+	"SeedPurchasePrice": 25,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": null,
+	"DisableWithMod": "ppja.fruitsandveggies",
+}

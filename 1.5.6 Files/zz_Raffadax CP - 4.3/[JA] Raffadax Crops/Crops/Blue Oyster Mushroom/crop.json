@@ -1,0 +1,23 @@
+{
+	"Name": "Blue Oyster Mushroom",
+	"Product": "Blue Oyster Mushroom",
+	"SeedName": "Blue Oyster Starter",
+	"SeedDescription": "A mossy stump seeded with blue oyster mycelium. Produces mature mushrooms after 7 days, and continues to produce weekly if planted in spring, summer or fall.",
+    	"Type": "Greens",
+    	"Seasons": [ "spring", "summer", "fall" ],
+    	"Phases": [1, 1, 2, 2, 1],
+    	"RegrowthPhase": 7,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 250,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": [ "f Astrid 2500" ],
+}

@@ -1,0 +1,16 @@
+{
+  	"Name": "Leached Sea Hearts",
+  	"Description": "Sea hearts which have been cracked, and then soaked and drained repeatedly to remove harmful tannins. These seeds are safe for humans to eat, and can be processed into a variety of specialty goods.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nut",
+  	"Edibility": 25,
+  	"Price": 1100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Clint", "Demetrius", "Elliott", "Evelyn", "Gunther", "Leo", "Olivia", "Susan", "Willy" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Dwarf", "Eloise", "Emily", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Vincent", "Alecto", "Wizard", "Xolotl" ],
+	"Dislike": [ "Andy", "Gregory", "Hephaestus", "Morris", "Wednesday" ]
+		},
+}

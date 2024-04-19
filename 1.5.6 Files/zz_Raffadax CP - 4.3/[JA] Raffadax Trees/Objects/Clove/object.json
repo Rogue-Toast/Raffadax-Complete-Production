@@ -1,0 +1,18 @@
+{
+  	"Name": "Clove",
+    	"Description": "A highly aromatic flower bud that is commonly used as a cooking and baking spice. Its subtle sweetness allows it to blend well with other spices.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Spice",  	
+    	"Edibility": 5,
+    	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Dwarf", "Evelyn", "George", "Gus", "Marlon", "Mephisto", "Olivia", "Puck", "Shuck", "Susan", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+	"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ],
+		},
+	"DisableWithMod": "BonsterTrees",
+
+}

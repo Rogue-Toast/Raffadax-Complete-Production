@@ -1,0 +1,27 @@
+{
+	"Name": "Fermentation Tank",
+	"Description": "A large metal keg that can be used to ferment beers, ciders, kombuchas, and sparkling wines and meads. Processing may require malt, hops, or live culture depending on the recipe.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": 334,
+            		"Count": 10,
+        		},
+        		{
+            		"Object": 766,
+            		"Count": 10,
+        		},
+        		{
+            		"Object": "Beeswax",
+            		"Count": 1,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

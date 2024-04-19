@@ -1,0 +1,19 @@
+{
+  	"Name": "Honeycrisp Apple Juice",
+  	"Description": "A refreshing golden juice made from honeycrisp apples. It is slightly sweeter than other apple juices.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"EdibleIsDrink": true,
+  	"Edibility": 60,
+	"Price": 395,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Beatrice", "Caroline", "Claire", "Dwarf", "Gunther", "Hephaestus", "Jacob", "Jodi", "Marnie", "Martin", "Maru", "Olivia", "Penny", "Pierre", "Robin", "Sandy", "Sophia"  ], 
+        	"Like": [ "Abigail", "Apples", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Harvey", "Hekate", "Jas", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Morgan", "Pam", "Sam", "Shane", "Sheila", "Sorren","Susan", "Victor", "Vincent", "Alecto", "Wizard", ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Willy" ],
+		"Hate": [ "Andy", "Haley", "Krobus", "Morris", "Sebastian", "Wednesday" ]
+		},
+}

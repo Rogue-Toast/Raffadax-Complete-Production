@@ -1,0 +1,17 @@
+{
+	"Name": "Cigarettes",
+  	"Description": "Pre-rolled, ready-to-smoke leaves from a tobacco plant. Not for minors. Use in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cigarettes",
+  	"Edibility": -300,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Andy", "Pam", "Sebastian", "Shane" ],
+		"Like": [ "Kent", "Marlon", "Wednesday" ], 
+		"Neutral": [ "Willy" ],
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

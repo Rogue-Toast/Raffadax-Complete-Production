@@ -1,0 +1,17 @@
+{
+	"Name": "Pickle Juice",
+  	"Description": "Sour, refreshing juice made from dill pickles. It can be used as a component in cold pasta salads, deviled eggs, and sandwich salads.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Juice",
+  	"Edibility": 40,
+  	"EdibleIsDrink": true,
+  	"Price": 540,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Evelyn", "Gus", "Olivia", "Susan" ],
+        	"Neutral": [ "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Gunther", "Haley", "Jacob", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Puck", "Robin", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Abigail", "Andy", "Eloise", "Harvey", "Hekate", "Hephaestus", "Jas", "Jodi", "Leo", "Martin", "Morgan", "Penny", "Pierre", "Sam", "Sebastian", "Vincent" ]
+		},
+}

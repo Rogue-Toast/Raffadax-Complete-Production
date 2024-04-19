@@ -1,0 +1,17 @@
+{
+  	"Name": "Mulberry Compote",
+  	"Description": "A pleasantly sweet-tart syrup with whole mulberries in it. It makes an excellent topping for pancakes, yogurt or ice cream.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Compote",
+  	"Edibility": 40,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Andy", "Dwarf", "Linus", "Morgan" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Hekate", "Hephaestus", "Morris", "Olivia", "Sebastian", "Victor" ]	
+		},
+}

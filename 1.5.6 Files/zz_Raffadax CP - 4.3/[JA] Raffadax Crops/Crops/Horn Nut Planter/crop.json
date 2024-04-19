@@ -1,0 +1,24 @@
+{
+	"Name": "Horn Nut Planter",
+	"Product": "Horn Nut",
+	"SeedName": "Horn Nut Starter",
+	"SeedDescription": "A planter and seeds for a distinctly shaped aquatic nut. Nuts must be leached with blanching powder before processing for human consumption. Takes 15 days to produce, then continues to produce every five days after. Set up planter in the fall.",
+	"Type": "Greens",
+	"Seasons": [ "fall" ],
+	"Phases": [1,4,4,5,1],
+	"RegrowthPhase": 5,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"CropType": "Paddy",
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 4,
+		"MaxIncreasePerFarmLevel": 10,
+		"ExtraChance": 0.25,
+		},
+	"SeedPurchasePrice": 500,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": [ "f Shuck 2000" ],
+}

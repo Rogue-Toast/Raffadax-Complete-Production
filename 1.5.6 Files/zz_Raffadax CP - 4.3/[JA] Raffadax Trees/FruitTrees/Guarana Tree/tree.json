@@ -1,0 +1,10 @@
+{
+	"Name": "Guarana Tree",
+    	"Product": "Guarana ",
+    	"SaplingName": "Guarana Sapling",
+    	"SaplingDescription": "A tropical tree which produces bright red fruit with a high caffeine content. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Coyotl",
+    	"SaplingPurchasePrice": 8000,
+	"SaplingPurchaseRequirements": ["f Coyote 1500"],
+}

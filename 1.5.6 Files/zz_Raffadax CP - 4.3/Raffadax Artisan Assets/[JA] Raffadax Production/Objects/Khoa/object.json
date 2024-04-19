@@ -1,0 +1,18 @@
+{
+    	"Name": "Khoa",
+    	"Description": "A soft cheese made by dehydrating buffalo milk until it reaches a thickened state. It has a slightly grainy texture and a rich, sweet, nutty flavor.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Cheese",
+    	"Edibility": 100,
+    	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Gregory", "Gus", "Kent", "Morris", "Olivia", "Sandy" ], 
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Victor", "Xolotl" ], 
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Jas", "Sebastian", "Vincent" ],
+		},
+}

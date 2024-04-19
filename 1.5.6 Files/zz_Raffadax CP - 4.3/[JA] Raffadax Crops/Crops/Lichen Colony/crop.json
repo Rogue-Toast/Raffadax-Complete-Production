@@ -1,0 +1,23 @@
+{
+	"Name": "Lichen Colony",
+    	"Product": "Black Stone Flower",
+    	"SeedName": "Lichen Starter",
+    	"SeedDescription": "A damp log and rock seeded with culinary lichens. Matures after five days, and continues to produce every four days after. Set up in the fall and winter.",
+    	"Type": "Greens",
+    	"Seasons": ["fall", "winter"],
+    	"Phases": [ 1, 1, 1, 1, 1 ],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.2,
+    		},
+    	"SeedPurchasePrice": 300,
+ 	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": [ "f Xolotl 2000" ],
+}

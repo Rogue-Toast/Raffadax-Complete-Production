@@ -1,0 +1,18 @@
+{
+  	"Name": "Sumac Chutney",
+  	"Description": "A tangy fruit sauce with whole preserved sumac berries in it. It makes an excellent addition to both sweet and savory dishes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Chutney",
+  	"Edibility": 95,
+  	"Price": 1250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Kent", "Olivia", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Eloise", "Emily", "Evelyn", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Martin", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Claire", "Coyote", "Elliott", "Martin", "Mephisto", "Penny", "Puck", "Sam", "Shane", "Shuck", "Victor", "Xolotl" ],
+		"Dislike": [ "Alex", "Andy", "George", "Haley", "Eloise", "Jas", "Linus", "Morgan", "Morris", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

@@ -1,0 +1,18 @@
+{
+    	"Name": "Butter",
+    	"Description": "A spreadable dairy product made by churning milk. It is a common component of baked goods and culinary dishes.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Butter",
+    	"Edibility": 40,
+    	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Penny", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]	
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

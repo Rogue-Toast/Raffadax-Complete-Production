@@ -1,0 +1,23 @@
+{
+	"Name": "Psilocybin Mushroom",
+	"Product": "Psilocybin Mushroom",
+	"SeedName": "Psilocybin Mushroom Starter",
+	"SeedDescription": "Spores for a hallucinogenic mushroom variety commonly referred to as 'magic mushrooms'. Takes 2 weeks to mature. Plant in the fall.",
+    	"Type": "Greens",
+    	"Seasons": ["fall"],
+    	"Phases": [ 2, 5, 6, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 300,
+	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": ["f Coyote 2500"]
+}

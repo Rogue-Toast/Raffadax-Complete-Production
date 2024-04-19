@@ -1,0 +1,18 @@
+{
+	"Name": "Star Apple Jelly",
+	"Description": "A sweet purple jelly made from star apples.",
+  	"Category": "Fruit",
+  	"CategoryTextOverride": "Jelly",
+	"Edibility": 55,
+	"Price": 250,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Demetrius", "Dwarf", "Leo" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Jodi", "Pierre" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

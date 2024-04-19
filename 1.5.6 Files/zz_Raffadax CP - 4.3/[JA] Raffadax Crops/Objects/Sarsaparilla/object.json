@@ -1,0 +1,18 @@
+{
+	"Name": "Sarsaparilla",
+  	"Description": "The roots and leaves from a small wild plant. They have a flavor similar to rootbeer, and can be used as a flavoring agent in beverages.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Herb",
+  	"Edibility": 10,
+  	"Price": 10,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Andy", "Astrid", "Clint", "Coyote", "Gregory", "Hekate", "Hephaestus", "Mephisto", "Puck", "Shane", "Shuck", "Susan", "Wednesday", "Willy", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Beatrice", "Caroline", "Claire", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Sheila", "Sophia", "Alecto", "Wizard" ],
+		"Dislike": [ "Apples", "Jacob" ],
+		"Hate": [ "Eloise", "Jas", "Krobus", "Leo", "Martin", "Morris", "Olivia", "Victor", "Vincent" ]
+		},
+	"DisableWithMod": "MelindaC.FizzyDrinks",
+}

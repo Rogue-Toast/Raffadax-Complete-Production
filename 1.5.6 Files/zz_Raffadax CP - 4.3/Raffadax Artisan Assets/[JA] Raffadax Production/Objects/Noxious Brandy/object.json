@@ -1,0 +1,35 @@
+{
+	"Name": "Noxious Brandy",
+	"Description": "A wretched black liquid made by distilling wine produced from a corpse flower. This brandy is the consistency of saliva, and has the flavor and aroma of a dead animal; not that anyone should be tasting this highly toxic substance.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Brandy",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -25,
+        	"MaxStamina": -25,
+		"MagnetRadius": 0,
+        	"Speed": -25,
+
+		"Attack": -25,
+        	"Defense": -25,
+
+        	"Duration": 240,
+		},
+  	"Price": 45000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

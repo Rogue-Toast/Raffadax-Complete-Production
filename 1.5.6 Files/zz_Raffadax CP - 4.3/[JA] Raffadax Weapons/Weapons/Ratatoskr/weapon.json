@@ -1,0 +1,18 @@
+{
+  	"Name": "Ratatoskr",
+  	"Description": "A branch from the World Tree, Yggdrasil, which has been carved into the form of a Ratatoskr. Wielders of this hammer can command small mammals to do their bidding.",
+  	"Type": "Club",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 400,
+  	"Knockback": 2.0,
+  	"Speed": 1,
+  	"Accuracy": 100,
+  	"Defense": 200,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.25,
+  	"CritMultiplier": 4.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

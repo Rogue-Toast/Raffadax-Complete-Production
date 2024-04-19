@@ -1,0 +1,33 @@
+{
+  	"Name": "Genmaicha Tea",
+  	"Description": "A pale yellow tea brewed with green tea leaves and puffed rice. It has a grassy flavor with the aroma of toasted rice.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Tea",
+  	"Edibility": 40,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 4,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 500,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Claire", "Lewis" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

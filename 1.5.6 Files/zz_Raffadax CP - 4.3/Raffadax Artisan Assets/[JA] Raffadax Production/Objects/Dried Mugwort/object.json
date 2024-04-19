@@ -1,0 +1,16 @@
+{
+	"Name": "Dried Mugwort",
+  	"Description": "Mugwort leaves which have been dried for preservation. They can be used to craft medicines or potions; though can also be brewed into a mildly hallucinogenic tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Herb",
+  	"Edibility": -300,
+  	"Price": 70,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Morgan", "Sebastian", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Abigail", "Amanra", "Astrid", "Coyote", "Emily", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

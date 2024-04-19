@@ -1,0 +1,35 @@
+{
+	"Name": "Woodruff Soda",
+  	"Description": "A sweet, traditional soda flavored with woodruff leaves. It has a distinct, sweet, herbal flavor that is traditionally popular in certain parts of the world.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Soda Pop",
+  	"Edibility": 75,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 7,
+        	"Fishing": 0,
+      		"Foraging": 7,
+        	"Mining": 0,
+
+        	"Luck": 7,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 675,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Andy", "Caroline", "Claire", "Dwarf", "Elliott", "Eloise", "Gregory", "Haley", "Hekate", "Hephaestus", "Jas", "Leo", "Lewis", "Maru", "Morgan", "Olivia", "Vincent", "Alecto", "Wizard" ],
+        	"Like": [ "Apples", "Beatrice", "Clint", "Demetrius", "Emily", "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "George", "Morris" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+    	"Name": "Microwave Kettle Corn",
+    	"Description": "Sweetened popcorn kernels that have been individually packaged into microwavable bags for easy popping.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Snack Food",
+  	"Edibility": -300,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Like": [ "Demetrius" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+		"Dislike": [ "Apples", "Emily", "Evelyn", "Haley", "Harvey", "Jas", "Leah", "Alecto", "Wizard" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Elliott", "Kent", "Mephisto", "Puck", "Shuck", "Xolotl" ]
+		},
+}

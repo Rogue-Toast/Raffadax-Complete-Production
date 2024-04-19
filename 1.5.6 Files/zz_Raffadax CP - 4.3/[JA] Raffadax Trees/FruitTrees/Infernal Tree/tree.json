@@ -1,0 +1,11 @@
+{
+	"Name": "Infernal Tree",
+	"Product": "Fruit of the Netherworld",
+	"SaplingName": "Infernal Sapling",
+	"SaplingDescription": "A cursed tree that grows the darkest forests of hell. Thick sap seeps from its bark like blood from a wound. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Infernal fruit grow from its empty branches in the winter.",
+	"Season": "winter",
+	"SaplingPurchaseFrom": "Barghest",
+	"SaplingPurchasePrice": 5000000,
+	"SaplingPurchaseRequirements": [ "f Shuck 2500" ],
+}
+ 

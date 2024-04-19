@@ -1,0 +1,18 @@
+{
+    	"Name": "Tofu",
+    	"Description": "A high protein bean curd made by pressing soybeans into milk and then coagulating the solids. It is a popular meat substitute for vegetarians.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Bean Curd",
+    	"Edibility": 35,
+    	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Penny", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]	
+		},
+	"DisableWithMod": "ppja.evenmorerecipes",
+}

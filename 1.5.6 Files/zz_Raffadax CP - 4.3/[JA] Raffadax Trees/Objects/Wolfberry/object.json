@@ -1,0 +1,32 @@
+{
+  	"Name": "Wolfberry",
+  	"Description": "A wild variant of goji berry, the fruit from this bush are more bright and flavorful than traditional gojis. The shrub these berries were grown on has been enchanted by forest spirits. When you eat these berries, you feel the spirit of the wolf flow into you, enhancing your strength and fighting instincts.",
+  	"Category": "Fruit",
+  	"CategoryTextOverride": "Enchanted Fruit",
+  	"Edibility": 100,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 5,
+        	"Defense": 5,
+
+        	"Duration": 120,
+		},
+	"Price": 500,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Coyote", "Dwarf", "Gregory", "Hekate", "Hephaestus", "Kent", "Krobus", "Leo", "Linus", "Marlon", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Leah", "Lewis", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

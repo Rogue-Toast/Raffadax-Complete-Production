@@ -1,0 +1,36 @@
+{
+	"Name": "Blackthorn Port Wine",
+	"Description": "A dark blue port wine made from wild sloe plums. This wine is fairly well balanced, with most of the astingent flavors having been processed out of the plums. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fortified Wine",
+	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -3,
+
+		"Attack": 10,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 900,
+	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Gus", "Harvey", "Hekate", "Kent", "Krobus", "Leah", "Linus", "Mephisto", "Puck", "Sebastian", "Shane", "Shuck", "Wednesday", "Xolotl" ],
+        	"Like": [ "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Hephaestus", "Jodi", "Lewis", "Marlon", "Marnie", "Maru", "Olivia", "Pam", "Pierre", "Robin", "Sandy", "Sheila", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Dislike": [ "Abigail", "Haley", "Jacob", "Morris" ], 
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sam", "Vincent" ]	
+		},
+}

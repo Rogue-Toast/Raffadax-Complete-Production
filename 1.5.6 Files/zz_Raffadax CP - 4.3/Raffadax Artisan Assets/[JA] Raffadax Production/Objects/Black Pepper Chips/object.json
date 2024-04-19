@@ -1,0 +1,16 @@
+{
+    	"Name": "Black Pepper Chips",
+    	"Description": "Peppery potato chips flavored with salt and black pepper.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Snack Food",
+  	"Edibility": 60,
+  	"Price": 480,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Andy", "Demetrius", "George", "Jas", "Kent", "Krobus", "Leo", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Eloise", "Evelyn", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jodi", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Alex", "Amanra", "Astrid", "Coyote", "Dwarf", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Leah", "Mephisto", "Olivia", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ]
+		},
+}

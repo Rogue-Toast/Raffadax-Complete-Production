@@ -1,0 +1,16 @@
+{
+    	"Name": "Maple Seed Butter",
+    	"Description": "A smooth, creamy butter made from shelled maple seeds. It can be used as a spread or as a baking component. This butter has a sweet, maple flavor, and is safe for those with nut allergies.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Seed Butter",
+    	"Edibility": 35,
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Hekate", "Hephaestus", "Olivia" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morgan", "Morris", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

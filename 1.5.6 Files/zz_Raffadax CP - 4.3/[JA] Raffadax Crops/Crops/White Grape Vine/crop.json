@@ -1,0 +1,23 @@
+{
+	"Name": "White Grape Vine",
+	"Product": "White Grapes",
+	"SeedName": "White Grape Starter",
+	"SeedDescription": "A trellised grape vine which produces sweet green grapes and edible leaves. Takes ten days to mature, then produces every three days after. Plant in the summer or fall.",
+    	"Type": "Fruit",
+    	"Seasons": ["summer", "fall"],
+    	"Phases": [ 1, 2, 3, 3, 1 ],
+    	"RegrowthPhase": 3,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 30,
+	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": ["f Puck 500"],
+}

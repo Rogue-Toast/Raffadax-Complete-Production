@@ -1,0 +1,36 @@
+{
+    	"Name": "Baobab Liqueur",
+    	"Description": "A murky brown liqueur that tastes like lemons. It was made from the fruit of a baobab tree. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+	"Edibility": 175,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 3300,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Dwarf", "Elliott", "Gunther", "Gus", "Hekate", "Hephaestus", "Kent", "Lewis", "Mephisto", "Pam", "Puck", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Emily", "Evelyn", "Gregory", "Jacob", "Jodi", "Harvey", "Krobus", "Leah", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pierre", "Robin", "Sebastian", "Sheila", "Sophia", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Susan" ],
+		"Dislike": [ "Sam", "Victor" ],
+		"Hate": [ "Eloise", "George", "Haley", "Jas", "Leo", "Linus", "Martin", "Morgan", "Penny", "Vincent" ]		
+		},
+}

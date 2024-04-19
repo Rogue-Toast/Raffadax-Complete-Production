@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[CCM] Raffadax Wine Aging",
+	"Author": "Raffadax",
+	"Description": "Allows cask aging for Raffadax Wines, Brandy, Port Wines. Requires Custom Cask mod.",
+	"UniqueID": "Raffadax.WineCask",
+	"Version": "4.3",
+	"ContentPackFor": 
+		{
+		"UniqueID": "DIGUS.CustomCaskMod"
+		},
+	"Dependencies": 
+		[
+   		{
+      		"UniqueID": "Raffadax.Complete.Production",
+      		"IsRequired": true,
+   		}
+		]
+}

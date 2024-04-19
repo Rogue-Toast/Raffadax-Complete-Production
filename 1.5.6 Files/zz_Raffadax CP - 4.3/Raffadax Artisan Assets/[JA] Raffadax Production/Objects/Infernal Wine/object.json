@@ -1,0 +1,35 @@
+{
+    	"Name": "Infernal Wine",
+    	"Description": "A faintly luminous wine favored by the denizens of the netherworld. It is said that those who drink this wine are consumed by an infernal aura. Sometimes, when you catch your reflection in the glass of this bottle, it appears as though the person looking back has a will of their own.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Wine",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -15,
+        	"MaxStamina": -15,
+		"MagnetRadius": 0,
+        	"Speed": 10,
+
+		"Attack": 25,
+        	"Defense": 25,
+
+        	"Duration": 120,
+		},
+	"Price": 30000,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

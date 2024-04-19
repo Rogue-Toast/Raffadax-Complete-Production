@@ -1,0 +1,35 @@
+{
+	"Name": "Jasmine Preserves",
+  	"Description": "Whole jasmine flowers preserved in a fragrant white syrup.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Preserves",
+  	"Edibility": 90,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 7,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 1250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Linus", "Pam", "Sam", "Sheila", "Sophia", "Susan" ], 
+		"Like": [ "Abigail", "Apples", "Demetrius", "Elliott", "Evelyn", "Gunther", "Gus", "Harvey", "Jodi", "Leah", "Lewis", "Marnie", "Maru", "Olivia", "Robin", "Sandy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Amanra", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Emily", "Gregory", "Kent", "Mephisto", "Pierre", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Alex", "Eloise", "Haley", "Penny", "Shane", "Victor", "Willy" ],
+		"Hate": [ "Andy", "George", "Hekate", "Hephaestus", "Jas", "Jacob", "Krobus", "Leo", "Marlon", "Martin", "Morgan", "Morris", "Sebastian", "Vincent", "Wednesday" ],	
+		},
+}

@@ -1,0 +1,17 @@
+{
+	"Name": "Instant Coffee: Vanilla Café",
+  	"Description": "Vanilla-infused coffee beans that have been ground into a ready-to-brew powder. It makes a sweet, fragrant coffee beverage.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Instant Coffee",
+  	"Edibility": -300,
+  	"Price": 345,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Abigail", "Alex", "Harvey", "Maru", "Martin", "Penny", "Sam", "Shane" ],
+        	"Neutral": [ "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sandy", "Sebastian", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Apples", "Astrid", "Coyote", "Leo", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

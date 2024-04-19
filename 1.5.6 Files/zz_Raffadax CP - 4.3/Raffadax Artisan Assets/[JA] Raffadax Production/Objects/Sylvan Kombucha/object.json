@@ -1,0 +1,35 @@
+{
+    	"Name": "Sylvan Kombucha",
+    	"Description": "A shimmering, lightly effervescent beverage made from fermented Avalon tea. The bubbles in this liquid shine like tiny fireflies. Drink in moderation.",
+	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Arcane Kombucha",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 50,
+        	"Fishing": 0,
+      		"Foraging": 50,
+        	"Mining": 0,
+
+        	"Luck": 75,
+        	"MaxStamina": 50,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 50,
+        	"Defense": 50,
+
+        	"Duration": 300,
+		},
+	"Price": 90200,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Neutral": [ "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Vincent" ]
+		},
+}

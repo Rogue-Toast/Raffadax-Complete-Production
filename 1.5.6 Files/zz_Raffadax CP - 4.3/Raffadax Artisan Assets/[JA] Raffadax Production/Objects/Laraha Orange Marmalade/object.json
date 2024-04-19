@@ -1,0 +1,17 @@
+{
+    	"Name": "Laraha Orange Marmalade",
+    	"Description": "Chunks of laraha orange preserved in a slightly bitter sauce.",
+  	"Category": "ArtisanGoods",
+  	"Edibility": 80,
+  	"Price": 2650,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Love": [ "Krobus" ],
+		"Like": [ "Dwarf", "Gus", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Olivia", "Puck", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Hekate", "Hephaestus", "Jas", "Linus", "Morgan", "Sebastian", "Vincent" ]
+		},
+}

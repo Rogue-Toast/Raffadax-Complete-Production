@@ -1,0 +1,11 @@
+{
+	"Name": "Lime Tree",
+    	"Product": "Lime",
+    	"SaplingName": "Lime Sapling",
+    	"SaplingDescription": "A citrus tree which produces sour green fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": null,
+    	"SaplingPurchasePrice": 4000,
+	"SaplingPurchaseRequirements": [ "Y2" ],
+	"DisableWithMod": "ppja.moretrees",
+}

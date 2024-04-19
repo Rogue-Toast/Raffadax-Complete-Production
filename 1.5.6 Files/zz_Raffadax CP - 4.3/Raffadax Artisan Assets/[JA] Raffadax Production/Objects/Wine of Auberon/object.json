@@ -1,0 +1,37 @@
+{
+	"Name": "Wine of Auberon",
+	"Description": "A luminous green wine favored by the King of the Faeries; it has a strong, intoxicating aroma reminiscent of an ancient forest. According to legend, the fae have cursed this wine so that humans cannot drink it. There are conflicting legends, however, which state that humans who drink this wine will attain unity with the natural world.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Divine Libation",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 100,
+        	"Mining": 0,
+
+        	"Luck": -25,
+        	"MaxStamina": -10,
+		"MagnetRadius": 0,
+        	"Speed": -10,
+
+		"Attack": -50,
+        	"Defense": -50,
+
+        	"Duration": 1440,
+		},
+	"Price": 500000,
+	"IsColored": false,
+	"Recipe": null,
+	"Price": 1000000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

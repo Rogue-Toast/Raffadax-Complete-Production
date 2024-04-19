@@ -1,0 +1,17 @@
+{
+	"Name": "White Cardamom Pod",
+  	"Description": "A pod from a green cardamom tree that has had its spicy flavor mellowed through a bleaching process. They are less fragrant and flavorful than unbleached green cardamom. This process is primarily done for aesthetics, white cardomom is almost exclusively used to flavor white dishes and desserts.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Spice",
+  	"Edibility": 20,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Beatrice", "Caroline", "Coyote", "Elliott", "Evelyn", "Gus", "Hekate", "Haley", "Leah", "Mephisto", "Olivia", "Pierre", "Puck", "Sandy", "Shuck", "Susan", "Xolotl" ],
+        	"Neutral": [ "Alex", "Abigail", "Claire", "Clint", "Demetrius", "Emily", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Penny", "Robin", "Sam", "Shane",  "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "Apples", "Dwarf", "Sebastian" ],
+		"Hate": [ "Eloise", "Gregory", "Jas", "Leo", "Martin", "Morgan", "Vincent" ]
+		},
+}

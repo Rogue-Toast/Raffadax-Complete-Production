@@ -1,0 +1,23 @@
+{
+	"Name": "Dryad's Saddle",
+	"Product": "Dryad's Saddle",
+	"SeedName": "Dryad's Saddle Starter",
+	"SeedDescription": "A tree stump seeded with dryad saddle mycelium. Produces mature mushrooms after 7 days, and continues to produce weekly while in season. Plant in the spring, summer or fall.",
+    	"Type": "Greens",
+    	"Seasons": [ "spring", "summer", "fall" ],
+    	"Phases": [1, 1, 2, 2, 1],
+    	"RegrowthPhase": 7,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 750,
+	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": ["f Puck 2000"]
+}

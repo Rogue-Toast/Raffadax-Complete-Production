@@ -1,0 +1,23 @@
+{
+	"Name": "Fire Wheel",
+	"Product": "Fire Wheel",
+	"SeedName": "Fire Wheel Seeds",
+	"SeedDescription": "Seeds for a vibrant wildflower prized for its beauty. Takes 5 days to mature. Plant in the summer.",
+    	"Type": "Flower",
+    	"Seasons": ["summer"],
+    	"Phases": [ 1, 1, 1, 1, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 40,
+	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": ["f Coyote 1500"],
+}

@@ -1,0 +1,16 @@
+{
+	"Name": "Megalodon Tooth",
+	"Description": "A massive tooth from an extinct shark. This tooth is still sharp...They are extinct, aren't they?",
+	"Category": "-23",
+	"Edibility": "-300",
+	"EdibleIsDrink": "false",
+	"EdibleBuffs": null,
+	"Price": "2500",
+	"IsColored": "false",
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gunther", "Marlon", "Morgan", "Penny", "Willy" ], 
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Mephisto", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Andy",  "Morris", "Olivia" ],
+		},
+}

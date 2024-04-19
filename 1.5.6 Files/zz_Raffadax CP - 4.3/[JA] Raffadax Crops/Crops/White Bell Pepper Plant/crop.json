@@ -1,0 +1,23 @@
+{
+	"Name": "White Bell Pepper Plant",
+	"Product": "White Bell Pepper",
+	"SeedName": "White Bell Pepper Seeds",
+	"SeedDescription": "Seeds for a variant of pepper that may produce ivory bell peppers in addition to white. Matures in 7 days, and produces every 5 days after. Plant in the winter.",
+	"Type": "Vegetable",
+	"Seasons": ["winter"],
+	"Phases": [1,1,2,2,1],
+	"RegrowthPhase": 5,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 2,
+		"MaxIncreasePerFarmLevel": 5,
+		"ExtraChance": 0.2,
+		},
+	"SeedPurchasePrice": 200,
+	"SeedPurchaseFrom": "Djinn",
+	"SeedPurchaseRequirements": null,
+}

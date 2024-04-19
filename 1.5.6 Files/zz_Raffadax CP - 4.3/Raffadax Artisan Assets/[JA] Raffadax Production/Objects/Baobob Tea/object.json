@@ -1,0 +1,36 @@
+{
+    	"Name": "Baobab Tea",
+    	"Description": "A healthful tea made from baobab fruit. It has a muddy brown color, but a bright, lemony flavor.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herbal Tea",
+	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 1,
+        	"Fishing": 0,
+      		"Foraging": 5,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 1,
+
+        	"Duration": 120,
+		},
+  	"Price": 1600,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Harvey", "Hekate", "Hephaestus", "Krobus", "Maru", "Alecto", "Wizard" ],
+		"Like": [ "Alex", "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Haley", "Lewis", "Mephisto", "Puck", "Shuck", "Xolotl" ], 
+		"Neutral": [ "Abigail", "Evelyn", "George" ],
+        	"Dislike": [ "Andy", "Apples", "Beatrice", "Clint", "Demetrius", "Elliott", "Emily", "Gregory", "Gunther", "Gus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Marnie", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ]
+		},
+}

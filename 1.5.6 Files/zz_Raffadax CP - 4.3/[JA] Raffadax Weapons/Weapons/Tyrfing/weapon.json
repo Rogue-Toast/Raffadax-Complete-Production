@@ -1,0 +1,18 @@
+{
+  	"Name": "Tyrfing",
+  	"Description": "A cursed blade that seeks to cause the death of its wielder.",
+  	"Type": "Sword",
+  	"MinimumDamage": 998,
+  	"MaximumDamage": 999,
+  	"Knockback": 5.0,
+  	"Speed": -5,
+  	"Accuracy": 1,
+  	"Defense": 0,
+	"ExtraSwingArea": 10,
+  	"CritChance": 0.9,
+  	"CritMultiplier": 10.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

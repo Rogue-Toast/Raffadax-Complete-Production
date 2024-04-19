@@ -1,0 +1,16 @@
+{
+  	"Name": "Matcha Tea Powder",
+  	"Description": "Green tea that has been ground into a fine powder. Processing the tea in this manner increases the amount of antioxidants the brewed tea will provide, but lowers its shelf life.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Tea Mix",
+  	"Edibility": -300,
+	"Price": 60,
+	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Caroline", "Claire", "Lewis" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

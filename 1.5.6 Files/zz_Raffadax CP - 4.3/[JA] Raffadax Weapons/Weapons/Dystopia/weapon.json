@@ -1,0 +1,18 @@
+{
+  	"Name": "Dystopia",
+  	"Description": "An infernal scythe used by Eris to rend apart the fabric of reality. Strange, unexplainable phenomena will sometimes erupt within the general vicinity of this weapon.",
+  	"Type": "Sword",
+  	"MinimumDamage": 1,
+  	"MaximumDamage": 999,
+  	"Knockback": 5.0,
+  	"Speed": 1,
+  	"Accuracy": 100,
+  	"Defense": 1,
+	"ExtraSwingArea": 10,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 10.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

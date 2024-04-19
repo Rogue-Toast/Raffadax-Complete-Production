@@ -1,0 +1,17 @@
+{
+    	"Name": "Spice Berry Jelly",
+    	"Description": "A pungent jelly made from wild spice berries.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Spice Jelly",
+  	"Edibility": 35,
+  	"Price": 530,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Like": [ "Andy", "Demetrius", "Elliott", "Kent", "Leah", "Leo", "Linus", "Pam", "Robin", "Sandy", "Shane" ],
+		"Neutral": [ "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "George", "Gus", "Eloise", "Gregory", "Gunther", "Jacob", "Krobus", "Lewis", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Claire", "Haley", "Jas", "Olivia", "Martin", "Morgan", "Susan", "Victor", "Vincent" ],
+		"Hate": [ "Evelyn", "Harvey", "Hekate", "Hephaestus", "Jodi", "Sebastian" ] 
+		},
+}

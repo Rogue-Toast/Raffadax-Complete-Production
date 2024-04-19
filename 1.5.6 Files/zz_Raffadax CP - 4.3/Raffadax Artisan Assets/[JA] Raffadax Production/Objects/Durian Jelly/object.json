@@ -1,0 +1,18 @@
+{
+	"Name": "Durian Jelly",
+  	"Description": "A savory-sweet jelly made from durian. It has a strong and unpleasant odor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+  	"Edibility": 65,
+  	"Price": 850,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Gunther", "Krobus", "Leo", "Linus", "Morgan", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Andy", "Eloise", "Jas", "Marnie", "Martin", "Shane", "Sheila", "Sophia" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Emily", "Gregory", "Harvey", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Robin", "Sandy", "Shuck", "Victor", "Willy", "Xolotl" ],
+		"Dislike": [ "Alex", "Beatrice", "Elliott", "George", "Claire", "Jodi" ],
+		"Hate": [  "Apples", "Evelyn", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Sebastian", "Susan" ],
+		},
+}

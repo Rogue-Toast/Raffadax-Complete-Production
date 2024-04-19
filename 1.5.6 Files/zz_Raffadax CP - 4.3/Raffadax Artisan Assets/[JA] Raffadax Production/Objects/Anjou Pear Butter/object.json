@@ -1,0 +1,18 @@
+{
+  	"Name": "Anjou Pear Butter",
+    	"Description": "Red anjou pears that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 60,
+	"EdibleIsDrink": true,
+    	"Price": 350,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Beatrice", "Caroline", "Claire", "Elliott", "Gus", "Haley", "Olivia", "Robin", "Sandy" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Clint", "Demetrius", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Pam", "Penny", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

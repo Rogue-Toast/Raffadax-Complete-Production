@@ -1,0 +1,10 @@
+{
+	"Name": "Lavender Bush",
+	"Product": "Lavender",
+	"SaplingName": "Lavender Sapling",
+	"SaplingDescription": "A tall, hearty variety of flowering herb that grows into a medium sized shrub. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Fragrant, herbaceous flowers can be harvested in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 3000,
+    	"SaplingPurchaseRequirements": [ "f Amanra 500" ],
+}

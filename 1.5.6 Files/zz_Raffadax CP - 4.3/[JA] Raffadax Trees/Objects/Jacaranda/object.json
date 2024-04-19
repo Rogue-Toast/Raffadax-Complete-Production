@@ -1,0 +1,34 @@
+{
+  	"Name": "Jacaranda",
+  	"Description": "A purple trumpet flower from an ornamental tree. It smells like sweet honey, but after the flowers fall to the ground they start to give off a bad aroma. These flowers are toxic to humans and animals.",
+  	"Category": "Flower",
+  	"Edibility": -150,
+	"EdibleBuffs":
+		{
+        	"Farming": 5,
+        	"Fishing": 5,
+      		"Foraging": 5,
+        	"Mining": 5,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 500,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Beatrice", "Olivia", "Pam", "Sandy", "Sheila" ], 
+		"Like": [ "Amanra", "Astrid", "Coyote", "Evelyn", "Gus", "Harvey", "Hekate", "Jas", "Jodi", "Marnie", "Maru", "Mephisto", "Puck", "Shuck", "Sophia", "Xolotl" ],
+        	"Neutral": [ "Andy", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Gregory", "Gunther", "Haley", "Hephaestus", "Kent", "Leah", "Lewis", "Linus", "Morgan", "Penny", "Pierre", "Robin", "Sam", "Shane", "Susan", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Alex", "George", "Jacob", "Leo", "Martin", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		"Hate": [ "Krobus", "Marlon" ],	
+		},
+}

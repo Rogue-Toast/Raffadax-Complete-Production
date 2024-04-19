@@ -1,0 +1,36 @@
+{
+	"Name": "Angostura Extract",
+  	"Description": "The extracted essence of angostura bark, it has been used for generations to treat various ailments. It is also popular as a flavoring agent for bitters and liqueur blends.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Herb Extract",
+  	"Edibility": 100, 
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 70,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Harvey", "Hekate", "Maru", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Evelyn", "George" ], 
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Coyote", "Haley", "Mephisto", "Robin", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Gregory", "Gunther", "Gus", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

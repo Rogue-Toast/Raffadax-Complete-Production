@@ -1,0 +1,33 @@
+{
+  	"Name": "Pine Cone Jam",
+  	"Description": "Young pinecones that have been preserved in honey syrup. They become soft and edible over time, and are used by some as a medicinal aliment. The syrup these pinecones are preserved in is known as 'pine honey', and is known to be amazingly flavorful.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 50,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 5,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 300,
+  	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Apples", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ],
+		"Hate": [ "Hekate", "Sebastian" ]
+		},
+}

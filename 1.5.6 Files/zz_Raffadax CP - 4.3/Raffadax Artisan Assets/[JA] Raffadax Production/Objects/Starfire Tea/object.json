@@ -1,0 +1,34 @@
+{
+    	"Name": "Starfire Tea",
+    	"Description": "A strange glowing tea that looks like molten fire. It is almost too hot to drink, and cannot be cooled by any means.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Arcane Tea",
+    	"Edibility": 300,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 15,
+        	"Fishing": 0,
+      		"Foraging": 15,
+        	"Mining": 0,
+
+        	"Luck": 15,
+        	"MaxStamina": 15,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 15,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 15100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Eloise", "Jas", "Leo", "Martin", "Vincent" ]
+		},
+}

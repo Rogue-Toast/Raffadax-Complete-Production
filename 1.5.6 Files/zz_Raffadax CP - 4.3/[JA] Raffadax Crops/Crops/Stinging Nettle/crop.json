@@ -1,0 +1,23 @@
+{
+	"Name": "Nettle Plant",
+	"Product": "Stinging Nettle",
+	"SeedName": "Stinging Nettle Starter",
+	"SeedDescription": "Seeds for a spiny leafed plant which may produce flowers as well as leaves at harvest. This crop is too spiny to walk through. Takes 7 days to mature, then produces every 3 days after. Plant in the spring.",
+    	"Type": "Vegetable",
+    	"Seasons": ["spring"],
+    	"Phases": [1,1,2,2,1],
+    	"RegrowthPhase": 3,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+	"SeedPurchasePrice": 90,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": ["f Shuck 2000"]
+}

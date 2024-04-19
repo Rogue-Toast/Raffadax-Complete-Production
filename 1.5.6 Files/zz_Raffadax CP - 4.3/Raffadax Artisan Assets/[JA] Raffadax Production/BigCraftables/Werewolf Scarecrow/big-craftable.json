@@ -1,0 +1,33 @@
+{
+    "Name": "Werewolf Scarecrow",
+    "Description": "A scarecrow fashioned to look like a werewolf. It will repel crows, but it may attract werewolves...",
+    "Price": 5000,
+    "ProvidesLight": true,
+    "Recipe": 
+		{
+    		"ResultCount": 1,
+    		"Ingredients": 
+			[
+      		{
+        		"Object": "Fur Pelt",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Werewolf Claw",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Primal Moon",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Ebony Wood",
+        		"Count": 50
+      		},
+    			],
+    "CanPurchase": true,
+    "PurchaseFrom": "Azeban",
+    "PurchasePrice": 5000
+  		},
+    "CanPurchase": false,
+}

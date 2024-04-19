@@ -1,0 +1,37 @@
+{
+    	"Name": "Java Banana Liqueur",
+    	"Description": "A pale blue liqueur made from Java bananas. It has a flavor like sweet vanilla, and mixes well with tropical and tiki cocktails. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+	"Edibility": 175,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 1500,
+	"IsColored": false,
+	"Recipe": null,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Demetrius", "Elliott", "Gregory", "Gus", "Harvey", "Hekate", "Hephaestus", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sam", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Like": [ "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gunther", "Jacob", "Krobus", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Sheila", "Sophia", "Victor", "Willy", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Susan" ],
+		"Dislike": [ "Abigail", "Haley", "Sebastian" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ]
+		},
+}

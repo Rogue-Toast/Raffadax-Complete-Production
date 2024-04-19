@@ -1,0 +1,17 @@
+{
+  	"Name": "Cocktail Olives",
+  	"Description": "Olives which have been cured in vermouth mixed with a salt brine. They can be added to a variety of dishes and cocktails, and the brine can be used to dirty martinis.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cocktail Garnish",
+  	"Edibility": 75,
+  	"Price": 1540,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pam", "Pierre", "Sebastian", "Shane" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Haley", "Hekate", "Hephaestus", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Leo", "Martin", "Maru", "Morgan", "Penny", "Sam", "Vincent" ]	
+		},
+}

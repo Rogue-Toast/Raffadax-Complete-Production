@@ -1,0 +1,31 @@
+{
+	"Name": "Churn",
+	"Description": "A machine that processes milks into creams and butters.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": 388,
+            		"Count": 45,
+        		},
+        		{
+            		"Object": 390,
+            		"Count": 45,
+        		},
+        		{
+            		"Object": 709,
+            		"Count": 10,
+        		}, 
+        		{
+            		"Object": 335,
+            		"Count": 1,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

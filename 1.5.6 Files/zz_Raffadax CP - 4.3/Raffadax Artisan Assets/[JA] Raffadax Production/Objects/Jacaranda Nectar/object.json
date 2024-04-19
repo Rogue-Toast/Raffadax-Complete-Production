@@ -1,0 +1,35 @@
+{
+  	"Name": "Jacaranda Nectar",
+  	"Description": "A sweet nectar made by distilling jacaranda honey. It is toxic to humans, but seems to be well liked by jungle spirits.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nectar",
+	"Edibility": -275,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 17,
+        	"Fishing": 17,
+      		"Foraging": 17,
+        	"Mining": 17,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 4700,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Xolotl" ],
+		"Like": [ "Sebastian", "Alecto", "Wizard" ],
+		"Neutral": [ "Hekate", "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

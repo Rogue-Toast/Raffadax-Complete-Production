@@ -1,0 +1,36 @@
+{
+    	"Name": "Chandan Tea",
+  	"Description": "A bright red ice tea made from ground sandalwood. It has a unique flavor that is faintly reminiscent of nuts. The tea is heavily fragrant of sandalwood, and is said to have medicinal properties.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cold Tea",
+  	"Edibility": 150,
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 5,
+        	"MaxStamina": 5,
+		"MagnetRadius": 10,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 1200,
+  	"IsColored": false,
+	"Recipe": null,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Caroline", "Claire", "Dwarf", "Elliott", "Haley", "Lewis", "Maru", "Sandy" ],
+        	"Like": [ "Abigail", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Emily", "Evelyn", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Mephisto", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "George", "Morris", "Morgan", "Victor" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Vincent" ]
+		},
+}

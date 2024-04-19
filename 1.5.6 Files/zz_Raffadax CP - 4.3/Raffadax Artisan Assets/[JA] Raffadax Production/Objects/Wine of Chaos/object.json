@@ -1,0 +1,32 @@
+{
+	"Name": "Wine of Chaos",
+	"Description": "A cursed libation made by distilling the essence of chaos from the divine fruit of discord; it is said to cause misfortune to those who see it. The liquid in this bottle is constantly in motion as though its vessel is being shaken, making safe storage of this wine difficult.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Arcane Wine",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -50,
+        	"MaxStamina": -25,
+		"MagnetRadius": 0,
+        	"Speed": -25,
+
+		"Attack": -25,
+        	"Defense": -25,
+
+        	"Duration": 120,
+		},
+  	"Price": 75000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

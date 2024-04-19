@@ -1,0 +1,23 @@
+{
+	"Name": "Wild Oats",
+	"Product": "Wild Oats",
+	"SeedName": "Wild Oat Seeds",
+	"SeedDescription": "Seeds for a cereal grain commonly used to make animal feed, but also widely consumed by humans. Takes 6 days to mature. Plant in the winter or spring.",
+    	"Type": "Greens",
+    	"Seasons": [ "winter", "spring" ],
+    	"Phases": [ 1, 2, 2, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": true,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 10,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": ["f Astrid 500"],
+}

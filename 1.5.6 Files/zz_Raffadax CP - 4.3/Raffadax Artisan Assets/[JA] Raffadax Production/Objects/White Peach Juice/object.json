@@ -1,0 +1,19 @@
+{
+  	"Name": "White Peach Juice",
+    	"Description": "A slightly floral juice made from white peaches. It mixes amazingly well with cocktails and white wines.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 60,
+	"EdibleIsDrink": true,
+    	"Price": 285,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "Gus", "Gunther", "Hekate", "Leah", "Martin", "Olivia", "Pam", "Penny", "Sandy", "Sheila", "Robin", "Sophia" ],
+        	"Like": [ "Apples", "Beatrice", "Caroline", "Clint", "Claire", "George", "Gregory", "Harvey", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Pierre", "Sam", "Shane", "Susan", "Victor", "Vincent", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Morris", "Willy" ],
+		"Hate": [ "Andy", "Dwarf", "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

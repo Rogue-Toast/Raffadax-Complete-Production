@@ -1,0 +1,18 @@
+{
+    	"Name": "Rainbow Eucalyptus Leaf",
+    	"Description": "A highly fragrant leaf from an exotic tree. Eucalyptus has a refreshing forest scent with strong hints of menthol. These leaves can be brewed into a medicinal tea, but drinking too much can be toxic. Children should never be given tea made with these leaves.",
+   	"Category": "Greens",
+  	"CategoryTextOverride": "Medicinal Herb",
+  	"Edibility": -300,
+  	"Price": 75,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Harvey", "Hekate", "Hephaestus", "Maru", "Morgan", "Alecto", "Wizard" ], 
+		"Like": [  "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Demetrius", "Leah", "Linus", "Robin", "Sandy", "Shane" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Pam", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Vincent", "Willy" ],
+		"Hate": [ "Caroline", "Elliott", "Eloise", "Evelyn", "George", "Leo", "Martin", "Morris", "Olivia", "Penny", "Victor", "Wednesday" ]
+		},
+}

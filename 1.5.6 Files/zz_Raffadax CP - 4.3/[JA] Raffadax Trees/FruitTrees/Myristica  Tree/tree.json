@@ -1,0 +1,10 @@
+{
+	"Name": "Myristica Tree",
+	"Product": "Myristica",
+	"SaplingName": "Myristica Sapling",
+	"SaplingDescription": "A tree which produces a fragrant fruit with a seed commonly known as nutmeg. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+	"Season": "fall",
+	"SaplingPurchaseFrom": "Djinn",
+	"SaplingPurchasePrice": 10000,
+	"SaplingPurchaseRequirements": [ "f Amanra 1500" ],
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Tezcatlipoca",
+  	"Description": "An immense cat claw wrapped in the skin of a jaguar. The claw becomes sharper with every enemy it slays.",
+  	"Type": "Club",
+  	"MinimumDamage": 250,
+  	"MaximumDamage": 500,
+  	"Knockback": 5.0,
+  	"Speed": 3,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.2,
+  	"CritMultiplier": 5.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

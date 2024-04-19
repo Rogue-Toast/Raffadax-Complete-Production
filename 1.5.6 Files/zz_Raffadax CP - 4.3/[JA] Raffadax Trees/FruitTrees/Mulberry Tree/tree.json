@@ -1,0 +1,10 @@
+{
+	"Name": "Mulberry Tree",
+	"Product": "Mulberry",
+	"SaplingName": "Mulberry Sapling",
+	"SaplingDescription": "A wild fruit tree which produces dark purple, sweet-tart berries. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Coyotl",
+    	"SaplingPurchasePrice": 3000,
+    	"SaplingPurchaseRequirements": ["f Coyote 1000"],
+}

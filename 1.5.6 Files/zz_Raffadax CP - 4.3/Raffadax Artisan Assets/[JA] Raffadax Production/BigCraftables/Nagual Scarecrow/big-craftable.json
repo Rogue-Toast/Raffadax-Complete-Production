@@ -1,0 +1,33 @@
+{
+    "Name": "Nagual Scarecrow",
+    "Description": "A scarecrow fashioned after one of the guardians of the rainforest. It confuses nearby crows to the point that they leave planted crops alone.",
+    "Price": 5000,
+    "ProvidesLight": true,
+    "Recipe": 
+		{
+    		"ResultCount": 1,
+    		"Ingredients": 
+			[
+      		{
+        		"Object": "Vertigo Fabric",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Nagual Whiskers",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Jungle Hunter",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Sandalwood",
+        		"Count": 50
+      		},
+    			],
+    "CanPurchase": true,
+    "PurchaseFrom": "Barghest",
+    "PurchasePrice": 5000
+  		},
+    "CanPurchase": true,
+}

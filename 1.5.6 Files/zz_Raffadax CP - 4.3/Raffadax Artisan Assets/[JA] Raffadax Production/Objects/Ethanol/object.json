@@ -1,0 +1,35 @@
+{
+  	"Name": "Ethanol",
+  	"Description": "A strong alcoholic compound commonly used as an antiseptic. Ethanol is also used in manufacturing, or can be fermented with bacteria to produce vinegar.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Resource",  	
+  	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 85,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Demetrius", "Harvey", "Maru", "Robin" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Eloise", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

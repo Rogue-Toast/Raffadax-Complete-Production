@@ -1,0 +1,18 @@
+{
+  	"Name": "Brionac",
+  	"Description": "The invincible spear of Lugh. It shines like the sun, and makes a sound like thunder as it slices through the air.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 300,
+  	"MaximumDamage": 600,
+  	"Knockback": 1.5,
+  	"Speed": 5,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 4,
+  	"CritChance": 0.50,
+  	"CritMultiplier": 2.5,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

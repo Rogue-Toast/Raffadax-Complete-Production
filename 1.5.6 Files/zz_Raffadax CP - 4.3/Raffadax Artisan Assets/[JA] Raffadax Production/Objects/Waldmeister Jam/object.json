@@ -1,0 +1,34 @@
+{
+    	"Name": "Waldmeister Jam",
+    	"Description": "A pale floral jam made with shredded waldmeister flowers.",
+  	"Category": "ArtisanGoods",
+  	"Edibility": 75,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 3,
+        	"Mining": 0,
+
+        	"Luck": 3,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 1600,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Linus", "Morgan", "Pam", "Sam", "Sheila", "Sophia", "Susan", "Alecto", "Wizard" ], 
+		"Like": [ "Abigail", "Apples", "Amanra", "Astrid", "Coyote", "Demetrius", "Dwarf", "Elliott", "Evelyn", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jodi", "Leah", "Lewis", "Marnie", "Maru", "Mephisto", "Olivia", "Puck", "Robin", "Sandy", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Caroline", "Claire", "Clint", "Emily", "Gregory", "Kent", "Pierre", "Willy" ],
+		"Dislike": [ "Alex", "Eloise", "Haley", "Penny", "Shane", "Victor" ],
+		"Hate": [ "Andy", "George", "Jas", "Jacob", "Krobus", "Leo", "Marlon", "Martin", "Morris", "Sebastian", "Vincent", "Wednesday" ],	
+		},
+}

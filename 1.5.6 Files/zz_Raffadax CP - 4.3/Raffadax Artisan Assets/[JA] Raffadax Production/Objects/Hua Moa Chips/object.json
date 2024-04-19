@@ -1,0 +1,17 @@
+{
+    	"Name": "Hua Moa Chips",
+    	"Description": "A sweet, healthy snack made from dried hua moa bananas.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Snack Food",
+  	"Edibility": 175,
+  	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Demetrius", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Kent", "Jodi", "Marnie", "Sandy", "Willy" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Morgan", "Robin", "Sam", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Jas", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Andy" ]
+		},
+}

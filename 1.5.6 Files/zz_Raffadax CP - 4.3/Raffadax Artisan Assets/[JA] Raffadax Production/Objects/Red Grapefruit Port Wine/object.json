@@ -1,0 +1,36 @@
+{
+    	"Name": "Red Grapefruit Port Wine",
+    	"Description": "A fortified citrus wine made from ruby red grapefruit. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fortified Wine",
+  	"Edibility": 115,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -3,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 2250,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Leah", "Lewis", "Linus", "Mephisto", "Olivia", "Puck", "Shane", "Shuck", "Victor", "Willy", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Hephaestus", "Jodi", "Kent", "Krobus", "Marlon", "Maru", "Morris", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sheila", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Dislike": [ "Dwarf", "Marnie" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

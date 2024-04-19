@@ -1,0 +1,48 @@
+{
+	"Name": "Chaat Masala",
+  	"Description": "A sweet snack spice blend popular south-eastern cousines. It has a tangy, slightly hot flavor, and is a popular component in street foods.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 735,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Amchoor",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Black Pepper",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Coriander",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Cumin Seed",
+            		"Count": 1,
+        		},
+      		{
+            		"Object": "Ground Ginger",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Kala Namak",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

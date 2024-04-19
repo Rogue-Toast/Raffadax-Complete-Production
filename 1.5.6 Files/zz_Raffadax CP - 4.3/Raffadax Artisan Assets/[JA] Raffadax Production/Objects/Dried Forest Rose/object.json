@@ -1,0 +1,16 @@
+{
+  	"Name": "Dried Forest Rose",
+  	"Description": "A deep forest rose that has been dried for preservation. It can be brewed into a delicious rose tea, or used as a component in potpourris.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Mythic Flower",
+  	"Edibility": -300,
+  	"Price": 5050,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Morgan", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Xolotl" ],
+		"Dislike": [ "Hephaestus", "Krobus", "Wednesday" ]
+		},
+}

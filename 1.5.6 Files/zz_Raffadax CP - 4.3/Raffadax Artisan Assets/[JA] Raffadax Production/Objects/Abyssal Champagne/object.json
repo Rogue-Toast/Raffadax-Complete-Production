@@ -1,0 +1,35 @@
+{
+    	"Name": "Abyssal Champagne",
+    	"Description": "An eerie luminous wine made from an arcane dust with malevolent properties. The bubbles in this champagne hiss unsettlingly as they pop on the surface of the wine; it is unlike anything you have ever heard before.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Sparkling Wine",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -30,
+        	"MaxStamina": 15,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 15,
+        	"Defense": 15,
+
+        	"Duration": 240,
+		},
+	"Price": 56250,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

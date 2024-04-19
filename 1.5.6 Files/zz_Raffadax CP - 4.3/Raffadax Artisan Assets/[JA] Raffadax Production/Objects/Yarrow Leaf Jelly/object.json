@@ -1,0 +1,33 @@
+{
+  	"Name": "Yarrow Leaf Jelly",
+  	"Description": "A fragrant herbal jelly made from yarrow leaves. This jelly is best used on savory foods and meats.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herb Jelly",
+  	"Edibility": 175,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 12,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 12,
+
+        	"Duration": 180,
+		},
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Haley", "Harvey", "Jodi", "Kent", "Martin", "Marlon", "Morgan", "Olivia", "Sandy", "Shane", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gregory", "Gunther", "Jacob", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "George", "Pam", "Penny", "Sam" ],
+		"Hate": [ "Andy", "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Morris", "Sebastian", "Vincent" ]
+		},
+}

@@ -1,0 +1,19 @@
+{
+  	"Name": "Sour Apple Cider",
+    	"Description": "A sour, cloudy juice made from mashed crabapples. It is far more tart than standard cider, and is mostly blended in cocktails or used in cooking.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cider",
+    	"Edibility": 40,
+	"EdibleIsDrink": true,
+    	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Andy", "Eloise", "Jas", "Leo", "Morgan", "Sam", "Vincent" ],
+		"Like": [ "Abigail", "Apples", "Clint", "Emily", "Gus", "Jodi", "Marnie", "Pam", "Penny", "Sebastian", "Shane", "Sheila" ],
+		"Neutral": [ "Alex", "Caroline", "Claire", "Gregory", "Kent", "Leah", "Lewis", "Martin", "Maru", "Robin", "Sandy", "Willy" ],
+        	"Dislike": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Elliott", "Evelyn", "Gunther", "Harvey", "Hekate", "Jacob", "Linus", "Marlon", "Mephisto", "Pierre", "Puck", "Shuck", "Sophia", "Susan", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Dwarf", "George", "Haley", "Hephaestus", "Krobus", "Morris", "Olivia", "Victor", "Wednesday" ]
+		},
+}

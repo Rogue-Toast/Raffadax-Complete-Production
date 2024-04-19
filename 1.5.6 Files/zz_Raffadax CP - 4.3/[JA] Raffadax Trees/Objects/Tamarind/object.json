@@ -1,0 +1,19 @@
+{
+  	"Name": "Tamarind",
+  	"Description": "A large legume that grows from trees and has a sticky, sweet-sour interior. It is commonly used to flavor candies and sodas in some parts of the world.",
+  	"Category": "Fruit",
+  	"Edibility": 15,
+  	"Price": 125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Evelyn", "Gus", "Olivia", "Pierre", "Susan" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Leo", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Alex", "Abigail", "Apples", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Emily", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Martin", "Morgan", "Sam", "Sebastian", "Shane",  "Vincent" ]
+		},
+	"DisableWithMod": "BonsterTrees",
+
+}

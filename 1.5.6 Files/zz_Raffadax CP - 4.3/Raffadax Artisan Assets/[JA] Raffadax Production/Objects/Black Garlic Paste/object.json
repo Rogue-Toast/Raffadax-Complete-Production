@@ -1,0 +1,18 @@
+{
+  	"Name": "Black Garlic Paste",
+  	"Description": "A savory-sweet paste made from fermented garlic. It can be used as a spread, or blended into sauces and dressings.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Puree",
+  	"Edibility": 40,
+  	"Price": 1000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Olivia" ],
+		"Like": [ "Beatrice", "Evelyn", "Pierre", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sandy", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Apples", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent"]
+		},
+}

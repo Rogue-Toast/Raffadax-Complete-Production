@@ -1,0 +1,10 @@
+{
+	"Name": "Dead Man's Tree",
+    	"Product": "Dead Man's Fingers",
+    	"SaplingName": "Dead Man's Sapling",
+    	"SaplingDescription": "An ornamental tree which grows dark blue sausage fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 20000,
+	"SaplingPurchaseRequirements": ["f Shuck 2500"],
+}

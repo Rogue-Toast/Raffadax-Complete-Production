@@ -1,0 +1,19 @@
+{
+  	"Name": "Wisteria",
+  	"Description": "A draping, purple, ornamental flower with a fresh, sweet aroma. These flowers are poisonous to humans and animals.",
+  	"Category": "Flower",
+  	"Edibility": -10,
+  	"Price": 200,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Beatrice", "Olivia", "Pam", "Sandy", "Sheila" ], 
+		"Like": [ "Amanra", "Astrid", "Coyote", "Evelyn", "Gus", "Harvey", "Hekate", "Jas", "Jodi", "Marnie", "Maru", "Mephisto", "Puck", "Shuck", "Sophia", "Xolotl" ],
+        	"Neutral": [ "Andy", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Gregory", "Gunther", "Haley", "Hephaestus", "Kent", "Leah", "Lewis", "Linus", "Morgan", "Penny", "Pierre", "Robin", "Sam", "Shane", "Susan", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Alex", "George", "Jacob", "Leo", "Martin", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		"Hate": [ "Krobus", "Marlon" ],	
+		},
+	"DisableWithMod": "kildarien.farmertoflorist.DGA",
+	"DisableWithMod": "kildarien.farmertoflorist",
+}

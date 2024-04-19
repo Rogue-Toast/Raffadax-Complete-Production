@@ -1,0 +1,16 @@
+{
+	"Name": "Mnemosyne",
+	"Description": "A strange gas derived from the fruit of a divine flower. If two or more individuals inhale this gas, they are able to access each other's thoughts and memories.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Phialed Atmosphere",
+	"Edibility": -300,
+	"Price": 60000,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+        	"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Demetrius", "Wednesday" ],
+		"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

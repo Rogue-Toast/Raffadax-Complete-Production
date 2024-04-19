@@ -1,0 +1,18 @@
+{
+  	"Name": "Wisteria Water",
+  	"Description": "A pale, fragrant water made from wisteria flowers. It can be used to add fragrance to cosmetics and cleaning supplies, but it is too toxic to add to foods.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Water",
+  	"Edibility": -35,
+  	"EdibleIsDrink": true,
+	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,  	
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

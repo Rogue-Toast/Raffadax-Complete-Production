@@ -1,0 +1,33 @@
+{
+    	"Name": "Cintamani Jam",
+    	"Description": "A luminous blue jam containing shredded petals from cintimani flowers. This jam is said to have wonderous healing properties.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Flower Jam",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 12,
+        	"Fishing": 12,
+      		"Foraging": 12,
+        	"Mining": 12,
+
+        	"Luck": 12,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 60100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Hephaestus" ],
+		"Hate": [ "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

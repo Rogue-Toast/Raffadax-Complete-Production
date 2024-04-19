@@ -1,0 +1,18 @@
+{
+    	"Name": "Honey Nut Bunches",
+    	"Description": "A sweet, crunchy cereal made with nuts and honey.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cereal",
+  	"Edibility": 100,
+  	"Price": 1300,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "George", "Gunther", "Haley", "Jodi", "Kent", "Pierre", "Willy" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Gus", "Harvey", "Jacob", "Leah", "Lewis", "Marlon", "Marnie", "Martin", "Olivia", "Pam", "Penny", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Alecto", "Wizard" ],
+		"Neutral": [ "Jas", "Hekate", "Leo", "Linus", "Morgan", "Vincent" ],
+		"Dislike": [ "Apples", "Dwarf", "Hephaestus", "Krobus", "Morris", "Wednesday" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Gregory", "Maru", "Mephisto", "Puck", "Sebastian", "Shuck", "Xolotl" ]
+		},
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Kumquat Tree",
+    	"Product": "Kumquat",
+    	"SaplingName": "Kumquat Sapling",
+    	"SaplingDescription": "A citrus tree which produces small, flavorful fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+   	"Season": "spring",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 2000,
+    	"SaplingPurchaseRequirements": ["f Astrid 1500"],
+	"DisableWithMod": "Mae.trees",
+}

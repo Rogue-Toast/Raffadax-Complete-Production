@@ -1,0 +1,36 @@
+{
+	"Name": "Dead Man's Puree",
+  	"Description": "Dead man's finger fruit that has been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 5,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 1000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Krobus", "Leo", "Linus", "Morgan", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Andy", "Eloise", "Jas", "Marnie", "Martin", "Shane", "Sheila", "Sophia" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Emily", "Gregory", "Harvey", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Robin", "Sandy", "Shuck", "Victor", "Willy", "Xolotl" ],
+		"Dislike": [ "Alex", "Beatrice", "Elliott", "George", "Claire", "Jodi" ],
+		"Hate": [  "Apples", "Evelyn", "Gus", "Haley", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Sebastian", "Susan" ],
+		},
+}

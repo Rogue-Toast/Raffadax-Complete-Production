@@ -1,0 +1,20 @@
+{
+  	"Name": "Apple Cider",
+    	"Description": "A sweet, cloudy juice made from mashed apples. It is a popular autumn beverage, and is often served heated and spiced.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cider",
+    	"Edibility": 30,
+	"EdibleIsDrink": true,
+    	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Gregory", "Haley", "Lewis", "Linus", "Marnie", "Martin", "Robin", "Sandy" ],
+		"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Marlon", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Mirror of Pachacutec",
+  	"Description": "The divine mirror of an ancient emperor. Rather than glass, the frame of this implement houses a vaporous portal through which all things can be seen.",
+  	"Type": "Club",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 350,
+  	"Knockback": 1.0,
+  	"Speed": 3,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 5,
+  	"CritChance": 0.50,
+  	"CritMultiplier": 5.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

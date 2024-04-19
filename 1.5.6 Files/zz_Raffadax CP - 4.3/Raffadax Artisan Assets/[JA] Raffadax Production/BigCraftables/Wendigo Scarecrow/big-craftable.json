@@ -1,0 +1,33 @@
+{
+    "Name": "Wendigo Scarecrow",
+    "Description": "A scarecrow fashioned after a wendigo spirit. It emits a rotting stench and malevolent aura which repels animals. Humans who are exposed to this totem may become cannibalistic.",
+    "Price": 5000,
+    "ProvidesLight": true,
+    "Recipe": 
+		{
+    		"ResultCount": 1,
+    		"Ingredients": 
+			[
+      		{
+        		"Object": "Frost Fabric",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Wendigo Antler",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Puanteur de la Mort",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Ebony Wood",
+        		"Count": 50
+      		},
+    			],
+    "CanPurchase": true,
+    "PurchaseFrom": "Coyotl",
+    "PurchasePrice": 5000
+  		},
+    "CanPurchase": false,
+}

@@ -1,0 +1,19 @@
+{
+  	"Name": "White Grape Juice",
+    	"Description": "A sweet, pale fruit juice made from green grapes.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 50,
+	"EdibleIsDrink": true,
+    	"Price": 180,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Sandy", "Martin", "Vincent" ],
+        	"Like": [ "Alex", "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Morgan", "Morris", "Pam", "Robin", "Shane", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Leo", "Lewis", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Krobus", "Victor", "Willy" ],
+		"Hate": [ "Andy", "Olivia", "Penny", "Sebastian" ]
+		},
+}

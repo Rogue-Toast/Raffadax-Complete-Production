@@ -1,0 +1,10 @@
+{
+	"Name": "Dragon Fruit Trellis",
+    	"Product": "Dragon Fruit",
+    	"SaplingName": "Dragon Fruit Cactus Sapling",
+    	"SaplingDescription": "A permanent lattice that grows a hearty cactus fruit vine. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Nagual",
+    	"SaplingPurchasePrice": 6000,
+	"SaplingPurchaseRequirements": ["f Xolotl 2000"],
+}

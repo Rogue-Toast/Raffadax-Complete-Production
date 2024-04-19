@@ -1,0 +1,17 @@
+{
+    	"Name": "Cactus Powder",
+  	"Description": "A nutritional powder made from ground cactus. It can be mixed into health shakes or used as a ground herb for cooking.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Ground Herb",
+  	"Edibility": -300,
+ 	"Price": 125,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Alex", "Elliott", "Emily", "Hekate", "Linus", "Morgan", "Olivia", "Pam", "Pierre", "Sam", "Sandy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Beatrice", "Caroline", "Clint", "Demetrius", "George", "Gunther", "Gus", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Claire", "Coyote", "Dwarf", "Evelyn", "Mephisto", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Abigail", "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sebastian", "Shane",  "Vincent" ]
+		},
+}

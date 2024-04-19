@@ -1,0 +1,36 @@
+{
+  	"Name": "Royal Poinciana Tea",
+  	"Description": "A vibrant floral tea made from the flowers of a Royal Poinciana Tree. It has an aroma like sweet grapes, but is highly toxic to humans and animals. This tea seems to be well liked by demi-humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Floral Tea",
+  	"Edibility": -175,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 1,
+        	"MaxStamina": 9,
+		"MagnetRadius": 0,
+        	"Speed": 10,
+
+		"Attack": 10,
+        	"Defense": 10,
+
+        	"Duration": 120,
+		},
+  	"Price": 1100,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Wednesday" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Sebastian", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Morgan" ],
+		"Dislike": [ "Abigail", "Shane" ],
+        	"Hate": [ "Alex", "Andy", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ]
+		},
+}

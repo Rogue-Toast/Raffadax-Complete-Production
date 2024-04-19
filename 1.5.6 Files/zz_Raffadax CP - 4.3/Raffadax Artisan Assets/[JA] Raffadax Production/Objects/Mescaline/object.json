@@ -1,0 +1,35 @@
+{
+	"Name": "Mescaline",
+  	"Description": "A potently psychoactive substance extracted from peyote cactus. It is primarily used as a component in religious ceremonies and potion making, due to its potently hallucinogenic properties.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Herb Extract",
+  	"Edibility": -50,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 10,
+        	"MaxStamina": -10,
+		"MagnetRadius": 0,
+        	"Speed": -10,
+
+		"Attack": 0,
+        	"Defense": 10,
+
+        	"Duration": 180,
+		},
+  	"Price": 1125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Astrid", "Coyote", "Dwarf", "Emily", "Harvey", "Hekate", "Hephaestus", "Krobus", "Maru", "Mephisto", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail", "George", "Pam", "Sam", "Sandy", "Shane", "Willy" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Penny", "Pierre", "Robin", "Sheila", "Sophia", "Susan", "Victor", "Vincent" ],
+		},
+}

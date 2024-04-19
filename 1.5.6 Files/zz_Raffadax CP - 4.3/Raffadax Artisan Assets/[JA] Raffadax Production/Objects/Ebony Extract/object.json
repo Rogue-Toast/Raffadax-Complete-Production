@@ -1,0 +1,19 @@
+{
+	"Name": "Ebony Extract",
+  	"Description": "The extracted essence of ebony wood. It is primarily used as a component in medicinal tonics, but also has arcane uses as well.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Herb Extract",
+  	"Edibility": 25,
+    	"EdibleIsDrink": true,
+  	"Price": 1125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Harvey", "Hekate", "Maru", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Evelyn", "George" ], 
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Coyote", "Haley", "Mephisto", "Robin", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Gregory", "Gunther", "Gus", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

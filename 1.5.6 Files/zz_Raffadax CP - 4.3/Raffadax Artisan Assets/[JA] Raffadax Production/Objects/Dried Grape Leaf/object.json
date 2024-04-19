@@ -1,0 +1,17 @@
+{
+	"Name": "Dried Grape Leaf",
+  	"Description": "A grape leaf which has been dried for preservation. It can be rehydrated for cooking purposes, ground into a powder, or brewed into tea.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Dried Leaf",
+  	"Edibility": -300,
+  	"Price": 65,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jodi", "Kent", "Lewis", "Morris", "Olivia", "Pierre", "Sandy", "Sophia", "Victor" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Jacob", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Puck", "Robin", "Sheila", "Shuck", "Susan", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Apples", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane",  "Vincent" ]
+		},
+}

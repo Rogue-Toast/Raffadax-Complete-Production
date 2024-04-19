@@ -1,0 +1,33 @@
+{
+    	"Name": "Roasting Pouch",
+    	"Description": "A foil pouch that allows for even roasting of items placed inside. Can be used in conventional ovens or kilns.",
+    	"Category": "Crafting",
+	"CategoryTextOverride": "Production Tool",
+    	"Edibility": -300,
+    	"EdibleIsDrink": false,
+    	"Price": 5,
+    	"Recipe":
+    		{
+        	"ResultCount": 10,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Fire Quartz",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Hemp Paper",
+            		"Count": 1,
+       	 		}
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Azeban",
+	       	"PurchasePrice": 500,
+		},
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Neutral": [ "Gus", "Olivia" ],
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

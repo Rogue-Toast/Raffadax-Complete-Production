@@ -1,0 +1,19 @@
+{
+  	"Name": "Grape Juice",
+    	"Description": "A sweet purple juice made from grapes.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 40,
+	"EdibleIsDrink": true,
+    	"Price": 180,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Martin", "Sandy", "Vincent" ],
+        	"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Shane" ],
+		"Neutral": [ "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Penny", "Sebastian" ]
+		},
+}

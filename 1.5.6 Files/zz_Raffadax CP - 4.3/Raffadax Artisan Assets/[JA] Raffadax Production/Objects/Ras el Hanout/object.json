@@ -1,0 +1,66 @@
+{
+	"Name": "Ras el Hanout",
+  	"Description": "A highly prized spice blend mixed by the finest mid-eastern merchants. It can be added to soups, stews and sauces; or used to season meats and side dishes.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 1890,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 10,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Ground Allspice",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Anise",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Cinnamon",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Clove",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Cumin Seed",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Ginger",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Mace",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground White Pepper",
+            		"Count": 1,
+        		},
+      		{
+            		"Object": "Red Chili Powder",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Turmeric Powder",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "DesertTrader",
+	       "PurchasePrice": 500,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

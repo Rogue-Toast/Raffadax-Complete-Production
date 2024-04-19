@@ -1,0 +1,36 @@
+{
+	"Name": "Coco de Mer Water",
+  	"Description": "A milky substance collected from coco de mer nuts. It is similar to coconut water in flavor and consistency.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 5,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 2250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Beatrice", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gunther", "Haley", "Hephaestus", "Leo", "Martin", "Olivia", "Sandy", "Susan", "Willy" ],
+        	"Like": [ "Abigail", "Apples", "Caroline", "Claire", "Dwarf", "Eloise", "Emily", "Gregory", "Gus", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Leah","Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

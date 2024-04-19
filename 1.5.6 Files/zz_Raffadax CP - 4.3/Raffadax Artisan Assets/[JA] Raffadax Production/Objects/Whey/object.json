@@ -1,0 +1,18 @@
+{
+    	"Name": "Whey",
+    	"Description": "A liquid expelled from milk curds during the cheesemaking process. It can be used instead of water in cooking and baking.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Baking Component",
+    	"Edibility": 10,
+    	"EdibleIsDrink": true,
+    	"Price": 400,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Olivia", "Pierre", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Apples", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Astrid", "Claire", "Coyote", "Dwarf", "Pam", "Penny", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Puck", "Sam", "Sebastian", "Shane", "Shuck", "Vincent"]
+		},
+}

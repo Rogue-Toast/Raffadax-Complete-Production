@@ -1,0 +1,10 @@
+{
+	"Name": "Achiote Tree",
+	"Product": "Annatto",
+	"SaplingName": "Achiote Sapling",
+	"SaplingDescription": "A tree that produces annatto pods containing seeds used as a spice and coloring agent. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 4000,
+    	"SaplingPurchaseRequirements": ["f Amanra 500"],
+}

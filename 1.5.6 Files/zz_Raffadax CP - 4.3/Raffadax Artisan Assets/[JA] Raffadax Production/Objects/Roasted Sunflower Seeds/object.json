@@ -1,0 +1,18 @@
+{
+  	"Name": "Roasted Sunflower Seeds",
+  	"Description": "Shelled sunflower seeds that have been roasted to bring out their flavor. They can be used as a baking component, a salad and pasta topping, or eaten as a snack.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Roasted Seeds",
+  	"Edibility": 50,
+	"Price": 900,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Beatrice", "Evelyn", "Gus", "Haley", "Kent", "Olivia", "Susan", "Shane", ],
+		"Like": [ "Clint", "George", "Hephaestus", "Jacob", "Lewis" ],
+        	"Neutral": [ "Abigail", "Amanra", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Gunther", "Harvey", "Hekate", "Jas", "Jodi", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sheila", "Shuck", "Sophia", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Eloise", "Morgan" ],
+		"Hate": [ "Gregory", "Sebastian", "Victor" ]
+		},
+}

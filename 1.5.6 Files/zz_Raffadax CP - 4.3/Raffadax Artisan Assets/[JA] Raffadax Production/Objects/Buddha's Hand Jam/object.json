@@ -1,0 +1,35 @@
+{
+	"Name": "Buddha's Hand Jam",
+  	"Description": "A highly fragrant citrus jam made using the pith from Buddha's hand fruit.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 125,
+	"EdibleBuffs":
+		{
+        	"Farming":0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 5,
+        	"MaxStamina": 5,
+		"MagnetRadius": 5,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 1900,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Demetrius", "Emily", "Gunther", "Gus", "Leo", "Olivia", "Penny", "Alecto", "Wizard" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

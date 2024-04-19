@@ -1,0 +1,35 @@
+{
+	"Name": "Waldmeister Preserves",
+  	"Description": "Whole woodruff flowers preserved in a sweet smelling syrup.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Preserves",
+  	"Edibility": 100,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 5,
+        	"Mining": 0,
+
+        	"Luck": 5,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 3700,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Linus", "Morgan", "Pam", "Sam", "Sheila", "Sophia", "Susan", "Alecto", "Wizard" ], 
+		"Like": [ "Abigail", "Apples", "Amanra", "Astrid", "Coyote", "Demetrius", "Dwarf", "Elliott", "Evelyn", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jodi", "Leah", "Lewis", "Marnie", "Maru", "Mephisto", "Olivia", "Puck", "Robin", "Sandy", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Caroline", "Claire", "Clint", "Emily", "Gregory", "Kent", "Pierre", "Willy" ],
+		"Dislike": [ "Alex", "Eloise", "Haley", "Penny", "Shane", "Victor" ],
+		"Hate": [ "Andy", "George", "Jas", "Jacob", "Krobus", "Leo", "Marlon", "Martin", "Morris", "Sebastian", "Vincent", "Wednesday" ],	
+		},
+}

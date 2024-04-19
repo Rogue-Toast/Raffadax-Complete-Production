@@ -1,0 +1,34 @@
+{
+	"Name": "Preserved Dryad's Saddle",
+  	"Description": "Chopped dryad's saddle mushrooms that have been preserved in a pickling brine.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickled Mushrooms",
+  	"Edibility": 75,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 7,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Olivia" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Harvey", "Leah", "Linus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Hekate", "Hephaestus", "Jacob", "Kent", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Hate": [ "Caroline", "Dwarf", "Elliott", "Eloise", "Haley", "Jas", "Jodi", "Krobus", "Leo", "Morgan", "Pierre", "Sam", "Sebastian", "Shane", "Vincent", "Willy", "Alecto", "Wizard" ]
+		},
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Sassafras Root",
+  	"Description": "A distinctly flavored root from a sassafras tree. It is used to make a variety of beverages, and is the primary flavor component in root beer.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Herb",
+  	"Edibility": 10,
+  	"Price": 10,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [  "Gregory", "Hekate", "Hephaestus", "Susan", "Vincent", "Wednesday", "Willy" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Alecto", "Wizard" ],
+		"Hate": [ "Eloise", "Krobus", "Leo", "Martin", "Morris", "Olivia", "Victor" ]
+		},
+	"DisableWithMod": "MelindaC.FizzyDrinks",
+}

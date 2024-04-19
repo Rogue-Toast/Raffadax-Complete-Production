@@ -1,0 +1,10 @@
+{
+	"Name": "Black Cherry Tree",
+    	"Product": "Black Cherry",
+    	"SaplingName": "Black Cherry Sapling",
+    	"SaplingDescription": "A fruit tree which produces dark, sweet cherries. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 5000,
+    	"SaplingPurchaseRequirements": ["f Shuck 1500"],
+}

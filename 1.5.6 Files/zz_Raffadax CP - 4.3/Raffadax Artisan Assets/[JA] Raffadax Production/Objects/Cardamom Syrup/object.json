@@ -1,0 +1,17 @@
+{
+    	"Name": "Cardamom Syrup",
+    	"Description": "A sweet syrup flavored with cardamom. It can be used to add sweetness and flavor to craft cocktails and coffee beverages.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cocktail Syrup",
+  	"Edibility": 75,
+  	"EdibleIsDrink": true,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Like": [ "Gus" ], 
+		"Neutral": [ "Lewis", "Olivia", "Pam" ], 
+        	"Dislike": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

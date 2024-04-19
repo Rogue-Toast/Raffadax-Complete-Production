@@ -1,0 +1,17 @@
+{
+    	"Name": "Salmonberry Jelly",
+    	"Description": "A sweet pink jelly made from wild salmonberries.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jelly",
+  	"Edibility": 35,
+  	"Price": 60,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Like": [ "Andy", "Apples", "Demetrius", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane" ],
+		"Neutral": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Eloise", "Gregory", "Gunther", "Jacob", "Marlon", "Mephisto", "Morgan", "Morris", "Puck", "Sheila", "Shuck", "Sophia", "Xolotl" ],
+		"Dislike": [ "Abigail", "Alex", "Claire", "Clint", "Dwarf", "Emily", "George", "Gus", "Haley", "Jas", "Krobus", "Leo", "Lewis", "Olivia", "Marnie", "Martin", "Maru", "Penny", "Pierre", "Sam", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Caroline", "Elliott", "Evelyn", "Harvey", "Hekate", "Hephaestus", "Sebastian" ] 
+		},
+}

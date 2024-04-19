@@ -1,0 +1,17 @@
+{
+    	"Name": "Sheep Butter",
+    	"Description": "A spreadable dairy product made by churning sheep milk. It has a sweeter flavor and a higher nutritional content than cow butter.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Butter",
+    	"Edibility": 75,
+    	"Price": 600,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Penny", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]	
+		},
+}

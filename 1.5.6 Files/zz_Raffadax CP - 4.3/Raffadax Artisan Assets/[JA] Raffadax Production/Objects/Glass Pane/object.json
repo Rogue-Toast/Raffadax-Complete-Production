@@ -1,0 +1,16 @@
+{
+  	"Name": "Glass Pane",
+  	"Description": "A sheet of glass that can be used for crafting.",
+  	"Category": "-16",
+  	"CategoryTextOverride": "Resource", 
+	"Edibility": -300,
+	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Robin" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Amanra", "Apples", "Astrid", "Coyote", "Eloise", "Jas", "Leo", "Martin", "Mephisto", "Morgan", "Penny", "Puck", "Sebastian", "Shuck", "Vincent", "Xolotl" ]
+		},
+}

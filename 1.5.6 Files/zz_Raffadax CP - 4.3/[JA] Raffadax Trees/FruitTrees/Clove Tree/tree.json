@@ -1,0 +1,11 @@
+{
+	"Name": "Clove Tree",
+	"Product": "Clove",
+	"SaplingName": "Clove Sapling",
+	"SaplingDescription": "A tree that produces fragrant flower buds which are prized as a baking and culinary spice. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 3000,
+    	"SaplingPurchaseRequirements": [ "f Shuck 1500" ],
+	"DisableWithMod": "BonsterTrees",
+}

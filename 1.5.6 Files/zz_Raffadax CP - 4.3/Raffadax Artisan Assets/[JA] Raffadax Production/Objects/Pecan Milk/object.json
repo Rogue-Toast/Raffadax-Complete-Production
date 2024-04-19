@@ -1,0 +1,20 @@
+{
+	"Name": "Pecan Milk",
+    	"Description": "A thin, milky substance made from blended and strained pecans. It is a good non-dairy alternative for individuals with eating restrictions.",
+    	"Category": "Milk",
+    	"CategoryTextOverride": "Non-Dairy Milk",
+    	"Edibility": 55,
+    	"EdibleIsDrink": true,
+  	"Price": 650,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Beatrice", "Emily", "Evelyn", "Gunther", "Hephaestus", "Jacob", "Marnie", "Maru", "Olivia", "Pam", "Robin", "Sam", "Susan", "Vincent" ],
+        	"Like": [ "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "George", "Gus", "Haley", "Harvey", "Hekate", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Martin", "Morgan", "Morris", "Penny", "Pierre", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Jas", "Kent" ],
+		"Hate": [ "Gregory", "Leo" ]
+		},
+	"DisableWithMod": "Raffadax.JA.AM",
+}

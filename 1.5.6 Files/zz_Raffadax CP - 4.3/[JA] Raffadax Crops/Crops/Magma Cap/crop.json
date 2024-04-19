@@ -1,0 +1,23 @@
+{
+	"Name": "Magma Cap",
+	"Product": "Magma Cap",
+	"SeedName": "Magma Cap Mushroom Starter",
+	"SeedDescription": "Spores for a strange variety of mushroom which grows in and around volcanoes. Takes 10 days to mature. Plant in the summer.",
+    	"Type": "Greens",
+    	"Seasons": ["summer"],
+    	"Phases": [ 2, 3, 4, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 350,
+	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": [ "f Xolotl 2500" ]
+}

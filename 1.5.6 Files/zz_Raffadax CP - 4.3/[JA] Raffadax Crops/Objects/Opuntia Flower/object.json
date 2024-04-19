@@ -1,0 +1,17 @@
+{
+	"Name": "Opuntia Flower",
+  	"Description": "A yellow cactus flower with a fragrance like overripe melons. Its petals are sometimes eaten or used as a medicinal component.",
+  	"Category": "Flower",
+  	"Edibility": 10,
+  	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Linus", "Pam", "Sam", "Sandy", "Sheila" ], 
+		"Like": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Elliott", "Evelyn", "Gus", "Harvey", "Hekate", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Mephisto", "Puck", "Robin", "Shane", "Shuck", "Sophia", "Xolotl" ],
+        	"Neutral": [ "Alex", "Andy", "Apples", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "Emily", "Gregory", "Gunther", "Hephaestus", "Krobus", "Leo", "Morgan", "Olivia", "Penny", "Pierre", "Susan", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "George", "Haley", "Jas", "Jacob", "Martin", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		"Hate": [ "Marlon" ],	
+		},
+}

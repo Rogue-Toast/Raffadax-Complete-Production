@@ -1,0 +1,17 @@
+{
+  	"Name": "Kalpasi",
+  	"Description": "A fine spice made from black stone flower lichens. It has a spicy, astringent flavor which becomes smokey when cooked.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Seasoning",
+  	"Edibility": -300,
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Olivia" ],
+		"Neutral": [ "Abigail", "Alex", "Beatrice", "Evelyn", "Harvey", "Hekate", "Jodi", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Sheila", "Sophia" ],
+        	"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Hephaestus", "Kent", "Leah", "Lewis", "Mephisto", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Shuck", "Susan", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "George", "Jacob", "Jas", "Krobus", "Leo", "Martin", "Morgan", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		},
+}

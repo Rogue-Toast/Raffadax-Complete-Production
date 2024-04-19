@@ -1,0 +1,16 @@
+{
+  	"Name": "Celtic Breakfast Tea Leaf",
+  	"Description": "A black tea mix that has a reddish color and malthy, robust flavor. It can be brewed into a lucky tea which is popular in certain parts of the world.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Tea Leaf",
+  	"Edibility": -300,
+	"Price": 1275,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Dwarf", "Elliott", "Emily", "George", "Hekate", "Hephaestus", "Lewis", "Mephisto", "Morris", "Olivia", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Beatrice", "Clint", "Demetrius", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Willy" ],
+		"Hate": [ "Eloise", "Jas", "Krobus", "Morgan", "Vincent", "Wednesday" ]
+		},
+}

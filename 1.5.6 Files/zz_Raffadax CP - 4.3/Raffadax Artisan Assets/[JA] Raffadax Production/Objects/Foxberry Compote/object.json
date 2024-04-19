@@ -1,0 +1,33 @@
+{
+  	"Name": "Foxberry Compote",
+  	"Description": "A flavorful orange syrup with whole preserved foxberries in it. When you eat this compote, you can feel the spirit of the fox smiling favorably upon you.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Enchanted Compote",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 10,
+        	"MaxStamina": 10,
+		"MagnetRadius": 10,
+        	"Speed": 10,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 7200,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Gregory", "Kent", "Leo", "Linus", "Marlon", "Mephisto", "Morris", "Puck", "Sam", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Andy", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

@@ -1,0 +1,16 @@
+{
+	"Name": "Honeycrisp Apple",
+	"Description": "An incredibly crisp apple that has a nice balance of sweet and tart. It is best eaten raw, rather than baked or processed.",
+  	"Category": "Fruit",
+	"Edibility": 35,
+	"Price": 175,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Beatrice", "Caroline", "Claire", "Dwarf", "Gunther", "Hephaestus", "Jacob", "Jodi", "Marnie", "Maru", "Olivia", "Penny", "Pierre", "Robin", "Sophia"  ], 
+        	"Like": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Clint", "Coyote", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Harvey", "Hekate", "Jas", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Martin", "Mephisto", "Morgan", "Pam", "Puck", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sorren","Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Sebastian" ],
+		"Hate": [ "Haley", "Krobus", "Morris", "Wednesday" ]
+		},
+}

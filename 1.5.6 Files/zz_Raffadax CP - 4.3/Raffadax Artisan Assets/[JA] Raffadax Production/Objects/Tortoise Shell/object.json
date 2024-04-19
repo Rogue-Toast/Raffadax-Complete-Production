@@ -1,0 +1,17 @@
+{
+  	"Name": "Tortoise Shell",
+  	"Description": "The empty shell of a land tortoise.",
+  	"Category": "-28",
+  	"CategoryTextOverride": "Nature Forage",
+  	"Edibility": -300,
+  	"Price": 100,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Eloise", "Gunther", "Jas", "Mephisto", "Morgan", "Penny", "Puck", "Shuck", "Vincent", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Beatrice", "Caroline", "Claire", "Dwarf", "Elliott", "Emily", "Evelyn", "Gregory", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Clint", "George", "Haley", "Willy" ],
+		"Hate": [ "Andy", "Morris", "Olivia" ],
+		},
+}

@@ -1,0 +1,17 @@
+{
+    	"Name": "Golden Raisin Jelly",
+    	"Description": "A sweet golden jelly made from golden raisins.",
+  	"Category": "ArtisanGoods",
+  	"Edibility": 45,
+  	"Price": 310,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "George", "Lewis", "Linus" ],
+        	"Like": [ "Apples", "Claire", "Demetrius", "Elliott", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Marlon", "Martin", "Morris", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Gus", "Krobus", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Leo", "Morgan", "Victor", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Olivia", "Penny", "Sebastian" ]
+		},
+}

@@ -1,0 +1,35 @@
+{
+	"Name": "Buddha's Hand Wine",
+	"Description": "A highly fragrant citrus wine made by fermenting Buddha's hand fruit. This wine is dry and crisp, with a faint floral aroma. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Wine",
+	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 4,
+        	"MaxStamina": 4,
+		"MagnetRadius": 4,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 900,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Amanra", "Astrid", "Coyote", "Demetrius", "Emily", "Gunther", "Gus", "Harvey", "Hekate", "Leah", "Mephisto", "Olivia", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Apples", "Beatrice", "Caroline",  "Claire", "Clint", "Elliott", "Evelyn", "George", "Gregory", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Victor", "Willy" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Hate": [ "Andy", "Dwarf", "Eloise", "Jas", "Leo", "Krobus", "Martin", "Morgan", "Penny", "Sebastian", "Wednesday", "Vincent" ]	
+		},
+}

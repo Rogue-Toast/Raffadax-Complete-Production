@@ -1,0 +1,35 @@
+{
+	"Name": "Huckleberry Port Wine",
+	"Description": "A fortified wine made with wild blueberries. It is a vibrant shade of blue and has a mildly sweet flavor. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fortified Wine",
+	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 10,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -3,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 1125,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Clint", "Coyote", "Dwarf", "Elliott", "George", "Gregory", "Harvey", "Hekate", "Hephaestus", "Leah", "Lewis", "Linus", "Marnie", "Mephisto", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Willy", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Demetrius", "Emily", "Evelyn", "Gunther", "Gus", "Haley", "Jacob", "Jodi", "Kent", "Krobus", "Marlon", "Maru", "Olivia", "Pam", "Pierre", "Sam", "Sandy", "Shane", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Susan" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Morris", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

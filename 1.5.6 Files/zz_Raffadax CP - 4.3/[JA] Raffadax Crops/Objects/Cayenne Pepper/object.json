@@ -1,0 +1,16 @@
+{
+    	"Name": "Cayenne Pepper",
+    	"Description": "A bright red pepper with a moderate level of heat. They are commonly ground into a vivid spice by the same name.",
+  	"Category": "Vegetable",
+  	"Edibility": 10,
+  	"Price": 15,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Lewis", "Shane" ],
+        	"Like": [ "Amanra", "Andy", "Astrid", "Beatrice", "Claire", "Coyote", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Martin", "Mephisto", "Morris", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Xolotl" ],
+		"Neutral": [ "Alex", "Apples", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Marnie", "Maru", "Penny", "Pierre", "Sam", "Sebastian", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Morgan", "Vincent" ],
+		},
+}

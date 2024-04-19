@@ -1,0 +1,18 @@
+{
+  	"Name": "Sword of Thunderbolt",
+  	"Description": "The sword of Zeuse forged from living lightning. The shape of its blade is in constant flux, and crackles brightly with static energy.",
+  	"Type": "Sword",
+  	"MinimumDamage": 750,
+  	"MaximumDamage": 999,
+  	"Knockback": 2.0,
+  	"Speed": 7,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.10,
+  	"CritMultiplier": 5.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

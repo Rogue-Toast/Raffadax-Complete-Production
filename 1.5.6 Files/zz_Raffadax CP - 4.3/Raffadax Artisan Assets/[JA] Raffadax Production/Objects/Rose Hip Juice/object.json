@@ -1,0 +1,18 @@
+{
+	"Name": "Rose Hip Juice",
+  	"Description": "A sweet, floral juice made from rose hips. Its unique flavor mixes well in cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 50,
+	"EdibleIsDrink": true,
+    	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Alex", "Dwarf", "Haley", "Harvey", "Linus", "Marlon", "Martin", "Maru", "Sandy" ],
+	"Neutral": [ "Abigail", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+	"Dislike": [ "Krobus", "Willy" ],
+	"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Sebastian", "Vincent" ],
+		},
+}

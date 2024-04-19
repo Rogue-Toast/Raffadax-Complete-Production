@@ -1,0 +1,18 @@
+{
+	"Name": "Yarrow Powder",
+  	"Description": "A fragrant white dust made from pulverised yarrow flowers. It can be used as a flavor component and colorant for baked goods and beverages.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Dust",
+  	"Edibility": -300,
+  	"Price": 125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Hekate", "Hephaestus", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Amanra", "Apples", "Astrid", "Beatrice", "Coyote", "Dwarf", "Evelyn", "Gus", "Leah", "Mephisto", "Olivia", "Puck", "Robin", "Shuck", "Susan", "Xolotl" ], 
+		"Neutral": [ "Harvey", "Jodi", "Marnie", "Maru", "Pam", "Sheila", "Sophia" ],
+        	"Dislike": [ "Alex", "Andy", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "George", "Gregory", "Gunther", "Haley", "Jacob", "Kent", "Lewis", "Linus", "Martin", "Morris", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Victor", "Wednesday", "Willy" ],
+		"Hate": [ "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

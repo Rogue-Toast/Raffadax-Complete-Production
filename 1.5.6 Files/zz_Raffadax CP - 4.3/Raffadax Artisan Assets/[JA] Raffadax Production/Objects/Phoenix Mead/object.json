@@ -1,0 +1,37 @@
+{
+	"Name": "Phoenix Mead",
+	"Description": "A divine honey wine containing the essence of a Phoenix. Rather than liquid, this bottle appears to be filled with an eternal flame. Phoenix wine has unparalleled healing capabilities; and is even said to be capable of reviving the recently deceased.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Divine Libation",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 100,
+        	"MaxStamina": 100,
+		"MagnetRadius": 25,
+        	"Speed": 5,
+
+		"Attack": 50,
+        	"Defense": 100,
+
+        	"Duration": 1440,
+		},
+	"Price": 1000000,
+	"IsColored": false,
+	"Recipe": null,
+	"Price": 1000000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

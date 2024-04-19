@@ -1,0 +1,35 @@
+{
+    	"Name": "Mugwort Kombucha",
+    	"Description": "A mildly hallucinogenic kombucha made by fermenting mugwort tea. This beverage appears to have various magical uses.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herbal Kombucha",
+	"Edibility": 75,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 10,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 10,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": -5,
+
+        	"Duration": 180,
+		},
+	"Price": 280,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Sebastian", "Shuck", "Xolotl" ],
+		"Neutral": [ "Abigail", "Morgan", "Shane" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

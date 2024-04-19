@@ -1,0 +1,17 @@
+{
+  	"Name": "Spirulina Powder",
+  	"Description": "Dessicated algae that has been ground into a fine powder. Spirulina is used to make healthy, though not incredibly flavorful, teas and tonics.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Powder",
+  	"Edibility": -300,
+  	"Price": 65,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Alex", "Demetrius", "Emily", "Haley", "Harvey", "Kent", "Leah", "Lewis", "Maru" ],
+		"Neutral": [ "Abigail", "Beatrice", "Caroline", "Clint", "Elliott", "Gregory", "Hekate", "Hephaestus", "Morgan", "Olivia", "Robin", "Sandy", "Alecto", "Wizard" ],
+        	"Dislike": [ "Amanra", "Apples", "Astrid", "Claire", "Coyote", "Evelyn", "Gus", "Jacob", "Jodi", "Marnie", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Xolotl" ],
+		"Hate": [ "Andy", "Dwarf", "Eloise", "George", "Gunther", "Jas", "Krobus", "Leo", "Linus", "Marlon", "Martin", "Penny", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

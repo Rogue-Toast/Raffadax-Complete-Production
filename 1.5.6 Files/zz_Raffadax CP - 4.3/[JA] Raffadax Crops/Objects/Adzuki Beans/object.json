@@ -1,0 +1,15 @@
+{
+	"Name": "Adzuki Beans",
+  	"Description": "Small red beans with an earthy, sweet potato-like flavor. They are commonly made into a sweet paste used for deserts.",
+  	"Category": "Vegetable",
+  	"Edibility": 20,
+  	"Price": 35,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Dwarf", "Evelyn", "George", "Gus", "Marlon", "Mephisto", "Olivia", "Puck", "Shuck", "Susan", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+	"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ],
+		},
+}

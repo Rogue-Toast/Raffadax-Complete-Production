@@ -1,0 +1,11 @@
+{
+	"Name": "Quince Tree",
+	"Product": "Quince",
+    	"SaplingName": "Quince Sapling",
+    	"SaplingDescription": "A drought-tollerant tree which produces aromatic, fibrous fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 3000,
+    	"SaplingPurchaseRequirements": [ "f Amanra 1000" ],
+	"DisableWithMod": "BonsterTrees",
+}

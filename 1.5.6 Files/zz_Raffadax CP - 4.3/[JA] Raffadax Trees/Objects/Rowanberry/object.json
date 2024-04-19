@@ -1,0 +1,33 @@
+{
+    	"Name": "Rowanberry",
+    	"Description": "A bitter, reddish-orange berry which has such a strong acidity it is generally not eaten raw. These berries are generally processed into jellies and wines, or can be debittered through freezing, drying or cooking.",
+   	"Category": "Fruit",
+  	"Edibility": 10,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 1,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 20,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [  "Amanra", "Astrid", "Coyote", "Hephaestus", "Leo", "Mephisto", "Olivia", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Demetrius", "Gus", "Hekate", "Leah", "Linus", "Maru", "Pam", "Robin", "Sandy", "Shane", "Alecto", "Wizard" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Morgan", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Vincent", "Willy" ],
+		"Hate": [ "Caroline", "Elliott", "Eloise", "Evelyn", "George", "Martin", "Morris", "Penny", "Victor", "Wednesday" ]
+		},
+}

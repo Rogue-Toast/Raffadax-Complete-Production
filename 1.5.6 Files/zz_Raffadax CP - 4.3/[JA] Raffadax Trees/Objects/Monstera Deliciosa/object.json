@@ -1,0 +1,14 @@
+{
+	"Name": "Monstera Deliciosa",
+  	"Description": "A strange fruit that resembles a scaly ear of corn. It is covered in a hexagonally-patterned patchwork covering that falls off naturally to reveal the amazingly flavorful white flesh of the fruit. This fruit usually is a mixture of toxic and ripe segments, but seems enchanted to ripen all at once.",
+  	"Category": "Fruit",
+  	"Edibility": 300,
+  	"Price": 750,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gunther", "Leo" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Vincent", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ]
+		},
+}

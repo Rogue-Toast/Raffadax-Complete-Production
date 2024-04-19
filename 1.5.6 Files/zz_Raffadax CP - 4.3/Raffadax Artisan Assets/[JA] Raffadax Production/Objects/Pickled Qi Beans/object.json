@@ -1,0 +1,17 @@
+{
+    	"Name": "Pickled Qi Beans",
+    	"Description": "Strange blue beans that have been preserved in a brine solution.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Pickles",
+  	"Edibility": 25,
+  	"Price": 52,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane" ],
+		"Neutral": [ "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Claire", "Coyote", "Eloise", "Gregory", "Gunther", "Jacob", "Marlon", "Martin", "Morris", "Mephisto", "Morgan", "Olivia", "Puck", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Xolotl" ],
+		"Dislike": [ "Abigail", "Alex", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Krobus", "Leo", "Lewis", "Marnie", "Maru", "Penny", "Pierre", "Sam", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

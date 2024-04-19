@@ -1,0 +1,10 @@
+{
+	"Name": "Sweet Gem Trellis",
+	"Product": "Sweet Gem Berry",
+	"SaplingName": "Sweet Gem Sapling",
+	"SaplingDescription": "A permanent lattice that regrows a hearty Sweet Gem Berry vine annually. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 120000,
+    	"SaplingPurchaseRequirements": ["f Astrid 2000"],
+}

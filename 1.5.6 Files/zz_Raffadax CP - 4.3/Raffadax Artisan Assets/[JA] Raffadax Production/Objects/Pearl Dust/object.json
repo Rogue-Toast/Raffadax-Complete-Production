@@ -1,0 +1,18 @@
+{
+	"Name": "Pearl Dust",
+  	"Description": "An iridescent dust made from pulverised pearls. It can be used to make luxurious paints and fabrics.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mushroom Powder",
+  	"Edibility": -300,
+  	"Price": 3000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Hekate", "Morgan", "Robin", "Sandy", "Alecto", "Wizard" ],
+		"Like": [ "Caroline", "Dwarf", "Elliott", "Kent" ],
+		"Neutral": [ "Alex", "Andy", "Abigail", "Beatrice", "Clint", "Demetrius", "Gregory", "Haley", "Hephaestus", "Olivia" ],
+        	"Dislike": [ "Amanra", "Apples", "Astrid", "Claire", "Coyote", "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Jodi", "Leah", "Leo", "Lewis", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Xolotl" ],
+		"Hate": [ "Eloise", "George", "Jas", "Krobus", "Leo", "Linus", "Marlon", "Martin", "Penny", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

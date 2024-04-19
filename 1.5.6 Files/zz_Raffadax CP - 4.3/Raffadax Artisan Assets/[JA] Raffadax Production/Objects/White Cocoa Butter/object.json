@@ -1,0 +1,18 @@
+{
+	"Name": "White Cocoa Butter",
+    	"Description": "A smooth, creamy butter made from white cocoa beans. It is primarily used to produce white chocolate and certain cosmetics, but can also be used as a butter substitute.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cocoa Butter",
+  	"Edibility": 75,
+  	"Price": 3300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "Gus", "Olivia", "Susan" ],
+		"Like": [ "Abigail", "Alex", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Dwarf", "Eloise", "Haley", "Jas", "Marlon", "Vincent" ],
+		"Hate": [ "Sebastian", "Wednesday" ],  
+		},
+}

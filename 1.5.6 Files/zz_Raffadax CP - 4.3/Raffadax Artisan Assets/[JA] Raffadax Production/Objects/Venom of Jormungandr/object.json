@@ -1,0 +1,34 @@
+{
+	"Name": "Venom of Jörmungandr",
+	"Description": "A divine toxin derived from the fangs of the World Serpent. It radiates with a dark light, and burns living tissue as though it is an extremely powerful acid. This toxin is said to be so potent that it can even kill a god.",
+	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Divine Toxin",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": -100,
+        	"Fishing": -100,
+      		"Foraging": -100,
+        	"Mining": -100,
+
+        	"Luck": -100,
+        	"MaxStamina": -100,
+		"MagnetRadius": -100,
+        	"Speed": -100,
+
+		"Attack": -100,
+        	"Defense": -100,
+
+        	"Duration": 240,
+		},
+  	"Price": 500000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", ],
+		},
+}

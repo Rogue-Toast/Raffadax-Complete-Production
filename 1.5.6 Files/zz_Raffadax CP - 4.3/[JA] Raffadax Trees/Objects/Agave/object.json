@@ -1,0 +1,16 @@
+{
+  	"Name": "Agave",
+    	"Description": "A fleshy spine from a large desert succulent which can be used to produce nectar, tequila and mezcal. It is also used as a natural remedy for a number of ailments.",
+  	"Category": "Vegetable",
+    	"Edibility": 10,
+    	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Linus", "Marlon", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+	"Dislike": [ "Andy", "Leo", "Penny" ],
+	"Hate": [  "Eloise", "Jas", "Vincent" ],
+		},
+}

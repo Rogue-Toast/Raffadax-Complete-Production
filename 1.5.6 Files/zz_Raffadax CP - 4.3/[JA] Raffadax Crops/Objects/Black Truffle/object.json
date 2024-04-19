@@ -1,0 +1,18 @@
+{
+	"Name": "Black Truffle",
+  	"Description": "A rare, dark truffle with an earthy, woody, chocolaty flavor.",
+  	"Category": "-81",
+  	"CategoryTextOverride": "Mushroom",
+  	"Edibility": 15,
+  	"Price": 750,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Harvey", "Leah", "Linus", "Olivia", "Victor" ], 
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Jacob", "Kent", "Hekate", "Marlon", "Martin", "Morris", "Lewis", "Marnie", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Wednesday" ],
+        	"Dislike": [ "Andy", "Caroline", "Claire", "Dwarf", "Elliott", "Eloise", "Gregory", "Gunther", "Haley", "Hephaestus", "Jas", "Jodi", "Krobus", "Leo", "Pierre", "Sam", "Sebastian", "Shane", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Maru" ]
+		},
+}

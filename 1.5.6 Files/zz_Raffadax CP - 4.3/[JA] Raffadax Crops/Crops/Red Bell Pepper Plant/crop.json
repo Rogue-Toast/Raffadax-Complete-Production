@@ -1,0 +1,23 @@
+{
+	"Name": "Red Bell Pepper Plant",
+	"Product": "Red Bell Pepper",
+	"SeedName": "Red Bell Pepper Seeds",
+	"SeedDescription": "Seeds for a variant of pepper that may produce orange bell peppers in addition to red. Matures in 7 days, and produces every 5 days after. Plant in the summer.",
+	"Type": "Vegetable",
+	"Seasons": ["summer"],
+	"Phases": [1,1,2,2,1],
+	"RegrowthPhase": 5,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 2,
+		"MaxIncreasePerFarmLevel": 5,
+		"ExtraChance": 0.2,
+		},
+	"SeedPurchasePrice": 150,
+	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": null,
+}

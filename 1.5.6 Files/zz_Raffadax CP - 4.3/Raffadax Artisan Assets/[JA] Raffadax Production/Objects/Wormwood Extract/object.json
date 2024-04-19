@@ -1,0 +1,35 @@
+{
+	"Name": "Wormwood Extract",
+  	"Description": "The extracted essence of wormwood leaves. It is primarily used as a component in potion making, due to its potently hallucinogenic properties.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Herb Extract",
+  	"Edibility": -45,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 1,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 10,
+        	"MaxStamina": -10,
+		"MagnetRadius": 0,
+        	"Speed": -10,
+
+		"Attack": 0,
+        	"Defense": 1,
+
+        	"Duration": 120,
+		},
+  	"Price": 115,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Abigail", "Harvey", "Maru", "Sebastian" ],
+        	"Hate": [ "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

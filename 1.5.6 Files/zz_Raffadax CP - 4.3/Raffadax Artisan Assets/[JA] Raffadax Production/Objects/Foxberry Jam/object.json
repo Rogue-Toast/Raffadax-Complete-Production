@@ -1,0 +1,33 @@
+{
+  	"Name": "Foxberry Jam",
+  	"Description": "A flavorful orange jam made with the pulp from wild foxberries. When you eat this jam, you can feel the spirit of the fox smiling favorably upon you.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Enchanted Jam",
+  	"Edibility": 200,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 8,
+        	"MaxStamina": 8,
+		"MagnetRadius": 8,
+        	"Speed": 8,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 3100,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Gregory", "Kent", "Leo", "Linus", "Marlon", "Mephisto", "Morris", "Puck", "Sam", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Andy", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

@@ -1,0 +1,35 @@
+{
+  	"Name": "Frost Cap",
+  	"Description": "A strange blue mushroom that grows in icy climates. These mushrooms are more common in snowy weather.",
+  	"Category": "-81",
+  	"CategoryTextOverride": "Mushroom",
+  	"Edibility": 75,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 400,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail", "Alex", "Beatrice", "Evelyn", "Gus", "Harvey", "Jodi", "Linus", "Marlon", "Marnie", "Maru", "Olivia", "Pam", "Sheila", "Sophia" ],
+        	"Neutral": [ "Andy", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Kent", "Leah", "Lewis", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Susan", "Willy" ],
+		"Dislike": [ "George", "Jacob", "Leo", "Martin", "Morris", "Sebastian", "Victor", "Wednesday" ],
+		"Hate": [  "Eloise", "Jas", "Krobus", "Vincent" ],	
+		},
+}

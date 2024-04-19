@@ -1,0 +1,24 @@
+{
+	"Name": "Thyme",
+	"Product": "Thyme",
+	"SeedName": "Thyme Seeds",
+	"SeedDescription": "Seeds for a fragrant green herb with a fresh, verdant flavor. Takes 5 days to mature. Plant in the winter.",
+    	"Type": "Greens",
+    	"Seasons": ["winter"],
+    	"Phases": [ 1, 1, 2, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 4,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.25,
+    		},
+	"SeedPurchasePrice": 20,
+	"SeedPurchaseFrom": "Djinn",
+	"SeedPurchaseRequirements": null,
+	"DisableWithMod": "ppja.fruitsandveggies",
+}

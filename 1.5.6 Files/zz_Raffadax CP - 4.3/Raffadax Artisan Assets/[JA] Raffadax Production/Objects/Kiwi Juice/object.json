@@ -1,0 +1,19 @@
+{
+  	"Name": "Kiwi Juice",
+    	"Description": "A sweet green juice made from kiwi fruit.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 55,
+	"EdibleIsDrink": true,
+    	"Price": 170,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Demetrius", "Elliott", "Gregory", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Martin", "Olivia", "Pam", "Robin", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jas", "Lewis", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Sam", "Sheila", "Shane", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ], 
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ] 
+		},
+}

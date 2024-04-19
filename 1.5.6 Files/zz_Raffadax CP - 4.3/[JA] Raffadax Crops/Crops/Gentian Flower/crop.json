@@ -1,0 +1,22 @@
+{
+	"Name": "Gentian Plant",
+	"Product": "Gentian Flower",
+	"SeedName": "Gentian Flower Seeds",
+	"SeedDescription": "Seeds for a bitter flavored plant with striking blue flowers. May produce roots and bark in addition to flowers. Matures in 10 days, and produces every 7 days after. Plant in the fall.",
+	"Type": "Flower",
+	"Seasons": [ "fall" ],
+	"Phases": [ 1, 2, 3, 3, 1 ],
+	"RegrowthPhase": 7,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 2,
+		"MaxIncreasePerFarmLevel": 5,
+		"ExtraChance": 0.1,
+		},
+	"SeedPurchasePrice": 75,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": [ "f Astrid 1500" ],
+}

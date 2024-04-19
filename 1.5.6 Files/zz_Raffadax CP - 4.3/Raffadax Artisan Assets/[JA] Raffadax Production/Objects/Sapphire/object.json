@@ -1,0 +1,16 @@
+{
+  	"Name": "Sapphire",
+  	"Description": "A shining blue gemstone of high value.",
+  	"Category": "Gem",
+  	"Edibility": -300,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Clint", "Coyote", "Dwarf", "Emily", "Mephisto", "Penny", "Puck", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Leah", "Linus", "Pierre" ]
+		},
+	"DisableWithMod": "KAYA.JAMoreGem",
+}

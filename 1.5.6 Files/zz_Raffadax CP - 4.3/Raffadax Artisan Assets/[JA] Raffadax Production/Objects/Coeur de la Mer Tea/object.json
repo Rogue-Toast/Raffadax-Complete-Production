@@ -1,0 +1,35 @@
+{
+    	"Name": "Coeur de la Mer Tea",
+    	"Description": "A bitter, salty tea with a nutty flavor. It is made by steeping crushed sea hearts.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nut Tea",
+	"Edibility": 25,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 7,
+      		"Foraging": 1,
+        	"Mining": 0,
+
+        	"Luck": 7,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 2300,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Caroline", "Claire", "Dwarf", "Gunther", "Hephaestus", "Lewis", "Linus", "Marlon" ],
+        	"Like": [ "Abigail", "Andy", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Marnie", "Martin", "Maru", "Mephisto", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": ["Morris" ],
+		"Hate": [ "Eloise", "Gregory", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

@@ -1,0 +1,23 @@
+{
+	"Name": "Wax Bean Vine",
+    	"Product": "Wax Bean",
+    	"SeedName": "Wax Bean Starter",
+    	"SeedDescription": "A trellised plant which produces a colorless variant of bean. Matures in 9 days, and continues to produce every four days after. Plant in the winter.",
+    	"Type": "Vegetable",
+   	"Seasons": ["winter"],
+    	"Phases": [1, 2, 2, 3, 1],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus":
+    		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+    	"SeedPurchasePrice": 60,
+    	"SeedPurchaseFrom": "Djinn",
+    	"SeedPurchaseRequirements": [ "f Amanra 1500" ],
+}

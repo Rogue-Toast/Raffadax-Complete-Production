@@ -1,0 +1,33 @@
+{
+  	"Name": "Topinambur Tea",
+  	"Description": "A bright yellow tea made from topinambur flowers. It has a pleasant, peppery flavor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Floral Tea",
+  	"Edibility": 35,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 1,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Caroline", "Claire", "Evelyn", "Haley", "Hekate", "Lewis", "Sandy", "Alecto", "Wizard" ],
+        	"Like": [ "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Marlon", "Morris", "Sebastian", "Vincent", "Wednesday", "Willy" ]
+		},
+}

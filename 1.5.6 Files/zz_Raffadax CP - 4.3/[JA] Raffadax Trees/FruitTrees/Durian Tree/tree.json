@@ -1,0 +1,11 @@
+{
+	"Name": "Durian Tree",
+    	"Product": "Durian",
+    	"SaplingName": "Durian Sapling",
+    	"SaplingDescription": "A tropical tree which produces large, spikey, malodorous fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": "Nagual",
+    	"SaplingPurchasePrice": 16000,
+	"SaplingPurchaseRequirements": ["f Xolotl 1000"],
+	"DisableWithMod": "ppja.moretrees",
+}

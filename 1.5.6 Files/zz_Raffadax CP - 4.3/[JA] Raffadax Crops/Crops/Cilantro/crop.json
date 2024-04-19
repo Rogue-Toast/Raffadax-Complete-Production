@@ -1,0 +1,23 @@
+{
+	"Name": "Cilantro",
+	"Product": "Cilantro",
+	"SeedName": "Cilantro Seeds",
+	"SeedDescription": "Seeds for a fragrant green herb which may produce coriander spice and flowers in addition to leaves. Takes 6 days to mature. Plant in summer.",
+    	"Type": "Greens",
+    	"Seasons": ["summer"],
+    	"Phases": [ 1, 2, 2, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 4,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.25,
+    		},
+	"SeedPurchasePrice": 25,
+	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": ["f Xolotl 1500"],
+}

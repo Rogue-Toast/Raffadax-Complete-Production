@@ -1,0 +1,18 @@
+{
+  	"Name": "Brísingamen",
+  	"Description": "A spear of incredible beauty that was once owned by the goddess Freyja. Wielders of this spear become irresistible to their foes, and thus incredibly difficult to defeat in battle.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 250,
+  	"MaximumDamage": 500,
+  	"Knockback": 1,
+  	"Speed": 3,
+  	"Accuracy": 100,
+  	"Defense": 250,
+	"ExtraSwingArea": 5,
+  	"CritChance": 0.30,
+  	"CritMultiplier": 3.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

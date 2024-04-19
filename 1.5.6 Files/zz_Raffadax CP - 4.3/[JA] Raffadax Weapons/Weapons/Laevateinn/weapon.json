@@ -1,0 +1,18 @@
+{
+  	"Name": "Laevateinn",
+  	"Description": "An infernal sword forged by the trickster, Loki. This weapon passes harmlessly through armor and flesh, but shatters bones into fragments as though they were made of glass.",
+  	"Type": "Sword",
+  	"MinimumDamage": 500,
+  	"MaximumDamage": 750,
+  	"Knockback": 5.0,
+  	"Speed": 1,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 10.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

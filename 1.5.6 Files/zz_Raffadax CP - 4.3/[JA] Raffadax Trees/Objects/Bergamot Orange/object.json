@@ -1,0 +1,33 @@
+{
+	"Name": "Bergamot Orange",
+    	"Description": "A yellow-green citrus prized for its fragrance. It has a sweet, sunny aroma and an intense citrus flavor that lend themselves well to many dishes and cocktails. The oil from this fruit is the signature aromatic in Earl Grey Tea.",
+  	"Category": "Fruit",
+    	"Edibility": 35,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 3,
+		"MagnetRadius": 0,
+        	"Speed": 3,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+    	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Elliott", "Evelyn", "Gus", "Hekate", "Olivia", "Pam", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Claire", "Coyote", "Demetrius", "Dwarf", "Emily", "George", "Gregory", "Gunther", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Xolotl" ],
+		"Dislike": [ "Morgan", "Penny", "Sebastian", "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Linus", "Vincent", "Wednesday" ]
+		},
+}

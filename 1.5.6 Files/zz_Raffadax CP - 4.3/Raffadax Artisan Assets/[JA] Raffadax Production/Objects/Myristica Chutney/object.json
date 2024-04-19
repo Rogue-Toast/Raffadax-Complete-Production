@@ -1,0 +1,35 @@
+{
+  	"Name": "Myristica Chutney",
+  	"Description": "A fragrant, golden fruit sauce with chunks of myristica flesh in it. It has a flavor reminiscent of baking spices and makes an excellent topping for both sweet and savory foods.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Chutney",
+  	"Edibility": 100,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 10,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 3700,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Elliott","Evelyn", "Gus", "Olivia", "Pierre", "Sandy", "Susan" ],
+		"Like": [ "Apples", "Demetrius", "Emily", "George", "Leo", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Gregory", "Gunther", "Emily", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morgan", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "Alex", "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Haley", "Hekate", "Hephaestus", "Jas", "Martin", "Sam", "Sebastian", "Shane",  "Vincent" ]
+		},
+}

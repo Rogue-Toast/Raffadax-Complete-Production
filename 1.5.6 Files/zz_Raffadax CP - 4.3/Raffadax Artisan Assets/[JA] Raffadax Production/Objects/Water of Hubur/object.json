@@ -1,0 +1,32 @@
+{
+	"Name": "Water of Hubur",
+	"Description": "A faintly luminous water from the River of Paradise. The water of Hubur is known to have wonderous healing capabilities, and is sometimes referred to as the 'Water of Life.'",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Legendary Water",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 21,
+        	"Fishing": 21,
+      		"Foraging": 21,
+        	"Mining": 21,
+
+        	"Luck": 21,
+        	"MaxStamina": 21,
+		"MagnetRadius": 21,
+        	"Speed": 7,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 1500000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl", ],
+		},
+}

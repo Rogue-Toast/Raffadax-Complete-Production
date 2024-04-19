@@ -1,0 +1,35 @@
+{
+    	"Name": "Crème de Coco de Mer",
+    	"Description": "A tropical liqueur made from coco de mer nuts. It has a flavor similar to coconut and citrus, and mixes well in fruit and tiki cocktails. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+	"Edibility": 150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 15,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 15,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+ 	"Price": 4500,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Andy", "Amanra", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Elliott", "Evelyn", "George", "Gunther", "Gus", "Hekate", "Hephaestus", "Kent", "Lewis", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Sam", "Shane", "Shuck", "Susan", "Willy", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Caroline", "Claire", "Dwarf", "Emily", "Gregory", "Haley", "Harvey", "Jacob", "Jodi", "Krobus", "Leah", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Robin", "Sandy", "Sebastian", "Sheila", "Sophia", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

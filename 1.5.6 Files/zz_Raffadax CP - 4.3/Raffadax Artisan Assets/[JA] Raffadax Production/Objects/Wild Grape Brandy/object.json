@@ -1,0 +1,36 @@
+{
+    	"Name": "Wild Grape Brandy",
+    	"Description": "A sour brandy distilled from wine made with wild grapes. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Brandy",
+  	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 30,
+  	"IsColored": false,
+    	"Recipe": null,
+  	"GiftTastes": 
+		{ 
+	"Love": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+	"Like": [ "Apples", "Harvey", "Hekate", "Leah", "Olivia", "Shane" ],
+	"Neutral": [ "Abigail", "Alex", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sheila", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+	"Dislike": [ "Sophia", "Susan" ],
+	"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ] 
+		},
+}

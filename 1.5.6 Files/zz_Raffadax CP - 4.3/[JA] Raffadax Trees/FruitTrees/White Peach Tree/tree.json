@@ -1,0 +1,10 @@
+{
+	"Name": "White Peach Tree",
+	"Product": "White Peach",
+    	"SaplingName": "White Peach Sapling",
+    	"SaplingDescription": "A fruit tree which produces white-fleshed peaches. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+	"Season": "fall",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 5000,
+	"SaplingPurchaseRequirements": [ "f Astrid 500" ],
+}

@@ -1,0 +1,10 @@
+{
+	"Name": "Ficus Tree",
+    	"Product": "Fig",
+    	"SaplingName": "Ficus Sapling",
+    	"SaplingDescription": "A fruit tree which produces sweet figs. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 5200,
+	"SaplingPurchaseRequirements": ["f Shuck 1000"],
+}

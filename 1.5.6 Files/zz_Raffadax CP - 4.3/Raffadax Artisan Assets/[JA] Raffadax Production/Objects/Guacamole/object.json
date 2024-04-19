@@ -1,0 +1,18 @@
+{
+	"Name": "Guacamole",
+  	"Description": "A thick, green paste made from avocado, lime and fresh herbs. It is a popular dip and topping in certain cuisines.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dip",
+  	"Edibility": 120,
+  	"Price": 880,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Elliott", "Gus", "Haley", "Lewis", "Martin", "Olivia", "Pierre", "Sandy", "Sophia", "Victor" ],
+        	"Like": [ "Abigail", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Penny", "Robin", "Shane", "Sheila", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Apples", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Caroline", "Morris" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Sam", "Sebastian", "Vincent"]
+		},
+}

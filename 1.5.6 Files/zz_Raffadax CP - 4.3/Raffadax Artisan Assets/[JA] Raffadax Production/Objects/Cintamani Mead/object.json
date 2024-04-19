@@ -1,0 +1,35 @@
+{
+	"Name": "Cintamani Mead",
+	"Description": "A faintly luminous mead made from the honey of cintamani flowers.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Mead",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 20,
+        	"Fishing": 20,
+      		"Foraging": 20,
+        	"Mining": 20,
+
+        	"Luck": 20,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 40200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Claire", "Hekate", "Hephaestus", "Susan" ],
+		"Neutral": [ "Morgan", "Olivia", "Sophia", "Victor" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Krobus", "Martin", "Penny", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

@@ -1,0 +1,10 @@
+{
+	"Name": "Ginkgo Tree",
+	"Product": "Ginkgo Leaf",
+    	"SaplingName": "Ginkgo Sapling",
+    	"SaplingDescription": "A ornamental tree which produces medicinal, fan shaped leaves. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest leaves in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Pookah",
+    	"SaplingPurchasePrice": 8000,
+    	"SaplingPurchaseRequirements": [ "f Puck 500" ],
+}

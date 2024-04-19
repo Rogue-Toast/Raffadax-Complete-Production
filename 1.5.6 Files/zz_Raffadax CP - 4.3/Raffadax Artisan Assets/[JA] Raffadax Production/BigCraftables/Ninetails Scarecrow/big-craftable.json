@@ -1,0 +1,33 @@
+{
+    "Name": "Ninetails Scarecrow",
+    "Description": "A scarecrow fashioned after a nine-tailed fox. It confuses nearby crows to the point that they leave planted crops alone.",
+    "Price": 5000,
+    "ProvidesLight": true,
+    "Recipe": 
+		{
+    		"ResultCount": 1,
+    		"Ingredients": 
+			[
+      		{
+        		"Object": "Sylvan Fabric",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Tulikko Fur",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Volpecula's Glamour",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Sandalwood",
+        		"Count": 50
+      		},
+    			],
+    "CanPurchase": true,
+    "PurchaseFrom": "Pookah",
+    "PurchasePrice": 5000
+  		},
+    "CanPurchase": false,
+}

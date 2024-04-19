@@ -1,0 +1,37 @@
+{
+	"Name": "Mezcal",
+    	"Description": "A specialty tequila made from smoked agave. It has a distinct campfire flavor.  Drink in moderation.",
+    	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Liquor",
+    	"Edibility": 135,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 3900,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Clint", "Coyote", "Dwarf", "Elliott", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Kent", "Linus", "Mephisto", "Pam", "Puck", "Sam", "Sandy", "Shane", "Shuck", "Willy", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Krobus", "Leah", "Marlon", "Marnie", "Robin", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Morris", "Pierre", "Sheila", "Sophia", "Victor",  ],
+		"Dislike": [ "Beatrice", "Caroline", "Claire", "Demetrius", "Emily", "Evelyn", "George", "Harvey", "Jacob", "Jodi", "Lewis", "Maru", "Olivia", "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

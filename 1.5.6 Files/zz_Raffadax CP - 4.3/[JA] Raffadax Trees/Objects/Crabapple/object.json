@@ -1,0 +1,17 @@
+{
+	"Name": "Crabapple",
+	"Description": "A small wild apple with an extremely tart flavor; they are a favored item among woodland creatures. These apples can be processed into sour-apple flavored items, which tend to be popular among children and teenagers.",
+  	"Category": "Fruit",
+	"Edibility": 15,
+	"Price": 50,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Leo", "Linus", "Morgan", "Sebastian", "Vincent" ],
+		"Like": [ "Amanra", "Andy", "Apples", "Astrid", "Coyote", "Eloise", "Hephaestus", "Jas", "Marnie", "Martin", "Mephisto", "Puck", "Shane", "Sheila", "Shuck", "Sophia", "Wednesday", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Caroline", "Clint", "Emily", "Gregory", "Gunther", "Harvey", "Hekate", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Pam", "Pierre", "Robin", "Sandy", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Alex", "Beatrice", "Demetrius", "Elliott", "George", "Claire", "Jodi" ],
+		"Hate": [  "Evelyn", "Gus", "Haley", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Susan" ],
+		},
+}

@@ -1,0 +1,33 @@
+{
+    	"Name": "Cintamani Flower Preserves",
+    	"Description": "A luminous blue syrup with large chuncks of preserved cintamani flower in it. These preserves are said to be served at ceremonial feasts in the sacred realm.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Flower Preserves",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 15,
+        	"Fishing": 15,
+      		"Foraging": 15,
+        	"Mining": 15,
+
+        	"Luck": 15,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 140200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Hephaestus" ],
+		"Hate": [ "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

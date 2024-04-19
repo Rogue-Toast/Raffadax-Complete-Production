@@ -1,0 +1,33 @@
+{
+    	"Name": "Climate Control Pouch",
+    	"Description": "A pouch with adjustable openings that can be used to control the oxidation of tea. Oolong tea leaves can be produced in the oxidizer by filling this pouch with green tea leaves.",
+    	"Category": "Crafting",
+	"CategoryTextOverride": "Production Tool",
+    	"Edibility": -300,
+    	"EdibleIsDrink": false,
+    	"Price": 5,
+    	"Recipe":
+    		{
+        	"ResultCount": 10,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Oak Resin",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Hemp Paper",
+            		"Count": 1,
+       	 	}
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Azeban",
+       		"PurchasePrice": 500,
+		},
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Neutral": [ "Caroline" ],
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

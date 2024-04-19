@@ -1,0 +1,17 @@
+{
+    	"Name": "Caramel Corn",
+    	"Description": "Sticky, crunchy popcorn that has been coated with caramel.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Snack Food",
+  	"Edibility": 75,
+  	"Price": 650,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Kent" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Jas", "Leah", "Alecto", "Wizard" ]
+		},
+}

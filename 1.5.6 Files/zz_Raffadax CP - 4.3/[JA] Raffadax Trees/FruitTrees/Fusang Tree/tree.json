@@ -1,0 +1,10 @@
+{
+	"Name": "Fusang Tree",
+	"Product": "Dragon Berry",
+	"SaplingName": "Fusang Sapling",
+	"SaplingDescription": "A divine tree imbued with the power of fire. It produces dragon-shaped berries, and a viscous sap the color of blood. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 750000,
+    	"SaplingPurchaseRequirements": [ "f Amanra 2500" ],
+}

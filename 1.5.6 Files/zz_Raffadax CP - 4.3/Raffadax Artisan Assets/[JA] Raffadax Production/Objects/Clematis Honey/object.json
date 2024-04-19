@@ -1,0 +1,22 @@
+{
+	"Name": "Clematis Honey",
+	"Description": "A floral honey sourced from clematis flowers. It is toxic to humans, but seems to be well liked by beings from other realms.",
+	"Category": "-26",
+	"CategoryTextOverride": "Flow Honey",
+	"Edibility": -60,
+	"EdibleIsDrink": true,
+	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Dwarf", "Hephaestus", "Krobus", "Wednesday" ],
+		"Like": [ "Amanra",  "Astrid", "Coyote", "Hekate", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olicia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+	"ContextTags": 
+        	[
+        	"poison_honey_item"
+        	],
+}

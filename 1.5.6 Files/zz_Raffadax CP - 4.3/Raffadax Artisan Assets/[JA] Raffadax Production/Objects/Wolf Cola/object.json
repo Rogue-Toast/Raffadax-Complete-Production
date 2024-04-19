@@ -1,0 +1,36 @@
+{
+	"Name": "Wolf Cola",
+  	"Description": "A potently caffeinated beverage flavored with guarana and wolf berry. It is extremely popular with younger people.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Soda Pop",
+  	"Edibility": 175, 
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 15,
+		"MagnetRadius": 0,
+        	"Speed": 7,
+
+		"Attack": 7,
+        	"Defense": 7,
+
+        	"Duration": 120,
+		},
+  	"Price": 2550,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Andy", "Eloise", "Jas", "Leo", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ],
+		"Like": [ "Abigail", "Alex", "Apples", "Clint", "Emily", "Gus", "Jodi", "Marnie", "Pam", "Penny", "Sheila" ],
+		"Neutral": [ "Caroline", "Claire", "Gregory", "Kent", "Leah", "Lewis", "Martin", "Maru", "Robin", "Sandy", "Willy" ],
+        	"Dislike": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Elliott", "Evelyn", "Gunther", "Harvey", "Hekate", "Jacob", "Linus", "Marlon", "Mephisto", "Pierre", "Puck", "Shuck", "Sophia", "Susan", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Dwarf", "George", "Haley", "Hephaestus", "Krobus", "Morris", "Olivia", "Victor", "Wednesday" ]
+		},
+}

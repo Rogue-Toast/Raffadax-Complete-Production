@@ -1,0 +1,35 @@
+{
+	"Name": "Buddha's Hand Marmalade",
+  	"Description": "A highly fragrant syrup with pieces of rind and sliced chunks of Buddha's hand fruit. It brightens up teacakes and yogurt with floral hints of citrus.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Marmalade",
+  	"Edibility": 150,
+	"EdibleBuffs":
+		{
+        	"Farming":0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 7,
+        	"MaxStamina": 7,
+		"MagnetRadius": 7,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 4400,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Demetrius", "Emily", "Gunther", "Gus", "Leo", "Olivia", "Penny", "Alecto", "Wizard" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

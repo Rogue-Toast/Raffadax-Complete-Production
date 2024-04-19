@@ -1,0 +1,18 @@
+{
+  	"Name": "Eurydice",
+  	"Description": "An enchanted rapier grown by a forest nymph. The blade of this weapon is an single large thorn, and its hilt appears to be a living plant.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 400,
+  	"Knockback": 0.25,
+  	"Speed": 10,
+  	"Accuracy": 100,
+  	"Defense": 200,
+  	"CritChance": 0.25,
+  	"CritMultiplier": 2.0,
+	"ExtraSwingArea": 1,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

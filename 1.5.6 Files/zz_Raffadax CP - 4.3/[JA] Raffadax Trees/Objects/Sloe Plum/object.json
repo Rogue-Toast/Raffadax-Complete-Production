@@ -1,0 +1,33 @@
+{
+  	"Name": "Sloe Plum",
+  	"Description": "A blue dwarf plum that grows on wild blackthorn trees. They have a sour, sharp flavor when unprocessed, but sweeten after the first frost. These plums can be distilled into sloe gin.",
+  	"Category": "Fruit",
+  	"Edibility": 25,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 5,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Gus", "Kent", "Krobus", "Leo", "Linus", "Mephisto", "Puck", "Sebastian", "Shane", "Shuck", "Wednesday", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Haley", "Hekate", "Hephaestus", "Jas",  "Jodi", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Olivia", "Pam", "Pierre", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Haley", "Jacob", "Morris", "Penny" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Martin", "Morgan", "Sam", "Vincent" ]
+		},
+}

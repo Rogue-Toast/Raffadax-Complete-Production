@@ -1,0 +1,23 @@
+{
+	"Name": "Purple Bell Pepper Plant",
+	"Product": "Purple Bell Pepper",
+	"SeedName": "Purple Bell Pepper Seeds",
+	"SeedDescription": "Seeds for a variant of pepper that may produce black bell peppers in addition to purple. Matures in 7 days, and produces every 5 days after. Plant in the fall.",
+	"Type": "Vegetable",
+	"Seasons": ["fall"],
+	"Phases": [1,1,2,2,1],
+	"RegrowthPhase": 5,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 2,
+		"MaxIncreasePerFarmLevel": 5,
+		"ExtraChance": 0.2,
+		},
+	"SeedPurchasePrice": 200,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": null,
+}

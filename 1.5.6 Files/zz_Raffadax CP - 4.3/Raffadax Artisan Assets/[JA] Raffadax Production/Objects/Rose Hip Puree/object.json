@@ -1,0 +1,18 @@
+{
+  	"Name": "Rose Hip Puree",
+    	"Description": "Rose hips that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 50,
+	"EdibleIsDrink": true,
+    	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Abigail", "Amanra", "Astrid", "Coyote", "Evelyn", "Hephaestus", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Demetrius", "Gus", "Hekate", "Leah", "Linus", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Dislike": [ "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Vincent" ],
+		"Hate": [ "Caroline", "Elliott", "Eloise", "George", "Leo", "Martin", "Morris", "Penny", "Victor", "Wednesday" ]
+		},
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Lorg Mór",
+  	"Description": "The mighty club of the Dagda. One end can slay ten men at once, while the other can return the dead to life.",
+  	"Type": "Club",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 300,
+  	"Knockback": 1.0,
+  	"Speed": 2,
+  	"Accuracy": 100,
+  	"Defense": 200,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.10,
+  	"CritMultiplier": 1.5,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

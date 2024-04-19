@@ -1,0 +1,23 @@
+{
+	"Name": "Dill Weed",
+    	"Product": "Dill",
+    	"SeedName": "Dill Seeds",
+    	"SeedDescription": "Seeds that can be used as a cooking spice, or planted to grow dill weed. They have a fresh, mildly bitter flavor. May produce seeds in addition to herbs. Takes 5 days to mature. Plant in the spring, ",
+    	"Type": "Greens",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 1, 2, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+    	"SeedPurchasePrice": 15,
+ 	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": null,
+}

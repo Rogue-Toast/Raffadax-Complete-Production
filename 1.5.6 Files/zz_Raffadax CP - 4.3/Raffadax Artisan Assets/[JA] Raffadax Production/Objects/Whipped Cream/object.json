@@ -1,0 +1,17 @@
+{
+    	"Name": "Whipped Cream",
+    	"Description": "A light, airy dessert topping made by mixing heavy cream with sugar.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Dairy",
+    	"Edibility": 75,
+    	"Price": 600,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Penny", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]	
+		},
+}

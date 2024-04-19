@@ -1,0 +1,16 @@
+{
+  	"Name": "Roasted Mahogany Seeds",
+  	"Description": "Hulled mahogany seeds that have been roasted to bring out their flavor. They can be used as a baking component, a salad and pasta topping, or eaten as a snack.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Roasted Seeds",
+  	"Edibility": 50,
+	"Price": 600,
+	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Sebastian", "Vincent" ]
+		},
+}

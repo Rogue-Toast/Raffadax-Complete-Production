@@ -1,0 +1,18 @@
+{
+  	"Name": "Sarsaparilla Berry Juice",
+  	"Description": "A spicy-sweet juice made from sarsaparilla berries. This juice is best used as a cocktail mixer, rather than drank by the glass.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"Price": 25,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Alex", "Apples", "Gregory", "Clint", "Gus", "Haley", "Hekate", "Hephaestus", "Martin", "Sandy", "Shane", "Susan", "Wednesday" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Beatrice", "Caroline", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sheila", "Shuck", "Sophia", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Jacob", "Morgan", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Morris", "Olivia", "Sebastian", "Victor", "Vincent" ]
+		},
+}

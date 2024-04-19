@@ -1,0 +1,19 @@
+{
+  	"Name": "Cashew Apple Juice",
+  	"Description": "A mildly sweet juice made from the fruit of a cashew tree. It can be drunk as is or used for cooking, dessert making or cocktail mixing.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 55,
+  	"EdibleIsDrink": true,
+  	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Elliott","Evelyn", "Gus", "Hekate", "Martin", "Olivia", "Pierre", "Sandy", "Susan" ],
+		"Like": [ "Apples", "Demetrius", "Emily", "George", "Leo", "Morgan", "Pam", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Gregory", "Gunther", "Emily", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Xolotl" ],
+		"Dislike": [ "Alex", "Claire", "Krobus", "Penny", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Sam", "Sebastian", "Shane", "Vincent"]
+		},
+}

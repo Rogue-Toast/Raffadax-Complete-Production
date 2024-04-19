@@ -1,0 +1,17 @@
+{
+	"Name": "Bergamot Orange Zest",
+  	"Description": "A fragrant citrus zest ground from the rind of bergamot oranges. It is typically used in baked goods and pastries, but can also be used to make sauces and dressings.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Zest",
+  	"Edibility": -300,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Emily", "Evelyn", "Gus", "Olivia", "Pierre", "Robin", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Apples", "Caroline", "Clint", "Demetrius", "Elliott", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Astrid", "Claire", "Coyote", "Dwarf", "Mephisto", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

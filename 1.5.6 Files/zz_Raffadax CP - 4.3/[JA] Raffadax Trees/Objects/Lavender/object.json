@@ -1,0 +1,33 @@
+{
+  	"Name": "Lavender",
+  	"Description": "A fragrant purple flower with a sweet, fresh aroma. It is prized as an herb, and has a variety of culinary uses.",
+  	"Category": "Flower",
+  	"Edibility": 10,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 3,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 75,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Caroline", "Claire", "Evelyn", "Haley", "Hekate", "Lewis", "Sandy", "Alecto", "Wizard" ],
+        	"Like": [ "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Marlon", "Morris", "Sebastian", "Vincent", "Wednesday", "Willy" ]
+		},
+	"DisableWithMod": "kildarien.farmertoflorist",
+}

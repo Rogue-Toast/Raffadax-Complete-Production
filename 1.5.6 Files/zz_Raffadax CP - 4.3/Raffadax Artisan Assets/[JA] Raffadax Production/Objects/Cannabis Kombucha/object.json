@@ -1,0 +1,35 @@
+{
+    	"Name": "Cannabis Kombucha",
+    	"Description": "A potent kombucha fermented from cannabis tea. Keep out of reach of children.",
+   	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herbal Kombucha",
+  	"Edibility": 50,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 2,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 15,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -10,
+
+		"Attack": 0,
+        	"Defense": 2,
+
+        	"Duration": 180,
+		},
+  	"Price": 2200,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Dwarf", "Elliott", "Emily", "George", "Harvey", "Hekate", "Hephaestus", "Kent", "Lewis", "Linus", "Maru", "Mephisto", "Pam", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Shuck", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Andy", "Beatrice", "Claire", "Clint", "Gregory", "Gunther", "Gus", "Haley", "Krobus", "Leah", "Marnie", "Pierre", "Sheila", "Susan", "Victor" ],
+		"Dislike": [ "Demetrius", "Evelyn", "Jacob", "Jodi", "Martin", "Morris", "Olivia", "Penny", "Sophia" ], 
+		"Hate": [ "Apples", "Eloise", "Jas", "Leo", "Marlon", "Morgan", "Vincent" ]
+		},
+}

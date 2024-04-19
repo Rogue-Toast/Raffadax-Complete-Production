@@ -1,0 +1,16 @@
+{
+  	"Name": "Puanteur de la Mort",
+  	"Description": "The fetid stench of rotting carrion inundates the air around those who wear this cologne. It is popular among creatures of darkness, but is not appreciated in the mortal realm. This cologne may attract monsters or ravenous beasts if worn in unsecured areas.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Cologne",
+  	"Edibility": -300,
+  	"Price": 40000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard" ],
+		},
+}

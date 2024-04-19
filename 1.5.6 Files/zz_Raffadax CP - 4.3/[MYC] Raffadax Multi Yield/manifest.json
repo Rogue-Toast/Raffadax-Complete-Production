@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[MYC] Raffadax Multi Yield",
+	"Author": "Raffadax",
+	"Description": "Allows Raffadax crops to drop secondary and tertiary products.",
+	"UniqueID": "Raffadax.MultiYield",
+   	"Version": "4.3",
+	"ContentPackFor": 
+		{
+		"UniqueID": "Cherry.MultiYieldCrops"
+		},
+	"Dependencies": 
+		[
+   		{
+      	"UniqueID": "Raffadax.Crops",
+      	"IsRequired": true,
+   		}
+		]
+}

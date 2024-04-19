@@ -1,0 +1,11 @@
+﻿{
+	"rain": "0610 Mountain 113 11 2 Coyote_Rain/2350 Mountain 113 11 2 Coyote_Rain/0150 Mountain 113 11 2 Coyote_Rain",
+    	"Mon": "0610 Mountain 113 11 2 Coyote_Sit/2350 Mountain 113 11 2 Coyote_Sit/0150 Mountain 113 11 2 Coyote_Sit",
+	"Tue": "GOTO Mon",
+	"Wed": "GOTO Mon",
+	"Thu": "GOTO Mon",
+	"Fri": "GOTO Mon",
+	"Sat": "GOTO Mon",
+	"Sun": "GOTO Mon"
+ }
+

@@ -1,0 +1,33 @@
+{
+  	"Name": "Fruit of the Netherworld",
+  	"Description": "A dark fruit from the depths of the underworld; there are many tales warning the dangers of eating this fruit. You can feel an infernal power coursing beneath its skin like a heartbeat; it is paradoxically unsettling and alluring at the same time. The color and aroma of this fruit are so inviting, and its succulent flesh radiates faintly with a dark light. Surely the foreboding tales of this item are exaggerated...A single bite couldn't be all that dangerous...",
+  	"Category": "Fruit",
+  	"CategoryTextOverride": "Divine Fruit",
+  	"Edibility": -299,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -10,
+        	"MaxStamina": -10,
+		"MagnetRadius": 0,
+        	"Speed": 10,
+
+		"Attack": 20,
+        	"Defense": 20,
+
+        	"Duration": 120,
+		},
+  	"Price": 10000,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Demetrius", "Gunther", "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

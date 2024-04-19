@@ -1,0 +1,17 @@
+{
+	"Name": "Ground Jungle Moss",
+  	"Description": "A soft powder made from moss found deep in the jungle. This substance has tremendous medicinal value.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Herb Powder",
+  	"Edibility": 300,
+  	"Price": 7500,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Emily", "Harvey", "Hekate", "Leo", "Marlon", "Maru", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Hephaestus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane",  "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Sebastian", "Vincent" ]
+		},
+}

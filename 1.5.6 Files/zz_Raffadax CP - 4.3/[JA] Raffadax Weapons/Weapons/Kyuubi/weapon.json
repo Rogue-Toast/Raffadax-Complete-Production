@@ -1,0 +1,18 @@
+{
+  	"Name": "Kyuubi",
+  	"Description": "A giant battle fan that contains the entrapped spirit of an enormous yokai. A single swing of this fan can create hurricane-force winds instantaneously.",
+  	"Type": "Club",
+  	"MinimumDamage": 111,
+  	"MaximumDamage": 999,
+  	"Knockback": 5,
+  	"Speed": 3,
+  	"Accuracy": 100,
+  	"Defense": 333,
+	"ExtraSwingArea": 5,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 9.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

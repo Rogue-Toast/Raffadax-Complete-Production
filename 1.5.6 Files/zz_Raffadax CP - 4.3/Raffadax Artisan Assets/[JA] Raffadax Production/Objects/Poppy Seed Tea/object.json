@@ -1,0 +1,36 @@
+{
+    	"Name": "Poppy Seed Tea",
+    	"Description": "A medicinal tea made from the seeds of poppy flowers. This tea has analgesic properties, and causes drowsyness in those who drink it. Take only with perscription. Not safe for minors.",
+   	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Spice Tea",
+  	"Edibility": -5,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": -5,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 200,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Harvey", "Hekate", "Hephaestus", "Maru", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Xolotl" ],  
+		"Neutral": [ "Abigail", "Beatrice", "Caroline", "Claire", "Clint", "Evelyn", "George", "Lewis", "Sandy", "Susan" ],
+        	"Dislike": [ "Alex", "Apples", "Demetrius", "Elliott", "Emily", "Gregory", "Gunther", "Gus", "Jacob", "Jodi", "Kent", "Leah", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Leo", "Linus", "Morgan", "Sam", "Vincent" ]
+		},
+}

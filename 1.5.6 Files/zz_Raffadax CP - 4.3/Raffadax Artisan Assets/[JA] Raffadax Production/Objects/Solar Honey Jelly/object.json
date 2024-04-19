@@ -1,0 +1,33 @@
+{
+    	"Name": "Solar Honey Jelly",
+    	"Description": "A radiant, golden jelly made from solar honey. It shines like light of the rising sun.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Honey Jelly",
+  	"Edibility": 250,
+	"EdibleBuffs":
+		{
+        	"Farming": 15,
+        	"Fishing": 0,
+      		"Foraging": 15,
+        	"Mining": 0,
+
+        	"Luck": 15,
+        	"MaxStamina": 15,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 15,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 10250,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Hephaestus" ],
+		"Hate": [ "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

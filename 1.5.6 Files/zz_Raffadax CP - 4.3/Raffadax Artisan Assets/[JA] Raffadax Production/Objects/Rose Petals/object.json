@@ -1,0 +1,17 @@
+{
+  	"Name": "Rose Petals",
+  	"Description": "Whole petals from a fragrant red rose. They are used as a cooking herb in some parts of the world, and can also be used as a garnish for desserts and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Petals",
+  	"Edibility": -300,
+  	"Price": 350,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Hekate", "Morgan", "Olivia", "Pam", "Pierre", "Susan", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Dwarf", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

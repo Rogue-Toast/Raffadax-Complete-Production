@@ -1,0 +1,18 @@
+{
+  	"Name": "Dragon Crescent Blade",
+  	"Description": "A guando once used by the general of the Dragon Emperor.  The steel of this weapon remains perpetually burning hot to all but the wielder.",
+  	"Type": "Sword",
+  	"MinimumDamage": 250,
+  	"MaximumDamage": 500,
+  	"Knockback": 1.0,
+  	"Speed": 7,
+  	"Accuracy": 100,
+  	"Defense": 250,
+	"ExtraSwingArea": 5,
+  	"CritChance": 0.2,
+  	"CritMultiplier": 2.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

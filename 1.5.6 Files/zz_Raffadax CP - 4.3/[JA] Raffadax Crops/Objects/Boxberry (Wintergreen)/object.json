@@ -1,0 +1,15 @@
+{
+  	"Name": "Boxberry",
+    	"Description": "A bright red berry from a wintergreen plant. They have a distinct flavor that freshens breath, and are said to have medicinal benefits. It is best to consume these berries in moderation.",
+  	"Category": "Fruit",	
+    	"Edibility": 5,
+    	"Price": 30,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Harvey", "Linus", "Marlon", "Maru", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Marnie", "Martin", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+	"Hate": [ "Eloise", "Jas", "Leo", "Vincent" ],
+		},
+}

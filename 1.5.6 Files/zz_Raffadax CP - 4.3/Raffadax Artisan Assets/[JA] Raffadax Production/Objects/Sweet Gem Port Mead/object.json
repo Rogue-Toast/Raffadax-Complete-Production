@@ -1,0 +1,33 @@
+{
+	"Name": "Sweet Gem Port Mead",
+  	"Description": "A fortified mead made from sweet gem honey. It is so sweet and flavorful that the taste of alcohol is completely obscured. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Fortified Mead",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 50,
+		"MagnetRadius": 0,
+        	"Speed": 15,
+
+		"Attack": 0,
+        	"Defense": 0,
+        	"Duration": 240,
+		},
+  	"Price": 36600,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Andy", "Astrid", "Coyote", "Mephisto", "Pam", "Puck", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Victor", "Wednesday" ],
+		"Dislike": [ "Claire", "Morris", "Sophia", "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Olivia", "Penny", "Sebastian", "Vincent" ]
+		},
+}

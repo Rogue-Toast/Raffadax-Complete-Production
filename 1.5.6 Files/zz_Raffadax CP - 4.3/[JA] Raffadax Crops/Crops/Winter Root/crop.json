@@ -1,0 +1,24 @@
+{
+	"Name": "Winter Root",
+    	"Product": "Winter Root",
+    	"SeedName": "Winter Root Seeds",
+    	"SeedDescription": "Seeds for a high-starch root vegetable which thrives in cold weather. Takes 7 days to mature. Plant in the winter.",
+    	"Type": "Vegetable",
+    	"Seasons": ["winter"],
+    	"Phases": [ 1, 2, 3, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+    	"SeedPurchasePrice": 25,
+ 	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": [ "f Coyote 500" ],
+	"DisableWithMod": "Mae.foragetofarm",
+}

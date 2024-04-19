@@ -1,0 +1,16 @@
+{
+	"Name": "Sea Heart",
+  	"Description": "Hollow beans from a monkey ladder vine, they are the largest seed in the world. They drift all across the ocean, and are considered a luck charm to many. Sea hearts are commonly made into jewelry, but must be blanched before eating or processing.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Bean",
+  	"Edibility": -300,
+  	"Price": 500,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Clint", "Demetrius", "Elliott", "Evelyn", "Gunther", "Leo", "Olivia", "Susan", "Willy" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Dwarf", "Eloise", "Emily", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Vincent", "Alecto", "Wizard", "Xolotl" ],
+	"Dislike": [ "Andy", "Hephaestus", "Morris", "Wednesday" ]
+		},
+}
