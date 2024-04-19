@@ -27,7 +27,7 @@
 					"ItemDeliveryQuests": false,
 					"PerfectionScore": true,
 					"EndSlideShow": "TrailingGroup",
-				
+
 					"Appearance": [
 						{
 							"Id": "Default",
@@ -55,7 +55,7 @@
 			"Target": "Strings/NPCNames",
 			"Action": "EditData",
 			"Entries": {
-				"{{Coyote}}": "{{i18n::Coyote.DisplayName}}"
+				"{{Coyote}}": "{{i18n:Coyote.DisplayName}}"
 			}
 		},
 
@@ -127,7 +127,7 @@
 			"FromFile": "assets/data/blank.json"
 		},
 
-// Dialogue 
+// Dialogue
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/{{Coyote}}",

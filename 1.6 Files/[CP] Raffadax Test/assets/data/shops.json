@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Shops",
             "Entries": {
-                "{{ModId}}_Amanra": {
+                "{{ModId}}_Amanra_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -282,7 +282,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -419,7 +419,7 @@
                         }
                     ]
                 },
-                "{{ModId}}_Astrid": {
+                "{{ModId}}_Astrid_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -696,7 +696,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -832,7 +832,7 @@
                         }
                     ]
                 },
-                "{{ModId}}_Coyote": {
+                "{{ModId}}_Coyote_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -1103,7 +1103,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -1237,7 +1237,7 @@
                         }
                     ]
                 },
-                "{{ModId}}_Mephisto": {
+                "{{ModId}}_Mephisto_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -1692,7 +1692,7 @@
                         }
                     ]
                 },
-                "{{ModId}}_Puck": {
+                "{{ModId}}_Puck_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -1974,7 +1974,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2106,7 +2106,7 @@
                         }
                     ]
                 },
-                "{{ModId}}_Shuck": {
+                "{{ModId}}_Shuck_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -2388,7 +2388,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2518,7 +2518,7 @@
                         }
                     ]
                 },
-                "{{ModId}}_Xolotl": {
+                "{{ModId}}_Xolotl_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -2790,7 +2790,7 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "Price": 50000
                         },
                         {
@@ -2919,7 +2919,7 @@
                         }
                     ]
                 },
-                "{{ModId}}_Valkyrie": {
+                "{{ModId}}_Valkyrie_Shop": {
                     "Items": [
                         {
                             "ItemId": "(W)Raffadax.RCP_Airgetlam",
@@ -3375,7 +3375,7 @@
                     ],
                     "StackSizeVisibility": "ShowIfMultiple"
                 },
-                "{{ModId}}_Humidor": {
+                "{{ModId}}_Humidor_Shop": {
                     "Items": [
                         {
                             "ItemId": "(O)Raffadax.RCP_Cigar"
@@ -3432,7 +3432,7 @@
                     ],
                     "StackSizeVisibility": "ShowIfMultiple"
                 },
-                "{{ModId}}_SodaMachine": {
+                "{{ModId}}_SodaMachine_Shop": {
                     "Items": [
                         {
                             "ItemId": "(O)167",

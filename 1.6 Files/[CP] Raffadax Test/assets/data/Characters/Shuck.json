@@ -27,7 +27,7 @@
 					"ItemDeliveryQuests": false,
 					"PerfectionScore": true,
 					"EndSlideShow": "TrailingGroup",
-		
+
 					"Appearance": [
 						{
 							"Id": "Default",
@@ -46,6 +46,16 @@
 						}
 					]
 				}
+			}
+		},
+
+// Display Name
+		{
+			"LogName": "Display name in standard location",
+			"Target": "Strings/NPCNames",
+			"Action": "EditData",
+			"Entries": {
+				"{{Shuck}}": "{{i18n:Shuck.DisplayName}}"
 			}
 		},
 
@@ -116,7 +126,7 @@
 			"FromFile": "assets/data/blank.json"
 		},
 
-// Dialogue 
+// Dialogue
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/{{Shuck}}",

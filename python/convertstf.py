@@ -78,7 +78,7 @@ def buildShops(fileIn: str, fileOut: str):
             newShopName = SHOPTONPC[oldshop["ShopName"]]
         else:
             newShopName = oldshop["ShopName"]
-        shopID = "{{ModId}}_" + newShopName
+        shopID = "{{ModId}}_" + newShopName + "_Shop"
         for ist in oldshop["ItemStocks"]:
             inv = Inventory()
             prefix = QPREFIXES[ist["ItemType"]]
