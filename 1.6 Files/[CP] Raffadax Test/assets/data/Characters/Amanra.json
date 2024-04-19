@@ -95,7 +95,7 @@
 			"Action": "EditData",
       		"Target": "Data/animationDescriptions",
       		"Entries": {
-				"{{Lowercase:{{ModID}}}}_amanra_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 16 16 19 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16/16",
+				"{{Lowercase:{{ModID}}}}_amanra_Stand": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 16 16 19 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16/16",
       		}
 		},
 
@@ -117,7 +117,7 @@
 			},
 
 			"Entries": {
-				"Mon": "0610 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Sit/2350 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Sit/0150 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Sit",
+				"Mon": "0610 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
 				"Tue": "GOTO Mon",
 				"Wed": "GOTO Mon",
 				"Thu": "GOTO Mon",
@@ -136,7 +136,7 @@
 					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 				},
 			"Entries": {
-				"Mon": "0610 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Sit/2350 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Sit/0150 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Sit",
+				"Mon": "0610 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
 				"Tue": "GOTO Mon",
 				"Wed": "GOTO Mon",
 				"Thu": "GOTO Mon",
