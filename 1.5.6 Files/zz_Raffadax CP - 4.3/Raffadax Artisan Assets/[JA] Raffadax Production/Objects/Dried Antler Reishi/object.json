@@ -1,0 +1,17 @@
+{
+	"Name": "Dried Antler Reishi",
+  	"Description": "Antler reishi that has been dried for preservation. It can be ground into a medicinal powder or used to brew teas.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Mushroom",
+  	"Edibility": -300,
+  	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Harvey", "Maru" ],
+		"Neutral": [ "Demetrius", "Evelyn", "George", "Hekate", "Hephaestus", "Morgan", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Leah", "Linus", "Mephisto", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Eloise", "Emily", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Penny", "Pam", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ]
+		},
+}

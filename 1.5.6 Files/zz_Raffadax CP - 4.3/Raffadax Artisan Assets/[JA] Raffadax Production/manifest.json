@@ -1,0 +1,18 @@
+{
+	"Name": "[JA] Raffadax Complete Production",
+   	"Author": "Raffadax",
+   	"Description": "Raffadax machine and shop assets.",
+   	"UniqueID": "JA.Raffadax.Complete.Production",
+   	"Version": "4.3",
+   	"ContentPackFor": 
+    		{
+       		"UniqueID": "spacechase0.JsonAssets"
+    		},
+   	"Dependencies": 
+		[
+   		{
+      		"UniqueID": "Raffadax.Complete.Production",
+      		"IsRequired": true,
+   		},
+		]
+}

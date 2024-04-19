@@ -1,0 +1,10 @@
+{
+	"Name": "Ancient Palm",
+	"Product": "Ancient Fruit",
+	"SaplingName": "Ancient Palm Sapling",
+	"SaplingDescription": "A prehistoric species of palm which was long thought to be extinct. It is the ancestral form of the smaller plants which produce Ancient Fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Nagual",
+    	"SaplingPurchasePrice": 22000,
+    	"SaplingPurchaseRequirements": ["f Xolotl 2000"],
+}

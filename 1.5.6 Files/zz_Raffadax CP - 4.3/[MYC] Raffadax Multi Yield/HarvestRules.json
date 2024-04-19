@@ -1,0 +1,1433 @@
+{
+  "Harvests": 
+[
+    {
+      "CropName": "Basil",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Basil Seeds",
+          	"minHarvest": -3,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Black Shamrock",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Clover",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Unlucky Clover",
+          	"minHarvest": -20,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Black Stone Flower",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Common Mushroom",
+          	"minHarvest": -25,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Liverwort",
+          	"minHarvest": -25,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Blue Corn",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Ergot",
+          	"minHarvest": -75,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Blue Lotus Flower",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Lotus Leaf",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Lotus Stalk",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Lotus Root",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Brussels Sprouts",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Brassica Flower",
+          	"minHarvest": -3,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Cactus Fruit",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Cactus Blossom",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Caraway Flower",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Caraway Root",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Caraway Seeds",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Capers",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Flinders Rose",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Caper Berries",
+          	"minHarvest": -3,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Caper Leaves",
+          	"minHarvest": -3,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Cassava Root",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Cassava Leaf",
+          	"minHarvest": -2,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Celery",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Celery Seeds",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Chicory Flower",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Chicory",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Chicory Root",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Chives",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Allium",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Cilantro",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Coriander",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Coriander Flower",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Corn",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Baby Corn",
+          	"minHarvest": -5,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Ergot",
+          	"minHarvest": -75,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Crocus",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Saffron",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Cumin Flower",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Black Cumin Seeds",
+          	"minHarvest": -1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Dandelion",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Dandelion Greens",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Dandelion Puffball",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Dandelion Root",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Dandelion Seeds",
+          	"minHarvest": -2,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Dill",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Dill Seeds",
+          	"minHarvest": -1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Fennel",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Fennel Flower",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Fennel Greens",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Fennel Pollen",
+          	"minHarvest": -9,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Fennel Seeds",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Fenugreek",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Fenugreek Seeds",
+          	"minHarvest": -1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Fern Flower",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Fiddlehead Fern",
+          	"minHarvest": 1,
+          	"maxHarvest": 5,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Gem Cap",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Emerald",
+          	"minHarvest": -3,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Ruby",
+          	"minHarvest": -3,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Sapphire",
+          	"minHarvest": -3,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Amethyst",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Aquamarine",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Fire Opal",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Jade",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Opal",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Tigerseye",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Topaz",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Diamond",
+          	"minHarvest": -10,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Prismatic Shard",
+          	"minHarvest": -50,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Gentian Flower",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Gentian Bark",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Gentian Root",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Golden Chest",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Golden Leaf",
+          	"minHarvest": 1,
+          	"maxHarvest": 4,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Silver Coin",
+          	"minHarvest": 5,
+          	"maxHarvest": 10,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		{
+          	"ItemName": "Silver Leaf",
+          	"minHarvest": 1,
+          	"maxHarvest": 4,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Emerald",
+          	"minHarvest": 2,
+          	"maxHarvest": 5,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Ruby",
+          	"minHarvest": 2,
+          	"maxHarvest": 5,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Sapphire",
+          	"minHarvest": 2,
+          	"maxHarvest": 5,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Black Pearl",
+          	"minHarvest": 1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Diamond",
+          	"minHarvest": 1,
+          	"maxHarvest": 3,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Pearl",
+          	"minHarvest": 2,
+          	"maxHarvest": 3,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Amethyst",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Aquamarine",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Fire Opal",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Jade",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Opal",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Tigerseye",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Topaz",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Ancient Coin",
+          	"minHarvest": 5,
+          	"maxHarvest": 10,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Cinder Shard",
+          	"minHarvest": -3,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Giant Pearl",
+          	"minHarvest": 1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		{
+          	"ItemName": "Elvish Jewelry",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		{
+          	"ItemName": "Golden Antler",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		{
+          	"ItemName": "Golden Feather ",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		{
+          	"ItemName": "Golden Mask",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		{
+          	"ItemName": "Golden Relic",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		{
+          	"ItemName": "Silver Antler",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		{
+          	"ItemName": "Silver Feather ",
+          	"minHarvest": -7,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Iridium Feather",
+          	"minHarvest": -8,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Mythril Feather",
+          	"minHarvest": -8,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Prismatic Shard",
+          	"minHarvest": -9,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Glass Gem Corn",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Ergot",
+          	"minHarvest": -75,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Glass Pumpkin",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Silver Leaf",
+          	"minHarvest": 2,
+          	"maxHarvest": 5,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Golden Pumpkin",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Golden Leaf",
+          	"minHarvest": 2,
+          	"maxHarvest": 5,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Grape",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Grape Leaf",
+          	"minHarvest": -1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Green Bell Pepper",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Yellow Bell Pepper",
+          	"minHarvest": 0,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Hot Pepper",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Jalapeño Pepper",
+          	"minHarvest": -2,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Indica Bud",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Hemp Stalk",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Mary Jane",
+          	"minHarvest": 0,
+          	"maxHarvest": 3,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Jack-O-Lantern",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Squash Flower",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Mandrake",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Mandragora Flower",
+          	"minHarvest": 1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Mugwort",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Artemisia",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Mustard Greens",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Brassica Flower",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Mustard Seeds",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Orange Carrot",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Yellow Carrot",
+          	"minHarvest": 1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "White Carrot",
+          	"minHarvest": 1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    },  
+    {
+      "CropName": "Passion Fruit",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Passion Flower",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Peppermint",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Mint Flower",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Poppy",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Poppy Seeds",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Portobello Mushroom",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Button Mushroom",
+          	"minHarvest": -1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Cremini Mushroom",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Prickly Pear",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Nopal",
+          	"minHarvest": 0,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Opuntia Flower",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    },
+    {
+      "CropName": "Pumpkin",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Squash Flower",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Purple Bell Pepper",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Black Bell Pepper",
+          	"minHarvest": 0,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    },
+    {
+      "CropName": "Purple Carrot",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Black Carrot",
+          	"minHarvest": 1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Red Carrot",
+          	"minHarvest": 1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    },  
+    {
+      "CropName": "Rapini",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Brassica Flower",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Red Bell Pepper",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Orange Bell Pepper",
+          	"minHarvest": 0,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Red Corn",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Ergot",
+          	"minHarvest": -75,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Red Onion",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Allium",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Green Onion",
+          	"minHarvest": -1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Red Peppercorns",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Black Peppercorns",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Green Peppercorns",
+          	"minHarvest": -1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Rhubarb",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Rhubarb Stalks",
+          	"minHarvest": -3,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Rose",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Rose Hips",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Rutabaga",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Turnip Greens",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Brassica Flower",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Rye",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Ergot",
+          	"minHarvest": -50,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Sarsaparilla",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Sarsaparilla Berry",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Sativa Bud",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Hemp Stalk",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "The Devil's Lettuce",
+          	"minHarvest": 0,
+          	"maxHarvest": 3,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Shamrock",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Clover",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Lucky Clover",
+          	"minHarvest": -20,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Spearmint",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Mint Flower",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Spring Onion",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Allium",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Scallion",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Squash",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Squash Flower",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    },
+    {
+      "CropName": "Stinging Nettle",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Nettle Blossom",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    },  
+    {
+      "CropName": "Tea Leaves",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "White Tea Leaf",
+          	"minHarvest": -25,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Tomato",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Green Tomato",
+          	"minHarvest": -2,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Topinambur",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Sunchoke",
+          	"minHarvest": 1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    },
+    {
+      "CropName": "Turnip",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Turnip Greens",
+          	"minHarvest": 0,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Brassica Flower",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Truffle",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Black Truffle",
+          	"minHarvest": -10,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "White Truffle",
+          	"minHarvest": -15,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Unmilled Rice",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Ergot",
+          	"minHarvest": -50,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Vanilla Bean",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Vanilla Orchid",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Wheat",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Ergot",
+          	"minHarvest": -50,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "White Bell Pepper",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Ivory Bell Pepper",
+          	"minHarvest": 0,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "White Grapes",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Grape Leaf",
+          	"minHarvest": -4,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "White Onion",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Allium",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Green Onion",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    },
+    {
+      "CropName": "White Tea Leaf",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Tea Leaves",
+          	"minHarvest": -10,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Wild Barley",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Ergot",
+          	"minHarvest": -50,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Wild Grapes",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Grape Leaf",
+          	"minHarvest": -1,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Wild Oats",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Ergot",
+          	"minHarvest": -50,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Wintergreen",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Boxberry",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Gultheria",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Woodruff",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Waldmeister",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Wormwood",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Artemisia",
+          	"minHarvest": -3,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Xoconostle",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Nopal",
+          	"minHarvest": 0,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Opuntia Flower",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    },
+    {
+      "CropName": "Yarrow",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Yarrow Leaf",
+          	"minHarvest": 0,
+          	"maxHarvest": 2,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+        	{
+          	"ItemName": "Yarrow Root",
+          	"minHarvest": -1,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+    {
+      "CropName": "Zucchini",
+      "HarvestRules": 
+		[
+        	{
+          	"ItemName": "Squash Flower",
+          	"minHarvest": -4,
+          	"maxHarvest": 1,
+          	"maxHarvestIncreasePerFarmingLevel": 0.0,
+        	},
+		],
+    }, 
+]
+}

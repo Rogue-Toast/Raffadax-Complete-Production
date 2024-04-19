@@ -1,0 +1,18 @@
+{
+  	"Name": "Save the Queen",
+  	"Description": "An enchanted rapier made from the stinger of an immense bee. The blade of this weapon injects apitoxin into those that are pierced by it. Wielders of this sword gain the ability to command swarms of wild bees.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 150,
+  	"MaximumDamage": 250,
+  	"Knockback": 1.0,
+  	"Speed": 10,
+  	"Accuracy": 100,
+  	"Defense": 100,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 2.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

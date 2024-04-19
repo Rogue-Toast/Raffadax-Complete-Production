@@ -1,0 +1,17 @@
+{
+    	"Name": "Fiddlehead Fern Powder",
+  	"Description": "A nutritional powder made from ground fiddlehead ferns. It can be mixed into sauces and stocks, or used as a ground herb for cooking.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Ground Herb",
+  	"Edibility": -300,
+ 	"Price": 140,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Harvey", "Hekate", "Kent", "Morgan", "Maru", "Olivia", "Alecto", "Wizard" ], 
+        	"Dislike": [ "Abigail", "Alex", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Hephaestus", "Jacob", "Jodi", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane",  "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Amanra", "Apples", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

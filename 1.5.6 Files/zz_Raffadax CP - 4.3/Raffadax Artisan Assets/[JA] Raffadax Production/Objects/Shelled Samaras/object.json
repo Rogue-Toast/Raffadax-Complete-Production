@@ -1,0 +1,17 @@
+{
+  	"Name": "Shelled Samaras",
+  	"Description": "Maple seeds that have had the 'helicopter' portion removed. They are slightly sweet, with a mild maple flavor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Baking Component",
+  	"Edibility": 10,
+	"Price": 75,
+	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Leo", "Linus" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Sebastian", "Vincent" ]
+		},
+}

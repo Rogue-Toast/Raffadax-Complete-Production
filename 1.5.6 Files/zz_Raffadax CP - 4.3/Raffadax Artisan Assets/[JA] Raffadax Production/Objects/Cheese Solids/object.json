@@ -1,0 +1,15 @@
+{
+    	"Name": "Cheese Solids",
+    	"Description": "Ground up pieces of cheese which can be used as a flavoring agent or processed into other cheeses.",
+    	"Category": "Crafting",
+	"CategoryTextOverride": "Live Culture",
+    	"Edibility": -300,
+    	"EdibleIsDrink": false,
+    	"Price": 230,
+    	"Recipe": null,
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+        	"Hate": [ "Abigail", "Alecto", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Wizard", "Xolotl" ],
+		},
+}

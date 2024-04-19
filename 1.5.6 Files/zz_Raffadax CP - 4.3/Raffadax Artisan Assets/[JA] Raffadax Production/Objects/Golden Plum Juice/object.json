@@ -1,0 +1,19 @@
+{
+  	"Name": "Golden Plum Juice",
+  	"Description": "A sweet amber juice made with golden plums; it has a subtle floral aroma, and a better balance of flacvors than dark plum juice.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 60,
+  	"EdibleIsDrink": true,
+  	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Demetrius", "Elliott", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Martin", "Pam", "Robin", "Sandy", "Shane", "Sheila" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jas", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Morgan", "Olivia", "Penny", "Pierre", "Sam", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jacob", "Morris", "Willy" ],
+		"Hate": [ "Andy", "Jas", "Krobus", "Sebastian", "Vincent" ]
+		},
+}

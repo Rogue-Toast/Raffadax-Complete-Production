@@ -1,0 +1,17 @@
+{
+    	"Name": "Blueberry Jelly",
+    	"Description": "A sweet, sticky jelly made from blueberries.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jelly",
+  	"Edibility": 35,
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Like": [ "Andy", "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Morris", "Morgan", "Olivia", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Marnie", "Martin", "Maru", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

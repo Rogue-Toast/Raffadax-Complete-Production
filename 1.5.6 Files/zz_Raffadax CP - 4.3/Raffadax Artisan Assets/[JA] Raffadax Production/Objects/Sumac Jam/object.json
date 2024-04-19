@@ -1,0 +1,18 @@
+{
+  	"Name": "Sumac Jam",
+  	"Description": "A tangy jam made from sumac pulp. This jam is best used in savory dishes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 70,
+  	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Kent", "Olivia", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Eloise", "Emily", "Evelyn", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Martin", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Claire", "Coyote", "Elliott", "Martin", "Mephisto", "Penny", "Puck", "Sam", "Shane", "Shuck", "Victor", "Xolotl" ],
+		"Dislike": [ "Alex", "Andy", "George", "Haley", "Eloise", "Jas", "Linus", "Morgan", "Morris", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

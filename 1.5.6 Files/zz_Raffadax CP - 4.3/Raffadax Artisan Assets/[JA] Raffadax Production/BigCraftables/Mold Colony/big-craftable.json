@@ -1,0 +1,31 @@
+{
+	"Name": "Mold Colony",
+	"Description": "A sterile terrarium which will produce one of a variety of Penicillium molds useful for the production of cheeses. Produces daily after set up.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": 1,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Iron Bar",
+            		"Count": 3,
+        		}, 
+        		{
+            		"Object": "Glass Pane",
+            		"Count": 2,
+        		},
+       			{
+            		"Object": "Agar Powder",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "P. rubens",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},
+}

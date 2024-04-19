@@ -1,0 +1,18 @@
+{
+	"Name": "Gilded Coconut Palm",
+	"Product": "Golden Coconut",
+	"SaplingName": "Gilded Coconut Sapling",
+	"SaplingDescription": "A shining silver tree which produces golden leaves and coconuts. Fruits in the summer, takes 28 days to mature. Only grows if the 8 surrounding tiles are empty.",
+	"Season": "summer",
+	"SaplingPurchaseFrom": "Selkie",
+	"SaplingPurchasePrice": 1000000,
+	"SaplingPurchaseRequirements": 
+			[
+			"f Amanra 1500",
+			"f Astrid 1500",
+			"f Coyote 1500",
+			"f Puck 1500",
+			"f Shuck 1500",
+			"f Xolotl 1500",
+			],
+}

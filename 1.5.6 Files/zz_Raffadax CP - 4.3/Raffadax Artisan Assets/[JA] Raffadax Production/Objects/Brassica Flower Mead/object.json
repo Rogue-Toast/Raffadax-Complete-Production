@@ -1,0 +1,35 @@
+{
+  	"Name": "Brassica Flower Mead",
+  	"Description": "A bitter mead made with honey sourced from brassica flowers.  Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mead",
+  	"Edibility": 60,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Andy", "Astrid", "Coyote", "Mephisto", "Pam", "Puck", "Shuck", "Willie", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Claire", "Hekate", "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Olivia", "Penny", "Sebastian", "Sophia", "Vincent" ]
+		},
+}

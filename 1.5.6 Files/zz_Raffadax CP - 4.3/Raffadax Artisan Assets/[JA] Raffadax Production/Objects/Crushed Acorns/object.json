@@ -1,0 +1,16 @@
+{
+  	"Name": "Crushed Acorns",
+  	"Description": "Pulverized acorns; they are great for baking and can be used as an ice cream and dessert topping.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nuts",
+  	"Edibility": 30,
+  	"Price": 140,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Leo", "Linus" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Amanra", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

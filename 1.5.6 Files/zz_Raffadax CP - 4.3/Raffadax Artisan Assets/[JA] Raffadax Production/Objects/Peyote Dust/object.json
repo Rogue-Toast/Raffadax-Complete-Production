@@ -1,0 +1,17 @@
+{
+	"Name": "Peyote Dust",
+  	"Description": "Peyote cactuss which has been ground into a fine dust. This powder has hallucinogenic properties, and can be used medicinally or mixed into a tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Powder",
+  	"Edibility": -300,
+  	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Dwarf", "Emily", "Harvey", "Hekate", "Hephaestus", "Krobus", "Maru", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Alex", "Amanra", "Astrid", "Coyote", "Mephisto", "Morgan", "Puck", "Robin", "Sebastian", "Shuck", "Xolotl" ],
+		"Dislike": [ "Evelyn", "Marnie" ],
+        	"Hate": [ "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

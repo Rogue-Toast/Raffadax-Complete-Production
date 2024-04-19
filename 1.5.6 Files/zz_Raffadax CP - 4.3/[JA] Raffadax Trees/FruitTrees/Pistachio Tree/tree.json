@@ -1,0 +1,10 @@
+{
+	"Name": "Pistachio Tree ",
+    	"Product": "Pistachio ",
+    	"SaplingName": "Pistachio Sapling ",
+    	"SaplingDescription": "A tree which produces pistachios. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 10000,
+	"SaplingPurchaseRequirements": ["f Shuck 2000"],
+}

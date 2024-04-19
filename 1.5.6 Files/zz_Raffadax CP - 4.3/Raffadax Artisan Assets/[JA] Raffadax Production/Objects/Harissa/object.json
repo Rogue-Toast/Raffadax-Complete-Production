@@ -1,0 +1,48 @@
+{
+	"Name": "Harissa",
+  	"Description": "A hot chili pepper paste used in mid-eastern cuisine. It can be used as a sauce, spread, or rub; or can be mixed into soups, stews and dips.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 480,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Black Cumin Seeds",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Caraway Seeds",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Coriander",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Garlic Paste",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Hot Pepper",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Olive Oil",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

@@ -1,0 +1,18 @@
+{
+	"Name": "Glass Buoy",
+	"Description": "A hollow sphere of glass wrapped in netting that was used as a fishing buoy in generations past.",
+	"Category": "-23",
+  	"CategoryTextOverride": "Beach Forage",
+	"Edibility": "-300",
+	"EdibleIsDrink": "false",
+	"EdibleBuffs": null,
+	"Price": "500",
+	"IsColored": "false",
+  	"GiftTastes": 
+		{
+		"Love": [ "Elliott", "Eloise", "Emily", "Jas", "Penny", "Willy" ],
+		"Like": [ "Apples", "Demetrius", "Evelyn", "Gunther", "Jodi", "Pam", "Robin" ],
+        	"Neutral": [ "Abigail", "Alex", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Madam","Marnie", "Martin", "Maru", "Morgan", "Olivia", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Astrid", "Coyote", "Marlon", "Mephisto", "Morris", "Puck", "Shuck", "Xolotl" ]
+		},
+}

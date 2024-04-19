@@ -1,0 +1,18 @@
+{
+    	"Name": "Myristica Aril",
+    	"Description": "A myristica seed covered in a red, web-like growth. Drying the seed will allow this webbing to detatch, producing a valuable spice known as mace. Fully dehydrated seeds are commonly called nutmeg, which is also prized as a baking and cooking spice.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Aril",
+    	"Edibility": -300,
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Puck", "Shuck", "Xolotl" ],
+		"Like": [ "Beatrice", "Dwarf", "Elliott", "Evelyn", "Gus", "Hekate", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Emily", "George", "Gunther", "Emily", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Dislike": [ "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane",  "Vincent"]
+		},
+}

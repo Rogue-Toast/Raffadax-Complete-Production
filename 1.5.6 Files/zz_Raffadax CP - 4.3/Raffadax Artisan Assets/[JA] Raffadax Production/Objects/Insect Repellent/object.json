@@ -1,0 +1,15 @@
+{
+    	"Name": "Insect Repellent",
+    	"Description": "A strong-smelling herb-based spray that can be used to naturally ward away pest insects.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Repellent",
+  	"Edibility": -300,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ]
+		},
+}

@@ -1,0 +1,35 @@
+{
+  	"Name": "Red Algae Tea",
+  	"Description": "A healthy tea made from red algae powder. It does not taste wonderful, but is packed with nutrients. This tea is best drank cold to preserve its nutritional value.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cold Tea",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 5,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 5,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 1,
+
+		"Attack": 0,
+        	"Defense": 1,
+
+        	"Duration": 120,
+		},
+  	"Price": 180,
+  	"IsColored": false,
+   	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Demetrius", "Emily", "Haley", "Harvey", "Kent", "Leah", "Lewis", "Maru" ],
+		"Like": [ "Abigail", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Elliott", "Gregory", "Hekate", "Hephaestus", "Mephisto", "Olivia", "Puck", "Robin", "Sandy", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Neutral": [ "Claire", "Evelyn", "Gus", "Jacob", "Jodi", "Marnie", "Morris", "Pam", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Dislike": [ "Andy", "Dwarf", "George", "Gunther", "Krobus", "Linus", "Marlon", "Wednesday" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

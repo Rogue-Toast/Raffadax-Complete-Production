@@ -1,0 +1,24 @@
+{
+	"Name": "Liverwort Colony",
+	"Product": "Liverwort",
+	"SeedName": "Liverwort Starter",
+	"SeedDescription": "A hollowed out log section with a damp indentation seeded with liverwort. For thaumaturgical use only. Takes 5 days to mature, and continues to produce every 4 days after. Set up in the spring or fall.",
+    	"Type": "Greens",
+    	"Seasons": ["spring", "fall"],
+    	"Phases": [ 1, 1, 1, 1, 1 ],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+	"CropType": "Paddy",
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+	"SeedPurchasePrice": 5,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": ["f Shuck 500"],
+}

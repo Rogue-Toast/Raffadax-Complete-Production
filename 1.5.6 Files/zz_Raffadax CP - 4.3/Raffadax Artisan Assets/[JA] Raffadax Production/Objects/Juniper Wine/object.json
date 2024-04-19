@@ -1,0 +1,35 @@
+{
+    	"Name": "Juniper Wine",
+    	"Description": "An astringent blue wine made from juniper berries. The fermentation process has cut some of the sharpness from the flavor, but juniper wine is an acquired taste. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Wine",
+  	"Edibility": 40,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 4,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 75,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Hekate", "Hephaestus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Like": [ "Apples", "Demetrius", "Gus", "Leah", "Linus", "Maru", "Pam", "Robin", "Sandy", "Shane", "Alecto", "Wizard" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Vincent", "Willy" ],
+		"Hate": [ "Caroline", "Elliott", "Eloise", "Evelyn", "George", "Leo", "Martin", "Morgan", "Morris", "Olivia", "Penny", "Victor", "Wednesday" ]
+		},
+}

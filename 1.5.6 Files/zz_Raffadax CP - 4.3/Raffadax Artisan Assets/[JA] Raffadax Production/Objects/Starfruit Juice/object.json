@@ -1,0 +1,19 @@
+{
+  	"Name": "Starfruit Juice",
+    	"Description": "A sweet tropical juice made from starfruit.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 70,
+	"EdibleIsDrink": true,
+    	"Price": 1690,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Apples", "Martin", "Sandy" ],
+        	"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Morgan", "Pam", "Robin", "Shane" ],
+		"Neutral": [ "Amanra", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Krobus", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

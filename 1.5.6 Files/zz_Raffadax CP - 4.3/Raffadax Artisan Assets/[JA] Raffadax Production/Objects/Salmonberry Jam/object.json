@@ -1,0 +1,18 @@
+{
+    	"Name": "Salmonberry Jam",
+    	"Description": "A sweet jam made with pulp from wild salmonberries.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jam",
+  	"Edibility": 60,
+  	"Price": 130,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Like": [ "Andy", "Apples", "Demetrius", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane" ],
+		"Neutral": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Eloise", "Gregory", "Gunther", "Jacob", "Marlon", "Mephisto", "Morgan", "Morris", "Puck", "Sheila", "Shuck", "Sophia", "Xolotl" ],
+		"Dislike": [ "Abigail", "Alex", "Claire", "Clint", "Dwarf", "Emily", "George", "Gus", "Haley", "Jas", "Krobus", "Leo", "Lewis", "Olivia", "Marnie", "Martin", "Maru", "Penny", "Pierre", "Sam", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Caroline", "Elliott", "Evelyn", "Harvey", "Hekate", "Hephaestus", "Sebastian" ] 
+		},
+	"DisableWithMod": "Vyranity.Pies",
+}

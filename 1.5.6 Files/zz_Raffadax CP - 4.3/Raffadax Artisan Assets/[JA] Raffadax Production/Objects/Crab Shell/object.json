@@ -1,0 +1,16 @@
+{
+  	"Name": "Crab Shell",
+  	"Description": "A hollowed out crab shell. It might have some educational value, but is otherwise worhtless.",
+	"Category": "-23",
+  	"CategoryTextOverride": "Beach Forage",
+  	"Edibility": -300,
+  	"Price": 1,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Neutral": [ "Demetrius", "Gunther", "Penny" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		},
+}

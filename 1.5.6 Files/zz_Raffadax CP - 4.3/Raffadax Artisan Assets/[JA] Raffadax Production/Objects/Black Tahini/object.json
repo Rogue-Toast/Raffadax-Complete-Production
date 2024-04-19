@@ -1,0 +1,17 @@
+{
+	"Name": "Black Tahini",
+  	"Description": "A savory, bitter, nutty spread made from sesame seeds. Tahini can be used as a dip or spread, and is an integral ingredient in halva and hummus.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Seed Paste",
+  	"Edibility": 50,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Caroline",  "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam", "Sebastian" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Haley", "Hekate", "Hephaestus", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pam", "Puck", "Robin", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Apples" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ]	
+		},
+}

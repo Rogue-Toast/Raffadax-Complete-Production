@@ -1,0 +1,35 @@
+{
+	"Name": "Coco de Mer Port Wine",
+  	"Description": "A fortified wine made from coco dem mer nuts. It has a flavor like citrusy coconut. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fortified Wine",
+  	"Edibility": 150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 7,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 7,
+		"MagnetRadius": 0,
+        	"Speed": -3,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 9000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Leah", "Mephisto", "Olivia", "Puck", "Shuck", "Susan", "Willy", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Caroline", "Claire", "Dwarf", "Emily", "Gregory", "Gus", "Haley", "Jacob", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

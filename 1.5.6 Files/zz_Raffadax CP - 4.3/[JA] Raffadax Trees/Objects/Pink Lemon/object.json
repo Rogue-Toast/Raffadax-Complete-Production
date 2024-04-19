@@ -1,0 +1,33 @@
+{
+  	"Name": "Pink Lemon",
+  	"Description": "A bright pink lemon...These aren't supposed to actually exist. It has a flavor like sweet berry lemonade, and gives off the aroma of lemon blossoms. The flavor profile of this fruit makes it excellent for juicing and zesting, and its vibrant color makes for a unique cocktail garnish.",
+  	"Category": "Fruit",
+  	"CategoryTextOverride": "Enchanted Fruit",
+  	"Edibility": 50,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 5,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Apples", "Gus", "Leo", "Morgan", "Olivia", "Pam" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Krobus", "Wednesday" ]
+		},
+}

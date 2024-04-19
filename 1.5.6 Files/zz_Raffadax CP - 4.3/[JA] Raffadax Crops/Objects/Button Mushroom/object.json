@@ -1,0 +1,16 @@
+{
+	"Name": "Button Mushroom",
+  	"Description": "A small white mushroom that has not matured to the point of opening its cap. They have a crisp texture, becoming more tender as it cooks.",
+  	"Category": "-81",
+  	"CategoryTextOverride": "Mushroom",
+  	"Edibility": 5,
+  	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Harvey", "Leah", "Linus", "Mephisto", "Olivia", "Puck", "Shuck", "Victor", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Gus", "Jacob", "Kent", "Hekate", "Marlon", "Martin", "Morris", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Wednesday" ],
+        	"Dislike": [ "Andy", "Caroline", "Claire", "Dwarf", "Elliott", "Eloise", "Gregory", "Gunther", "Haley", "Hephaestus", "Jas", "Jodi", "Krobus", "Leo", "Pierre", "Sam", "Sebastian", "Shane", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ]	
+		},
+}

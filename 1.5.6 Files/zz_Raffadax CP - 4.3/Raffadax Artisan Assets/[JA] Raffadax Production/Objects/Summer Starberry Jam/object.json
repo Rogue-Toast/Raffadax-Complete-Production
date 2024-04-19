@@ -1,0 +1,31 @@
+{
+  	"Name": "Summer Starberry Jam",
+  	"Description": "A spicy red jam that is warm to the touch. It is made using starberry pulp.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Jam",
+  	"Edibility": 150,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 9,
+        	"MaxStamina": 9,
+		"MagnetRadius": 9,
+        	"Speed": 9,
+
+		"Attack": 9,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 12100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

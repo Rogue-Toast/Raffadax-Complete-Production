@@ -1,0 +1,35 @@
+{
+    	"Name": "Guarana Tea",
+    	"Description": "A sweet tea made from guarana which has a naturally high caffein content. This tea has an aroma reminiscent of ginger.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Tea",
+    	"Edibility": 75,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 7,
+		"MagnetRadius": 0,
+        	"Speed": 3,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 500,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Claire", "Elliott", "Emily", "George", "Lewis", "Morris", "Olivia" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Vincent" ]
+		},
+}

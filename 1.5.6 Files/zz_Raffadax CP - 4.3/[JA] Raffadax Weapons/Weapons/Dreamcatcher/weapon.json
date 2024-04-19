@@ -1,0 +1,18 @@
+{
+  	"Name": "Dreamcatcher",
+  	"Description": "A hoop-shaped staff that is wrapped in gossamer threads of spider silk. The threads of this staff can be used to entrap evil spirits, but are intangible to living beings.",
+  	"Type": "Club",
+  	"MinimumDamage": 250,
+  	"MaximumDamage": 500,
+  	"Knockback": 4.0,
+  	"Speed": 8,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.5,
+  	"CritMultiplier": 8.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

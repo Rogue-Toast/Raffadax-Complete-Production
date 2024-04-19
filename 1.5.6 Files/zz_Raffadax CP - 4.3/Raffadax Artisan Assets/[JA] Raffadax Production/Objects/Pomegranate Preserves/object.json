@@ -1,0 +1,17 @@
+{
+    	"Name": "Pomegranate Preserves",
+    	"Description": "Whole pomegranate seeds preserved in a sweet red syrup.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Compote",
+  	"Edibility": 90,
+  	"Price": 2160,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Elliott" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Morgan", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

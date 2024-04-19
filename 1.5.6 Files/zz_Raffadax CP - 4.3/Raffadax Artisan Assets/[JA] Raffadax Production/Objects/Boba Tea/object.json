@@ -1,0 +1,36 @@
+{
+    	"Name": "Boba Tea",
+    	"Description": "A sweetened milk tea with tapioca balls added. It is a very popular drink among young people in certain cities.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cold Tea",
+  	"Edibility": 120,
+   	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 725,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Caroline", "Claire", "Elliott", "Emily", "George", "Gus", "Kent", "Lewis", "Marnie", "Olivia", "Robin", "Sam", "Sandy" ],
+        	"Like": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Evelyn", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Martin", "Maru", "Mephisto", "Pam", "Penny", "Pierre", "Puck", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Morris", "Sebastian", "Vincent" ]
+		},
+	"DisableWithMod": "paradigmnomad.morefood",
+
+}

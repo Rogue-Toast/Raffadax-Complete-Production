@@ -1,0 +1,33 @@
+{
+    	"Name": "Stardrop Port Wine",
+    	"Description": "A strange fortified wine made from stardrops. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Fortified Wine",
+  	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 75,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 90000,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl", ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

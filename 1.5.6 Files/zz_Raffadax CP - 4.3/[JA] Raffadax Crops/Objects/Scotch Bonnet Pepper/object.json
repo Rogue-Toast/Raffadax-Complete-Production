@@ -1,0 +1,17 @@
+{
+    	"Name": "Scotch Bonnet Pepper",
+    	"Description": "A mildly sweet, vaguely fruity pepper that is more than ten times hotter than a jalapeño pepper. These peppers are used in Caribbean cooking, and are the signature flavor in jerk spices.",
+  	"Category": "Vegetable",
+  	"Edibility": 15,
+  	"Price": 25,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Lewis", "Shane" ],
+        	"Like": [ "Amanra", "Andy", "Astrid", "Beatrice", "Claire", "Coyote", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Martin", "Mephisto", "Morris", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Xolotl" ],
+		"Neutral": [ "Alex", "Apples", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Marnie", "Maru", "Penny", "Pierre", "Sam", "Sebastian", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Morgan", "Vincent" ],
+		},
+	"DisableWithMod": "BFV.FruitVeggie",
+}

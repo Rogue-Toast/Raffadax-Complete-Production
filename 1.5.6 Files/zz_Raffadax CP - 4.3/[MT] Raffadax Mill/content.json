@@ -1,0 +1,769 @@
+[
+//
+// NUT & SEED FLOURS ------------------------------------------------------------
+//  
+	{ // ACORN (BLANCHED)
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Leached Acorns",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Acorn Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // ALMOND
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Almond",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Almond Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // BAHIDAJ
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Bahidaj",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Saguaro Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // BAHIDAJ (SAGUARO SEEDS)
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Bahidaj Seeds",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Saguaro Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // BLACK CACAO POD
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Black Cacao Pod",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Cocoa Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // BLACK SESAME SEEDS
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Black Sesame Seeds",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Sesame Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // BLACK WALNUT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Black Walnut",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Walnut Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // BRAZIL NUT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Brazil Nut",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Brazil Nut Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // CACAO POD
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Cacao Pod",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Cocoa Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // CASHEW
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Cashew",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Cashew Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // CHESTNUT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Chestnut",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Chestnut Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // COCO DE MER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Coco de Mer",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Coco de Mer Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // COCONUT
+      	"InputId": "88",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Coconut Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // COFFEE BEANS
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Coffee Beans",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Coffee Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // HAZELNUT
+      	"InputId": "408",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Hazelnut Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // HORN NUT (BLANCHED)
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Leached Horn Nuts",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Horn Nut Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // KOLA NUT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Kola Nut",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Cola Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // MACADAMIA NUT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Macadamia Nut",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Macadamia Nut Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // MAPLE SEED (SHELLED)
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Shelled Samaras",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Samara Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // MARCONA ALMOND
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Marcona Almond",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Almond Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // PEANUT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Peanut",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Peanut Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // PECAN
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Pecan",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Pecan Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // PINE NUT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Pine Nut",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Pine Nut Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // PISTACHIO
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Pistachio ",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Pistachio Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // SEA HEARTS (BLANCHED)
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Leached Sea Hearts",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Coeur de la Mer Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // SUNFLOWER SEEDS (SHELLED)
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Shelled Sunflower Seeds",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Sunflower Seed Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // WALNUT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Walnut",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Walnut Flour",
+            	"Amount": 1
+        		}
+    	},
+//
+// GRAIN FLOURS ----------------------------------------------------------------
+//
+	{ // AMARANTH
+      	"InputId": "300",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Amaranth Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // BLUE CORN
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Blue Corn",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Cornmeal",
+            	"Amount": 1
+        		}
+    	},
+	{ // CORN
+      	"InputId": "270",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Corn Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // ERGOT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Ergot",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Ergot Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // GLASS GEM CORN
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Glass Gem Corn",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Corn Starch",
+            	"Amount": 1
+        		}
+    	},
+	{ // RED CORN
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Red Corn",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Cornmeal",
+            	"Amount": 1
+        		}
+    	},
+	{ // RICE
+      	"InputId": "423",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Rice Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // RYE
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Rye",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Rye Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // WILD BARLEY
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Wild Barley",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Barley Flour",
+            	"Amount": 1
+        		}
+    	},
+	{ // WILD OATS
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Wild Oats",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Oat Flour",
+            	"Amount": 1
+        		}
+    	},
+//
+// MISC --------------------------------------------------------------------------
+//
+	{ // BLACK PEARL:
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Black Pearl",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Black Pearl Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // CORAL
+      	"InputId": "393",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Coral Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // EBONY WOOD
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Ebony Wood",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Ebony Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // GIANT PEARL
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Giant Pearl",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Pearl Dust",
+            	"Amount": 5
+        		}
+    	},
+	{ // MANIOC
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Manioc",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Tapioca Starch",
+            	"Amount": 4
+        		}
+    	},
+	{ // PEARL
+      	"InputId": "797",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Pearl Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // ROCK SALT
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Rock Salt",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Table Salt",
+            	"Amount": 4
+        		}
+    	},
+	{ // SANDALWOOD
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Sandalwood",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Chandan Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // SUGAR
+      	"InputId": 245,
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Powdered Sugar",
+            	"Amount": 1
+        		}
+    	},
+	{ // SUGARCANE
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Sugarcane",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Cane Sugar",
+            	"Amount": 1
+        		}
+    	},
+//
+// ARCANE DUSTS ---------------------------------------------------------------------
+//
+	{ // APPLE OF DISCORD
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Apple of Discord",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Sand of Chaos",
+            	"Amount": 1
+        		}
+    	},
+	{ // APPLE OF IDUNN
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Apple of Idunn",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Harmonic Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // BIFROST
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Bifrost",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Aurora Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // CINTAMANI FLOWER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Cintamani Flower",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Azoth",
+            	"Amount": 1
+        		}
+    	},
+	{ // DEEP JUNGLE MOSS
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Deep Jungle Moss",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Ground Jungle Moss",
+            	"Amount": 1
+        		}
+    	},
+	{ // DRAGON BERRY
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Dragon Berry",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Inferno Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // FERN FLOWER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Fern Flower",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Fern Flower Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // FRUIT OF THE NETHERWORLD
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Fruit of the Netherworld",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Abyssal Sand",
+            	"Amount": 1
+        		}
+    	},
+	{ // HESPERIDIUM
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Hesperidium",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Auric Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // LUCKY CLOVER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Lucky Clover",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Luck Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // MANDRAGORA FLOWER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Mandragora Flower",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Nightshade Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // MANDRAKE
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Mandrake",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Mandrake Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // MOONBERRY
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Moonberry",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Lunar Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // POLAR BERRY
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Polar Berry",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Arctic Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // ROSE OF AVALON
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Rose of Avalon",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Forest Rose Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // SUMMER STARBERRY
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Summer Starberry",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Red Star Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // SUNBERRY
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Sunberry",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Solar Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // UNLUCKY CLOVER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Unlucky Clover",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Bad Luck Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // VAKKHIC GRAPE
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Vakkhic Grape",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Powder of Argent",
+            	"Amount": 1
+        		}
+    	},
+	{ // WINTER STARBERRY
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Winter Starberry",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Blue Star Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // YATEVEO
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Yateveo",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Voodoo Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // ZAMINKAND
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Zaminkand",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Noxious Powder",
+            	"Amount": 1
+        		}
+    	},
+//
+// LEGENDARY ITEMS
+// 
+	{ // ALICORN
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Alicorn",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Catholicon",
+            	"Amount": 1
+        		}
+    	},
+	{ // ALKONOST FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Alkonost Feather",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Arctic Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // GARUDA FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Garuda Feather",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Azoth",
+            	"Amount": 1
+        		}
+    	},
+	{ // GOLDEN ANTLER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Golden Antler",
+      	"Output": 
+			{
+            	"Id": "384",
+            	"Amount": 10
+        		}
+    	},
+	{ // GOLDEN FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Golden Feather ",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Auric Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // GOLDEN LEAF
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Golden Leaf",
+      	"Output": 
+			{
+            	"Id": "384",
+            	"Amount": 5
+        		}
+    	},
+	{ // HELLHOUND FANG
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Hellhound Fang",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Abyssal Sand",
+            	"Amount": 1
+        		}
+    	},
+	{ // IRIDIUM FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Iridium Feather",
+      	"Output": 
+			{
+            	"Id": "386",
+            	"Amount": 15
+        		}
+    	},
+	{ // JACKALOPE ANTLERS
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Jackalope Antlers",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Sylvan Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // KRAKEN HOOK
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Kraken Hook",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Voodoo Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // LEVIATHAN SCALE
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Leviathan Scale",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Lunar Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // MYTHRIL FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Mythril Feather",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Mythril Ore",
+            	"Amount": 15
+        		}
+    	},
+	{ // NAGUAL WHISKERS
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Nagual Whiskers",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Star Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // PHOENIX FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Phoenix Feather ",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Inferno Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // RADIOACTIVE FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Radioactive Feather",
+      	"Output": 
+			{
+            	"Id": "909",
+            	"Amount": 15
+        		}
+    	},
+	{ // ROC FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Roc Feather",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Solar Dust",
+            	"Amount": 1
+        		}
+    	},
+	{ // RESPLENDENT FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Resplendent Feather",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Aurora Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // SERAPH FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Seraph Feather",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Catholicon",
+            	"Amount": 1
+        		}
+    	},
+	{ // SILVER ANTLER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Silver Antler",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Silver Ore",
+            	"Amount": 10
+        		}
+    	},
+	{ // SILVER FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Silver Feather ",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Powder of Argent",
+            	"Amount": 1
+        		}
+    	},
+	{ // SILVER LEAF
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Silver Leaf",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Silver Ore",
+            	"Amount": 5
+        		}
+    	},
+	{ // THUNDERBIRD FEATHER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Thunderbird Feather",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Tempest Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // TULIKKO FUR
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Tulikko Fur",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Aurora Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // WENDIGO ANTLER
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Wendigo Antler",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Noxious Powder",
+            	"Amount": 1
+        		}
+    	},
+	{ // WEREWOLF CLAW
+      	"InputId": "spacechase0.JsonAssets:GetObjectId:Werewolf Claw",
+      	"Output": 
+			{
+            	"Id": "spacechase0.JsonAssets:GetObjectId:Lunar Dust",
+            	"Amount": 1
+        		}
+    	},
+]

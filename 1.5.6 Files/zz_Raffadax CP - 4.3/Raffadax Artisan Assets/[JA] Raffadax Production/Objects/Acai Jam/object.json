@@ -1,0 +1,17 @@
+{
+  	"Name": "Acai Jam",
+    	"Description": "A dark purple jam made with acai berry pulp. It has an earthy, sweet flavor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+    	"Edibility": 150,
+    	"Price": 1450,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Claire", "Emily", "Haley", "Sandy" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

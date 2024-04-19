@@ -1,0 +1,15 @@
+{
+	"Name": "Raspberry",
+  	"Description": "A reddish pink berry from a large shrub. It has a bright, sweet-tart flavor that many people are fond of.",
+  	"Category": "Fruit",
+  	"Edibility": 20,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Demetrius", "Haley", "Linus", "Olivia", "Penny", "Robin", "Sandy", "Sophia", "Susan" ],
+        	"Like": [ "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Pam", "Pierre", "Puck", "Sam", "Sebastian", "Shane", "Sheila", "Shuck", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+	"DisableWithMod": "ppja.fruitsandveggies",
+}

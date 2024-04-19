@@ -1,0 +1,35 @@
+{
+  	"Name": "Roasted Sea Hearts",
+  	"Description": "Sea hearts that have been roasted until lightly caramelized. They will remain crisp when baked into desserts, and are popular alone as a snack food.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Roasted Seeds",
+  	"Edibility": 55,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 7,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 7,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 3450,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Beatrice", "Evelyn", "Gus", "Susan" ],
+		"Like": [ "Clint", "Dwarf", "Elliott", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Krobus", "Leah", "Linus", "Olivia", "Willy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Demetrius", "Eloise", "Emily", "Haley", "Hekate", "Jas", "Jodi", "Kent", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Vincent", "Wednesday", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Gregory" ]
+		},
+}

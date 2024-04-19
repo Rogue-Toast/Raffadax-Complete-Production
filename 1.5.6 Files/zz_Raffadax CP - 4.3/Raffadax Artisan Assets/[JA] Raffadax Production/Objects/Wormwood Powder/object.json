@@ -1,0 +1,17 @@
+{
+	"Name": "Wormwood Powder",
+  	"Description": "A pale green powder made from hallucinogenic herbs. It is sometimes used as a medicinal and arcane component, but is considered toxic to humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Powder",
+  	"Edibility": -300,
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Harvey", "Maru", "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

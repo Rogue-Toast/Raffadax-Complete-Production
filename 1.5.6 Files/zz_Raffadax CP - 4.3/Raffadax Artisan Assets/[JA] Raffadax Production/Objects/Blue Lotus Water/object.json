@@ -1,0 +1,35 @@
+{
+	"Name": "Blue Lotus Water",
+  	"Description": "A pale, fragrant water made with blue lotus petals. It can be used to add fragrance to cosmetics and cleaning supplies. This water can also be used to flavor foods and balance cocktails, but it can have a hallucinogenic effect in high doses.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Water",
+  	"Edibility": 300,
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming":0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 13,
+        	"MaxStamina": 7,
+		"MagnetRadius": 0,
+        	"Speed": -3,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 5625,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Morgan", "Sandy", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

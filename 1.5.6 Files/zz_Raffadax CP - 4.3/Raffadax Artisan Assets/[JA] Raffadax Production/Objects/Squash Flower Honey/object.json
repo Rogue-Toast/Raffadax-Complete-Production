@@ -1,0 +1,20 @@
+{
+	"Name": "Squash Flower Honey",
+	"Description": "A sweet floral honey sourced from squash flowers.",
+	"Category": "-26",
+	"CategoryTextOverride": "Flow Honey",
+	"Edibility": 40,
+	"EdibleIsDrink": true,
+	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Maru", "Sebastian" ]
+		},
+	"ContextTags": 
+        	[
+        	"honey_item"
+        	],
+}

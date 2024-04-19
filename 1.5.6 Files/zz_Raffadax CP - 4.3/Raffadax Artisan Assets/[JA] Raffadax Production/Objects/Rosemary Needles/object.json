@@ -1,0 +1,18 @@
+{
+	"Name": "Rosemary Needles",
+  	"Description": "Whole needles from a rosemary sprig which have been plucked from the stem for easy use. They can be added to dishes as is or ground into a flavorful powder.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Whole Herb",
+  	"Edibility": -300,
+  	"Price": 125,
+  	"IsColored": false,
+  	"Recipe": null,  	
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "Gus", "Olivia" ],
+		"Like": [ "Beatrice", "Emily", "Pierre", "Robin", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Claire", "Coyote", "Dwarf", "Mephisto", "Morgan", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

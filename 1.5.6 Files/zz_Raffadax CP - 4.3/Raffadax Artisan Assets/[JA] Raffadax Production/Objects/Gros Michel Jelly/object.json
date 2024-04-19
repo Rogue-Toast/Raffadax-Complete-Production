@@ -1,0 +1,17 @@
+{
+    	"Name": "Gros Michel Jelly",
+    	"Description": "A sweet pale yellow jelly made from gros michel bananas.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+  	"Edibility": 175,
+  	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Jacob", "Krobus", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Willy", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Hekate", "Hephaestus", "Jas", "Sebastian", "Vincent" ],
+		},
+}

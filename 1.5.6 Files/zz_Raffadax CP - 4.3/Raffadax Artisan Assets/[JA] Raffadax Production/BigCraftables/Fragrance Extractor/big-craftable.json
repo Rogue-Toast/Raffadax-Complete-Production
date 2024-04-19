@@ -1,0 +1,27 @@
+{
+	"Name": "Fragrance Extractor",
+	"Description": "A machine that produces perfumes and colognes from flowers and other items with pleasant aromas.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 10,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Sandalwood",
+            		"Count": 25,
+        		},
+        		{
+            		"Object": "Glass Pane",
+            		"Count": 2,
+        		},
+        		{
+            		"Object": 337,
+            		"Count": 1,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

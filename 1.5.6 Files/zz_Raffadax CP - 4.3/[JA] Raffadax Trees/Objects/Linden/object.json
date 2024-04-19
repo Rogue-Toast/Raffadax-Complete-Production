@@ -1,0 +1,32 @@
+{
+  	"Name": "Linden",
+  	"Description": "The spade shaped leaf and fragrant flowers from an ornamental tree, both of which are used medicinally. It has a pleasant smell like honeysuckle and lemon; and a floral, honeyed flavor.",
+  	"Category": "Flower",
+  	"Edibility": 25,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 2,
+        	"Mining": 0,
+
+        	"Luck": 1,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 75,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Caroline", "Claire", "Evelyn", "Haley", "Hekate", "Lewis", "Sandy", "Alecto", "Wizard" ],
+        	"Like": [ "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Marlon", "Morris", "Sebastian", "Vincent", "Wednesday", "Willy" ]
+		},
+} 

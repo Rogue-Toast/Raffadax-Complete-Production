@@ -1,0 +1,18 @@
+{
+  	"Name": "Peanut",
+  	"Description": "A subterranean legume popular as a snack food and dessert component. It can be processed into a variety of commonly used goods.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Nut",
+  	"Edibility": 10,
+  	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Clint", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Krobus", "Leah", "Linus", "Morgan", "Olivia", "Sebastian", "Susan", "Willy", "Wednesday", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Eloise", "Emily", "Gus", "Haley", "Hekate", "Jas", "Jodi", "Kent", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Vincent", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Gregory" ]
+		},
+	"DisableWithMod": "ppja.fruitsandveggies",
+}

@@ -1,0 +1,18 @@
+{
+    	"Name": "Choc Dracula",
+    	"Description": "A sweet children's cereal made with chocolate coated rice puffs.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cereal",
+  	"Edibility": 75,
+  	"Price": 1900,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Eloise", "Jas", "Leo", "Vincent" ],
+		"Like": [ "Abigail", "Emily", "Jodi", "Marnie", "Martin", "Maru", "Morgan", "Pam", "Sam" ],
+        	"Neutral": [ "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Gregory", "Gus", "Jacob", "Kent", "Leah", "Lewis", "Marlon", "Morris", "Pierre", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan" ],
+		"Dislike": [ "Alex", "Andy", "Apples", "Demetrius", "Evelyn", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Krobus", "Linus", "Penny", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Dwarf", "George", "Mephisto", "Olivia", "Puck", "Sebastian", "Shuck", "Wednesday", "Xolotl" ]
+		},
+}

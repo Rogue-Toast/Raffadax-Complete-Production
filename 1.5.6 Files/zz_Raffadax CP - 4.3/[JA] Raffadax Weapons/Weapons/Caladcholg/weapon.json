@@ -1,0 +1,18 @@
+{
+  	"Name": "Caladcholg",
+  	"Description": "An unbreakable sword carved from a single large gemstone. It leaves the arc of a rainbow in its wake when swung through the air.",
+  	"Type": "Sword",
+  	"MinimumDamage": 333,
+  	"MaximumDamage": 777,
+  	"Knockback": 2.0,
+  	"Speed": 7,
+  	"Accuracy": 100,
+  	"Defense": 333,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.30,
+  	"CritMultiplier": 7.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

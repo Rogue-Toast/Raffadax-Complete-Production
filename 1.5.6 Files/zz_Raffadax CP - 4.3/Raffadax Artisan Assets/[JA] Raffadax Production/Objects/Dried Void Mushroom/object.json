@@ -1,0 +1,16 @@
+{
+	"Name": "Dried Void Mushroom",
+  	"Description": "A void mushroom that has been dried for preservation. It can be ground into a powder and used in spells and potions, but is poisonous to humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Mushroom",
+  	"Edibility": -300,
+  	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Abigail", "Sebastian" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

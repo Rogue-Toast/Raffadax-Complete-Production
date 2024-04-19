@@ -1,0 +1,19 @@
+{
+  	"Name": "Star Apple Juice",
+    	"Description": "A mildly sweet juice made from star apples.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 55,
+	"EdibleIsDrink": true,
+    	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Demetrius", "Dwarf", "Haley", "Leo", "Martin", "Sandy" ],
+        	"Like": [ "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Jodi", "Krobus", "Pierre", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

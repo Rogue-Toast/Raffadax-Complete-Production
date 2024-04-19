@@ -1,0 +1,18 @@
+{
+	"Name": "Raffadax Weapons",
+   	"Author": "Raffadax",
+   	"Description": "Adds weapons which can be produced from divine wines. Requires Json Assets.",
+   	"UniqueID": "Raffadax.Weapons",
+   	"Version": "4.3",
+   	"ContentPackFor": 
+		{
+      		"UniqueID": "spacechase0.JsonAssets"
+    		},
+    	"Dependencies": 
+		[
+   		{
+      		"UniqueID": "Raffadax.Complete.Production",
+      		"IsRequired": true,
+   		}
+		]
+}

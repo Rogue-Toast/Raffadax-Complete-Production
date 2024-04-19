@@ -1,0 +1,32 @@
+{
+  	"Name": "Huckleberry",
+  	"Description": "A wild blueberry with large seeds; they can range in color from blue, to violet, to red. Lighter berries tend to be more tart, and become sweeter as they darken.",
+  	"Category": "Fruit",
+  	"Edibility": 25,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 5,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Andy", "Clint", "Dwarf", "Elliott", "George", "Gregory", "Hephaestus", "Lewis", "Linus", "Marnie", "Robin", "Sheila", "Sophia", "Willy" ], 
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Coyote", "Demetrius", "Eloise", "Emily", "Evelyn", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Marlon", "Martin", "Maru", "Mephisto", "Morgan", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Sam", "Sandy", "Sebastian", "Shane", "Shuck", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Morris" ]
+		},
+}

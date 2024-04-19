@@ -1,0 +1,18 @@
+{
+  	"Name": "Gambanteinn",
+  	"Description": "An ancient wand that wields unfathomable power. The massive gemstone it houses pulses with an eerie crimson light.",
+  	"Type": "Club",
+  	"MinimumDamage": 500,
+  	"MaximumDamage": 750,
+  	"Knockback": 5.0,
+  	"Speed": 1,
+  	"Accuracy": 100,
+  	"Defense": 250,
+	"ExtraSwingArea": 3,
+  	"CritChance": 0.2,
+  	"CritMultiplier": 5.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

@@ -1,0 +1,17 @@
+{
+    	"Name": "Solar Dust",
+    	"Description": "A brilliant golden dust made from the remains of a strange fruit, it is almost too bright to look at directly. Items dyed with this dust will shine with the radiance of sunlight.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Dust",
+  	"Edibility": -300,
+  	"Price": 5000,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Dwarf", "Gunther", "Hekate", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy",  "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		"Neutral": [ "Hephaestus" ],
+		"Hate": [ "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

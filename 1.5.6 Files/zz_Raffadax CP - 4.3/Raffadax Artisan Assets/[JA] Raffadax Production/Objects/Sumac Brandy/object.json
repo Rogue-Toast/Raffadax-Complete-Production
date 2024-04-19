@@ -1,0 +1,35 @@
+{
+	"Name": "Sumac Brandy",
+	"Description": "A complex, tangy brandy made by distilling sumac berry wine. This beverage is best used for mixing and cooking, rather than drinking by the glass.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Brandy",
+	"Edibility": 70,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 450,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Gus", "Harvey", "Hekate", "Kent", "Mephisto", "Olivia", "Puck", "Sandy", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

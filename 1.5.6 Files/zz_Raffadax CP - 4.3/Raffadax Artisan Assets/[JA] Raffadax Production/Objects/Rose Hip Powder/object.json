@@ -1,0 +1,17 @@
+{
+	"Name": "Rose Hip Powder",
+  	"Description": "A fine dust made from pulverised rose hips. It is mainly used as a health powder and vitamin suppliment.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Powder",
+  	"Edibility": -300,
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Alex", "Demetrius", "Emily", "Haley", "Harvey", "Kent",  "Leah", "Lewis", "Maru" ],
+		"Neutral": [ "Abigail", "Beatrice", "Caroline", "Clint", "Elliott", "Gregory", "Hekate", "Hephaestus", "Morgan", "Olivia", "Robin", "Sandy", "Alecto", "Wizard"],
+        	"Dislike": [ "Amanra", "Apples", "Astrid", "Claire", "Coyote", "Evelyn", "Gus", "Jacob", "Jodi", "Marnie", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Xolotl" ],
+		"Hate": [ "Andy", "Dwarf", "Eloise", "George", "Gunther", "Jas", "Krobus", "Leo", "Linus", "Marlon", "Martin", "Penny", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

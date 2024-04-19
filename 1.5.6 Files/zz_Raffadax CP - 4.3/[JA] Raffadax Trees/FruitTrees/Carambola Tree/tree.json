@@ -1,0 +1,10 @@
+{
+	"Name": "Carambola Tree",
+    	"Product": "Carambola",
+    	"SaplingName": "Carambola Sapling",
+    	"SaplingDescription": "A tropical tree which produces exotic, star-shaped fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 12000,
+	"SaplingPurchaseRequirements": ["f Astrid 2000"],
+}

@@ -1,0 +1,34 @@
+{
+  	"Name": "Liverwort",
+  	"Description": "A small, non-vascular plant which was believed in ancient times to have medicinal value. It is now primarily used for arcane purposes.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Medicinal Herb",
+  	"Edibility": -5,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 1,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": -1,
+
+        	"Duration": 90,
+		},
+  	"Price": 5,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Abigail", "Demetrius", "Gunther", "Sebastian" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

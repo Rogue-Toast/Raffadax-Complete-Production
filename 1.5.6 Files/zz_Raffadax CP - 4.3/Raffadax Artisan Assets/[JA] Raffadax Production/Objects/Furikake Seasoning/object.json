@@ -1,0 +1,40 @@
+{
+	"Name": "Furikake Seasoning",
+  	"Description": "A far eastern spice blend with a salty, nutty flavor. It is typically used as a seasoning for rice, fish and ramen dishes.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 235,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 4,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Aonori",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Black Sesame Seeds",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Sugar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Table Salt",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

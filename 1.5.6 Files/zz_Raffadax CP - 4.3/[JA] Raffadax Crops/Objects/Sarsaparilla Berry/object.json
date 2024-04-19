@@ -1,0 +1,16 @@
+{
+  	"Name": "Sarsaparilla Berry",
+  	"Description": "Spicy-sweet berries from a sarsaparilla plant. These berries were once used by native peoples to brew wine.",
+  	"Category": "Fruit",
+  	"Edibility": 10,
+	"Price": 10,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes":
+		{
+		"Love": [ "Andy", "Dwarf", "Gregory", "Hekate", "Hephaestus", "Kent", "Leo", "Linus", "Marnie", "Sheila", "Willy", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Amanra", "Astrid", "Clint", "Coyote", "Mephisto", "Puck", "Shuck", "Sophia", "Xolotl" ],
+        	"Neutral": [ "Alex", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Susan", "Victor", "Wednesday" ],
+		"Dislike": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

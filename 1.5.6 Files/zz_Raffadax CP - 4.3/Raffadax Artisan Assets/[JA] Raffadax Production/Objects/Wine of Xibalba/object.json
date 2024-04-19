@@ -1,0 +1,34 @@
+{
+  	"Name": "Wine of Xibalba",
+  	"Description": "An extremely potent elixer made by combining different preparations of Yateveo dust. Humans who drink this wine suffer terrifying visions for an entire day; but to their perception the experience lasts for hundreds of years. Sometimes individuals who consume this beverage never recover.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Arcane Fortified Wine",
+  	"Edibility": -150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 60,
+        	"Fishing": 0,
+      		"Foraging": 60,
+        	"Mining": 0,
+
+        	"Luck": 60,
+        	"MaxStamina": -40,
+		"MagnetRadius": 60,
+        	"Speed": -40,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 1440,
+		},
+  	"Price": 90000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

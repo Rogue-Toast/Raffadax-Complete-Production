@@ -1,0 +1,19 @@
+{
+  	"Name": "Raisin Juice",
+    	"Description": "A savory-sweet juice made from raisins.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 45,
+	"EdibleIsDrink": true,
+    	"Price": 295,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "George", "Lewis", "Linus", "Martin", "Sandy" ],
+        	"Like": [ "Alex", "Apples", "Claire", "Demetrius", "Elliott", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Marlon", "Morris", "Pam", "Robin", "Shane", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Gus", "Haley", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Sam", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Jas", "Krobus", "Leo", "Morgan", "Victor", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Olivia", "Penny", "Sebastian" ]
+		},
+}

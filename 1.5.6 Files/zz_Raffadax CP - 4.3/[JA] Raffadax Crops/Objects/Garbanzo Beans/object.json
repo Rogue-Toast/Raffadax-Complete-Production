@@ -1,0 +1,14 @@
+{
+	"Name": "Garbanzo Beans",
+  	"Description": "A high protein legume popular in mid-eastern cuisine. They are called 'chick peas' in some parts of the world, and are commonly used as a salad topping or as a base for hummus.",
+  	"Category": "Vegetable",
+  	"Edibility": 40,
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Morgan", "Sam", "Vincent" ]
+		},
+}

@@ -1,0 +1,36 @@
+{
+	"Name": "Forest Rose Honey",
+	"Description": "A fragrant, sparkling honey sourced from enchanted forest roses.",
+	"Category": "-26",
+	"CategoryTextOverride": "Mythic Honey",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 10,
+        	"Fishing": 0,
+      		"Foraging": 10,
+        	"Mining": 0,
+
+        	"Luck": 15,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 7,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 10100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+	"ContextTags": 
+        	[
+        	"mythic_honey_item"
+        	],
+}

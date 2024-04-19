@@ -1,0 +1,35 @@
+{
+	"Name": "Summer Starbeam Wine",	
+	"Description": "An invigorating fortified wine made from summer starberries. Despite it's mildly spicy fruit flavor, this wine is extremely popular. Summer starberry beverages are always warm, and cannot be cooled by any means.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Fortified Wine",	
+	"Edibility": 200,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 20,
+      		"Foraging": 0,
+        	"Mining": 20,
+
+        	"Luck": 20,
+        	"MaxStamina": 20,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 20,
+        	"Defense": 0,
+
+        	"Duration": 360,
+		},
+	"Price": 18000,
+	"IsColored": false,
+	"Recipe": null,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

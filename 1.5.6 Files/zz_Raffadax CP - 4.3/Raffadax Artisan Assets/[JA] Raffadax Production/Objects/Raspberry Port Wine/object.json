@@ -1,0 +1,35 @@
+{
+    	"Name": "Raspberry Port Wine",
+    	"Description": "A sweet-tart fortified wine made from raspberries. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fortified Wine",
+  	"Edibility": 95,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -3,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 900,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Astrid", "Coyote", "Demetrius", "Haley", "Harvey", "Hekate", "Leah", "Linus", "Mephisto", "Olivia", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Like": [ "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Pierre", "Sam", "Sheila", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

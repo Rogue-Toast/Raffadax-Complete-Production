@@ -1,0 +1,24 @@
+{
+	"Name": "Spring Onion",
+    	"Product": "Spring Onion",
+    	"SeedName": "Spring Onion Seeds",
+    	"SeedDescription": "Seeds for a wild variety of onion with a milder flavor than cultivated onions. May additionally produce allium flowers and scallions at harvest. Takes 4 days to mature. Plant in the spring.",
+    	"Type": "Vegetable",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 1, 1, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+    	"SeedPurchasePrice": 20,
+ 	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": null,
+	"DisableWithMod": "Mae.foragetofarm",
+}

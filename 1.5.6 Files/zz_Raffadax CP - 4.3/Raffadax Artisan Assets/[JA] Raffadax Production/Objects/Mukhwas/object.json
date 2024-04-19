@@ -1,0 +1,44 @@
+{
+	"Name": "Mukhwas",
+  	"Description": "A mixture of fragrant seeds and spices traditionally served after a meal as a digestive aid and breath freshener.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 525,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 5,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Fennel Seeds",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Star Anise",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Coconut Flakes",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Coriander",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Black Sesame Seeds",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

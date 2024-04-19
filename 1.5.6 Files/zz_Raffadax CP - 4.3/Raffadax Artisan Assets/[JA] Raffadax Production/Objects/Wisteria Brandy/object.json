@@ -1,0 +1,35 @@
+{
+	"Name": "Wisteria Brandy",
+  	"Description": "A toxic floral brandy made by distilling wisteria wine. It has an amazing fragrance, and is popular with non-human entities. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Floral Brandy",
+  	"Edibility": -60,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 1200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

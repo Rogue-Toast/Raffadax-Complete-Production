@@ -1,0 +1,35 @@
+{
+  	"Name": "Sparkling Jacaranda Mead",
+  	"Description": "A sparkling mead made from toxic jacaranda flower honey. It is well liked by demi-humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Sparkling Mead",
+  	"Edibility": -200,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 8,
+        	"Fishing": 8,
+      		"Foraging": 8,
+        	"Mining": 8,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 3300,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Xolotl" ],
+		"Like": [ "Sebastian", "Alecto", "Wizard" ],
+		"Neutral": [ "Hekate", "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

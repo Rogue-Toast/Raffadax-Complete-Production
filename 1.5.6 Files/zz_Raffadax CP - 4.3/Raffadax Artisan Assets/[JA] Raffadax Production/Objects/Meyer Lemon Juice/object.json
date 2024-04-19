@@ -1,0 +1,19 @@
+{
+	"Name": "Meyer Lemon Juice",
+  	"Description": "A slightly sweet lemon juice that can be used for cooking and dessert making. It also mixes well in cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 50,
+  	"EdibleIsDrink": true,
+  	"Price": 395,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Gus", "Haley", "Leo", "Martin", "Olivia", "Pam", "Sandy", "Shane"  ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Robin", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Eloise", "Krobus", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Jas", "Sebastian" ]
+		},
+}

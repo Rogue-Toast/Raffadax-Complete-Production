@@ -1,0 +1,16 @@
+{
+	"Name": "Tobacco ",
+  	"Description": "An herb that is high in nicotine which is used primarily for smoking and chewing. Not for minors. Use in moderation.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Smoke Leaf",
+  	"Edibility": -300,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Gunther", "Marlon", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Andy", "Pam", "Shane", "Wednesday" ], 
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Xolotl" ],
+		},
+}

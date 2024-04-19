@@ -1,0 +1,17 @@
+{
+    	"Name": "Rhubarb Jelly",
+    	"Description": "A sweet-tart jelly made from the edible parts of rhubarb.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jelly",
+  	"Edibility": 25,
+  	"Price": 490,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Like": [ "Andy", "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Martin", "Morris", "Olivia", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Lewis", "Marnie", "Maru", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Morgan", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

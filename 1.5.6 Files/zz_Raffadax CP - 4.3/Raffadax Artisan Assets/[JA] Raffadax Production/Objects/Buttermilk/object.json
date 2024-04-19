@@ -1,0 +1,18 @@
+{
+    	"Name": "Buttermilk",
+    	"Description": "A fermented milk product used in cooking and baking. Its high acidity gives it a tangy flavor.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Dairy",
+    	"Edibility": 75,
+    	"EdibleIsDrink": true,
+    	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Evelyn", "Gregory", "Jodi", "Leah", "Linus", "Marnie", "Martin", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sheila" ], 
+        	"Neutral": [ "Abigail", "Alecto", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Eloise", "Emily", "George", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Krobus", "Leo", "Marlon", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Puck", "Sam", "Sebastian", "Shane", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Elliott", "Haley", "Lewis", "Wizard" ],
+		"Hate": [ "Kent" ]
+		},
+}

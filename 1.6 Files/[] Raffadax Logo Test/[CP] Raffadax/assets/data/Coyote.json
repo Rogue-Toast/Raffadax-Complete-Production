@@ -55,7 +55,7 @@
 			"Target": "Strings/NPCNames",
 			"Action": "EditData",
 			"Entries": {
-				"{{Coyote}}": "{{i18n::Coyote.DisplayName}}"
+				"{{Coyote}}": "{{i18n:Coyote.DisplayName}}"
 			}
 		},
 

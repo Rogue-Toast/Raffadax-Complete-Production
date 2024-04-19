@@ -1,0 +1,18 @@
+{
+  	"Name": "Cocoa Powder",
+  	"Description": "A fine brown dust made from ground cocoa. It is unsweetened, and primarily used to make dessert items and baked goods.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Baking Component",
+  	"Edibility": -300,
+  	"Price": 1400,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Olivia", "Pierre", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Apples", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Astrid", "Claire", "Coyote", "Dwarf", "Pam", "Penny", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Puck", "Sam", "Sebastian", "Shane", "Shuck", "Vincent"]
+		},
+	"DisableWithMod": "penny3.JA.HCS",
+}

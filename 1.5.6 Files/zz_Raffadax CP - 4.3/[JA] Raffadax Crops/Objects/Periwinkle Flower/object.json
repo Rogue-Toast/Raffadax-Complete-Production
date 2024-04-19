@@ -1,0 +1,17 @@
+{
+	"Name": "Periwinkle Flower",
+  	"Description": "A bluish-lavender flower from an ornamental growndcover plant. For a variety of reasons beyond its high toxicity, this flower is sometimes known as 'the flower of death'.",
+  	"Category": "Flower",
+  	"Edibility": -75,
+  	"Price": 30,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Beatrice", "Hekate", "Morgan", "Olivia", "Pam", "Sandy", "Sheila", "Wednesday", "Alecto", "Wizard" ], 
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Evelyn", "Gus", "Harvey", "Hephaestus", "Jas", "Jodi", "Krobus", "Marnie", "Maru", "Mephisto", "Puck", "Sebastian", "Shuck", "Sophia", "Xolotl" ],
+        	"Neutral": [ "Andy", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Gregory", "Gunther", "Haley", "Kent", "Leah", "Lewis", "Linus", "Penny", "Pierre", "Robin", "Sam", "Shane", "Susan", "Willy" ],
+		"Dislike": [ "Alex", "George", "Jacob", "Leo", "Martin", "Morris", "Victor", "Vincent" ],
+		"Hate": [ "Marlon" ],	
+		},
+}

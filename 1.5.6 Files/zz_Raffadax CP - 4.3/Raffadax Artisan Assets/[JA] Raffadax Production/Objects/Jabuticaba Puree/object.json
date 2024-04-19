@@ -1,0 +1,19 @@
+{
+	"Name": "Jabuticaba Puree",
+  	"Description": "Jabuticaba fruit that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+  	"Price": 600,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gunther", "Gus", "Haley", "Jacob", "Leah", "Lewis", "Leo", "Sophia", "Victor" ],
+        	"Like": [ "Alex", "Abigail", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Hekate", "Hephaestus", "Jas", "Jodi", "Kent", "Krobus", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Susan", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Dwarf" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

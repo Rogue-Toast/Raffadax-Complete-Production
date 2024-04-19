@@ -1,0 +1,18 @@
+{
+    	"Name": "Honey Snacks",
+    	"Description": "A cereal made with puffed rice coated in honey.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cereal",
+  	"Edibility": 75,
+  	"Price": 750,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "George", "Gregory", "Gunther", "Haley", "Jodi", "Kent", "Pierre", "Willy" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Gus", "Harvey", "Jacob", "Leah", "Lewis", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Alecto", "Wizard" ],
+		"Neutral": [ "Jas", "Hekate", "Leo", "Linus", "Morgan", "Vincent" ],
+		"Dislike": [ "Apples", "Dwarf", "Hephaestus", "Krobus", "Wednesday" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Maru", "Mephisto", "Puck", "Sebastian", "Shuck", "Xolotl" ]
+		},
+}

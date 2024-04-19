@@ -1,0 +1,14 @@
+{
+  	"Name": "Silver Antler",
+  	"Description": "A gleaming antler that is made of pure silver.",
+  	"Category": "-18",
+  	"CategoryTextOverride": "Mythic Forage",
+  	"Edibility": -300,
+  	"Price": 600,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Apples", "Andy", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

@@ -1,0 +1,10 @@
+{
+	"Name": "Saguaro Cactus",
+    	"Product": "Bahidaj",
+    	"SaplingName": "Saguaro Cactus Sapling",
+    	"SaplingDescription": "A giant desert cactus which produces a sweet, heavily seeded fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 14000,
+	"SaplingPurchaseRequirements": ["f Xolotl 2500"],
+}

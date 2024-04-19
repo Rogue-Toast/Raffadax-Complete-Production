@@ -1,0 +1,18 @@
+{
+  	"Name": "Ground Ginger",
+  	"Description": "A fragrant powdered spice made from ginger root. It has a distinct, spicy flavor and is used in both sweet and savory dishes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Ground Spice",
+  	"Edibility": -300,
+  	"Price": 110,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "Gus", "Olivia" ],
+		"Like": [ "Beatrice", "Emily", "Pierre", "Robin", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Claire", "Coyote", "Dwarf", "Mephisto", "Morgan", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

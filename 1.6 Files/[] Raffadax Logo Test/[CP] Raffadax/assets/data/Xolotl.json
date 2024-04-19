@@ -40,14 +40,24 @@
 					"Home": [
 						{
 							"Id": "Default",
-							"Location": "Island_Shrine",
-							"Tile": { "X": 22, "Y": 22 },
+							"Location": "IslandShrine",
+							"Tile": { "X": 20, "Y": 24 },
 							"Direction": "down",
 						}
 					]
 				}
 			}
 		},
+
+// Display Name
+	{
+		"LogName": "Display name in standard location",
+		"Target": "Strings/NPCNames",
+		"Action": "EditData",
+		"Entries": {
+			"{{Xolotl}}": "{{i18n:Xolotl.DisplayName}}"
+		}
+	},
 
 // Portraits & sprites
 		{
@@ -88,7 +98,7 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Xolotl}}",
 			"Entries": {
-				"Mon": "0610 Island_Shrine 22 22 2 {{Lowercase:{{ModID}}}}_xolotl_Sit/2350 Island_Shrine 22 22 2 {{Lowercase:{{ModID}}}}_xolotl_Midnight/0110 Island_Shrine 22 22 2 {{Lowercase:{{ModID}}}}_xolotl_Sit",
+				"Mon": "0610 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Sit/2350 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Midnight/0110 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Sit",
 				"Tue": "GOTO Mon",
 				"Wed": "GOTO Mon",
 				"Thu": "GOTO Mon",

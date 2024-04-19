@@ -1,0 +1,12 @@
+{
+	"Name": "Tamarind Tree",
+    	"Product": "Tamarind",
+    	"SaplingName": "Tamarind Sapling",
+    	"SaplingDescription": "A tree which produces long, bean-like fruit pods. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Coyotl",
+    	"SaplingPurchasePrice": 5000,
+	"SaplingPurchaseRequirements": ["f Coyote 2000"],
+	"DisableWithMod": "BonsterTrees",
+
+}

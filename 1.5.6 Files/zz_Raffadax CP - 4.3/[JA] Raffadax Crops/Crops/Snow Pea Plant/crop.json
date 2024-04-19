@@ -1,0 +1,23 @@
+{
+	"Name": "Snow Pea Plant",
+    	"Product": "Snow Pea",
+    	"SeedName": "Snow Pea Starter",
+    	"SeedDescription": "A trellised variant of pea with an edible-pod. Matures in 10 days, and continues to produce every four days after. Plant in the winter.",
+    	"Type": "Vegetable",
+   	"Seasons": ["winter"],
+    	"Phases": [1, 2, 2, 3, 1],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus":
+    		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+    	"SeedPurchasePrice": 65,
+    	"SeedPurchaseFrom": "Selkie",
+    	"SeedPurchaseRequirements": [ "f Astrid 1000" ],
+}

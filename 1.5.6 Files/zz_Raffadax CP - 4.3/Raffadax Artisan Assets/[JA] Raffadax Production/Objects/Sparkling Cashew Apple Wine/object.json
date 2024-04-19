@@ -1,0 +1,36 @@
+{
+	"Name": "Sparkling Cashew Apple Wine",
+    	"Description": "A lightly sweet sparkling wine made from cashew apples. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Sparkling Wine",
+	"Edibility": 80,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Hekate", "Leah", "Mephisto", "Olivia", "Pierre", "Puck", "Sandy", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Caroline", "Clint", "Gregory", "Gunther", "Emily", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sheila", "Victor", "Wednesday", "Willy" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Dislike": [ "Alex", "Claire", "Pam" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

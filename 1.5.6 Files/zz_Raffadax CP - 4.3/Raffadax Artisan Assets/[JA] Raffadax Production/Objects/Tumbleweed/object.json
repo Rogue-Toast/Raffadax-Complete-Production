@@ -1,0 +1,16 @@
+{
+  	"Name": "Tumbleweed",
+  	"Description": "The dead, shrub-like portion of a plant which disperses its seeds throughout the desert as it is pushed around by the wind. It has a good amount of usable fiber.",
+  	"Category": "-28",
+  	"CategoryTextOverride": "Nature Forage",
+  	"Edibility": -300,
+  	"Price": 5,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Gunther", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", ],
+
+		},
+}

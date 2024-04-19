@@ -1,0 +1,16 @@
+{
+	"Name": "Flinders Rose",
+  	"Description": "A whitish-pink flower from a caper bush. These flowers taste like a milder version of the buds and berries, and can be used as a deorative garnish.",
+  	"Category": "Flower",
+  	"Edibility": 10,
+  	"Price": 30,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Abigail", "Amanra", "Astrid", "Coyote", "Demetrius", "Evelyn", "Gus", "Hekate", "Leah", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marnie", "Maru", "Morgan", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Caroline", "Elliott", "Eloise", "George", "Leo", "Martin", "Morris", "Penny", "Victor", "Wednesday" ],
+		"Hate": [ "Marlon" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+  	"Name": "Monstera Jam",
+    	"Description": "A delicious white jam made with monstera fruit pulp. It has an amazing, tropical flavor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+    	"Edibility": 300,
+    	"Price": 4600,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Gunther", "Leo" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Vincent", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

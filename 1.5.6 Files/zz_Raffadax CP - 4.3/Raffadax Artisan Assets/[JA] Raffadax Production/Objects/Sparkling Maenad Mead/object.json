@@ -1,0 +1,35 @@
+{
+	"Name": "Sparkling Maenad Mead",
+	"Description": "A sparkling mead made from the honey of a Maenad. The bubbles in this mead gisten with silver light.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Sparkling Mead",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 25,
+        	"Fishing": 0,
+      		"Foraging": 25,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 20,
+		"MagnetRadius": 0,
+        	"Speed": -20,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 45300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Claire", "Hekate", "Susan" ],
+		"Neutral": [ "Morgan", "Olivia", "Sebastian", "Sophia", "Victor" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Vincent" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+	"Name": "Java Banana Compote",
+  	"Description": "A sweet blue syrup containing large chunks of Java banana. It makes an excellent topping for teacakes, pancakes or ice cream.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Compote",
+  	"Edibility": 150,
+  	"Price": 4400,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Jacob", "Jas", "Krobus", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Hekate", "Hephaestus", "Sebastian" ],
+		},
+}

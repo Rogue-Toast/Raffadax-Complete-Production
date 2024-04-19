@@ -1,0 +1,17 @@
+{
+	"Name": "White Chocolate Mocha Beans",
+  	"Description": "Coffee beans that have been infused with white chocolate extract. They brew a sweet, chocolatey coffee beverage.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Coffee Beans",
+  	"Edibility": -300,
+  	"Price": 3840,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Haley", "Harvey" ],
+        	"Neutral": [ "Andy", "Abigail", "Alex", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Dislike": [ "Amanra", "Astrid", "Leo", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Vincent" ]
+		},
+}

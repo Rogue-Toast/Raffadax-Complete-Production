@@ -1,0 +1,17 @@
+{
+  	"Name": "Wintergreen",
+    	"Description": "The waxy green leaves of a wild herb; they have a distinct aroma like sweet mint. The oil from these leaves is used medicinally, as well as a flavor agent in food, candies and teas.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Herb",  	
+    	"Edibility": 5,
+    	"Price": 25,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Dwarf", "Evelyn", "George", "Gus", "Harvey", "Leo", "Linus", "Marlon", "Maru", "Mephisto", "Olivia", "Puck", "Shuck", "Susan", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Martin", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Willy", "Alecto", "Wizard" ],
+	"Dislike": [ "Andy", "Eloise", "Jas", "Morgan", "Vincent" ],
+	"Hate": [ "Hephaestus", "Krobus", "Wednesday" ]
+		},
+}

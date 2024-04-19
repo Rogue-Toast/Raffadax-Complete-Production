@@ -1,0 +1,32 @@
+{
+    	"Name": "Panacea",
+    	"Description": "A divine elixir that can cure any disease and heal any wound. It is said that this potation can regrow lost limbs and organs, and even bring the recently deceased back to life. Panacea will return elderly individuals to a youthful state, and transform frail bodies into perfect specimens of fitness.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Elixir of Life",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 50,
+        	"Fishing": 50,
+      		"Foraging": 50,
+        	"Mining": 50,
+
+        	"Luck": 50,
+        	"MaxStamina": 50,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 50,
+        	"Defense": 50,
+
+        	"Duration": 1440,
+		},
+	"Price": 50000,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

@@ -1,0 +1,35 @@
+{
+	"Name": "Mead of Helheim",
+	"Description": "A mead drank by the restless fallen in the halls of Éljúdnir. This mead glows with an alluring light, but is not safe for mortals to consume.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Fortified Mead",
+	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -30,
+        	"MaxStamina": -30,
+		"MagnetRadius": 0,
+        	"Speed": 15,
+
+		"Attack": 40,
+        	"Defense": 40,
+
+        	"Duration": 240,
+		},
+	"Price": 120600,
+  	"IsColored": false,
+  	"Recipe": null,
+   	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Hekate", "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ]
+		},
+}

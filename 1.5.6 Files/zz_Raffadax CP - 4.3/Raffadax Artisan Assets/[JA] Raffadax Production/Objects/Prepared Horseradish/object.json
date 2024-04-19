@@ -1,0 +1,17 @@
+{
+  	"Name": "Prepared Horseradish",
+  	"Description": "Coursely ground horseradish that is ready for use. It can be mixed into sauces and condiments, or used in tomato based cocktails such as Bloody Marys.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Puree",
+  	"Edibility": 30,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Andy", "Gus", "Harvey", "Krobus", "Leah", "Linus", "Olivia" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Emily", "Kent", "Maru", "Mephisto", "Penny", "Puck", "Sandy", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Alex", "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Hekate", "Hephaestus", "Jacob", "Jodi", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Morris", "Pam", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Hate": [ "Eloise", "Haley", "Jas", "Morgan", "Sebastian", "Vincent"]
+		},
+}

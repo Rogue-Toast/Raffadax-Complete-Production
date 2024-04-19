@@ -1,0 +1,36 @@
+{
+    	"Name": "Rowanberry Puree",
+    	"Description": "Rowanberries that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+   	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 40,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 2,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 40,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Hephaestus" ],
+		"Like": [ "Demetrius", "Gus", "Hekate", "Leah", "Leo", "Linus", "Maru", "Olivia", "Pam", "Robin", "Sandy", "Shane", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Claire", "Clint", "Coyote", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Mephisto", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Vincent", "Willy", "Xolotl" ],
+		"Dislike": [ "Apples", "Caroline", "Elliott", "Eloise", "Evelyn", "George", "Martin", "Morgan", "Morris", "Penny", "Victor", "Wednesday" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

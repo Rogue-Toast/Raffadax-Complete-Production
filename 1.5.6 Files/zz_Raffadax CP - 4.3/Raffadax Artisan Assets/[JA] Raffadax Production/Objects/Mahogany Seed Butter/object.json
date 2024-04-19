@@ -1,0 +1,16 @@
+{
+    	"Name": "Mahogany Seed Butter",
+    	"Description": "A smooth, creamy butter made from mahogany seeds. It can be used as a spread or as a baking component.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Seed Butter",
+    	"Edibility": 50,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Sebastian", "Vincent" ]
+		},
+}

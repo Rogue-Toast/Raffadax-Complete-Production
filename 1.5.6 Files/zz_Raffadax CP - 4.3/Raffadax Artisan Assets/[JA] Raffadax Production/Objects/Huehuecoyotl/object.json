@@ -1,0 +1,34 @@
+{
+	"Name": "Huehuecoyotl",
+	"Description": "A mystical beverage originally crafted by the Great Coyote; it is made from the fruit of a divine flower. Those who drink this wine have half of their consciousness pulled into the realm of shadows. Such individuals are able to freely communicate with spirits, but they have a difficult time discerning reality afterward.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Divine Libation",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 100,
+        	"Mining": 0,
+
+        	"Luck": 100,
+        	"MaxStamina": -100,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 75,
+        	"Defense": -75,
+
+        	"Duration": 1440,
+		},
+	"Price": 1000000,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

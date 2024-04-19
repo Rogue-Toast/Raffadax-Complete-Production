@@ -1,0 +1,35 @@
+{
+    	"Name": "Harmonic Cider",
+    	"Description": "A shining cider made from the apples of Idunn. It is said that humans who drink this beverage will never age.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Mythic Cider",
+ 	"CategoryTextOverride": "Arcane Wine",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 25,
+        	"Fishing": 25,
+      		"Foraging": 25,
+        	"Mining": 25,
+
+        	"Luck": 50,
+        	"MaxStamina": 25,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 60000,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Morgan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

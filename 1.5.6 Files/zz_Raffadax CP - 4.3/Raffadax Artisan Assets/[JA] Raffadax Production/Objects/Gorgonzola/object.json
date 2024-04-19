@@ -1,0 +1,18 @@
+{
+    	"Name": "Gorgonzola",
+    	"Description": "A crumbly cow's milk cheese with a sharp, tangy flavor. Its characteristic blue-green spotting is caused by a mold growing through the cheese.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Cheese",
+    	"Edibility": 125,
+    	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Gregory", "Gus", "Lewis", "Morris", "Olivia", "Willy" ], 
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Wednesday", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Victor", "Xolotl" ], 
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Jas", "Sebastian", "Vincent" ],
+		},
+}

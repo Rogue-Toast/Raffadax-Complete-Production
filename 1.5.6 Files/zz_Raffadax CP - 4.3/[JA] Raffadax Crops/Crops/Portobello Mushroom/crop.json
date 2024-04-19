@@ -1,0 +1,23 @@
+{
+	"Name": "Portobello Mushroom",
+	"Product": "Portobello Mushroom",
+	"SeedName": "Portobello Mushroom Starter",
+	"SeedDescription": "Spores for a large variety of edible mushroom popular for its meaty texture. May produce white cremini and button mushrooms in addition to mature portobellos. Takes 10 days to mature. Plant in the fall.",
+    	"Type": "Greens",
+    	"Seasons": ["fall"],
+    	"Phases": [ 2, 3, 4, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 150,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": ["f Shuck 2000"]
+}

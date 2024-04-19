@@ -1,0 +1,18 @@
+{
+	"Name": "Guava Puree",
+  	"Description": "Guava fruit that has been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and tropical cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 65,
+	"EdibleIsDrink": true,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jas", "Krobus", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Sebastian" ],
+		},
+}

@@ -1,0 +1,33 @@
+{
+  	"Name": "Tea of Abyss",
+  	"Description": "A dark tea that moves as though there are worms writhing beneath the surface. Those who drink this tea right before going to bed are likely to suffer from night terrors. Drink with caution.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Arcane Tea",
+  	"Edibility": -299,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -25,
+        	"MaxStamina": 10,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 10,
+        	"Defense": 10,
+
+        	"Duration": 240,
+		},
+  	"Price": 25100,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Dwarf", "Morgan", "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

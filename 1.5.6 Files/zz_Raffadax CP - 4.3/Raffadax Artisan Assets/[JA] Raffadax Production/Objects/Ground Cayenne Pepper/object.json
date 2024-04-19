@@ -1,0 +1,18 @@
+{
+  	"Name": "Ground Cayenne Pepper",
+  	"Description": "A vibrant red spice made from ground cayenne peppers. It adds a moderate level of heat to dishes, making it a popular cooking spice.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Ground Spice",
+  	"Edibility": -300,
+  	"Price": 65,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "Gus", "Olivia" ],
+		"Like": [ "Beatrice", "Emily", "Pierre", "Robin", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Claire", "Coyote", "Dwarf", "Mephisto", "Morgan", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

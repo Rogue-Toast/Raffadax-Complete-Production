@@ -1,0 +1,35 @@
+{
+	"Name": "Preserved Psilocybin Mushrooms",
+  	"Description": "Chopped psychadelic mushrooms that have been preserved in a brine solution. These mushrooms are highly psychadelic, and should be treated as a medicine. Keep out of reach of children.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickled Mushrooms",
+  	"Edibility": -50,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 7,
+        	"MaxStamina": -7,
+		"MagnetRadius": 0,
+        	"Speed": -7,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 1050,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Love": [ "Hekate", "Alecto", "Wizard" ],
+		"Like": [ "Dwarf", "Harvey", "Hephaestus", "Krobus", "Maru", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Leah", "Linus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Beatrice", "Claire", "Clint", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Jacob", "Kent", "Lewis", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Apples", "Caroline", "Elliott", "Eloise", "Haley", "Jas", "Jodi", "Leo", "Morgan", "Pierre", "Sam", "Sebastian", "Shane", "Vincent", "Willy" ]
+		},
+}

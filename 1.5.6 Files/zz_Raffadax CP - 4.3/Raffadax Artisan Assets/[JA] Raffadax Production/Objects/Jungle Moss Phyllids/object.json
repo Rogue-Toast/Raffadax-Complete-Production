@@ -1,0 +1,17 @@
+{
+	"Name": "Jungle Moss Phyllids",
+  	"Description": "A soft, spongy, powdered material made from fresh jungle moss. It can be used as a component in medications and healing tonics.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Herb",
+  	"Edibility": 300,
+  	"Price": 50500,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Emily", "Harvey", "Hekate", "Leo", "Marlon", "Maru", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Hephaestus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane",  "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Sebastian", "Vincent" ]
+		},
+}

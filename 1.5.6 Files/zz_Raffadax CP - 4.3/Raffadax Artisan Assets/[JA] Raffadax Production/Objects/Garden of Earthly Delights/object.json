@@ -1,0 +1,16 @@
+{
+  	"Name": "Garden of Earthly Delights",
+  	"Description": "A perfume made from the ergot fungus. It has a heady aroma that causes those who smell it to hallucinate wildly.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Perfume",
+  	"Edibility": -300,
+  	"Price": 40,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

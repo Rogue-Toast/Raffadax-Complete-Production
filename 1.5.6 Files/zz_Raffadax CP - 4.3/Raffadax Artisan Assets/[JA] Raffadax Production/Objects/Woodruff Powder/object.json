@@ -1,0 +1,17 @@
+{
+	"Name": "Woodruff Powder",
+  	"Description": "A bright green powder made from deep forest herbs. It can be used to add a pleasant flavor to sweet beverages and desserts.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Ground Herb",
+  	"Edibility": -300,
+  	"Price": 300,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "Gus", "Olivia" ],
+		"Like": [ "Abigail", "Beatrice", "Emily", "Hekate", "Hephaestus", "Marlon", "Morgan", "Pierre", "Robin", "Susan", "Alecto", "Wizard" ],
+        	"Neutral": [ "Alex", "Caroline", "Clint", "Demetrius", "Elliott", "George", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Morris", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Claire", "Coyote", "Dwarf", "Mephisto", "Morgan", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

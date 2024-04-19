@@ -1,0 +1,10 @@
+{
+	"Name": "Island Coconut Tree",
+    	"Product": "Coconut",
+    	"SaplingName": "Island Coconut Sapling",
+    	"SaplingDescription": "A tropical coconut palm. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 4000,
+    	"SaplingPurchaseRequirements": [ "f Astrid 500" ],
+}

@@ -1,0 +1,35 @@
+{
+    	"Name": "Calvados",
+    	"Description": "A flavorful spirit made from distilled apple cider. It is traditionally drunk as a brandy. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Spirit",
+	"Edibility": 165,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 3500,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Gus", "Hekate", "Hephaestus", "Kent", "Lewis", "Linus", "Mephisto", "Pam", "Puck", "Sam", "Shane", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Haley", "Jacob", "Jodi", "Krobus", "Leah", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pierre", "Robin", "Victor", "Sandy", "Sheila", "Sophia", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Plantain Puree",
+    	"Description": "Plantains that have been mashed into a smooth, thin spread. It can be used as a spread, or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 75,
+	"EdibleIsDrink": true,
+    	"Price": 660,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Pam", "Robin", "Sandy", "Shane" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Krobus", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Morgan", "Vincent" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

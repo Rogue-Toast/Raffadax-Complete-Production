@@ -1,0 +1,15 @@
+{
+  	"Name": "Mint Flower",
+    	"Description": "A cluster of fuzzy purple flowers growing on a stalk. These flowers have a similar, yet milder flavor than the leaves of the mint plants they grow from.",
+  	"Category": "Flower",	
+    	"Edibility": 5,
+    	"Price": 30,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Like": [ "Abigail", "Amanra", "Astrid", "Coyote", "Demetrius", "Evelyn", "Gus", "Hekate", "Leah", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marnie", "Maru", "Morgan", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Caroline", "Elliott", "Eloise", "George", "Leo", "Martin", "Morris", "Penny", "Victor", "Wednesday" ],
+		"Hate": [ "Marlon" ]
+		},
+}

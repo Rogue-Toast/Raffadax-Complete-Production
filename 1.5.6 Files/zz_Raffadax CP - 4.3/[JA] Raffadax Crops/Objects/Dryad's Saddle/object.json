@@ -1,0 +1,33 @@
+{
+	"Name": "Dryad's Saddle",
+  	"Description": "A large bract mushroom that grows on the sides of tree trunks. It has a smell and flavor similar to cucumbers, and is primarily used in soups and stews due to its chewy texture.",
+  	"Category": "-81",
+  	"CategoryTextOverride": "Mushroom",
+  	"Edibility": 50,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 5,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Harvey", "Leah", "Linus", "Mephisto", "Olivia", "Puck", "Shuck", "Victor", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Gus", "Jacob", "Kent", "Hekate", "Marlon", "Martin", "Morris", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Wednesday" ],
+        	"Dislike": [ "Andy", "Caroline", "Claire", "Dwarf", "Elliott", "Eloise", "Gregory", "Gunther", "Haley", "Hephaestus", "Jas", "Jodi", "Krobus", "Leo", "Pierre", "Sam", "Sebastian", "Shane", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ]	
+		},
+}

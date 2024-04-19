@@ -1,0 +1,11 @@
+{
+	"Name": "Pear Tree",
+    	"Product": "Pear",
+    	"SaplingName": "Pear Sapling",
+    	"SaplingDescription": "A tree which produces sweet pears. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": null,
+    	"SaplingPurchasePrice": 3000,
+	"SaplingPurchaseRequirements": null,
+	"DisableWithMod": "ppja.moretrees",
+}

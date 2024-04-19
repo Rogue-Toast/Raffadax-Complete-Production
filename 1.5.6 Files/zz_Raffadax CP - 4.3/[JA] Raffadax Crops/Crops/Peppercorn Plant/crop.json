@@ -1,0 +1,23 @@
+{
+	"Name": "Peppercorn Plant",
+	"Product": "Red Peppercorns",
+	"SeedName": "Peppercorn Starter",
+	"SeedDescription": "A trellised crop which may produce green and black in addition to red peppercorns. Reds can be blanched to produce white peppercorns, or dried to produce black. Takes 7 days to mature, then produces every five days after. Plant in the fall.",
+    	"Type": "Greens",
+    	"Seasons": ["fall"],
+    	"Phases": [ 1, 1, 2, 2, 1 ],
+    	"RegrowthPhase": 5,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+	"SeedPurchasePrice": 50,
+	"SeedPurchaseFrom": "Barghest",
+	"SeedPurchaseRequirements": ["f Shuck 1500"],
+}

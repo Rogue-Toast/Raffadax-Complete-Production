@@ -1,0 +1,19 @@
+{
+  	"Name": "Golden Prune Juice",
+  	"Description": "A high-fiber, golden juice made from prunes. The dehydration process concentrated the sugars in the plums, causing this juice to be naturally sweeter than golden plum juice.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 65,
+  	"EdibleIsDrink": true,
+    	"Price": 340,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Demetrius", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Martin", "Pam", "Robin", "Sandy", "Sheila" ],
+        	"Like": [ "Abigail", "Apples", "Caroline", "Clint", "Claire", "Eloise", "Gregory", "Gus", "Hekate", "Hephaestus", "Jacob", "Jas", "Marlon", "Marnie", "Maru", "Pierre", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Dwarf", "Emily", "Haley", "Morgan", "Olivia", "Penny", "Morris", "Sam", "Shane", "Willy" ],
+		"Hate": [ "Andy", "Alex", "Haley", "Jas", "Krobus", "Leo", "Sebastian", "Vincent" ]
+		},
+}

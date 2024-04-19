@@ -1,0 +1,17 @@
+{
+  	"Name": "Midnight Thorn",
+  	"Description": "A perfume made from the extract of nettle blossoms. It has a fresh, herbal fragrance.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Perfume",
+  	"Edibility": -300,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Beatrice", "Caroline", "Claire", "Eloise", "Emily", "Evelyn", "Haley", "Jas", "Jodi", "Leah", "Marnie", "Maru", "Olivia", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Susan" ],
+		"Neutral": [ "Demetrius", "George", "Hekate", "Kent", "Lewis", "Pierre" ],
+		"Dislike": [ "Alex", "Andy", "Clint", "Elliott", "Gregory", "Gunther", "Gus", "Harvey", "Jacob", "Martin", "Morris", "Alecto", "Wizard" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Leo", "Linus", "Marlon", "Mephisto", "Puck", "Sam", "Sebastian", "Shane", "Shuck", "Victor", "Vincent", "Wednesday", "Willy", "Xolotl" ],
+		},
+}

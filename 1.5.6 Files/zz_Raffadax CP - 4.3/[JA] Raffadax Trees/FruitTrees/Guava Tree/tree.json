@@ -1,0 +1,11 @@
+{
+	"Name": "Guava Tree",
+    	"Product": "Guava",
+    	"SaplingName": "Guava Sapling",
+    	"SaplingDescription": "A tropical tree which produces bright green, pink-fleshed fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Nagual",
+    	"SaplingPurchasePrice": 4000,
+	"SaplingPurchaseRequirements": ["f Xolotl 1000"],
+	"DisableWithMod": "hung2563hn.Guava",
+}

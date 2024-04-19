@@ -1,0 +1,17 @@
+{
+	"Name": "Dark Chocolate Mocha Beans",
+  	"Description": "Coffee beans that have been infused with dark chocolate extract. They brew a rich, chocolatey coffee beverage.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Coffee Beans",
+  	"Edibility": -300,
+  	"Price": 3840,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Harvey", "Sebastian" ],
+        	"Neutral": [ "Andy", "Abigail", "Alex", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Dislike": [ "Amanra", "Astrid", "Leo", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Vincent" ]
+		},
+}

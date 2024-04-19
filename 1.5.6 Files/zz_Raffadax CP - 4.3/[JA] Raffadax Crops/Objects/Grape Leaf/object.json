@@ -1,0 +1,16 @@
+{
+	"Name": "Grape Leaf",
+  	"Description": "A large, broad leaf from a grape vine, they can be used as a food wrap when cooking. They have a verdant, tangy flavor and are tender when eaten fresh. Grape leaves are commonly pickled, then stuffed with minced fillings; though they can also be brewed fresh into a flavorful tea.",
+  	"Category": "Vegetable",
+  	"Edibility": 10,
+  	"Price": 10,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jodi", "Kent", "Lewis", "Mephisto", "Morris", "Olivia", "Pierre", "Puck", "Sandy", "Shuck", "Sophia", "Victor", "Xolotl" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Jacob", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Robin", "Sheila", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "Apples", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane",  "Vincent" ]
+		},
+}

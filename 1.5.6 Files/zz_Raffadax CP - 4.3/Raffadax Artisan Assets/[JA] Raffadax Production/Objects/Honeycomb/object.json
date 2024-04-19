@@ -1,0 +1,36 @@
+{
+	"Name": "Honeycomb",
+	"Description": "A nutritious wax comb packed with sweet honey.",
+  	"Category": "-28",
+  	"CategoryTextOverride": "Nature Forage",	
+	"Edibility": 150,
+	"EdibleBuffs":
+		{
+        	"Farming": 1,
+        	"Fishing": 1,
+      		"Foraging": 1,
+        	"Mining": 1,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 1500,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		},
+	"ContextTags": 
+        	[
+        	"honey_item"
+        	],
+}

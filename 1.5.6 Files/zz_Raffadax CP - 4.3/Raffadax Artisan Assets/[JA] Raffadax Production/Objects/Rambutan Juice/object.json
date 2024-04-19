@@ -1,0 +1,19 @@
+{
+	"Name": "Rambutan Juice",
+  	"Description": "A pale white juice made from rambutan.  It has a sweet-sour flavor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+  	"Price": 620,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Gunther", "Gus", "Haley", "Jacob", "Leah", "Lewis", "Leo", "Martin", "Sandy", "Sophia", "Victor" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Hekate", "Hephaestus", "Jas", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Susan", "Vincent", "Wednesday", "Alecto", "Wizard", ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ],
+		},
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Thyrsus",
+  	"Description": "A golden staff topped by an enormous pinecone. This scepter can transmute any liquid into wine. The wielders of this implement can intoxicate those around them by merely willing it to happen.",
+  	"Type": "Club",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 400,
+  	"Knockback": 4.0,
+  	"Speed": 4,
+  	"Accuracy": 100,
+  	"Defense": 400,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 4.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

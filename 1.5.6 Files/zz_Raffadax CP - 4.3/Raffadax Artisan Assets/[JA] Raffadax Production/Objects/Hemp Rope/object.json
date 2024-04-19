@@ -1,0 +1,14 @@
+{
+    	"Name": "Hemp Rope",
+    	"Description": "A sturdy rope made from hemp fibers.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Resource",
+  	"Edibility": -300,
+  	"Price": 120,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		},
+}

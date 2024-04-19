@@ -1,0 +1,27 @@
+{
+	"Name": "Magic Cauldron",
+	"Description": "A brewing cauldron forged from arcane materials. When the right components are combined within this cauldron, divine libations of immense power can be brewed.",
+	"Price": 1,
+	"ProvidesLight": true,
+	"ReserveExtraIndexCount": 8,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Mythril Bar",
+            		"Count": 5,
+        		},
+        		{
+            		"Object": "Onyx",
+            		"Count": 10,
+        		},
+        		{
+            		"Object": "Azoth",
+            		"Count": 1,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

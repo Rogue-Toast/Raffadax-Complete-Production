@@ -1,0 +1,17 @@
+{
+	"Name": "Caper Juice",
+  	"Description": "A tangy, slightly floral juice made from capers.  It can be used to flavor sauces, soups and dressings.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Juice",
+  	"Edibility": 30,
+  	"EdibleIsDrink": true,
+  	"Price": 35,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Olivia" ],
+        	"Neutral": [ "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Gunther", "Haley", "Jacob", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Puck", "Robin", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Abigail", "Andy", "Eloise", "Evelyn", "Harvey", "Hekate", "Hephaestus", "Jas", "Jodi", "Leo", "Martin", "Morgan", "Penny", "Pierre", "Sam", "Sebastian", "Vincent" ]
+		},
+}

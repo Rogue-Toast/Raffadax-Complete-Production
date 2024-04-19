@@ -1,0 +1,33 @@
+{
+	"Name": "Pickled Sakura",
+  	"Description": "Sakura petals which have been pickled and dried for preservation. It is used to brew a traditional ceremonial tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickled Flowers",
+  	"Edibility": 75,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 7,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Caroline", "Claire", "Lewis" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

@@ -1,0 +1,18 @@
+{
+    	"Name": "Instant Grits",
+    	"Description": "Dry grits that have been packed into single serving pouches for easy preparation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cereal",
+  	"Edibility": -300,
+  	"Price": 250,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "George", "Gregory", "Gunther", "Haley", "Jodi", "Kent", "Pierre", "Willy" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Gus", "Harvey", "Jacob", "Leah", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Alecto", "Wizard" ],
+		"Neutral": [ "Jas", "Hekate", "Leo", "Linus", "Morgan", "Vincent" ],
+		"Dislike": [ "Apples", "Dwarf", "Hephaestus", "Krobus", "Wednesday" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Sebastian", "Shuck", "Xolotl" ]
+		},
+}

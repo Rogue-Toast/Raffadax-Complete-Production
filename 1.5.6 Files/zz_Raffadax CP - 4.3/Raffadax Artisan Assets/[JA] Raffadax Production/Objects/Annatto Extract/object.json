@@ -1,0 +1,19 @@
+{
+  	"Name": "Annatto Extract",
+  	"Description": "The extracted essence of annatto. It is primarily used as a food coloring to add yellow, orange and red depending on the amount used.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Spice Extract",
+  	"Edibility": 40,
+    	"EdibleIsDrink": true,
+  	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "Gus", "Olivia" ],
+		"Like": [ "Beatrice", "Emily", "Pierre", "Robin", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Claire", "Coyote", "Dwarf", "Mephisto", "Morgan", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

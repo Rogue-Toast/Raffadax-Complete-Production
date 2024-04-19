@@ -1,0 +1,17 @@
+{
+  	"Name": "Beach Glass",
+  	"Description": "Colorful glass that has been made smooth by the erosion of the sea.",
+  	"Category": "-23",
+  	"CategoryTextOverride": "Beach Forage",
+  	"Edibility": -300,
+  	"Price": 25,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Demetrius", "Eloise", "Gunther", "Jas", "Penny", "Vincent" ],
+        	"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Madam","Marnie", "Martin", "Maru", "Morgan", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Dislike": [ "Andy", "Marlon", "Morris" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ]
+		},
+}

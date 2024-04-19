@@ -1,0 +1,18 @@
+{
+    	"Name": "Fire Oil",
+    	"Description": "A spicy oil extracted from hot peppers. It is popular in multiple cuisines.",
+    	"Category": "ArtisanGoods",
+    	"Edibility": -300,
+    	"Price": 80,
+  	"IsColored": false,
+ 	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Olivia" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Leo", "Morgan", "Puck", "Sebastian", "Shuck", "Vincent" ]
+		},
+	"ContextTags": 
+        	[
+        	"oil_item"
+        	],
+}

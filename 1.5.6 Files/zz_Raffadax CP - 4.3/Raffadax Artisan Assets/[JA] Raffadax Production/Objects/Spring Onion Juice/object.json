@@ -1,0 +1,17 @@
+{
+	"Name": "Spring Onion Juice",
+  	"Description": "A pungent, savory-sweet juice made from spring onions. It can be used to flavor sauces, soups and dressings.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Juice",
+  	"Edibility": 35,
+  	"EdibleIsDrink": true,
+  	"Price": 90,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Olivia" ],
+        	"Neutral": [ "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Gunther", "Haley", "Jacob", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Puck", "Robin", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Abigail", "Andy", "Eloise", "Evelyn", "Harvey", "Hekate", "Hephaestus", "Jas", "Jodi", "Leo", "Martin", "Morgan", "Penny", "Pierre", "Sam", "Sebastian", "Vincent" ]
+		},
+}

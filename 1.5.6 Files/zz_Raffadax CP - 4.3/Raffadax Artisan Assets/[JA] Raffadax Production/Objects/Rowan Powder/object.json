@@ -1,0 +1,18 @@
+{
+  	"Name": "Rowan Powder",
+  	"Description": "A fragrant dust made from dried rowanberries. It is primarily used as a medicinal suppliment, but can also be used as a culinary seasoning.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Medicinal Powder",
+  	"Edibility": -300,
+  	"Price": 70,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Evelyn", "Gus", "Harvey", "Hekate", "Maru", "Morgan", "Olivia", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "George" ], 
+		"Neutral": [ "Alex", "Haley", "Robin" ],
+        	"Dislike": [ "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Gregory", "Gunther", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Martin", "Mephisto", "Morris", "Pam", "Penny", "Pierre", "Puck", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

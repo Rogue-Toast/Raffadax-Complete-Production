@@ -1,0 +1,18 @@
+{
+  	"Name": "Sundog",
+  	"Description": "The golden bow of Apollo which transforms arrows into beams of pure sunlight. When shot into the ground, this bow can trun swamp into dry land, and dry land into desert.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 150,
+  	"MaximumDamage": 250,
+  	"Knockback": 0.25,
+  	"Speed": 5,
+  	"Accuracy": 100,
+  	"Defense": 150,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.25,
+  	"CritMultiplier": 2.5,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

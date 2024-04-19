@@ -1,0 +1,36 @@
+{
+    	"Name": "Laraha Orange Wine",
+    	"Description": "A green, bitter wine made from laraha oranges. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Wine",
+  	"Edibility": 25,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 525,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Krobus", "Leah", "Mephisto", "Olivia", "Puck", "Shane", "Shuck", "Xolotl" ],
+		"Like": [ "Apples", "Dwarf", "Gus", "Hephaestus", "Wednesday" ],
+		"Neutral": [ "Sebastian", "Sophia", "Susan", "Willy", "Alecto", "Wizard" ],
+        	"Dislike": [ "Abigail", "Alex", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Jacob", "Jodi", "Kent", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sheila", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Haley", "Jas", "Leo", "Linus", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

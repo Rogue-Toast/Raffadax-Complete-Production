@@ -1,0 +1,39 @@
+{
+	"Name": "Dogwood Honey",
+	"Description": "A floral honey sourced from dogwood flowers. It is toxic to humans, and does not have an appealing fragrance.",
+	"Category": "-26",
+	"CategoryTextOverride": "Flow Honey",
+	"Edibility": -50,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming":0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 2,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 130,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Dwarf", "Hephaestus", "Krobus", "Wednesday" ],
+		"Like": [ "Amanra",  "Astrid", "Coyote", "Hekate", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olicia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+	"ContextTags": 
+        	[
+        	"poison_honey_item"
+        	],
+}

@@ -1,0 +1,16 @@
+{
+    	"Name": "Yeast",
+    	"Description": "A live yeast culture that can be used in the production of certain beers and sparkling wines.",
+    	"Category": "Crafting",
+	"CategoryTextOverride": "Live Culture",
+    	"Edibility": -300,
+    	"EdibleIsDrink": false,
+    	"Price": 15,
+    	"Recipe": null,
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+        	"Hate": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

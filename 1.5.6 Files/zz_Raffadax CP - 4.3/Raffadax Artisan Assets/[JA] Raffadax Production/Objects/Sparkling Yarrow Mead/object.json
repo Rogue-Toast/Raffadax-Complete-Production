@@ -1,0 +1,36 @@
+{
+	"Name": "Sparkling Yarrow Mead",
+  	"Description": "A sparkling mead made using honey sourced from yarrow flowers. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Sparkling Mead",
+  	"Edibility": 150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 23,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 750,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Kent", "Leo", "Linus", "Marnie", "Mephisto", "Pam", "Puck", "Robin", "Sandy", "Sheila", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Beatrice", "Caroline", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Maru", "Pierre", "Sam", "Shane", "Victor", "Wednesday" ],
+		"Neutral": [ "Morgan" ],
+		"Dislike": [ "Claire", "Morris", "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Olivia", "Penny", "Sebastian", "Sophia", "Vincent" ]	
+		},
+}

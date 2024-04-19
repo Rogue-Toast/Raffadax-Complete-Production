@@ -1,0 +1,35 @@
+{
+	"Name": "Buddha's Hand Brandy",
+	"Description": "A highly fragrant citrus brandy made by distilling Buddha's hand wine. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Brandy",
+	"Edibility": 150,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 5,
+        	"MaxStamina": 5,
+		"MagnetRadius": 5,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 1800,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Amanra", "Astrid", "Coyote", "Demetrius", "Emily", "Gunther", "Gus", "Harvey", "Hekate", "Leah", "Mephisto", "Olivia", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Apples", "Beatrice", "Caroline",  "Claire", "Clint", "Elliott", "Evelyn", "George", "Gregory", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Victor", "Willy" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Hate": [ "Andy", "Dwarf", "Eloise", "Jas", "Leo", "Krobus", "Martin", "Morgan", "Penny", "Sebastian", "Wednesday", "Vincent" ]	
+		},
+}

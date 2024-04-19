@@ -1,0 +1,18 @@
+{
+  	"Name": "Acai Puree",
+    	"Description": "Acai berries that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 125,
+	"EdibleIsDrink": true,
+    	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Claire", "Emily", "Gus", "Haley", "Sandy" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

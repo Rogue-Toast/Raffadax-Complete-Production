@@ -1,0 +1,33 @@
+{
+    	"Name": "Star Dust",
+    	"Description": "A wonderous dust produced by pulverising winter and summer starberries. The particles of this powder illuminate and dim at random, giving the material the appearance of a twinkling night sky. Fabrics dyed with this dust radiate with brilliant starlight.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Dust",
+  	"Edibility": -300,
+  	"Price": 5000,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 1,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Blue Star Powder",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Red Star Powder",
+            		"Count": 1,
+       	 	},
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Selkie",
+        	"PurchasePrice": 500000,
+        	"PurchaseRequirements": [ "y 2" ],
+		},
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Krobus", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

@@ -1,0 +1,17 @@
+{
+    	"Name": "Sheep Milk",
+    	"Description": "A silky, slightly sweet milk sourced from sheep. This milk has more nutrients than cow's or sheep's milk.",
+    	"Category": "-6",
+	"CategoryTextOverride": "Milk",
+    	"Edibility": 50,
+    	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Evelyn", "Gregory", "Jodi", "Leah", "Linus", "Marnie", "Martin", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sheila" ], 
+        	"Neutral": [ "Abigail", "Alecto", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Eloise", "Emily", "George", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Krobus", "Leo", "Marlon", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Puck", "Sam", "Sebastian", "Shane", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Elliott", "Haley", "Lewis", "Wizard" ],
+		"Hate": [ "Kent" ]
+		},
+}

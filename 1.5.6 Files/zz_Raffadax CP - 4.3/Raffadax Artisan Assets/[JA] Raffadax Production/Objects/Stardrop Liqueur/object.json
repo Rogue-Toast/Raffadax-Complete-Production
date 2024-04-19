@@ -1,0 +1,33 @@
+{
+    	"Name": "Stardrop Liqueur",
+    	"Description": "A peculiar spirit made from stardrops. It is said that this beverage tastes different to everyone that drinks it. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Fruit Liqueur",
+  	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      	"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 100,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 40300,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl", ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

@@ -1,0 +1,24 @@
+{
+	"Name": "Oregano",
+	"Product": "Oregano",
+	"SeedName": "Oregano Seeds",
+	"SeedDescription": "Seeds for a fragrant green herb which is commonly used in cooking. Takes 5 days to mature. Plant in the fall.",
+    	"Type": "Greens",
+    	"Seasons": ["fall"],
+    	"Phases": [ 1, 1, 2, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 4,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.25,
+    		},
+	"SeedPurchasePrice": 10,
+	"SeedPurchaseFrom": "Djinn",
+	"SeedPurchaseRequirements": null,
+	"DisableWithMod": "ppja.fruitsandveggies",
+}

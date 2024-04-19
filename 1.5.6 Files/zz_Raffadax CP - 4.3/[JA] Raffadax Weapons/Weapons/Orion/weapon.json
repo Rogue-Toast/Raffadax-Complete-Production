@@ -1,0 +1,18 @@
+{
+  	"Name": "Orion",
+  	"Description": "The club of an ancient hunter, pulled down from the heavens for mortal use. It is comprised of a nebulous material the likes of which you have never encountered, and the gemstones set within it shine with the brilliance of starlight.",
+  	"Type": "Club",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 300,
+  	"Knockback": 1.0,
+  	"Speed": 2,
+  	"Accuracy": 100,
+  	"Defense": 200,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.10,
+  	"CritMultiplier": 1.5,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

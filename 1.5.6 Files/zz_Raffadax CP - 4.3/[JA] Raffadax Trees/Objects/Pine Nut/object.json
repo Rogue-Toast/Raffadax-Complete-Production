@@ -1,0 +1,18 @@
+{
+  	"Name": "Pine Nut",
+  	"Description": "A resinous, pine flavored nut that comes from an evergreen cone. These nuts are a commonly used ingredient in many Mediterranean cuisines, and can be processed in the same manner as other varieties of nut.",
+	"Category": "Greens",
+  	"CategoryTextOverride": "Nut",
+  	"Edibility": 40,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Clint", "George", "Hephaestus", "Kent", "Jacob", "Lewis", "Olivia", "Sebastian", "Shane" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Evelyn", "Emily", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jas", "Jodi", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sheila", "Shuck", "Sophia", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Eloise", "Susan" ],
+		"Hate": [ "Gregory", "Victor" ]
+		},
+	"DisableWithMod": "BHForageables",
+}

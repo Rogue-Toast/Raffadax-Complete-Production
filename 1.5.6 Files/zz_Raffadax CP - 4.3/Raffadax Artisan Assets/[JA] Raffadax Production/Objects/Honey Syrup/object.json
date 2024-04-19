@@ -1,0 +1,17 @@
+{
+    	"Name": "Honey Syrup",
+    	"Description": "A sweet syrup made by thinning honey with water. It can be used as a sweetener in cocktails and teas.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cocktail Syrup",
+  	"Edibility": 50,
+  	"EdibleIsDrink": true,
+  	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Like": [ "Gus" ], 
+		"Neutral": [ "Lewis", "Olivia", "Pam" ], 
+        	"Dislike": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Papaya Tree",
+    	"Product": "Papaya",
+    	"SaplingName": "Papaya Sapling",
+    	"SaplingDescription": "A tropical tree which produces large, orange-fleshed fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the fall.",
+    	"Season": "fall",
+    	"SaplingPurchaseFrom": "Coyotl",
+    	"SaplingPurchasePrice": 4000,
+	"SaplingPurchaseRequirements": ["f Coyote 1500"],
+	"DisableWithMod": "ppja.moretrees",
+}

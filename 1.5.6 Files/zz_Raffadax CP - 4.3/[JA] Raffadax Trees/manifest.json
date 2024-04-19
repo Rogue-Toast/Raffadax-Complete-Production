@@ -1,0 +1,12 @@
+{
+	"Name": "Raffadax Trees",
+   	"Author": "Raffadax",
+   	"Description": "Adds a variety of trees and large shrubs. Requires Json Assets.",
+   	"UniqueID": "Raffadax.Trees",
+   	"Version": "4.3",
+    	"UpdateKeys": [ "Nexus:8256" ],
+   	"ContentPackFor": 
+		{
+      		"UniqueID": "spacechase0.JsonAssets"
+    		},
+}

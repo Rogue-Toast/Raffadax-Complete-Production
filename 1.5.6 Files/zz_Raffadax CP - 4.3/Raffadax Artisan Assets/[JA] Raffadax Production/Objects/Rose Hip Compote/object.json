@@ -1,0 +1,17 @@
+{
+    	"Name": "Rose Hip Compote",
+    	"Description": "A sweet, red floral syrup containing whole preserved rose hips.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Compote",
+  	"Edibility": 100,
+  	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Like": [ "Abigail", "Evelyn", "Maru", "Morgan", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Gus", "Leah", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Vincent" ],
+		"Hate": [ "Caroline", "Elliott", "Eloise", "George", "Hekate", "Hephaestus", "Leo", "Martin", "Morris", "Penny", "Sebastian", "Victor", "Wednesday" ]
+		},
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Lemon Tree",
+    	"Product": "Lemon",
+    	"SaplingName": "Lemon Sapling",
+    	"SaplingDescription": "A citrus tree which produces sour yellow fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": null,
+    	"SaplingPurchasePrice": 5000,
+	"SaplingPurchaseRequirements": [ "Y2" ],
+	"DisableWithMod": "ppja.moretrees",
+}

@@ -1,0 +1,35 @@
+{
+	"Name": "Coco de Mer Wine",
+  	"Description": "A tropical wine made from coco dem mer. It tastes like a tropical cocktail. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Wine",
+  	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 4,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 4,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 3000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Leah", "Mephisto", "Olivia", "Puck", "Shuck", "Susan", "Willy", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Caroline", "Claire", "Dwarf", "Emily", "Gregory", "Gus", "Haley", "Jacob", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

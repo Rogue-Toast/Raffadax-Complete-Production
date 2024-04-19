@@ -1,0 +1,17 @@
+{
+	"Name": "Green Tomato",
+  	"Description": "An unripe tomato with a tart, acidic flavor.",
+  	"Category": "Vegetable",
+  	"Edibility": 5,
+  	"Price": 30,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam", "Sebastian" ],
+        	"Like": [ "Amanra", "Andy", "Astrid", "Beatrice", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Hephaestus", "Marlon", "Marnie", "Maru", "Mephisto", "Pam", "Puck", "Robin", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "George", "Gregory", "Haley", "Hekate", "Jodi", "Kent", "Linus", "Sandy", "Shane", "Sheila" ],
+		"Dislike": [ "Apples", "Martin", "Morgan", "Penny" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Vincent" ]	
+		},
+}

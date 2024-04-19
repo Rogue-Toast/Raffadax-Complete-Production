@@ -1,0 +1,18 @@
+{
+  	"Name": "Season of the Witch",
+  	"Description": "A perfume made from the extract of witch hazel flowers. It has a piercing, mildly citrusy fragrance.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Perfume",
+  	"Edibility": -300,
+  	"Price": 1200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Caroline", "Claire", "Emily", "Hekate", "Maru", "Pam", "Robin", "Sandy", "Wednesday" ],
+        	"Like": [ "Beatrice", "Claire", "Haley", "Leah", "Marnie", "Sheila", "Susan" ],
+		"Neutral": [ "Alex", "Andy", "Clint", "Dwarf", "Elliott", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hephaestus", "Kent", "Krobus", "Lewis", "Linus", "Pierre", "Sam", "Sebastian", "Shane", "Victor", "Willy" ], 
+		"Dislike": [ "Demetrius", "Evelyn", "Jacob", "Jodi", "Martin", "Morris", "Olivia", "Penny", "Sophia", "Alecto", "Wizard" ], 
+		"Hate": [ "Amanra", "Apples", "Astrid", "Coyote", "Eloise", "Jas", "Leo", "Marlon", "Mephisto", "Morgan", "Puck", "Shuck", "Vincent", "Xolotl" ]
+		},
+}

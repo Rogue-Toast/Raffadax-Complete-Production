@@ -1,0 +1,16 @@
+{
+    	"Name": "Popcorn Kernels",
+    	"Description": "Dried corn kernels that can be heated to make popcorn. Can be used in air poppers or popped stovetop in a kettle. This corn is dry enough to be ground into meal.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Snack Food",
+  	"Edibility": -300,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Like": [ "Demetrius", "Kent" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+		"Dislike": [ "Amanra", "Apples", "Astrid", "Coyote", "Dwarf", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Jas", "Leah", "Mephisto", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ]
+		},
+}

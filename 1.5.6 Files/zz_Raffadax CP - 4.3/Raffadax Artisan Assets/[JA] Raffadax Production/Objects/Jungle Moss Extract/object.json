@@ -1,0 +1,36 @@
+{
+  	"Name": "Jungle Moss Extract",
+  	"Description": "The distilled essence of jungle moss. It is primarily used as an arcane component when crafting potions.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Herb Extract",
+  	"Edibility": 300,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 10,
+        	"Fishing": 10,
+      		"Foraging": 10,
+        	"Mining": 10,
+
+        	"Luck": 15,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 7,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 11250,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Emily", "Gregory", "Harvey", "Kent", "Leo", "Maru", "Puck", "Robin", "Shuck", "Xolotl" ],
+		"Like": [ "Alex", "Andy", "Abigail", "Beatrice", "Caroline", "Clint", "Demetrius", "Elliott", "Haley", "Hekate", "Hephaestus", "Olivia", "Sandy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Claire", "Evelyn", "Gunther", "Gus","Jacob", "Jodi", "Leah", "Lewis", "Marnie", "Morris", "Pam", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Dislike": [ "George", "Penny", "Marlon", "Martin", ],
+		"Hate": [ "Dwarf","Eloise", "Jas", "Krobus", "Linus", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

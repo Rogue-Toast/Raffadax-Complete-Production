@@ -1,0 +1,11 @@
+{
+	"Name": "Lychee Tree",
+    	"Product": "Lychee",
+    	"SaplingName": "Lychee Sapling",
+    	"SaplingDescription": "A tree which produces small, spiny-husked fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Nagual",
+    	"SaplingPurchasePrice": 10000,
+	"SaplingPurchaseRequirements": ["f Xolotl 1000"],
+	"DisableWithMod": "ppja.moretrees",
+}

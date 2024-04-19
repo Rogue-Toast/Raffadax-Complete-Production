@@ -1,0 +1,18 @@
+{
+  	"Name": "Revontulet",
+  	"Description": "A gleaming sword that shines with the firelight of the aurora. It is made from a single hair from the tail of Tulikettu.",
+  	"Type": "Sword",
+  	"MinimumDamage": 111,
+  	"MaximumDamage": 777,
+  	"Knockback": 2.0,
+  	"Speed": 7,
+  	"Accuracy": 100,
+  	"Defense": 777,
+	"ExtraSwingArea": 3,
+  	"CritChance": 0.70,
+  	"CritMultiplier": 7.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

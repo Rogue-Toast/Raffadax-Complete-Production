@@ -1,0 +1,36 @@
+{
+	"Name": "Cannabis Brandy",
+  	"Description": "A pungent green brandy distilled from cannabis wine. It has a sweet herbal flavor, and tends to cause euphoria in those who consume it. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herbal Brandy",
+  	"Edibility": 50,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 15,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -10,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 3000,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Dwarf", "Elliott", "Emily", "George", "Harvey", "Hekate", "Hephaestus", "Kent", "Lewis", "Linus", "Maru", "Mephisto", "Pam", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Shuck", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Andy", "Beatrice", "Claire", "Clint", "Gregory", "Gunther", "Gus", "Haley", "Krobus", "Leah", "Marnie", "Pierre", "Sheila", "Victor" ],
+		"Neutral": [ "Susan" ],
+		"Dislike": [ "Demetrius", "Evelyn", "Jacob", "Jodi", "Martin", "Morris", "Olivia", "Penny", "Sophia" ], 
+		"Hate": [ "Apples", "Eloise", "Jas", "Leo", "Marlon", "Morgan", "Vincent" ]
+		},
+}

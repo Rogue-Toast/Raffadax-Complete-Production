@@ -1,0 +1,18 @@
+{
+	"Name": "Red Grapefruit Jelly",
+  	"Description": "A sweet-tart jelly made from ruby red grapefruit.",
+  	"Category": "Fruit",
+  	"CategoryTextOverride": "Jelly",
+  	"Edibility": 65,
+  	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gunther", "Gus", "Haley", "Jacob", "Leah", "Leo", "Lewis", "Linus", "Sophia", "Victor", "Willy" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Jodi", "Kent", "Krobus", "Marlon", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Susan", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Dwarf", "Jas", "Marnie" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ] 
+		},
+}

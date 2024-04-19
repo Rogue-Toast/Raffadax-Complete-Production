@@ -1,0 +1,17 @@
+{
+    	"Name": "Amchoor",
+    	"Description": "A fragrant, fruity spice powder made from dried, ground mango. It is used as a souring agent and to add acidity to dishes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Ground Spice",
+  	"Edibility": -300,
+  	"Price": 180,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

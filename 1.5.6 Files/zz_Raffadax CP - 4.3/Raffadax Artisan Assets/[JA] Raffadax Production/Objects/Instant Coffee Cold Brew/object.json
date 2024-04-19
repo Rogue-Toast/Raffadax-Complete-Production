@@ -1,0 +1,17 @@
+{
+	"Name": "Instant Coffee: Cold Brew",
+  	"Description": "Cold brew coffee beans that have been ground into a ready-to-brew powder. This style of coffee usually takes several hours to brew, but this particular mix brews quickly due to the chilly nature of the beans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Instant Coffee",
+  	"Edibility": -300,
+  	"Price": 180,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Alex", "Gregory", "Harvey" ],
+        	"Neutral": [ "Andy", "Abigail", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Apples", "Astrid", "Coyote", "Leo", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

@@ -1,0 +1,17 @@
+{
+	"Name": "Honeycrisp Apple Jelly",
+	"Description": "A delicious apple jelly made from sweet honeycrisps.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+	"Edibility": 60,
+	"Price": 400,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Beatrice", "Caroline", "Claire", "Dwarf", "Gunther", "Jacob", "Jodi", "Marnie", "Maru", "Olivia", "Penny", "Pierre", "Robin", "Sophia"  ], 
+        	"Like": [ "Abigail", "Andy", "Apples", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Harvey", "Jas", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Martin", "Morgan", "Pam", "Sam", "Sandy", "Shane", "Sheila", "Sorren","Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Haley", "Hekate", "Hephaestus", "Krobus", "Morris", "Sebastian", "Wednesday" ]
+		},
+}

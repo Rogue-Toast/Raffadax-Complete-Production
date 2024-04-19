@@ -1,0 +1,23 @@
+{
+	"Name": "Vanilla Vine",
+	"Product": "Vanilla Bean",
+	"SeedName": "Vanilla Vine Starter",
+	"SeedDescription": "A trellised tropical vine which grows a distinct tasting bean highly valued as a spice. May produce orchid flowers in addition to beans. Takes 10 days to mature, then produces every five days after. Plant in the spring.",
+    	"Type": "Greens",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 2, 3, 3, 1 ],
+    	"RegrowthPhase": 5,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.25,
+    		},
+	"SeedPurchasePrice": 100,
+	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": ["f Xolotl 2500"],
+}

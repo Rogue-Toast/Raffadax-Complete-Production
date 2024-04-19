@@ -1,0 +1,36 @@
+{
+    	"Name": "Qi Fruit Port Wine",
+    	"Description": "A strange fortified wine made from an enigmatic melon. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fortified Wine",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -3,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 9,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Leah", "Mephisto", "Olivia", "Puck", "Shuck", "Xolotl" ], 
+        	"Like": [ "Demetrius", "Elliott", "Hephaestus", "Jodi", "Kent", "Linus", "Pam", "Robin", "Sandy", "Shane", "Victor" ],
+		"Neutral": [ "Apples", "Beatrice", "Claire", "Gregory", "Gunther", "Jacob", "Marlon", "Morris", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Dislike": [ "Abigail", "Alex", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Haley", "Krobus", "Lewis", "Marnie", "Maru", "Pierre", "Sam", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

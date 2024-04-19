@@ -1,0 +1,35 @@
+{
+    	"Name": "Raspberry Liqueur",
+    	"Description": "A flavorful red liqueur made from raspberries. It can be used as a cocktail component, but is often mixed only with soda water. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+	"Edibility": 120,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 700,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Demetrius", "Gus", "Haley", "Hekate", "Hephaestus", "Kent", "Lewis", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sam", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Like": [ "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Krobus", "Leah", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

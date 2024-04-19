@@ -1,0 +1,46 @@
+{
+	"Name": "Mint Chip Ice Cream",
+  	"Description": "A classic ice cream variety flavored with mint and chocolate.",
+  	"Category": -7,
+  	"CategoryTextOverride": "Ice Cream",
+  	"Edibility": 180,
+  	"Price": 3450,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 1,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Milk",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Sugar",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Mint Syrup", 
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Cocoa Beans", 
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": true,
+        	"PurchaseFrom": "Town",
+       		"PurchasePrice": 100,
+		}, 
+	"CanPurchase": true,
+	"PurchaseFrom": "Town",
+	"PurchasePrice": 3750,
+    	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Eloise", "Jas", "Morgan", "Vincent" ], 
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Jacob", "Jodi", "Kent", "Lewis", "Linus", "Olivia", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Emily", "Harvey", "Krobus", "Hephaestus", "Leah", "Leo", "Mephisto", "Puck", "Shuck", "Willy", "Xolotl" ]
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

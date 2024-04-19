@@ -1,0 +1,10 @@
+{
+	"Name": "Birch Tree",
+    	"Product": "Birch Bark",
+    	"SaplingName": "Birch Sapling",
+    	"SaplingDescription": "A deciduous tree with medicinal bark sometimes used to flavor sodas. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. To mitigate damage to the tree, harvest bark in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Coyotl",
+    	"SaplingPurchasePrice": 400,
+    	"SaplingPurchaseRequirements": [ "f Coyote 500" ],
+}

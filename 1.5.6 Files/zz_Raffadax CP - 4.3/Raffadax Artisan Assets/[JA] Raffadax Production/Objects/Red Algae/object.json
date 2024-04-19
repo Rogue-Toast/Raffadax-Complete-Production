@@ -1,0 +1,18 @@
+{
+    	"Name": "Red Algae",
+  	"Description": "A type of seaweed with a bright red coloration. It is sometimes used culinarily, or can be used to produce a gelatin substitute known as agar.",
+  	"Category": "-23",
+  	"CategoryTextOverride": "Beach Forage",
+  	"Edibility": 50,
+ 	"Price": 40,
+  	"IsColored": false,
+	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Alex" ],
+		"Like": [ "Amanra", "Astrid", "Caroline", "Claire", "Coyote", "Demetrius", "Gus", "Hephaestus", "Lewis", "Mephisto", "Olivia", "Pierre", "Puck", "Sebastian", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Andy", "Apples", "Beatrice", "Clint", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+	"DisableWithMod": "Failsplat.GelFoodsJA",
+}

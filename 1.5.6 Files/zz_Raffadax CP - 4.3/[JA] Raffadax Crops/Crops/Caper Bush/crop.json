@@ -1,0 +1,23 @@
+{
+	"Name": "Caper Bush",
+    	"Product": "Capers",
+    	"SeedName": "Caper Bush Starter",
+    	"SeedDescription": "A trellised flower bush which may produce flowers, berries and edible leaves in addition to caper buds. Takes 9 days to mature, then produces every 5 days after. Plant in the spring.",
+    	"Type": "Vegetable",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 2, 3, 2, 1 ],
+    	"RegrowthPhase": 5,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+    	"SeedPurchasePrice": 60,
+ 	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": [ "f Astrid 2000" ],
+}

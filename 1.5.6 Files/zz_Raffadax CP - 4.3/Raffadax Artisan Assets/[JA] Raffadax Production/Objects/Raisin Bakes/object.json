@@ -1,0 +1,18 @@
+{
+    	"Name": "Raisin' Sun Crunch",
+    	"Description": "A breakfast cereal made with corn bakes and sweet raisins.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cereal",
+  	"Edibility": 75,
+  	"Price": 400,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Evelyn", "George", "Gregory", "Gunther", "Jodi", "Kent", "Pierre", "Willy" ],
+        	"Like": [ "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Gus", "Harvey", "Jacob", "Leah", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Alecto", "Wizard" ],
+		"Neutral": [ "Hekate", "Linus", "Morgan", ],
+		"Dislike": [ "Abigail", "Apples", "Eloise", "Dwarf", "Haley", "Hephaestus", "Jas", "Krobus", "Leo", "Victor", "Vincent", "Wednesday" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Olivia", "Penny", "Puck", "Sebastian", "Shuck", "Xolotl" ]
+		},
+}

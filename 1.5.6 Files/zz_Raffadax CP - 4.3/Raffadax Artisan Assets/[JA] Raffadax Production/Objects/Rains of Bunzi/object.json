@@ -1,0 +1,32 @@
+{
+	"Name": "Rains of Bunzi",
+	"Description": "A divine, radiant water that shines with prismatic light. Crops that are watered with this liquid will grow to twice the size at twice the speed.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Divine Libation",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 26,
+        	"Fishing": 16,
+      		"Foraging": 26,
+        	"Mining": 16,
+
+        	"Luck": 26,
+        	"MaxStamina": 26,
+		"MagnetRadius": 26,
+        	"Speed": 3,
+
+		"Attack": 26,
+        	"Defense": 26,
+
+        	"Duration": 240,
+		},
+	"Price": 200000,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl", ],
+		},
+}

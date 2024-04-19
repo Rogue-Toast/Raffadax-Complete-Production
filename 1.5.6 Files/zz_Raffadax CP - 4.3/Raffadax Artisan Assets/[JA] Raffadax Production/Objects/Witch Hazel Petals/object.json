@@ -1,0 +1,17 @@
+{
+  	"Name": "Witch Hazel Petals",
+  	"Description": "Whole petals from witch hazel flowers. They can be used as a dessert decoration or cocktail garnish, but are traditionally used to make medicinal tonics.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Petals",
+  	"Edibility": -300,
+  	"Price": 200,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Harvey", "Hekate", "Maru", "Morgan", "Olivia", "Pam", "Pierre", "Susan", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Morris", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Dwarf", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

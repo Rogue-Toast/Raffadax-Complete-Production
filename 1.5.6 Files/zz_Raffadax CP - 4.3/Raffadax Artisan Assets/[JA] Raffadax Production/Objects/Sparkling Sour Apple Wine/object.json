@@ -1,0 +1,35 @@
+{
+	"Name": "Sparkling Sour Apple Wine",
+	"Description": "A green sparkling wine made from sour crabapples. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Sparkling Wine",
+	"Edibility": 65,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 225,
+	"IsColored": false,
+	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Emily", "Gus", "Haley", "Hekate", "Hephaestus", "Krobus", "Linus", "Marnie", "Mephisto", "Pam", "Puck", "Sam", "Shane", "Sheila", "Shuck", "Victor", "Wednesday", "Xolotl" ],
+        	"Like": [ "Apples", "Beatrice", "Caroline",  "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Morris", "Olivia", "Pierre", "Robin", "Sandy", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

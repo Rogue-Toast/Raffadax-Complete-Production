@@ -1,0 +1,10 @@
+{
+	"Name": "Crystal Fruit Tree",
+	"Product": "Crystal Fruit",
+	"SaplingName": "Crystal Fruit Sapling",
+	"SaplingDescription": "A strange tree with leaves that look like glass and fruit which appears to be made of crystal. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+	"Season": "winter",
+	"SaplingPurchaseFrom": "Selkie",
+	"SaplingPurchasePrice": 6000,
+	"SaplingPurchaseRequirements": [ "f Astrid 1000" ],
+}

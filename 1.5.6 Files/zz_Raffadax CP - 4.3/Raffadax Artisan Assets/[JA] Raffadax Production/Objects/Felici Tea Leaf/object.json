@@ -1,0 +1,16 @@
+{
+	"Name": "Felici Tea Leaf",
+  	"Description": "A green tea leaf that have been infused with oil from pink lemons. It brews a refreshing, lemon tea.",
+   	"Category": "Greens",
+  	"CategoryTextOverride": "Tea Leaf",
+  	"Edibility": -300,
+  	"Price": 890,
+  	"IsColored": false,
+  	"Recipe": null,
+   	"GiftTastes": 
+		{
+		"Like": [ "Caroline", "Claire", "Elliott", "Emily", "George", "Lewis", "Morris", "Olivia" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "Hephaestus", "Jas", "Krobus", "Morgan", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

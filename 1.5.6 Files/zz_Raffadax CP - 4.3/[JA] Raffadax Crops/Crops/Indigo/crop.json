@@ -1,0 +1,23 @@
+{
+	"Name": "Indigo",
+	"Product": "Indigo",
+	"SeedName": "Indigo Seeds",
+	"SeedDescription": "Seeds for a toxic blue flower traditionally farmed for the production of paints and dyes. Takes 10 days to mature. Plant in the summer.",
+    	"Type": "Flower",
+    	"Seasons": ["summer"],
+    	"Phases": [ 1, 2, 2, 2, 2, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 50,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": ["f Astrid 2000"],
+}

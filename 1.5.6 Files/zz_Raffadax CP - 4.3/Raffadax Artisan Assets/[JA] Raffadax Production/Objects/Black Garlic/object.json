@@ -1,0 +1,18 @@
+{
+  	"Name": "Black Garlic",
+  	"Description": "Garlic that has been fermented within specific temperature and humidity range. It has a sticky, prune-like texture and a sweeter, more savory flavor than raw garlic.",
+  	"Category": "Vegetable",
+  	"CategoryTextOverride": "Smoked Vegetable",
+  	"Edibility": 25,
+  	"Price": 1500,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Olivia" ],
+		"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Evelyn", "Mephisto", "Pierre", "Puck", "Shuck", "Susan", "Xolotl" ],
+        	"Neutral": [ "Alex", "Abigail", "Apples", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent"]
+		},
+}

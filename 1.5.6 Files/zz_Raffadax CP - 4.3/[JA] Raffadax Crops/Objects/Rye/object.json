@@ -1,0 +1,16 @@
+{
+  	"Name": "Rye",
+    	"Description": "A cereal grain that has a distinct flavor which limits its baking applications. It has a darker color than wheat, and produces darker flour, breads and beers.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Grain",
+    	"Edibility": -300,
+    	"Price": 25,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes":
+	{ 
+	"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+	},
+	"DisableWithMod": "Vyranity.Breads",
+}

@@ -1,0 +1,16 @@
+{
+  	"Name": "Dried Unlucky Clover",
+  	"Description": "An unlucky clover that has been dried for preservation. It can be hidden in an enemy's posessions to inflict bad luck upon them.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Mythic Herb",
+  	"Edibility": -300,
+  	"Price": 550,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Hekate", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Hephaestus", "Krobus", "Mephisto", "Puck", "Sebastian", "Shuck", "Wednesday", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ]
+		},
+}

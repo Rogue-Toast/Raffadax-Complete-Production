@@ -1,0 +1,33 @@
+{
+	"Name": "Lotus Root",
+  	"Description": "A root from an aquatic plant with long hollow chambers running through it. It is sometimes sliced and cooked as a vegetable, and is believed by some to have medicinal value.",
+  	"Category": "Vegetable",
+  	"Edibility": 50,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+        	"Duration": 90,
+		},
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Evelyn", "George", "Harvey", "Hekate", "Hephaestus", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Leah", "Linus", "Robin", "Sandy", "Shane" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jodi", "Kent", "Krobus", "Lewis", "Marlon", "Marnie", "Pam", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Willy" ],
+		"Hate": [ "Caroline", "Elliott", "Eloise", "Jas", "Leo", "Martin", "Morris", "Olivia", "Penny", "Victor", "Vincent", "Wednesday" ]
+		},
+	"DisableWithMod": "KAYA.AquaticPlant",
+}

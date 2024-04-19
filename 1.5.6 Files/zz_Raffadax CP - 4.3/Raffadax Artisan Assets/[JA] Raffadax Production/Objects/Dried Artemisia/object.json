@@ -1,0 +1,17 @@
+{
+  	"Name": "Dried Artemisia",
+  	"Description": "An artemisia flower that has been dried for preservation. It can be used to make potpourris, or brewed into a hallucinogenic tea. It seems this item is used for arcane purposes by those who craft potions.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dried Flower",
+  	"Edibility": -300,
+  	"Price": 60,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Emily", "Evelyn", "Sandy" ], 
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Sebastian", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

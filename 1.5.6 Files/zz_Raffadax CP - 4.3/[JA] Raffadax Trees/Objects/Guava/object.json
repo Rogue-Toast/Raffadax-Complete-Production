@@ -1,0 +1,16 @@
+{
+	"Name": "Guava",
+  	"Description": "A bright green fruit with a reddish-orange interior. It has a flavor like pear and strawberry.",
+  	"Category": "Fruit",
+  	"Edibility": 40,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jas", "Krobus", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Sebastian" ],
+		},
+	"DisableWithMod": "hung2563hn.Guava",
+}

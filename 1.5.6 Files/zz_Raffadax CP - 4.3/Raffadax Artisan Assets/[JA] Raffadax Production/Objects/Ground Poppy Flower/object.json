@@ -1,0 +1,18 @@
+{
+	"Name": "Ground Poppy Flower",
+  	"Description": "A fragrant dust made from pulverised poppy petals. It can be used as a flavor component and colorant for baked goods and beverages.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Dust",
+  	"Edibility": -300,
+  	"Price": 240,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily" ],
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Hekate", "Leah", "Morgan", "Olivia", "Robin", "Susan", "Alecto", "Wizard" ], 
+		"Neutral": [ "Abigail", "Harvey", "Jodi", "Marnie", "Maru", "Pam", "Sheila", "Sophia" ],
+        	"Dislike": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "George", "Gregory", "Gunther", "Haley", "Hephaestus", "Jacob", "Kent", "Lewis", "Linus", "Martin", "Mephisto", "Morris", "Penny", "Pierre", "Puck", "Sam", "Sandy", "Shane", "Shuck", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Krobus", "Leo", "Marlon", "Sebastian", "Vincent" ]
+		},
+}

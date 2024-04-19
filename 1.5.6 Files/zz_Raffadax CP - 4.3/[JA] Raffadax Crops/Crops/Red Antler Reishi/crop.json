@@ -1,0 +1,23 @@
+{
+	"Name": "Antler Reishi",
+	"Product": "Red Antler Reishi",
+	"SeedName": "Antler Ganoderma Starter",
+	"SeedDescription": "Spores that produce a branching, antler-like mushroom. Takes two weeks to mature. Plant in the fall.",
+    	"Type": "Greens",
+    	"Seasons": ["fall"],
+    	"Phases": [ 2, 4, 7, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 25,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 100,
+	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": ["f Puck 2500"],
+}

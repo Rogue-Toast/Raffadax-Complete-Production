@@ -1,0 +1,37 @@
+{
+    	"Name": "Whiskey",
+    	"Description": "A distilled alcoholic beverage made from corn mash. It can be drunk straight, on the rocks, or mixed into a cocktail. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Liquor",
+	"Edibility": 110,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 500,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Gregory", "Gus", "Hekate", "Hephaestus", "Kent", "Lewis", "Linus", "Marlon", "Marnie", "Mephisto", "Puck", "Robin", "Shane", "Shuck", "Willy", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "George", "Gunther", "Harvey", "Haley", "Jacob", "Krobus", "Morris", "Olivia", "Pam", "Pierre", "Sandy", "Sheila", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Beatrice", "Elliott", "Sophia", "Susan", "Victor" ],
+		"Dislike": [ "Emily", "Evelyn", "Jodi", "Leah", "Sam" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Maru", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

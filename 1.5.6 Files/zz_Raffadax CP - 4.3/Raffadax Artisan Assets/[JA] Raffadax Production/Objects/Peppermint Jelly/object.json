@@ -1,0 +1,17 @@
+{
+  	"Name": "Peppermint Jelly",
+  	"Description": "A fragrant green jelly made from peppermint leaves. This jelly can be used with both savory and sweet foods.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herb Jelly",
+  	"Edibility": 30,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Haley", "Harvey", "Jodi", "Kent", "Martin", "Olivia", "Sandy", "Shane" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gregory", "Gunther", "Jacob", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "George", "Pam", "Penny", "Sam" ],
+		"Hate": [ "Andy", "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Morgan", "Morris", "Sebastian", "Vincent" ]
+		},
+}

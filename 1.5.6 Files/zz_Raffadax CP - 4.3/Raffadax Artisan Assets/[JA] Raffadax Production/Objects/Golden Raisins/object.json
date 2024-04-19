@@ -1,0 +1,18 @@
+{
+    	"Name": "Golden Raisins",
+    	"Description": "Dried white grapes with a savory-sweet flavor. They can be eaten as a snack, or baked into breads and cookies.",
+  	"Category": "Fruit",
+  	"CategoryTextOverride": "Dried Fruit",
+  	"Edibility": 20,
+  	"Price": 130,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "George", "Lewis", "Linus" ],
+        	"Like": [ "Apples", "Claire", "Demetrius", "Elliott", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Marlon", "Martin", "Morris", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Gus", "Krobus", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Sam", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Leo", "Morgan", "Victor", "Vincent" ],
+		"Hate": [ "Olivia", "Penny", "Sebastian" ]
+		},
+}

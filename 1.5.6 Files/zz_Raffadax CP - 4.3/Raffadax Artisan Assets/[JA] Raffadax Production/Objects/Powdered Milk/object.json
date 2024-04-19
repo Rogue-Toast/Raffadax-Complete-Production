@@ -1,0 +1,18 @@
+{
+    	"Name": "Powdered Milk",
+    	"Description": "Milk which has been evaporated to the point of powder for long storage. It is frequently used to make baby formulas.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Baking Component",
+    	"Edibility": -300,
+    	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Olivia", "Pierre", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Apples", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Astrid", "Claire", "Coyote", "Dwarf", "Pam", "Penny", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Puck", "Sam", "Sebastian", "Shane", "Shuck", "Vincent"]
+		},
+	"DisableWithMod": "SSaturn.TropicalFarm",
+}

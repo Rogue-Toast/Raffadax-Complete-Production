@@ -1,0 +1,31 @@
+{
+	"Name": "Treasure Plant",
+	"Product": "Golden Chest",
+	"SeedName": "Treasure Plant Starter",
+	"SeedDescription": "A strange plant which constructs its body from precious metals it extracts from the soil. This plant collects burried treasures with its roots into a chest-like fruit made of pure gold. After planted, it will produce once every 28 days, regardless of the season. Can be planted any time of the year.",
+	"Type": "Vegetable",
+	"Seasons": ["spring", "summer", "fall", "winter"],
+	"Phases": [2,5,10,10,1],
+	"RegrowthPhase": 28,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 1,
+		"MaxIncreasePerFarmLevel": 50,
+		"ExtraChance": 0.0,
+		},
+	"SeedPurchasePrice": 50000,
+	"SeedPurchaseFrom": "Djinn",
+	"SaplingPurchaseRequirements": 
+			[
+			"f Amanra 1500",
+			"f Astrid 1500",
+			"f Coyote 1500",
+			"f Puck 1500",
+			"f Shuck 1500",
+			"f Xolotl 1500",
+			],
+}

@@ -1,0 +1,212 @@
+﻿[
+{ // AUTO MILL
+	"ProducerName": "Auto Mill",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": true,
+	"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3,4,5,6], 
+            "FrameInterval": 10 
+        	},
+       "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [0],
+   		},
+},
+{ // BEVERAGE KEG
+	"ProducerName": "Beverage Keg",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": false,
+	"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3,4,5,6], 
+            "FrameInterval": 10 
+        	},
+       "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [7],
+   		},
+},
+{ // CHEESE PROCESSOR
+	"ProducerName": "Cheese Processor",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": false,
+	"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3,4,5,6], 
+            "FrameInterval": 10 
+        	},
+       "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [0],
+   		},
+},
+{ // CHURN
+	"ProducerName": "Churn",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+{ // DELUXE PRESERVES JAR
+	"ProducerName": "Deluxe Preserves Jar",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+{ // DELUXE WINE KEG
+	"ProducerName": "Deluxe Wine Keg",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+{ // DISTILLATION TANK
+	"ProducerName": "Distillation Tank",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+{ // DRY PACKER
+	"ProducerName": "Dry Packer",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": true,
+	"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3,4,5,6], 
+            "FrameInterval": 10 
+        	},
+       "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [0],
+   		},
+},
+{ // FERMENTATION TANK
+	"ProducerName": "Fermentation Tank",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+{ // FLOW HIVE
+	"ProducerName": "Flow Hive",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+{ // FRAGRANCE EXTRACTOR
+	"ProducerName": "Fragrance Extractor",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": true,
+	"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3,4,5,6,7,8,9,10], 
+            "FrameInterval": 10 
+        	},
+       "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [0],
+   		},
+},
+{ // GOLDEN SPINDLE
+	"ProducerName": "Golden Spindle",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": true,
+	"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3,4,5,6], 
+            "FrameInterval": 10 
+        	},
+       "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [0],
+   		},
+},
+{ // INCUBATION TANK
+	"ProducerName": "Incubation Tank",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+{ // JUICE KEG
+	"ProducerName": "Juice Keg",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+{ // MAGIC CAULDRON
+	"ProducerName": "Magic Cauldron",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": true,
+	"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3,4,5,6], 
+            "FrameInterval": 10 
+        	},
+       "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [8],
+   		},
+        "LightSource": 
+		{
+            "TextureIndex": 5,
+            "Radius": 2.5,
+            "OffsetX": 0,
+            "OffsetY": 0,
+            "ColorType": "DefinedColor",
+            "ColorRed": 255,
+            "ColorGreen": 0,
+            "ColorBlue": 255,
+            "ColorAlpha": 255,
+            "ColorFactor": 0.75,
+            "AlwaysOn": false
+        },
+},
+{ // MILK KEG
+	"ProducerName": "Milk Keg",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+{ // MOLD COLONY
+	"ProducerName": "Mold Colony",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": true,
+	"DisableBouncingAnimationWhileWorking": true,
+	"NoInputStartMode": "Placement", 
+        "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [1],
+   		},
+},
+{ // OXIDIZER
+	"ProducerName": "Oxidizer",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": true,
+	"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3,4,5,6], 
+            "FrameInterval": 10 
+        	},
+       "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [0],
+   		},
+},
+{ // PUREE JAR
+	"ProducerName": "Puree Jar",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+	"DisableBouncingAnimationWhileWorking": true,
+	"ProducingAnimation": 
+		{ 
+            "RelativeFrameIndex": [1,2,3,4,5,6], 
+            "FrameInterval": 10 
+        	},
+       "ReadyAnimation": 
+        	{
+        	"RelativeFrameIndex": [0],
+   		},
+},
+{ // TEA KEG
+	"ProducerName": "Tea Keg",
+	"AlternateFrameProducing": false,
+	"AlternateFrameWhenReady": false,
+},
+]

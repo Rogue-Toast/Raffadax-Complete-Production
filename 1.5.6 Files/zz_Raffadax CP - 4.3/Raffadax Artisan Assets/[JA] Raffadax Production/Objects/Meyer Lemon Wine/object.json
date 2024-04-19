@@ -1,0 +1,36 @@
+{
+	"Name": "Meyer Lemon Wine",
+    	"Description": "A vibrant yellow wine made from meyer lemons. It has a sweet-tart flavor and a high acid that pairs it well with rich dishes. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Wine",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+	"Price": 525,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Harvey", "Hekate", "Leah", "Mephisto", "Olivia", "Pam", "Puck", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hephaestus", "Jacob", "Jodi", "Kent", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ],
+		"Dislike": [ "Krobus" ], 
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

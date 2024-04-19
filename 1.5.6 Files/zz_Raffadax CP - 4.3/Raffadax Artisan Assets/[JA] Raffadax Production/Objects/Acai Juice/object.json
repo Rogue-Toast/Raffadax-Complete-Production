@@ -1,0 +1,19 @@
+{
+	"Name": "Acai Juice",
+    	"Description": "A dark purple juice made from the fruit of an acai palm. It has a flavor reminiscent of dark chocolate and berries.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 125,
+    	"EdibleIsDrink": true,
+    	"Price": 510,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Claire", "Emily", "Haley", "Martin", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

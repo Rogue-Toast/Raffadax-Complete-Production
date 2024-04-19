@@ -1,0 +1,33 @@
+{
+    	"Name": "Sunberry Jam",
+    	"Description": "A jam made with the pulp of sunberries; it shines like it is filled with sunlight. It has a spicy, tropical flavor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Jam",
+  	"Edibility": 200,
+	"EdibleBuffs":
+		{
+        	"Farming": 9,
+        	"Fishing": 0,
+      		"Foraging": 9,
+        	"Mining": 0,
+
+        	"Luck": 9,
+        	"MaxStamina": 9,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 9,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 15100,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Hephaestus" ],
+		"Hate": [ "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

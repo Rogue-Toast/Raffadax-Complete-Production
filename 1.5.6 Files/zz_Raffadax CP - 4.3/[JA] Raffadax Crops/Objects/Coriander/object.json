@@ -1,0 +1,17 @@
+{
+	"Name": "Coriander",
+  	"Description": "The dried seeds of a cilantro plant. They have an earthy, tart flavor and gain a floral aroma when toasted.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Spice",
+  	"Edibility": 15,
+  	"Price": 30,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Evelyn", "Gus", "Mephisto", "Olivia", "Pierre", "Puck", "Shuck", "Susan", "Xolotl" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Andy", "Apples", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

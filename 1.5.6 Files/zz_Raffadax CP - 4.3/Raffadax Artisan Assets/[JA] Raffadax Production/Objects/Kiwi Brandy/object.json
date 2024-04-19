@@ -1,0 +1,35 @@
+{
+    	"Name": "Kiwi Brandy",
+    	"Description": "A pale green brandy made by distilling kiwi wine. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Brandy",
+  	"Edibility": 80,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Elliott", "Gregory", "Haley", "Harvey", "Hekate", "Jodi", "Kent", "Leah", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Shuck", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hephaestus", "Jacob", "Krobus", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Pierre", "Sam", "Sheila", "Shane", "Victor", "Willy", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Sophia", "Susan" ], 
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

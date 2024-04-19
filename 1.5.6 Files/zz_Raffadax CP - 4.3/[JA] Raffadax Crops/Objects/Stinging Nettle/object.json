@@ -1,0 +1,17 @@
+{
+	"Name": "Stinging Nettle",
+  	"Description": "The leaves from a wild nettle plant. They are covered in sharp thorns, but after being cooked down they have a flavor similar to spinach.",
+  	"Category": "Vegetable",
+  	"Edibility": -300,
+  	"Price": 45,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Hephaestus", "Krobus", "Sebastian", "Wednesday" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Gus", "Haley", "Harvey", "Hekate", "Jodi", "Kent", "Linus", "Martin", "Mephisto", "Puck", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Alex", "Demetrius", "George", "Gregory", "Gunther" ],
+        	"Dislike": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Evelyn", "Jacob", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Morgan", "Morris", "Olivia", "Vincent" ]
+		},
+}

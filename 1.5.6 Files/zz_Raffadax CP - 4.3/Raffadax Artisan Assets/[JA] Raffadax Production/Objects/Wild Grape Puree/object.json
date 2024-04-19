@@ -1,0 +1,16 @@
+{
+	"Name": "Wild Grape Puree",
+    	"Description": "Wild grapes that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 25,
+	"EdibleIsDrink": true,
+    	"Price": 10,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+	"Dislike": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ]
+		},
+}

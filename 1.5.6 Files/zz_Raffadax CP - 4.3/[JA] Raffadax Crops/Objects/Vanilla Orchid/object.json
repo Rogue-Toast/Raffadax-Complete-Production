@@ -1,0 +1,18 @@
+{
+  	"Name": "Vanilla Orchid",
+    	"Description": "A white orchid that smells like vanilla. It makes a lovely garnish, and can be used in dishes to add a subtle vanilla flavor and aroma.",
+  	"Category": "Flower",	
+    	"Edibility": 15,
+    	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Caroline", "Emily", "Elliott", "Evelyn", "Haley", "Harvey", "Hekate", "Jodi", "Marnie", "Maru", "Morgan", "Olivia", "Robin", "Sandy", "Sophia", "Susan", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Amanra", "Apples", "Astrid", "Clint", "Claire", "Coyote", "Eloise", "Gregory", "Jas", "Leah", "Mephisto", "Pam", "Penny", "Puck", "Sheila", "Shuck", "Willy", "Xolotl" ],
+		"Neutral": [ "Alex", "Demetrius", "Gunther", "Gus", "Hephaestus", "Kent", "Lewis", "Linus", "Pierre", "Victor" ],
+		"Dislike": [ "Andy", "Dwarf", "George", "Jacob", "Leo", "Martin", "Morris", "Sam", "Shane", "Vincent" ],
+		"Hate": [ "Krobus", "Marlon", "Sebastian", "Wednesday" ]
+		},
+	"DisableWithMod": "tiakall.hosttrees",
+}

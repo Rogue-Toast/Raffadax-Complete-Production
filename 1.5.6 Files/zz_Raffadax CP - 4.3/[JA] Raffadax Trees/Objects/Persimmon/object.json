@@ -1,0 +1,18 @@
+{
+  	"Name": "Persimmon",
+  	"Description": "A sweet, slightly tangy fruit which resembles a tomato. It has a uniquee flavor akin to stone fruit mixed with melon.",
+  	"Category": "Fruit",
+  	"Edibility": 75,
+  	"Price": 175,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Elliott", "Evelyn", "Gus", "Hekate", "Olivia", "Pierre", "Sandy", "Susan" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Emily", "George", "Leo", "Mephisto", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Neutral": [ "Abigail", "Caroline", "Clint", "Gregory", "Gunther", "Emily", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Robin", "Sheila", "Sophia", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Alex", "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Haley", "Jas", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+	"DisableWithMod": "ppja.moretrees",
+}

@@ -1,0 +1,37 @@
+{
+	"Name": "Violet ",
+  	"Description": "A fragrant purple flower common in gardens. Violets are ocasionally used as a baking component and to produce specialty liquors. It has a woody, rose-like flavor with a subtle fruityness.",
+  	"Category": "Flower",
+  	"Edibility": 25,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 1,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+        	"Duration": 90,
+		},
+  	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Beatrice", "Olivia", "Pam", "Sandy", "Sheila" ], 
+		"Like": [ "Amanra", "Astrid", "Coyote", "Evelyn", "Gus", "Harvey", "Hekate", "Jas", "Jodi", "Marnie", "Maru", "Mephisto", "Puck", "Shuck", "Sophia", "Xolotl" ],
+        	"Neutral": [ "Andy", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Gregory", "Gunther", "Haley", "Hephaestus", "Kent", "Leah", "Lewis", "Linus", "Morgan", "Penny", "Pierre", "Robin", "Sam", "Shane", "Susan", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Alex", "George", "Jacob", "Leo", "Martin", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		"Hate": [ "Krobus", "Marlon" ],	
+		},
+	"ContextTags": 
+        	[
+        	"violetflower_item"
+        	],
+}

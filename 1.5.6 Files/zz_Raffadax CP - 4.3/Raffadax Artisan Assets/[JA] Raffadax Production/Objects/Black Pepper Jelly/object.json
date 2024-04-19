@@ -1,0 +1,17 @@
+{
+  	"Name": "Black Pepper Jelly",
+  	"Description": "A dark, spicy jelly made from black peppercorns. This jelly works best on savory foods and sandwiches.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Spice Jelly",
+  	"Edibility": 30,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Haley", "Harvey", "Martin", "Olivia", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Gregory", "Gunther", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pierre", "Pam", "Puck", "Robin", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "George", "Penny", "Sam" ],
+		"Hate": [ "Andy", "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Morgan", "Morris", "Sebastian", "Vincent" ]
+		},
+}

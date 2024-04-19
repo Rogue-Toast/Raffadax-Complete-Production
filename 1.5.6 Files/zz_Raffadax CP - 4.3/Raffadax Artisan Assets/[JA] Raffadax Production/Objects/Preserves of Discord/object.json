@@ -1,0 +1,33 @@
+{
+    	"Name": "Preserves of Discord",
+    	"Description": "Whole chunks of fruit from the chaotic apple of Eris; it is sitting in a sweet thick syrup made from the same fruit. The contents of this jar seem irresistible, but it courses with a malevolent light.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Mythic Compote",
+    	"Edibility": -299,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -15,
+        	"MaxStamina": -15,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 25,
+        	"Defense": -15,
+
+        	"Duration": 300,
+		},
+    	"Price": 280200,
+    	"IsColored": false,
+    	"Recipe": null,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+}

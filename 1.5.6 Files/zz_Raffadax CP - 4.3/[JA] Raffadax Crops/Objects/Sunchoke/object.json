@@ -1,0 +1,16 @@
+{
+	"Name": "Sunchoke",
+  	"Description": "A root vegetable derived from topinambur flowers with a sweet, artichoke-like flavor. In some regions, they may also be called Jerusalem artichokes, earth apples or sunroot.",
+  	"Category": "Vegetable",
+  	"Edibility": 40,
+  	"Price": 35,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Maru" ],  
+        	"Like": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Morgan", "Sam", "Vincent" ]
+		},
+	"DisableWithMod": "BFV.FruitVeggie",
+}

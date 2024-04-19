@@ -1,0 +1,35 @@
+{
+  	"Name": "Jacaranda Flower Puree",
+  	"Description": "Jacaranda flowers that have been mashed into a smooth, thin spread. It is toxic to humans, but apparently popular with demi-humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Puree",
+  	"Edibility": -175,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 7,
+        	"Fishing": 7,
+      		"Foraging": 7,
+        	"Mining": 7,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 1000,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

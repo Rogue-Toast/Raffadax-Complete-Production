@@ -1,0 +1,49 @@
+{
+  	"Name": "Mole Sauce",
+  	"Description": "A savory red sauce made with peppers. It has a rich, nutty, earthy flavor; and is often used as a topping for enchiladas and burritos.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Condiment",
+  	"Edibility": 50,
+	"EdibleIsDrink": true,
+  	"Price": 1945,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 6,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Chipotle Pepper",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Hot Pepper",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Tomato",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Tomatillo ",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Cocoa Powder",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Minced Garlic",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		}, 
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline",  "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gregory", "Haley", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

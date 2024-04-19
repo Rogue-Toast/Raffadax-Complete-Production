@@ -1,0 +1,33 @@
+{
+    	"Name": "Bifrost Tea",
+  	"Description": "A radiant tea made from Bifrost flowers. The surface of this tea looks like a mirror reflecting the northern lights.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Tea",
+  	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 20,
+        	"MaxStamina": 20,
+		"MagnetRadius": 0,
+        	"Speed": 20,
+
+		"Attack": 20,
+        	"Defense": 20,
+
+        	"Duration": 240,
+		},
+  	"Price": 20100,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Hephaestus" ],
+		"Dislike": [ "Eloise", "Jas", "Krobus", "Leo", "Martin", "Penny", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

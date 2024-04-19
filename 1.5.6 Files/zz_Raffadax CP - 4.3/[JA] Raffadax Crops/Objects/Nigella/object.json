@@ -1,0 +1,16 @@
+{
+	"Name": "Nigella",
+  	"Description": "An azure flower from the plant that produces the spice black cumin. It can be used as an edible garnish, and has a similar flavor to the seeds.",
+  	"Category": "Flower",
+  	"Edibility": 5,
+  	"Price": 25,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Abigail", "Amanra", "Astrid", "Coyote", "Demetrius", "Evelyn", "Gus", "Hekate", "Leah", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marnie", "Maru", "Morgan", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Caroline", "Elliott", "Eloise", "George", "Leo", "Martin", "Morris", "Penny", "Victor", "Wednesday" ],
+		"Hate": [ "Marlon" ]
+		},
+}

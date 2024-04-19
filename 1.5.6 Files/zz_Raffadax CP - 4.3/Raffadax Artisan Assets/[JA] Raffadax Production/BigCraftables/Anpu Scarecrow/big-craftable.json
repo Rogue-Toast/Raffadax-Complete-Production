@@ -1,0 +1,33 @@
+{
+    "Name": "Anpu Scarecrow",
+    "Description": "A scarecrow fashioned after one of the gods of the netherworld. It emits terrifying noises whenever crows venture too close.",
+    "Price": 5000,
+    "ProvidesLight": true,
+    "Recipe": 
+		{
+    		"ResultCount": 1,
+    		"Ingredients": 
+			[
+      		{
+        		"Object": "Golden Fabric",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Golden Feather ",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Aether",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Ebony Wood",
+        		"Count": 50
+      		},
+    			],
+    "CanPurchase": true,
+    "PurchaseFrom": "Djinn",
+    "PurchasePrice": 5000
+  		},
+    "CanPurchase": false,
+}

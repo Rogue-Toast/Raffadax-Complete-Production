@@ -1,0 +1,16 @@
+{
+  	"Name": "Black Peppercorns",
+    	"Description": "The dried fruit of a pepper plant, they are used as a common cooking spice both whole and ground.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Spice",  	
+    	"Edibility": 5,
+    	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Demetrius", "Dwarf", "Evelyn", "George", "Gus", "Marlon", "Mephisto", "Olivia", "Puck", "Shuck", "Susan", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Caroline", "Claire", "Clint", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+	"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ],
+		},
+}

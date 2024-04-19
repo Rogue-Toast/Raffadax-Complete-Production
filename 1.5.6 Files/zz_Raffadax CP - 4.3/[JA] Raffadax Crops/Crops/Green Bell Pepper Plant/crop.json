@@ -1,0 +1,23 @@
+{
+	"Name": "Green Bell Pepper Plant",
+	"Product": "Green Bell Pepper",
+	"SeedName": "Green Bell Pepper Seeds",
+	"SeedDescription": "Seeds for a variant of pepper that may produce yellow bell peppers in addition to green. Matures in 7 days, and produces every 5 days after. Plant in the spring.",
+	"Type": "Vegetable",
+	"Seasons": ["spring"],
+	"Phases": [1,1,2,2,1],
+	"RegrowthPhase": 5,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 2,
+		"MaxIncreasePerFarmLevel": 5,
+		"ExtraChance": 0.2,
+		},
+	"SeedPurchasePrice": 100,
+	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": null,
+}

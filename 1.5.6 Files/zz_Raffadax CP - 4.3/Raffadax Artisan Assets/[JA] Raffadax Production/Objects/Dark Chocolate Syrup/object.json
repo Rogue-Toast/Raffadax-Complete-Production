@@ -1,0 +1,17 @@
+{
+    	"Name": "Dark Chocolate Syrup",
+    	"Description": "A sweet syrup made with dark chocolate. It is commonly used as a dessert and ice cream topping, but it can also be blended into milk or coffee beverages.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Dessert Syrup",
+  	"Edibility": 100,
+  	"EdibleIsDrink": true,
+  	"Price": 5025,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Demetrius" ], 
+		"Like": [ "Eloise", "Gus", "Jas", "Morgan", "Vincent" ], 
+        	"Neutral": [ "Abigail", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Hekate", "Jacob", "Jodi", "Kent", "Lewis", "Linus", "Olivia", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Emily", "Harvey", "Krobus", "Hephaestus", "Leah", "Leo", "Mephisto", "Puck", "Shuck", "Willy", "Xolotl" ]
+		},
+}

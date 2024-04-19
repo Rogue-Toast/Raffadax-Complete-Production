@@ -1,0 +1,27 @@
+{
+	"Name": "Distillation Tank",
+	"Description": "A large metal keg that can be used to distill liquors, brandies, nectars and mead balsams. Floral and herbal liqueurs require sugar to distill. Has built in aging function for creating aged tequilas and whiskeys.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Silver Bar",
+            		"Count": 10,
+        		},
+        		{
+            		"Object": 766,
+            		"Count": 50,
+        		},
+        		{
+            		"Object": 382,
+            		"Count": 10,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

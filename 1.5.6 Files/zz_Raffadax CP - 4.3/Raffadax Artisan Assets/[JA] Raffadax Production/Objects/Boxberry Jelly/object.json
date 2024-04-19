@@ -1,0 +1,16 @@
+{
+    	"Name": "Boxberry Jelly",
+    	"Description": "A minty red jelly made from wintergreen berries.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+  	"Edibility": 30,
+  	"Price": 110,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+	"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Harvey", "Linus", "Marlon", "Maru", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Marnie", "Martin", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+	"Hate": [ "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Sebastian", "Vincent" ],
+		},
+}

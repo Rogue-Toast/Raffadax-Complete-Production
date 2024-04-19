@@ -1,0 +1,27 @@
+{
+	"Name": "Incubation Tank",
+	"Description": "An environmentally controlled chamber that is specially designed for propagating yeasts, bacteria, and algaes.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": 910,
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Glass Pane",
+            		"Count": 2,
+        		},
+        		{
+            		"Object": 338,
+            		"Count": 5,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

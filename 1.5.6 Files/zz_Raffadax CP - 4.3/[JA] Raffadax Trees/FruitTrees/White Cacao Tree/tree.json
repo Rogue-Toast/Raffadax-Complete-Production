@@ -1,0 +1,10 @@
+{
+	"Name": "White Cacao Tree",
+	"Product": "White Cacao Pod",
+	"SaplingName": "White Cacao Sapling",
+	"SaplingDescription": "An enchanted tree that grows white cocoa pods which can be used to produce natural white chocolate. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Pods can be harvested in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 20000,
+    	"SaplingPurchaseRequirements": [ "f Amanra 2500" ],
+}

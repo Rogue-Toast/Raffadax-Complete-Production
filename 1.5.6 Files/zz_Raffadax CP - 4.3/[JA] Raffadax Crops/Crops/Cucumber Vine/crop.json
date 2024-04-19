@@ -1,0 +1,24 @@
+{
+	"Name": "Cucumber Vine",
+    	"Product": "Cucumber",
+    	"SeedName": "Cucumber Starter",
+    	"SeedDescription": "A trellised crop with a cylindrical fruit which is used as a vegetable culinarily. Takes 10 days to mature, then produces every four days after. Plant in the spring.",
+    	"Type": "Vegetable",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 2, 3, 3, 1 ],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.2,
+    		},
+    	"SeedPurchasePrice": 100,
+ 	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": [ "f Puck 500" ],
+	"DisableWithMod": "ppja.fruitsandveggies",
+}

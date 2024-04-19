@@ -1,0 +1,27 @@
+{
+	"Name": "Auto Mill",
+	"Description": "A machine that grinds nuts, herbs and spices to variable sizes. Has a milling function for making fine dusts and powders from flowers and medicinal plants. Certain items can be ground twice to produce flours.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 7,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Lodestone",
+            		"Count": 2,
+        		},
+        		{
+            		"Object": 335,
+            		"Count": 2,
+        		},
+        		{
+            		"Object": 787,
+            		"Count": 1,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}

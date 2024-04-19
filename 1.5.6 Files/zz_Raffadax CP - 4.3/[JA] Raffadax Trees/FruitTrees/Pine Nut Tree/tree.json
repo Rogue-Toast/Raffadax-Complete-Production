@@ -1,0 +1,10 @@
+{
+	"Name": "Pine Nut Tree",
+    	"Product": "Pine Nut",
+    	"SaplingName": "Pine Nut Sapling",
+    	"SaplingDescription": "An evergreen tree which pruduces pinecones with edible nuts. Harvest in the winter, takes 28 days to mature. Only grows if the 8 surrounding tiles are empty.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 6400,
+    	"SaplingPurchaseRequirements": [ "f Amanra 1000" ],
+}

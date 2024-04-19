@@ -1,0 +1,16 @@
+{
+    	"Name": "Noxious Powder",
+    	"Description": "A toxic black dust made from the fruit of a corpse flower. It has a faint aroma of death, like something that has been dead for a very long time. Zaminkand dust is toxic to humans, but there are entities in this world who can safely consume items produced using this powder.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Dust",
+  	"Edibility": -300,
+  	"Price": 7500,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail", "Demetrius", "Gunther", "Sebastian" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

@@ -1,0 +1,34 @@
+{
+  	"Name": "Woodruff Jelly",
+  	"Description": "A refreshing herbal jelly made from woodruff leaves.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herb Jelly",
+  	"Edibility": 50,
+	"EdibleBuffs":
+		{
+        	"Farming": 10,
+        	"Fishing": 0,
+      		"Foraging": 10,
+        	"Mining": 0,
+
+        	"Luck": 10,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 450,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Haley", "Harvey", "Jodi", "Kent", "Martin", "Olivia", "Sandy", "Shane" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gregory", "Gunther", "Jacob", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pierre", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "George", "Pam", "Penny", "Sam" ],
+		"Hate": [ "Andy", "Eloise", "Hekate", "Hephaestus", "Jas", "Leo", "Morgan", "Morris", "Sebastian", "Vincent" ]
+		},
+}

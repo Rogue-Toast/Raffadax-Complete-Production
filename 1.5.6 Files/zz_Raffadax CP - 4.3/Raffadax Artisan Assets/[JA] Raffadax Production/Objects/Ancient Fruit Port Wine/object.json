@@ -1,0 +1,36 @@
+{
+    	"Name": "Ancient Fruit Port Wine",
+    	"Description": "A fortified wine made from ancient fruit. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Fortified Wine",
+  	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 30,
+        	"Mining": 30,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 4950,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Apples", "Coyote", "Harvey", "Hekate", "Hephaestus", "Leah", "Mephisto", "Olivia", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Demetrius", "Elliott", "Jodi", "Kent", "Linus", "Marlon", "Pam", "Robin", "Sandy", "Shane", "Victor" ],
+        	"Neutral": [ "Alex", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Jacob", "Krobus", "Lewis", "Marnie", "Maru", "Morgan", "Morris", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Wednesday", "Willy" ],
+		"Dislike": [ "Abigail", "Haley" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]
+		},
+}

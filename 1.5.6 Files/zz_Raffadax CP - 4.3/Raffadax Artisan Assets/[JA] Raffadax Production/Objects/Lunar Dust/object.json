@@ -1,0 +1,15 @@
+{
+    	"Name": "Lunar Dust",
+    	"Description": "A luminous white dust made from the remains of a strange fruit. Items dyed with this dust will shine with the radiance of moonlight.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Dust",
+  	"Edibility": -300,
+  	"Price": 5000,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Krobus", "Maru", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

@@ -1,0 +1,21 @@
+{
+	"Name": "Olive",
+  	"Description": "An unripened green olive. Green olives have a bitter flavor, and are more often pickled or preserved for cocktail use than black olives.",
+  	"Category": "Vegetable",
+  	"Edibility": 25,
+  	"Price": 125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam", "Sebastian" ],
+        	"Like": [ "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Hephaestus", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pam", "Puck", "Robin", "Sandy", "Shuck", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Gregory", "Haley", "Hekate", "Shane", "Sheila", "Sophia", "Susan" ], 
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ]	
+		},
+	"ContextTags": 
+        	[
+        	"olive_object"
+        	],
+	"DisableWithMod": "ppja.moretrees",
+}

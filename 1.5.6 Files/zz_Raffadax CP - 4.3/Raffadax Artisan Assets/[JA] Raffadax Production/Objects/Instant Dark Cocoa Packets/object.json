@@ -1,0 +1,17 @@
+{
+    	"Name": "Instant Dark Cocoa Packets",
+    	"Description": "Sweetened dark cocoa powder that has been individually packaged into single serving packets.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Instant Cocoa",
+  	"Edibility": -300,
+  	"Price": 1800,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Like": [ "Apples", "Eloise", "Jas", "Leo", "Morgan", "Vincent" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Hephaestus", "Krobus", "Morris", "Sebastian", "Wednesday" ]
+		},
+}

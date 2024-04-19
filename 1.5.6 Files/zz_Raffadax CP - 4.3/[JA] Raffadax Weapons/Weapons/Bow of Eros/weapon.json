@@ -1,0 +1,18 @@
+{
+  	"Name": "Bow of Eros",
+  	"Description": "The bow used by the god of love to pair couples together.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 150,
+  	"MaximumDamage": 250,
+  	"Knockback": 0.25,
+  	"Speed": 5,
+  	"Accuracy": 100,
+  	"Defense": 150,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.25,
+  	"CritMultiplier": 2.5,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

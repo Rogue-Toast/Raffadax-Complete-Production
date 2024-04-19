@@ -1,0 +1,36 @@
+{
+  	"Name": "White Algae Kombucha",
+  	"Description": "A lightly effervescent beverage made by fermenting white algae tea. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herbal Kombucha",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 7,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 7,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 2,
+
+        	"Duration": 180,
+		},
+  	"Price": 500,
+  	"IsColored": false,
+	"Recipe": null,
+   	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Astrid", "Coyote", "Demetrius", "Emily", "Haley", "Harvey", "Kent", "Leah", "Lewis", "Mephisto", "Maru", "Puck", "Shuck", "Xolotl" ],
+		"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Elliott", "Gregory", "Hekate", "Hephaestus", "Olivia", "Robin", "Sandy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Claire", "Evelyn", "Gus", "Jacob", "Jodi", "Marnie", "Morris", "Pam", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Dislike": [ "Andy", "Dwarf", "George", "Gunther", "Krobus", "Linus", "Marlon", "Wednesday" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

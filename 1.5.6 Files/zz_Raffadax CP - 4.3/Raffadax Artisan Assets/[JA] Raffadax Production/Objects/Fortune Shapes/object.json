@@ -1,0 +1,35 @@
+{
+    	"Name": "Fortune Shapes",
+    	"Description": "A sweet children's cereal made with colorful charm shapes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Cereal",
+  	"Edibility": 100,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 2,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 60,
+		},
+  	"Price": 500,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Eloise", "Jas", "Leo", "Vincent" ],
+		"Like": [ "Abigail", "Emily", "Jodi", "Marnie", "Martin", "Maru", "Morgan", "Pam", "Sam" ],
+        	"Neutral": [ "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Gregory", "Gus", "Jacob", "Kent", "Leah", "Lewis", "Marlon", "Morris", "Pierre", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan" ],
+		"Dislike": [ "Alex", "Andy", "Apples", "Demetrius", "Evelyn", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Krobus", "Linus", "Penny", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Amanra", "Astrid", "Coyote", "Dwarf", "George", "Mephisto", "Olivia", "Puck", "Sebastian", "Shuck", "Wednesday", "Xolotl" ]
+		},
+}

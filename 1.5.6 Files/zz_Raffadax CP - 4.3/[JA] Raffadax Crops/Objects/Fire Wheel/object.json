@@ -1,0 +1,33 @@
+{
+	"Name": "Fire Wheel",
+  	"Description": "A vibrant wildflower with a pleasant fragrance similar to licorice and bubblegum. It is sometimes used as an ornimental in gardens, and has been used medicinally by indigenous people for centuries. This flower is said to bring luck to those who find it.",
+  	"Category": "Flower",
+  	"Edibility": 10,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 1,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Abigail", "Amanra", "Astrid", "Coyote", "Demetrius", "Evelyn", "Gus", "Hekate", "Leah", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marnie", "Maru", "Morgan", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Caroline", "Elliott", "Eloise", "George", "Leo", "Martin", "Morris", "Penny", "Victor", "Wednesday" ],
+		"Hate": [ "Marlon" ]
+		},
+}

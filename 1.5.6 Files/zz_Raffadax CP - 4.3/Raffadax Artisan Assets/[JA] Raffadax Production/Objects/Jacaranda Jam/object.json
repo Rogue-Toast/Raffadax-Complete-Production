@@ -1,0 +1,34 @@
+{
+  	"Name": "Jacaranda Jam",
+  	"Description": "A vibrant purple jam made with poisonous flower petals. It does not smell very appealing, but it is apparently quite popular with demi-humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Jam",
+  	"Edibility": -200,
+	"EdibleBuffs":
+		{
+        	"Farming": 8,
+        	"Fishing": 8,
+      		"Foraging": 8,
+        	"Mining": 8,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 3100,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Wednesday" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Hekate", "Hephaestus", "Sebastian", "Alecto", "Wizard" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Nídhöggr",
+  	"Description": "A spear wielded by the ruler of Hel that is tipped with a fang from the dragon, Nídhöggr. Wounds caused by this weapon will immediately begin to fester and rot.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 250,
+  	"MaximumDamage": 750,
+  	"Knockback": 1.0,
+  	"Speed": 3,
+  	"Accuracy": 100,
+  	"Defense": 250,
+	"ExtraSwingArea": 1,
+  	"CritChance": 0.20,
+  	"CritMultiplier": 3.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

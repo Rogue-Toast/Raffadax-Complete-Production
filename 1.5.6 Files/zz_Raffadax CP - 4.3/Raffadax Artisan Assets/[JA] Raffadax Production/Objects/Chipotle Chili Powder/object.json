@@ -1,0 +1,18 @@
+{
+	"Name": "Chipotle Chili Powder",
+  	"Description": "A spicy red dust made from ground smoked peppers. It is a popular cooking spice in some countries.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Ground Spice",
+  	"Edibility": -300,
+  	"Price": 320,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Kent", "Lewis", "Olivia", "Shane" ],
+        	"Like": [ "Andy", "Beatrice", "Claire", "Demetrius", "Elliott", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Leah", "Linus", "Marlon", "Martin", "Morris", "Pam", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Neutral": [ "Alex", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Krobus", "Leo", "Marnie", "Maru", "Penny", "Pierre", "Sam", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Amanra", "Apples", "Astrid", "Coyote", "Eloise", "Haley", "Jas", "Mephisto", "Morgan", "Puck", "Shuck", "Vincent", "Xolotl" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

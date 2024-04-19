@@ -1,0 +1,35 @@
+{
+    	"Name": "Hazelnut Kombucha",
+  	"Description": "A lightly effervescent beverage made by fermenting hazelnut tea. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nut Tea Kombucha",
+  	"Edibility": 75,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 2,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+ 	"Price": 360,
+  	"IsColored": false,
+	"Recipe": null, 
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Abigail", "Amanra", "Beatrice", "Emily", "Evelyn", "Gunther", "Gus", "Harvey", "Hephaestus", "Jacob", "Leah", "Linus", "Marnie", "Maru", "Olivia", "Pam", "Puck", "Robin", "Shuck", "Susan", "Xolotl", ],
+        	"Like": [ "Claire", "Clint", "Demetrius", "George", "Hekate", "Kent", "Krobus", "Lewis", "Marlon", "Martin", "Morris", "Penny", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday" ],
+		"Neutral": [ "Andy", "Caroline", "Dwarf", "Elliott", "Gregory", "Haley", "Jodi", "Krobus", "Pierre", "Sam", "Shane", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Sebastian", "Vincent" ]
+		},
+}

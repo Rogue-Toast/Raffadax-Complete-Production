@@ -1,0 +1,10 @@
+{
+	"Name": "Black Oak Tree",
+	"Product": "Mistletoe",
+	"SaplingName": "Black Oak Sapling",
+	"SaplingDescription": "An oak sapling seeded with a parasitic mistletoe. The berries are popular as a winter decoration, but are too toxic for average humans to consume. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": "Barghest",
+    	"SaplingPurchasePrice": 2400,
+    	"SaplingPurchaseRequirements": [ "f Shuck 1500" ],
+}

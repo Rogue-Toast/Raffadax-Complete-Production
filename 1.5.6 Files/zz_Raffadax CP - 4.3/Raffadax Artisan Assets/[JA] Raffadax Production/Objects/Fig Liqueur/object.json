@@ -1,0 +1,35 @@
+{
+    	"Name": "Fig Liqueur",
+    	"Description": "A flavorful liqueur made from figs. It has a sweet, honey-like flavor. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+	"Edibility": 160,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+  	"Price": 820,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Hekate", "Hephaestus", "Kent", "Lewis", "Linus", "Mephisto", "Olivia", "Pam", "Pierre", "Puck", "Sandy", "Shane", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Apples", "Caroline", "Claire", "Clint", "Gregory", "Gunther", "Emily", "Harvey", "Jacob", "Jodi", "Krobus", "Leah", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sheila", "Sophia", "Victor", "Wednesday", "Willy" ],
+		"Neutral": [ "Susan" ],
+		"Hate": [ "Eloise", "Haley", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sam", "Sebastian", "Vincent" ]
+		},
+}

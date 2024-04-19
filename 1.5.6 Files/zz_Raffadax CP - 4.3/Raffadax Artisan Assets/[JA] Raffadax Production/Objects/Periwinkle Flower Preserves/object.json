@@ -1,0 +1,17 @@
+{
+  	"Name": "Periwinkle Flower Preserves",
+  	"Description": "Whole periwinkle flowers preserved in a lavender-blue syrup. It is toxic to humans, but well liked by undead creatures.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Preserves",
+  	"Edibility": -150,
+  	"Price": 620,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Wednesday" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Hekate", "Hephaestus", "Sebastian", "Alecto", "Wizard" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

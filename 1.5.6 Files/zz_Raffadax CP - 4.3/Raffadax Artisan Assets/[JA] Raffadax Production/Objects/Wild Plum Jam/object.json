@@ -1,0 +1,18 @@
+{
+    	"Name": "Wild Plum Jam",
+    	"Description": "A sweet purple jam made with plum pulp.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Jam",
+  	"Edibility": 60,
+  	"Price": 580,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+        	"Like": [ "Andy", "Apples", "Beatrice", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Martin", "Morgan", "Morris", "Olivia", "Pam", "Robin", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor" ],
+		"Neutral": [ "Alex", "Amanra", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Krobus", "Leo", "Lewis", "Marnie", "Maru", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Vincent" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+	"DisableWithMod": "Vyranity.Pies",
+}

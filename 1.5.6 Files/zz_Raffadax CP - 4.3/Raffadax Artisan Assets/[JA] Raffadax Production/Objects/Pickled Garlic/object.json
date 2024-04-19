@@ -1,0 +1,18 @@
+{
+	"Name": "Pickled Garlic",
+  	"Description": "Whole cloves of garlic pickled in a brine solution.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickles",
+  	"Edibility": 33,
+  	"Price": 170,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Harvey" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Leo" ],
+		"Hate": [ "Claire", "Eloise", "Haley", "Hekate", "Hephaestus", "Jas", "Maru", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

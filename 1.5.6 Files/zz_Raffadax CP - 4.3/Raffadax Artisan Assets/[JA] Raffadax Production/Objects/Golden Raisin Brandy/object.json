@@ -1,0 +1,36 @@
+{
+    	"Name": "Golden Raisin Brandy",
+    	"Description": "A savory-sweet brandy made by distilling golden raisin wine. Drink in moderation.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Brandy",
+  	"Edibility": 80,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -2,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 780,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Beatrice", "Coyote", "Evelyn", "George", "Harvey", "Hekate", "Leah", "Lewis", "Linus", "Mephisto", "Olivia", "Puck", "Shane", "Shuck", "Xolotl" ],
+        	"Like": [ "Apples", "Claire", "Demetrius", "Elliott", "Gregory", "Gunther", "Hephaestus", "Jacob", "Jodi", "Kent", "Marlon", "Morris", "Pam", "Robin", "Sandy", "Sheila", "Wednesday" ],
+		"Neutral": [ "Alex", "Caroline", "Clint", "Dwarf", "Emily", "Gus", "Krobus", "Marnie", "Maru", "Pierre", "Sam", "Sophia", "Susan", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Abigail", "Haley", "Victor" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

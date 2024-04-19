@@ -1,0 +1,19 @@
+{
+  	"Name": "Starfruit Curd",
+    	"Description": "Starfruit that has been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+    	"Edibility": 70,
+	"EdibleIsDrink": true,
+    	"Price": 1500,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Apples" ],
+        	"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Morgan", "Pam", "Robin", "Sandy", "Shane" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Krobus", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Vincent" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

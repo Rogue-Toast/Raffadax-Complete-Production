@@ -1,0 +1,19 @@
+{
+	"Name": "Crystal Fruit Juice",
+  	"Description": "A refreshing blue juice made from crystal fruit.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"Price": 340,
+	"IsColored": false,
+	"Recipe": null,
+    	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Martin", "Sandy" ],
+		"Like": [ "Demetrius", "Elliott", "Hekate", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Shane" ],
+        	"Neutral": [ "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hephaestus", "Jacob", "Leo", "Lewis", "Marlon", "Marnie", "Mephisto", "Morgan", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Krobus", "Maru", "Vincent", "Willy" ], 
+		"Hate": [ "Andy", "Sebastian"  ]	
+		},
+}

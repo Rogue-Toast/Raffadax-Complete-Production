@@ -1,0 +1,19 @@
+{
+    	"Name": "Yogurt",
+    	"Description": "A thin white substance made by fermenting milk with live bacteria culture. It has a sour flavor, and is often mixed with fruit and granola.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Dairy",
+    	"Edibility": 75,
+    	"EdibleIsDrink": true,
+    	"Price": 480,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Evelyn", "Gregory", "Jodi", "Leah", "Linus", "Marnie", "Martin", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sheila" ], 
+        	"Neutral": [ "Abigail", "Alecto", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Eloise", "Emily", "George", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Krobus", "Leo", "Marlon", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Puck", "Sam", "Sebastian", "Shane", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "Dwarf", "Elliott", "Haley", "Lewis", "Wizard" ],
+		"Hate": [ "Kent" ]
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

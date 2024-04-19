@@ -1,0 +1,16 @@
+{
+	"Name": "Capers",
+  	"Description": "The flower buds of a Flinders rose. They are a common cooking component in certain cuisines, and are used both fresh and pickled.",
+  	"Category": "Vegetable",
+  	"Edibility": 5,
+  	"Price": 15,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Caroline", "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Krobus", "Leah", "Lewis", "Morris", "Olivia", "Pierre", "Sam", "Sebastian" ],
+        	"Like": [ "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Hephaestus", "Jodi", "Kent", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Pam", "Puck", "Robin", "Sandy", "Shuck", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Gregory", "Haley", "Hekate", "Shane", "Sheila", "Sophia", "Susan" ], 
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ]	
+		},
+}

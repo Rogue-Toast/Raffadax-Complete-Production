@@ -1,0 +1,19 @@
+{
+  	"Name": "Blueberry Juice",
+    	"Description": "A sweet blue juice made from blueberries.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+    	"Edibility": 50,
+	"EdibleIsDrink": true,
+    	"Price": 115,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Martin", "Sandy" ],
+		"Like": [ "Alex", "Apples", "Beatrice", "Claire", "Demetrius", "Elliott", "Eloise", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Morgan", "Morris", "Olivia", "Pam", "Robin", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Leo", "Marnie", "Maru", "Mephisto", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Krobus", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

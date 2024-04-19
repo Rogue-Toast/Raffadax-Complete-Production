@@ -1,0 +1,15 @@
+{
+  	"Name": "Wild Grapes",
+    	"Description": "A tart, unripe bunch of grapes from a wild grape vine. They can be used as a salad topping and baking component, or can be squeezed down to make verjus.",
+  	"Category": "Vegetable",
+  	"CategoryTextOverride": "Fruit",
+    	"Edibility": 0,
+    	"Price": 5,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+	{
+	"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ]
+	},
+}

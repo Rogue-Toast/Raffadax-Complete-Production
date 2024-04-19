@@ -1,0 +1,34 @@
+{
+  	"Name": "Mistletoe Preserves",
+  	"Description": "Whole mistletoe berries preserved in a sweet, colorles syrup. It is highly toxic to humans, but is well liked among entities that live deep within forests.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Compote",
+  	"Edibility": -125,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 13,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": -8,
+
+        	"Duration": 240,
+		},
+  	"Price": 1040,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Hekate", "Hephaestus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Sebastian" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

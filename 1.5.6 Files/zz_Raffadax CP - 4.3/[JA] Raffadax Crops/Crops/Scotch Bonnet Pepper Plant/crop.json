@@ -1,0 +1,24 @@
+{
+	"Name": "Scotch Bonnet Pepper Plant",
+    	"Product": "Scotch Bonnet Pepper",
+    	"SeedName": "Scotch Bonnet Pepper Seeds",
+    	"SeedDescription": "Seeds for a sweet-hot variant of pepper commonly used in island cuisines. Takes 5 days to mature, then continues to produce every three days after. Plant in the spring.",
+    	"Type": "Vegetable",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 1, 1, 1, 1 ],
+    	"RegrowthPhase": 3,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+    	"SeedPurchasePrice": 35,
+ 	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": [ "f Xolotl 500" ],
+	"DisableWithMod": "BFV.FruitVeggie",
+}

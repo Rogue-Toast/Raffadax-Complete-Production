@@ -1,0 +1,35 @@
+{
+	"Name": "Bearberry Port Wine",
+	"Description": "A fortified wine made with wild bearberries. When you drink this wine, you can feel the spirit of the bear sharpen your instincts.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Enchanted Port Wine",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 10,
+        	"Fishing": 10,
+      		"Foraging": 10,
+        	"Mining": 10,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 4500,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Amanra", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Gregory", "Hekate", "Hephaestus", "Harvey", "Kent", "Leah", "Linus", "Mephisto", "Puck", "Sheila", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Jacob", "Jodi", "Krobus", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Victor", "Wednesday" ],
+		"Neutral": [ "Morgan", "Sophia", "Susan" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

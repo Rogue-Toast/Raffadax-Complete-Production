@@ -1,0 +1,18 @@
+{
+  	"Name": "Dáinsleif",
+  	"Description": "The dwarvish sword of an ancient king. This sword is cursed to cause death every time it is bared. Wounds caused by this weapon will never heal, even if just a scratch.",
+  	"Type": "Sword",
+  	"MinimumDamage": 111,
+  	"MaximumDamage": 666,
+  	"Knockback": 3.0,
+  	"Speed": 6,
+  	"Accuracy": 100,
+  	"Defense": 666,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.30,
+  	"CritMultiplier": 6.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

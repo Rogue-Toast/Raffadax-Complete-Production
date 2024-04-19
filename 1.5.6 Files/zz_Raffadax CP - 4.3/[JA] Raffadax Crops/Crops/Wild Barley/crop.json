@@ -1,0 +1,23 @@
+{
+	"Name": "Wild Barley",
+	"Product": "Wild Barley",
+	"SeedName": "Wild Barley Seeds",
+	"SeedDescription": "Seeds for a grain commonly used in beer and alcohol production. Takes 5 days to mature. Plant in the spring or summer.",
+    	"Type": "Greens",
+    	"Seasons": [ "spring", "summer" ],
+    	"Phases": [ 1, 1, 2, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": true,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 5,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": null,
+}

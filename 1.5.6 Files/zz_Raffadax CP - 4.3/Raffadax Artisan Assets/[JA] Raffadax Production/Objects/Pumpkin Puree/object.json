@@ -1,0 +1,18 @@
+{
+  	"Name": "Pumpkin Puree",
+    	"Description": "Pumpkin innards that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Vegetable Puree",
+    	"Edibility": 25,
+	"EdibleIsDrink": true,
+    	"Price": 640,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane" ],
+		"Neutral": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Krobus", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Penny", "Pierre", "Puck", "Sam", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jas", "Morgan", "Vincent" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

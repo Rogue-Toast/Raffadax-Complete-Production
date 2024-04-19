@@ -1,0 +1,16 @@
+{
+  	"Name": "Oolong Tea Leaf",
+  	"Description": "A traditional Chinese tea produced by partially oxidizing green tea leaves. This varity of tea can have a wide range of flavors, as the degree of oxidation can differ between Oolong producers.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Tea Leaf",
+  	"Edibility": -300,
+	"Price": 150,
+	"IsColored": false,
+	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Caroline", "Claire", "Lewis" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

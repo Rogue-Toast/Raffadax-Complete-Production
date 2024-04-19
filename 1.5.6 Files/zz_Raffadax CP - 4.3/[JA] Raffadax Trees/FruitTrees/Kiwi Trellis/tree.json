@@ -1,0 +1,10 @@
+{
+	"Name": "Kiwi Trellis",
+	"Product": "Kiwi",
+	"SaplingName": "Kiwi Sapling",
+	"SaplingDescription": "A permanent lattice that regrows a hearty kiwi vine annually. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Pookah",
+    	"SaplingPurchasePrice": 3000,
+    	"SaplingPurchaseRequirements": [ "f Puck 1000" ],
+}

@@ -1,0 +1,36 @@
+{
+  	"Name": "Sloe Plum Puree",
+  	"Description": "Sloe plums that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 6,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Kent", "Krobus", "Linus", "Shane", "Wednesday" ],
+        	"Like": [ "Alex", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Haley", "Hekate", "Hephaestus", "Jas", "Jodi", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Olivia", "Pam", "Pierre", "Robin", "Sandy", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Abigail", "Amanra", "Astrid", "Coyote", "Haley", "Jacob", "Mephisto", "Morris", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Eloise", "Jas", "Martin", "Morgan", "Sam", "Vincent" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

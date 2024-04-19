@@ -1,0 +1,35 @@
+{
+	"Name": "Sparkling Bearberry Wine",
+	"Description": "A sparkling wine made from bearberries. It smells like the forest and has a flavor similar to sweet cranberries. When you drink this wine, you can feel the spirit of the bear sharpen your instincts.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Enchanted Sparkling Wine",
+	"Edibility": 200,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 8,
+        	"Fishing": 8,
+      		"Foraging": 8,
+        	"Mining": 8,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 2250,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Amanra", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Gregory", "Hekate", "Hephaestus", "Harvey", "Kent", "Leah", "Linus", "Mephisto", "Puck", "Sheila", "Shuck", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Jacob", "Jodi", "Krobus", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Victor", "Wednesday" ],
+		"Neutral": [ "Morgan", "Sophia", "Susan" ],
+		"Hate": [ "Andy", "Eloise", "Jas", "Leo", "Martin", "Penny", "Sebastian", "Vincent" ]	
+		},
+}

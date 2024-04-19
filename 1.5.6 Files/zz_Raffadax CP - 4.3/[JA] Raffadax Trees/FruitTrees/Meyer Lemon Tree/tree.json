@@ -1,0 +1,10 @@
+{
+	"Name": "Meyer Lemon Tree",
+    	"Product": "Meyer Lemon",
+    	"SaplingName": "Meyer Lemon Sapling",
+    	"SaplingDescription": "A citrus tree which produces a large variety of lemon. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Selkie",
+    	"SaplingPurchasePrice": 7000,
+	"SaplingPurchaseRequirements": [ "f Astrid 1000" ],
+}

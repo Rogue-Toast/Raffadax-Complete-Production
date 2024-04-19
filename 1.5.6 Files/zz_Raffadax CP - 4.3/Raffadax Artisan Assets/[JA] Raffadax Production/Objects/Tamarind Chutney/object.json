@@ -1,0 +1,19 @@
+{
+  	"Name": "Tamarind Chutney",
+  	"Description": "A sweet-sour fruit sauce with whole chunks of deseeded tamarind fruit. It has a complex flavor, and makes an excellent topping for both sweet and savory foods.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Chutney",
+  	"Edibility": 90,
+  	"Price": 1950,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Dwarf", "Evelyn", "Gus", "Olivia", "Pierre", "Susan" ],
+		"Like": [ "Apples", "Leo" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Emily", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sandy", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Hekate", "Hephaestus", "Jas", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent"]
+		},
+	"DisableWithMod": "Bonster.Recipes",
+}

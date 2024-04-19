@@ -1,0 +1,18 @@
+{
+  	"Name": "Triton",
+  	"Description": "The trident of Poseidon that can command the seas and the storms. This weapon can purify, boil or freeze water by simply touching it to the liquid's surface.",
+  	"Type": "Club",
+  	"MinimumDamage": 111,
+  	"MaximumDamage": 777,
+  	"Knockback": 3.0,
+  	"Speed": 3,
+  	"Accuracy": 100,
+  	"Defense": 300,
+	"ExtraSwingArea": 3,
+  	"CritChance": 0.30,
+  	"CritMultiplier": 3.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

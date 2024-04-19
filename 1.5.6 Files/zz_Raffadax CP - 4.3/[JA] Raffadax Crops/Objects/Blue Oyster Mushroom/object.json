@@ -1,0 +1,17 @@
+{
+	"Name": "Blue Oyster Mushroom",
+  	"Description": "A meaty, fan shaped mushroom with a bluish grey cap and a white stem.  These mushrooms can have a mild, earthy, or anise-like flavor depending on how they are prepared.",
+  	"Category": "-81",
+  	"CategoryTextOverride": "Mushroom",
+  	"Edibility": 25,
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Harvey", "Leah", "Linus", "Olivia", "Victor" ], 
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Apples", "Beatrice", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Jacob", "Kent", "Hekate", "Marlon", "Martin", "Morris", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Robin", "Sandy", "Sheila", "Sophia", "Wednesday" ],
+        	"Dislike": [ "Andy", "Caroline", "Claire", "Dwarf", "Elliott", "Eloise", "Gregory", "Gunther", "Haley", "Hephaestus", "Jas", "Jodi", "Krobus", "Leo", "Pierre", "Sam", "Sebastian", "Shane", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ]	
+		},
+}

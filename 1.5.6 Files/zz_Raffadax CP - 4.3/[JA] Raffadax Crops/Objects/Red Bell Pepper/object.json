@@ -1,0 +1,16 @@
+{
+	"Name": "Red Bell Pepper",
+  	"Description": "A fully ripened bell pepper with a sweet, fruity flavor.",
+  	"Category": "Vegetable",
+  	"Edibility": 25,
+  	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Gus", "Robin", "Susan", "Olivia" ],
+        	"Like": [ "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Mephisto", "Morris", "Pam", "Penny", "Pierre", "Puck", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Morgan", "Sam", "Vincent" ],
+		"Hate": [ "Demetrius", "Maru" ]
+		},
+}

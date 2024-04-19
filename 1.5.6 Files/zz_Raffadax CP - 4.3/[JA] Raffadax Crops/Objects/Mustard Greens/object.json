@@ -1,0 +1,14 @@
+{
+	"Name": "Mustard Greens",
+  	"Description": "A leafy green vegetable with a sharp, peppery bite.",
+  	"Category": "Vegetable",
+  	"Edibility": 25,
+  	"Price": 35,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Morgan", "Sam", "Vincent" ]
+		},
+}

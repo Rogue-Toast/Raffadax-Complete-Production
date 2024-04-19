@@ -1,0 +1,16 @@
+{
+  	"Name": "Earl Grey Tea Leaf",
+  	"Description": "An extremely popular black tea that has been infused with the oil from bergamot oranges. It has a distinct, citrus fragrance.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Tea Leaf",
+  	"Edibility": -300,
+	"Price": 715,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Caroline", "Claire", "Elliott", "Emily", "George", "Gunther", "Harvey", "Lewis", "Morris", "Olivia", "Willy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Evelyn", "Gregory", "Gus", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

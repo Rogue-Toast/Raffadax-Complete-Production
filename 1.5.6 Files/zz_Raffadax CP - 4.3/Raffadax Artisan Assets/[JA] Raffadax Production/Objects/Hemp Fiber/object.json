@@ -1,0 +1,15 @@
+{
+    	"Name": "Hemp Fiber",
+    	"Description": "Strong fibers from the stalk of a plant. They can be used to make a variety of products including paper, rope and cloth.",
+  	"Category": "-16",
+  	"CategoryTextOverride": "Resource",
+  	"Edibility": -300,
+  	"Price": 75,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Like": [ "Emily" ],
+        	"Neutral": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Penny", "Puck", "Shuck", "Xolotl" ]
+		},
+}

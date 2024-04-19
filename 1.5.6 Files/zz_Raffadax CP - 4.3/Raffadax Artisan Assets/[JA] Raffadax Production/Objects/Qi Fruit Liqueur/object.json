@@ -1,0 +1,36 @@
+{
+    	"Name": "Qi Fruit Liqueur",
+    	"Description": "A strange liqueur made from enigmatic Qi fruit. It mixes well in specialty cocktails, but when mismeasured can ruin a drink. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Liqueur",
+	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+	"Price": 305,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Hekate", "Hephaestus", "Kent", "Lewis", "Linus", "Mephisto", "Pam", "Puck", "Sam", "Shane", "Shuck", "Xolotl" ], 
+        	"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Leah", "Robin", "Sandy", "Victor" ],
+		"Neutral": [ "Apples", "Beatrice", "Claire", "Gregory", "Gunther", "Jacob", "Marlon", "Morris", "Olivia", "Sheila", "Sophia", "Susan", "Wednesday" ],
+		"Dislike": [ "Abigail", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Haley", "Krobus", "Marnie", "Maru", "Pierre", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Sebastian", "Vincent" ]
+		},
+}

@@ -1,0 +1,35 @@
+{
+  	"Name": "Baobab Jam",
+  	"Description": "A tart jam made with the pulp of baobab fruit. It has a sweet, citrusy flavor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jam",
+  	"Edibility": 125,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 5,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+  	"Price": 4600,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Dwarf", "Elliott", "Gunther", "Kent", "Leo", "Penny", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Eloise", "Emily", "Evelyn", "Gregory", "Gus", "Harvey", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Martin", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sebastian", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Martin", "Sam", "Shane", "Victor" ],
+		"Hate": [ "Andy", "George", "Haley", "Hekate", "Hephaestus", "Eloise", "Jas", "Linus", "Morgan", "Vincent" ]		
+		},
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "White Peach Compote",
+    	"Description": "A sweet pink syrup with large chunks of soft white peach in it. It makes an excellent topping for waffles, teacakes or ice cream.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Compote",
+    	"Edibility": 110,
+    	"Price": 1950,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "Gunther", "Olivia", "Pam", "Penny", "Sheila", "Robin", "Sophia" ],
+        	"Like": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "George", "Gregory", "Gus", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Pierre", "Sam", "Sandy", "Shane", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Morris" ],
+		"Hate": [ "Dwarf", "Hekate", "Hephaestus", "Krobus", "Sebastian", "Wednesday" ]
+		},
+}

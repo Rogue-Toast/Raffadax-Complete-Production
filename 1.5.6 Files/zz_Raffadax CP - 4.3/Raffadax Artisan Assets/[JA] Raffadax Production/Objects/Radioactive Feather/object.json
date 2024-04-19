@@ -1,0 +1,16 @@
+{
+  	"Name": "Radioactive Feather",
+  	"Description": "A bright green feather that glows with radioactive light. What kind of bird would drop a feather like this?",
+  	"Category": "-18",
+  	"CategoryTextOverride": "Legendary Feather",
+  	"Edibility": -300,
+  	"Price": 15000,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Wednesday", "Xolotl" ],
+		"Like": [ "Demetrius" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Alecto", "Wizard" ],
+		},
+}

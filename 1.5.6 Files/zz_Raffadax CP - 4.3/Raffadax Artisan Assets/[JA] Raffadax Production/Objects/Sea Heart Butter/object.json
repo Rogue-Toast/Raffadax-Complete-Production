@@ -1,0 +1,35 @@
+{
+    	"Name": "Sea Heart Butter",
+    	"Description": "A smooth, creamy butter made from sea hearts. It can be used as a spread or as a baking component.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nut Butter",
+    	"Edibility": 50,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 7,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 7,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 2200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Clint", "Dwarf", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Krobus", "Leah", "Linus", "Marnie", "Olivia", "Susan", "Willy", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Caroline", "Claire", "Demetrius", "Eloise", "Emily", "Gus", "Haley", "Hekate", "Jas", "Jodi", "Kent", "Leo", "Lewis", "Marlon", "Martin", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Victor", "Vincent", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Gregory" ]
+		},
+}

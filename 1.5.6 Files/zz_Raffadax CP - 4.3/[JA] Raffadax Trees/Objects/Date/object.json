@@ -1,0 +1,18 @@
+{
+	"Name": "Date",
+    	"Description": "A sweet oval fruit that grew on a desert palm tree. It has a sticky, chewy texture and a dessert like flavor.",
+  	"Category": "Fruit",
+    	"Edibility": 40,
+    	"Price": 75,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Demetrius", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Pam", "Robin", "Sandy", "Sheila" ],
+        	"Like": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Clint", "Claire", "Coyote", "Eloise", "Gregory", "Gus", "Hekate", "Hephaestus", "Jacob", "Jas", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Pierre", "Puck", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Dwarf", "Emily", "Haley", "Olivia", "Penny", "Morris", "Sam", "Shane" ],
+		"Hate": [ "Alex", "Haley", "Jas", "Krobus", "Leo", "Morgan", "Sebastian", "Vincent" ]
+		},
+	"DisableWithMod": "BonsterTrees",
+
+}

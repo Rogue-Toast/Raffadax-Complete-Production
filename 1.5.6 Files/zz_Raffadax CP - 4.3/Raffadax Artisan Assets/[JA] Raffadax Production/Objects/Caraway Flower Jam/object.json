@@ -1,0 +1,18 @@
+{
+  	"Name": "Caraway Flower Jam",
+  	"Description": "A fragrant white jam made with shredded caraway flowers. It can be used as a sweet addition to cakes and puddings.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Jam",
+  	"Edibility": 60,
+  	"Price": 310,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Linus", "Pam", "Sam", "Sheila", "Sophia", "Susan" ], 
+		"Like": [ "Abigail", "Apples", "Demetrius", "Elliott", "Evelyn", "Gunther", "Gus", "Harvey", "Jodi", "Leah", "Lewis", "Marnie", "Maru", "Olivia", "Robin", "Sandy", "Alecto", "Wizard" ],
+        	"Neutral": [ "Amanra", "Astrid", "Caroline", "Claire", "Clint", "Coyote", "Dwarf", "Emily", "Gregory", "Kent", "Mephisto", "Pierre", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Alex", "Eloise", "Haley", "Penny", "Shane", "Victor", "Willy" ],
+		"Hate": [ "Andy", "George", "Hekate", "Hephaestus", "Jas", "Jacob", "Krobus", "Leo", "Marlon", "Martin", "Morgan", "Morris", "Sebastian", "Vincent", "Wednesday" ],	
+		},
+}

@@ -1,0 +1,19 @@
+{
+  	"Name": "Chestnut",
+  	"Description": "A bitter, crunchy nut in a spiny husk. They become soft and sweet when roasted, and are a popular winter holiday treat.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Nut",
+  	"Edibility": 25,
+  	"Price": 125,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Clint", "Dwarf", "Elliott", "Evelyn", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Krobus", "Leah", "Linus", "Olivia", "Susan", "Willy", "Alecto", "Wizard" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Caroline", "Claire", "Coyote", "Demetrius", "Eloise", "Emily", "Gus", "Haley", "Hekate", "Jas", "Jodi", "Kent", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Vincent", "Wednesday", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Gregory" ]
+		},
+	"DisableWithMod": "BonsterTrees",
+
+}

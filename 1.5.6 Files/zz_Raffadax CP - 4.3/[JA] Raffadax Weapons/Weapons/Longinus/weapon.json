@@ -1,0 +1,18 @@
+{
+  	"Name": "Longinus",
+  	"Description": "A spear of light that was used to kill a demi-god. It blinds It is too bright for those with impure souls to look upon.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 150,
+  	"MaximumDamage": 250,
+  	"Knockback": 3.0,
+  	"Speed": 5,
+  	"Accuracy": 100,
+  	"Defense": 100,
+	"ExtraSwingArea": 3,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 15,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

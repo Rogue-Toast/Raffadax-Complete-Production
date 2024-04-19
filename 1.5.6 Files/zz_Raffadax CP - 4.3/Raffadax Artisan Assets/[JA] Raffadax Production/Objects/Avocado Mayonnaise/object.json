@@ -1,0 +1,19 @@
+{
+	"Name": "Avocado Mayonnaise",
+  	"Description": "A tangy mayonnaise spread made with avocado.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mayonnaise",
+  	"Edibility": 55,
+  	"Price": 700,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Elliott", "Gus", "Lewis", "Morris", "Olivia", "Pierre", "Sandy", "Sophia", "Victor" ],
+        	"Like": [ "Alex", "Abigail", "Claire", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marlon", "Marnie", "Maru", "Pam", "Penny", "Robin", "Shane", "Sheila", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Apples", "Andy", "Caroline" ],
+		"Hate": [ "Eloise", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Vincent"]
+		},
+	"DisableWithMod": "ppja.artisanvalleymachinegoods",
+}

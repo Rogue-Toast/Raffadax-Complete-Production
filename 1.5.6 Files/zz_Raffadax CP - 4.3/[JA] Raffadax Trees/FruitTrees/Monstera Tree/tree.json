@@ -1,0 +1,10 @@
+{
+	"Name": "Monstera Tree",
+	"Product": "Monstera Deliciosa",
+	"SaplingName": "Monstera Sapling",
+	"SaplingDescription": "A large tropical shrub with distinct leaves, giving it the nickname 'Swiss Cheese Plant'. Produces strange, dangerous, yet amazingly delicious fruit. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Nagual",
+    	"SaplingPurchasePrice": 30000,
+    	"SaplingPurchaseRequirements": [ "f Xolotl 2500" ],
+}

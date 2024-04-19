@@ -1,0 +1,17 @@
+{
+  	"Name": "Puffball Mushroom",
+  	"Description": "A large spherical mushroom that grows common in fields and forests. It is safe to eat, and has a flavor and texture similar to tofu. If left undisturbed, this fungus will eventually explode to release its spores.",
+  	"Category": "-81",
+  	"CategoryTextOverride": "Mushroom",
+  	"Edibility": 0,
+  	"Price": 15,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Neutral": [ "Abigail", "Alex", "Beatrice", "Evelyn", "Gus", "Harvey", "Jodi", "Linus", "Marlon", "Marnie", "Maru", "Olivia", "Pam", "Sheila", "Sophia" ],
+        	"Dislike": [ "Andy", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Gregory", "Gunther", "Haley", "Kent", "Leah", "Lewis", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Susan", "Willy" ],
+		"Hate": [ "Eloise", "George", "Jacob", "Jas", "Krobus", "Leo", "Martin", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ]	
+		},
+}

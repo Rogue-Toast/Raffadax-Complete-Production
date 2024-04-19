@@ -1,0 +1,19 @@
+{
+  	"Name": "Sumac Berry Puree",
+  	"Description": "Sumac berries that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 45,
+	"EdibleIsDrink": true,
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Kent", "Olivia", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Demetrius", "Dwarf", "Eloise", "Emily", "Evelyn", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Martin", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Claire", "Coyote", "Elliott", "Martin", "Mephisto", "Penny", "Puck", "Sam", "Shane", "Shuck", "Victor", "Xolotl" ],
+		"Dislike": [ "Alex", "Andy", "George", "Haley", "Eloise", "Jas", "Linus", "Morgan", "Morris", "Vincent" ],
+		"Hate": [ "Sebastian" ]
+		},
+}

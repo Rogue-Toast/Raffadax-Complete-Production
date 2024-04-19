@@ -1,0 +1,17 @@
+{
+  	"Name": "Glow Dust",
+	"Description": "A glowing powder made from pulverized luminushrooms. This powder is sometimes taken medicinally, though it is primarily utilized by magic users.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mushroom Powder",
+  	"Edibility": -300,
+  	"Price": 550,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Dwarf", "Emily", "Hekate", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Robin", "Sebastian", "Shuck", "Xolotl" ],
+		"Dislike": [ "Apples", "Evelyn", "Hephaestus", "Marnie" ],
+        	"Hate": [ "Alex", "Andy", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy" ],
+		},
+}

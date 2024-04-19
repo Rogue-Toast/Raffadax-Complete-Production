@@ -1,0 +1,24 @@
+{
+	"Name": "Rye",
+	"Product": "Rye",
+	"SeedName": "Rye Seeds",
+	"SeedDescription": "Seeds for a flavorful variety of grain which is used in much the same manner as wheat. Takes 7 days to mature. Plant in the fall or winter.",
+    	"Type": "Greens",
+    	"Seasons": [ "fall", "winter" ],
+    	"Phases": [ 1, 2, 3, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": true,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 10,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": ["f Astrid 1000"],
+	"DisableWithMod": "Vyranity.Breads",
+}

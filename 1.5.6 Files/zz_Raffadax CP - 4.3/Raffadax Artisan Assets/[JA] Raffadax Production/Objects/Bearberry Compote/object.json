@@ -1,0 +1,33 @@
+{
+  	"Name": "Bearberry Compote",
+  	"Description": "A sweet blue syrup with whole preserved bearberries in it. When you eat this compote, you can feel the spirit of the bear enhance your senses.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Enchanted Compote",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming": 10,
+        	"Fishing": 10,
+      		"Foraging": 10,
+        	"Mining": 10,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 7200,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes":
+		{
+		"Love": [ "Abigail", "Amanra", "Andy", "Apples", "Astrid", "Clint", "Coyote", "Dwarf", "Gregory", "Kent", "Leo", "Linus", "Marnie", "Mephisto", "Morgan", "Puck", "Sheila", "Shuck", "Sophia", "Willy", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Alex", "Beatrice", "Caroline", "Claire", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Marlon", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Susan", "Victor", "Vincent", "Wednesday" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

@@ -1,0 +1,35 @@
+{
+    	"Name": "Aurora Tea",
+    	"Description": "A mystical tea that radiates with spectral light. It is derived from the flowers of the World Tree, Yggdrasil. Those who drink this tea gain the ability to see in the dark for several hours, but their eyes will shine with the light of the aurora.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Arcane Tea",
+    	"Edibility": 300,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 25,
+        	"Fishing": 25,
+      		"Foraging": 25,
+        	"Mining": 25,
+
+        	"Luck": 25,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+  	"Price": 25100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Willy" ],
+		"Neutral": [ "Hephaestus", "Sebastian" ], 
+		"Dislike": [ "Eloise", "Jas", "Krobus", "Leo", "Martin", "Vincent", "Wednesday" ]
+		},
+}

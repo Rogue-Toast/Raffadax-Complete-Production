@@ -1,0 +1,16 @@
+{
+    	"Name": "Abyssal Sand",
+    	"Description": "An eerie luminous dust made by pulverising the fruit of the netherworld. Sometimes this dust moves as though disturbed by the breath of some invisible entity. Abyssal sand has various arcane uses and properties, but it is a hazardous material for mortals to work with.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Arcane Dust",
+  	"Edibility": -300,
+  	"Price": 12500,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail", "Demetrius", "Gunther", "Sebastian" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

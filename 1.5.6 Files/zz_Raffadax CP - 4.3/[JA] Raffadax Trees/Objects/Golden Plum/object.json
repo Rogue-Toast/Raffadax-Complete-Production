@@ -1,0 +1,16 @@
+{
+  	"Name": "Golden Plum",
+  	"Description": "A tiny yellow plum with a full-bodied flavor. Golden plums are sweeter than other varieties, with subtle floral undertones.",
+  	"Category": "Fruit",
+  	"Edibility": 35,
+  	"Price": 100,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane", "Sheila" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jas", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Olivia", "Penny", "Pierre", "Puck", "Sam", "Sebastian", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jacob", "Morris" ],
+		"Hate": [ "Jas", "Krobus", "Vincent" ]
+		},
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Minced Green Onion",
+  	"Description": "Dried green onion that has been chopped into fine pieces. It can be used as a salad or pizza topping, or rehydrated in soups and stews.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Seasoning",
+  	"Edibility": -300,
+  	"Price": 85,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gus", "Olivia" ],
+		"Like": [ "Beatrice", "Evelyn", "Pierre", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Robin", "Sandy", "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", ],
+		"Dislike": [ "Amanra", "Andy", "Claire", "Dwarf", "Pam", "Penny", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Hekate", "Hephaestus", "Jas", "Leo", "Martin", "Sam", "Sebastian", "Shane", "Vincent"]
+		},
+}

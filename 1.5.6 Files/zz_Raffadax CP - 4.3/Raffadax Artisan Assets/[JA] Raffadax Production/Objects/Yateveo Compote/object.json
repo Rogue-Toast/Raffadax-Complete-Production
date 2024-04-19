@@ -1,0 +1,32 @@
+{
+  	"Name": "Yateveo Compote",
+  	"Description": "Whole chunks of Yateveo fruit stewing in a thick syrup made from the same fruit. It is amazingly delicious, but severely intoxicating to humans.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Compote",
+  	"Edibility": 300,
+	"EdibleBuffs":
+		{
+        	"Farming":0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": -15,
+        	"MaxStamina": -15,
+		"MagnetRadius": 0,
+        	"Speed": -15,
+
+		"Attack": -15,
+        	"Defense": -15,
+
+        	"Duration": 240,
+		},
+  	"Price": 105200,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Leo", "Martin", "Morgan", "Penny", "Vincent" ]
+		},
+}

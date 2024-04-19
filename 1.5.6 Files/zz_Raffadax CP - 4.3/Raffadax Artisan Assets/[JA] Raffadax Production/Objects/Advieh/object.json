@@ -1,0 +1,52 @@
+{
+	"Name": "Advieh",
+  	"Description": "A mid-eastern spice blend commonly used in rice, bean and chicken dishes. It adds an aromatic, floral aspect to dishes.",
+  	"Category": "Cooking",
+  	"CategoryTextOverride": "Spice Mix",
+  	"Edibility": -300,
+  	"Price": 1425,
+  	"IsColored": false,
+    	"Recipe":
+    		{
+        	"ResultCount": 7,
+		"Ingredients": 
+			[
+        		{
+            		"Object": "Ground Cardamom",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Cinnamon",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Clove",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Ground Cumin Seed",
+            		"Count": 1,
+        		},
+  			{
+            		"Object": "Ground Ginger",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Rose Petals",
+            		"Count": 1,
+        		},
+        		{
+            		"Object": "Turmeric Powder",
+            		"Count": 1,
+        		},
+			],
+        	"CanPurchase": false,
+		},  
+  	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Evelyn", "Gus", "Kent", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Apples", "Astrid", "Caroline", "Clint", "Coyote", "Demetrius", "Elliott", "Emily", "George", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Andy", "Claire", "Dwarf", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Gregory", "Haley", "Jas", "Leo", "Martin", "Morgan", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

@@ -1,0 +1,23 @@
+{
+	"Name": "Black Sesame",
+	"Product": "Black Sesame Seeds",
+	"SeedName": "Black Sesame Seeds",
+	"SeedDescription": "Seeds that can be used to make a variety of dishes, oils and pastes, or planted to grow black sesame plants. Matures in 7 days, and produces every 3 days after. Plant in the winter.",
+	"Type": "Greens",
+	"Seasons": ["winter"],
+	"Phases": [1,1,2,2,1],
+	"RegrowthPhase": 3,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 5,
+		"MaxIncreasePerFarmLevel": 5,
+		"ExtraChance": 0.2,
+		},
+	"SeedPurchasePrice": 25,
+	"SeedPurchaseFrom": "Djinn",
+	"SeedPurchaseRequirements": ["f Amanra 2000"],
+}

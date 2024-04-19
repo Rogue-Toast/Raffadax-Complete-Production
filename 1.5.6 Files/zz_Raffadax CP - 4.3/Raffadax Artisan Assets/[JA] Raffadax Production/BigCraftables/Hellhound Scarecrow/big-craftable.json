@@ -1,0 +1,33 @@
+{
+    "Name": "Hellhound Scarecrow",
+    "Description": "A scarecrow fashioned after one of the guardians of the netherworld. It emits an aura of terror which keeps crows at bay. This totem has been known to cause hallucinations and sudden madness.",
+    "Price": 5000,
+    "ProvidesLight": true,
+    "Recipe": 
+		{
+    		"ResultCount": 1,
+    		"Ingredients": 
+			[
+      		{
+        		"Object": "Abyssal Fabric",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Hellhound Fang",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Miasma",
+        		"Count": 1
+      		},
+      		{
+        		"Object": "Ebony Wood",
+        		"Count": 50
+      		},
+    			],
+    "CanPurchase": true,
+    "PurchaseFrom": "Barghest",
+    "PurchasePrice": 5000
+  		},
+    "CanPurchase": false,
+}

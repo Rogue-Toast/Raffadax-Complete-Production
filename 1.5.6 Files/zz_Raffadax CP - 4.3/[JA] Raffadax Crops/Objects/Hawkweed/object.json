@@ -1,0 +1,33 @@
+{
+	"Name": "Hawkweed",
+  	"Description": "An orange wildflower with a sour fragrance similar to melons. These flowers are considered to be invasive in some parts of the country.",
+  	"Category": "Flower",
+  	"Edibility": 5,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 1,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Like": [ "Abigail", "Amanra", "Astrid", "Coyote", "Demetrius", "Evelyn", "Gus", "Hekate", "Leah", "Linus", "Mephisto", "Olivia", "Pam", "Puck", "Robin", "Sandy", "Shane", "Shuck", "Xolotl" ],
+        	"Neutral": [ "Alex", "Andy", "Apples", "Beatrice", "Claire", "Clint", "Dwarf", "Emily", "Gregory", "Gunther", "Haley", "Harvey", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marnie", "Maru", "Morgan", "Pierre", "Sam", "Sebastian", "Sheila", "Sophia", "Susan", "Vincent", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Caroline", "Elliott", "Eloise", "George", "Leo", "Martin", "Morris", "Penny", "Victor", "Wednesday" ],
+		"Hate": [ "Marlon" ]
+		},
+}

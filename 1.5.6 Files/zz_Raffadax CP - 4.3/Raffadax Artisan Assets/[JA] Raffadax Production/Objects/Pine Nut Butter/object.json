@@ -1,0 +1,20 @@
+{
+    	"Name": "Pine Nut Butter",
+    	"Description": "A toasted, smooth butter made from pine nuts. It can be used as a spread; complementing savory, dried fruits well.",
+    	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Nut Butter",
+  	"Edibility": 50,
+  	"Price": 320,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Clint", "George", "Hephaestus", "Kent", "Jacob", "Lewis", "Olivia", "Sebastian", "Shane" ],
+        	"Like": [ "Abigail", "Alex", "Apples", "Beatrice", "Caroline", "Claire", "Demetrius", "Dwarf", "Elliott", "Evelyn", "Emily", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Jas", "Jodi", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sheila", "Sophia", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Eloise", "Morgan", "Susan" ],
+		"Hate": [ "Gregory", "Victor" ]
+		},
+	"DisableWithMod": "draconicarcher.JA.boardinghousenutbutters",
+
+}

@@ -1,0 +1,23 @@
+{
+	"Name": "Green Cardamom Plant",
+	"Product": "Green Cardamom Pod",
+	"SeedName": "Green Cardamom Seeds",
+	"SeedDescription": "Seeds for a plant which produces fragrant seed pods prized as a spice, and which can be blanched to produce white cardamom. Matures in 9 days, and produces every 4 days after. Plant in the summer.",
+	"Type": "Greens",
+	"Seasons": ["summer"],
+	"Phases": [1,2,2,3,1],
+	"RegrowthPhase": 4,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 4,
+		"MaxIncreasePerFarmLevel": 5,
+		"ExtraChance": 0.25,
+		},
+	"SeedPurchasePrice": 125,
+	"SeedPurchaseFrom": "Djinn",
+	"SeedPurchaseRequirements": ["f Amanra 2500"],
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Sedit's Whisker",
+  	"Description": "An immense whisker that was shed by the trickster, Coyote. This weapon harms both the physical body and the spirit of those who are struck by it.",
+  	"Type": "Dagger",
+  	"MinimumDamage": 1,
+  	"MaximumDamage": 999,
+  	"Knockback": 2.5,
+  	"Speed": 7,
+  	"Accuracy": 100,
+  	"Defense": 100,
+	"ExtraSwingArea": 3,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 10.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

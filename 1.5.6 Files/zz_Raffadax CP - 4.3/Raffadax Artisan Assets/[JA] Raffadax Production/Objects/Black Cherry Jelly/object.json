@@ -1,0 +1,17 @@
+{
+	"Name": "Black Cherry Jelly",
+  	"Description": "A sweet, dark red jelly made from black cherries.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+  	"Edibility": 60,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Haley", "Linus", "Olivia", "Penny", "Robin", "Sandy" ],
+        	"Like": [ "Abigail", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Pam", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

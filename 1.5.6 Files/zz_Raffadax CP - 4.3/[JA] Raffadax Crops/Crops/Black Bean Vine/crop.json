@@ -1,0 +1,23 @@
+{
+	"Name": "Black Bean Vine",
+    	"Product": "Black Beans",
+    	"SeedName": "Black Bean Starter",
+    	"SeedDescription": "A trellised crop which produces long brown seed pods containing several black beans each. Matures in 10 days, and continues to produce every four days after. Plant in the winter.",
+    	"Type": "Vegetable",
+   	"Seasons": ["winter"],
+    	"Phases": [1, 2, 3, 3, 1],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus":
+    		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 4,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.5,
+    		},
+    	"SeedPurchasePrice": 75,
+    	"SeedPurchaseFrom": "Nagual",
+    	"SeedPurchaseRequirements": [ "f Xolotl 1500" ],
+}

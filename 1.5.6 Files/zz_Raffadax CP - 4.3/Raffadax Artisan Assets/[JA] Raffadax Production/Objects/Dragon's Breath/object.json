@@ -1,0 +1,16 @@
+{
+	"Name": "Dragon's Breath",
+	"Description": "The contained breath of a dragon. It ignites into flames when exposed to open air.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Phialed Atmosphere",
+	"Edibility": -300,
+	"Price": 160000,
+  	"IsColored": false,
+  	"Recipe": null,
+	"GiftTastes": 
+		{
+        	"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Demetrius", "Wednesday" ],
+		"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

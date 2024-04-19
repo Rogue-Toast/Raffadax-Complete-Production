@@ -1,0 +1,36 @@
+{
+  	"Name": "Baobab Juice",
+  	"Description": "A tart juice that has a mild citrus flavor. The juice of the baobab is said to have a variety of health benefits.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 100,
+  	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 5,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 5,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 1690,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Dwarf", "Elliott", "Gunther", "Kent", "Leo", "Martin", "Penny", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Eloise", "Emily", "Evelyn", "Gregory", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Leah", "Lewis", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Pierre", "Robin", "Sebastian", "Sheila", "Sophia", "Susan", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus", "Sam", "Shane", "Victor", "Willy" ],
+		"Hate": [ "Andy", "George", "Haley", "Eloise", "Jas", "Linus", "Morgan", "Vincent" ]		
+		},
+}

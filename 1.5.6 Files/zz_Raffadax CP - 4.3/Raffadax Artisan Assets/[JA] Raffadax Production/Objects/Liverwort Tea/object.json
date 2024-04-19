@@ -1,0 +1,36 @@
+{
+    	"Name": "Liverwort Tea",
+    	"Description": "A bitter, peppery tea made from liverwort. This tea is considered unsafe for humans to drink.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herbal Tea",
+	"Edibility": -30,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 2,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": -2,
+
+        	"Duration": 120,
+		},
+	"Price": 110,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Hekate", "Hephaestus", "Krobus", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Morgan" ],
+		"Dislike": [ "Abigail", "Demetrius", "Gunther", "Sebastian" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

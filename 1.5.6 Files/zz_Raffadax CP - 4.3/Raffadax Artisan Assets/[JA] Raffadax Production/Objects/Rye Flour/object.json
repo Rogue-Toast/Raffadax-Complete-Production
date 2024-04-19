@@ -1,0 +1,15 @@
+{
+    	"Name": "Rye Flour",
+  	"Description": "A dark flour made from rye seeds. This flour is used to make dense, dark breads.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flour",
+  	"Edibility": -300,
+ 	"Price": 50,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Dislike": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		},
+	"DisableWithMod": "Vyranity.Breads",
+}

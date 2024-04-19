@@ -1,0 +1,33 @@
+{
+	"Name": "Blue Raspberry",
+  	"Description": "A vibrant blue berry that resembles a...raspberry? These are not supposed to actually exist. These berries are intensely flavorful, and taste as though they were infused with sweet lemons.",
+  	"Category": "Fruit",
+  	"CategoryTextOverride": "Enchanted Fruit",
+  	"Edibility": 50,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 5,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 120,
+		},
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Eloise", "Emily", "Jas", "Leo", "Morgan", "Pam", "Penny", "Sam", "Sebastian", "Victor", "Vincent" ],
+        	"Like": [ "Abigail", "Alex", "Amanra", "Andy", "Astrid", "Beatrice", "Apples", "Caroline", "Clint", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Pierre", "Puck", "Robin", "Sandy", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Haley", "Jacob", "Morris", "Olivia" ]	
+		},
+}

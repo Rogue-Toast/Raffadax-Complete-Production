@@ -1,0 +1,14 @@
+{
+    	"Name": "Snow Fabric",
+    	"Description": "An icy white fabric woven from wool dyed with polar berries. It shimmers like fresh snow, and is always cold to the touch.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Cloth",
+  	"Edibility": -300,
+  	"Price": 22000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Apples", "Astrid", "Coyote", "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

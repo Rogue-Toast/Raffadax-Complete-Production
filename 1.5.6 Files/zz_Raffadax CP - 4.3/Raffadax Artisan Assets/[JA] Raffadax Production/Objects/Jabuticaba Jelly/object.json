@@ -1,0 +1,18 @@
+{
+	"Name": "Jabuticaba Jelly",
+  	"Description": "A dark purple jelly that is sweet like candy.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Jelly",
+  	"Edibility": 75,
+  	"Price": 650,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gunther", "Gus", "Haley", "Jacob", "Leah", "Lewis", "Leo", "Sophia", "Victor" ],
+        	"Like": [ "Alex", "Abigail", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Susan", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Dwarf" ],
+		"Hate": [ "Hekate", "Hephaestus", "Sebastian" ]
+		},
+}

@@ -1,0 +1,19 @@
+{
+  	"Name": "Black Currant Juice",
+  	"Description": "A sweet dark juice made from black currants.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 50,
+	"EdibleIsDrink": true,
+  	"Price": 105,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Haley", "Linus", "Martin", "Olivia", "Penny", "Robin", "Sandy" ],
+        	"Like": [ "Abigail", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Pam", "Pierre", "Sam", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

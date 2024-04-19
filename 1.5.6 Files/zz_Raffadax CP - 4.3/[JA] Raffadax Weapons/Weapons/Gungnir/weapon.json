@@ -1,0 +1,18 @@
+{
+  	"Name": "Gungnir",
+  	"Description": "The divine spear of Odin that was carved from the wood of the World Tree, Yggdrasil. It is covered in enchanted runes that prevent it from ever missing its target.",
+  	"Type": "Sword",
+  	"MinimumDamage": 750,
+  	"MaximumDamage": 999,
+  	"Knockback": 4.0,
+  	"Speed": 4,
+  	"Accuracy": 100,
+  	"Defense": 500,
+	"ExtraSwingArea": 4,
+  	"CritChance": 0.1,
+  	"CritMultiplier": 5.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

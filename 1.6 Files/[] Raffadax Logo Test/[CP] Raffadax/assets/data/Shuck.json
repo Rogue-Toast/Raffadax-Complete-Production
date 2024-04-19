@@ -49,6 +49,16 @@
 			}
 		},
 
+// Display Name
+	{
+		"LogName": "Display name in standard location",
+		"Target": "Strings/NPCNames",
+		"Action": "EditData",
+		"Entries": {
+			"{{Shuck}}": "{{i18n:Shuck.DisplayName}}"
+		}
+	},
+
 // Portraits & sprites
 		{
 			"LogName": "Shuck's portraits",

@@ -1,0 +1,23 @@
+{
+	"Name": "Passion Fruit Vine",
+	"Product": "Passion Fruit",
+	"SeedName": "Passion Fruit Starter",
+	"SeedDescription": "A trellised vine which produces flavorful fruit and beautiful flowers. Takes fifteen days to mature, then produces every seven days after. Plant in the summer.",
+    	"Type": "Fruit",
+    	"Seasons": ["summer"],
+    	"Phases": [ 1, 4, 4, 5, 1 ],
+    	"RegrowthPhase": 7,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 500,
+	"SeedPurchaseFrom": "Nagual",
+	"SeedPurchaseRequirements": ["f Xolotl 2500"]
+}

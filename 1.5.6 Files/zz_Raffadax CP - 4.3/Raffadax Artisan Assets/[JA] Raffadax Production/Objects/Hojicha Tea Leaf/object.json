@@ -1,0 +1,16 @@
+{
+  	"Name": "Hojicha Tea Leaf",
+  	"Description": "Green tea that has been roasted to achieve a reddish brown color and a sweet, smoky flavor.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Tea Leaf",
+  	"Edibility": -300,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Caroline", "Claire", "Lewis" ],
+        	"Neutral": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Hate": [ "Eloise", "Jas", "Morgan", "Vincent" ]
+		},
+}

@@ -1,0 +1,36 @@
+{
+    	"Name": "Durian Liqueur",
+    	"Description": "A pungent liqueur made from durian. It has a mild, savory-sweet flavor. Drink in moderation.",
+	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Fruit Liqueur",
+	"Edibility": 140,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -5,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 300,
+		},
+ 	"Price": 1900,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Amanra", "Andy", "Astrid", "Coyote", "Demetrius", "Dwarf", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Mephisto", "Pam", "Puck", "Sebastian", "Shane", "Shuck", "Wednesday", "Xolotl" ],
+		"Like": [ "Marnie", "Sheila", "Sophia" ],
+        	"Neutral": [ "Abigail", "Caroline", "Clint", "Emily", "Gregory", "Marlon", "Maru", "Pierre", "Robin", "Sandy", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Beatrice", "Elliott", "George", "Claire", "Jodi" ],
+		"Hate": [  "Apples", "Eloise", "Evelyn", "Haley", "Jacob", "Jas", "Leo", "Martin", "Morgan", "Morris", "Olivia", "Penny", "Sam", "Susan", "Vincent" ],
+		},
+}

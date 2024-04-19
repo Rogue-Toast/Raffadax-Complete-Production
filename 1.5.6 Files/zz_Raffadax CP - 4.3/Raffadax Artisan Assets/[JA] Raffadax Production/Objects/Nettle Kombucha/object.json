@@ -1,0 +1,35 @@
+{
+    	"Name": "Nettle Kombucha",
+    	"Description": "A lightly effervescent beverage made by fermenting nettle tea. Drink in moderation.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Herbal Kombucha",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 2,
+        	"Fishing": 0,
+      		"Foraging": 10,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": -1,
+
+		"Attack": 10,
+        	"Defense": 0,
+
+        	"Duration": 180,
+		},
+	"Price": 380,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Caroline", "Claire", "Harvey", "Hekate", "Lewis", "Maru", "Wednesday", "Alecto", "Wizard" ],
+        	"Dislike": [ "Abigail", "Alex", "Apples", "Beatrice", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jodi", "Kent", "Leah", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan",  "Victor", "Willy" ],
+		"Hate": [ "Andy", "Eloise", "George", "Jas", "Leo", "Morgan", "Vincent" ]
+		},
+}

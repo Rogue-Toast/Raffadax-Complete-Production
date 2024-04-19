@@ -1,0 +1,19 @@
+{
+  	"Name": "Wild Plum Juice",
+  	"Description": "A sweet purple juice made from wild plums.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 35,
+  	"EdibleIsDrink": true,
+  	"Price": 180,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Martin", "Sandy" ],
+		"Like": [ "Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Shane", "Sheila" ],
+        	"Neutral": [ "Amanra", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Hekate", "Hephaestus", "Jas", "Leo", "Lewis", "Marlon", "Marnie", "Maru", "Mephisto", "Morgan", "Olivia", "Penny", "Pierre", "Puck", "Sam", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Jacob", "Jas", "Krobus", "Morris", "Vincent", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ]
+		},
+}

@@ -1,0 +1,16 @@
+{
+  	"Name": "Bad Luck Powder",
+  	"Description": "A dark powder made from ground, dried unlucky clovers. It is primarily used as an arcane component when crafting curses and hexes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mythic Herb Powder",
+  	"Edibility": -300,
+  	"Price": 750,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Hekate", "Krobus", "Morgan", "Sebastian", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Hephaestus", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

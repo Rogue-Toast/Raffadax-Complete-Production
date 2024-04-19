@@ -1,0 +1,22 @@
+{
+	"Name": "Rose Vine",
+	"Product": "Rose",
+	"SeedName": "Rose Vine Starter",
+	"SeedDescription": "A trellised vine that produces fragrant red roses. May produce rose hips in addition to flowers. Matures in 10 days, and produces every 7 days after. Plant in the summer.",
+	"Type": "Flower",
+	"Seasons": [ "summer" ],
+	"Phases": [ 1, 2, 3, 3, 1 ],
+	"RegrowthPhase": 7,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 2,
+		"MaxIncreasePerFarmLevel": 5,
+		"ExtraChance": 0.1,
+		},
+	"SeedPurchasePrice": 350,
+	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": [ "f Puck 2000" ],
+}

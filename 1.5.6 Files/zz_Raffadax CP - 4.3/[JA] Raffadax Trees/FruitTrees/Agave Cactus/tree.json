@@ -1,0 +1,10 @@
+{
+	"Name": "Agave Cactus",
+	"Product": "Agave",
+	"SaplingName": "Agave Sapling",
+	"SaplingDescription": "A large desert succulent which is used to make tequila and mezcal. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Coyotl",
+    	"SaplingPurchasePrice": 10000,
+    	"SaplingPurchaseRequirements": [ "f Coyote 2500" ],
+}

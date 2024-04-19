@@ -1,0 +1,18 @@
+{
+    	"Name": "Chandan Powder",
+    	"Description": "A fragrant red dust composed of ground sandalwood; it is valued primarily for its aromatic properties, and because it can be used to prouce striking, auburn dyes. It is also used as a flavor component in certain traditional beverages and baked goods.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pigment",
+  	"Edibility": -300,
+  	"Price": 600,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Emily", "Hekate", "Morgan", "Robin", "Sandy", "Alecto", "Wizard" ],
+		"Like": [ "Caroline", "Dwarf", "Elliott", "Kent" ],
+		"Neutral": [ "Alex", "Andy", "Abigail", "Beatrice", "Clint", "Demetrius", "Gregory", "Haley", "Hephaestus", "Olivia" ],
+        	"Dislike": [ "Amanra", "Apples", "Astrid", "Claire", "Coyote", "Evelyn", "Gunther", "Gus", "Harvey", "Jacob", "Jodi", "Leah", "Leo", "Lewis", "Marnie", "Maru", "Mephisto", "Morris", "Pam", "Pierre", "Puck", "Sam", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Xolotl" ],
+		"Hate": [ "Eloise", "George", "Jas", "Krobus", "Leo", "Linus", "Marlon", "Martin", "Penny", "Sebastian", "Vincent", "Wednesday" ]
+		},
+}

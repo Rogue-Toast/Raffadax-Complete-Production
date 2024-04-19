@@ -1,0 +1,17 @@
+{
+  	"Name": "Heliconia Flower Preserves",
+  	"Description": "Whole heliconia flowers preserved in a vibrant red syrup. It has no discernible aroma or flavor, yet is extremely popular among jungle spirits.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Preserves",
+  	"Edibility": -95,
+  	"Price": 7200,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Krobus", "Wednesday" ],
+		"Like": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Neutral": [ "Hekate", "Hephaestus", "Sebastian", "Alecto", "Wizard" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

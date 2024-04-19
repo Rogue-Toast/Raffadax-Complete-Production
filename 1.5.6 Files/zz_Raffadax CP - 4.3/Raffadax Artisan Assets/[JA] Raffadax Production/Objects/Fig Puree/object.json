@@ -1,0 +1,19 @@
+{
+  	"Name": "Fig Puree",
+  	"Description": "Figs that have been mashed into a smooth, thin fruit spread. It can be used as a jelly or blended into beverages and cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Puree",
+  	"Edibility": 85,
+	"EdibleIsDrink": true,
+  	"Price": 260,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice",  "Dwarf", "Elliott","Evelyn", "Gus", "Hekate", "Olivia", "Pierre", "Sandy", "Susan" ],
+		"Like": [ "Apples", "Demetrius", "Emily", "George", "Leo", "Morgan", "Alecto", "Wizard" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Gregory", "Gunther", "Emily", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Mephisto", "Morris", "Puck", "Robin", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Xolotl" ],
+		"Dislike": [ "Alex", "Andy", "Claire", "Pam", "Penny" ],
+		"Hate": [ "Eloise", "Haley", "Jas", "Martin", "Sam", "Sebastian", "Shane", "Vincent" ]
+		},
+}

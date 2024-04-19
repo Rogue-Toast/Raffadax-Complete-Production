@@ -1,0 +1,17 @@
+{
+  	"Name": "Purple Mushroom Powder",
+	"Description": "Purple mushrooms that have been ground into a fine dust. This powder can be used medicinally or mixed into a tea.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Mushroom Powder",
+  	"Edibility": -300,
+  	"Price": 350,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Dwarf", "Emily", "Harvey", "Hekate", "Hephaestus", "Krobus", "Maru", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Robin", "Sebastian", "Shuck", "Xolotl" ],
+		"Dislike": [ "Apples", "Evelyn", "Marnie" ],
+        	"Hate": [ "Alex", "Andy", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "George", "Gregory", "Gunther", "Gus", "Haley", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

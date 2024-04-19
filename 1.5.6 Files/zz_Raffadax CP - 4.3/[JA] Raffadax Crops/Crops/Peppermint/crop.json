@@ -1,0 +1,23 @@
+{
+	"Name": "Peppermint",
+	"Product": "Peppermint",
+	"SeedName": "Peppermint Seeds",
+	"SeedDescription": "Seeds for a fragrant green herb which is commonly used as a flavoring component. May produce flowers in addition to herbs. Takes 7 days to mature. Plant in winter.",
+    	"Type": "Greens",
+    	"Seasons": ["winter"],
+    	"Phases": [ 1, 2, 3, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 4,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.25,
+    		},
+	"SeedPurchasePrice": 10,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": ["f Astrid 500"],
+}

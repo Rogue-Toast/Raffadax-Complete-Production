@@ -1,0 +1,10 @@
+{
+	"Name": "Baobab Tree",
+    	"Product": "Baobab",
+    	"SaplingName": "Baobab Sapling",
+    	"SaplingDescription": "A massive tree from an arid environment which can store as much as 1000,000 liters of water in its trunk. They produce a large fruit pod which is prized by some for its health benefits. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Djinn",
+    	"SaplingPurchasePrice": 30000,
+    	"SaplingPurchaseRequirements": [ "f Amanra 2000" ],
+}

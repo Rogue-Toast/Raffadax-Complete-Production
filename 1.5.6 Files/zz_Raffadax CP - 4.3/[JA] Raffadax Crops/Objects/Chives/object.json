@@ -1,0 +1,15 @@
+{
+	"Name": "Chives",
+  	"Description": "An allium with edible leaves which are commonly chopped and used as a seasoning. They have a mild onion flavor, similar to leeks.",
+  	"Category": "Vegetable",
+  	"Edibility": 5,
+  	"Price": 20,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+        	"Like": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Morgan", "Sam", "Vincent" ]
+		},
+	"DisableWithMod": "ppja.fruitsandveggies",
+}

@@ -1,0 +1,18 @@
+{
+  	"Name": "Mezzaluna",
+  	"Description": "A shining silver blade that gleams with the radiance of moonlight. It was forged to enhance the powers of an ancient werewolf hero; so that the moon could always shine upon him, even in daylight.",
+  	"Type": "Sword",
+  	"MinimumDamage": 150,
+  	"MaximumDamage": 250,
+  	"Knockback": 1.0,
+  	"Speed": 10,
+  	"Accuracy": 100,
+  	"Defense": 150,
+	"ExtraSwingArea": 2,
+  	"CritChance": 0.50,
+  	"CritMultiplier": 2.5,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

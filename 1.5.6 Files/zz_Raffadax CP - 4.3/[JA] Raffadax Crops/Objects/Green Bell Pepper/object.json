@@ -1,0 +1,16 @@
+{
+	"Name": "Green Bell Pepper",
+  	"Description": "An unripened bell pepper with an acrid, earthy taste. Green bells are very common in cooking, though many find them to be less palatable than fully ripened bell peppers.",
+  	"Category": "Vegetable",
+  	"Edibility": 15,
+  	"Price": 50,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Gus", "Robin", "Susan", "Olivia" ],
+        	"Like": [ "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Mephisto", "Morris", "Pam", "Penny", "Pierre", "Puck", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Abigail", "Eloise", "Haley", "Jas", "Morgan", "Sam", "Vincent" ],
+		"Hate": [ "Demetrius", "Maru" ]
+		},
+}

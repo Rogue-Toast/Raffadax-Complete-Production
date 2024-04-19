@@ -1,0 +1,34 @@
+{
+    	"Name": "Gilded Tea",
+    	"Description": "A mystical, radiant tea that was derived from the fruit of a Dryad. It shines like the setting sun, and appears to be comprised of molten gold.",
+	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Arcane Tea",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 20,
+        	"Fishing": 0,
+      		"Foraging": 20,
+        	"Mining": 0,
+
+        	"Luck": 20,
+        	"MaxStamina": 0,
+		"MagnetRadius": 0,
+        	"Speed": 10,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 240,
+		},
+	"Price": 20100,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Eloise", "Jas", "Leo", "Martin", "Vincent" ]
+		},
+}

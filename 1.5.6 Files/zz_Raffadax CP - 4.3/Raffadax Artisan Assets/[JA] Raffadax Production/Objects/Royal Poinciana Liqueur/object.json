@@ -1,0 +1,35 @@
+{
+  	"Name": "Royal Poinciana Liqueur",
+  	"Description": "A vibrant floral liqueur made from the flowers of a Royal Poinciana Tree. It has an aroma like sweet grapes, but is highly toxic to humans and animals. This beverage seems to be well liked by demi-humans.",
+  	"Category": "ArtisanGoods",
+ 	"CategoryTextOverride": "Floral Liqueur",
+  	"Edibility": -250,
+    	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 0,
+        	"MaxStamina": 15,
+		"MagnetRadius": 0,
+        	"Speed": 5,
+
+		"Attack": 15,
+        	"Defense": 15,
+
+        	"Duration": 300,
+		},
+  	"Price": 2500,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Puck", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Sebastian" ],
+		"Neutral": [ "Morgan" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

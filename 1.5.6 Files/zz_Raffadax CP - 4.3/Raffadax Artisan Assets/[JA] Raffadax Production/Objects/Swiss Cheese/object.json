@@ -1,0 +1,18 @@
+{
+    	"Name": "Swiss Cheese",
+    	"Description": "A medium hard cheese with large holes in it from where bacteria released gas during processing. It has a sweet, mildly nutty flavor; and gains a sharpness and a buttery flavor as it ages.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Cheese",
+    	"Edibility": 200,
+    	"Price": 700,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Gregory", "Gus", "Morris", "Olivia"  ], 
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Haley", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Wednesday", "Willy", "Wizard" ],
+		"Neutral": [ "Alecto", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Victor", "Xolotl" ], 
+		"Dislike": [ "Harvey" ],
+		"Hate": [ "Jas", "Sebastian", "Vincent" ],
+		},
+}

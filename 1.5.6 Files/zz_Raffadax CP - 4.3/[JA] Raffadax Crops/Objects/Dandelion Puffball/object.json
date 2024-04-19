@@ -1,0 +1,16 @@
+{
+    	"Name": "Dandelion Puffball",
+    	"Description": "A fuzzy dandelion with fully mature seeds. Children commonly blow on them to disperse the seeds, believing it to bring luck or grant wishes.",
+  	"Category": "Greens",
+  	"CategoryTextOverride": "Flower",
+  	"Edibility": -300,
+  	"Price": 1,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Like": [ "Eloise", "Jas", "Vincent" ], 
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+	       	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		},
+}

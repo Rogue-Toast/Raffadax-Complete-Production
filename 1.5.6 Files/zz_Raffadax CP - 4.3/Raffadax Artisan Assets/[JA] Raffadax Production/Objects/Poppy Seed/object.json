@@ -1,0 +1,17 @@
+{
+	"Name": "Poppy Seed",
+  	"Description": "Whole seeds from a poppy flower. They are primarily used as a baking spice in breads and desserts.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Whole Spice",
+  	"Edibility": -300,
+  	"Price": 150,
+  	"IsColored": false,
+  	"Recipe": null,  	
+	"GiftTastes": 
+		{
+		"Like": [ "Beatrice", "Caroline", "Elliott", "Evelyn", "Gus", "Hekate", "Haley", "Leah", "Olivia", "Pierre", "Sandy", "Susan" ],
+        	"Neutral": [ "Alex", "Abigail", "Claire", "Clint", "Demetrius", "Emily", "George", "Gunther", "Harvey", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Pam", "Penny", "Robin", "Sam", "Shane",  "Sheila", "Sophia", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Andy", "Apples", "Astrid", "Coyote", "Dwarf", "Mephisto", "Morgan", "Puck", "Sebastian", "Shuck", "Xolotl" ],
+		"Hate": [ "Eloise", "Gregory", "Jas", "Leo", "Martin", "Vincent" ]
+		},
+}

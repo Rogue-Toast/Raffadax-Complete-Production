@@ -1,0 +1,10 @@
+{
+	"Name": "Gros Michel Tree",
+	"Product": "Gros Michel",
+	"SaplingName": "Gros Michel Sapling",
+	"SaplingDescription": "A rare variety of banana tree that was once widespread before being driven nearly to extinction. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
+    	"Season": "summer",
+    	"SaplingPurchaseFrom": "Nagual",
+    	"SaplingPurchasePrice": 10000,
+    	"SaplingPurchaseRequirements": [ "f Xolotl 500" ],
+}

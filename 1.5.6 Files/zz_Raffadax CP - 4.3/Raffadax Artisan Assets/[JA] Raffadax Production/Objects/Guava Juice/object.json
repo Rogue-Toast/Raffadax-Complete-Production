@@ -1,0 +1,19 @@
+{
+	"Name": "Guava Juice",
+  	"Description": "A tropical juice made from guava fruit. It blends well into punches and tropical cocktails.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 65,
+  	"EdibleIsDrink": true,
+  	"Price": 225,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Alex", "Demetrius", "Elliott", "Gregory", "Harvey", "Jodi", "Kent", "Leah", "Leo", "Linus", "Martin", "Olivia", "Pam", "Robin", "Sandy", "Shane" ],
+        	"Like": [ "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Dwarf", "Eloise", "Emily", "Evelyn", "George", "Gunther", "Gus", "Hekate", "Hephaestus", "Jacob", "Jas", "Lewis", "Marlon", "Marnie", "Maru", "Morgan", "Morris", "Penny", "Pierre", "Sam", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Abigail", "Haley", "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Sebastian" ],
+		},
+}

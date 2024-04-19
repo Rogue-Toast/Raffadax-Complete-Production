@@ -1,0 +1,10 @@
+{
+	"Name": "Strawberry Trellis",
+	"Product": "Strawberry",
+	"SaplingName": "Strawberry Sapling",
+	"SaplingDescription": "A permanent lattice that regrows a hearty strawberry vine annually. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the spring.",
+    	"Season": "spring",
+    	"SaplingPurchaseFrom": "Pookah",
+    	"SaplingPurchasePrice": 4800,
+    	"SaplingPurchaseRequirements": ["f Puck 500"],
+}

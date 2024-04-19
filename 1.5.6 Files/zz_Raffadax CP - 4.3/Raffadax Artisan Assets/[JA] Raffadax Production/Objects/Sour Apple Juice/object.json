@@ -1,0 +1,19 @@
+{
+	"Name": "Sour Apple Juice",
+	"Description": "A tart green juice made from wild apples. It is primarily used as a specialty cocktail component, but its sour apple flavor is also popular with children and young adults.",
+	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+	"Edibility": 40,
+	"EdibleIsDrink": true,
+	"Price": 115,
+	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Dwarf", "Leo", "Linus", "Martin", "Morgan", "Vincent" ],
+		"Like": [ "Apples", "Eloise", "Hephaestus", "Jas", "Marnie", "Sandy", "Shane", "Sheila", "Sophia", "Wednesday" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Emily", "Gregory", "Gunther", "Harvey", "Hekate", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Mephisto", "Pam", "Pierre", "Puck", "Robin", "Shuck", "Victor", "Alecto", "Wizard", "Xolotl" ],
+		"Dislike": [ "Alex", "Beatrice", "Claire", "Demetrius", "Elliott", "George", "Jodi", "Krobus", "Willy" ],
+		"Hate": [  "Andy", "Evelyn", "Gus", "Haley", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Sebastian", "Susan" ]
+		},
+}

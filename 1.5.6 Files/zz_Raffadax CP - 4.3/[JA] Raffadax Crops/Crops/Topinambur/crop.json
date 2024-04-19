@@ -1,0 +1,23 @@
+{
+	"Name": "Topinambur",
+    	"Product": "Topinambur",
+    	"SeedName": "Topinambur Seeds",
+    	"SeedDescription": "Seeds for a wild variety of sunflower which produces both flowers and edible roots known as sunchoke. Takes 5 days to mature. Plant in the fall.",
+    	"Type": "Flower",
+    	"Seasons": ["fall"],
+    	"Phases": [ 1, 1, 2, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.2,
+    		},
+    	"SeedPurchasePrice": 30,
+ 	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": null,
+}

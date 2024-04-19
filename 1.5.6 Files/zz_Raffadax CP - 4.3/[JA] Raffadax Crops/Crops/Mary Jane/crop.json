@@ -1,0 +1,23 @@
+{
+	"Name": "Mary Jane",
+	"Product": "Indica Bud",
+	"SeedName": "Mary Jane Seeds",
+	"SeedDescription": "Seeds for a medicinal variety of cannabis that produces an indica strain. May produce usable leaves and hemp stalks in addition to cannabis buds. Takes 15 days to mature, then produces every 5 days after. Plant in the spring.",
+    	"Type": "Flower",
+    	"Seasons": ["spring"],
+    	"Phases": [ 1, 4, 4, 5, 1 ],
+    	"RegrowthPhase": 5,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 2,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.1,
+    		},
+	"SeedPurchasePrice": 1000,
+	"SeedPurchaseFrom": "Pookah",
+	"SeedPurchaseRequirements": ["f Puck 2500"],
+}

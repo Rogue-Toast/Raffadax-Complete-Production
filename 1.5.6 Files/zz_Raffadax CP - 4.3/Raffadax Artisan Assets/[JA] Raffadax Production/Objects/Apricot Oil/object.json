@@ -1,0 +1,22 @@
+{
+    	"Name": "Apricot Oil",
+    	"Description": "An almond flavored oil made from apricot kernels. It can be used in dressings and dips, but is also a popular skin moisturizer.",
+    	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Oil",
+    	"Edibility": -300,
+    	"Price": 60,
+  	"IsColored": false,
+  	"Recipe": null,
+ 	"GiftTastes": 
+		{
+		"Like": [ "Gus", "Olivia" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Dislike": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy", "Alecto", "Wizard" ],
+		"Hate": [ "Apples", "Eloise", "Jas", "Leo", "Morgan", "Sebastian", "Vincent" ]
+		},
+	"ContextTags": 
+        	[
+        	"oil_item"
+        	],
+}
+

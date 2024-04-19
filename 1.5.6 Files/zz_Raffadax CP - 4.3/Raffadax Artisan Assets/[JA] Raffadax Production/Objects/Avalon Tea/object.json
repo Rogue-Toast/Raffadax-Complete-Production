@@ -1,0 +1,34 @@
+{
+    	"Name": "Avalon Tea",
+    	"Description": "A mystical green tea that smells like an ancient forest. It is a popular beverage among faeries and elves.",
+	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Arcane Tea",
+	"Edibility": 300,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 25,
+        	"Fishing": 0,
+      		"Foraging": 25,
+        	"Mining": 0,
+
+        	"Luck": 50,
+        	"MaxStamina": 25,
+		"MagnetRadius": 0,
+        	"Speed": 0,
+
+		"Attack": 25,
+        	"Defense": 25,
+
+        	"Duration": 240,
+		},
+	"Price": 45100,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Hekate", "Hephaestus", "Krobus", "Mephisto", "Morgan", "Puck", "Shuck", "Alecto", "Wizard", "Xolotl" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Wednesday", "Willy" ],
+		"Dislike": [ "Eloise", "Jas", "Leo", "Martin", "Vincent" ]
+		},
+}

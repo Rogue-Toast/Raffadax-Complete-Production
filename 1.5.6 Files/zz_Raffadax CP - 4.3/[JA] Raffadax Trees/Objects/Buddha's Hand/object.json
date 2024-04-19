@@ -1,0 +1,33 @@
+{
+	"Name": "Buddha's Hand",
+  	"Description": "A peculiar, highly fragrant citrus with no juice or pulp; its pith is mild with a lemon blossom aroma. This fruit has fingerlike extensions which give it a hand-like appearance, thus the reasoning behind its name.",
+  	"Category": "Fruit",
+  	"Edibility": 75,
+	"EdibleBuffs":
+		{
+        	"Farming": 0,
+        	"Fishing": 0,
+      		"Foraging": 0,
+        	"Mining": 0,
+
+        	"Luck": 3,
+        	"MaxStamina": 3,
+		"MagnetRadius": 3,
+        	"Speed": 0,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 90,
+		},
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Demetrius", "Emily", "Gunther", "Gus", "Hekate", "Leo", "Olivia", "Penny", "Alecto", "Wizard" ],
+        	"Like": [ "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Clint", "Claire", "Coyote", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Haley", "Harvey", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Pam", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Willy", "Xolotl" ],
+		"Dislike": [ "Morris" ],
+		"Hate": [ "Dwarf", "Krobus", "Wednesday" ]
+		},
+}

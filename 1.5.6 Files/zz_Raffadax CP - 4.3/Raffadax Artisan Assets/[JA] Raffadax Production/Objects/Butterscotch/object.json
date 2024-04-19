@@ -1,0 +1,18 @@
+{
+  	"Name": "Butterscotch",
+  	"Description": "A sweet, flavorful confectionary product made from brown sugar. It is used to flavor desserts, fill candies, and to make syrups and ice cream toppings.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Baking Component",
+  	"Edibility": 100,
+	"Price": 450,
+	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Beatrice", "Evelyn", "Gus", "Olivia", "Susan" ],
+		"Like": [ "Abigail", "Alex", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gregory", "Gunther", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Victor", "Willy", "Alecto", "Wizard" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+		"Dislike": [ "Andy", "Dwarf", "Eloise", "Haley", "Jas", "Marlon", "Vincent" ],
+		"Hate": [ "Sebastian", "Wednesday" ],  
+		},
+}

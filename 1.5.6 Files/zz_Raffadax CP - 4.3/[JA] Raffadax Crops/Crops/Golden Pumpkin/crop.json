@@ -1,0 +1,31 @@
+{
+	"Name": "Golden Pumpkin Plant",
+	"Product": "Golden Pumpkin",
+	"SeedName": "Golden Pumpkin Seeds ",
+	"SeedDescription": "Seeds for an enchanted variety of plant which produces solid gold leaves and a gleaming golden pumpkin. Takes 20 days to mature. Plant in the fall.",
+	"Type": "Vegetable",
+	"Seasons": ["fall"],
+	"Phases": [1,6,6,6,1],
+	"RegrowthPhase": -1,
+	"HarvestWithScythe": false,
+	"TrellisCrop": false,
+    	"Colors": null,
+	"Bonus": 
+		{
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 1,
+		"MaxIncreasePerFarmLevel": 50,
+		"ExtraChance": 0.0,
+		},
+	"SeedPurchasePrice": 1500,
+	"SeedPurchaseFrom": "Barghest",
+	"SaplingPurchaseRequirements": 
+			[
+			"f Amanra 1500",
+			"f Astrid 1500",
+			"f Coyote 1500",
+			"f Puck 1500",
+			"f Shuck 1500",
+			"f Xolotl 1500",
+			],
+}

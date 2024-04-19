@@ -1,0 +1,23 @@
+{
+	"Name": "Berserker Mushroom",
+	"Product": "Berserker Mushroom",
+	"SeedName": "Berserker Mushroom Starter",
+	"SeedDescription": "Spores for a legendary variety of mushroom once used by warriors to bolster their strength. Takes 13 days to mature. Plant in the winter.",
+    	"Type": "Greens",
+    	"Seasons": ["winter"],
+    	"Phases": [ 2, 5, 5, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 400,
+	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": [ "f Astrid 2500" ]
+}

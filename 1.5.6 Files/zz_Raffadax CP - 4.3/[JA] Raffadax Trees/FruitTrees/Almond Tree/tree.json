@@ -1,0 +1,11 @@
+{
+	"Name": "Almond Tree",
+	"Product": "Almond",
+	"SaplingName": "Almond Sapling",
+	"SaplingDescription": "A popular and widely cultivated nut tree. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Harvest in the winter.",
+    	"Season": "winter",
+    	"SaplingPurchaseFrom": null,
+    	"SaplingPurchasePrice": 8000,
+    	"SaplingPurchaseRequirements": [ "Y2" ],
+	"DisableWithMod": "ppja.moretrees",
+}

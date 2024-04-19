@@ -1,0 +1,18 @@
+{
+	"Name": "Stardrop  Tree",
+	"Product": "Stardrop ",
+	"SaplingName": "Stardrop  Sapling",
+	"SaplingDescription": "A rare tree which produces stardrop fruit. Stardrops that are picked do not have the same power as those which are gifted. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the winter.",
+	"Season": "winter",
+	"SaplingPurchaseFrom": "Coyotl",
+	"SaplingPurchasePrice": 5000000,
+	"SaplingPurchaseRequirements": 
+			[
+			"f Amanra 1500",
+			"f Astrid 1500",
+			"f Coyote 1500",
+			"f Puck 1500",
+			"f Shuck 1500",
+			"f Xolotl 1500",
+			],
+}

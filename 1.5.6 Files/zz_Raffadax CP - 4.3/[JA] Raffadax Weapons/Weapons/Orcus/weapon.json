@@ -1,0 +1,18 @@
+{
+  	"Name": "Orcus",
+  	"Description": "The divine bident of the ruler of Hades. This weapon passes harmlessly through living tissue to rend the spirit of its victim from their body. Those who wield this weapon can command the souls and corpses of the deceased.",
+  	"Type": "Club",
+  	"MinimumDamage": 100,
+  	"MaximumDamage": 900,
+  	"Knockback": 1.0,
+  	"Speed": 2,
+  	"Accuracy": 100,
+  	"Defense": 999,
+	"ExtraSwingArea": 5,
+  	"CritChance": 0.10,
+  	"CritMultiplier": 5.0,
+  	"MineDropVar": -1,
+  	"MineDropMinimumLevel": -1,
+	"CanPurchase": false,
+  	"Recipe": null,
+}

@@ -1,0 +1,23 @@
+{
+	"Name": "Purple Mushroom ",
+	"Product": "Purple Mushroom",
+	"SeedName": "Purple Mushroom Starter",
+	"SeedDescription": "Spores for a rare variety of cave mushroom with arcane properties. Takes 12 days to mature. Plant in the fall.",
+    	"Type": "Greens",
+    	"Seasons": ["fall"],
+    	"Phases": [ 1, 5, 5, 1 ],
+    	"RegrowthPhase": -1,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 100,
+	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": ["f Coyote 2500"],
+}

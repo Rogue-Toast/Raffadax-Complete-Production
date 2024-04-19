@@ -1,0 +1,17 @@
+{
+  	"Name": "Ground Poinsettia",
+  	"Description": "A bright red dust made from poinsettias. It is sometimes used in potion making, but can also be used to create paints and dyes.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Flower Dust",
+  	"Edibility": -300,
+  	"Price": 125,
+  	"IsColored": false,
+	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love":	[ "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Morgan", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Abigail", "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Robin", "Sebastian", "Shuck", "Xolotl" ],
+		"Dislike": [ "Evelyn", "Marnie" ],
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Clint", "Claire", "Demetrius", "Elliott", "Eloise", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

@@ -1,0 +1,17 @@
+{
+  	"Name": "Preserved Red Mushrooms",
+  	"Description": "Sliced red mushrooms that have been preserved in a brine solution. These mushrooms are not safe for human consumption, but have many magical uses.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Pickled Mushrooms",
+  	"Edibility": -45,
+  	"Price": 200,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Hekate", "Morgan", "Alecto", "Wizard" ],
+		"Like": [ "Dwarf", "Hephaestus", "Krobus", "Wednesday" ],
+		"Neutral": [ "Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl" ],
+        	"Hate": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

@@ -1,0 +1,19 @@
+{
+	"Name": "Durian Juice",
+  	"Description": "A pungent yellow juice made from durian. It has a savory-sweet flavor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Fruit Juice",
+  	"Edibility": 65,
+	"EdibleIsDrink": true,
+  	"Price": 900,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Demetrius", "Dwarf", "Gunther", "Hekate", "Hephaestus", "Leo", "Linus", "Martin", "Morgan", "Sandy", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Like": [ "Eloise", "Jas", "Marnie", "Shane", "Sheila", "Sophia" ],
+        	"Neutral": [ "Abigail", "Amanra", "Astrid", "Caroline", "Clint", "Coyote", "Emily", "Gregory", "Harvey", "Kent", "Leah", "Lewis", "Marlon", "Maru", "Mephisto", "Pam", "Pierre", "Puck", "Robin", "Shuck", "Victor", "Xolotl" ],
+		"Dislike": [ "Alex", "Beatrice", "Claire", "Elliott", "George", "Jodi", "Krobus", "Willy" ],
+		"Hate": [ "Andy", "Apples", "Evelyn", "Gus", "Haley", "Jacob", "Morris", "Olivia", "Penny", "Sam", "Sebastian", "Susan" ],
+		},
+}

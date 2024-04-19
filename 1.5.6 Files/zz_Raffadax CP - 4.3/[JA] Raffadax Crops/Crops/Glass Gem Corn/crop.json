@@ -1,0 +1,23 @@
+{
+	"Name": "Glass Gem Corn",
+    	"Product": "Glass Gem Corn",
+    	"SeedName": "Glass Gem Corn Seeds",
+    	"SeedDescription": "Seeds for an ornamental variant of corn with colorful pastel kernels. This corn has low nutritional value, but can be used to produce meal and ethanol. Takes 14 days to mature, then produces every four days. Plant in the winter or spring.",
+    	"Type": "Vegetable",
+    	"Seasons": ["winter", "spring"],
+    	"Phases": [ 1, 4, 4, 4, 1 ],
+    	"RegrowthPhase": 4,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": false,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 3,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.3,
+    		},
+    	"SeedPurchasePrice": 15,
+ 	"SeedPurchaseFrom": "Selkie",
+	"SeedPurchaseRequirements": null,
+}

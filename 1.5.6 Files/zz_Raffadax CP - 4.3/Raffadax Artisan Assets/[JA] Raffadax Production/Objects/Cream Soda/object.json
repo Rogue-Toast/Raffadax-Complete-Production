@@ -1,0 +1,17 @@
+{
+	"Name": "Cream Soda",
+  	"Description": "A traditional carbonated beverage flavored with vanilla. It has a distinct, sweet flavor.",
+  	"Category": "ArtisanGoods",
+  	"CategoryTextOverride": "Soda Pop",
+  	"Edibility": 55,
+  	"EdibleIsDrink": true,
+  	"Price": 300,
+  	"IsColored": false,
+  	"Recipe": null,  
+  	"GiftTastes": 
+		{
+		"Love": [ "Vincent" ],
+        	"Like": [ "Abigail", "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Alecto", "Wizard" ],
+		"Dislike": [ "Amanra", "Astrid", "Coyote", "Krobus", "Leo", "Mephisto", "Puck", "Shuck", "Willy", "Xolotl" ]
+		},
+}

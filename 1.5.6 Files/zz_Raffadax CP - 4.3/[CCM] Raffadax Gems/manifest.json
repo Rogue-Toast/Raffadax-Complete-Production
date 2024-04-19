@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[CCRM] Raffadax Crystalarium",
+	"Author": "Raffadax",
+	"Version": "4.3",
+	"Description": "Adds configuration of cloner data to Custom Crystalarium Mod.",
+	"UniqueID": "CCRM.Raffadax",
+	"MinimumApiVersion": "3.9.0",
+	"Dependencies": 
+		[
+		{
+			"UniqueID": "Raffadax.Complete.Production"
+		}
+		],
+	"ContentPackFor": 
+		{
+		"UniqueID": "DIGUS.CustomCrystalariumMod"
+		}
+}

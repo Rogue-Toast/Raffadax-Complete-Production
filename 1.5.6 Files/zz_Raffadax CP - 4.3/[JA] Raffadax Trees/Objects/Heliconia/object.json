@@ -1,0 +1,17 @@
+{
+	"Name": "Heliconia",
+  	"Description": "An ornamental flower prized for its unique shape and vibrant colors. These flowers collect nectar within the folds of their petals, which is fed upon by birds with specialized tongues.",
+  	"Category": "Flower",
+  	"Edibility": -20,
+  	"Price": 500,
+  	"IsColored": false,
+  	"Recipe": null,
+  	"GiftTastes": 
+		{
+		"Love": [ "Abigail", "Beatrice", "Olivia", "Pam", "Sandy", "Sheila" ], 
+		"Like": [ "Amanra", "Astrid", "Coyote", "Evelyn", "Gus", "Harvey", "Hekate", "Jas", "Jodi", "Marnie", "Maru", "Mephisto", "Puck", "Shuck", "Sophia", "Xolotl" ],
+        	"Neutral": [ "Andy", "Apples", "Caroline", "Claire", "Clint", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Gregory", "Gunther", "Haley", "Hephaestus", "Kent", "Leah", "Lewis", "Linus", "Morgan", "Penny", "Pierre", "Robin", "Sam", "Shane", "Susan", "Willy", "Alecto", "Wizard" ],
+		"Dislike": [ "Alex", "George", "Jacob", "Leo", "Martin", "Morris", "Sebastian", "Victor", "Vincent", "Wednesday" ],
+		"Hate": [ "Krobus", "Marlon" ],	
+		},
+}

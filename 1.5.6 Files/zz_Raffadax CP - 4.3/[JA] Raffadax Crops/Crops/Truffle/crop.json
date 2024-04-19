@@ -1,0 +1,23 @@
+{
+	"Name": "Truffle",
+	"Product": "Truffle",
+	"SeedName": "Truffle Starter",
+	"SeedDescription": "Spore boxes for a valuable variety of subterranean mushroom. May produce white and black truffles in addition to brown. Takes 20 days to mature, then produces every three weeks after. Plant in the spring, summer or fall.",
+    	"Type": "Greens",
+    	"Seasons": [ "spring", "summer", "fall" ],
+    	"Phases": [ 1, 6, 6, 6, 1 ],
+    	"RegrowthPhase": 21,
+    	"HarvestWithScythe": false,
+    	"TrellisCrop": true,
+    	"Colors": null,
+    	"Bonus": 
+		{
+        	"MinimumPerHarvest": 1,
+        	"MaximumPerHarvest": 1,
+        	"MaxIncreasePerFarmLevel": 5,
+        	"ExtraChance": 0.0,
+    		},
+	"SeedPurchasePrice": 250,
+	"SeedPurchaseFrom": "Coyotl",
+	"SeedPurchaseRequirements": ["f Coyote 2500"],
+}

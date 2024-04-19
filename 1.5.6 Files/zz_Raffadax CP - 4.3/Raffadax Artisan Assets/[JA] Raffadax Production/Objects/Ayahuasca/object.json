@@ -1,0 +1,33 @@
+{
+  	"Name": "Ayahuasca",
+  	"Description": "A shamanistic tea used to commune with the spirit realm. This tea is extremely potent, causing the drinker to hallucinate vividly for several hours. Individuals who drink Ayahuasca become incapacitated, but gain great insight into the world around them. Drink with caution.",
+  	"Category": "ArtisanGoods",
+	"CategoryTextOverride": "Shamanistic Potion",
+  	"Edibility": -50,
+	"EdibleIsDrink": true,
+	"EdibleBuffs":
+		{
+        	"Farming": 50,
+        	"Fishing": 0,
+      		"Foraging": 50,
+        	"Mining": 0,
+
+        	"Luck": 50,
+        	"MaxStamina": -25,
+		"MagnetRadius": 50,
+        	"Speed": -25,
+
+		"Attack": 0,
+        	"Defense": 0,
+
+        	"Duration": 360,
+		},
+  	"Price": 50000,
+  	"IsColored": false,
+  	"GiftTastes": 
+		{
+		"Love": [ "Amanra", "Astrid", "Coyote", "Dwarf", "Emily", "Hekate", "Hephaestus", "Krobus", "Leo", "Mephisto", "Puck", "Sebastian", "Shuck", "Wednesday", "Alecto", "Wizard", "Xolotl" ],
+		"Like": [ "Abigail", "Morgan" ], 
+        	"Hate": [ "Alex", "Andy", "Apples", "Beatrice", "Caroline", "Claire", "Clint", "Demetrius", "Elliott", "Eloise", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Jacob", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Sheila", "Sophia", "Susan", "Victor", "Vincent", "Willy" ],
+		},
+}

@@ -1,0 +1,27 @@
+{
+	"Name": "Tea Keg",
+	"Description": "A specialty beverage keg that produces teas from herbs, spices, flowers and nuts. Also brews coffee and cocoa beverages.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveNextIndex": false,
+	"Recipe":
+    		{
+        	"ResultCount": 1,
+        	"Ingredients": 
+			[
+        		{
+            		"Object": "Sandalwood",
+            		"Count": 10,
+        		},
+        		{
+            		"Object": 60,
+            		"Count": 1,
+        		},
+        		{
+            		"Object": 537,
+            		"Count": 2,
+        		}, 
+			],
+        	"CanPurchase": false,
+		},
+}
