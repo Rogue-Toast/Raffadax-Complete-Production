@@ -325,7 +325,7 @@ class CPRule():
     Triggers: list = field(default_factory=lambda: [])
     UseFirstValidOutput: bool = False
     OutputItem: list = field(default_factory=lambda: [])
-    MinutesUntilReady: int = 20
+    MinutesUntilReady: int = -1
     DaysUntilReady: int = -1
     RecalculateOnCollect: bool = False
 

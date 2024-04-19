@@ -1,5 +1,7 @@
 {
     "Format": "2.0.0",
+
+    // GMCM CONFIGURATION
     "ConfigSchema": {
     	"ArtisanImages": {
       		"Default": "true",
@@ -30,23 +32,78 @@
             "AllowValues": "More Saplings, Better Saplings"
         }
     },
+    // DYNAMIC TOKENS
+    "DynamicTokens": [
+        {
+            "Name": "Amanra",
+            "Value": "{{ModID}}_Amanra",
+        },
+        {
+            "Name": "Astrid",
+            "Value": "{{ModID}}_Astrid",
+        },
+        {
+            "Name": "Coyote",
+            "Value": "{{ModID}}_Coyote",
+        },
+        {
+            "Name": "Mephisto",
+            "Value": "{{ModID}}_Mephisto",
+        },
+        {
+            "Name": "Puck",
+            "Value": "{{ModID}}_Puck",
+        },
+        {
+            "Name": "Shuck",
+            "Value": "{{ModID}}_Shuck",
+        },
+        {
+            "Name": "Xolotl",
+            "Value": "{{ModID}}_Xolotl",
+        },
+    ],
+    // CHANGES
     "Changes": [
         // INCLUDE DATA ASSETS
+        // TEXTURES
         {
             "Action": "Include",
-            "FromFile": "assets/data/crops.json"
+            "FromFile": "assets/data/LoadData.json"
+        },
+        // OBJECTS
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/BigCraftables.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/trees.json"
+            "FromFile": "assets/data/Objects.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/weapons.json"
+            "FromFile": "assets/data/Weapons.json"
+        },
+        // THINGS DONE WITH OBJECTS
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/CookingRecipes.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/artisan.json"
+            "FromFile": "assets/data/CraftingRecipes.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Crops.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/FruitTrees.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Machines.json"
         },
         {
             "Action": "Include",
@@ -54,51 +111,73 @@
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/Amanra.json"
+            "FromFile": "assets/data/Shops.json"
+        },
+        // NPCS
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Characters/Amanra.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/shops.json"
+            "FromFile": "assets/data/Characters/Astrid.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/machines.json"
+            "FromFile": "assets/data/Characters/Coyote.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/vanillagifts.json"
+            "FromFile": "assets/data/Characters/Mephisto.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/compatgifts.json"
+            "FromFile": "assets/data/Characters/Puck.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/Amanragifts.json"
+            "FromFile": "assets/data/Characters/Shuck.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/Astridgifts.json"
+            "FromFile": "assets/data/Characters/Xolotl.json"
+        },
+        // GIFT PREFS
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/NPCGiftTastes/vanillagifts.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/Coyotegifts.json"
+            "FromFile": "assets/data/NPCGiftTastes/Amanragifts.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/Mephistogifts.json"
+            "FromFile": "assets/data/NPCGiftTastes/Astridgifts.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/Puckgifts.json"
+            "FromFile": "assets/data/NPCGiftTastes/Coyotegifts.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/Shuckgifts.json"
+            "FromFile": "assets/data/NPCGiftTastes/Mephistogifts.json"
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/Xolotlgifts.json"
+            "FromFile": "assets/data/NPCGiftTastes/Puckgifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/NPCGiftTastes/Shuckgifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/NPCGiftTastes/Xolotlgifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/NPCGiftTastes/compatgifts.json"
         },
         // CUSTOM NPC EXCLUSIONS
         {
@@ -118,8 +197,17 @@
         // STRINGS FROM MAPS
         {
             "LogName": "StringsFromMaps",
-            "Action": "Include",
-            "FromFile": "assets/StringsFromMaps.json"
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Amoxtli": "{{i18n:StringsFromMaps.Amoxtli}}",
+                "CodexGigas": "{{i18n:StringsFromMaps.CodexGigas}}",
+                "CorpusHermeticum": "{{i18n:StringsFromMaps.CorpusHermeticum}}",
+                "Galdrabok": "{{i18n:StringsFromMaps.Galdrabok}}",
+                "GrimorumArcanorum": "{{i18n:StringsFromMaps.GrimorumArcanorum}}",
+                "JoJini": "{{i18n:StringsFromMaps.JoJini}}",
+                "Necronomicon": "{{i18n:StringsFromMaps.Necronomicon}}"
+            }
         }
     ]
 }

@@ -1,0 +1,46 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax Object Textures - Crops",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Objects/Crops",
+            "FromFile": "assets/textures/cropobjects.png"
+        },
+        {
+            "LogName": "Raffadax Crop Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Crops",
+            "FromFile": "assets/textures/crops.png"
+        },
+        {
+            "LogName": "Raffadax Object Textures - FruitTrees",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Objects/FruitTrees",
+            "FromFile": "assets/textures/treeobjects.png"
+        },
+        {
+            "LogName": "Raffadax Tree Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Trees",
+            "FromFile": "assets/textures/fruittrees.png"
+        },
+        {
+            "LogName": "Raffadax Weapon Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Weapons",
+            "FromFile": "assets/textures/weaponobjects.png"
+        },
+        {
+            "LogName": "Raffadax Object Textures - Artisan",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Objects/Artisan",
+            "FromFile": "assets/textures/artisanobjects.png"
+        },
+        {
+            "LogName": "Raffadax Big Object Textures - Artisan",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/BigObjects/Artisan",
+            "FromFile": "assets/textures/artisanmachines.png"
+        }
+    ]
+}

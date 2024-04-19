@@ -92,6 +92,7 @@ def convertCrystalarium(filepath: str):
 
 def convertMill(filepath: str):
     jsonData = pyjson5.load(open(filepath, encoding="utf-8"))
+    outData = {"Changes": []}
     changeNode = {"LogName": "Raffadax Mill Rules",
                   "Action": "EditData",
                   "Target": "Data/Buildings",
@@ -126,7 +127,8 @@ def convertMill(filepath: str):
         changeNode["Entries"][ruleId] = outConv
         me = {"ID": ruleId, "BeforeID": "Default_UnmilledRice"}
         changeNode["MoveEntries"].append(me)
-    return changeNode
+    outData["Changes"].append(changeNode)
+    return outData
 
 
 def convertSaplings(filepath: str):
@@ -168,6 +170,7 @@ def convertSaplings(filepath: str):
                        "MinStack": ruleData["Quantity"],
                        "MaxStack": ruleData["Quantity"]}
             newRule.OutputItem.append(outitem)
+            newRule.MinutesUntilReady = 20
             quantityNode["Entries"][ruleId] = newRule.to_dict()
             me = {"ID": ruleId, "BeforeID": "Default"}
             quantityNode["MoveEntries"].append(me)
@@ -183,6 +186,7 @@ def convertSaplings(filepath: str):
         outitem = {"ItemId": "(O){}".format(translateName(rule["OutputIdentifier"])),
                    "Id": translateName(rule["OutputIdentifier"]),
                    "CopyQuality": True}
+        qtyRule.MinutesUntilReady = 20
         qtyRule.OutputItem.append(outitem)
         qualityNode["Entries"][qtyruleId] = qtyRule.to_dict()
         me = {"ID": qtyruleId, "BeforeID": "Default"}
@@ -212,12 +216,14 @@ if __name__ == "__main__":
     crysRules = convertCrystalarium(CRYSFILE)
     saplingRules["Changes"].append(crysRules)
 
-    millRules = convertMill(MILLFILE)
-    saplingRules["Changes"].append(millRules)
-
-    tempOutFile = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/data/machines.json"
-    with open(tempOutFile, 'w', encoding='utf-8') as f:
+    machinesFile = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/data/Machines.json"
+    with open(machinesFile, 'w', encoding='utf-8') as f:
         json.dump(saplingRules, f, indent=4, ensure_ascii=False)
+
+    millRules = convertMill(MILLFILE)
+    buildingsFile = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/data/Buildings.json"
+    with open(buildingsFile, 'w', encoding='utf-8') as f:
+        json.dump(millRules, f, indent=4, ensure_ascii=False)
 
     # Append to trees.json
     # existingTreeData = pyjson5.load(open(OUTFILE, encoding="utf-8"))

@@ -7,8 +7,8 @@ import pyjson5
 from unidecode import unidecode
 from classes import Shop, Inventory
 
-STFPATH = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/NPCs/[STF] Raffadax Shops/shops.json"
-OUTPATH = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/data/shops.json"
+STFPATH = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/NPCs - deprecated/[STF] Raffadax Shops/shops.json"
+OUTPATH = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/data/Shops.json"
 PORTRAITPATH = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/textures/shopportraits.json"
 NAMERE = r"[^a-zA-Z0-9_\.]"
 CATEGORIES = {"-5": "category_egg",
@@ -58,7 +58,8 @@ SHOPTONPC = {"Djinn": "Amanra",
              "WillyShop": "FishShop",
              }
 vanillaObjects = pyjson5.load(open("vanillaObjects.json", encoding="utf-8"))
-RAFFNPCS = ["Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl"]
+RAFFNPCS = ["Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl",
+            "Valkyrie"]
 
 
 def buildShops(fileIn: str, fileOut: str):
@@ -73,7 +74,11 @@ def buildShops(fileIn: str, fileOut: str):
                     }
     for oldshop in srcData["Shops"]:
         newShop = Shop()
-        shopID = "{{ModId}}_" + oldshop["ShopName"]
+        if SHOPTONPC[oldshop["ShopName"]] != "AnyOrNone":
+            newShopName = SHOPTONPC[oldshop["ShopName"]]
+        else:
+            newShopName = oldshop["ShopName"]
+        shopID = "{{ModId}}_" + newShopName + "_Shop"
         for ist in oldshop["ItemStocks"]:
             inv = Inventory()
             prefix = QPREFIXES[ist["ItemType"]]
@@ -135,23 +140,20 @@ def buildShops(fileIn: str, fileOut: str):
         newShop.SalableItemTags = [CATEGORIES[str(x)] for x in oldshop["CategoriesToSellHere"]]
         timeParts = oldshop["When"][0].split(" ")
         ownerName = SHOPTONPC[oldshop["ShopName"]]
-        if ownerName in RAFFNPCS:
-            portrait = "assets/textures/Portraits/{}.png".format(ownerName)
-        else:
-            portrait = "assets/textures/Shops/{}.png".format(oldshop["ShopName"])
+        portrait = "assets/textures/Portraits/{}.png".format(newShopName)
         ownerDict = {"Name": ownerName,
                      "Portrait": portrait,
                      "Condition": "TIME {} {}".format(timeParts[1], timeParts[2]),
-                     "ClosedMessage": "{{{{i18n:{}.ShopClosed}}}}".format(oldshop["ShopName"]),
-                     "Dialogues": [{"Id": "{}dialogue_1".format(oldshop["ShopName"]),
-                                    "Dialogue": "{{{{i18n:{}.ShopDialogue}}}}".format(oldshop["ShopName"])}
+                     "ClosedMessage": "{{{{i18n:{}.ShopClosed}}}}".format(newShopName),
+                     "Dialogues": [{"Id": "{}Dialogue_1".format(newShopName),
+                                    "Dialogue": "{{{{i18n:{}.ShopDialogue}}}}".format(newShopName)}
                                    ]
                      }
-        i18n["default"]["{}.ShopDialogue".format(oldshop["ShopName"])] = oldshop["Quote"]
-        i18n["default"]["{}.ShopClosed".format(oldshop["ShopName"])] = oldshop["ClosedMessage"]
+        i18n["default"]["{}.ShopDialogue".format(newShopName)] = oldshop["Quote"]
+        i18n["default"]["{}.ShopClosed".format(newShopName)] = oldshop["ClosedMessage"]
         newShop.Owners.append(ownerDict)
         if "DefaultSellPriceMultiplier" in oldshop:
-            pmDict = {"Id": "{}_SellPriceModifier".format(oldshop["ShopName"]),
+            pmDict = {"Id": "{}_SellPriceModifier".format(newShopName),
                       "Modification": "Multiply",
                       "Amount": oldshop["DefaultSellPriceMultiplier"]}
             newShop.PriceModifiers.append(pmDict)

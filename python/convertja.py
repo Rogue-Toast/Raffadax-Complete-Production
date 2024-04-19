@@ -168,7 +168,7 @@ def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
     return [newObjects, spriteFiles, i18n, objTexture]
 
 
-def buildCooking(srcDir, modId, vanillaObjects):
+def buildCooking(srcDir, modId, vanillaObjects, i18n):
     objDir = "{}Objects".format(srcDir)
     newRecipes = {"LogName": "Raffadax New Cooking Recipes",
                   "Action": "EditData",
@@ -198,11 +198,12 @@ def buildCooking(srcDir, modId, vanillaObjects):
                     nameStr = re.sub(NAMERE, "", nameStr)
                     iStr = "{}_{} {}".format(modId, nameStr, iNode["Count"])
                 ingredients.append(iStr)
-            newRecipes["Entries"][objData["Name"]] = "{}//{}/none/{}".format(" ".join(ingredients), output, objData["Name"])
-    return newRecipes
+            newRecipes["Entries"][objData["Name"]] = "{}//{}/none/{{{{i18n:{}.RecipeName}}}}".format(" ".join(ingredients), output, outName)
+            i18n["en"]["{}.RecipeName".format(outName)] = objData["Name"]
+    return [newRecipes, i18n]
 
 
-def buildCrafting(srcDir, modId, vanillaObjects):
+def buildCrafting(srcDir, modId, vanillaObjects, i18n):
     objDir = "{}Objects".format(srcDir)
     bigObjDir = "{}BigCraftables".format(srcDir)
     newRecipes = {"LogName": "Raffadax New Crafting Recipes",
@@ -222,6 +223,8 @@ def buildCrafting(srcDir, modId, vanillaObjects):
             quit()
         if "Recipe" in objData and objData["Recipe"] and (("Category" in objData and objData["Category"] == "Crafting") or jf.endswith("big-craftable.json")):
             output = "{}_{} {}".format(modId, objData["Name"].replace(" ", ""), objData["Recipe"]["ResultCount"])
+            outName = unidecode(objData["Name"])
+            outName = re.sub(NAMERE, "", outName)
             ingredients = []
             isBC = "false"
             if jf.endswith("big-craftable.json"):
@@ -235,8 +238,9 @@ def buildCrafting(srcDir, modId, vanillaObjects):
                     nameStr = re.sub(NAMERE, "", iNode["Object"])
                     iStr = "{}_{} {}".format(modId, nameStr, iNode["Count"])
                 ingredients.append(iStr)
-            newRecipes["Entries"][objData["Name"]] = "{}//{}/{}/none/{}".format(" ".join(ingredients), output, isBC, objData["Name"])
-    return newRecipes
+            newRecipes["Entries"][objData["Name"]] = "{}//{}/{}/none/{{{{i18n:{}.RecipeName}}}}".format(" ".join(ingredients), output, isBC, outName)
+            i18n["en"]["{}.RecipeName".format(outName)] = objData["Name"]
+    return [newRecipes, i18n]
 
 
 def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vanillaObjects):
@@ -458,7 +462,7 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                               "TextOperations": []}
             for tier, itemList in tierData.items():
                 prefDict = {"Operation": "Append",
-                            "Target": ["Fields", npc, int(tier)],
+                            "Target": ["Fields", "{{{{{}}}}}".format(npc), int(tier)],
                             "Value": " ".join(itemList),
                             "Delimiter": " "
                             }
@@ -622,7 +626,7 @@ def buildWeapons(srcDir, modId, spritesheet, i18n):
                   "Action": "EditData",
                   "Target": "Data/Weapons",
                   "Entries": {}}
-    weaponTexture = {"LogName": "Raffadax Tree Textures",
+    weaponTexture = {"LogName": "Raffadax Weapon Textures",
                      "Action": "Load",
                      "Target": "Mods/{}/Weapons".format(modId),
                      "FromFile": "assets/textures/weaponobjects.png"}
@@ -684,24 +688,21 @@ def objectscan(path):
             yield entry
 
 
-def writeData(textures: list, data: list, dstDir: str, dstName: str):
-    jsonOut = {"Changes": []}
-    jsonOut["Changes"] += textures
-    jsonOut["Changes"] += data
+def writeData(data: dict, dstDir: str, dstName: str):
     outPath = "{}data/{}.json".format(dstDir, dstName)
     # outData = json.dumps(jsonOut, indent=4)
     if not os.path.exists("{}data".format(dstDir)):
         os.mkdir("{}data".format(dstDir))
     with open(outPath, 'w', encoding='utf-8') as f:
-        json.dump(jsonOut, f, indent=4, ensure_ascii=False)
-    print("Content Patcher data written to {}".format(outPath))
+        json.dump(data, f, indent=4, ensure_ascii=False)
+    print("{} data written to {}".format(dstName, outPath))
 
 
 def writeGiftData(vanillaData: list, raffData: list, compatData: list, dstDir: str):
     jsonOut = {"Changes": vanillaData}
-    outPath = "{}data/vanillagifts.json".format(dstDir)
+    outPath = "{}data/NPCGiftTastes/vanillagifts.json".format(dstDir)
     # outData = json.dumps(jsonOut, indent=4)
-    if not os.path.exists("{}data".format(dstDir)):
+    if not os.path.exists("{}data/NPCGiftTastes".format(dstDir)):
         os.mkdir("{}data".format(dstDir))
     with open(outPath, 'w', encoding='utf-8') as f:
         json.dump(jsonOut, f, indent=4, ensure_ascii=False)
@@ -711,9 +712,9 @@ def writeGiftData(vanillaData: list, raffData: list, compatData: list, dstDir: s
         jsonOut['Changes'].append(raffData[0][npc])
         jsonOut['Changes'].append(raffData[1][npc])
         jsonOut['Changes'].append(raffData[2][npc])
-        outPath = "{}data/{}gifts.json".format(dstDir, npc)
+        outPath = "{}data/NPCGiftTastes/{}gifts.json".format(dstDir, npc)
         # outData = json.dumps(jsonOut, indent=4)
-        if not os.path.exists("{}data".format(dstDir)):
+        if not os.path.exists("{}data/NPCGiftTastes".format(dstDir)):
             os.mkdir("{}data".format(dstDir))
         with open(outPath, 'w', encoding='utf-8') as f:
             json.dump(jsonOut, f, indent=4, ensure_ascii=False)
@@ -721,9 +722,9 @@ def writeGiftData(vanillaData: list, raffData: list, compatData: list, dstDir: s
     jsonOut = {"Changes": []}
     for node in compatData:
         jsonOut["Changes"] += node
-    outPath = "{}data/compatgifts.json".format(dstDir)
+    outPath = "{}data/NPCGiftTastes/compatgifts.json".format(dstDir)
     # outData = json.dumps(jsonOut, indent=4)
-    if not os.path.exists("{}data".format(dstDir)):
+    if not os.path.exists("{}data/NPCGiftTastes".format(dstDir)):
         os.mkdir("{}data".format(dstDir))
     with open(outPath, 'w', encoding='utf-8') as f:
         json.dump(jsonOut, f, indent=4, ensure_ascii=False)
@@ -745,7 +746,9 @@ def writeLanguageData(i18n, dstDir, npcLang):
                 "Puck.DisplayName": "\n\t//NPCS - PUCK\n",
                 "Shuck.DisplayName": "\n\t//NPCS - SHUCK\n",
                 "Xolotl.DisplayName": "\n\t//NPCS - XOLOTL\n",
-                "Djinn.ShopDialogue": "\n\t//shops.json - Shops"
+                "Amanra.ShopDialogue": "\n\t//shops.json - Shops",
+                "AdoboSeasoning.RecipeName": "\n\t//artisan.json - Cooking Recipes",
+                "BlanchingPowder.RecipeName": "\n\t//artisan.json - Crafting Recipes"
                 }
     if not os.path.exists("{}i18n".format(dstDir)):
         os.mkdir("{}i18n".format(dstDir))
@@ -856,14 +859,26 @@ if __name__ == "__main__":
         langDir = "{}/1.6 Files/[CP] Raffadax Test/".format(rootDir)
         spriteDir = "{}textures/".format(dstDir)
         i18n = {"en": {}}
+        bigCraftablesOut = {"Changes": []}
+        cookingOut = {"Changes": []}
+        craftingOut = {"Changes": []}
+        cropsOut = {"Changes": []}
+        fruittreesOut = {"Changes": []}
+        objectsOut = {"Changes": []}
+        loadDataOut = {"Changes": []}
+        weaponsOut = {"Changes": []}
         vanillaObjects = pyjson5.load(open("vanillaObjects.json"), encoding="utf-8")
         # Crops
         print("Generating Crop Data")
         objectData, objectSprites, cropgiftData, i18n, objTexture, cropconditionalGifts, objcontextTags, cropraffgifts = buildObjects(cropDir, modId, "cropobjects", "Crops", i18n)
         # seed objects and cropdata
         objectData, cropData, cropSprites, objectSprites, i18n, cropTexture = buildCrops(cropDir, modId, objectData, objectSprites, i18n, "cropobjects", vanillaObjects)
+        objectsOut["Changes"].append(objectData)
+        cropsOut["Changes"].append(cropData)
+        loadDataOut["Changes"].append(objTexture)
+        loadDataOut["Changes"].append(cropTexture)
         # write data to file
-        writeData([objTexture, cropTexture], [objectData, cropData], dstDir, "crops")
+        # writeData([objTexture, cropTexture], [objectData, cropData], dstDir, "crops")
         # # make sprites
         buildSprites(objectSprites, spriteDir, "cropobjects", "objects")
         buildSprites(cropSprites, spriteDir, "crops", "crops")
@@ -871,13 +886,19 @@ if __name__ == "__main__":
         print("Generating Fruit Tree Data")
         objectData, objectSprites, treegiftData, i18n, objTexture, treeconditionalGifts, treecontextTags, treeraffgifts = buildObjects(treeDir, modId, "treeobjects", "FruitTrees", i18n)
         objectData, treeData, treeSprites, objectSprites, i18n, treeTexture = buildTrees(treeDir, modId, objectData, objectSprites, i18n, "treeobjects")
-        writeData([objTexture, treeTexture], [objectData, treeData], dstDir, "trees")
+        objectsOut["Changes"].append(objectData)
+        fruittreesOut["Changes"].append(treeData)
+        loadDataOut["Changes"].append(objTexture)
+        loadDataOut["Changes"].append(treeTexture)
+        # writeData([objTexture, treeTexture], [objectData, treeData], dstDir, "trees")
         buildSprites(objectSprites, spriteDir, "treeobjects", "objects")
         buildSprites(treeSprites, spriteDir, "fruittrees", "fruittrees")
         # weapons
         print("Generating Weapon Data")
         weaponData, weaponSprites, i18n, weaponTexture = buildWeapons(wepDir, modId, "weaponobjects", i18n)
-        writeData([weaponTexture], [weaponData], dstDir, "weapons")
+        weaponsOut["Changes"].append(weaponData)
+        loadDataOut["Changes"].append(weaponTexture)
+        # writeData([weaponTexture], [weaponData], dstDir, "weapons")
         buildSprites(weaponSprites, spriteDir, "weaponobjects", "weapons")
         # artisan
         print("Generating Artisan Data")
@@ -885,12 +906,27 @@ if __name__ == "__main__":
         bigObjectData, bigObjectSprites, i18n, bigObjTexture = buildBigObjects(artiDir, modId, "artisanmachines", "Artisan", i18n)
         # recipes
         print("Generating Cooking Data")
-        cookingData = buildCooking(artiDir, modId, vanillaObjects)
+        cookingData, i18n = buildCooking(artiDir, modId, vanillaObjects, i18n)
         print("Generating Crafting Data")
-        craftingData = buildCrafting(artiDir, modId, vanillaObjects)
-        writeData([objTexture, bigObjTexture], [objectData, bigObjectData, cookingData, craftingData], dstDir, "artisan")
+        craftingData, i18n = buildCrafting(artiDir, modId, vanillaObjects, i18n)
+        objectsOut["Changes"].append(objectData)
+        bigCraftablesOut["Changes"].append(bigObjectData)
+        loadDataOut["Changes"].append(objTexture)
+        loadDataOut["Changes"].append(bigObjTexture)
+        cookingOut["Changes"].append(cookingData)
+        craftingOut["Changes"].append(craftingData)
+        # writeData([objTexture, bigObjTexture], [objectData, bigObjectData, cookingData, craftingData], dstDir, "artisan")
         buildSprites(objectSprites, spriteDir, "artisanobjects", "objects")
         buildSprites(bigObjectSprites, spriteDir, "artisanmachines", "bigobjects")
+        # write Data
+        writeData(bigCraftablesOut, dstDir, "BigCraftables")
+        writeData(cookingOut, dstDir, "CookingRecipes")
+        writeData(craftingOut, dstDir, "CraftingRecipes")
+        writeData(cropsOut, dstDir, "Crops")
+        writeData(fruittreesOut, dstDir, "FruitTrees")
+        writeData(loadDataOut, dstDir, "LoadData")
+        writeData(objectsOut, dstDir, "Objects")
+        writeData(weaponsOut, dstDir, "Weapons")
         # # write i18n data
         print("Generating i18n")
         npcLang = "{}/1.6 Files/npcdefault.json".format(rootDir)
