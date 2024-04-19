@@ -1,0 +1,1312 @@
+﻿{
+    "Format": "1.25.0",
+    "ConfigSchema":
+	{
+    	"ArtisanImages":
+		{
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    		},
+    	"GemImages":
+		{
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    		},
+    	"MilkImages":
+		{
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    		},
+    	"SeedsImages":
+		{
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    		},
+    	"SpecialImages":
+		{
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    		},
+    	"Humidor":
+		{
+      		"Default": "true",
+      		"AllowValues": "true, false",
+    		},
+	},
+    "Changes":
+[
+// MAP EDITS - SHOP SIGNS
+ {
+      "Action": "EditMap",
+      "Target": "Maps/Desert",
+      "FromFile": "assets/z_Djinn.tmx",
+      "When": { "HasMod | contains=FlashShifter.StardewValleyExpandedCP": false},
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 19, "Y": 6, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Desert",
+      "FromFile": "assets/z_Djinn.tmx",
+      "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP"},
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 29, "Y": 44, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Island_SE",
+      "FromFile": "assets/z_Selkie.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 22, "Y": 10, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Mountain",
+      "FromFile": "assets/z_Coyotl.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 112, "Y": 10, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Sewer",
+      "FromFile": "assets/z_Azeban.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 15, "Y": 9, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "FromFile": "assets/z_Pookah.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 27, "Y": 5, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/WitchSwamp",
+      "FromFile": "assets/z_Barghest.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 21, "Y": 21, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Island_Shrine",
+      "FromFile": "assets/z_Nagual.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 19, "Y": 23, "Height": 2, "Width": 1 },
+	   "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Caldera",
+      "FromFile": "assets/z_Valkyrie.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 24, "Y": 22, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+// MAP EDITS - GRIMOIRES
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Desert",
+      "FromFile": "assets/z_CorpusHermeticum.tmx",
+      "When":
+	{
+		"HasMod | contains=FlashShifter.StardewValleyExpandedCP": false,
+      		"Hearts:Amanra": "10"
+
+	},
+
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 21, "Y": 6, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Desert",
+      "FromFile": "assets/z_CorpusHermeticum.tmx",
+      "When":
+	{
+		"HasMod": "FlashShifter.StardewValleyExpandedCP",
+		"Hearts:Amanra": "10"
+
+	},
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 31, "Y": 44, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Island_SE",
+      "FromFile": "assets/z_Galdrabok.tmx",
+      "When": { "Hearts:Astrid": "10" },
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 23, "Y": 11, "Height": 2, "Width": 1 },
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Mountain",
+      "FromFile": "assets/z_JoJini.tmx",
+      "When": { "Hearts:Coyote": "10" },
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 114, "Y": 10, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Sewer",
+      "FromFile": "assets/z_CodexGigas.tmx",
+      "When": { "Hearts:Mephisto": "10" },
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 13, "Y": 10, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "FromFile": "assets/z_GrimorumArcanorum.tmx",
+      "When": { "Hearts:Puck": "10" },
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 25, "Y": 5, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/WitchSwamp",
+      "FromFile": "assets/z_Necronomicon.tmx",
+      "When": { "Hearts:Shuck": "10" },
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 23, "Y": 21, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Island_Shrine",
+      "FromFile": "assets/z_Amoxtli.tmx",
+      "When": { "Hearts:Xolotl": "10" },
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 21, "Y": 23, "Height": 2, "Width": 1 },
+	   "PatchMode": "Overlay",
+    },
+// MAP EDITS - MISC
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Saloon",
+      "FromFile": "assets/z_Humidor.tmx",
+      "When": { "Humidor": "true"},
+      "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      "ToArea": { "X": 24, "Y": 16, "Height": 2, "Width": 1 },
+	  "PatchMode": "Overlay",
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Saloon",
+      "FromFile": "assets/z_SodaMachine.tmx",
+      "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 2 },
+      "ToArea": { "X": 37, "Y": 17, "Height": 1, "Width": 2 },
+	  "PatchMode": "Overlay",
+    },
+// VANILLA IMAGES & DATA
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields":
+		{
+	   	"18": { "2": "-10"},
+		},
+	},
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields":
+		{
+	   	"283": { "5": "The leaves and bright red berries make a popular winter decoration. The berries are toxic, but the leaves can be brewed into tea or gin."},
+		},
+	},
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields":
+		{
+	   	"431": { "5": "Seeds for a large variety of yellow flower which yields more seeds at harvest. The seeds themselves can be used for baking and are often eaten roasted or raw. Takes 8 days to mature. Plant in the summer or fall."},
+		},
+	},
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields":
+		{
+	   	"453": { "5": "Seeds for a bright red flower which may yield more seeds at harvest. The seeds themselves are commonly used for baking due to their nutty flavor. Takes 7 days to mature. Plant in the summer."},
+		},
+	},
+	{
+
+	   "Action": "EditData",
+	   "Target": "Data/ObjectInformation",
+	   "Fields":
+		{
+	   	"490": { "5": "Seeds for a large variety of orange squash. The seeds themselves can be used for baking and are sometimes eaten roasted. Takes 13 days to mature. Plant in the fall."},
+		},
+	},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/beer_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 161,
+				"Y": 224,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+	{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/coffee_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 176,
+				"Y": 256,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/dandelion_object.png",
+      			"When": { "SeedsImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+         		"ToArea":
+				{
+				"X": 353,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/diamond_object.png",
+      			"When": { "GemImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 0,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/dino_mayo_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 240,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/duck_mayo_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 304,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/emerald_object.png",
+      			"When": { "GemImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 192,
+				"Y": 33,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/goat_milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 64,
+				"Y": 288,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+      			{
+        	 	"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/golden_pumpkin_object.png",
+      			"When": { "GemImages": "true"},
+         		"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				 "Height": 16
+				},
+         		"ToArea":
+				{
+				"X": 208,
+				"Y": 241,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/green_tea_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 224,
+				"Y": 400,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/honey_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 64,
+				"Y": 224,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/iridium_milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 176,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/jelly_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 128,
+				"Y": 224,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/joja_cola_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 368,
+				"Y": 96,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/juice_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 224,
+				"Y": 224,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/large_goat_milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 96,
+				"Y": 288,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/large_milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 288,
+				"Y": 112,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/life_elixer_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+	         	"ToArea":
+				{
+				"X": 80,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/maple_syrup_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 64,
+				"Y": 480,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/mayonnaise_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 287,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/mead_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 48,
+				"Y": 304,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/milk_object.png",
+      			"When": { "MilkImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 256,
+				"Y": 112,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+     			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/monster_musk_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+	         	"ToArea":
+				{
+				"X": 240,
+				"Y": 576,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/oak_resin_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 80,
+				"Y": 480,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/oil_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+	         	"ToArea":
+				{
+				"X": 112,
+				"Y": 160,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/oil_garlic_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+	         	"ToArea":
+				{
+				"X": 64,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/pale_ale_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 240,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/pickles_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 96,
+				"Y": 224,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+			{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/pine_tar_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+			"ToArea":
+				{
+				"X": 96,
+				"Y": 480,
+				"Width": 16,
+				"Height": 16
+				},
+			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/poppy_seeds_object.png",
+      			"When": { "SeedsImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+         		"ToArea":
+				{
+				"X": 336,
+				"Y": 288,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/prismatic_jelly_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+         		"ToArea":
+				{
+				"X": 192,
+				"Y": 576,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/prismatic_shard_object.png",
+      			"When": { "GemImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+         		"ToArea":
+				{
+				"X": 32,
+				"Y": 48,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/pumpkin_seeds_object.png",
+      			"When": { "SeedsImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+         		"ToArea":
+				{
+				"X": 160,
+				"Y": 320,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/rainbow_shell_object.png",
+      			"When": { "GemImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+	         	"ToArea":
+				{
+				"X": 160,
+				"Y": 257,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/squid_ink_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+	         	"ToArea":
+				{
+				"X": 352,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/truffle_oil_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+	         	"ToArea":
+				{
+				"X": 0,
+				"Y": 288,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/vinegar_object.png",
+      			"When": { "SpecialImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+	         	"ToArea":
+				{
+				"X": 176,
+				"Y": 272,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/void_mayo_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+	         	"ToArea":
+				{
+				"X": 321,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+      			{
+         		"Action": "EditImage",
+         		"Target": "Maps/springobjects",
+         		"FromFile": "assets/wine_object.png",
+      			"When": { "ArtisanImages": "true"},
+			"FromArea":
+				{
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 16
+				},
+         		"ToArea":
+				{
+				"X": 192,
+				"Y": 224,
+				"Width": 16,
+				"Height": 16
+				}
+      			},
+// ANIMATIONS
+	{
+      "LogName": "Animation Descriptions",
+	"Action": "EditData",
+	"Target": "Data/animationDescriptions",
+      "Entries":
+		{
+		"Amanra_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 16 16 19 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16/16",
+		"Astrid_Rain": "18/18 18 18 18 18 18 18 18 18 18 18 19 19 19 18 18 18 18 18 19 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18/18",
+		"Astrid_Stand": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 17 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+		"Coyote_Rain": "19/19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 17 17 19 19 17 19 17 19 19 19 19 19/19",
+		"Coyote_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 18 18 16 18 16 18 16 16 16 16 16 16 16 17 17 16 17 16 16 16 16 16 16 16 16 16 16 16/16",
+		"Mephisto_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 19 19 18 18 17 17 16 16 16 16 16 16 16 16 16 16 12 12 20 20 12 12 16 16 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 18 18 17 17 16 16 16 16 16 16 16 17 17 16 17 16 16 16 16 16 16 12 12 16 16 12 12 16/16",
+		"Puck_Rain": "19/19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 17 17 19 19 17 19 17 19 19 19 19 19/19",
+		"Puck_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 18 18 16 18 16 18 16 16 16 16 16 16 16 17 17 16 17 16 16 16 16 16 16 16 16 16 16 16/16",
+		"Shuck_Midnight": "16/16 20 20 20 20 32 32 32 33 33 33 34 34 34 24 24 24 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 20 20 31 31 31 31 31 24 24 31 31 31 31 31 31 31 26 26 27 27 26 26 27 27 26 27 26 31 31 31 31 31 31 31 31 20 20 31 31 31 31 24 24 34 34 30 30 32 32 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16/16",
+		"Shuck_Sit": "16/16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 18 18 19 19 18 18 19 19 18 18 19 19 18 18 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+		"Xolotl_Sit": "16/16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 17 17 18 18 17 17 16 16 16 16 20 20 16 16 16 16 16 19 19 23 23 27 27 16 16 17 18 17 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+		},
+	},
+// DIALOGUE
+	{// AMANRA
+      	"LogName": "Dialogue Amanra",
+      	"Action": "Load",
+      	"Target": "Characters/Dialogue/Amanra",
+      	"FromFile": "assets/AmanraDialogue.json",
+    	},
+	{// ASTRID
+      	"LogName": "Dialogue Astrid",
+      	"Action": "Load",
+      	"Target": "Characters/Dialogue/Astrid",
+      	"FromFile": "assets/AstridDialogue.json",
+    	},
+	{// COYOTE
+      	"LogName": "Dialogue Coyote",
+      	"Action": "Load",
+      	"Target": "Characters/Dialogue/Coyote",
+      	"FromFile": "assets/CoyoteDialogue.json",
+    	},
+	{// MEPHISTO
+      	"LogName": "Dialogue Mephisto",
+      	"Action": "Load",
+      	"Target": "Characters/Dialogue/Mephisto",
+      	"FromFile": "assets/MephistoDialogue.json",
+    	},
+	{// PUCK
+      	"LogName": "Dialogue Puck",
+      	"Action": "Load",
+      	"Target": "Characters/Dialogue/Puck",
+      	"FromFile": "assets/PuckDialogue.json",
+    	},
+	{// SHUCK
+      	"LogName": "Dialogue Shuck",
+      	"Action": "Load",
+      	"Target": "Characters/Dialogue/Shuck",
+      	"FromFile": "assets/ShuckDialogue.json",
+    	},
+	{// XOLOTL
+      	"LogName": "Dialogue Xolotl",
+      	"Action": "Load",
+      	"Target": "Characters/Dialogue/Xolotl",
+      	"FromFile": "assets/XolotlDialogue.json",
+    	},
+// DISPOSITIONS
+	{
+      	"LogName": "NPC Dispositions",
+      	"Action": "EditData",
+      	"Target": "Data/NPCDispositions",
+      	"When": { "HasMod | contains=FlashShifter.StardewValleyExpandedCP": false},
+	"Entries":
+		{
+      		"Amanra": "adult/neutral/neutral/neutral/male/non-datable/null/Other/summer 21//Desert 20 8/Amanra",
+      		"Astrid": "adult/neutral/neutral/neutral/female/non-datable/null/Other/winter 01//IslandSouthEast 21 12/Astrid",
+      		"Coyote": "adult/neutral/neutral/neutral/male/non-datable/null/Other/summer 01//Mountain 113 11/Coyote",
+      		"Mephisto": "adult/neutral/neutral/neutral/male/non-datable/null/Other/fall 01//Sewer 14 11/Mephisto",
+		"Puck": "adult/neutral/neutral/neutral/male/non-datable/null/Other/fall 21//Woods 26 6/Puck",
+		"Shuck": "adult/neutral/neutral/neutral/male/non-datable/null/Other/winter 21//WitchSwamp 22 22/Shuck",
+		"Xolotl": "adult/neutral/neutral/neutral/male/non-datable/null/Other/spring 21//IslandShrine 20 24/Xolotl",
+		}
+	},
+	{
+      	"LogName": "NPC Dispositions",
+      	"Action": "EditData",
+      	"Target": "Data/NPCDispositions",
+        "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP"},
+	"Entries":
+		{
+      		"Amanra": "adult/neutral/neutral/neutral/male/non-datable/null/Other/summer 21//Desert 30 45/Amanra",
+      		"Astrid": "adult/neutral/neutral/neutral/female/non-datable/null/Other/winter 01//IslandSouthEast 21 12/Astrid",
+      		"Coyote": "adult/neutral/neutral/neutral/male/non-datable/null/Other/summer 01//Mountain 113 11/Coyote",
+      		"Mephisto": "adult/neutral/neutral/neutral/male/non-datable/null/Other/fall 01//Sewer 14 11/Mephisto",
+		"Puck": "adult/neutral/neutral/neutral/male/non-datable/null/Other/fall 21//Woods 26 6/Puck",
+		"Shuck": "adult/neutral/neutral/neutral/male/non-datable/null/Other/winter 21//WitchSwamp 22 22/Shuck",
+		"Xolotl": "adult/neutral/neutral/neutral/male/non-datable/null/Other/spring 21//IslandShrine 20 24/Xolotl",
+		}
+	},
+//EXCLUSIONS
+	{
+      	"LogName": "NPC Exclusions",
+      	"Action": "EditData",
+      	"Target": "Data/CustomNPCExclusions",
+      	"Entries":
+		{
+                "Amanra": "All",
+		"Astrid": "All",
+		"Coyote": "All",
+		"Mephisto": "All",
+		"Puck": "All",
+		"Shuck": "All",
+		"Xolotl": "All",
+         	}
+      	},
+// GIFT TASTES
+	{
+      	"LogName": "Gift Tastes",
+      	"Action": "EditData",
+      	"Target": "Data/NPCGiftTastes",
+      	"Entries":
+		{
+		"Amanra": "A wonderful gift! The spirits of the sands are most pleased./72 -2 303 308 346 348 373 417 454 459 772 773 872 879/The spirits hapily accept your offering./-4 -5 -6 -14 -15 -28 -29 -75 -79 -80 -81 340 347 499 724/.../-9 -25/It is unwise to anger the spirits with such an insulting gift. The sands of this desert will swallow those who disrespect it./-16 -19 -20 -21 -22 789/Thank you for the offering, human./-7 -8 -12 -27 -74/",
+		"Astrid": "Ah, this will make a fantastic offering for the sea temple! Excellent work!/60 -2 303 308 346 348 373 417 454 459 772 773 872 879/Wow, thank you! This is a good offering for the sea spirits./-4 -5 -6 -14 -15 -28 -29 -75 -79 -80 -81 340 347 499 724/Hmmm...I'll take this to the temple under the sea, but it may not be well recieved./-9 -25/I can't take this to the sea temple, the spirits will become angered and send a storm!/-16 -19 -20 -21 -22 789/Thank you for the offering, human./-7 -8 -12 -27 -74/",
+		"Coyote": "Ah, this is a fantastic offering! The spirits of the mountain will be pleased!/60 -2 303 308 346 348 373 417 454 459 772 773 872 879/Excellent work! This is a useful offering./-4 -5 -6 -14 -15 -28 -29 -75 -79 -80 -81 340 347 499 724/... If you keep all of your best items to yourself, and do not give back equally to nature, you may be percieved as a thankless individual./-9 -25/It is quite unwise to displease the mountain spirits. There are...Ancient things that live out here. Some of them have been known to make people disappear./-16 -19 -20 -21 -22 789/Thank you for the offering, human./-7 -8 -12 -27 -74/",
+		"Mephisto": "Hey, this is pretty nice! Bring me more of this...Or something similar./60 -2 303 308 346 348 373 417 454 459 772 773 872 879/Nice! I can certainly find a use for this!/-4 -5 -6 -14 -15 -28 -29 -75 -79 -80 -81 340 347 499 724/I guess I might find a use for this.../-9 -25/... If you had any idea who I really am, you would never dare offer me such an item as a 'gift'./-16 -19 -20 -21 -22 789/For me? Thanks!/-7 -8 -12 -27 -74/",
+		"Puck": "Ah, this is a fantastic offering! The denizens of the forest will be pleased!/60 -2 303 308 346 348 373 417 454 459 772 773 872 879/Excellent work! This is a useful offering./-4 -5 -6 -14 -15 -28 -29 -75 -79 -80 -81 340 347 499 724/This...is not a very good offering. You should try harder. You do not want to disappoint the forest spirits./-9 -25/It is quite unwise to displease the forest spirits. It would be a shame if you were to lose your way in the forest and never find your way out./-16 -19 -20 -21 -22 789/Thank you for the offering, human./-7 -8 -12 -27 -74/",
+		"Shuck": "A fine offering! There may be hope for you yet, human./575 -2 303 308 346 348 373 417 454 459 772 773 872 879/Well done, I can make use of this.../-4 -5 -6 -14 -15 -28 -29 -75 -79 -80 -81 340 347 499 724/If you insist on giving me trash, I'll show you where we throw worthless filth in the nether realm...And I'll leave you there./-9 -25/...You know, this swamp is a dark and terrible place. If you continue to fill it with trash, perhaps I will have to show you just how dark and terrible it really can be./-16 -19 -20 -21 -22 789/Thank you for the offering, human./-7 -8 -12 -27 -74/",
+		"Xolotl": "This offering greatly pleases the jungle spirits!/64 -2 303 308 346 348 373 417 454 459 772 773 872 879/The spirits smile upon you./-4 -5 -6 -14 -15 -28 -29 -75 -79 -80 -81 340 347 499 724/This offering is not good. The spirits are displeased with you./-9 -25/This offering angers the jungle spirits. If you continue to displease us, the jungle may take YOU as an offering instead./-16 -19 -20 -21 -22 789/Thank you for the offering, human./-7 -8 -12 -27 -74/",
+		}
+	},
+// PORTRAITS
+	{// AMANRA
+      	"LogName": "Amanra Portraits",
+      	"Action": "Load",
+      	"Target": "Portraits/Amanra",
+      	"FromFile": "assets/Amanra_Portrait.png",
+    	},
+	{// ASTRID
+      	"LogName": "Astrid Portraits",
+      	"Action": "Load",
+      	"Target": "Portraits/Astrid",
+      	"FromFile": "assets/Astrid_Portrait.png",
+    	},
+	{// COYOTE
+      	"LogName": "Coyote Portraits",
+      	"Action": "Load",
+      	"Target": "Portraits/Coyote",
+      	"FromFile": "assets/Coyote_Portrait.png",
+    	},
+	{// MEPHISTO
+      	"LogName": "Mephisto Portraits",
+      	"Action": "Load",
+      	"Target": "Portraits/Mephisto",
+      	"FromFile": "assets/Mephisto_Portrait.png",
+    	},
+	{// PUCK
+      	"LogName": "Puck Portraits",
+      	"Action": "Load",
+      	"Target": "Portraits/Puck",
+      	"FromFile": "assets/Puck_Portrait.png",
+    	},
+	{// SHUCK
+      	"LogName": "Shuck Portraits",
+      	"Action": "Load",
+      	"Target": "Portraits/Shuck",
+      	"FromFile": "assets/Shuck_Portrait.png",
+    	},
+	{// XOLOTL
+      	"LogName": "Xolotl Portraits",
+      	"Action": "Load",
+      	"Target": "Portraits/Xolotl",
+      	"FromFile": "assets/Xolotl_Portrait.png",
+    	},
+// SCHEDULE
+	{// AMANRA
+      	"LogName": "Schedule Amanra",
+      	"Action": "Load",
+      	"Target": "Characters/schedules/Amanra",
+      	"FromFile": "assets/AmanraSchedule.json",
+      	"When": { "HasMod | contains=FlashShifter.StardewValleyExpandedCP": false},
+    	},
+	{// AMANRA
+      	"LogName": "Schedule Amanra",
+      	"Action": "Load",
+      	"Target": "Characters/schedules/Amanra",
+      	"FromFile": "assets/AmanraSVESchedule.json",
+      	"When": { "HasMod": "FlashShifter.StardewValleyExpandedCP"},
+    	},
+	{// ASTRID
+      	"LogName": "Schedule Astrid",
+      	"Action": "Load",
+      	"Target": "Characters/schedules/Astrid",
+      	"FromFile": "assets/AstridSchedule.json",
+    	},
+	{// COYOTE
+      	"LogName": "Schedule Coyote",
+      	"Action": "Load",
+      	"Target": "Characters/schedules/Coyote",
+      	"FromFile": "assets/CoyoteSchedule.json",
+    	},
+	{// MEPHISTO
+      	"LogName": "Schedule Mephisto",
+      	"Action": "Load",
+      	"Target": "Characters/schedules/Mephisto",
+      	"FromFile": "assets/MephistoSchedule.json",
+    	},
+	{// PUCK
+      	"LogName": "Schedule Puck",
+      	"Action": "Load",
+      	"Target": "Characters/schedules/Puck",
+      	"FromFile": "assets/PuckSchedule.json",
+    	},
+	{// SHUCK
+      	"LogName": "Schedule Shuck",
+      	"Action": "Load",
+      	"Target": "Characters/schedules/Shuck",
+      	"FromFile": "assets/ShuckSchedule.json",
+    	},
+	{// XOLOTL
+      	"LogName": "Schedule Xolotl",
+      	"Action": "Load",
+      	"Target": "Characters/schedules/Xolotl",
+      	"FromFile": "assets/XolotlSchedule.json",
+    	},
+// SPRITE SHEETS
+	{// AMANRA
+      	"LogName": "Amanra Sprite",
+      	"Action": "Load",
+      	"Target": "Characters/Amanra",
+      	"FromFile": "assets/Amanra_Sprites.png",
+	},
+	{// ASTRID
+      	"LogName": "Astrid Sprite",
+      	"Action": "Load",
+      	"Target": "Characters/Astrid",
+      	"FromFile": "assets/Astrid_Sprites.png",
+	},
+	{// COYOTE
+      	"LogName": "Coyote Sprite",
+      	"Action": "Load",
+      	"Target": "Characters/Coyote",
+      	"FromFile": "assets/Coyote_Sprites.png",
+	},
+	{// MEPHISTO
+      	"LogName": "Mephisto Sprite",
+      	"Action": "Load",
+      	"Target": "Characters/Mephisto",
+      	"FromFile": "assets/Mephisto_Sprites.png",
+	},
+	{// PUCK
+      	"LogName": "Puck Sprites",
+      	"Action": "Load",
+      	"Target": "Characters/Puck",
+      	"FromFile": "assets/Puck_Sprites.png",
+	},
+	{// SHUCK
+      	"LogName": "Shuck Sprites",
+      	"Action": "Load",
+      	"Target": "Characters/Shuck",
+      	"FromFile": "assets/Shuck_Sprites.png",
+	},
+	{// XOLOTL
+      	"LogName": "Xolotl Sprites",
+      	"Action": "Load",
+      	"Target": "Characters/Xolotl",
+      	"FromFile": "assets/Xolotl_Sprites.png",
+	},
+// STRINGS
+	{
+		"LogName": "StringsFromMaps",
+		"Action": "Include",
+		"FromFile": "assets/StringsFromMaps.json",
+	},
+]
+}
