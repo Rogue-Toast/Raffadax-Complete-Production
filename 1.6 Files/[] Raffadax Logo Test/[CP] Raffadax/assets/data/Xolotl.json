@@ -8,7 +8,7 @@
 			"Target": "Data/Characters",
 			"Entries": {
 				"{{Xolotl}}": {
-					"DisplayName": "[LocalizedText Strings\\NPCNames:{{Xolotl}}",
+					"DisplayName": "[LocalizedText Strings\\NPCNames:{{Xolotl}}]",
 					"Gender": "Male",
 					"Age": "Adult",
 					"Manner": "Neutral",
@@ -40,12 +40,9 @@
 					"Home": [
 						{
 							"Id": "Default",
-							"Location": "WitchSwamp",
+							"Location": "Island_Shrine",
 							"Tile": { "X": 22, "Y": 22 },
 							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-							}
 						}
 					]
 				}
@@ -90,12 +87,8 @@
 			"LogName": "Xolotl's Schedule",
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Xolotl}}",
-			"When": {
-					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-			},
-
 			"Entries": {
-				"Mon": "0610 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_xolotl_Sit/2350 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_xolotl_Midnight/0110 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_xolotl_Sit",
+				"Mon": "0610 Island_Shrine 22 22 2 {{Lowercase:{{ModID}}}}_xolotl_Sit/2350 Island_Shrine 22 22 2 {{Lowercase:{{ModID}}}}_xolotl_Midnight/0110 Island_Shrine 22 22 2 {{Lowercase:{{ModID}}}}_xolotl_Sit",
 				"Tue": "GOTO Mon",
 				"Wed": "GOTO Mon",
 				"Thu": "GOTO Mon",
