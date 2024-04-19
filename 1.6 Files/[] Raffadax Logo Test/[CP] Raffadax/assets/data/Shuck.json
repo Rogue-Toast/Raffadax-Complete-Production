@@ -8,7 +8,7 @@
 			"Target": "Data/Characters",
 			"Entries": {
 				"{{Shuck}}": {
-					"DisplayName": "[LocalizedText Strings\\NPCNames:{{Shuck}}",
+					"DisplayName": "[LocalizedText Strings\\NPCNames:{{Shuck}}]",
 					"Gender": "Male",
 					"Age": "Adult",
 					"Manner": "Neutral",
@@ -43,9 +43,6 @@
 							"Location": "WitchSwamp",
 							"Tile": { "X": 22, "Y": 22 },
 							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-							}
 						}
 					]
 				}

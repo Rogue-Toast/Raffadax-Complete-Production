@@ -16,12 +16,11 @@
 			"Action": "EditMap",
       		"Target": "Maps/Desert",
       		"FromFile": "assets/textures/mapedits.tmx",
-      		"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-      			"ToArea": { "X": 21, "Y": 6, "Height": 2, "Width": 1 },
-	  			"PatchMode": "Overlay",
+      			"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      			"ToArea": { "X": 32, "Y": 47, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay",
       		"When": { 
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false,
-      			"Hearts:Amanra": "10"
       		},
       	},
       	{
@@ -31,10 +30,7 @@
       		"FromFile": "assets/textures/mapedits.tmx",
       			"FromArea": { "X": 1, "Y": 0, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 23, "Y": 11, "Height": 2, "Width": 1 },
-      		"PatchMode": "Overlay",
-      		"When": { 
-      			"Hearts:Astrid": "10"
-      		},
+      		"PatchMode": "Overlay"
       	},
       	{
       		"LogName": "Add Coyote's Grimoire",
@@ -43,10 +39,7 @@
       		"FromFile": "assets/textures/mapedits.tmx",
       			"FromArea": { "X": 2, "Y": 0, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 114, "Y": 10, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-	  		"When": { 
-	  			"Hearts:Coyote": "10"
-	  		},
+	  		"PatchMode": "Overlay"
       	},
       	{
       		"LogName": "Add Mephisto's Grimoire",
@@ -55,10 +48,7 @@
       		"FromFile": "assets/textures/mapedits.tmx",
       			"FromArea": { "X": 3, "Y": 0, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 13, "Y": 10, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-	  		"When": { 
-	  			"Hearts:Mephisto": "10"
-	  		},
+	  		"PatchMode": "Overlay"
       	},
       	{
       		"LogName": "Add Puck's Grimoire",
@@ -67,10 +57,7 @@
       		"FromFile": "assets/textures/mapedits.tmx",
       			"FromArea": { "X": 4, "Y": 0, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 25, "Y": 5, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-	  		"When": { 
-	  			"Hearts:Puck": "10"
-	  		},
+	  		"PatchMode": "Overlay"
       	},
       	{
       		"LogName": "Add Shuck's Grimoire",
@@ -80,9 +67,6 @@
       			"FromArea": { "X": 5, "Y": 0, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 23, "Y": 21, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay",
-	  		"When": { 
-	  			"Hearts:Shuck": "10"
-	  		},
       	},
       	{
       		"LogName": "Add Xolotl's Grimoire",
@@ -91,10 +75,7 @@
       		"FromFile": "assets/textures/mapedits.tmx",
       			"FromArea": { "X": 6, "Y": 0, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 21, "Y": 23, "Height": 2, "Width": 1 },
-	   		"PatchMode": "Overlay",
-	   		"When": { 
-	   			"Hearts:Xolotl": "10"
-	   		},
+	   		"PatchMode": "Overlay"
       	},
 
 
@@ -105,7 +86,7 @@
 			"Target": "Maps/Desert",
 			"FromFile": "assets/textures/mapedits.tmx",
 				"FromArea": { "X": 0, "Y": 2, "Height": 2, "Width": 1 },
-      			"ToArea": { "X": 19, "Y": 6, "Height": 2, "Width": 1 },
+      			"ToArea": { "X": 30, "Y": 47, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay",
 	  		"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
@@ -182,12 +163,11 @@
 			"Action": "EditMap",
       		"Target": "Maps/Desert",
       		"FromFile": "assets/textures/mapedits.tmx",
-      		"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+      			"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
       			"ToArea": { "X": 31, "Y": 44, "Height": 2, "Width": 1 },
-	  			"PatchMode": "Overlay",
+	  		"PatchMode": "Overlay",
       		"When": { 
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"Hearts:Amanra": "10",
 			},
 		},
 		{
