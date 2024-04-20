@@ -116,6 +116,12 @@ def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
                   "Action": "Load",
                   "Target": "Mods/{}/BigObjects/{}".format(modId, mode),
                   "FromFile": "assets/textures/{}.png".format(spritesheet)}
+    machines = ["Auto Mill", "Beverage Keg", "Deluxe Preserves Jar",
+                "Deluxe Wine Keg", "Distillation Tank", "Dry Packer",
+                "Fermentation Tank", "Flow Hive", "Fragrance Extractor",
+                "Golden Spindle", "Incubation Tank", "Juice Keg",
+                "Magic Cauldron", "Milk Keg", "Oxidizer", "Puree Jar",
+                "Tea Keg"]
     if not i18n:
         i18n = {"en": {}}
     i = 0
@@ -153,6 +159,11 @@ def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
             for j in range(1, frameCount + 1):
                 frameName = "{}-{}.png".format(jf[0:-5], j + 1)
                 spriteFiles[frameName] = bo.SpriteIndex + j
+        bo.ContextTags.append("raffadax_bigcraftable")
+        if "Recipe" in objData and objData["Recipe"] and isinstance(objData["Recipe"], dict):
+            bo.ContextTags.append("raffadax_crafted_bigcraftable")
+        if objData["Name"] in machines:
+            bo.ContextTags.append("raffadax_machine")
         newObjects["Entries"][bo.Name] = bo.to_dict()
         if "NameLocalization" in objData:
             for langKey, langStr in objData["NameLocalization"]:
@@ -198,7 +209,7 @@ def buildCooking(srcDir, modId, vanillaObjects, i18n):
                     nameStr = re.sub(NAMERE, "", nameStr)
                     iStr = "{}_{} {}".format(modId, nameStr, iNode["Count"])
                 ingredients.append(iStr)
-            newRecipes["Entries"][objData["Name"]] = "{}//{}/none/{{{{i18n:{}.RecipeName}}}}".format(" ".join(ingredients), output, outName)
+            newRecipes["Entries"][objData["Name"]] = "{}/2 2/{}/null/{{{{i18n:{}.RecipeName}}}}".format(" ".join(ingredients), output, outName)
             i18n["en"]["{}.RecipeName".format(outName)] = objData["Name"]
     return [newRecipes, i18n]
 
@@ -238,7 +249,7 @@ def buildCrafting(srcDir, modId, vanillaObjects, i18n):
                     nameStr = re.sub(NAMERE, "", iNode["Object"])
                     iStr = "{}_{} {}".format(modId, nameStr, iNode["Count"])
                 ingredients.append(iStr)
-            newRecipes["Entries"][objData["Name"]] = "{}//{}/{}/none/{{{{i18n:{}.RecipeName}}}}".format(" ".join(ingredients), output, isBC, outName)
+            newRecipes["Entries"][objData["Name"]] = "{}/Home/{}/{}/null/{{{{i18n:{}.RecipeName}}}}".format(" ".join(ingredients), output, isBC, outName)
             i18n["en"]["{}.RecipeName".format(outName)] = objData["Name"]
     return [newRecipes, i18n]
 
@@ -277,6 +288,8 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
             seedObj.Price = data["SeedPurchasePrice"]
         seedObj.Texture = "Mods/{}/Objects/Crops".format(modId)
         seedObj.SpriteIndex = i
+        seedObj.ContextTags.append("raffadax_seeds_object")
+        seedObj.ContextTags.append("raffadax_object")
         spritename = jf.rsplit("/", 1)[0] + "/seeds.png"
         if "SeedNameLocalization" in data:
             for langKey, langStr in data["NameLocalization"]:
@@ -417,6 +430,13 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
         if "ContextTags" in objData:
             newObj.ContextTags = objData["ContextTags"]
             contextTags += objData["ContextTags"]
+        newObj.ContextTags.append("raffadax_object")
+        newObj.ContextTags.append("raffadax_{}_object".format(mode).lower())
+        if "Recipe" in objData and isinstance(objData["Recipe"], dict) and objData["Recipe"]:
+            if objData["Category"] in ["Cooking", "-7"]:
+                newObj.ContextTags.append("raffadax_cooked_object")
+            else:
+                newObj.ContextTags.append("raffadax_crafted_object")
         if "CategoryTextOverride" in objData:  # this may have to become a CustomField
             catName = re.sub(NAMERE, "", objData["CategoryTextOverride"])
             newObj.ContextTags.append("category_{}".format(catName.lower()))
@@ -587,6 +607,8 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, spritesheet):
             saplingObj.Price = data["SaplingPurchasePrice"]
         saplingObj.Texture = "Mods/{}/Objects/FruitTrees".format(modId)
         saplingObj.SpriteIndex = i
+        saplingObj.ContextTags.append("raffadax_sapling_object")
+        saplingObj.ContextTags.append("raffadax_object")
         spritename = jf.rsplit("/", 1)[0] + "/sapling.png"
         if "SaplingNameLocalization" in data:
             for langKey, langStr in data["NameLocalization"]:
@@ -746,9 +768,9 @@ def writeLanguageData(i18n, dstDir, npcLang):
                 "Puck.DisplayName": "\n\t//NPCS - PUCK\n",
                 "Shuck.DisplayName": "\n\t//NPCS - SHUCK\n",
                 "Xolotl.DisplayName": "\n\t//NPCS - XOLOTL\n",
-                "Amanra.ShopDialogue": "\n\t//shops.json - Shops",
-                "AdoboSeasoning.RecipeName": "\n\t//artisan.json - Cooking Recipes",
-                "BlanchingPowder.RecipeName": "\n\t//artisan.json - Crafting Recipes"
+                "Amanra.ShopDialogue": "\n\t//shops.json - Shops\n",
+                "AdoboSeasoning.RecipeName": "\n\t//artisan.json - Cooking Recipes\n",
+                "BlanchingPowder.RecipeName": "\n\t//artisan.json - Crafting Recipes\n"
                 }
     if not os.path.exists("{}i18n".format(dstDir)):
         os.mkdir("{}i18n".format(dstDir))

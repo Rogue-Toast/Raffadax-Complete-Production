@@ -60,6 +60,12 @@ SHOPTONPC = {"Djinn": "Amanra",
 vanillaObjects = pyjson5.load(open("vanillaObjects.json", encoding="utf-8"))
 RAFFNPCS = ["Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl",
             "Valkyrie"]
+GUSUNDERPRICED = ["Raffadax.RCP_Waldmeister", "Raffadax.RCP_AmberAle", "Raffadax.RCP_AppleSoda", "Raffadax.RCP_ArnoldPalmer", "Raffadax.RCP_BlueRaspberryLemonade", "Raffadax.RCP_BobaTea", "Raffadax.RCP_BongsutangTea", "Raffadax.RCP_Braggot", "Raffadax.RCP_ButterscotchBeer", "Raffadax.RCP_CafeCaramel", "Raffadax.RCP_Cauim", "Raffadax.RCP_CelticBreakfastTea", "Raffadax.RCP_ChaiTea", "Raffadax.RCP_ChandanTea", "Raffadax.RCP_CherryBlossomBeer", "Raffadax.RCP_CherryCola", "Raffadax.RCP_Chicha",
+                  "Raffadax.RCP_Cider", "Raffadax.RCP_CranberryGingerAle", "Raffadax.RCP_CreamSoda", "Raffadax.RCP_DarkChocolateMocha", "Raffadax.RCP_DarkCocoa", "Raffadax.RCP_DarkRoastCoffee", "Raffadax.RCP_Dr.Pimento", "Raffadax.RCP_EarlGreyTea", "Raffadax.RCP_ElderflowerSoda", "Raffadax.RCP_ElderflowerTea", "Raffadax.RCP_FruitPunch", "Raffadax.RCP_GenmaichaTea", "Raffadax.RCP_GingerBeer", "Raffadax.RCP_GinkgoTea", "Raffadax.RCP_GrapeCrash", "Raffadax.RCP_GreenTeaLemonade",
+                  "Raffadax.RCP_Gruit", "Raffadax.RCP_GyokuroTea", "Raffadax.RCP_HardIceTea", "Raffadax.RCP_HardLemonade", "Raffadax.RCP_HardPinkLemonade", "Raffadax.RCP_HibiscusTea", "Raffadax.RCP_HojichaTea", "Raffadax.RCP_HotButterscotch", "Raffadax.RCP_HotCocoa", "Raffadax.RCP_IceTea", "Raffadax.RCP_IPA", "Raffadax.RCP_Lager", "Raffadax.RCP_Lambic", "Raffadax.RCP_LemonUp", "Raffadax.RCP_Lemonade", "Raffadax.RCP_LightRoastCoffee", "Raffadax.RCP_Limeade", "Raffadax.RCP_LondonFog",
+                  "Raffadax.RCP_LycheeSoda", "Raffadax.RCP_MatchaTea", "Raffadax.RCP_MediumRoastCoffee", "Raffadax.RCP_MelonSoda", "Raffadax.RCP_MintCocoa", "Raffadax.RCP_MintMocha", "Raffadax.RCP_Mocha", "Raffadax.RCP_MountainBlue", "Raffadax.RCP_Orangeade", "Raffadax.RCP_PearSoda", "Raffadax.RCP_PineappleCrash", "Raffadax.RCP_PinkLemonade", "Raffadax.RCP_Pixie", "Raffadax.RCP_PuerhTea", "Raffadax.RCP_PumpkinAle", "Raffadax.RCP_PumpkinSpiceCoffee", "Raffadax.RCP_RedAle",
+                  "Raffadax.RCP_RoseTea", "Raffadax.RCP_RowanberrySour", "Raffadax.RCP_Sake", "Raffadax.RCP_SakuraSoda", "Raffadax.RCP_Sakurayu", "Raffadax.RCP_Schwarzbier", "Raffadax.RCP_SenchaGreenTea", "Raffadax.RCP_Shandy", "Raffadax.RCP_SparklingCider", "Raffadax.RCP_Spurt", "Raffadax.RCP_Stout", "Raffadax.RCP_StrawberryLemonade", "Raffadax.RCP_TamarindSoda", "Raffadax.RCP_VanillaCafe", "Raffadax.RCP_WhiteChocolateMocha", "Raffadax.RCP_WhiteCocoa", "Raffadax.RCP_WolfCola",
+                  "Raffadax.RCP_WoodruffSoda", "Raffadax.RCP_YellowTea"]
 
 
 def buildShops(fileIn: str, fileOut: str):
@@ -88,7 +94,7 @@ def buildShops(fileIn: str, fileOut: str):
                     thisID = "{}{}".format(prefix, translateName(inm))
                     inv.RandomItemId.append(thisID)
                 if "StockPrice" in ist:
-                    inv.Price = ist["StockPrice"]
+                    inv.Price = int(ist["StockPrice"])
                 if "Stock" in ist:
                     inv.AvailableStock = ist["Stock"]
                 if "IsRecipe" in ist and ist["IsRecipe"]:
@@ -108,14 +114,14 @@ def buildShops(fileIn: str, fileOut: str):
                         outConds.append(outStr)
                     inv.Condition = ", ".join(outConds)
                 if "StockItemCurrency" in ist:
-                    inv.TradeItemId = "(O)Raffadax.RCP_{}".format(translateName(ist["StockItemCurrency"]))
+                    inv.TradeItemId = "(O){}".format(translateName(ist["StockItemCurrency"]))
                     inv.TradeItemAmount = ist["StockCurrencyStack"]
                 newShop.Items.append(inv.to_dict())
             else:
                 for inm in ist["ItemNames"]:
                     inv.ItemId = "{}{}".format(prefix, translateName(inm))
                     if "StockPrice" in ist:
-                        inv.Price = ist["StockPrice"]
+                        inv.Price = int(ist["StockPrice"])
                     if "Stock" in ist:
                         inv.AvailableStock = ist["Stock"]
                     if "IsRecipe" in ist and ist["IsRecipe"]:
@@ -162,6 +168,11 @@ def buildShops(fileIn: str, fileOut: str):
     # uncomment below to include the new shops
     newShops["Changes"].append(nsChangeNode)
     # vanilla shops
+    """
+    Price Multipliers
+    JOja: 1.25 if player is not member
+    SeedShop 2.0
+    """
     for vshop in srcData["VanillaShops"]:
         newShopName = SHOPTONPC[vshop["ShopName"]]
         changeNode = {"LogName": "Raffadax Vanilla Shop Edit - {}".format(newShopName),
@@ -180,11 +191,19 @@ def buildShops(fileIn: str, fileOut: str):
                     thisID = "{}{}".format(prefix, translateName(inm))
                     inv.RandomItemId.append(thisID)
                 if "StockPrice" in ist:
-                    inv.Price = ist["StockPrice"]
-                else:
+                    if newShopName == "SeedShop":
+                        inv.Price = int(ist["StockPrice"] / 2)
+                    elif newShopName == "Joja":
+                        inv.Price = int(ist["StockPrice"] / 1.25)
+                    else:
+                        inv.Price = int(ist["StockPrice"])
+                elif newShopName == "Joja":
                     inv.IgnoreShopPriceModifiers = True
+                    inv.UseObjectDataPrice = True
                 if "Stock" in ist:
                     inv.AvailableStock = ist["Stock"]
+                if newShopName == "Saloon":
+                    inv.AvailableStock = 1
                 if "IsRecipe" in ist and ist["IsRecipe"]:
                     inv.IsRecipe = True
                 inv.AvoidRepeat = True
@@ -205,16 +224,23 @@ def buildShops(fileIn: str, fileOut: str):
                         outConds.append(outStr)
                     inv.Condition = ", ".join(outConds)
                 if "StockItemCurrency" in ist:
-                    inv.TradeItemId = "(O)Raffadax.RCP_{}".format(translateName(ist["StockItemCurrency"]))
+                    inv.TradeItemId = "(O){}".format(translateName(ist["StockItemCurrency"]))
                     inv.TradeItemAmount = ist["StockCurrencyStack"]
                 changeNode["Entries"]["Raffadax.RCP_RandomNode_{}".format(i)] = inv.to_dict()
+                i += 1
             else:
                 for inm in ist["ItemNames"]:
                     inv.ItemId = "{}{}".format(prefix, translateName(inm))
                     if "StockPrice" in ist:
-                        inv.Price = ist["StockPrice"]
-                    else:
+                        if newShopName == "SeedShop":
+                            inv.Price = int(ist["StockPrice"] / 2)
+                        elif newShopName == "Joja":
+                            inv.Price = int(ist["StockPrice"] / 1.25)
+                        else:
+                            inv.Price = int(ist["StockPrice"])
+                    elif newShopName == "Joja":
                         inv.IgnoreShopPriceModifiers = True
+                        inv.UseObjectDataPrice = True
                     if "Stock" in ist:
                         inv.AvailableStock = ist["Stock"]
                     if "IsRecipe" in ist and ist["IsRecipe"]:

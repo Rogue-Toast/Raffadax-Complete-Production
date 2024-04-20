@@ -12294,7 +12294,8 @@
     "WerewolfScarecrow.DisplayName": "Werewolf Scarecrow",
     "WerewolfScarecrow.Description": "A scarecrow fashioned to look like a werewolf. It will repel crows, but it may attract werewolves...",
 
-	//artisan.json - Cooking Recipes    "AdoboSeasoning.RecipeName": "Adobo Seasoning",
+	//artisan.json - Cooking Recipes
+    "AdoboSeasoning.RecipeName": "Adobo Seasoning",
     "Advieh.RecipeName": "Advieh",
     "BaharatSeasoning.RecipeName": "Baharat Seasoning",
     "BerbereSeasoning.RecipeName": "Berbéré Seasoning",
@@ -12332,7 +12333,8 @@
     "ZaatarSeasoning.RecipeName": "Za'atar Seasoning",
     "Zhug.RecipeName": "Zhug",
 
-	//artisan.json - Crafting Recipes    "BlanchingPowder.RecipeName": "Blanching Powder",
+	//artisan.json - Crafting Recipes
+    "BlanchingPowder.RecipeName": "Blanching Powder",
     "ClimateControlPouch.RecipeName": "Climate Control Pouch",
     "CryonicPouch.RecipeName": "Cryonic Pouch",
     "MillingPouch.RecipeName": "Milling Pouch",
@@ -12888,7 +12890,8 @@
     "StringsFromMaps.Necronomicon": "     ~  Necronomicon  ~^^For the production of divine libations, add components in the item listed into a magic cauldron and brew for seven days and seven nights.#     ~ Cerberus Wine ~^^- Corpse Wine^- Dormarch Wine^- Mead of Garmr^- Wine of Sirius#     ~ Mead of Fenrir ~^^- Mead of Ragnarök^- Waters of Gjöll^- Berserk Powder^- Werewolf Claw#     ~ Mead of Garmr ~^^- Wolfberry Port Wine^- Nectar of Strife^- Miasma^- Hellhound Fang#     ~ Mead of Hel ~^^- Draugar Mead^- Corpse Flower Nectar^- Water of Hvergelmir^- Puanteur de la Mort#     ~ Mead of Jörmungandr ~^^- Moonray Wine^- Venom of Jörmungandr^- Infernal Nectar^- Leviathan Scale#     ~ Mead of Loki ~^^- Mead of Helheim^- Mead of Fenrir^- Mead of Hel^- Mead of Jörmungandr#     ~ Wine of Ares ~^^- Wine of Tartarus^- Ancient Sword^- Dragon Tooth x5^- Berserker Mushroom x5#     ~ Wine of Eris ~^^- Wine of Dysnomia^- Fabric of Chaos^- Hostile Spirit^- Apple of Discord#     ~ Wine of Hekate ~^^- Homunculus Wine^- Mandrake Tears^- Nightshade Liqueur^- Void Mushroom x5#     ~ Wine of Persephone ~^^- Asphodel Wine^- Mandrake Nectar^- Infernal Negus^- Proserpina's Song#     ~ Wine of Pluton ~^^- Nightshade Wine^- Waters of Acheron^- Water of Cocytus^- Water of Lethe^- Water of Phlegethon^- Water of Styx",
     "StringsFromMaps.CodexGigas": "     ~  Codex Gigas  ~^^Arcane dusts can be made by grinding the flowers and fruit of divine plants and trees into a fine powder.^^Mythic waters can be made from arcane dusts via distillation.^^Arcane essences can be made by extracting the fragrances of certain mythic fruits and flowers.#     ~ Arcane Dusts ~^^Abyssal Sand: Fruit of the Netherworld^Arctic Dust: Polar Berry^Auric Powder: Hesperidium^Aurora Powder: Bifrost^Azoth: Cintamani Flower^Harmonic Powder: Apple of Idunn^Inferno Powder: Dragon Berry^Lunar Dust: Moonberry^Noxious Powder: Zaminkand^Powder of Argent: Vakkhic Grape^Sand of Chaos: Apple of Discord^Solar Dust: Sunberry^Voodoo Dust: Yateveo#     ~ Lesser Arcane Dusts ~^Blue Star Powder: Winter Starberry^Red Star Powder: Summer Starberry^^Lucky Clover: Luck Powder^Unlucky Clover: Bad Luck Powder^^Fern Flower: Fern Flower Dust^Deep Jungle Moss: Ground Jungle Moss^Mandrake: Mandrake Powder^Rose of Avalon: Forest Rose Powder^^Shards of Bifrost: Bifrost^   - Shards also produce Aurora Powder#     ~ Combined Dusts ~^^Catholicon: Mix Azoth with Aurora Powder^^Star Dust: Mix Blue and Red Star Powders^^Sylvan Powder: Mix Fern Flower Dust with Forest Rose and Mandrake Powders^^Tempest Powder: Mix Arctic Dust with Inferno Powder  #     ~ Mythic Waters ~^^Alkahest: Azoth^Maelstrom Water: Tempest Powder^Rains of Bunzi: Shards of Bifrost^Rains of Yingarna: Aurora Dust^Venom of Jörmungandr: Noxious Powder^Waters of Acheron: Powder of Argent^Water of Cocytus: Arctic Dust^Waters of Gjöll: Sand of Chaos^Water of Hubur: Catholicon^Water of Hvergelmir: Star Dust^Water of Lethe: Lunar Dust^Water of Mímir: Solar Dust^Water of Nimuë: Sylvan Powder^Water of Phlegethon: Inferno Powder^Water of Sanzu: Mandrake Powder^Water of Styx: Abyssal Sand^Waters of Uhlanga: Auric Powder^Water of Urdarbrunnr: Harmonic Powder^Water of Vaitarna: Voodoo Dust#     ~ Mythic Essences ~^^Aether: Apple of Idunn^Dragon's Breath: Dragon Berry^Miasma: Apple of Discord^Mnemosyne: Yateveo^Pneuma: Cintamani Flower^^Brunhilde's Melody: Bifrost^Dierdre's Rose: Rose of Avalon^Proserpina's Song: Fruit of the Netherworld^Volpecula's Glamour: Fern Flower",
 
-	//shops.json - Shops    "Amanra.ShopDialogue": "The vast desert hides many strange things. If you are interested in any, I will accept human currency as payment.",
+	//shops.json - Shops
+    "Amanra.ShopDialogue": "The vast desert hides many strange things. If you are interested in any, I will accept human currency as payment.",
     "Amanra.ShopClosed": "The meaning of these symbols elude you. Amanra's eyes shine golden in the moonlight...Perhaps you should return in the morning.",
     "Astrid.ShopDialogue": "The sea connects all lands. I have many rare items, if you are interested...",
     "Astrid.ShopClosed": "It's too dark to read. Astrid seems distracted anyway.",
@@ -12903,5 +12906,11 @@
     "Xolotl.ShopDialogue": "The jungle is a living maze which hides many great wonders. If you are interested in any, I could sell them to you.",
     "Xolotl.ShopClosed": "The symbols on this tablet seem to move around with the shifting shadows, you cannot decipher them. Xolotl is staring at you in an unsettling manner...Perhaps you should come back in the morning.",
     "AnyOrNone.ShopDialogue": "Refreshing Soda!",
-    "AnyOrNone.ShopClosed": "It seems to be turned off."
+    "AnyOrNone.ShopClosed": "It seems to be turned off.",
+    "Valkyrie.ShopDialogue": "Human who has befriended nature...If you offer the gods a Divine Libation, they will bless you with a Sacred Implement of Power.",
+    "Valkyrie.ShopClosed": "It is too dark to read the inscription.",
+    "Humidor.ShopDialogue": "ADULT USE ONLY!   Government Warning: These products are known to cause cancer.",
+    "Humidor.ShopClosed": "It seems to be turned off.",
+    "SodaMachine.ShopDialogue": "Refreshing Soda!",
+    "SodaMachine.ShopClosed": "It seems to be turned off."
 }
