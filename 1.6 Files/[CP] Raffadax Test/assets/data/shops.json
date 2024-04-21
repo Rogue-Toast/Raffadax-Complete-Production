@@ -282,7 +282,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
                         },
                         {
                             "RandomItemId": [
@@ -398,7 +398,7 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Amanra",
+                            "Name": "{{Amanra}}",
                             "Portrait": "assets/textures/Portraits/Amanra.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "{{i18n:Amanra.ShopClosed}}",
@@ -696,7 +696,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
                         },
                         {
                             "RandomItemId": [
@@ -811,7 +811,7 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Astrid",
+                            "Name": "{{Astrid}}",
                             "Portrait": "assets/textures/Portraits/Astrid.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "{{i18n:Astrid.ShopClosed}}",
@@ -1103,7 +1103,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
                         },
                         {
                             "RandomItemId": [
@@ -1216,7 +1216,7 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Coyote",
+                            "Name": "{{Coyote}}",
                             "Portrait": "assets/textures/Portraits/Coyote.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "{{i18n:Coyote.ShopClosed}}",
@@ -1359,60 +1359,60 @@
                             "TradeItemAmount": 15
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Tapper",
+                            "ItemId": "(BC)105",
                             "TradeItemId": "(O)168",
                             "TradeItemAmount": 10
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_GardenPot",
+                            "ItemId": "(BC)62",
                             "TradeItemId": "(O)170",
                             "TradeItemAmount": 10
                         },
                         {
-                            "ItemId": "(BC)710",
+                            "ItemId": "(O)710",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
                             "TradeItemAmount": 10
                         },
                         {
-                            "ItemId": "(BC)599",
+                            "ItemId": "(O)599",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
                             "TradeItemAmount": 10
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_WormBin",
+                            "ItemId": "(BC)154",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
                             "TradeItemAmount": 10
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_RecyclingMachine",
+                            "ItemId": "(BC)20",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
                             "TradeItemAmount": 10
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_CharcoalKiln",
+                            "ItemId": "(BC)114",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
                             "TradeItemAmount": 10
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Loom",
+                            "ItemId": "(BC)17",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)168",
                             "TradeItemAmount": 15
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Keg",
+                            "ItemId": "(BC)12",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)170",
                             "TradeItemAmount": 15
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_PreservesJar",
+                            "ItemId": "(BC)15",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
                             "TradeItemAmount": 15
                         },
                         {
-                            "ItemId": "(BC)621",
+                            "ItemId": "(O)621",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
                             "TradeItemAmount": 15
@@ -1436,25 +1436,25 @@
                             "TradeItemAmount": 15
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_MayonnaiseMachine",
+                            "ItemId": "(BC)24",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)168",
                             "TradeItemAmount": 20
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_BeeHouse",
+                            "ItemId": "(BC)10",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)170",
                             "TradeItemAmount": 20
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_SeedMaker",
+                            "ItemId": "(BC)25",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
                             "TradeItemAmount": 20
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_LightningRod",
+                            "ItemId": "(BC)9",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
                             "TradeItemAmount": 20
@@ -1478,25 +1478,25 @@
                             "TradeItemAmount": 20
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_CheesePress",
+                            "ItemId": "(BC)16",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)168",
                             "TradeItemAmount": 25
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Furnace",
+                            "ItemId": "(BC)13",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)170",
                             "TradeItemAmount": 25
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Cask",
+                            "ItemId": "(BC)163",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
                             "TradeItemAmount": 25
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_BoneMill",
+                            "ItemId": "(BC)90",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
                             "TradeItemAmount": 25
@@ -1520,25 +1520,25 @@
                             "TradeItemAmount": 25
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_OilMaker",
+                            "ItemId": "(BC)19",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)168",
                             "TradeItemAmount": 30
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_SolarPanel",
+                            "ItemId": "(BC)231",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)170",
                             "TradeItemAmount": 30
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_GeodeCrusher",
+                            "ItemId": "(BC)182",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
                             "TradeItemAmount": 30
                         },
                         {
-                            "ItemId": "(BC)645",
+                            "ItemId": "(O)645",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
                             "TradeItemAmount": 30
@@ -1562,25 +1562,25 @@
                             "TradeItemAmount": 30
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_MiniJukebox",
+                            "ItemId": "(BC)209",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)168",
                             "TradeItemAmount": 35
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Crystalarium",
+                            "ItemId": "(BC)21",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)170",
                             "TradeItemAmount": 35
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Hopper",
+                            "ItemId": "(BC)275",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
                             "TradeItemAmount": 35
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_HeavyTapper",
+                            "ItemId": "(BC)264",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
                             "TradeItemAmount": 35
@@ -1671,7 +1671,7 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Mephisto",
+                            "Name": "{{Mephisto}}",
                             "Portrait": "assets/textures/Portraits/Mephisto.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "{{i18n:Mephisto.ShopClosed}}",
@@ -1974,7 +1974,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2085,7 +2085,7 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Puck",
+                            "Name": "{{Puck}}",
                             "Portrait": "assets/textures/Portraits/Puck.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "{{i18n:Puck.ShopClosed}}",
@@ -2388,7 +2388,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2496,7 +2496,7 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Shuck",
+                            "Name": "{{Shuck}}",
                             "Portrait": "assets/textures/Portraits/Shuck.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "{{i18n:Shuck.ShopClosed}}",
@@ -2789,7 +2789,7 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "Price": 50000
                         },
                         {
@@ -2896,7 +2896,7 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Xolotl",
+                            "Name": "{{Xolotl}}",
                             "Portrait": "assets/textures/Portraits/Xolotl.png",
                             "Condition": "TIME 600 2600",
                             "ClosedMessage": "{{i18n:Xolotl.ShopClosed}}",

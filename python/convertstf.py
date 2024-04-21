@@ -58,6 +58,7 @@ SHOPTONPC = {"Djinn": "Amanra",
              "WillyShop": "FishShop",
              }
 vanillaObjects = pyjson5.load(open("vanillaObjects.json", encoding="utf-8"))
+vanillaBC = pyjson5.load(open("vanillaBigCraftables.json", encoding="utf-8"))
 RAFFNPCS = ["Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl",
             "Valkyrie"]
 GUSUNDERPRICED = ["Raffadax.RCP_Waldmeister", "Raffadax.RCP_AmberAle", "Raffadax.RCP_AppleSoda", "Raffadax.RCP_ArnoldPalmer", "Raffadax.RCP_BlueRaspberryLemonade", "Raffadax.RCP_BobaTea", "Raffadax.RCP_BongsutangTea", "Raffadax.RCP_Braggot", "Raffadax.RCP_ButterscotchBeer", "Raffadax.RCP_CafeCaramel", "Raffadax.RCP_Cauim", "Raffadax.RCP_CelticBreakfastTea", "Raffadax.RCP_ChaiTea", "Raffadax.RCP_ChandanTea", "Raffadax.RCP_CherryBlossomBeer", "Raffadax.RCP_CherryCola", "Raffadax.RCP_Chicha",
@@ -91,7 +92,10 @@ def buildShops(fileIn: str, fileOut: str):
             if ist["MaxNumItemsSoldInItemStock"] < len(ist["ItemNames"]):
                 # random
                 for inm in ist["ItemNames"]:
-                    thisID = "{}{}".format(prefix, translateName(inm))
+                    if inm in ["Crab Pot", "Sprinkler", "Quality Sprinkler", "Iridium Sprinkler"]:
+                        thisID = "(O){}".format(translateName(inm))
+                    else:
+                        thisID = "{}{}".format(prefix, translateName(inm))
                     inv.RandomItemId.append(thisID)
                 if "StockPrice" in ist:
                     inv.Price = int(ist["StockPrice"])
@@ -119,7 +123,10 @@ def buildShops(fileIn: str, fileOut: str):
                 newShop.Items.append(inv.to_dict())
             else:
                 for inm in ist["ItemNames"]:
-                    inv.ItemId = "{}{}".format(prefix, translateName(inm))
+                    if inm in ["Crab Pot", "Sprinkler", "Quality Sprinkler", "Iridium Sprinkler"]:
+                        inv.ItemId = "(O){}".format(translateName(inm))
+                    else:
+                        inv.ItemId = "{}{}".format(prefix, translateName(inm))
                     if "StockPrice" in ist:
                         inv.Price = int(ist["StockPrice"])
                     if "Stock" in ist:
@@ -147,7 +154,7 @@ def buildShops(fileIn: str, fileOut: str):
         timeParts = oldshop["When"][0].split(" ")
         ownerName = SHOPTONPC[oldshop["ShopName"]]
         portrait = "assets/textures/Portraits/{}.png".format(newShopName)
-        ownerDict = {"Name": ownerName,
+        ownerDict = {"Name": "{{{{{}}}}}".format(ownerName) if ownerName != "AnyOrNone" else ownerName,
                      "Portrait": portrait,
                      "Condition": "TIME {} {}".format(timeParts[1], timeParts[2]),
                      "ClosedMessage": "{{{{i18n:{}.ShopClosed}}}}".format(newShopName),
@@ -272,6 +279,8 @@ def buildShops(fileIn: str, fileOut: str):
 def translateName(instr: str):
     if instr in vanillaObjects:
         return vanillaObjects[instr]
+    elif instr in vanillaBC:
+        return vanillaBC[instr]
     elif isinstance(instr, int) or instr.isnumeric() or instr[1:].isnumeric():
         return instr
     else:

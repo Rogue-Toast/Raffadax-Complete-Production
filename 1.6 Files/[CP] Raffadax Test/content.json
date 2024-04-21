@@ -113,6 +113,14 @@
             "Action": "Include",
             "FromFile": "assets/data/Shops.json"
         },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Mail.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/TriggerActions.json"
+        },
         // NPCS
         {
             "Action": "Include",
