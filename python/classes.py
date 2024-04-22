@@ -269,6 +269,7 @@ class Inventory():
     AvailableStockModifiers: Optional[list] = field(default_factory=lambda: [])
     OptionalPriceModifiers: Optional[list] = field(default_factory=lambda: [])
     AvailableStockModifierMode: Optional[str] = ""
+    PriceModifiers: Optional[list] = field(default_factory=lambda: [])
     PriceModifierMode: Optional[str] = ""
     AvoidRepeat: Optional[bool] = False
     UseObjectDataPrice: Optional[bool] = False
