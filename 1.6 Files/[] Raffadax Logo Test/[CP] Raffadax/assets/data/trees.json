@@ -26,7 +26,11 @@
                     "Price": 225,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 0,
-                    "Edibility": 100
+                    "Edibility": 100,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Agave": {
                     "Name": "{{ModId}}_Agave",
@@ -37,7 +41,11 @@
                     "Price": 250,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 1,
-                    "Edibility": 10
+                    "Edibility": 10,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Almond": {
                     "Name": "{{ModId}}_Almond",
@@ -50,6 +58,8 @@
                     "SpriteIndex": 2,
                     "Edibility": 25,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -73,6 +83,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_herb"
                     ]
                 },
@@ -87,6 +99,8 @@
                     "SpriteIndex": 4,
                     "Edibility": 15,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_spice"
                     ]
                 },
@@ -114,6 +128,9 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
+                        "raffadax_crafted_object",
                         "category_divinefruit"
                     ]
                 },
@@ -142,6 +159,9 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
+                        "raffadax_crafted_object",
                         "category_divinefruit"
                     ]
                 },
@@ -156,6 +176,8 @@
                     "SpriteIndex": 7,
                     "Edibility": 30,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_fruit"
                     ]
                 },
@@ -178,6 +200,10 @@
                                 "Defense": 7
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Baobab": {
@@ -200,6 +226,10 @@
                                 "MaxStamina": 3
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_BayLeaf": {
@@ -213,6 +243,8 @@
                     "SpriteIndex": 10,
                     "Edibility": 20,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_herb"
                     ]
                 },
@@ -240,6 +272,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_enchantedfruit"
                     ]
                 },
@@ -263,6 +297,10 @@
                                 "Speed": 3
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Bifrost": {
@@ -290,6 +328,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_divineflower"
                     ]
                 },
@@ -314,6 +354,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_medicinalherb"
                     ]
                 },
@@ -328,6 +370,8 @@
                     "SpriteIndex": 15,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_resource"
                     ]
                 },
@@ -342,6 +386,8 @@
                     "SpriteIndex": 16,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_enchantedpod"
                     ]
                 },
@@ -354,7 +400,11 @@
                     "Price": 125,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 17,
-                    "Edibility": 35
+                    "Edibility": 35,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_BlackCurrants": {
                     "Name": "{{ModId}}_BlackCurrants",
@@ -365,7 +415,11 @@
                     "Price": 45,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 18,
-                    "Edibility": 25
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_BlackOlive": {
                     "Name": "{{ModId}}_BlackOlive",
@@ -378,7 +432,9 @@
                     "SpriteIndex": 19,
                     "Edibility": 25,
                     "ContextTags": [
-                        "olive_object"
+                        "olive_object",
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_BlackWalnut": {
@@ -392,6 +448,8 @@
                     "SpriteIndex": 20,
                     "Edibility": 25,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -404,7 +462,11 @@
                     "Price": 300,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 21,
-                    "Edibility": 75
+                    "Edibility": 75,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_BlueRaspberry": {
                     "Name": "{{ModId}}_BlueRaspberry",
@@ -427,6 +489,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_enchantedfruit"
                     ]
                 },
@@ -441,6 +505,8 @@
                     "SpriteIndex": 23,
                     "Edibility": 50,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -465,6 +531,10 @@
                                 "MaxStamina": 3
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_CacaoPod": {
@@ -478,6 +548,8 @@
                     "SpriteIndex": 25,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_pod"
                     ]
                 },
@@ -501,6 +573,10 @@
                                 "MaxStamina": 3
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Cashew": {
@@ -514,6 +590,8 @@
                     "SpriteIndex": 27,
                     "Edibility": 25,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -526,7 +604,11 @@
                     "Price": 100,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 28,
-                    "Edibility": 30
+                    "Edibility": 30,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Chestnut": {
                     "Name": "{{ModId}}_Chestnut",
@@ -539,6 +621,8 @@
                     "SpriteIndex": 29,
                     "Edibility": 25,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -563,6 +647,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_medicinalherb"
                     ]
                 },
@@ -577,6 +663,8 @@
                     "SpriteIndex": 31,
                     "Edibility": 10,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_spice"
                     ]
                 },
@@ -605,6 +693,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_divineflower"
                     ]
                 },
@@ -617,7 +707,11 @@
                     "Price": 50,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 33,
-                    "Edibility": -35
+                    "Edibility": -35,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Clove": {
                     "Name": "{{ModId}}_Clove",
@@ -630,6 +724,8 @@
                     "SpriteIndex": 34,
                     "Edibility": 5,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_spice"
                     ]
                 },
@@ -655,6 +751,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -667,7 +765,11 @@
                     "Price": 50,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 36,
-                    "Edibility": 15
+                    "Edibility": 15,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_CurryLeaf": {
                     "Name": "{{ModId}}_CurryLeaf",
@@ -680,6 +782,8 @@
                     "SpriteIndex": 37,
                     "Edibility": 20,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_herb"
                     ]
                 },
@@ -692,7 +796,11 @@
                     "Price": 75,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 38,
-                    "Edibility": 40
+                    "Edibility": 40,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_DeadMansFingers": {
                     "Name": "{{ModId}}_DeadMansFingers",
@@ -714,6 +822,10 @@
                                 "Speed": 3
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_DeepJungleMoss": {
@@ -742,6 +854,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryherb"
                     ]
                 },
@@ -764,6 +878,10 @@
                                 "MaxStamina": 1
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_DragonBerry": {
@@ -790,6 +908,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryfruit"
                     ]
                 },
@@ -802,7 +922,11 @@
                     "Price": 150,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 43,
-                    "Edibility": 70
+                    "Edibility": 70,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Durian": {
                     "Name": "{{ModId}}_Durian",
@@ -813,7 +937,11 @@
                     "Price": 400,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 44,
-                    "Edibility": 40
+                    "Edibility": 40,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_EbonyWood": {
                     "Name": "{{ModId}}_EbonyWood",
@@ -826,6 +954,8 @@
                     "SpriteIndex": 45,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_resource"
                     ]
                 },
@@ -848,6 +978,10 @@
                                 "MaxStamina": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Elderflower": {
@@ -872,6 +1006,10 @@
                                 "MiningLevel": 1
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Fig": {
@@ -883,7 +1021,11 @@
                     "Price": 130,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 48,
-                    "Edibility": 60
+                    "Edibility": 60,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Forsythia": {
                     "Name": "{{ModId}}_Forsythia",
@@ -894,7 +1036,11 @@
                     "Price": 50,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 49,
-                    "Edibility": 10
+                    "Edibility": 10,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Foxberry": {
                     "Name": "{{ModId}}_Foxberry",
@@ -920,6 +1066,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_enchantedfruit"
                     ]
                 },
@@ -948,6 +1096,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_divinefruit"
                     ]
                 },
@@ -972,6 +1122,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_medicinalherb"
                     ]
                 },
@@ -984,7 +1136,11 @@
                     "Price": 100,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 53,
-                    "Edibility": 35
+                    "Edibility": 35,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Grapefruit": {
                     "Name": "{{ModId}}_Grapefruit",
@@ -995,7 +1151,11 @@
                     "Price": 175,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 54,
-                    "Edibility": 25
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_GrosMichel": {
                     "Name": "{{ModId}}_GrosMichel",
@@ -1006,7 +1166,11 @@
                     "Price": 250,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 55,
-                    "Edibility": 150
+                    "Edibility": 150,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Guarana": {
                     "Name": "{{ModId}}_Guarana",
@@ -1028,6 +1192,10 @@
                                 "Speed": 1
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Guava": {
@@ -1039,7 +1207,11 @@
                     "Price": 100,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 57,
-                    "Edibility": 40
+                    "Edibility": 40,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_HawthornBerry": {
                     "Name": "{{ModId}}_HawthornBerry",
@@ -1060,6 +1232,10 @@
                                 "Defense": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_HeartsofPalm": {
@@ -1071,7 +1247,11 @@
                     "Price": 300,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 59,
-                    "Edibility": 35
+                    "Edibility": 35,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Heliconia": {
                     "Name": "{{ModId}}_Heliconia",
@@ -1082,7 +1262,11 @@
                     "Price": 500,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 60,
-                    "Edibility": -20
+                    "Edibility": -20,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Hesperidium": {
                     "Name": "{{ModId}}_Hesperidium",
@@ -1108,6 +1292,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_divinefruit"
                     ]
                 },
@@ -1130,6 +1316,10 @@
                                 "FishingLevel": 3
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Honeyberry": {
@@ -1151,6 +1341,10 @@
                                 "FarmingLevel": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_HoneycrispApple": {
@@ -1162,7 +1356,11 @@
                     "Price": 175,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 64,
-                    "Edibility": 35
+                    "Edibility": 35,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Honeysuckle": {
                     "Name": "{{ModId}}_Honeysuckle",
@@ -1173,7 +1371,11 @@
                     "Price": 20,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 65,
-                    "Edibility": 25
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_HuaMoa": {
                     "Name": "{{ModId}}_HuaMoa",
@@ -1184,7 +1386,11 @@
                     "Price": 400,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 66,
-                    "Edibility": 150
+                    "Edibility": 150,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Huckleberry": {
                     "Name": "{{ModId}}_Huckleberry",
@@ -1205,6 +1411,10 @@
                                 "MiningLevel": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Jabuticaba": {
@@ -1216,7 +1426,11 @@
                     "Price": 300,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 68,
-                    "Edibility": 50
+                    "Edibility": 50,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Jacaranda": {
                     "Name": "{{ModId}}_Jacaranda",
@@ -1240,6 +1454,10 @@
                                 "MiningLevel": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Juniper": {
@@ -1261,6 +1479,10 @@
                                 "MaxStamina": 3
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_KeyLime": {
@@ -1272,7 +1494,11 @@
                     "Price": 150,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 71,
-                    "Edibility": 25
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Kiwi": {
                     "Name": "{{ModId}}_Kiwi",
@@ -1283,7 +1509,11 @@
                     "Price": 75,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 72,
-                    "Edibility": 30
+                    "Edibility": 30,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_KolaNut": {
                     "Name": "{{ModId}}_KolaNut",
@@ -1305,6 +1535,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -1317,7 +1549,11 @@
                     "Price": 50,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 74,
-                    "Edibility": 20
+                    "Edibility": 20,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_LarahaOrange": {
                     "Name": "{{ModId}}_LarahaOrange",
@@ -1328,7 +1564,11 @@
                     "Price": 175,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 75,
-                    "Edibility": 5
+                    "Edibility": 5,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Lavender": {
                     "Name": "{{ModId}}_Lavender",
@@ -1349,6 +1589,10 @@
                                 "ForagingLevel": 3
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Lemon": {
@@ -1360,7 +1604,11 @@
                     "Price": 125,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 77,
-                    "Edibility": 20
+                    "Edibility": 20,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Lilac": {
                     "Name": "{{ModId}}_Lilac",
@@ -1371,7 +1619,11 @@
                     "Price": 75,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 78,
-                    "Edibility": 10
+                    "Edibility": 10,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Lime": {
                     "Name": "{{ModId}}_Lime",
@@ -1382,7 +1634,11 @@
                     "Price": 100,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 79,
-                    "Edibility": 20
+                    "Edibility": 20,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Linden": {
                     "Name": "{{ModId}}_Linden",
@@ -1404,6 +1660,10 @@
                                 "LuckLevel": 1
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Lychee": {
@@ -1415,7 +1675,11 @@
                     "Price": 115,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 81,
-                    "Edibility": 30
+                    "Edibility": 30,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_MacadamiaNut": {
                     "Name": "{{ModId}}_MacadamiaNut",
@@ -1428,6 +1692,8 @@
                     "SpriteIndex": 82,
                     "Edibility": 25,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -1440,7 +1706,11 @@
                     "Price": 100,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 83,
-                    "Edibility": 35
+                    "Edibility": 35,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_MarconaAlmond": {
                     "Name": "{{ModId}}_MarconaAlmond",
@@ -1453,6 +1723,8 @@
                     "SpriteIndex": 84,
                     "Edibility": 30,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -1465,7 +1737,11 @@
                     "Price": 175,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 85,
-                    "Edibility": 25
+                    "Edibility": 25,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_MimosaFlower": {
                     "Name": "{{ModId}}_MimosaFlower",
@@ -1487,6 +1763,10 @@
                                 "Speed": 2
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Mistletoe": {
@@ -1509,6 +1789,10 @@
                                 "Defense": -5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_MonsteraDeliciosa": {
@@ -1520,7 +1804,11 @@
                     "Price": 750,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 88,
-                    "Edibility": 300
+                    "Edibility": 300,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Moonberry": {
                     "Name": "{{ModId}}_Moonberry",
@@ -1547,6 +1835,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryfruit"
                     ]
                 },
@@ -1559,7 +1849,11 @@
                     "Price": 75,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 90,
-                    "Edibility": 15
+                    "Edibility": 15,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Myristica": {
                     "Name": "{{ModId}}_Myristica",
@@ -1580,6 +1874,10 @@
                                 "MagnetRadius": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_NinoBananas": {
@@ -1591,7 +1889,11 @@
                     "Price": 250,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 92,
-                    "Edibility": 75
+                    "Edibility": 75,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Olive": {
                     "Name": "{{ModId}}_Olive",
@@ -1604,7 +1906,9 @@
                     "SpriteIndex": 93,
                     "Edibility": 25,
                     "ContextTags": [
-                        "olive_object"
+                        "olive_object",
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Osmanthus": {
@@ -1629,6 +1933,10 @@
                                 "Speed": 1
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Papaya": {
@@ -1640,7 +1948,11 @@
                     "Price": 100,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 95,
-                    "Edibility": 35
+                    "Edibility": 35,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Pear": {
                     "Name": "{{ModId}}_Pear",
@@ -1651,7 +1963,11 @@
                     "Price": 75,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 96,
-                    "Edibility": 15
+                    "Edibility": 15,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Pecan": {
                     "Name": "{{ModId}}_Pecan",
@@ -1664,6 +1980,8 @@
                     "SpriteIndex": 97,
                     "Edibility": 30,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -1676,7 +1994,11 @@
                     "Price": 175,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 98,
-                    "Edibility": 75
+                    "Edibility": 75,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_PimentoBerry": {
                     "Name": "{{ModId}}_PimentoBerry",
@@ -1687,7 +2009,11 @@
                     "Price": 100,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 99,
-                    "Edibility": 20
+                    "Edibility": 20,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_PineNut": {
                     "Name": "{{ModId}}_PineNut",
@@ -1700,6 +2026,8 @@
                     "SpriteIndex": 100,
                     "Edibility": 40,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -1724,6 +2052,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_enchantedfruit"
                     ]
                 },
@@ -1738,6 +2068,8 @@
                     "SpriteIndex": 102,
                     "Edibility": 25,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -1752,6 +2084,8 @@
                     "SpriteIndex": 103,
                     "Edibility": 50,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_fruit"
                     ]
                 },
@@ -1778,6 +2112,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryfruit"
                     ]
                 },
@@ -1805,6 +2141,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryfruit"
                     ]
                 },
@@ -1817,7 +2155,11 @@
                     "Price": 75,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 106,
-                    "Edibility": 5
+                    "Edibility": 5,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_RainbowEucalyptusLeaf": {
                     "Name": "{{ModId}}_RainbowEucalyptusLeaf",
@@ -1830,6 +2172,8 @@
                     "SpriteIndex": 107,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_medicinalherb"
                     ]
                 },
@@ -1842,7 +2186,11 @@
                     "Price": 275,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 108,
-                    "Edibility": 50
+                    "Edibility": 50,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Raspberry": {
                     "Name": "{{ModId}}_Raspberry",
@@ -1853,7 +2201,11 @@
                     "Price": 100,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 109,
-                    "Edibility": 20
+                    "Edibility": 20,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_RedAnjouPear": {
                     "Name": "{{ModId}}_RedAnjouPear",
@@ -1864,7 +2216,11 @@
                     "Price": 175,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 110,
-                    "Edibility": 35
+                    "Edibility": 35,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_RedDaccaBanana": {
                     "Name": "{{ModId}}_RedDaccaBanana",
@@ -1875,7 +2231,11 @@
                     "Price": 200,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 111,
-                    "Edibility": 50
+                    "Edibility": 50,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Rooibos": {
                     "Name": "{{ModId}}_Rooibos",
@@ -1888,6 +2248,8 @@
                     "SpriteIndex": 112,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_tealeaf"
                     ]
                 },
@@ -1910,6 +2272,10 @@
                                 "FarmingLevel": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_RoseofAvalon": {
@@ -1936,6 +2302,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryflower"
                     ]
                 },
@@ -1950,6 +2318,8 @@
                     "SpriteIndex": 115,
                     "Edibility": 15,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_herb"
                     ]
                 },
@@ -1972,6 +2342,10 @@
                                 "ForagingLevel": 1
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_RoyalPoinciana": {
@@ -1996,6 +2370,10 @@
                                 "Speed": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_RubyRedGrapefruit": {
@@ -2007,7 +2385,11 @@
                     "Price": 250,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 118,
-                    "Edibility": 40
+                    "Edibility": 40,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_Sakura": {
                     "Name": "{{ModId}}_Sakura",
@@ -2028,6 +2410,10 @@
                                 "LuckLevel": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Sandalwood": {
@@ -2041,6 +2427,8 @@
                     "SpriteIndex": 120,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_resource"
                     ]
                 },
@@ -2063,6 +2451,10 @@
                                 "ForagingLevel": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_SassafrasRoot": {
@@ -2076,6 +2468,8 @@
                     "SpriteIndex": 122,
                     "Edibility": 10,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_herb"
                     ]
                 },
@@ -2090,6 +2484,8 @@
                     "SpriteIndex": 123,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_bean"
                     ]
                 },
@@ -2112,6 +2508,10 @@
                                 "Attack": 5
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_SpruceTips": {
@@ -2135,6 +2535,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_herb"
                     ]
                 },
@@ -2149,6 +2551,8 @@
                     "SpriteIndex": 126,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_spice"
                     ]
                 },
@@ -2161,7 +2565,11 @@
                     "Price": 100,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 127,
-                    "Edibility": 30
+                    "Edibility": 30,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_StarJasmine": {
                     "Name": "{{ModId}}_StarJasmine",
@@ -2182,6 +2590,10 @@
                                 "MiningLevel": 3
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Stardrop": {
@@ -2205,6 +2617,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_mythicfruit"
                     ]
                 },
@@ -2219,6 +2633,8 @@
                     "SpriteIndex": 130,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_resource"
                     ]
                 },
@@ -2233,6 +2649,8 @@
                     "SpriteIndex": 131,
                     "Edibility": 20,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_spice"
                     ]
                 },
@@ -2261,6 +2679,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryfruit"
                     ]
                 },
@@ -2289,6 +2709,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryfruit"
                     ]
                 },
@@ -2301,7 +2723,11 @@
                     "Price": 125,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 134,
-                    "Edibility": 15
+                    "Edibility": 15,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_VakkhicGrape": {
                     "Name": "{{ModId}}_VakkhicGrape",
@@ -2327,6 +2753,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_divinefruit"
                     ]
                 },
@@ -2341,6 +2769,8 @@
                     "SpriteIndex": 136,
                     "Edibility": 40,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_nut"
                     ]
                 },
@@ -2355,6 +2785,8 @@
                     "SpriteIndex": 137,
                     "Edibility": -300,
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_enchantedpod"
                     ]
                 },
@@ -2367,7 +2799,11 @@
                     "Price": 125,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 138,
-                    "Edibility": 35
+                    "Edibility": 35,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_WillowBark": {
                     "Name": "{{ModId}}_WillowBark",
@@ -2390,6 +2826,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_medicinalherb"
                     ]
                 },
@@ -2418,6 +2856,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryfruit"
                     ]
                 },
@@ -2430,7 +2870,11 @@
                     "Price": 200,
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 141,
-                    "Edibility": -10
+                    "Edibility": -10,
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
+                    ]
                 },
                 "{{ModId}}_WitchHazel": {
                     "Name": "{{ModId}}_WitchHazel",
@@ -2453,6 +2897,10 @@
                                 "MaxStamina": 1
                             }
                         }
+                    ],
+                    "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object"
                     ]
                 },
                 "{{ModId}}_Wolfberry": {
@@ -2479,6 +2927,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_enchantedfruit"
                     ]
                 },
@@ -2507,6 +2957,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryfruit"
                     ]
                 },
@@ -2535,6 +2987,8 @@
                         }
                     ],
                     "ContextTags": [
+                        "raffadax_object",
+                        "raffadax_fruittrees_object",
                         "category_legendaryfruit"
                     ]
                 },
@@ -2548,6 +3002,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 146,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:AcaiSapling.Displayname}}"
                 },
                 "{{ModId}}_AchioteSapling": {
@@ -2560,6 +3018,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 147,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:AchioteSapling.Displayname}}"
                 },
                 "{{ModId}}_AgaveSapling": {
@@ -2572,6 +3034,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 148,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:AgaveSapling.Displayname}}"
                 },
                 "{{ModId}}_AlmondSapling": {
@@ -2584,6 +3050,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 149,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:AlmondSapling.Displayname}}"
                 },
                 "{{ModId}}_AncientPalmSapling": {
@@ -2596,6 +3066,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 150,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:AncientPalmSapling.Displayname}}"
                 },
                 "{{ModId}}_AngosturaSapling": {
@@ -2608,6 +3082,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 151,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:AngosturaSapling.Displayname}}"
                 },
                 "{{ModId}}_AvocadoSapling": {
@@ -2620,6 +3098,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 152,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:AvocadoSapling.Displayname}}"
                 },
                 "{{ModId}}_BaobabSapling": {
@@ -2632,6 +3114,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 153,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BaobabSapling.Displayname}}"
                 },
                 "{{ModId}}_BayLaurelSapling": {
@@ -2644,6 +3130,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 154,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BayLaurelSapling.Displayname}}"
                 },
                 "{{ModId}}_BearberrySapling": {
@@ -2656,6 +3146,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 155,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BearberrySapling.Displayname}}"
                 },
                 "{{ModId}}_BergamotSapling": {
@@ -2668,6 +3162,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 156,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BergamotSapling.Displayname}}"
                 },
                 "{{ModId}}_BirchSapling": {
@@ -2680,6 +3178,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 157,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BirchSapling.Displayname}}"
                 },
                 "{{ModId}}_BlackBambooSapling": {
@@ -2692,6 +3194,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 158,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlackBambooSapling.Displayname}}"
                 },
                 "{{ModId}}_BlackCacaoSapling": {
@@ -2704,6 +3210,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 159,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlackCacaoSapling.Displayname}}"
                 },
                 "{{ModId}}_BlackCherrySapling": {
@@ -2716,6 +3226,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 160,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlackCherrySapling.Displayname}}"
                 },
                 "{{ModId}}_BlackCurrantSapling": {
@@ -2728,6 +3242,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 161,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlackCurrantSapling.Displayname}}"
                 },
                 "{{ModId}}_BlackOakSapling": {
@@ -2740,6 +3258,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 162,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlackOakSapling.Displayname}}"
                 },
                 "{{ModId}}_BlackOliveSapling": {
@@ -2752,6 +3274,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 163,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlackOliveSapling.Displayname}}"
                 },
                 "{{ModId}}_BlackWalnutSapling": {
@@ -2764,6 +3290,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 164,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlackWalnutSapling.Displayname}}"
                 },
                 "{{ModId}}_BlackberrySapling": {
@@ -2776,6 +3306,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 165,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlackberrySapling.Displayname}}"
                 },
                 "{{ModId}}_BlackthornSapling": {
@@ -2788,6 +3322,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 166,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlackthornSapling.Displayname}}"
                 },
                 "{{ModId}}_JavaBananaSapling": {
@@ -2800,6 +3338,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 167,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:JavaBananaSapling.Displayname}}"
                 },
                 "{{ModId}}_BlueRaspberrySapling": {
@@ -2812,6 +3354,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 168,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlueRaspberrySapling.Displayname}}"
                 },
                 "{{ModId}}_BlueberryBushSapling": {
@@ -2824,6 +3370,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 169,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BlueberryBushSapling.Displayname}}"
                 },
                 "{{ModId}}_BodhiSapling": {
@@ -2836,6 +3386,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 170,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BodhiSapling.Displayname}}"
                 },
                 "{{ModId}}_BrazilNutSapling": {
@@ -2848,6 +3402,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 171,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BrazilNutSapling.Displayname}}"
                 },
                 "{{ModId}}_BuddhasHandSapling": {
@@ -2860,6 +3418,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 172,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:BuddhasHandSapling.Displayname}}"
                 },
                 "{{ModId}}_CacaoSapling": {
@@ -2872,6 +3434,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 173,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CacaoSapling.Displayname}}"
                 },
                 "{{ModId}}_CarambolaSapling": {
@@ -2884,6 +3450,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 174,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CarambolaSapling.Displayname}}"
                 },
                 "{{ModId}}_CashewAppleSapling": {
@@ -2896,6 +3466,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 175,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CashewAppleSapling.Displayname}}"
                 },
                 "{{ModId}}_ChestnutSapling": {
@@ -2908,6 +3482,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 176,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:ChestnutSapling.Displayname}}"
                 },
                 "{{ModId}}_CinchonaSapling": {
@@ -2920,6 +3498,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 177,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CinchonaSapling.Displayname}}"
                 },
                 "{{ModId}}_CinnamomumSapling": {
@@ -2932,6 +3514,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 178,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CinnamomumSapling.Displayname}}"
                 },
                 "{{ModId}}_ClematisSapling": {
@@ -2944,6 +3530,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 179,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:ClematisSapling.Displayname}}"
                 },
                 "{{ModId}}_CloveSapling": {
@@ -2956,6 +3546,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 180,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CloveSapling.Displayname}}"
                 },
                 "{{ModId}}_CocodeMerSapling": {
@@ -2968,6 +3562,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 181,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CocodeMerSapling.Displayname}}"
                 },
                 "{{ModId}}_CorpseFlowerSapling": {
@@ -2980,6 +3578,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 182,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CorpseFlowerSapling.Displayname}}"
                 },
                 "{{ModId}}_CrabappleSapling": {
@@ -2992,6 +3594,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 183,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CrabappleSapling.Displayname}}"
                 },
                 "{{ModId}}_CranberryBushSapling": {
@@ -3004,6 +3610,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 184,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CranberryBushSapling.Displayname}}"
                 },
                 "{{ModId}}_CrystalFruitSapling": {
@@ -3016,6 +3626,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 185,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CrystalFruitSapling.Displayname}}"
                 },
                 "{{ModId}}_CurrySapling": {
@@ -3028,6 +3642,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 186,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:CurrySapling.Displayname}}"
                 },
                 "{{ModId}}_DateSapling": {
@@ -3040,6 +3658,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 187,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:DateSapling.Displayname}}"
                 },
                 "{{ModId}}_DeadMansSapling": {
@@ -3052,6 +3674,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 188,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:DeadMansSapling.Displayname}}"
                 },
                 "{{ModId}}_DogwoodSapling": {
@@ -3064,6 +3690,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 189,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:DogwoodSapling.Displayname}}"
                 },
                 "{{ModId}}_DragonFruitCactusSapling": {
@@ -3076,6 +3706,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 190,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:DragonFruitCactusSapling.Displayname}}"
                 },
                 "{{ModId}}_DryadSapling": {
@@ -3088,6 +3722,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 191,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:DryadSapling.Displayname}}"
                 },
                 "{{ModId}}_DurianSapling": {
@@ -3100,6 +3738,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 192,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:DurianSapling.Displayname}}"
                 },
                 "{{ModId}}_EbonySapling": {
@@ -3112,6 +3754,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 193,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:EbonySapling.Displayname}}"
                 },
                 "{{ModId}}_ElderSapling": {
@@ -3124,6 +3770,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 194,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:ElderSapling.Displayname}}"
                 },
                 "{{ModId}}_ElderberrySapling": {
@@ -3136,6 +3786,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 195,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:ElderberrySapling.Displayname}}"
                 },
                 "{{ModId}}_FicusSapling": {
@@ -3148,6 +3802,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 196,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:FicusSapling.Displayname}}"
                 },
                 "{{ModId}}_ForestPlumSapling": {
@@ -3160,6 +3818,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 197,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:ForestPlumSapling.Displayname}}"
                 },
                 "{{ModId}}_ForestRoseSapling": {
@@ -3172,6 +3834,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 198,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:ForestRoseSapling.Displayname}}"
                 },
                 "{{ModId}}_ForsythiaSapling": {
@@ -3184,6 +3850,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 199,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:ForsythiaSapling.Displayname}}"
                 },
                 "{{ModId}}_FoxberrySapling": {
@@ -3196,6 +3866,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 200,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:FoxberrySapling.Displayname}}"
                 },
                 "{{ModId}}_FusangSapling": {
@@ -3208,6 +3882,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 201,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:FusangSapling.Displayname}}"
                 },
                 "{{ModId}}_GildedCoconutSapling": {
@@ -3220,6 +3898,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 202,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:GildedCoconutSapling.Displayname}}"
                 },
                 "{{ModId}}_GildedWalnutSapling": {
@@ -3232,6 +3914,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 203,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:GildedWalnutSapling.Displayname}}"
                 },
                 "{{ModId}}_GinkgoSapling": {
@@ -3244,6 +3930,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 204,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:GinkgoSapling.Displayname}}"
                 },
                 "{{ModId}}_GoldenPlumSapling": {
@@ -3256,6 +3946,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 205,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:GoldenPlumSapling.Displayname}}"
                 },
                 "{{ModId}}_GrapefruitSapling": {
@@ -3268,6 +3962,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 206,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:GrapefruitSapling.Displayname}}"
                 },
                 "{{ModId}}_GrosMichelSapling": {
@@ -3280,6 +3978,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 207,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:GrosMichelSapling.Displayname}}"
                 },
                 "{{ModId}}_GuaranaSapling": {
@@ -3292,6 +3994,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 208,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:GuaranaSapling.Displayname}}"
                 },
                 "{{ModId}}_GuavaSapling": {
@@ -3304,6 +4010,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 209,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:GuavaSapling.Displayname}}"
                 },
                 "{{ModId}}_HagTreeSapling": {
@@ -3316,6 +4026,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 210,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HagTreeSapling.Displayname}}"
                 },
                 "{{ModId}}_HawthornSapling": {
@@ -3328,6 +4042,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 211,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HawthornSapling.Displayname}}"
                 },
                 "{{ModId}}_HeliconiaSapling": {
@@ -3340,6 +4058,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 212,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HeliconiaSapling.Displayname}}"
                 },
                 "{{ModId}}_HibiscusSapling": {
@@ -3352,6 +4074,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 213,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HibiscusSapling.Displayname}}"
                 },
                 "{{ModId}}_HollySapling": {
@@ -3364,6 +4090,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 214,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HollySapling.Displayname}}"
                 },
                 "{{ModId}}_HoneyberrySapling": {
@@ -3376,6 +4106,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 215,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HoneyberrySapling.Displayname}}"
                 },
                 "{{ModId}}_HoneycrispSapling": {
@@ -3388,6 +4122,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 216,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HoneycrispSapling.Displayname}}"
                 },
                 "{{ModId}}_HoneysuckleSapling": {
@@ -3400,6 +4138,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 217,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HoneysuckleSapling.Displayname}}"
                 },
                 "{{ModId}}_HuaMoaSapling": {
@@ -3412,6 +4154,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 218,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HuaMoaSapling.Displayname}}"
                 },
                 "{{ModId}}_HuckleberrySapling": {
@@ -3424,6 +4170,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 219,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:HuckleberrySapling.Displayname}}"
                 },
                 "{{ModId}}_IlliciumSapling": {
@@ -3436,6 +4186,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 220,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:IlliciumSapling.Displayname}}"
                 },
                 "{{ModId}}_InfernalSapling": {
@@ -3448,6 +4202,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 221,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:InfernalSapling.Displayname}}"
                 },
                 "{{ModId}}_IslandCoconutSapling": {
@@ -3460,6 +4218,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 222,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:IslandCoconutSapling.Displayname}}"
                 },
                 "{{ModId}}_JabuticabaSapling": {
@@ -3472,6 +4234,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 223,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:JabuticabaSapling.Displayname}}"
                 },
                 "{{ModId}}_JacarandaSapling": {
@@ -3484,6 +4250,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 224,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:JacarandaSapling.Displayname}}"
                 },
                 "{{ModId}}_JungleMossSapling": {
@@ -3496,6 +4266,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 225,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:JungleMossSapling.Displayname}}"
                 },
                 "{{ModId}}_JuniperSapling": {
@@ -3508,6 +4282,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 226,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:JuniperSapling.Displayname}}"
                 },
                 "{{ModId}}_KeyLimeSapling": {
@@ -3520,6 +4298,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 227,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:KeyLimeSapling.Displayname}}"
                 },
                 "{{ModId}}_KiwiSapling": {
@@ -3532,6 +4314,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 228,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:KiwiSapling.Displayname}}"
                 },
                 "{{ModId}}_KolaSapling": {
@@ -3544,6 +4330,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 229,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:KolaSapling.Displayname}}"
                 },
                 "{{ModId}}_KumquatSapling": {
@@ -3556,6 +4346,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 230,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:KumquatSapling.Displayname}}"
                 },
                 "{{ModId}}_LarahaOrangeSapling": {
@@ -3568,6 +4362,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 231,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:LarahaOrangeSapling.Displayname}}"
                 },
                 "{{ModId}}_LavenderSapling": {
@@ -3580,6 +4378,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 232,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:LavenderSapling.Displayname}}"
                 },
                 "{{ModId}}_LemonSapling": {
@@ -3592,6 +4394,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 233,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:LemonSapling.Displayname}}"
                 },
                 "{{ModId}}_LilacSapling": {
@@ -3604,6 +4410,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 234,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:LilacSapling.Displayname}}"
                 },
                 "{{ModId}}_LimeSapling": {
@@ -3616,6 +4426,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 235,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:LimeSapling.Displayname}}"
                 },
                 "{{ModId}}_LindenSapling": {
@@ -3628,6 +4442,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 236,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:LindenSapling.Displayname}}"
                 },
                 "{{ModId}}_LycheeSapling": {
@@ -3640,6 +4458,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 237,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:LycheeSapling.Displayname}}"
                 },
                 "{{ModId}}_MacadamiaSapling": {
@@ -3652,6 +4474,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 238,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MacadamiaSapling.Displayname}}"
                 },
                 "{{ModId}}_MaenadSapling": {
@@ -3664,6 +4490,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 239,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MaenadSapling.Displayname}}"
                 },
                 "{{ModId}}_MandarinSapling": {
@@ -3676,6 +4506,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 240,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MandarinSapling.Displayname}}"
                 },
                 "{{ModId}}_MarconaAlmondSapling": {
@@ -3688,6 +4522,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 241,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MarconaAlmondSapling.Displayname}}"
                 },
                 "{{ModId}}_MeyerLemonSapling": {
@@ -3700,6 +4538,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 242,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MeyerLemonSapling.Displayname}}"
                 },
                 "{{ModId}}_MimosaSapling": {
@@ -3712,6 +4554,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 243,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MimosaSapling.Displayname}}"
                 },
                 "{{ModId}}_MonkeyLianaSapling": {
@@ -3724,6 +4570,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 244,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MonkeyLianaSapling.Displayname}}"
                 },
                 "{{ModId}}_MonsteraSapling": {
@@ -3736,6 +4586,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 245,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MonsteraSapling.Displayname}}"
                 },
                 "{{ModId}}_MoonberrySapling": {
@@ -3748,6 +4602,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 246,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MoonberrySapling.Displayname}}"
                 },
                 "{{ModId}}_MulberrySapling": {
@@ -3760,6 +4618,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 247,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MulberrySapling.Displayname}}"
                 },
                 "{{ModId}}_MyristicaSapling": {
@@ -3772,6 +4634,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 248,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:MyristicaSapling.Displayname}}"
                 },
                 "{{ModId}}_NinoBananaSapling": {
@@ -3784,6 +4650,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 249,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:NinoBananaSapling.Displayname}}"
                 },
                 "{{ModId}}_OliveSapling": {
@@ -3796,6 +4666,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 250,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:OliveSapling.Displayname}}"
                 },
                 "{{ModId}}_OsmanthusSapling": {
@@ -3808,6 +4682,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 251,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:OsmanthusSapling.Displayname}}"
                 },
                 "{{ModId}}_PalmGroveSapling": {
@@ -3820,6 +4698,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 252,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PalmGroveSapling.Displayname}}"
                 },
                 "{{ModId}}_PapayaSapling": {
@@ -3832,6 +4714,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 253,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PapayaSapling.Displayname}}"
                 },
                 "{{ModId}}_PearSapling": {
@@ -3844,6 +4730,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 254,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PearSapling.Displayname}}"
                 },
                 "{{ModId}}_PecanSapling": {
@@ -3856,6 +4746,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 255,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PecanSapling.Displayname}}"
                 },
                 "{{ModId}}_PersimmonSapling": {
@@ -3868,6 +4762,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 256,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PersimmonSapling.Displayname}}"
                 },
                 "{{ModId}}_PimentoSapling": {
@@ -3880,6 +4778,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 257,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PimentoSapling.Displayname}}"
                 },
                 "{{ModId}}_PineNutSapling": {
@@ -3892,6 +4794,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 258,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PineNutSapling.Displayname}}"
                 },
                 "{{ModId}}_PinkLemonSapling": {
@@ -3904,6 +4810,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 259,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PinkLemonSapling.Displayname}}"
                 },
                 "{{ModId}}_PistachioSapling": {
@@ -3916,6 +4826,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 260,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PistachioSapling.Displayname}}"
                 },
                 "{{ModId}}_PlantainSapling": {
@@ -3928,6 +4842,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 261,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PlantainSapling.Displayname}}"
                 },
                 "{{ModId}}_PolarBerrySapling": {
@@ -3940,6 +4858,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 262,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PolarBerrySapling.Displayname}}"
                 },
                 "{{ModId}}_QuinceSapling": {
@@ -3952,6 +4874,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 263,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:QuinceSapling.Displayname}}"
                 },
                 "{{ModId}}_RainbowEucalyptusSapling": {
@@ -3964,6 +4890,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 264,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:RainbowEucalyptusSapling.Displayname}}"
                 },
                 "{{ModId}}_RambutanSapling": {
@@ -3976,6 +4906,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 265,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:RambutanSapling.Displayname}}"
                 },
                 "{{ModId}}_RaspberrySapling": {
@@ -3988,6 +4922,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 266,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:RaspberrySapling.Displayname}}"
                 },
                 "{{ModId}}_AnjouPearSapling": {
@@ -4000,6 +4938,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 267,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:AnjouPearSapling.Displayname}}"
                 },
                 "{{ModId}}_DaccaBananaSapling": {
@@ -4012,6 +4954,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 268,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:DaccaBananaSapling.Displayname}}"
                 },
                 "{{ModId}}_RooibosSapling": {
@@ -4024,6 +4970,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 269,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:RooibosSapling.Displayname}}"
                 },
                 "{{ModId}}_RoseGrapeSapling": {
@@ -4036,6 +4986,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 270,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:RoseGrapeSapling.Displayname}}"
                 },
                 "{{ModId}}_RosemarySapling": {
@@ -4048,6 +5002,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 271,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:RosemarySapling.Displayname}}"
                 },
                 "{{ModId}}_RowanSapling": {
@@ -4060,6 +5018,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 272,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:RowanSapling.Displayname}}"
                 },
                 "{{ModId}}_PoincianaSapling": {
@@ -4072,6 +5034,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 273,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:PoincianaSapling.Displayname}}"
                 },
                 "{{ModId}}_RedGrapefruitSapling": {
@@ -4084,6 +5050,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 274,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:RedGrapefruitSapling.Displayname}}"
                 },
                 "{{ModId}}_SaguaroCactusSapling": {
@@ -4096,6 +5066,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 275,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SaguaroCactusSapling.Displayname}}"
                 },
                 "{{ModId}}_SakuraSapling": {
@@ -4108,6 +5082,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 276,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SakuraSapling.Displayname}}"
                 },
                 "{{ModId}}_SalmonberrySapling": {
@@ -4120,6 +5098,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 277,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SalmonberrySapling.Displayname}}"
                 },
                 "{{ModId}}_SandalwoodSapling": {
@@ -4132,6 +5114,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 278,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SandalwoodSapling.Displayname}}"
                 },
                 "{{ModId}}_SaskatoonSapling": {
@@ -4144,6 +5130,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 279,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SaskatoonSapling.Displayname}}"
                 },
                 "{{ModId}}_SassafrasSapling": {
@@ -4156,6 +5146,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 280,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SassafrasSapling.Displayname}}"
                 },
                 "{{ModId}}_SpiceBerrySapling": {
@@ -4168,6 +5162,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 281,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SpiceBerrySapling.Displayname}}"
                 },
                 "{{ModId}}_SpruceSapling": {
@@ -4180,6 +5178,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 282,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SpruceSapling.Displayname}}"
                 },
                 "{{ModId}}_StarAppleSapling": {
@@ -4192,6 +5194,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 283,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:StarAppleSapling.Displayname}}"
                 },
                 "{{ModId}}_StarFruitSapling": {
@@ -4204,6 +5210,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 284,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:StarFruitSapling.Displayname}}"
                 },
                 "{{ModId}}_StarJasmineSapling": {
@@ -4216,6 +5226,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 285,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:StarJasmineSapling.Displayname}}"
                 },
                 "{{ModId}}_StardropSapling": {
@@ -4228,6 +5242,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 286,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:StardropSapling.Displayname}}"
                 },
                 "{{ModId}}_StrawberrySapling": {
@@ -4240,6 +5258,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 287,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:StrawberrySapling.Displayname}}"
                 },
                 "{{ModId}}_SugarcaneSapling": {
@@ -4252,6 +5274,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 288,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SugarcaneSapling.Displayname}}"
                 },
                 "{{ModId}}_SumacSapling": {
@@ -4264,6 +5290,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 289,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SumacSapling.Displayname}}"
                 },
                 "{{ModId}}_SummerStarberrySapling": {
@@ -4276,6 +5306,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 290,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SummerStarberrySapling.Displayname}}"
                 },
                 "{{ModId}}_SunberrySapling": {
@@ -4288,6 +5322,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 291,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SunberrySapling.Displayname}}"
                 },
                 "{{ModId}}_SweetGemSapling": {
@@ -4300,6 +5338,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 292,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:SweetGemSapling.Displayname}}"
                 },
                 "{{ModId}}_TamarindSapling": {
@@ -4312,6 +5354,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 293,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:TamarindSapling.Displayname}}"
                 },
                 "{{ModId}}_WalnutSapling": {
@@ -4324,6 +5370,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 294,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:WalnutSapling.Displayname}}"
                 },
                 "{{ModId}}_WhiteCacaoSapling": {
@@ -4336,6 +5386,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 295,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:WhiteCacaoSapling.Displayname}}"
                 },
                 "{{ModId}}_WhitePeachSapling": {
@@ -4348,6 +5402,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 296,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:WhitePeachSapling.Displayname}}"
                 },
                 "{{ModId}}_WildHazelnutSapling": {
@@ -4360,6 +5418,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 297,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:WildHazelnutSapling.Displayname}}"
                 },
                 "{{ModId}}_WillowSapling": {
@@ -4372,6 +5434,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 298,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:WillowSapling.Displayname}}"
                 },
                 "{{ModId}}_WinterStarberrySapling": {
@@ -4384,6 +5450,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 299,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:WinterStarberrySapling.Displayname}}"
                 },
                 "{{ModId}}_WisteriaSapling": {
@@ -4396,6 +5466,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 300,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:WisteriaSapling.Displayname}}"
                 },
                 "{{ModId}}_WitchHazelSapling": {
@@ -4408,6 +5482,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 301,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:WitchHazelSapling.Displayname}}"
                 },
                 "{{ModId}}_WolfberrySapling": {
@@ -4420,6 +5498,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 302,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:WolfberrySapling.Displayname}}"
                 },
                 "{{ModId}}_YateveoSapling": {
@@ -4432,6 +5514,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 303,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:YateveoSapling.Displayname}}"
                 },
                 "{{ModId}}_YggdrasilSapling": {
@@ -4444,6 +5530,10 @@
                     "Texture": "Mods/{{ModId}}/Objects/FruitTrees",
                     "SpriteIndex": 304,
                     "Edibility": -1,
+                    "ContextTags": [
+                        "raffadax_sapling_object",
+                        "raffadax_object"
+                    ],
                     "Displayname": "{{i18n:YggdrasilSapling.Displayname}}"
                 }
             }

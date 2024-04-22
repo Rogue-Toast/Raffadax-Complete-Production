@@ -27,7 +27,7 @@
 					"ItemDeliveryQuests": false,
 					"PerfectionScore": true,
 					"EndSlideShow": "TrailingGroup",
-				
+
 					"Appearance": [
 						{
 							"Id": "Default",
@@ -48,7 +48,7 @@
 
 				}
 			}
-		},	
+		},
 
 // Display Name
 		{
@@ -129,12 +129,13 @@
 			"FromFile": "assets/data/blank.json"
 		},
 
-// Dialogue 
+// Dialogue
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/{{Astrid}}",
 			"Entries": {
 				"Introduction": "{{i18n:Astrid.Introduction}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Astrid.GiftLoved}}",
 	// 0 HEARTS
 				"Mon": "{{i18n:Astrid.Mon}}",
 				"Tue": "{{i18n:Astrid.Tue}}",

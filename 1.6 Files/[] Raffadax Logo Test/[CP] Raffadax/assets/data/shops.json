@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Shops",
             "Entries": {
-                "{{ModId}}_Amanra": {
+                "{{ModId}}_Amanra_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -13,7 +13,6 @@
                                 "(O)Raffadax.RCP_Aloe",
                                 "(O)Raffadax.RCP_BlackSesameSeeds",
                                 "(O)Raffadax.RCP_BrassicaFlower",
-                                "(O)Broccoli",
                                 "(O)Raffadax.RCP_BrusselsSprouts",
                                 "(O)Raffadax.RCP_CactusBlossom",
                                 "(O)Raffadax.RCP_Cactushroom",
@@ -31,7 +30,7 @@
                                 "(O)Raffadax.RCP_Marjoram",
                                 "(O)Raffadax.RCP_Nigella",
                                 "(O)Raffadax.RCP_Nopal",
-                                "(O)Raffadax.RCP_Opuntia",
+                                "(O)Raffadax.RCP_OpuntiaFlower",
                                 "(O)Raffadax.RCP_Oregano",
                                 "(O)Raffadax.RCP_PricklyPear",
                                 "(O)Raffadax.RCP_Romanesco",
@@ -55,7 +54,7 @@
                                 "(O)Raffadax.RCP_AcaiBerry",
                                 "(O)Raffadax.RCP_Allspice",
                                 "(O)Raffadax.RCP_Annatto",
-                                "(O)Raffadax.RCP_AppleofIddun",
+                                "(O)Raffadax.RCP_AppleofIdunn",
                                 "(O)Raffadax.RCP_Bahidaj",
                                 "(O)Raffadax.RCP_Baobab",
                                 "(O)Raffadax.RCP_BayLeaf",
@@ -95,10 +94,6 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackSesameSeeds",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2000"
-                        },
-                        {
-                            "ItemId": "(O)BroccoliSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 500"
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BrusselsSproutSeeds",
@@ -282,7 +277,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -318,9 +313,9 @@
                                 "(O)Raffadax.RCP_PowderofArgent",
                                 "(O)Raffadax.RCP_RocFeather",
                                 "(O)Raffadax.RCP_SandofChaos",
-                                "(O)Raffadax.RCP_ScaleFabric",
+                                "(O)Raffadax.RCP_ScaleCloth",
                                 "(O)Raffadax.RCP_SeraphFeather",
-                                "(O)Raffadax.RCP_ShiningEverClear",
+                                "(O)Raffadax.RCP_ShiningEverclear",
                                 "(O)Raffadax.RCP_SilverLeaf",
                                 "(O)Raffadax.RCP_SolarDust",
                                 "(O)Raffadax.RCP_StarDust",
@@ -356,7 +351,7 @@
                             "RandomItemId": [
                                 "(O)Raffadax.RCP_AmaterasuWine",
                                 "(O)Raffadax.RCP_ApolloWine",
-                                "(O)Raffadax.RCP_LapisPhilosiphorum",
+                                "(O)Raffadax.RCP_LapisPhilosophorum",
                                 "(O)Raffadax.RCP_MeadofIdunn",
                                 "(O)Raffadax.RCP_MeadofRa",
                                 "(O)Raffadax.RCP_WineofAnubis",
@@ -375,13 +370,15 @@
                             "ItemId": "(BC)Raffadax.RCP_AnpuScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AppleofIdunn",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 500000
+                            "Price": 500000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -398,10 +395,10 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Amanra",
+                            "Name": "{{Amanra}}",
                             "Portrait": "assets/textures/Portraits/Amanra.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "The meaning of these symbols elude you. Amanra's eyes shine golden in the moonlight...Perhaps you should return in the morning.",
+                            "ClosedMessage": "{{i18n:Amanra.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "AmanraDialogue_1",
@@ -415,11 +412,11 @@
                         {
                             "Id": "Amanra_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
-                "{{ModId}}_Astrid": {
+                "{{ModId}}_Astrid_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -696,7 +693,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -788,13 +785,15 @@
                             "ItemId": "(BC)Raffadax.RCP_SeaMonsterScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StarDust",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 100000
+                            "Price": 100000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -811,10 +810,10 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Astrid",
+                            "Name": "{{Astrid}}",
                             "Portrait": "assets/textures/Portraits/Astrid.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It's too dark to read. Astrid seems distracted anyway.",
+                            "ClosedMessage": "{{i18n:Astrid.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "AstridDialogue_1",
@@ -828,11 +827,11 @@
                         {
                             "Id": "Astrid_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
-                "{{ModId}}_Coyote": {
+                "{{ModId}}_Coyote_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -883,7 +882,7 @@
                                 "(O)Raffadax.RCP_Bearberry",
                                 "(O)Raffadax.RCP_BirchBark",
                                 "(O)410",
-                                "(O)Raffadax.RCP_BlackCurrant",
+                                "(O)Raffadax.RCP_BlackCurrants",
                                 "(O)Raffadax.RCP_BlackWalnut",
                                 "(O)Raffadax.RCP_Forsythia",
                                 "(O)408",
@@ -1103,7 +1102,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -1193,13 +1192,15 @@
                             "ItemId": "(BC)Raffadax.RCP_WendigoScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Catholicon",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 100000
+                            "Price": 100000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -1216,10 +1217,10 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Coyote",
+                            "Name": "{{Coyote}}",
                             "Portrait": "assets/textures/Portraits/Coyote.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It just looks like a bunch of safety information for miners. Coyote is staring at the sky...He seems distracted.",
+                            "ClosedMessage": "{{i18n:Coyote.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "CoyoteDialogue_1",
@@ -1233,18 +1234,18 @@
                         {
                             "Id": "Coyote_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
-                "{{ModId}}_Mephisto": {
+                "{{ModId}}_Mephisto_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
                                 "(O)309",
                                 "(O)310",
                                 "(O)292",
-                                "(O)Raffadax.RCP_Pinecone"
+                                "(O)311"
                             ],
                             "AvoidRepeat": true,
                             "AvailableStock": 5
@@ -1252,27 +1253,32 @@
                         {
                             "ItemId": "(O)499",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
-                            "Price": 1000
+                            "Price": 1000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GlassPumpkinSeeds",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
-                            "Price": 750
+                            "Price": 750,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JackOLanternSeeds",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
-                            "Price": 100
+                            "Price": 100,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)347",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
-                            "Price": 1000
+                            "Price": 1000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)891",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
-                            "Price": 10000
+                            "Price": 10000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BacteriaCulture"
@@ -1296,42 +1302,49 @@
                             "ItemId": "(O)Raffadax.RCP_BlanchingPowder",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ClimateControlPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CryonicPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MillingPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RoastingPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SolarPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_UmbraPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
@@ -1340,7 +1353,7 @@
                                 "(O)725",
                                 "(O)726"
                             ],
-                            "TradeItemId": "(O)Raffadax.RCP_172",
+                            "TradeItemId": "(O)172",
                             "TradeItemAmount": 10,
                             "AvoidRepeat": true,
                             "AvailableStock": 5
@@ -1350,311 +1363,364 @@
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)171",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 1
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_Battery",
+                            "ItemId": "(O)787",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)171",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Tapper",
+                            "ItemId": "(BC)105",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_GardenPot",
+                            "ItemId": "(BC)62",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)710",
+                            "ItemId": "(O)710",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)599",
+                            "ItemId": "(O)599",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_WormBin",
+                            "ItemId": "(BC)154",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_RecyclingMachine",
+                            "ItemId": "(BC)20",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_CharcoalKiln",
+                            "ItemId": "(BC)114",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Loom",
+                            "ItemId": "(BC)17",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Keg",
+                            "ItemId": "(BC)12",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_PreservesJar",
+                            "ItemId": "(BC)15",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)621",
+                            "ItemId": "(O)621",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_JuiceKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_PureeJar",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_TeaKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_MayonnaiseMachine",
+                            "ItemId": "(BC)24",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_BeeHouse",
+                            "ItemId": "(BC)10",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_SeedMaker",
+                            "ItemId": "(BC)25",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_LightningRod",
+                            "ItemId": "(BC)9",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_AutoMill",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_BeverageKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_MilkKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_CheesePress",
+                            "ItemId": "(BC)16",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Furnace",
+                            "ItemId": "(BC)13",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Cask",
+                            "ItemId": "(BC)163",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_BoneMill",
+                            "ItemId": "(BC)90",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_DryPacker",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_FlowHive",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_Oxidizer",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_OilMaker",
+                            "ItemId": "(BC)19",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_SolarPanel",
+                            "ItemId": "(BC)231",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_GeodeCrusher",
+                            "ItemId": "(BC)182",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)645",
+                            "ItemId": "(O)645",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_FermentationTank",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_DistillationTank",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_IncubationTank",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_MiniJukebox",
+                            "ItemId": "(BC)209",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Crystalarium",
+                            "ItemId": "(BC)21",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_Hopper",
+                            "ItemId": "(BC)275",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(BC)Raffadax.RCP_HeavyTapper",
+                            "ItemId": "(BC)264",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_FragranceExtractor",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_DeluxeWineKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlanchingPowder",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RoastingPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MillingPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ClimateControlPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CryonicPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SolarPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_UmbraPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_WerewolfScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_GoldenSpindle",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "IsRecipe": true,
-                            "Price": 1000000
+                            "Price": 1000000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -1671,10 +1737,10 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Mephisto",
+                            "Name": "{{Mephisto}}",
                             "Portrait": "assets/textures/Portraits/Mephisto.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It seems that Mephisto is not paying attention at the moment.",
+                            "ClosedMessage": "{{i18n:Mephisto.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "MephistoDialogue_1",
@@ -1688,17 +1754,16 @@
                         {
                             "Id": "Mephisto_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
-                "{{ModId}}_Puck": {
+                "{{ModId}}_Puck_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
                                 "(O)Raffadax.RCP_Asparagus",
                                 "(O)Raffadax.RCP_BrassicaFlower",
-                                "(O)Broccoli",
                                 "(O)Raffadax.RCP_Clover",
                                 "(O)Raffadax.RCP_Cucumber",
                                 "(O)Raffadax.RCP_DryadsSaddle",
@@ -1718,14 +1783,13 @@
                                 "(O)Raffadax.RCP_LuckyClover",
                                 "(O)Raffadax.RCP_Okra",
                                 "(O)Raffadax.RCP_OrangeCarrot",
-                                "(O)Raisins",
                                 "(O)Raffadax.RCP_Rapini",
                                 "(O)Raffadax.RCP_RedAntlerReishi",
                                 "(O)Raffadax.RCP_Rose",
                                 "(O)Raffadax.RCP_RoseHips",
                                 "(O)Raffadax.RCP_Sage",
                                 "(O)Raffadax.RCP_Shamrock",
-                                "(O)Raffadax.RCP_Shiso",
+                                "(O)Raffadax.RCP_ShisoLeaf",
                                 "(O)Raffadax.RCP_Soybean",
                                 "(O)Raffadax.RCP_Spinach",
                                 "(O)Raffadax.RCP_Sunchoke",
@@ -1746,13 +1810,13 @@
                         },
                         {
                             "RandomItemId": [
-                                "(O)Raffadax.RCP_Bergamot",
+                                "(O)Raffadax.RCP_BergamotOrange",
                                 "(O)Raffadax.RCP_Cashew",
                                 "(O)Raffadax.RCP_CashewApple",
                                 "(O)Raffadax.RCP_Chestnut",
                                 "(O)Raffadax.RCP_Elderflower",
                                 "(O)Raffadax.RCP_Foxberry",
-                                "(O)Raffadax.RCP_Ginkgo",
+                                "(O)Raffadax.RCP_GinkgoLeaf",
                                 "(O)Raffadax.RCP_Hesperidium",
                                 "(O)Raffadax.RCP_Honeyberry",
                                 "(O)Raffadax.RCP_Huckleberry",
@@ -1767,7 +1831,7 @@
                                 "(O)Raffadax.RCP_Rowanberry",
                                 "(O)Raffadax.RCP_Saskatoon",
                                 "(O)Raffadax.RCP_SpruceTips",
-                                "(O)Raffadax.RCP_VakkhicGrapes",
+                                "(O)Raffadax.RCP_VakkhicGrape",
                                 "(O)406",
                                 "(O)Raffadax.RCP_WinterStarberry",
                                 "(O)Raffadax.RCP_Wisteria"
@@ -1865,7 +1929,7 @@
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2000"
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_CloverPatchSeeds",
+                            "ItemId": "(O)Raffadax.RCP_CloverPatchStarter",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
@@ -1974,7 +2038,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2062,13 +2126,15 @@
                             "ItemId": "(BC)Raffadax.RCP_NinetailsScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SylvanPowder",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 100000
+                            "Price": 100000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -2085,10 +2151,10 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Puck",
+                            "Name": "{{Puck}}",
                             "Portrait": "assets/textures/Portraits/Puck.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It's a map of the forest, and a poster with camping and fire safety guidelines. Puck is silently staring at you...Perhaps you should return in the morning.",
+                            "ClosedMessage": "{{i18n:Puck.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "PuckDialogue_1",
@@ -2102,11 +2168,11 @@
                         {
                             "Id": "Puck_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
-                "{{ModId}}_Shuck": {
+                "{{ModId}}_Shuck_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -2132,7 +2198,7 @@
                                 "(O)Raffadax.RCP_Liverwort",
                                 "(O)Raffadax.RCP_MandragoraFlower",
                                 "(O)Raffadax.RCP_Mandrake",
-                                "(O)Raffadax.RCP_Mugwart",
+                                "(O)Raffadax.RCP_Mugwort",
                                 "(O)Raffadax.RCP_NettleBlossom",
                                 "(O)Raffadax.RCP_PeriwinkleFlower",
                                 "(O)Raffadax.RCP_PortobelloMushroom",
@@ -2388,7 +2454,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2402,7 +2468,6 @@
                                 "(O)Raffadax.RCP_GoldenLeaf",
                                 "(O)373",
                                 "(O)Raffadax.RCP_GlassPumpkin",
-                                "(O)Raffadax.RCP_Hallucid",
                                 "(O)Raffadax.RCP_HellhoundFang",
                                 "(O)Raffadax.RCP_HostileSpirit",
                                 "(O)Raffadax.RCP_InfernalNegus",
@@ -2474,13 +2539,15 @@
                             "ItemId": "(BC)Raffadax.RCP_HellhoundScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AppleofDiscord",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 500000
+                            "Price": 500000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -2497,10 +2564,10 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Shuck",
+                            "Name": "{{Shuck}}",
                             "Portrait": "assets/textures/Portraits/Shuck.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It's a faded ad for a lost dog...Three heads? It's too distorted to see clearly. You suddenly do not feel like being this close to Shuck so late at night...Perhaps you should return in the morning.",
+                            "ClosedMessage": "{{i18n:Shuck.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "ShuckDialogue_1",
@@ -2514,11 +2581,11 @@
                         {
                             "Id": "Shuck_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
-                "{{ModId}}_Xolotl": {
+                "{{ModId}}_Xolotl_Shop": {
                     "Items": [
                         {
                             "RandomItemId": [
@@ -2790,8 +2857,9 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
-                            "Price": 50000
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
+                            "Price": 50000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "RandomItemId": [
@@ -2819,7 +2887,6 @@
                                 "(O)Raffadax.RCP_RainsofYingarna",
                                 "(O)Raffadax.RCP_ResplendentFeather",
                                 "(O)108",
-                                "(O)Raffadax.RCP_RoyalPoincianaPort",
                                 "(O)Raffadax.RCP_SpiderFabric",
                                 "(O)Raffadax.RCP_TempestPowder",
                                 "(O)Raffadax.RCP_ThunderbirdFeather",
@@ -2875,13 +2942,15 @@
                             "ItemId": "(BC)Raffadax.RCP_NagualScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TempestPowder",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 100000
+                            "Price": 100000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -2898,10 +2967,10 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "Xolotl",
+                            "Name": "{{Xolotl}}",
                             "Portrait": "assets/textures/Portraits/Xolotl.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "The symbols on this tablet seem to move around with the shifting shadows, you cannot decipher them. Xolotl is staring at you in an unsettling manner...Perhaps you should come back in the morning.",
+                            "ClosedMessage": "{{i18n:Xolotl.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "XolotlDialogue_1",
@@ -2915,437 +2984,508 @@
                         {
                             "Id": "Xolotl_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
-                "{{ModId}}_Valkyrie": {
+                "{{ModId}}_Valkyrie_Shop": {
                     "Items": [
                         {
                             "ItemId": "(W)Raffadax.RCP_Airgetlam",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofIshtar",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_AntlerofCernunnos",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofAbnoba",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Aurelia",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofDemeter",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Balmung",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofGarmr",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_BowofEros",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofVenus",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Bragi",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofIdunn",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Brionac",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofBaldr",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Brisingamen",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofFreyja",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Caladcholg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_RainbowSerpentMead",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Caliburn",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_LapisPhilosophorum",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Callisto",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPolaris",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_ClaiomhSolais",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Ambrosia",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Clarent",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofTitania",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Corndelicorne",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofEpona",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Dainsleif",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_SuttungrMead",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_DragonCrescentBlade",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofBahamut",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Dreamcatcher",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofIktomi",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Durandal",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAres",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Dystopia",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofEris",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Eurydice",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofAristaeus",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Excalibur",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofHarmonia",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_EyeofRa",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofRa",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Faunus",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPan",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_FrostFareBlade",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_KuraokamiWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Galatine",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofBelenus",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Gambanteinn",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofHekate",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Glamdring",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofOberon",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Gram",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofKvasir",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Gungnir",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofOdin",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Inkanyamba",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofOko",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Kaumodaki",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofHanuman",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Kerykeion",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAsklepios",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Kusanagi",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_AmaterasuWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_KwakuAnanse",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAnansi",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Kyuubi",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofInari",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Laevateinn",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofLoki",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Lagertha",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofSkadi",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Longinus",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_HyperionWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_LorgMor",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_DormarchWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_MahuikasTalon",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPele",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Mezzaluna",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Soma",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_MirrorofPachacutec",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_ViracochaWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Mjollnir",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofDonar",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_MomentoMori",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPersephone",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_MwindosScepter",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofOshun",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Naberius",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_CerberusWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Nidhoggr",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofHel",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Ohto",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofTapio",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Orcus",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPluton",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Orion",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofSirius",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Ouroboros",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofJormungandr",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_PhoenixPinion",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_PhoenixMead",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Ragnarok",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofFenrir",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Ratatoskr",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofEostre",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Revontulet",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofTulikettu",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_SavetheQueen",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofBeyla",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_SeditsWhisker",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Huehuecoyotl",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_SilverCrescent",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofArtemis",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Skirnismal",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofFreyr",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_StaffofIris",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofGanymede",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_StaffofOisin",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofHyldemor",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_StaffofYoba",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofYoba",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Sundog",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_ApolloWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_SwordofThunderbolt",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofJupiter",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Tezcatlipoca",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofCamazotz",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Thyrsus",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofBacchus",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Triton",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofNeptune",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Tyrfing",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAuberon",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Vajra",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofOsiris",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Wepwawet",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAnubis",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Zephyros",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofBoreas",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -3364,7 +3504,7 @@
                             "Name": "AnyOrNone",
                             "Portrait": "assets/textures/Portraits/Valkyrie.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It is too dark to read the inscription.",
+                            "ClosedMessage": "{{i18n:Valkyrie.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "ValkyrieDialogue_1",
@@ -3373,9 +3513,16 @@
                             ]
                         }
                     ],
-                    "StackSizeVisibility": "ShowIfMultiple"
+                    "StackSizeVisibility": "ShowIfMultiple",
+                    "PriceModifiers": [
+                        {
+                            "Id": "Valkyrie_SellPriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 1.5
+                        }
+                    ]
                 },
-                "{{ModId}}_Humidor": {
+                "{{ModId}}_Humidor_Shop": {
                     "Items": [
                         {
                             "ItemId": "(O)Raffadax.RCP_Cigar"
@@ -3421,74 +3568,95 @@
                             "Name": "AnyOrNone",
                             "Portrait": "assets/textures/Portraits/Humidor.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It seems to be turned off.",
+                            "ClosedMessage": "{{i18n:Humidor.ShopClosed}}",
                             "Dialogues": [
                                 {
-                                    "Id": "Humidordialogue_1",
+                                    "Id": "HumidorDialogue_1",
                                     "Dialogue": "{{i18n:Humidor.ShopDialogue}}"
                                 }
                             ]
                         }
                     ],
-                    "StackSizeVisibility": "ShowIfMultiple"
+                    "StackSizeVisibility": "ShowIfMultiple",
+                    "PriceModifiers": [
+                        {
+                            "Id": "Humidor_SellPriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 1.5
+                        }
+                    ]
                 },
-                "{{ModId}}_SodaMachine": {
+                "{{ModId}}_SodaMachine_Shop": {
                     "Items": [
                         {
                             "ItemId": "(O)167",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Cola",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CherryCola",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Dr.Pimento",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)903",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GrapeCrash",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LemonUp",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MountainBlue",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_OrangeCrash",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Pixie",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RootBeer",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SakuraSoda",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Spurt",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WolfCola",
-                            "Price": 1000
+                            "Price": 1000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "RandomItemId": [
@@ -3517,16 +3685,23 @@
                             "Name": "AnyOrNone",
                             "Portrait": "assets/textures/Portraits/SodaMachine.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "It seems to be turned off.",
+                            "ClosedMessage": "{{i18n:SodaMachine.ShopClosed}}",
                             "Dialogues": [
                                 {
-                                    "Id": "SodaMachinedialogue_1",
+                                    "Id": "SodaMachineDialogue_1",
                                     "Dialogue": "{{i18n:SodaMachine.ShopDialogue}}"
                                 }
                             ]
                         }
                     ],
-                    "StackSizeVisibility": "ShowIfMultiple"
+                    "StackSizeVisibility": "ShowIfMultiple",
+                    "PriceModifiers": [
+                        {
+                            "Id": "SodaMachine_SellPriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 1.5
+                        }
+                    ]
                 }
             }
         },
@@ -3585,45 +3760,40 @@
             "Entries": {
                 "Raffadax.RCP_RandomNode_0": {
                     "RandomItemId": [
-                        "(O)Raffadax.RCP_AbyssalFabric",
-                        "(O)Raffadax.RCP_AureolinFabric",
-                        "(O)Raffadax.RCP_AuroraFabric",
-                        "(O)Raffadax.RCP_BoltofMoss",
-                        "(O)Raffadax.RCP_CelestialFabric",
-                        "(O)Raffadax.RCP_EnchantedFabric",
-                        "(O)Raffadax.RCP_FabricofChaos",
-                        "(O)Raffadax.RCP_FlameFabric",
-                        "(O)Raffadax.RCP_FrostFabric",
-                        "(O)Raffadax.RCP_FurPelt",
-                        "(O)Raffadax.RCP_GoldenFabric",
-                        "(O)Raffadax.RCP_GoldenThread",
-                        "(O)Raffadax.RCP_HarmonicFabric",
-                        "(O)Raffadax.RCP_IridescentFabric",
-                        "(O)Raffadax.RCP_LuckFabric",
-                        "(O)Raffadax.RCP_LuminousFabric",
-                        "(O)Raffadax.RCP_MidnightFabric",
-                        "(O)Raffadax.RCP_MoonbeamFabric",
-                        "(O)Raffadax.RCP_MysticalFabric",
-                        "(O)Raffadax.RCP_MythrilFabric",
-                        "(O)Raffadax.RCP_NightshadeFabric",
-                        "(O)Raffadax.RCP_PlatinumFabric",
-                        "(O)Raffadax.RCP_RosePetalFabric",
-                        "(O)Raffadax.RCP_SacredFabric",
-                        "(O)Raffadax.RCP_ScaleCloth",
-                        "(O)Raffadax.RCP_SilverFabric",
-                        "(O)Raffadax.RCP_SnowFabric",
-                        "(O)Raffadax.RCP_SpiderFabric",
-                        "(O)Raffadax.RCP_StarlightFabric",
-                        "(O)Raffadax.RCP_StormFabric",
-                        "(O)Raffadax.RCP_SunbeamFabric",
-                        "(O)Raffadax.RCP_SunsetFabric",
-                        "(O)Raffadax.RCP_SylvanFabric",
-                        "(O)Raffadax.RCP_ThunderFabric",
-                        "(O)Raffadax.RCP_VertigoFabric",
-                        "(O)Raffadax.RCP_VoidFabric"
+                        "(O)Raffadax.RCP_Amanita",
+                        "(O)Raffadax.RCP_Anemushroom",
+                        "(O)Raffadax.RCP_BerserkerMushroom",
+                        "(O)Raffadax.RCP_BlackStoneFlower",
+                        "(O)Raffadax.RCP_BlackTruffle",
+                        "(O)Raffadax.RCP_BlueOysterMushroom",
+                        "(O)Raffadax.RCP_ButtonMushroom",
+                        "(O)Raffadax.RCP_Cactushroom",
+                        "(O)281",
+                        "(O)404",
+                        "(O)Raffadax.RCP_CreminiMushroom",
+                        "(O)Raffadax.RCP_DryadsSaddle",
+                        "(O)Raffadax.RCP_Ergot",
+                        "(O)Raffadax.RCP_FrostCap",
+                        "(O)Raffadax.RCP_GemCap",
+                        "(O)Raffadax.RCP_Luminushroom",
+                        "(O)851",
+                        "(O)Raffadax.RCP_MatsutakeMushroom",
+                        "(O)257",
+                        "(O)Raffadax.RCP_PortobelloMushroom",
+                        "(O)Raffadax.RCP_Mosshroom",
+                        "(O)Raffadax.RCP_PsilocybinMushroom",
+                        "(O)Raffadax.RCP_PuffballMushroom",
+                        "(O)422",
+                        "(O)Raffadax.RCP_RadioactiveMushroom",
+                        "(O)Raffadax.RCP_RedAntlerReishi",
+                        "(O)420",
+                        "(O)Raffadax.RCP_ThunderCap",
+                        "(O)430",
+                        "(O)Raffadax.RCP_Tumbleweed",
+                        "(O)Raffadax.RCP_VoidMushroom",
+                        "(O)Raffadax.RCP_WhiteTruffle"
                     ],
-                    "TradeItemId": "(O)Raffadax.RCP_Raffadax.RCP_MythrilBar",
-                    "TradeItemAmount": 5,
+                    "Price": 500,
                     "AvoidRepeat": true,
                     "AvailableStock": 1
                 },
@@ -3645,6 +3815,26 @@
                 "Raffadax.RCP_RockSalt": {
                     "ItemId": "(O)Raffadax.RCP_RockSalt",
                     "Price": 250,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_1": {
+                    "RandomItemId": [
+                        "(O)66",
+                        "(O)62",
+                        "(O)72",
+                        "(O)60",
+                        "(O)565",
+                        "(O)70",
+                        "(O)575",
+                        "(O)Raffadax.RCP_Onyx",
+                        "(O)564",
+                        "(O)64",
+                        "(O)Raffadax.RCP_Sapphire",
+                        "(O)562",
+                        "(O)68"
+                    ],
+                    "Price": 500,
+                    "AvoidRepeat": true,
                     "AvailableStock": 1
                 },
                 "Raffadax.RCP_Lodestone": {
@@ -3680,25 +3870,8 @@
                     "ItemId": "(O)910",
                     "Condition": "YEAR 3",
                     "Price": 10000
-                }
-            }
-        },
-        {
-            "LogName": "Raffadax Vanilla Shop Edit - DesertTrade",
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "TargetField": [
-                "DesertTrade",
-                "Items"
-            ],
-            "Entries": {
-                "Raffadax.RCP_Incense": {
-                    "ItemId": "(O)Raffadax.RCP_Incense",
-                    "TradeItemId": "(O)Raffadax.RCP_RockSalt",
-                    "TradeItemAmount": 5,
-                    "AvailableStock": 1
                 },
-                "Raffadax.RCP_RandomNode_0": {
+                "Raffadax.RCP_RandomNode_2": {
                     "RandomItemId": [
                         "(O)Raffadax.RCP_AbyssalFabric",
                         "(O)Raffadax.RCP_AureolinFabric",
@@ -3737,7 +3910,131 @@
                         "(O)Raffadax.RCP_VertigoFabric",
                         "(O)Raffadax.RCP_VoidFabric"
                     ],
-                    "TradeItemId": "(O)Raffadax.RCP_74",
+                    "TradeItemId": "(O)Raffadax.RCP_MythrilBar",
+                    "TradeItemAmount": 5,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                }
+            }
+        },
+        {
+            "LogName": "Raffadax Vanilla Shop Edit - DesertTrade",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "DesertTrade",
+                "Items"
+            ],
+            "Entries": {
+                "Raffadax.RCP_Incense": {
+                    "ItemId": "(O)Raffadax.RCP_Incense",
+                    "TradeItemId": "(O)Raffadax.RCP_RockSalt",
+                    "TradeItemAmount": 5,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_0": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AdoboSeasoning",
+                        "(O)Raffadax.RCP_Advieh",
+                        "(O)Raffadax.RCP_BaharatSeasoning",
+                        "(O)Raffadax.RCP_BerbereSeasoning",
+                        "(O)Raffadax.RCP_CajunSeasoning",
+                        "(O)Raffadax.RCP_ChaatMasala",
+                        "(O)Raffadax.RCP_ChaiSpiceMix",
+                        "(O)Raffadax.RCP_ChiliPowder",
+                        "(O)Raffadax.RCP_Chimichurri",
+                        "(O)Raffadax.RCP_CreoleSeasoning",
+                        "(O)Raffadax.RCP_CurryPowder",
+                        "(O)Raffadax.RCP_Duqqa",
+                        "(O)Raffadax.RCP_ErbeItaliane",
+                        "(O)Raffadax.RCP_FinesHerbes",
+                        "(O)Raffadax.RCP_FiveSpicePowder",
+                        "(O)Raffadax.RCP_FurikakeSeasoning",
+                        "(O)Raffadax.RCP_GaramMasala",
+                        "(O)Raffadax.RCP_Harissa",
+                        "(O)Raffadax.RCP_HerbesdeProvence",
+                        "(O)Raffadax.RCP_JerkSeasoning",
+                        "(O)Raffadax.RCP_LemonPepperSeasoning",
+                        "(O)Raffadax.RCP_MoleSauce",
+                        "(O)Raffadax.RCP_Mukhwas",
+                        "(O)Raffadax.RCP_PumpkinSpiceMix",
+                        "(O)Raffadax.RCP_RaselHanout",
+                        "(O)Raffadax.RCP_TogarashiSeasoning",
+                        "(O)Raffadax.RCP_ZaatarSeasoning",
+                        "(O)Raffadax.RCP_Zhug"
+                    ],
+                    "TradeItemId": "(O)Raffadax.RCP_Onyx",
+                    "TradeItemAmount": 1,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_1": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_BalsamicVinaigrette",
+                        "(O)Raffadax.RCP_BlueCheeseDressing",
+                        "(O)Raffadax.RCP_CaesarDressing",
+                        "(O)Raffadax.RCP_CatalinaDressing",
+                        "(O)Raffadax.RCP_CocktailSauce",
+                        "(O)Raffadax.RCP_FrenchDressing",
+                        "(O)Raffadax.RCP_GreekDressing",
+                        "(O)Raffadax.RCP_HoneyMustardDressing",
+                        "(O)Raffadax.RCP_ItalianDressing",
+                        "(O)Raffadax.RCP_LemonVinaigrette",
+                        "(O)Raffadax.RCP_MoleSauce",
+                        "(O)Raffadax.RCP_RanchDressing",
+                        "(O)Raffadax.RCP_RaspberryVinaigrette",
+                        "(O)Raffadax.RCP_RedWineVinaigrette",
+                        "(O)Raffadax.RCP_RussianDressing",
+                        "(O)Raffadax.RCP_TartarSauce",
+                        "(O)Raffadax.RCP_ThousandIslandDressing",
+                        "(O)Raffadax.RCP_WhiteWineVinaigrette",
+                        "(O)Raffadax.RCP_WorcestershireSauce"
+                    ],
+                    "TradeItemId": "(O)72",
+                    "TradeItemAmount": 1,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_2": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AbyssalFabric",
+                        "(O)Raffadax.RCP_AureolinFabric",
+                        "(O)Raffadax.RCP_AuroraFabric",
+                        "(O)Raffadax.RCP_BoltofMoss",
+                        "(O)Raffadax.RCP_CelestialFabric",
+                        "(O)Raffadax.RCP_EnchantedFabric",
+                        "(O)Raffadax.RCP_FabricofChaos",
+                        "(O)Raffadax.RCP_FlameFabric",
+                        "(O)Raffadax.RCP_FrostFabric",
+                        "(O)Raffadax.RCP_FurPelt",
+                        "(O)Raffadax.RCP_GoldenFabric",
+                        "(O)Raffadax.RCP_GoldenThread",
+                        "(O)Raffadax.RCP_HarmonicFabric",
+                        "(O)Raffadax.RCP_IridescentFabric",
+                        "(O)Raffadax.RCP_LuckFabric",
+                        "(O)Raffadax.RCP_LuminousFabric",
+                        "(O)Raffadax.RCP_MidnightFabric",
+                        "(O)Raffadax.RCP_MoonbeamFabric",
+                        "(O)Raffadax.RCP_MysticalFabric",
+                        "(O)Raffadax.RCP_MythrilFabric",
+                        "(O)Raffadax.RCP_NightshadeFabric",
+                        "(O)Raffadax.RCP_PlatinumFabric",
+                        "(O)Raffadax.RCP_RosePetalFabric",
+                        "(O)Raffadax.RCP_SacredFabric",
+                        "(O)Raffadax.RCP_ScaleCloth",
+                        "(O)Raffadax.RCP_SilverFabric",
+                        "(O)Raffadax.RCP_SnowFabric",
+                        "(O)Raffadax.RCP_SpiderFabric",
+                        "(O)Raffadax.RCP_StarlightFabric",
+                        "(O)Raffadax.RCP_StormFabric",
+                        "(O)Raffadax.RCP_SunbeamFabric",
+                        "(O)Raffadax.RCP_SunsetFabric",
+                        "(O)Raffadax.RCP_SylvanFabric",
+                        "(O)Raffadax.RCP_ThunderFabric",
+                        "(O)Raffadax.RCP_VertigoFabric",
+                        "(O)Raffadax.RCP_VoidFabric"
+                    ],
+                    "TradeItemId": "(O)74",
                     "TradeItemAmount": 1,
                     "AvoidRepeat": true,
                     "AvailableStock": 1
@@ -4065,6 +4362,121 @@
                 },
                 "Raffadax.RCP_RandomNode_0": {
                     "RandomItemId": [
+                        "(O)Raffadax.RCP_AppleCider",
+                        "(O)Raffadax.RCP_AppleSoda",
+                        "(O)Raffadax.RCP_ArnoldPalmer",
+                        "(O)Raffadax.RCP_BirchBeer",
+                        "(O)Raffadax.RCP_BlueRaspberryLemonade",
+                        "(O)Raffadax.RCP_ButterscotchBeer",
+                        "(O)Raffadax.RCP_CassisSoda",
+                        "(O)Raffadax.RCP_CherryCola",
+                        "(O)Raffadax.RCP_ClubSoda",
+                        "(O)Raffadax.RCP_CranberryGingerAle",
+                        "(O)Raffadax.RCP_CreamSoda",
+                        "(O)Raffadax.RCP_Dr.Pimento",
+                        "(O)Raffadax.RCP_ElderberrySoda",
+                        "(O)Raffadax.RCP_ElderflowerSoda",
+                        "(O)Raffadax.RCP_FruitPunch",
+                        "(O)903",
+                        "(O)Raffadax.RCP_GingerBeer",
+                        "(O)Raffadax.RCP_GrapeCrash",
+                        "(O)Raffadax.RCP_GreenTeaLemonade",
+                        "(O)Raffadax.RCP_Lemonade",
+                        "(O)Raffadax.RCP_LemonUp",
+                        "(O)Raffadax.RCP_Limeade",
+                        "(O)Raffadax.RCP_LycheeSoda",
+                        "(O)Raffadax.RCP_MelonSoda",
+                        "(O)Raffadax.RCP_MountainBlue",
+                        "(O)Raffadax.RCP_Orangeade",
+                        "(O)Raffadax.RCP_PearSoda",
+                        "(O)Raffadax.RCP_PineappleCrash",
+                        "(O)Raffadax.RCP_PinkLemonade",
+                        "(O)Raffadax.RCP_Pixie",
+                        "(O)Raffadax.RCP_RootBeer",
+                        "(O)Raffadax.RCP_SakuraSoda",
+                        "(O)Raffadax.RCP_Sarsaparilla",
+                        "(O)Raffadax.RCP_Seltzer",
+                        "(O)Raffadax.RCP_SourAppleSoda",
+                        "(O)Raffadax.RCP_SpruceBeer",
+                        "(O)Raffadax.RCP_Spurt",
+                        "(O)Raffadax.RCP_StrawberryLemonade",
+                        "(O)Raffadax.RCP_TamarindSoda",
+                        "(O)Raffadax.RCP_TonicWater",
+                        "(O)Raffadax.RCP_WolfCola",
+                        "(O)Raffadax.RCP_WoodruffSoda"
+                    ],
+                    "Price": 250,
+                    "AvoidRepeat": true
+                },
+                "Raffadax.RCP_RandomNode_1": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_CafeCaramel",
+                        "(O)Raffadax.RCP_ChicoryCoffee",
+                        "(O)395",
+                        "(O)Raffadax.RCP_ColdBrewCoffee",
+                        "(O)Raffadax.RCP_DarkChocolateMocha",
+                        "(O)Raffadax.RCP_DarkCocoa",
+                        "(O)Raffadax.RCP_DarkRoastCoffee",
+                        "(O)Raffadax.RCP_HotButterscotch",
+                        "(O)Raffadax.RCP_HotCocoa",
+                        "(O)Raffadax.RCP_LightRoastCoffee",
+                        "(O)Raffadax.RCP_LondonFog",
+                        "(O)Raffadax.RCP_MediumRoastCoffee",
+                        "(O)Raffadax.RCP_MintCocoa",
+                        "(O)Raffadax.RCP_MintMocha",
+                        "(O)Raffadax.RCP_Mocha",
+                        "(O)Raffadax.RCP_PumpkinSpiceCoffee",
+                        "(O)Raffadax.RCP_VanillaCafe",
+                        "(O)Raffadax.RCP_WhiteChocolateMocha",
+                        "(O)Raffadax.RCP_WhiteCocoa"
+                    ],
+                    "Price": 350,
+                    "AvoidRepeat": true
+                },
+                "Raffadax.RCP_RandomNode_2": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_Aguapanela",
+                        "(O)Raffadax.RCP_BlackTea",
+                        "(O)Raffadax.RCP_BobaTea",
+                        "(O)Raffadax.RCP_BongsutangTea",
+                        "(O)Raffadax.RCP_ChaiTea",
+                        "(O)Raffadax.RCP_ChamomileTea",
+                        "(O)Raffadax.RCP_ChandanTea",
+                        "(O)Raffadax.RCP_DandelionTea",
+                        "(O)Raffadax.RCP_EarlGreyTea",
+                        "(O)Raffadax.RCP_ElderflowerTea",
+                        "(O)Raffadax.RCP_GenmaichaTea",
+                        "(O)Raffadax.RCP_GinkgoTea",
+                        "(O)614",
+                        "(O)Raffadax.RCP_GyokuroTea",
+                        "(O)Raffadax.RCP_HibiscusTea",
+                        "(O)Raffadax.RCP_HojichaTea",
+                        "(O)Raffadax.RCP_IceTea",
+                        "(O)Raffadax.RCP_CelticBreakfastTea",
+                        "(O)Raffadax.RCP_JasmineTea",
+                        "(O)Raffadax.RCP_KukichaTea",
+                        "(O)Raffadax.RCP_LavenderTea",
+                        "(O)Raffadax.RCP_LemongrassTea",
+                        "(O)Raffadax.RCP_LindenTea",
+                        "(O)Raffadax.RCP_MatchaTea",
+                        "(O)Raffadax.RCP_OolongTea",
+                        "(O)Raffadax.RCP_PeppermintTea",
+                        "(O)Raffadax.RCP_PuerhTea",
+                        "(O)Raffadax.RCP_RedTea",
+                        "(O)Raffadax.RCP_RooibosTea",
+                        "(O)Raffadax.RCP_RoseTea",
+                        "(O)Raffadax.RCP_SabjaTea",
+                        "(O)Raffadax.RCP_Sakurayu",
+                        "(O)Raffadax.RCP_SenchaGreenTea",
+                        "(O)Raffadax.RCP_SpearmintTea",
+                        "(O)Raffadax.RCP_WhiteTea",
+                        "(O)Raffadax.RCP_YellowTea"
+                    ],
+                    "Price": 350,
+                    "AvoidRepeat": true
+                },
+                "Raffadax.RCP_RandomNode_3": {
+                    "RandomItemId": [
                         "(O)Raffadax.RCP_AmberAle",
                         "(O)Raffadax.RCP_Braggot",
                         "(O)Raffadax.RCP_Cauim",
@@ -4089,7 +4501,7 @@
                         "(O)Raffadax.RCP_Rose",
                         "(O)Raffadax.RCP_RowanberrySour",
                         "(O)Raffadax.RCP_Sake",
-                        "(O)Raffadax.RCP_Schwartzbier",
+                        "(O)Raffadax.RCP_Schwarzbier",
                         "(O)Raffadax.RCP_Shandy",
                         "(O)Raffadax.RCP_SourAle",
                         "(O)Raffadax.RCP_SparklingCider",
@@ -4113,26 +4525,54 @@
             ],
             "Entries": {
                 "Raffadax.RCP_P.camemberti": {
-                    "ItemId": "(O)Raffadax.RCP_P.camemberti",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_P.camemberti"
                 },
                 "Raffadax.RCP_P.candidum": {
-                    "ItemId": "(O)Raffadax.RCP_P.candidum",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_P.candidum"
                 },
                 "Raffadax.RCP_P.rubens": {
-                    "ItemId": "(O)Raffadax.RCP_P.rubens",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_P.rubens"
                 },
                 "Raffadax.RCP_P.glaucum": {
-                    "ItemId": "(O)Raffadax.RCP_P.glaucum",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_P.glaucum"
                 },
                 "Raffadax.RCP_P.roqueforti": {
-                    "ItemId": "(O)Raffadax.RCP_P.roqueforti",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_P.roqueforti"
                 },
                 "Raffadax.RCP_RandomNode_0": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AgaveExtract",
+                        "(O)Raffadax.RCP_AloeExtract",
+                        "(O)Raffadax.RCP_AloeSalve",
+                        "(O)Raffadax.RCP_AngosturaExtract",
+                        "(O)Raffadax.RCP_BambooExtract",
+                        "(O)Raffadax.RCP_CannabisExtract",
+                        "(O)Raffadax.RCP_CannabisOil",
+                        "(O)Raffadax.RCP_DandelionRootExtract",
+                        "(O)Raffadax.RCP_EbonyExtract",
+                        "(O)Raffadax.RCP_EucalyptusExtract",
+                        "(O)Raffadax.RCP_FernExtract",
+                        "(O)Raffadax.RCP_GinkgoExtract",
+                        "(O)Raffadax.RCP_GrapeVineExtract",
+                        "(O)Raffadax.RCP_HollyExtract",
+                        "(O)Raffadax.RCP_KelpExtract",
+                        "(O)Raffadax.RCP_LindenExtract",
+                        "(O)Raffadax.RCP_LiverwortExtract",
+                        "(O)Raffadax.RCP_LotusRootExtract",
+                        "(O)Raffadax.RCP_Mescaline",
+                        "(O)Raffadax.RCP_MugwortExtract",
+                        "(O)Raffadax.RCP_Penicillin",
+                        "(O)Raffadax.RCP_PsilocybinExtract",
+                        "(O)Raffadax.RCP_Quinine",
+                        "(O)Raffadax.RCP_SeaweedExtract",
+                        "(O)Raffadax.RCP_WillowExtract",
+                        "(O)Raffadax.RCP_WitchHazelExtract",
+                        "(O)Raffadax.RCP_WormwoodExtract"
+                    ],
+                    "Price": 750,
+                    "AvoidRepeat": true
+                },
+                "Raffadax.RCP_RandomNode_1": {
                     "RandomItemId": [
                         "(O)Raffadax.RCP_AgavePowder",
                         "(O)Raffadax.RCP_AlgaePowder",
@@ -4185,52 +4625,373 @@
                 "Raffadax.RCP_AlmondSapling": {
                     "ItemId": "(O)Raffadax.RCP_AlmondSapling",
                     "Condition": "YEAR 2",
-                    "Price": 8000
+                    "Price": 6400
                 },
                 "Raffadax.RCP_GrapefruitSapling": {
                     "ItemId": "(O)Raffadax.RCP_GrapefruitSapling",
                     "Condition": "YEAR 2",
-                    "Price": 7000
+                    "Price": 5600
                 },
                 "Raffadax.RCP_LemonSapling": {
                     "ItemId": "(O)Raffadax.RCP_LemonSapling",
                     "Condition": "YEAR 2",
-                    "Price": 5000
+                    "Price": 4000
                 },
                 "Raffadax.RCP_LimeSapling": {
                     "ItemId": "(O)Raffadax.RCP_LimeSapling",
                     "Condition": "YEAR 2",
-                    "Price": 4000
+                    "Price": 3200
                 },
                 "Raffadax.RCP_PearSapling": {
                     "ItemId": "(O)Raffadax.RCP_PearSapling",
-                    "Price": 3000
+                    "Price": 2400
                 },
                 "Raffadax.RCP_WalnutSapling": {
                     "ItemId": "(O)Raffadax.RCP_WalnutSapling",
-                    "Price": 7000
+                    "Price": 5600
                 },
                 "Raffadax.RCP_BacteriaCulture": {
                     "ItemId": "(O)Raffadax.RCP_BacteriaCulture",
-                    "IgnoreShopPriceModifiers": true
+                    "IgnoreShopPriceModifiers": true,
+                    "UseObjectDataPrice": true
                 },
                 "Raffadax.RCP_SCOBY": {
                     "ItemId": "(O)Raffadax.RCP_SCOBY",
-                    "IgnoreShopPriceModifiers": true
+                    "IgnoreShopPriceModifiers": true,
+                    "UseObjectDataPrice": true
                 },
                 "Raffadax.RCP_Yeast": {
                     "ItemId": "(O)Raffadax.RCP_Yeast",
-                    "IgnoreShopPriceModifiers": true
+                    "IgnoreShopPriceModifiers": true,
+                    "UseObjectDataPrice": true
                 },
                 "Raffadax.RCP_Malt": {
                     "ItemId": "(O)Raffadax.RCP_Malt",
-                    "IgnoreShopPriceModifiers": true
+                    "IgnoreShopPriceModifiers": true,
+                    "UseObjectDataPrice": true
                 },
                 "Raffadax.RCP_RoastingPouch": {
                     "ItemId": "(O)Raffadax.RCP_RoastingPouch",
-                    "IgnoreShopPriceModifiers": true
+                    "IgnoreShopPriceModifiers": true,
+                    "UseObjectDataPrice": true
                 },
                 "Raffadax.RCP_RandomNode_0": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_ClimateControlPouch",
+                        "(O)Raffadax.RCP_CryonicPouch",
+                        "(O)Raffadax.RCP_MillingPouch",
+                        "(O)Raffadax.RCP_SolarPouch",
+                        "(O)Raffadax.RCP_UmbraPouch"
+                    ],
+                    "IgnoreShopPriceModifiers": true,
+                    "AvoidRepeat": true,
+                    "UseObjectDataPrice": true
+                },
+                "Raffadax.RCP_RandomNode_1": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AppleSnacks",
+                        "(O)Raffadax.RCP_BreakfastBran",
+                        "(O)Raffadax.RCP_CheeryOats",
+                        "(O)Raffadax.RCP_ChocDracula",
+                        "(O)Raffadax.RCP_CinnamonCrunchMunch",
+                        "(O)Raffadax.RCP_CookieCrunch",
+                        "(O)Raffadax.RCP_CornBakes",
+                        "(O)Raffadax.RCP_FortuneShapes",
+                        "(O)Raffadax.RCP_FrostedBakes",
+                        "(O)Raffadax.RCP_FruitHoops",
+                        "(O)Raffadax.RCP_HoneyNutBunches",
+                        "(O)Raffadax.RCP_HoneySnacks",
+                        "(O)Raffadax.RCP_InstantGrits",
+                        "(O)Raffadax.RCP_InstantOatmeal",
+                        "(O)Raffadax.RCP_MonStarMunch",
+                        "(O)Raffadax.RCP_NutBunches",
+                        "(O)Raffadax.RCP_RaisinSunCrunch",
+                        "(O)Raffadax.RCP_SweetenedTinyWheats",
+                        "(O)Raffadax.RCP_TatteredWheat",
+                        "(O)Raffadax.RCP_VanillaOs",
+                        "(O)Raffadax.RCP_WhiteWolfEms"
+                    ],
+                    "Condition": "DAY_OF_WEEK Mon",
+                    "Price": 600,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_2": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AppleChips",
+                        "(O)Raffadax.RCP_BananaChips",
+                        "(O)Raffadax.RCP_BarbecueChips",
+                        "(O)Raffadax.RCP_BlackPepperChips",
+                        "(O)Raffadax.RCP_BlueBananaChips",
+                        "(O)Raffadax.RCP_BlueCornChips",
+                        "(O)Raffadax.RCP_BluePotatoChips",
+                        "(O)Raffadax.RCP_ButteredPopcorn",
+                        "(O)Raffadax.RCP_CaramelCorn",
+                        "(O)Raffadax.RCP_CheesePuffs",
+                        "(O)Raffadax.RCP_CheddarCheeseChips",
+                        "(O)Raffadax.RCP_CornChips",
+                        "(O)Raffadax.RCP_GrosMichelChips",
+                        "(O)Raffadax.RCP_HoneycrispAppleChips",
+                        "(O)Raffadax.RCP_HotCornChips",
+                        "(O)Raffadax.RCP_HuaMoaChips",
+                        "(O)Raffadax.RCP_JalapenoPotatoChips",
+                        "(O)Raffadax.RCP_KaleChips",
+                        "(O)Raffadax.RCP_KettleCorn",
+                        "(O)Raffadax.RCP_NachoCornChips",
+                        "(O)Raffadax.RCP_NinoBananaChips",
+                        "(O)Raffadax.RCP_PlantainChips",
+                        "(O)Raffadax.RCP_Popcorn",
+                        "(O)Raffadax.RCP_PopcornKernels",
+                        "(O)Raffadax.RCP_PotatoChips",
+                        "(O)Raffadax.RCP_Pretzels",
+                        "(O)Raffadax.RCP_RanchCornChips",
+                        "(O)Raffadax.RCP_RedBananaChips",
+                        "(O)Raffadax.RCP_RedCornChips",
+                        "(O)Raffadax.RCP_RedPotatoChips",
+                        "(O)Raffadax.RCP_RoastedPeanuts",
+                        "(O)Raffadax.RCP_SaltVinegarChips",
+                        "(O)Raffadax.RCP_SourAppleChips",
+                        "(O)Raffadax.RCP_SourCreamOnionChips",
+                        "(O)Raffadax.RCP_SpinachChips",
+                        "(O)Raffadax.RCP_SweetPotatoChips",
+                        "(O)Raffadax.RCP_TapiocaChips",
+                        "(O)Raffadax.RCP_YamChips"
+                    ],
+                    "Condition": "DAY_OF_WEEK Tue",
+                    "Price": 280,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_3": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AlfredoSauce",
+                        "(O)Raffadax.RCP_AppleSauce",
+                        "(O)Raffadax.RCP_AvocadoMayonnaise",
+                        "(O)Raffadax.RCP_BarbecueSauce",
+                        "(O)Raffadax.RCP_BlackBeanPuree",
+                        "(O)Raffadax.RCP_BlackGarlicMayonnaise",
+                        "(O)Raffadax.RCP_BlackGarlicPaste",
+                        "(O)Raffadax.RCP_BlackTahini",
+                        "(O)Raffadax.RCP_BrownMustard",
+                        "(O)Raffadax.RCP_ChileconQueso",
+                        "(O)Raffadax.RCP_ChipotleMayonnaise",
+                        "(O)Raffadax.RCP_ChipotlePepperSauce",
+                        "(O)Raffadax.RCP_CilantroLimeMayonnaise",
+                        "(O)Raffadax.RCP_CocktailOlives",
+                        "(O)Raffadax.RCP_CocktailCherries",
+                        "(O)Raffadax.RCP_CocktailSauce",
+                        "(O)Raffadax.RCP_DijonMustard",
+                        "(O)Raffadax.RCP_DillPickles",
+                        "(O)Raffadax.RCP_ExtraVirginMayonnaise",
+                        "(O)Raffadax.RCP_GarlicMayonnaise",
+                        "(O)Raffadax.RCP_GarlicPaste",
+                        "(O)Raffadax.RCP_GingerPaste",
+                        "(O)Raffadax.RCP_GreenTomatoPaste",
+                        "(O)Raffadax.RCP_GreenTomatoSauce",
+                        "(O)Raffadax.RCP_Guacamole",
+                        "(O)Raffadax.RCP_HoneyBarbecueSauce",
+                        "(O)Raffadax.RCP_HoneyMustard",
+                        "(O)Raffadax.RCP_HotPepperSauce",
+                        "(O)Raffadax.RCP_Hummus",
+                        "(O)Raffadax.RCP_JalapenoMayonnaise",
+                        "(O)Raffadax.RCP_JalapenoPepperSauce",
+                        "(O)Raffadax.RCP_Ketchup",
+                        "(O)Raffadax.RCP_LemonDillMayonnaise",
+                        "(O)Raffadax.RCP_MoleSauce",
+                        "(O)Raffadax.RCP_Mayoketchup",
+                        "(O)Raffadax.RCP_OlivePaste",
+                        "(O)Raffadax.RCP_OliveOilMayonnaise",
+                        "(O)Raffadax.RCP_PaprikaPepperSauce",
+                        "(O)Raffadax.RCP_Pesto",
+                        "(O)Raffadax.RCP_PickledCapers",
+                        "(O)Raffadax.RCP_Relish",
+                        "(O)Raffadax.RCP_RosemaryGarlicMayonnaise",
+                        "(O)Raffadax.RCP_Salsa",
+                        "(O)Raffadax.RCP_Sauerkraut",
+                        "(O)Raffadax.RCP_ScotchBonnetPepperSauce",
+                        "(O)Raffadax.RCP_SourCreamOnionDip",
+                        "(O)Raffadax.RCP_SoySauce",
+                        "(O)Raffadax.RCP_SpiceBerrySauce",
+                        "(O)Raffadax.RCP_SpinachArtichokeDip",
+                        "(O)Raffadax.RCP_SunDriedTomato",
+                        "(O)Raffadax.RCP_TartarSauce",
+                        "(O)Raffadax.RCP_Tofu",
+                        "(O)Raffadax.RCP_TomatilloSalsa",
+                        "(O)Raffadax.RCP_TomatoPaste",
+                        "(O)Raffadax.RCP_TomatoSauce",
+                        "(O)Raffadax.RCP_Tucupi",
+                        "(O)Raffadax.RCP_VodkaSauce",
+                        "(O)Raffadax.RCP_WorcestershireSauce",
+                        "(O)Raffadax.RCP_YellowMustard"
+                    ],
+                    "Condition": "DAY_OF_WEEK Wed",
+                    "Price": 200,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_4": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AgaveNectar",
+                        "(O)Raffadax.RCP_Anko",
+                        "(O)Raffadax.RCP_AvocadoOil",
+                        "(O)Raffadax.RCP_BrownSugar",
+                        "(O)Raffadax.RCP_Butter",
+                        "(O)Raffadax.RCP_Butterscotch",
+                        "(O)Raffadax.RCP_CaneSugar",
+                        "(O)Raffadax.RCP_Caramel",
+                        "(O)Raffadax.RCP_CocoaButter",
+                        "(O)Raffadax.RCP_CocoaPowder",
+                        "(O)Raffadax.RCP_CoconutButter",
+                        "(O)Raffadax.RCP_CoconutFlakes",
+                        "(O)Raffadax.RCP_CondensedMilk",
+                        "(O)Raffadax.RCP_CornOil",
+                        "(O)Raffadax.RCP_CornStarch",
+                        "(O)Raffadax.RCP_Cornmeal",
+                        "(O)Raffadax.RCP_Cream",
+                        "(O)Raffadax.RCP_CreamofCoconut",
+                        "(O)Raffadax.RCP_CrushedAlmonds",
+                        "(O)Raffadax.RCP_CrushedPeanuts",
+                        "(O)Raffadax.RCP_CrushedWalnuts",
+                        "(O)Raffadax.RCP_EvaporatedMilk",
+                        "(O)Raffadax.RCP_ExtraVirginOliveOil",
+                        "(O)Raffadax.RCP_FireOil",
+                        "(O)Raffadax.RCP_GoatButter",
+                        "(O)Raffadax.RCP_Goiabada",
+                        "(O)Raffadax.RCP_GoldenPrune",
+                        "(O)Raffadax.RCP_GoldenRaisins",
+                        "(O)Raffadax.RCP_GrapefruitZest",
+                        "(O)Raffadax.RCP_GreekYogurt",
+                        "(O)Raffadax.RCP_LemonZest",
+                        "(O)Raffadax.RCP_LimeZest",
+                        "(O)Raffadax.RCP_Margarine",
+                        "(O)Raffadax.RCP_Marzipan",
+                        "(O)Raffadax.RCP_Nougat",
+                        "(O)Raffadax.RCP_OliveOil",
+                        "(O)Raffadax.RCP_OrangeZest",
+                        "(O)Raffadax.RCP_Orgeat",
+                        "(O)Raffadax.RCP_PeanutButter",
+                        "(O)Raffadax.RCP_PeanutOil",
+                        "(O)Raffadax.RCP_PowderedMilk",
+                        "(O)Raffadax.RCP_PowderedSugar",
+                        "(O)Raffadax.RCP_Prune",
+                        "(O)Raffadax.RCP_QuinceCheese",
+                        "(O)Raffadax.RCP_TapiocaPearls",
+                        "(O)Raffadax.RCP_SourCream",
+                        "(O)Raffadax.RCP_VanillaPaste",
+                        "(O)Raffadax.RCP_Verjus",
+                        "(O)Raffadax.RCP_WhippedCream",
+                        "(O)Raffadax.RCP_Yogurt"
+                    ],
+                    "Condition": "DAY_OF_WEEK Thu",
+                    "Price": 200,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_5": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AlmondMilk",
+                        "(O)Raffadax.RCP_AppleCider",
+                        "(O)Raffadax.RCP_AppleJuice",
+                        "(O)Raffadax.RCP_ChocolateMilk",
+                        "(O)Raffadax.RCP_CoconutMilk",
+                        "(O)Raffadax.RCP_CranberryJuice",
+                        "(O)Raffadax.RCP_FruitPunch",
+                        "(O)Raffadax.RCP_GrapeJelly",
+                        "(O)Raffadax.RCP_GrapeJuice",
+                        "(O)Raffadax.RCP_GrapefruitJuice",
+                        "(O)Raffadax.RCP_Lemonade",
+                        "(O)Raffadax.RCP_LemonJuice",
+                        "(O)Raffadax.RCP_LimeJuice",
+                        "(O)Raffadax.RCP_OatMilk",
+                        "(O)Raffadax.RCP_OrangeJuice",
+                        "(O)Raffadax.RCP_OrangeMarmalade",
+                        "(O)Raffadax.RCP_OrangeMilk",
+                        "(O)Raffadax.RCP_PeachJam",
+                        "(O)Raffadax.RCP_PinkLemonade",
+                        "(O)Raffadax.RCP_RoseWater",
+                        "(O)Raffadax.RCP_StrawberryJam",
+                        "(O)Raffadax.RCP_StrawberryMilk",
+                        "(O)Raffadax.RCP_TomatoJuice",
+                        "(O)Raffadax.RCP_VanillaMilk"
+                    ],
+                    "Condition": "DAY_OF_WEEK Fri",
+                    "Price": 400,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_6": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_Allspice",
+                        "(O)Raffadax.RCP_Amchoor",
+                        "(O)Raffadax.RCP_Anardana",
+                        "(O)Raffadax.RCP_AniseStars",
+                        "(O)Raffadax.RCP_Aonori",
+                        "(O)Raffadax.RCP_BakingPowder",
+                        "(O)Raffadax.RCP_BakingSoda",
+                        "(O)Raffadax.RCP_BasilFlakes",
+                        "(O)Raffadax.RCP_BasilSeed",
+                        "(O)Raffadax.RCP_BayLeaves",
+                        "(O)Raffadax.RCP_BlackSesameSeed",
+                        "(O)Raffadax.RCP_CarawaySeed",
+                        "(O)Raffadax.RCP_CelerySeed",
+                        "(O)Raffadax.RCP_ChervilFlakes",
+                        "(O)Raffadax.RCP_ChipotleChiliPowder",
+                        "(O)Raffadax.RCP_ChiveFlakes",
+                        "(O)Raffadax.RCP_CilantroFlakes",
+                        "(O)Raffadax.RCP_Cloves",
+                        "(O)Raffadax.RCP_CorianderSeed",
+                        "(O)Raffadax.RCP_CreamofTartar",
+                        "(O)Raffadax.RCP_CrushedRedPepper",
+                        "(O)Raffadax.RCP_CuminSeed",
+                        "(O)Raffadax.RCP_CurryLeaves",
+                        "(O)Raffadax.RCP_DillWeed",
+                        "(O)Raffadax.RCP_DillSeed",
+                        "(O)Raffadax.RCP_FennelPollen",
+                        "(O)Raffadax.RCP_FennelSeed",
+                        "(O)Raffadax.RCP_FenugreekLeaves",
+                        "(O)Raffadax.RCP_FenugreekSeed",
+                        "(O)Raffadax.RCP_GarlicPowder",
+                        "(O)Raffadax.RCP_GreenCardamom",
+                        "(O)Raffadax.RCP_GreenChiliPowder",
+                        "(O)Raffadax.RCP_GroundBlackPepper",
+                        "(O)Raffadax.RCP_GroundCayennePepper",
+                        "(O)Raffadax.RCP_GroundCinnamon",
+                        "(O)Raffadax.RCP_GroundGinger",
+                        "(O)Raffadax.RCP_GroundNutmeg",
+                        "(O)Raffadax.RCP_GroundRedPepper",
+                        "(O)Raffadax.RCP_GroundWhitePepper",
+                        "(O)Raffadax.RCP_KalaNamak",
+                        "(O)Raffadax.RCP_Kalpasi",
+                        "(O)Raffadax.RCP_Mace",
+                        "(O)Raffadax.RCP_MarjoramLeaves",
+                        "(O)Raffadax.RCP_MincedGarlic",
+                        "(O)Raffadax.RCP_MincedOnion",
+                        "(O)Raffadax.RCP_Nori",
+                        "(O)Raffadax.RCP_OnionPowder",
+                        "(O)Raffadax.RCP_OreganoFlakes",
+                        "(O)Raffadax.RCP_ParsleyFlakes",
+                        "(O)Raffadax.RCP_PoppySeed",
+                        "(O)Raffadax.RCP_RedChiliPowder",
+                        "(O)Raffadax.RCP_RedPepperFlakes",
+                        "(O)Raffadax.RCP_RosemaryNeedles",
+                        "(O)Raffadax.RCP_Saffron",
+                        "(O)Raffadax.RCP_SageLeaves",
+                        "(O)Raffadax.RCP_SavoryLeaves",
+                        "(O)Raffadax.RCP_SeaweedFlakes",
+                        "(O)Raffadax.RCP_ShisoFlakes",
+                        "(O)Raffadax.RCP_TableSalt",
+                        "(O)Raffadax.RCP_TarragonLeaves",
+                        "(O)Raffadax.RCP_ThymeLeaves",
+                        "(O)Raffadax.RCP_TomatoFlakes",
+                        "(O)Raffadax.RCP_VanillaBeans",
+                        "(O)Raffadax.RCP_WhiteCardamom"
+                    ],
+                    "Condition": "DAY_OF_WEEK Sat",
+                    "Price": 280,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_7": {
                     "RandomItemId": [
                         "(O)Raffadax.RCP_BlackTeaLeaf",
                         "(O)Raffadax.RCP_BongsutangTeaMix",
@@ -4249,7 +5010,7 @@
                         "(O)Raffadax.RCP_DriedRose",
                         "(O)Raffadax.RCP_DriedSakuraBlossom",
                         "(O)Raffadax.RCP_EarlGreyTeaLeaf",
-                        "(O)Raffadax.RCP_GenmaichaTeaLeaf",
+                        "(O)Raffadax.RCP_GenmaichaTeaMix",
                         "(O)Raffadax.RCP_GyokuroTeaLeaf",
                         "(O)Raffadax.RCP_IceTeaLeaf",
                         "(O)Raffadax.RCP_InstantCocoaPackets",
@@ -4277,7 +5038,7 @@
                         "(O)Raffadax.RCP_YellowTeaLeaf"
                     ],
                     "Condition": "DAY_OF_WEEK Sun",
-                    "Price": 150,
+                    "Price": 120,
                     "AvoidRepeat": true,
                     "AvailableStock": 1
                 }
@@ -4293,32 +5054,25 @@
             ],
             "Entries": {
                 "Raffadax.RCP_B.linens": {
-                    "ItemId": "(O)Raffadax.RCP_B.linens",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_B.linens"
                 },
                 "Raffadax.RCP_L.bulgaricus": {
-                    "ItemId": "(O)Raffadax.RCP_L.bulgaricus",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_L.bulgaricus"
                 },
                 "Raffadax.RCP_L.helveticus": {
-                    "ItemId": "(O)Raffadax.RCP_L.helveticus",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_L.helveticus"
                 },
                 "Raffadax.RCP_L.lactis": {
-                    "ItemId": "(O)Raffadax.RCP_L.lactis",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_L.lactis"
                 },
                 "Raffadax.RCP_P.freudenreichii": {
-                    "ItemId": "(O)Raffadax.RCP_P.freudenreichii",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_P.freudenreichii"
                 },
                 "Raffadax.RCP_P.shermanii": {
-                    "ItemId": "(O)Raffadax.RCP_P.shermanii",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_P.shermanii"
                 },
                 "Raffadax.RCP_VoidMilk": {
-                    "ItemId": "(O)Raffadax.RCP_VoidMilk",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_VoidMilk"
                 },
                 "Raffadax.RCP_RandomNode_0": {
                     "RandomItemId": [
@@ -4404,22 +5158,18 @@
                     "Price": 400
                 },
                 "436": {
-                    "ItemId": "(O)436",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)436"
                 },
-                "Raffadax.RCP_LargeGoatMilk": {
-                    "ItemId": "(O)Raffadax.RCP_LargeGoatMilk",
-                    "Condition": "YEAR 2",
-                    "IgnoreShopPriceModifiers": true
+                "438": {
+                    "ItemId": "(O)438",
+                    "Condition": "YEAR 2"
                 },
                 "184": {
-                    "ItemId": "(O)184",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)184"
                 },
                 "186": {
                     "ItemId": "(O)186",
-                    "Condition": "YEAR 2",
-                    "IgnoreShopPriceModifiers": true
+                    "Condition": "YEAR 2"
                 },
                 "Raffadax.RCP_SheepMilk": {
                     "ItemId": "(O)Raffadax.RCP_SheepMilk",
@@ -4440,6 +5190,68 @@
                     "Price": 800
                 },
                 "Raffadax.RCP_RandomNode_0": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AmericanCheese",
+                        "(O)Raffadax.RCP_AsiagoCheese",
+                        "(O)Raffadax.RCP_BlueCheese",
+                        "(O)Raffadax.RCP_Brie",
+                        "(O)Raffadax.RCP_BuffaloButter",
+                        "(O)Raffadax.RCP_BuffaloCheese",
+                        "(O)Raffadax.RCP_Butter",
+                        "(O)Raffadax.RCP_Buttermilk",
+                        "(O)Raffadax.RCP_Camembert",
+                        "(O)Raffadax.RCP_CheddarCheese",
+                        "(O)Raffadax.RCP_CheddarJack",
+                        "(O)424",
+                        "(O)Raffadax.RCP_Chevre",
+                        "(O)Raffadax.RCP_Colby",
+                        "(O)Raffadax.RCP_ColbyJack",
+                        "(O)Raffadax.RCP_CotijaCheese",
+                        "(O)Raffadax.RCP_CottageCheese",
+                        "(O)Raffadax.RCP_Cream",
+                        "(O)Raffadax.RCP_CreamCheese",
+                        "(O)Raffadax.RCP_Emmental",
+                        "(O)Raffadax.RCP_Feta",
+                        "(O)Raffadax.RCP_Fontina",
+                        "(O)Raffadax.RCP_GoatButter",
+                        "(O)426",
+                        "(O)Raffadax.RCP_Gorgonzola",
+                        "(O)Raffadax.RCP_Gouda",
+                        "(O)Raffadax.RCP_Gruyere",
+                        "(O)Raffadax.RCP_Havarti",
+                        "(O)Raffadax.RCP_Jarlsberg",
+                        "(O)Raffadax.RCP_Khoa",
+                        "(O)Raffadax.RCP_Limburger",
+                        "(O)Raffadax.RCP_Manchego",
+                        "(O)Raffadax.RCP_Margarine",
+                        "(O)Raffadax.RCP_Mascarpone",
+                        "(O)Raffadax.RCP_MonterayJack",
+                        "(O)Raffadax.RCP_Mozzarella",
+                        "(O)Raffadax.RCP_Muenster",
+                        "(O)Raffadax.RCP_NachoCheese",
+                        "(O)Raffadax.RCP_Paneer",
+                        "(O)Raffadax.RCP_Parmesan",
+                        "(O)Raffadax.RCP_Pecorino",
+                        "(O)Raffadax.RCP_PepperJack",
+                        "(O)Raffadax.RCP_Provolone",
+                        "(O)Raffadax.RCP_QuesoBlanco",
+                        "(O)Raffadax.RCP_Ricotta",
+                        "(O)Raffadax.RCP_Romano",
+                        "(O)Raffadax.RCP_Roquefort",
+                        "(O)Raffadax.RCP_Rushan",
+                        "(O)Raffadax.RCP_SheepButter",
+                        "(O)Raffadax.RCP_SheepCheese",
+                        "(O)Raffadax.RCP_Sirene",
+                        "(O)Raffadax.RCP_SwissCheese",
+                        "(O)Raffadax.RCP_VeganButter",
+                        "(O)Raffadax.RCP_VeganCheese",
+                        "(O)Raffadax.RCP_Yogurt"
+                    ],
+                    "Price": 1000,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_1": {
                     "RandomItemId": [
                         "(O)Raffadax.RCP_CheeseCurds",
                         "(O)Raffadax.RCP_CheeseSolids",
@@ -4479,52 +5291,367 @@
                 "Raffadax.RCP_AlmondSapling": {
                     "ItemId": "(O)Raffadax.RCP_AlmondSapling",
                     "Condition": "YEAR 2",
-                    "Price": 8000
+                    "Price": 4000
                 },
                 "Raffadax.RCP_GrapefruitSapling": {
                     "ItemId": "(O)Raffadax.RCP_GrapefruitSapling",
                     "Condition": "YEAR 2",
-                    "Price": 7000
+                    "Price": 3500
                 },
                 "Raffadax.RCP_LemonSapling": {
                     "ItemId": "(O)Raffadax.RCP_LemonSapling",
                     "Condition": "YEAR 2",
-                    "Price": 5000
+                    "Price": 2500
                 },
                 "Raffadax.RCP_LimeSapling": {
                     "ItemId": "(O)Raffadax.RCP_LimeSapling",
                     "Condition": "YEAR 2",
-                    "Price": 4000
+                    "Price": 2000
                 },
                 "Raffadax.RCP_PearSapling": {
                     "ItemId": "(O)Raffadax.RCP_PearSapling",
-                    "Price": 3000
+                    "Price": 1500
                 },
                 "Raffadax.RCP_WalnutSapling": {
                     "ItemId": "(O)Raffadax.RCP_WalnutSapling",
-                    "Price": 7000
+                    "Price": 3500
                 },
                 "Raffadax.RCP_BacteriaCulture": {
                     "ItemId": "(O)Raffadax.RCP_BacteriaCulture",
-                    "Price": 50
+                    "Price": 25
                 },
                 "Raffadax.RCP_SCOBY": {
                     "ItemId": "(O)Raffadax.RCP_SCOBY",
-                    "Price": 50
+                    "Price": 25
                 },
                 "Raffadax.RCP_Yeast": {
                     "ItemId": "(O)Raffadax.RCP_Yeast",
-                    "Price": 50
+                    "Price": 25
                 },
                 "Raffadax.RCP_Malt": {
                     "ItemId": "(O)Raffadax.RCP_Malt",
-                    "Price": 50
+                    "Price": 25
                 },
                 "Raffadax.RCP_RoastingPouch": {
                     "ItemId": "(O)Raffadax.RCP_RoastingPouch",
-                    "Price": 25
+                    "Price": 12
                 },
                 "Raffadax.RCP_RandomNode_0": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_ClimateControlPouch",
+                        "(O)Raffadax.RCP_CryonicPouch",
+                        "(O)Raffadax.RCP_MillingPouch",
+                        "(O)Raffadax.RCP_SolarPouch",
+                        "(O)Raffadax.RCP_UmbraPouch"
+                    ],
+                    "Price": 12,
+                    "AvoidRepeat": true
+                },
+                "Raffadax.RCP_RandomNode_1": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AppleSnacks",
+                        "(O)Raffadax.RCP_BreakfastBran",
+                        "(O)Raffadax.RCP_CheeryOats",
+                        "(O)Raffadax.RCP_ChocDracula",
+                        "(O)Raffadax.RCP_CinnamonCrunchMunch",
+                        "(O)Raffadax.RCP_CookieCrunch",
+                        "(O)Raffadax.RCP_CornBakes",
+                        "(O)Raffadax.RCP_FortuneShapes",
+                        "(O)Raffadax.RCP_FrostedBakes",
+                        "(O)Raffadax.RCP_FruitHoops",
+                        "(O)Raffadax.RCP_HoneyNutBunches",
+                        "(O)Raffadax.RCP_HoneySnacks",
+                        "(O)Raffadax.RCP_InstantGrits",
+                        "(O)Raffadax.RCP_InstantOatmeal",
+                        "(O)Raffadax.RCP_MonStarMunch",
+                        "(O)Raffadax.RCP_NutBunches",
+                        "(O)Raffadax.RCP_RaisinSunCrunch",
+                        "(O)Raffadax.RCP_SweetenedTinyWheats",
+                        "(O)Raffadax.RCP_TatteredWheat",
+                        "(O)Raffadax.RCP_VanillaOs",
+                        "(O)Raffadax.RCP_WhiteWolfEms"
+                    ],
+                    "Condition": "DAY_OF_WEEK Mon",
+                    "Price": 375,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_2": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AppleChips",
+                        "(O)Raffadax.RCP_BananaChips",
+                        "(O)Raffadax.RCP_BarbecueChips",
+                        "(O)Raffadax.RCP_BlackPepperChips",
+                        "(O)Raffadax.RCP_BlueBananaChips",
+                        "(O)Raffadax.RCP_BlueCornChips",
+                        "(O)Raffadax.RCP_BluePotatoChips",
+                        "(O)Raffadax.RCP_ButteredPopcorn",
+                        "(O)Raffadax.RCP_CaramelCorn",
+                        "(O)Raffadax.RCP_CheesePuffs",
+                        "(O)Raffadax.RCP_CheddarCheeseChips",
+                        "(O)Raffadax.RCP_CornChips",
+                        "(O)Raffadax.RCP_GrosMichelChips",
+                        "(O)Raffadax.RCP_HoneycrispAppleChips",
+                        "(O)Raffadax.RCP_HotCornChips",
+                        "(O)Raffadax.RCP_HuaMoaChips",
+                        "(O)Raffadax.RCP_JalapenoPotatoChips",
+                        "(O)Raffadax.RCP_KaleChips",
+                        "(O)Raffadax.RCP_KettleCorn",
+                        "(O)Raffadax.RCP_NachoCornChips",
+                        "(O)Raffadax.RCP_NinoBananaChips",
+                        "(O)Raffadax.RCP_PlantainChips",
+                        "(O)Raffadax.RCP_Popcorn",
+                        "(O)Raffadax.RCP_PopcornKernels",
+                        "(O)Raffadax.RCP_PotatoChips",
+                        "(O)Raffadax.RCP_Pretzels",
+                        "(O)Raffadax.RCP_RanchCornChips",
+                        "(O)Raffadax.RCP_RedBananaChips",
+                        "(O)Raffadax.RCP_RedCornChips",
+                        "(O)Raffadax.RCP_RedPotatoChips",
+                        "(O)Raffadax.RCP_RoastedPeanuts",
+                        "(O)Raffadax.RCP_SaltVinegarChips",
+                        "(O)Raffadax.RCP_SourAppleChips",
+                        "(O)Raffadax.RCP_SourCreamOnionChips",
+                        "(O)Raffadax.RCP_SpinachChips",
+                        "(O)Raffadax.RCP_SweetPotatoChips",
+                        "(O)Raffadax.RCP_TapiocaChips",
+                        "(O)Raffadax.RCP_YamChips"
+                    ],
+                    "Condition": "DAY_OF_WEEK Tue",
+                    "Price": 175,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_3": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AlfredoSauce",
+                        "(O)Raffadax.RCP_AppleSauce",
+                        "(O)Raffadax.RCP_AvocadoMayonnaise",
+                        "(O)Raffadax.RCP_BarbecueSauce",
+                        "(O)Raffadax.RCP_BlackBeanPuree",
+                        "(O)Raffadax.RCP_BlackGarlicMayonnaise",
+                        "(O)Raffadax.RCP_BlackGarlicPaste",
+                        "(O)Raffadax.RCP_BlackTahini",
+                        "(O)Raffadax.RCP_BrownMustard",
+                        "(O)Raffadax.RCP_ChileconQueso",
+                        "(O)Raffadax.RCP_ChipotleMayonnaise",
+                        "(O)Raffadax.RCP_ChipotlePepperSauce",
+                        "(O)Raffadax.RCP_CilantroLimeMayonnaise",
+                        "(O)Raffadax.RCP_CocktailOlives",
+                        "(O)Raffadax.RCP_CocktailCherries",
+                        "(O)Raffadax.RCP_CocktailSauce",
+                        "(O)Raffadax.RCP_DijonMustard",
+                        "(O)Raffadax.RCP_DillPickles",
+                        "(O)Raffadax.RCP_ExtraVirginMayonnaise",
+                        "(O)Raffadax.RCP_GarlicMayonnaise",
+                        "(O)Raffadax.RCP_GarlicPaste",
+                        "(O)Raffadax.RCP_GingerPaste",
+                        "(O)Raffadax.RCP_GreenTomatoPaste",
+                        "(O)Raffadax.RCP_GreenTomatoSauce",
+                        "(O)Raffadax.RCP_Guacamole",
+                        "(O)Raffadax.RCP_HoneyBarbecueSauce",
+                        "(O)Raffadax.RCP_HoneyMustard",
+                        "(O)Raffadax.RCP_HotPepperSauce",
+                        "(O)Raffadax.RCP_Hummus",
+                        "(O)Raffadax.RCP_JalapenoMayonnaise",
+                        "(O)Raffadax.RCP_JalapenoPepperSauce",
+                        "(O)Raffadax.RCP_Ketchup",
+                        "(O)Raffadax.RCP_LemonDillMayonnaise",
+                        "(O)Raffadax.RCP_MoleSauce",
+                        "(O)Raffadax.RCP_Mayoketchup",
+                        "(O)Raffadax.RCP_OlivePaste",
+                        "(O)Raffadax.RCP_OliveOilMayonnaise",
+                        "(O)Raffadax.RCP_PaprikaPepperSauce",
+                        "(O)Raffadax.RCP_Pesto",
+                        "(O)Raffadax.RCP_PickledCapers",
+                        "(O)Raffadax.RCP_Relish",
+                        "(O)Raffadax.RCP_RosemaryGarlicMayonnaise",
+                        "(O)Raffadax.RCP_Salsa",
+                        "(O)Raffadax.RCP_Sauerkraut",
+                        "(O)Raffadax.RCP_ScotchBonnetPepperSauce",
+                        "(O)Raffadax.RCP_SourCreamOnionDip",
+                        "(O)Raffadax.RCP_SoySauce",
+                        "(O)Raffadax.RCP_SpiceBerrySauce",
+                        "(O)Raffadax.RCP_SpinachArtichokeDip",
+                        "(O)Raffadax.RCP_SunDriedTomato",
+                        "(O)Raffadax.RCP_TartarSauce",
+                        "(O)Raffadax.RCP_Tofu",
+                        "(O)Raffadax.RCP_TomatilloSalsa",
+                        "(O)Raffadax.RCP_TomatoPaste",
+                        "(O)Raffadax.RCP_TomatoSauce",
+                        "(O)Raffadax.RCP_Tucupi",
+                        "(O)Raffadax.RCP_VodkaSauce",
+                        "(O)Raffadax.RCP_WorcestershireSauce",
+                        "(O)Raffadax.RCP_YellowMustard"
+                    ],
+                    "Condition": "DAY_OF_WEEK Wed",
+                    "Price": 125,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_4": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AgaveNectar",
+                        "(O)Raffadax.RCP_Anko",
+                        "(O)Raffadax.RCP_AvocadoOil",
+                        "(O)Raffadax.RCP_BrownSugar",
+                        "(O)Raffadax.RCP_Butter",
+                        "(O)Raffadax.RCP_Butterscotch",
+                        "(O)Raffadax.RCP_CaneSugar",
+                        "(O)Raffadax.RCP_Caramel",
+                        "(O)Raffadax.RCP_CocoaButter",
+                        "(O)Raffadax.RCP_CocoaPowder",
+                        "(O)Raffadax.RCP_CoconutButter",
+                        "(O)Raffadax.RCP_CoconutFlakes",
+                        "(O)Raffadax.RCP_CondensedMilk",
+                        "(O)Raffadax.RCP_CornOil",
+                        "(O)Raffadax.RCP_CornStarch",
+                        "(O)Raffadax.RCP_Cornmeal",
+                        "(O)Raffadax.RCP_Cream",
+                        "(O)Raffadax.RCP_CreamofCoconut",
+                        "(O)Raffadax.RCP_CrushedAlmonds",
+                        "(O)Raffadax.RCP_CrushedPeanuts",
+                        "(O)Raffadax.RCP_CrushedWalnuts",
+                        "(O)Raffadax.RCP_EvaporatedMilk",
+                        "(O)Raffadax.RCP_ExtraVirginOliveOil",
+                        "(O)Raffadax.RCP_FireOil",
+                        "(O)Raffadax.RCP_GoatButter",
+                        "(O)Raffadax.RCP_Goiabada",
+                        "(O)Raffadax.RCP_GoldenPrune",
+                        "(O)Raffadax.RCP_GoldenRaisins",
+                        "(O)Raffadax.RCP_GrapefruitZest",
+                        "(O)Raffadax.RCP_GreekYogurt",
+                        "(O)Raffadax.RCP_LemonZest",
+                        "(O)Raffadax.RCP_LimeZest",
+                        "(O)Raffadax.RCP_Margarine",
+                        "(O)Raffadax.RCP_Marzipan",
+                        "(O)Raffadax.RCP_Nougat",
+                        "(O)Raffadax.RCP_OliveOil",
+                        "(O)Raffadax.RCP_OrangeZest",
+                        "(O)Raffadax.RCP_Orgeat",
+                        "(O)Raffadax.RCP_PeanutButter",
+                        "(O)Raffadax.RCP_PeanutOil",
+                        "(O)Raffadax.RCP_PowderedMilk",
+                        "(O)Raffadax.RCP_PowderedSugar",
+                        "(O)Raffadax.RCP_Prune",
+                        "(O)Raffadax.RCP_QuinceCheese",
+                        "(O)Raffadax.RCP_TapiocaPearls",
+                        "(O)Raffadax.RCP_SourCream",
+                        "(O)Raffadax.RCP_VanillaPaste",
+                        "(O)Raffadax.RCP_Verjus",
+                        "(O)Raffadax.RCP_WhippedCream",
+                        "(O)Raffadax.RCP_Yogurt"
+                    ],
+                    "Condition": "DAY_OF_WEEK Thu",
+                    "Price": 125,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_5": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_AlmondMilk",
+                        "(O)Raffadax.RCP_AppleCider",
+                        "(O)Raffadax.RCP_AppleJuice",
+                        "(O)Raffadax.RCP_ChocolateMilk",
+                        "(O)Raffadax.RCP_CoconutMilk",
+                        "(O)Raffadax.RCP_CranberryJuice",
+                        "(O)Raffadax.RCP_FruitPunch",
+                        "(O)Raffadax.RCP_GrapeJelly",
+                        "(O)Raffadax.RCP_GrapeJuice",
+                        "(O)Raffadax.RCP_GrapefruitJuice",
+                        "(O)Raffadax.RCP_Lemonade",
+                        "(O)Raffadax.RCP_LemonJuice",
+                        "(O)Raffadax.RCP_LimeJuice",
+                        "(O)Raffadax.RCP_OatMilk",
+                        "(O)Raffadax.RCP_OrangeJuice",
+                        "(O)Raffadax.RCP_OrangeMarmalade",
+                        "(O)Raffadax.RCP_OrangeMilk",
+                        "(O)Raffadax.RCP_PeachJam",
+                        "(O)Raffadax.RCP_PinkLemonade",
+                        "(O)Raffadax.RCP_RoseWater",
+                        "(O)Raffadax.RCP_StrawberryJam",
+                        "(O)Raffadax.RCP_StrawberryMilk",
+                        "(O)Raffadax.RCP_TomatoJuice",
+                        "(O)Raffadax.RCP_VanillaMilk"
+                    ],
+                    "Condition": "DAY_OF_WEEK Fri",
+                    "Price": 250,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_6": {
+                    "RandomItemId": [
+                        "(O)Raffadax.RCP_Allspice",
+                        "(O)Raffadax.RCP_Amchoor",
+                        "(O)Raffadax.RCP_Anardana",
+                        "(O)Raffadax.RCP_AniseStars",
+                        "(O)Raffadax.RCP_Aonori",
+                        "(O)Raffadax.RCP_BakingPowder",
+                        "(O)Raffadax.RCP_BakingSoda",
+                        "(O)Raffadax.RCP_BasilFlakes",
+                        "(O)Raffadax.RCP_BasilSeed",
+                        "(O)Raffadax.RCP_BayLeaves",
+                        "(O)Raffadax.RCP_BlackSesameSeed",
+                        "(O)Raffadax.RCP_CarawaySeed",
+                        "(O)Raffadax.RCP_CelerySeed",
+                        "(O)Raffadax.RCP_ChervilFlakes",
+                        "(O)Raffadax.RCP_ChipotleChiliPowder",
+                        "(O)Raffadax.RCP_ChiveFlakes",
+                        "(O)Raffadax.RCP_CilantroFlakes",
+                        "(O)Raffadax.RCP_Cloves",
+                        "(O)Raffadax.RCP_CorianderSeed",
+                        "(O)Raffadax.RCP_CreamofTartar",
+                        "(O)Raffadax.RCP_CrushedRedPepper",
+                        "(O)Raffadax.RCP_CuminSeed",
+                        "(O)Raffadax.RCP_CurryLeaves",
+                        "(O)Raffadax.RCP_DillWeed",
+                        "(O)Raffadax.RCP_DillSeed",
+                        "(O)Raffadax.RCP_FennelPollen",
+                        "(O)Raffadax.RCP_FennelSeed",
+                        "(O)Raffadax.RCP_FenugreekLeaves",
+                        "(O)Raffadax.RCP_FenugreekSeed",
+                        "(O)Raffadax.RCP_GarlicPowder",
+                        "(O)Raffadax.RCP_GreenCardamom",
+                        "(O)Raffadax.RCP_GreenChiliPowder",
+                        "(O)Raffadax.RCP_GroundBlackPepper",
+                        "(O)Raffadax.RCP_GroundCayennePepper",
+                        "(O)Raffadax.RCP_GroundCinnamon",
+                        "(O)Raffadax.RCP_GroundGinger",
+                        "(O)Raffadax.RCP_GroundNutmeg",
+                        "(O)Raffadax.RCP_GroundRedPepper",
+                        "(O)Raffadax.RCP_GroundWhitePepper",
+                        "(O)Raffadax.RCP_KalaNamak",
+                        "(O)Raffadax.RCP_Kalpasi",
+                        "(O)Raffadax.RCP_Mace",
+                        "(O)Raffadax.RCP_MarjoramLeaves",
+                        "(O)Raffadax.RCP_MincedGarlic",
+                        "(O)Raffadax.RCP_MincedOnion",
+                        "(O)Raffadax.RCP_Nori",
+                        "(O)Raffadax.RCP_OnionPowder",
+                        "(O)Raffadax.RCP_OreganoFlakes",
+                        "(O)Raffadax.RCP_ParsleyFlakes",
+                        "(O)Raffadax.RCP_PoppySeed",
+                        "(O)Raffadax.RCP_RedChiliPowder",
+                        "(O)Raffadax.RCP_RedPepperFlakes",
+                        "(O)Raffadax.RCP_RosemaryNeedles",
+                        "(O)Raffadax.RCP_Saffron",
+                        "(O)Raffadax.RCP_SageLeaves",
+                        "(O)Raffadax.RCP_SavoryLeaves",
+                        "(O)Raffadax.RCP_SeaweedFlakes",
+                        "(O)Raffadax.RCP_ShisoFlakes",
+                        "(O)Raffadax.RCP_TableSalt",
+                        "(O)Raffadax.RCP_TarragonLeaves",
+                        "(O)Raffadax.RCP_ThymeLeaves",
+                        "(O)Raffadax.RCP_TomatoFlakes",
+                        "(O)Raffadax.RCP_VanillaBeans",
+                        "(O)Raffadax.RCP_WhiteCardamom"
+                    ],
+                    "Condition": "DAY_OF_WEEK Sat",
+                    "Price": 125,
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_7": {
                     "RandomItemId": [
                         "(O)Raffadax.RCP_BlackTeaLeaf",
                         "(O)Raffadax.RCP_BongsutangTeaMix",
@@ -4543,7 +5670,7 @@
                         "(O)Raffadax.RCP_DriedRose",
                         "(O)Raffadax.RCP_DriedSakuraBlossom",
                         "(O)Raffadax.RCP_EarlGreyTeaLeaf",
-                        "(O)Raffadax.RCP_GenmaichaTeaLeaf",
+                        "(O)Raffadax.RCP_GenmaichaTeaMix",
                         "(O)Raffadax.RCP_GyokuroTeaLeaf",
                         "(O)Raffadax.RCP_IceTeaLeaf",
                         "(O)Raffadax.RCP_InstantCocoaPackets",
@@ -4571,7 +5698,7 @@
                         "(O)Raffadax.RCP_YellowTeaLeaf"
                     ],
                     "Condition": "DAY_OF_WEEK Sun",
-                    "Price": 150,
+                    "Price": 75,
                     "AvoidRepeat": true,
                     "AvailableStock": 1
                 }
@@ -4640,12 +5767,10 @@
                     "Price": 5000
                 },
                 "Raffadax.RCP_AnnattoPowder": {
-                    "ItemId": "(O)Raffadax.RCP_AnnattoPowder",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_AnnattoPowder"
                 },
                 "Raffadax.RCP_Dill": {
-                    "ItemId": "(O)Raffadax.RCP_Dill",
-                    "IgnoreShopPriceModifiers": true
+                    "ItemId": "(O)Raffadax.RCP_Dill"
                 },
                 "Raffadax.RCP_RandomNode_0": {
                     "RandomItemId": [
@@ -4685,7 +5810,7 @@
                         "(O)Raffadax.RCP_ForgottenMemory",
                         "(O)Raffadax.RCP_ForsythiaFields",
                         "(O)Raffadax.RCP_FoxyLady",
-                        "(O)Raffadax.RCP_GardenofEarthyDelights",
+                        "(O)Raffadax.RCP_GardenofEarthlyDelights",
                         "(O)Raffadax.RCP_GingerKiss",
                         "(O)Raffadax.RCP_GoldenSpice",
                         "(O)Raffadax.RCP_GoldenSun",
@@ -4765,13 +5890,341 @@
             "Entries": {
                 "Raffadax.RCP_RandomNode_0": {
                     "RandomItemId": [
+                        "(O)Raffadax.RCP_AcaiBerry",
+                        "(O)Raffadax.RCP_AdzukiBeans",
+                        "(O)Raffadax.RCP_Agave",
+                        "(O)Raffadax.RCP_Allium",
+                        "(O)Raffadax.RCP_Allspice",
+                        "(O)Raffadax.RCP_Almond",
+                        "(O)Raffadax.RCP_Aloe",
+                        "(O)Raffadax.RCP_Amanita",
+                        "(O)Raffadax.RCP_Annatto",
+                        "(O)Raffadax.RCP_Artemisia",
+                        "(O)Raffadax.RCP_Asparagus",
+                        "(O)Raffadax.RCP_AngosturaBark",
+                        "(O)Raffadax.RCP_Avocado",
+                        "(O)Raffadax.RCP_BabyCorn",
+                        "(O)Raffadax.RCP_Bahidaj",
+                        "(O)Raffadax.RCP_Baobab",
+                        "(O)Raffadax.RCP_Basil",
+                        "(O)Raffadax.RCP_BayLeaf",
+                        "(O)Raffadax.RCP_BergamotOrange",
+                        "(O)Raffadax.RCP_BirchBark",
+                        "(O)Raffadax.RCP_BlackBamboo",
+                        "(O)Raffadax.RCP_BlackBeans",
+                        "(O)Raffadax.RCP_BlackBellPepper",
+                        "(O)Raffadax.RCP_BlackCarrot",
+                        "(O)Raffadax.RCP_BlackCherry",
+                        "(O)Raffadax.RCP_BlackCuminSeeds",
+                        "(O)Raffadax.RCP_BlackCurrants",
+                        "(O)Raffadax.RCP_BlackOlive",
+                        "(O)Raffadax.RCP_BlackPeppercorns",
+                        "(O)Raffadax.RCP_BlackSesameSeeds",
+                        "(O)Raffadax.RCP_BlackShamrock",
+                        "(O)Raffadax.RCP_BlackStoneFlower",
+                        "(O)Raffadax.RCP_BlackTeaLeaf",
+                        "(O)Raffadax.RCP_BlackTruffle",
+                        "(O)Raffadax.RCP_BlackWalnut",
+                        "(O)Raffadax.RCP_BlueCorn",
+                        "(O)Raffadax.RCP_BlueJavaBanana",
+                        "(O)Raffadax.RCP_BlueLotusFlower",
+                        "(O)Raffadax.RCP_BlueOysterMushroom",
+                        "(O)Raffadax.RCP_BluePotato",
+                        "(O)Raffadax.RCP_Boxberry",
+                        "(O)Raffadax.RCP_BrassicaFlower",
+                        "(O)Raffadax.RCP_BrazilNut",
+                        "(O)Raffadax.RCP_BrusselsSprouts",
+                        "(O)Raffadax.RCP_BuddhasHand",
+                        "(O)Raffadax.RCP_ButtonMushroom",
+                        "(O)Raffadax.RCP_GreenCabbage",
+                        "(O)Raffadax.RCP_CacaoPod",
+                        "(O)Raffadax.RCP_CactusBlossom",
+                        "(O)Raffadax.RCP_Cantaloupe",
+                        "(O)Raffadax.RCP_Capers",
+                        "(O)Raffadax.RCP_CaperBerries",
+                        "(O)Raffadax.RCP_CaperLeaves",
+                        "(O)Raffadax.RCP_Carambola",
+                        "(O)Raffadax.RCP_CarawayFlower",
+                        "(O)Raffadax.RCP_CarawayRoot",
+                        "(O)Raffadax.RCP_CarawaySeeds",
+                        "(O)Raffadax.RCP_Cashew",
+                        "(O)Raffadax.RCP_CashewApple",
+                        "(O)Raffadax.RCP_CassavaLeaf",
+                        "(O)Raffadax.RCP_CassavaRoot",
+                        "(O)Raffadax.RCP_CayennePepper",
+                        "(O)Raffadax.RCP_Celery",
+                        "(O)Raffadax.RCP_CelerySeeds",
+                        "(O)Raffadax.RCP_Chamomile",
+                        "(O)Raffadax.RCP_Chervil",
+                        "(O)Raffadax.RCP_Chicory",
+                        "(O)Raffadax.RCP_ChicoryFlower",
+                        "(O)Raffadax.RCP_ChicoryRoot",
+                        "(O)Raffadax.RCP_ChipotlePepper",
+                        "(O)Raffadax.RCP_Chives",
+                        "(O)Raffadax.RCP_Cilantro",
+                        "(O)Raffadax.RCP_CinchonaBark",
+                        "(O)Raffadax.RCP_Clematis",
+                        "(O)Raffadax.RCP_Clover",
+                        "(O)Raffadax.RCP_CocodeMer",
+                        "(O)Raffadax.RCP_Coriander",
+                        "(O)Raffadax.RCP_CorianderFlower",
+                        "(O)Raffadax.RCP_Crabapple",
+                        "(O)Raffadax.RCP_CreminiMushroom",
+                        "(O)Raffadax.RCP_Cucumber",
+                        "(O)Raffadax.RCP_CurryLeaf",
+                        "(O)Raffadax.RCP_Daisy",
+                        "(O)Raffadax.RCP_DandelionGreens",
+                        "(O)Raffadax.RCP_DandelionRoot",
+                        "(O)Raffadax.RCP_Date",
+                        "(O)Raffadax.RCP_DeadMansFingers",
+                        "(O)Raffadax.RCP_Dill",
+                        "(O)Raffadax.RCP_DillSeeds",
+                        "(O)Raffadax.RCP_Dogwood",
+                        "(O)Raffadax.RCP_DragonFruit",
+                        "(O)Raffadax.RCP_DryadsSaddle",
+                        "(O)Raffadax.RCP_Durian",
+                        "(O)Raffadax.RCP_EbonyWood",
+                        "(O)Raffadax.RCP_Elderberry",
+                        "(O)Raffadax.RCP_Elderflower",
+                        "(O)Raffadax.RCP_Ergot",
+                        "(O)Raffadax.RCP_Fennel",
+                        "(O)Raffadax.RCP_FennelFlower",
+                        "(O)Raffadax.RCP_FennelGreens",
+                        "(O)Raffadax.RCP_FennelPollen",
+                        "(O)Raffadax.RCP_FennelSeeds",
+                        "(O)Raffadax.RCP_Fenugreek",
+                        "(O)Raffadax.RCP_FenugreekSeeds",
+                        "(O)Raffadax.RCP_Fig",
+                        "(O)Raffadax.RCP_FireWheel",
+                        "(O)Raffadax.RCP_FlindersRose",
+                        "(O)Raffadax.RCP_Forsythia",
+                        "(O)Raffadax.RCP_Foxglove",
+                        "(O)Raffadax.RCP_GarbanzoBeans",
+                        "(O)Raffadax.RCP_GentianBark",
+                        "(O)Raffadax.RCP_GentianFlower",
+                        "(O)Raffadax.RCP_GentianRoot",
+                        "(O)Raffadax.RCP_GinkgoLeaf",
+                        "(O)Raffadax.RCP_GlassGemCorn",
+                        "(O)Raffadax.RCP_GoldenCauliflower",
+                        "(O)Raffadax.RCP_GoldenPlum",
+                        "(O)Raffadax.RCP_GoldenPrune",
+                        "(O)Raffadax.RCP_GoldenRaisins",
+                        "(O)Raffadax.RCP_Grapefruit",
+                        "(O)Raffadax.RCP_GrapeLeaf",
+                        "(O)Raffadax.RCP_GreenBellPepper",
+                        "(O)Raffadax.RCP_GreenCardamomPod",
+                        "(O)Raffadax.RCP_GreenLeafLettuce",
+                        "(O)Raffadax.RCP_GreenOnion",
+                        "(O)Raffadax.RCP_GreenPea",
+                        "(O)Raffadax.RCP_GreenPeppercorns",
+                        "(O)Raffadax.RCP_GreenTomato",
+                        "(O)Raffadax.RCP_GrosMichel",
+                        "(O)Raffadax.RCP_Guarana",
+                        "(O)Raffadax.RCP_Guava",
+                        "(O)Raffadax.RCP_Gultheria",
+                        "(O)Raffadax.RCP_Hawkweed",
+                        "(O)Raffadax.RCP_HawthornBerry",
+                        "(O)Raffadax.RCP_HeartsofPalm",
+                        "(O)Raffadax.RCP_Heliconia",
+                        "(O)Raffadax.RCP_Hibiscus",
+                        "(O)Raffadax.RCP_Honeyberry",
+                        "(O)Raffadax.RCP_HoneycrispApple",
+                        "(O)Raffadax.RCP_HoneydewMelon",
+                        "(O)Raffadax.RCP_Honeysuckle",
+                        "(O)Raffadax.RCP_HornNut",
+                        "(O)Raffadax.RCP_HuaMoa",
+                        "(O)Raffadax.RCP_Huckleberry",
+                        "(O)Raffadax.RCP_Indigo",
+                        "(O)Raffadax.RCP_Jabuticaba",
+                        "(O)Raffadax.RCP_Jacaranda",
+                        "(O)Raffadax.RCP_JalapenoPepper",
+                        "(O)Raffadax.RCP_Juniper",
+                        "(O)Raffadax.RCP_Kelp",
+                        "(O)Raffadax.RCP_KeyLime",
+                        "(O)Raffadax.RCP_Kiwi",
+                        "(O)Raffadax.RCP_KolaNut",
+                        "(O)Raffadax.RCP_Kumquat",
+                        "(O)Raffadax.RCP_LarahaOrange",
+                        "(O)Raffadax.RCP_Lavender",
+                        "(O)Raffadax.RCP_Lemon",
+                        "(O)Raffadax.RCP_Lemongrass",
+                        "(O)Raffadax.RCP_Lentils",
+                        "(O)Raffadax.RCP_Lilac",
+                        "(O)Raffadax.RCP_Lime",
+                        "(O)Raffadax.RCP_Linden",
+                        "(O)Raffadax.RCP_Liverwort",
+                        "(O)Raffadax.RCP_LotusRoot",
+                        "(O)Raffadax.RCP_Lychee",
+                        "(O)Raffadax.RCP_MacadamiaNut",
+                        "(O)Raffadax.RCP_Mace",
+                        "(O)Raffadax.RCP_MandarinOrange",
+                        "(O)Raffadax.RCP_Manioc",
+                        "(O)Raffadax.RCP_MarconaAlmond",
+                        "(O)Raffadax.RCP_Marjoram",
+                        "(O)Raffadax.RCP_MatsutakeMushroom",
+                        "(O)Raffadax.RCP_MeyerLemon",
+                        "(O)Raffadax.RCP_MimosaFlower",
+                        "(O)Raffadax.RCP_MintFlower",
+                        "(O)Raffadax.RCP_Mistletoe",
+                        "(O)Raffadax.RCP_MonsteraDeliciosa",
+                        "(O)Raffadax.RCP_Mugwort",
+                        "(O)Raffadax.RCP_Mulberry",
+                        "(O)Raffadax.RCP_MustardGreens",
+                        "(O)Raffadax.RCP_MustardSeeds",
+                        "(O)Raffadax.RCP_Myristica",
+                        "(O)Raffadax.RCP_NettleBlossom",
+                        "(O)Raffadax.RCP_Nigella",
+                        "(O)Raffadax.RCP_NinoBananas",
+                        "(O)Raffadax.RCP_Nopal",
+                        "(O)Raffadax.RCP_Nutmeg",
+                        "(O)Raffadax.RCP_Okra",
+                        "(O)Raffadax.RCP_Olive",
+                        "(O)Raffadax.RCP_OpuntiaFlower",
+                        "(O)Raffadax.RCP_OrangeBellPepper",
+                        "(O)Raffadax.RCP_OrangeCarrot",
+                        "(O)Raffadax.RCP_Oregano",
+                        "(O)Raffadax.RCP_Osmanthus",
+                        "(O)Raffadax.RCP_Papaya",
+                        "(O)Raffadax.RCP_PaprikaPepper",
+                        "(O)Raffadax.RCP_Parsley",
+                        "(O)Raffadax.RCP_PassionFlower",
+                        "(O)Raffadax.RCP_PassionFruit",
+                        "(O)Raffadax.RCP_Peanut",
+                        "(O)Raffadax.RCP_Pear",
+                        "(O)Raffadax.RCP_Pecan",
+                        "(O)Raffadax.RCP_Peppermint",
+                        "(O)Raffadax.RCP_PeriwinkleFlower",
+                        "(O)Raffadax.RCP_Persimmon",
+                        "(O)Raffadax.RCP_Peyote",
+                        "(O)Raffadax.RCP_PimentoBerry",
+                        "(O)Raffadax.RCP_PineNut",
+                        "(O)Raffadax.RCP_Pistachio",
+                        "(O)Raffadax.RCP_Plantain",
+                        "(O)Raffadax.RCP_Poinsettia",
+                        "(O)Raffadax.RCP_PortobelloMushroom",
+                        "(O)Raffadax.RCP_PricklyPear",
+                        "(O)Raffadax.RCP_Prune",
+                        "(O)Raffadax.RCP_PsilocybinMushroom",
+                        "(O)Raffadax.RCP_PuffballMushroom",
+                        "(O)Raffadax.RCP_PurpleAsparagus",
+                        "(O)Raffadax.RCP_PurpleBellPepper",
+                        "(O)Raffadax.RCP_PurpleCarrot",
+                        "(O)Raffadax.RCP_PurpleCauliflower",
+                        "(O)Raffadax.RCP_Quince",
+                        "(O)Raffadax.RCP_RainbowEucalyptusLeaf",
+                        "(O)Raffadax.RCP_Rambutan",
+                        "(O)Raffadax.RCP_Rapini",
+                        "(O)Raffadax.RCP_Raspberry",
+                        "(O)Raffadax.RCP_RedAlgae",
+                        "(O)Raffadax.RCP_RedAnjouPear",
+                        "(O)Raffadax.RCP_RedAntlerReishi",
+                        "(O)Raffadax.RCP_RedBellPepper",
+                        "(O)Raffadax.RCP_RedCarrot",
+                        "(O)Raffadax.RCP_RedCorn",
+                        "(O)Raffadax.RCP_RedDaccaBanana",
+                        "(O)Raffadax.RCP_RedOnion",
+                        "(O)Raffadax.RCP_RedPeppercorns",
+                        "(O)Raffadax.RCP_RedPotato",
+                        "(O)Raffadax.RCP_RedTeaLeaf",
+                        "(O)Raffadax.RCP_Romanesco",
+                        "(O)Raffadax.RCP_Rooibos",
+                        "(O)Raffadax.RCP_Rose",
+                        "(O)Raffadax.RCP_RoseHips",
+                        "(O)Raffadax.RCP_Rosemary",
+                        "(O)Raffadax.RCP_Rowanberry",
+                        "(O)Raffadax.RCP_RoyalPoinciana",
+                        "(O)Raffadax.RCP_RubyRedGrapefruit",
+                        "(O)Raffadax.RCP_Rutabaga",
+                        "(O)Raffadax.RCP_Rye",
+                        "(O)Raffadax.RCP_Saffron",
+                        "(O)Raffadax.RCP_Sage",
+                        "(O)Raffadax.RCP_Sakura",
+                        "(O)Raffadax.RCP_Sandalwood",
+                        "(O)Raffadax.RCP_Sarsaparilla",
+                        "(O)Raffadax.RCP_SarsaparillaBerry",
+                        "(O)Raffadax.RCP_Saskatoon",
+                        "(O)Raffadax.RCP_SassafrasRoot",
+                        "(O)Raffadax.RCP_Savory",
+                        "(O)Raffadax.RCP_Scallion",
+                        "(O)Raffadax.RCP_ScotchBonnetPepper",
+                        "(O)Raffadax.RCP_SeaHeart",
+                        "(O)Raffadax.RCP_Shamrock",
+                        "(O)Raffadax.RCP_ShisoLeaf",
+                        "(O)Raffadax.RCP_SloePlum",
+                        "(O)Raffadax.RCP_SnowPea",
+                        "(O)Raffadax.RCP_Soybean",
+                        "(O)Raffadax.RCP_Spearmint",
+                        "(O)Raffadax.RCP_Spinach",
+                        "(O)Raffadax.RCP_SpruceTips",
+                        "(O)Raffadax.RCP_Squash",
+                        "(O)Raffadax.RCP_SquashFlower",
+                        "(O)Raffadax.RCP_StarApple",
+                        "(O)Raffadax.RCP_StarJasmine",
+                        "(O)Raffadax.RCP_StingingNettle",
+                        "(O)Raffadax.RCP_Sugarcane",
+                        "(O)Raffadax.RCP_Sumac",
+                        "(O)Raffadax.RCP_Sunchoke",
+                        "(O)Raffadax.RCP_SweetPotato",
+                        "(O)Raffadax.RCP_Tamarind",
+                        "(O)Raffadax.RCP_Tarragon",
+                        "(O)815",
+                        "(O)Raffadax.RCP_Thyme",
+                        "(O)Raffadax.RCP_Tobacco",
+                        "(O)Raffadax.RCP_Tomatillo",
+                        "(O)Raffadax.RCP_Topinambur",
+                        "(O)Raffadax.RCP_Turmeric",
+                        "(O)Raffadax.RCP_Turnip",
+                        "(O)Raffadax.RCP_TurnipGreens",
+                        "(O)Raffadax.RCP_VanillaBean",
+                        "(O)Raffadax.RCP_VanillaOrchid",
+                        "(O)Raffadax.RCP_Violet",
+                        "(O)Raffadax.RCP_Waldmeister",
+                        "(O)Raffadax.RCP_Walnut",
+                        "(O)Raffadax.RCP_Watermelon",
+                        "(O)Raffadax.RCP_WaxBean",
+                        "(O)Raffadax.RCP_WhiteAsparagus",
+                        "(O)Raffadax.RCP_WhiteBellPepper",
+                        "(O)Raffadax.RCP_WhiteCardamomPod",
+                        "(O)Raffadax.RCP_WhiteCarrot",
+                        "(O)Raffadax.RCP_WhiteGrapes",
+                        "(O)Raffadax.RCP_WhiteOnion",
+                        "(O)Raffadax.RCP_WhitePeach",
+                        "(O)Raffadax.RCP_WhitePeppercorns",
+                        "(O)Raffadax.RCP_WhiteTeaLeaf",
+                        "(O)Raffadax.RCP_WhiteTruffle",
+                        "(O)Raffadax.RCP_WildBarley",
+                        "(O)Raffadax.RCP_WildDaisy",
+                        "(O)Raffadax.RCP_WildGrapes",
+                        "(O)Raffadax.RCP_WildOats",
+                        "(O)Raffadax.RCP_WildViolet",
+                        "(O)Raffadax.RCP_WillowBark",
+                        "(O)Raffadax.RCP_Wintergreen",
+                        "(O)Raffadax.RCP_Wisteria",
+                        "(O)Raffadax.RCP_WitchHazel",
+                        "(O)Raffadax.RCP_Wolfsbane",
+                        "(O)Raffadax.RCP_Woodruff",
+                        "(O)Raffadax.RCP_Wormwood",
+                        "(O)Raffadax.RCP_Xoconostle",
+                        "(O)Raffadax.RCP_Yarrow",
+                        "(O)Raffadax.RCP_YarrowLeaf",
+                        "(O)Raffadax.RCP_YarrowRoot",
+                        "(O)Raffadax.RCP_YellowBellPepper",
+                        "(O)Raffadax.RCP_YellowCarrot",
+                        "(O)Raffadax.RCP_YellowTeaLeaf",
+                        "(O)Raffadax.RCP_Zucchini"
+                    ],
+                    "AvoidRepeat": true,
+                    "AvailableStock": 1
+                },
+                "Raffadax.RCP_RandomNode_1": {
+                    "RandomItemId": [
                         "(O)Raffadax.RCP_AmericanCheese",
                         "(O)Raffadax.RCP_AsiagoCheese",
                         "(O)Raffadax.RCP_BlueCheese",
                         "(O)Raffadax.RCP_Brie",
                         "(O)Raffadax.RCP_BuffaloCheese",
                         "(O)Raffadax.RCP_BuffaloMilk",
-                        "(O)Raffadax.RCP_Camambert",
+                        "(O)Raffadax.RCP_Camembert",
                         "(O)Raffadax.RCP_CheddarCheese",
                         "(O)Raffadax.RCP_CheddarJack",
                         "(O)424",
@@ -4821,7 +6274,6 @@
                         "(O)Raffadax.RCP_Whey",
                         "(O)Raffadax.RCP_Yogurt"
                     ],
-                    "IgnoreShopPriceModifiers": true,
                     "AvoidRepeat": true,
                     "AvailableStock": 1
                 }
@@ -4836,29 +6288,24 @@
                 "Items"
             ],
             "Entries": {
-                "Raffadax.RCP_Algae": {
-                    "ItemId": "(O)Raffadax.RCP_Algae",
-                    "IgnoreShopPriceModifiers": true,
+                "153": {
+                    "ItemId": "(O)153",
                     "AvailableStock": 1
                 },
                 "152": {
                     "ItemId": "(O)152",
-                    "IgnoreShopPriceModifiers": true,
                     "AvailableStock": 1
                 },
                 "Raffadax.RCP_Kelp": {
                     "ItemId": "(O)Raffadax.RCP_Kelp",
-                    "IgnoreShopPriceModifiers": true,
                     "AvailableStock": 1
                 },
                 "Raffadax.RCP_RedAlgae": {
                     "ItemId": "(O)Raffadax.RCP_RedAlgae",
-                    "IgnoreShopPriceModifiers": true,
                     "AvailableStock": 1
                 },
                 "157": {
                     "ItemId": "(O)157",
-                    "IgnoreShopPriceModifiers": true,
                     "AvailableStock": 1
                 },
                 "Raffadax.RCP_RandomNode_0": {
@@ -4904,7 +6351,6 @@
                         "(O)Raffadax.RCP_Starfish",
                         "(O)Raffadax.RCP_Sunstar"
                     ],
-                    "IgnoreShopPriceModifiers": true,
                     "AvoidRepeat": true,
                     "AvailableStock": 1
                 }

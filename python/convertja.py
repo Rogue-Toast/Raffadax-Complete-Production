@@ -273,6 +273,8 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
         jsonFiles.append(entry.path.replace("\\", "/"))
     for jf in jsonFiles:
         data = pyjson5.load(open(jf, encoding="utf-8"))
+        if data["Name"] == "Broccoli":
+            continue
         # seed object
         seedObj = SVObject()
         nameStr = unidecode(data["SeedName"])
@@ -381,6 +383,8 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
         except Exception:
             print(jf)
             quit()
+        if objData["Name"] in ["Broccoli", "Raisins"]:
+            continue
         newObj = SVObject()
         nameStr = unidecode(objData["Name"])
         nameStr = re.sub(NAMERE, "", nameStr)

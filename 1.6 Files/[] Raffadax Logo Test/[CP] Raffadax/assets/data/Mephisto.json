@@ -27,7 +27,7 @@
 					"ItemDeliveryQuests": false,
 					"PerfectionScore": true,
 					"EndSlideShow": "TrailingGroup",
-				
+
 					"Appearance": [
 						{
 							"Id": "Default",
@@ -126,7 +126,7 @@
 			"FromFile": "assets/data/blank.json"
 		},
 
-// Dialogue 
+// Dialogue
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/{{Mephisto}}",
@@ -134,6 +134,7 @@
 				"Introduction": "{{i18n:Mephisto.Introduction}}",
 				"summer_21_1": "{{i18n:Mephisto.summer_21_1}}",
 				"winter_21_1": "{{i18n:Mephisto.winter_21_1}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Mephisto.GiftLoved}}",
 	// 0 HEARTS
 				"Mon": "{{i18n:Mephisto.Mon}}",
 				"Tue": "{{i18n:Mephisto.Tue}}",

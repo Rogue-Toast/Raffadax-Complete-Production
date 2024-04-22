@@ -13,7 +13,6 @@
                                 "(O)Raffadax.RCP_Aloe",
                                 "(O)Raffadax.RCP_BlackSesameSeeds",
                                 "(O)Raffadax.RCP_BrassicaFlower",
-                                "(O)Broccoli",
                                 "(O)Raffadax.RCP_BrusselsSprouts",
                                 "(O)Raffadax.RCP_CactusBlossom",
                                 "(O)Raffadax.RCP_Cactushroom",
@@ -95,10 +94,6 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackSesameSeeds",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2000"
-                        },
-                        {
-                            "ItemId": "(O)BroccoliSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 500"
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BrusselsSproutSeeds",
@@ -282,7 +277,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -375,13 +370,15 @@
                             "ItemId": "(BC)Raffadax.RCP_AnpuScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AppleofIdunn",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 500000
+                            "Price": 500000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -415,7 +412,7 @@
                         {
                             "Id": "Amanra_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
@@ -696,7 +693,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -788,13 +785,15 @@
                             "ItemId": "(BC)Raffadax.RCP_SeaMonsterScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StarDust",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 100000
+                            "Price": 100000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -828,7 +827,7 @@
                         {
                             "Id": "Astrid_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
@@ -1103,7 +1102,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -1193,13 +1192,15 @@
                             "ItemId": "(BC)Raffadax.RCP_WendigoScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Catholicon",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 100000
+                            "Price": 100000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -1233,7 +1234,7 @@
                         {
                             "Id": "Coyote_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
@@ -1252,27 +1253,32 @@
                         {
                             "ItemId": "(O)499",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
-                            "Price": 1000
+                            "Price": 1000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GlassPumpkinSeeds",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
-                            "Price": 750
+                            "Price": 750,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JackOLanternSeeds",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
-                            "Price": 100
+                            "Price": 100,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)347",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
-                            "Price": 1000
+                            "Price": 1000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)891",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
-                            "Price": 10000
+                            "Price": 10000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BacteriaCulture"
@@ -1296,42 +1302,49 @@
                             "ItemId": "(O)Raffadax.RCP_BlanchingPowder",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ClimateControlPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CryonicPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MillingPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RoastingPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SolarPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_UmbraPouch",
                             "TradeItemId": "(O)172",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 5
                         },
                         {
@@ -1350,311 +1363,364 @@
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)171",
                             "TradeItemAmount": 5,
+                            "IgnoreShopPriceModifiers": true,
                             "AvailableStock": 1
                         },
                         {
                             "ItemId": "(O)787",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)171",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)105",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)62",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)710",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)599",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)154",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)20",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)114",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 10
+                            "TradeItemAmount": 10,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)17",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)12",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)15",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)621",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_JuiceKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_PureeJar",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_TeaKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 15
+                            "TradeItemAmount": 15,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)24",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)10",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)25",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)9",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_AutoMill",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_BeverageKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_MilkKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 20
+                            "TradeItemAmount": 20,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)16",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)13",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)163",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)90",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_DryPacker",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_FlowHive",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_Oxidizer",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 25
+                            "TradeItemAmount": 25,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)19",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)231",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)182",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)645",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_FermentationTank",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_DistillationTank",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_IncubationTank",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 30
+                            "TradeItemAmount": 30,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)209",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)168",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)21",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)170",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)275",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBag",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)264",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_SodaPopRing",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_FragranceExtractor",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_PlasticBottle",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Garbage",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_DeluxeWineKeg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Junk",
-                            "TradeItemAmount": 35
+                            "TradeItemAmount": 35,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlanchingPowder",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RoastingPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 500",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MillingPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1000",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ClimateControlPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 1500",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CryonicPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2000",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SolarPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_UmbraPouch",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "IsRecipe": true,
-                            "Price": 500
+                            "Price": 500,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_WerewolfScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(BC)Raffadax.RCP_GoldenSpindle",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Mephisto 2500",
                             "IsRecipe": true,
-                            "Price": 1000000
+                            "Price": 1000000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -1688,7 +1754,7 @@
                         {
                             "Id": "Mephisto_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
@@ -1698,7 +1764,6 @@
                             "RandomItemId": [
                                 "(O)Raffadax.RCP_Asparagus",
                                 "(O)Raffadax.RCP_BrassicaFlower",
-                                "(O)Broccoli",
                                 "(O)Raffadax.RCP_Clover",
                                 "(O)Raffadax.RCP_Cucumber",
                                 "(O)Raffadax.RCP_DryadsSaddle",
@@ -1718,7 +1783,6 @@
                                 "(O)Raffadax.RCP_LuckyClover",
                                 "(O)Raffadax.RCP_Okra",
                                 "(O)Raffadax.RCP_OrangeCarrot",
-                                "(O)Raisins",
                                 "(O)Raffadax.RCP_Rapini",
                                 "(O)Raffadax.RCP_RedAntlerReishi",
                                 "(O)Raffadax.RCP_Rose",
@@ -1974,7 +2038,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2062,13 +2126,15 @@
                             "ItemId": "(BC)Raffadax.RCP_NinetailsScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SylvanPowder",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 100000
+                            "Price": 100000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -2102,7 +2168,7 @@
                         {
                             "Id": "Puck_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
@@ -2388,7 +2454,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2473,13 +2539,15 @@
                             "ItemId": "(BC)Raffadax.RCP_HellhoundScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AppleofDiscord",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 500000
+                            "Price": 500000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -2513,7 +2581,7 @@
                         {
                             "Id": "Shuck_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
@@ -2789,8 +2857,9 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
-                            "Price": 50000
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
+                            "Price": 50000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "RandomItemId": [
@@ -2873,13 +2942,15 @@
                             "ItemId": "(BC)Raffadax.RCP_NagualScarecrow",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "IsRecipe": true,
-                            "Price": 5000
+                            "Price": 5000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TempestPowder",
                             "Condition": "YEAR 2",
                             "IsRecipe": true,
-                            "Price": 100000
+                            "Price": 100000,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -2913,7 +2984,7 @@
                         {
                             "Id": "Xolotl_SellPriceModifier",
                             "Modification": "Multiply",
-                            "Amount": 0.5
+                            "Amount": 1.5
                         }
                     ]
                 },
@@ -2923,427 +2994,498 @@
                             "ItemId": "(W)Raffadax.RCP_Airgetlam",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofIshtar",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_AntlerofCernunnos",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofAbnoba",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Aurelia",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofDemeter",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Balmung",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofGarmr",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_BowofEros",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofVenus",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Bragi",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofIdunn",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Brionac",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofBaldr",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Brisingamen",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofFreyja",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Caladcholg",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_RainbowSerpentMead",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Caliburn",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_LapisPhilosophorum",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Callisto",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPolaris",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_ClaiomhSolais",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Ambrosia",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Clarent",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofTitania",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Corndelicorne",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofEpona",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Dainsleif",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_SuttungrMead",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_DragonCrescentBlade",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofBahamut",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Dreamcatcher",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofIktomi",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Durandal",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAres",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Dystopia",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofEris",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Eurydice",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofAristaeus",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Excalibur",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofHarmonia",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_EyeofRa",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofRa",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Faunus",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPan",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_FrostFareBlade",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_KuraokamiWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Galatine",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofBelenus",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Gambanteinn",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofHekate",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Glamdring",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofOberon",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Gram",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofKvasir",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Gungnir",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofOdin",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Inkanyamba",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofOko",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Kaumodaki",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofHanuman",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Kerykeion",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAsklepios",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Kusanagi",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_AmaterasuWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_KwakuAnanse",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAnansi",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Kyuubi",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofInari",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Laevateinn",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofLoki",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Lagertha",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofSkadi",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Longinus",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_HyperionWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_LorgMor",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_DormarchWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_MahuikasTalon",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPele",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Mezzaluna",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Soma",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_MirrorofPachacutec",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_ViracochaWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Mjollnir",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofDonar",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_MomentoMori",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPersephone",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_MwindosScepter",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofOshun",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Naberius",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_CerberusWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Nidhoggr",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofHel",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Ohto",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofTapio",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Orcus",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofPluton",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Orion",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofSirius",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Ouroboros",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofJormungandr",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_PhoenixPinion",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_PhoenixMead",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Ragnarok",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofFenrir",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Ratatoskr",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofEostre",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Revontulet",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofTulikettu",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_SavetheQueen",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofBeyla",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_SeditsWhisker",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_Huehuecoyotl",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_SilverCrescent",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofArtemis",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Skirnismal",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofFreyr",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_StaffofIris",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofGanymede",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_StaffofOisin",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_MeadofHyldemor",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_StaffofYoba",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofYoba",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Sundog",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_ApolloWine",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_SwordofThunderbolt",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofJupiter",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Tezcatlipoca",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofCamazotz",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Thyrsus",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Coyote 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofBacchus",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Triton",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofNeptune",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Tyrfing",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAuberon",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Vajra",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofOsiris",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Wepwawet",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Amanra 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofAnubis",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(W)Raffadax.RCP_Zephyros",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
                             "TradeItemId": "(O)Raffadax.RCP_WineofBoreas",
-                            "TradeItemAmount": 1
+                            "TradeItemAmount": 1,
+                            "IgnoreShopPriceModifiers": true
                         }
                     ],
                     "SalableItemTags": [
@@ -3371,7 +3513,14 @@
                             ]
                         }
                     ],
-                    "StackSizeVisibility": "ShowIfMultiple"
+                    "StackSizeVisibility": "ShowIfMultiple",
+                    "PriceModifiers": [
+                        {
+                            "Id": "Valkyrie_SellPriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 1.5
+                        }
+                    ]
                 },
                 "{{ModId}}_Humidor_Shop": {
                     "Items": [
@@ -3428,65 +3577,86 @@
                             ]
                         }
                     ],
-                    "StackSizeVisibility": "ShowIfMultiple"
+                    "StackSizeVisibility": "ShowIfMultiple",
+                    "PriceModifiers": [
+                        {
+                            "Id": "Humidor_SellPriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 1.5
+                        }
+                    ]
                 },
                 "{{ModId}}_SodaMachine_Shop": {
                     "Items": [
                         {
                             "ItemId": "(O)167",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Cola",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CherryCola",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Dr.Pimento",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)903",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GrapeCrash",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LemonUp",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MountainBlue",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_OrangeCrash",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Pixie",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RootBeer",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SakuraSoda",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Spurt",
-                            "Price": 250
+                            "Price": 250,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WolfCola",
-                            "Price": 1000
+                            "Price": 1000,
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "RandomItemId": [
@@ -3524,7 +3694,14 @@
                             ]
                         }
                     ],
-                    "StackSizeVisibility": "ShowIfMultiple"
+                    "StackSizeVisibility": "ShowIfMultiple",
+                    "PriceModifiers": [
+                        {
+                            "Id": "SodaMachine_SellPriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 1.5
+                        }
+                    ]
                 }
             }
         },
@@ -4229,8 +4406,7 @@
                         "(O)Raffadax.RCP_WoodruffSoda"
                     ],
                     "Price": 250,
-                    "AvoidRepeat": true,
-                    "AvailableStock": 1
+                    "AvoidRepeat": true
                 },
                 "Raffadax.RCP_RandomNode_1": {
                     "RandomItemId": [
@@ -4255,8 +4431,7 @@
                         "(O)Raffadax.RCP_WhiteCocoa"
                     ],
                     "Price": 350,
-                    "AvoidRepeat": true,
-                    "AvailableStock": 1
+                    "AvoidRepeat": true
                 },
                 "Raffadax.RCP_RandomNode_2": {
                     "RandomItemId": [
@@ -4298,8 +4473,7 @@
                         "(O)Raffadax.RCP_YellowTea"
                     ],
                     "Price": 350,
-                    "AvoidRepeat": true,
-                    "AvailableStock": 1
+                    "AvoidRepeat": true
                 },
                 "Raffadax.RCP_RandomNode_3": {
                     "RandomItemId": [
@@ -4337,8 +4511,7 @@
                         "(O)Raffadax.RCP_WhiteWine"
                     ],
                     "Price": 500,
-                    "AvoidRepeat": true,
-                    "AvailableStock": 1
+                    "AvoidRepeat": true
                 }
             }
         },
@@ -4702,7 +4875,6 @@
                         "(O)Raffadax.RCP_PowderedSugar",
                         "(O)Raffadax.RCP_Prune",
                         "(O)Raffadax.RCP_QuinceCheese",
-                        "(O)Raisins",
                         "(O)Raffadax.RCP_TapiocaPearls",
                         "(O)Raffadax.RCP_SourCream",
                         "(O)Raffadax.RCP_VanillaPaste",
@@ -5363,7 +5535,6 @@
                         "(O)Raffadax.RCP_PowderedSugar",
                         "(O)Raffadax.RCP_Prune",
                         "(O)Raffadax.RCP_QuinceCheese",
-                        "(O)Raisins",
                         "(O)Raffadax.RCP_TapiocaPearls",
                         "(O)Raffadax.RCP_SourCream",
                         "(O)Raffadax.RCP_VanillaPaste",
@@ -5762,7 +5933,6 @@
                         "(O)Raffadax.RCP_Boxberry",
                         "(O)Raffadax.RCP_BrassicaFlower",
                         "(O)Raffadax.RCP_BrazilNut",
-                        "(O)Broccoli",
                         "(O)Raffadax.RCP_BrusselsSprouts",
                         "(O)Raffadax.RCP_BuddhasHand",
                         "(O)Raffadax.RCP_ButtonMushroom",
@@ -5942,7 +6112,6 @@
                         "(O)Raffadax.RCP_PurpleCauliflower",
                         "(O)Raffadax.RCP_Quince",
                         "(O)Raffadax.RCP_RainbowEucalyptusLeaf",
-                        "(O)Raisins",
                         "(O)Raffadax.RCP_Rambutan",
                         "(O)Raffadax.RCP_Rapini",
                         "(O)Raffadax.RCP_Raspberry",

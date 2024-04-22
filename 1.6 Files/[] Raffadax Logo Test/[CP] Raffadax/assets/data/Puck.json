@@ -27,7 +27,7 @@
 					"ItemDeliveryQuests": false,
 					"PerfectionScore": true,
 					"EndSlideShow": "TrailingGroup",
-		
+
 					"Appearance": [
 						{
 							"Id": "Default",
@@ -143,13 +143,14 @@
 			"FromFile": "assets/data/blank.json"
 		},
 
-// Dialogue 
+// Dialogue
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/{{Puck}}",
 			"Entries": {
 				"Introduction": "{{i18n:Puck.Introduction}}",
 				"summer_21_1": "{{i18n:Puck.summer_21_1}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Puck.GiftLoved}}",
 	// 0 HEARTS
 				"Mon": "{{i18n:Puck.Mon}}",
 				"Tue": "{{i18n:Puck.Tue}}",
