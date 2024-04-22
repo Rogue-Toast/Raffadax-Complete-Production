@@ -27,7 +27,7 @@
 					"ItemDeliveryQuests": false,
 					"PerfectionScore": true,
 					"EndSlideShow": "TrailingGroup",
-		
+
 					"Appearance": [
 						{
 							"Id": "Default",
@@ -50,14 +50,14 @@
 		},
 
 // Display Name
-	{
-		"LogName": "Display name in standard location",
-		"Target": "Strings/NPCNames",
-		"Action": "EditData",
-		"Entries": {
-			"{{Shuck}}": "{{i18n:Shuck.DisplayName}}"
-		}
-	},
+		{
+			"LogName": "Display name in standard location",
+			"Target": "Strings/NPCNames",
+			"Action": "EditData",
+			"Entries": {
+				"{{Shuck}}": "{{i18n:Shuck.DisplayName}}"
+			}
+		},
 
 // Portraits & sprites
 		{
@@ -126,7 +126,7 @@
 			"FromFile": "assets/data/blank.json"
 		},
 
-// Dialogue 
+// Dialogue
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/{{Shuck}}",
@@ -134,6 +134,7 @@
 				"Introduction": "{{i18n:Shuck.Introduction}}",
 				"summer_21_1": "{{i18n:Shuck.summer_21_1}}",
 				"winter_21_1": "{{i18n:Shuck.winter_21_1}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Shuck.GiftLoved}}",
 	// 0 HEARTS
 				"Mon": "{{i18n:Shuck.Mon}}",
 				"Tue": "{{i18n:Shuck.Tue}}",

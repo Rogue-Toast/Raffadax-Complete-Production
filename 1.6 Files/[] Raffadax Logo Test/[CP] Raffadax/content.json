@@ -161,6 +161,14 @@
             "Action": "Include",
             "FromFile": "assets/data/Xolotlgifts.json"
         },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Mail.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/TriggerActions.json"
+        },
 
 // CUSTOM NPC EXCLUSIONS
         {
@@ -192,6 +200,6 @@
                 "JoJini": "{{i18n:StringsFromMaps.JoJini}}",
                 "Necronomicon": "{{i18n:StringsFromMaps.Necronomicon}}"
             }
-        }    
+        }
     ]
 }

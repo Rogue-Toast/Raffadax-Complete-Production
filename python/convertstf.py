@@ -92,11 +92,14 @@ def buildShops(fileIn: str, fileOut: str):
             if ist["MaxNumItemsSoldInItemStock"] < len(ist["ItemNames"]):
                 # random
                 for inm in ist["ItemNames"]:
-                    if inm in ["Crab Pot", "Sprinkler", "Quality Sprinkler", "Iridium Sprinkler"]:
-                        thisID = "(O){}".format(translateName(inm))
+                    if inm in ["Broccoli", "Raisins"]:
+                        continue
                     else:
-                        thisID = "{}{}".format(prefix, translateName(inm))
-                    inv.RandomItemId.append(thisID)
+                        if inm in ["Crab Pot", "Sprinkler", "Quality Sprinkler", "Iridium Sprinkler"]:
+                            thisID = "(O){}".format(translateName(inm))
+                        else:
+                            thisID = "{}{}".format(prefix, translateName(inm))
+                        inv.RandomItemId.append(thisID)
                 if "StockPrice" in ist:
                     inv.Price = int(ist["StockPrice"])
                 if "Stock" in ist:
@@ -122,6 +125,8 @@ def buildShops(fileIn: str, fileOut: str):
                     inv.TradeItemAmount = ist["StockCurrencyStack"]
                 newShop.Items.append(inv.to_dict())
             else:
+                if ist["ItemNames"] == ["Broccoli Seeds"]:
+                    continue
                 for inm in ist["ItemNames"]:
                     if inm in ["Crab Pot", "Sprinkler", "Quality Sprinkler", "Iridium Sprinkler"]:
                         inv.ItemId = "(O){}".format(translateName(inm))
@@ -129,6 +134,7 @@ def buildShops(fileIn: str, fileOut: str):
                         inv.ItemId = "{}{}".format(prefix, translateName(inm))
                     if "StockPrice" in ist:
                         inv.Price = int(ist["StockPrice"])
+                        inv.IgnoreShopPriceModifiers = True
                     if "Stock" in ist:
                         inv.AvailableStock = ist["Stock"]
                     if "IsRecipe" in ist and ist["IsRecipe"]:
@@ -149,6 +155,7 @@ def buildShops(fileIn: str, fileOut: str):
                     if "StockItemCurrency" in ist:
                         inv.TradeItemId = "(O){}".format(translateName(ist["StockItemCurrency"]))
                         inv.TradeItemAmount = ist["StockCurrencyStack"]
+                        inv.IgnoreShopPriceModifiers = True
                     newShop.Items.append(inv.to_dict())
         newShop.SalableItemTags = [CATEGORIES[str(x)] for x in oldshop["CategoriesToSellHere"]]
         timeParts = oldshop["When"][0].split(" ")
@@ -165,11 +172,10 @@ def buildShops(fileIn: str, fileOut: str):
         i18n["default"]["{}.ShopDialogue".format(newShopName)] = oldshop["Quote"]
         i18n["default"]["{}.ShopClosed".format(newShopName)] = oldshop["ClosedMessage"]
         newShop.Owners.append(ownerDict)
-        if "DefaultSellPriceMultiplier" in oldshop:
-            pmDict = {"Id": "{}_SellPriceModifier".format(newShopName),
-                      "Modification": "Multiply",
-                      "Amount": oldshop["DefaultSellPriceMultiplier"]}
-            newShop.PriceModifiers.append(pmDict)
+        pmDict = {"Id": "{}_SellPriceModifier".format(newShopName),
+                  "Modification": "Multiply",
+                  "Amount": 1.5}
+        newShop.PriceModifiers.append(pmDict)
         newShop.StackSizeVisibility = "ShowIfMultiple"
         nsChangeNode["Entries"][shopID] = newShop.to_dict()
     # uncomment below to include the new shops
@@ -195,8 +201,11 @@ def buildShops(fileIn: str, fileOut: str):
             if ist["MaxNumItemsSoldInItemStock"] < len(ist["ItemNames"]):
                 # random
                 for inm in ist["ItemNames"]:
-                    thisID = "{}{}".format(prefix, translateName(inm))
-                    inv.RandomItemId.append(thisID)
+                    if inm in ["Broccoli", "Raisins"]:
+                        continue
+                    else:
+                        thisID = "{}{}".format(prefix, translateName(inm))
+                        inv.RandomItemId.append(thisID)
                 if "StockPrice" in ist:
                     if newShopName == "SeedShop":
                         inv.Price = int(ist["StockPrice"] / 2)
@@ -209,8 +218,8 @@ def buildShops(fileIn: str, fileOut: str):
                     inv.UseObjectDataPrice = True
                 if "Stock" in ist:
                     inv.AvailableStock = ist["Stock"]
-                if newShopName == "Saloon":
-                    inv.AvailableStock = 1
+                # if newShopName == "Saloon":
+                #     inv.AvailableStock = 1
                 if "IsRecipe" in ist and ist["IsRecipe"]:
                     inv.IsRecipe = True
                 inv.AvoidRepeat = True
@@ -237,6 +246,8 @@ def buildShops(fileIn: str, fileOut: str):
                 i += 1
             else:
                 for inm in ist["ItemNames"]:
+                    if inm in ["Broccoli", "Raisins"]:
+                        continue
                     inv.ItemId = "{}{}".format(prefix, translateName(inm))
                     if "StockPrice" in ist:
                         if newShopName == "SeedShop":
