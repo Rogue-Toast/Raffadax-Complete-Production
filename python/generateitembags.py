@@ -25,10 +25,11 @@ def buildBag(id: str, contents: str, items: list, hasqualities=False, isbc=False
     bag["Prices"]["Giant"] = 30 * basePrice
     bag["Prices"]["Massive"] = 100 * basePrice
     for item in items:
-        itemDict = {"Name": item,
+        itemDict = {"Name": None,
                     "IsBigCraftable": isbc,
                     "HasQualities": hasqualities,
-                    "RequiredSize": "Small"}
+                    "RequiredSize": "Small",
+                    "ObjectId": item}
         bag["Items"].append(itemDict)
     OUTFILE = "{}Raffadax.RCP.{}.json".format(OUTPATH, id)
     with open(OUTFILE, 'w', encoding='utf-8') as f:

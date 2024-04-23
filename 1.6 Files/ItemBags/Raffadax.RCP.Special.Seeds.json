@@ -121,28 +121,32 @@
     },
     "Items": [
         {
-            "Name": "Raffadax.RCP_GemCapStarter",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GemCapStarter"
         },
         {
-            "Name": "Raffadax.RCP_PricklyPearCactusStarter",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PricklyPearCactusStarter"
         },
         {
-            "Name": "Raffadax.RCP_TreasurePlantStarter",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TreasurePlantStarter"
         },
         {
-            "Name": "Raffadax.RCP_XoconostleCactusStarter",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_XoconostleCactusStarter"
         }
     ]
 }

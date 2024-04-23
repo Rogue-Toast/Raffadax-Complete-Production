@@ -121,898 +121,1047 @@
     },
     "Items": [
         {
-            "Name": "Raffadax.RCP_AcaiBerry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AcaiBerry"
         },
         {
-            "Name": "Raffadax.RCP_Annatto",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Annatto"
         },
         {
-            "Name": "Raffadax.RCP_Agave",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Agave"
         },
         {
-            "Name": "Raffadax.RCP_Almond",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Almond"
         },
         {
-            "Name": "Raffadax.RCP_AncientFruit",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AncientFruit"
         },
         {
-            "Name": "Raffadax.RCP_AngosturaBark",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AngosturaBark"
         },
         {
-            "Name": "Raffadax.RCP_Avocado",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Avocado"
         },
         {
-            "Name": "Raffadax.RCP_Baobab",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Baobab"
         },
         {
-            "Name": "Raffadax.RCP_BayLeaf",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BayLeaf"
         },
         {
-            "Name": "Raffadax.RCP_Bearberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Bearberry"
         },
         {
-            "Name": "Raffadax.RCP_BergamotOrange",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BergamotOrange"
         },
         {
-            "Name": "Raffadax.RCP_BirchBark",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BirchBark"
         },
         {
-            "Name": "Raffadax.RCP_BlackBamboo",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackBamboo"
         },
         {
-            "Name": "Raffadax.RCP_BlackCacaoPod",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackCacaoPod"
         },
         {
-            "Name": "Raffadax.RCP_BlackCherry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackCherry"
         },
         {
-            "Name": "Raffadax.RCP_BlackCurrants",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackCurrants"
         },
         {
-            "Name": "Raffadax.RCP_Mistletoe",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Mistletoe"
         },
         {
-            "Name": "Raffadax.RCP_BlackOlive",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackOlive"
         },
         {
-            "Name": "Raffadax.RCP_BlackWalnut",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackWalnut"
         },
         {
-            "Name": "Raffadax.RCP_SloePlum",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SloePlum"
         },
         {
-            "Name": "Raffadax.RCP_BlueJavaBanana",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlueJavaBanana"
         },
         {
-            "Name": "Raffadax.RCP_BlueRaspberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlueRaspberry"
         },
         {
-            "Name": "Raffadax.RCP_CintamaniFlower",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CintamaniFlower"
         },
         {
-            "Name": "Raffadax.RCP_BrazilNut",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BrazilNut"
         },
         {
-            "Name": "Raffadax.RCP_BuddhasHand",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BuddhasHand"
         },
         {
-            "Name": "Raffadax.RCP_CacaoPod",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CacaoPod"
         },
         {
-            "Name": "Raffadax.RCP_Carambola",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Carambola"
         },
         {
-            "Name": "Raffadax.RCP_CashewApple",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CashewApple"
         },
         {
-            "Name": "Raffadax.RCP_Chestnut",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Chestnut"
         },
         {
-            "Name": "Raffadax.RCP_CinchonaBark",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CinchonaBark"
         },
         {
-            "Name": "Raffadax.RCP_CinnamonBark",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CinnamonBark"
         },
         {
-            "Name": "Raffadax.RCP_Clematis",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Clematis"
         },
         {
-            "Name": "Raffadax.RCP_Clove",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Clove"
         },
         {
-            "Name": "Raffadax.RCP_CocodeMer",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CocodeMer"
         },
         {
-            "Name": "Raffadax.RCP_Zaminkand",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Zaminkand"
         },
         {
-            "Name": "Raffadax.RCP_Crabapple",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Crabapple"
         },
         {
-            "Name": "Raffadax.RCP_CrystalFruit",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CrystalFruit"
         },
         {
-            "Name": "Raffadax.RCP_CurryLeaf",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CurryLeaf"
         },
         {
-            "Name": "Raffadax.RCP_Date",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Date"
         },
         {
-            "Name": "Raffadax.RCP_DeadMansFingers",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DeadMansFingers"
         },
         {
-            "Name": "Raffadax.RCP_Dogwood",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Dogwood"
         },
         {
-            "Name": "Raffadax.RCP_DragonFruit",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DragonFruit"
         },
         {
-            "Name": "Raffadax.RCP_Hesperidium",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Hesperidium"
         },
         {
-            "Name": "Raffadax.RCP_Durian",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Durian"
         },
         {
-            "Name": "Raffadax.RCP_EbonyWood",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_EbonyWood"
         },
         {
-            "Name": "Raffadax.RCP_Elderflower",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Elderflower"
         },
         {
-            "Name": "Raffadax.RCP_Elderberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Elderberry"
         },
         {
-            "Name": "Raffadax.RCP_Fig",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Fig"
         },
         {
-            "Name": "Raffadax.RCP_WildPlum",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WildPlum"
         },
         {
-            "Name": "Raffadax.RCP_RoseofAvalon",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RoseofAvalon"
         },
         {
-            "Name": "Raffadax.RCP_Forsythia",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Forsythia"
         },
         {
-            "Name": "Raffadax.RCP_Foxberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Foxberry"
         },
         {
-            "Name": "Raffadax.RCP_DragonBerry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DragonBerry"
         },
         {
-            "Name": "Raffadax.RCP_GoldenCoconut",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GoldenCoconut"
         },
         {
-            "Name": "Raffadax.RCP_GoldenWalnut",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GoldenWalnut"
         },
         {
-            "Name": "Raffadax.RCP_GinkgoLeaf",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GinkgoLeaf"
         },
         {
-            "Name": "Raffadax.RCP_GoldenPlum",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GoldenPlum"
         },
         {
-            "Name": "Raffadax.RCP_Grapefruit",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Grapefruit"
         },
         {
-            "Name": "Raffadax.RCP_GrosMichel",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GrosMichel"
         },
         {
-            "Name": "Raffadax.RCP_Guarana",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Guarana"
         },
         {
-            "Name": "Raffadax.RCP_Guava",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Guava"
         },
         {
-            "Name": "Raffadax.RCP_PoisonApple",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PoisonApple"
         },
         {
-            "Name": "Raffadax.RCP_HawthornBerry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HawthornBerry"
         },
         {
-            "Name": "Raffadax.RCP_Heliconia",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Heliconia"
         },
         {
-            "Name": "Raffadax.RCP_Hibiscus",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Hibiscus"
         },
         {
-            "Name": "Raffadax.RCP_Honeyberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Honeyberry"
         },
         {
-            "Name": "Raffadax.RCP_HoneycrispApple",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HoneycrispApple"
         },
         {
-            "Name": "Raffadax.RCP_Honeysuckle",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Honeysuckle"
         },
         {
-            "Name": "Raffadax.RCP_HuaMoa",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HuaMoa"
         },
         {
-            "Name": "Raffadax.RCP_Huckleberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Huckleberry"
         },
         {
-            "Name": "Raffadax.RCP_StarAnise",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StarAnise"
         },
         {
-            "Name": "Raffadax.RCP_FruitoftheNetherworld",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FruitoftheNetherworld"
         },
         {
-            "Name": "Raffadax.RCP_Jabuticaba",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Jabuticaba"
         },
         {
-            "Name": "Raffadax.RCP_Jacaranda",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Jacaranda"
         },
         {
-            "Name": "Raffadax.RCP_DeepJungleMoss",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DeepJungleMoss"
         },
         {
-            "Name": "Raffadax.RCP_Juniper",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Juniper"
         },
         {
-            "Name": "Raffadax.RCP_KeyLime",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_KeyLime"
         },
         {
-            "Name": "Raffadax.RCP_Kiwi",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Kiwi"
         },
         {
-            "Name": "Raffadax.RCP_KolaNut",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_KolaNut"
         },
         {
-            "Name": "Raffadax.RCP_Kumquat",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Kumquat"
         },
         {
-            "Name": "Raffadax.RCP_LarahaOrange",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LarahaOrange"
         },
         {
-            "Name": "Raffadax.RCP_Lavender",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Lavender"
         },
         {
-            "Name": "Raffadax.RCP_Lemon",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Lemon"
         },
         {
-            "Name": "Raffadax.RCP_Lilac",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Lilac"
         },
         {
-            "Name": "Raffadax.RCP_Lime",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Lime"
         },
         {
-            "Name": "Raffadax.RCP_Linden",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Linden"
         },
         {
-            "Name": "Raffadax.RCP_Lychee",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Lychee"
         },
         {
-            "Name": "Raffadax.RCP_MacadamiaNut",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MacadamiaNut"
         },
         {
-            "Name": "Raffadax.RCP_VakkhicGrape",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_VakkhicGrape"
         },
         {
-            "Name": "Raffadax.RCP_MandarinOrange",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MandarinOrange"
         },
         {
-            "Name": "Raffadax.RCP_MarconaAlmond",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MarconaAlmond"
         },
         {
-            "Name": "Raffadax.RCP_MeyerLemon",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MeyerLemon"
         },
         {
-            "Name": "Raffadax.RCP_MimosaFlower",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MimosaFlower"
         },
         {
-            "Name": "Raffadax.RCP_SeaHeart",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SeaHeart"
         },
         {
-            "Name": "Raffadax.RCP_MonsteraDeliciosa",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MonsteraDeliciosa"
         },
         {
-            "Name": "Raffadax.RCP_Moonberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Moonberry"
         },
         {
-            "Name": "Raffadax.RCP_Mulberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Mulberry"
         },
         {
-            "Name": "Raffadax.RCP_Myristica",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Myristica"
         },
         {
-            "Name": "Raffadax.RCP_NinoBananas",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_NinoBananas"
         },
         {
-            "Name": "Raffadax.RCP_Olive",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Olive"
         },
         {
-            "Name": "Raffadax.RCP_Osmanthus",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Osmanthus"
         },
         {
-            "Name": "Raffadax.RCP_HeartsofPalm",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HeartsofPalm"
         },
         {
-            "Name": "Raffadax.RCP_Papaya",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Papaya"
         },
         {
-            "Name": "Raffadax.RCP_Pear",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Pear"
         },
         {
-            "Name": "Raffadax.RCP_Pecan",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Pecan"
         },
         {
-            "Name": "Raffadax.RCP_Persimmon",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Persimmon"
         },
         {
-            "Name": "Raffadax.RCP_PimentoBerry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PimentoBerry"
         },
         {
-            "Name": "Raffadax.RCP_PineNut",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PineNut"
         },
         {
-            "Name": "Raffadax.RCP_PinkLemon",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PinkLemon"
         },
         {
-            "Name": "Raffadax.RCP_Pistachio",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Pistachio"
         },
         {
-            "Name": "Raffadax.RCP_Plantain",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Plantain"
         },
         {
-            "Name": "Raffadax.RCP_PolarBerry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PolarBerry"
         },
         {
-            "Name": "Raffadax.RCP_Quince",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Quince"
         },
         {
-            "Name": "Raffadax.RCP_RainbowEucalyptusLeaf",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RainbowEucalyptusLeaf"
         },
         {
-            "Name": "Raffadax.RCP_Rambutan",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Rambutan"
         },
         {
-            "Name": "Raffadax.RCP_Raspberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Raspberry"
         },
         {
-            "Name": "Raffadax.RCP_RedAnjouPear",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedAnjouPear"
         },
         {
-            "Name": "Raffadax.RCP_RedDaccaBanana",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedDaccaBanana"
         },
         {
-            "Name": "Raffadax.RCP_Rooibos",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Rooibos"
         },
         {
-            "Name": "Raffadax.RCP_RoseGrapes",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RoseGrapes"
         },
         {
-            "Name": "Raffadax.RCP_Rosemary",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Rosemary"
         },
         {
-            "Name": "Raffadax.RCP_Rowanberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Rowanberry"
         },
         {
-            "Name": "Raffadax.RCP_RoyalPoinciana",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RoyalPoinciana"
         },
         {
-            "Name": "Raffadax.RCP_RubyRedGrapefruit",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RubyRedGrapefruit"
         },
         {
-            "Name": "Raffadax.RCP_Bahidaj",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Bahidaj"
         },
         {
-            "Name": "Raffadax.RCP_Sakura",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Sakura"
         },
         {
-            "Name": "Raffadax.RCP_Sandalwood",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Sandalwood"
         },
         {
-            "Name": "Raffadax.RCP_Saskatoon",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Saskatoon"
         },
         {
-            "Name": "Raffadax.RCP_SassafrasRoot",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SassafrasRoot"
         },
         {
-            "Name": "Raffadax.RCP_SpiceBerry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SpiceBerry"
         },
         {
-            "Name": "Raffadax.RCP_SpruceTips",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SpruceTips"
         },
         {
-            "Name": "Raffadax.RCP_StarApple",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StarApple"
         },
         {
-            "Name": "Raffadax.RCP_StarJasmine",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StarJasmine"
         },
         {
-            "Name": "Raffadax.RCP_Sugarcane",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Sugarcane"
         },
         {
-            "Name": "Raffadax.RCP_Sumac",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Sumac"
         },
         {
-            "Name": "Raffadax.RCP_SummerStarberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SummerStarberry"
         },
         {
-            "Name": "Raffadax.RCP_Sunberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Sunberry"
         },
         {
-            "Name": "Raffadax.RCP_SweetGemBerry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SweetGemBerry"
         },
         {
-            "Name": "Raffadax.RCP_Tamarind",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Tamarind"
         },
         {
-            "Name": "Raffadax.RCP_Walnut",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Walnut"
         },
         {
-            "Name": "Raffadax.RCP_WhiteCacaoPod",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteCacaoPod"
         },
         {
-            "Name": "Raffadax.RCP_WhitePeach",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhitePeach"
         },
         {
-            "Name": "Raffadax.RCP_WillowBark",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WillowBark"
         },
         {
-            "Name": "Raffadax.RCP_WinterStarberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WinterStarberry"
         },
         {
-            "Name": "Raffadax.RCP_Wisteria",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Wisteria"
         },
         {
-            "Name": "Raffadax.RCP_WitchHazel",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WitchHazel"
         },
         {
-            "Name": "Raffadax.RCP_Wolfberry",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Wolfberry"
         },
         {
-            "Name": "Raffadax.RCP_Yateveo",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Yateveo"
         },
         {
-            "Name": "Raffadax.RCP_Bifrost",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Bifrost"
         }
     ]
 }

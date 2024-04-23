@@ -121,118 +121,137 @@
     },
     "Items": [
         {
-            "Name": "Raffadax.RCP_B.linens",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_B.linens"
         },
         {
-            "Name": "Raffadax.RCP_BacteriaCulture",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BacteriaCulture"
         },
         {
-            "Name": "Raffadax.RCP_Chymosin",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Chymosin"
         },
         {
-            "Name": "Raffadax.RCP_Kelp",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Kelp"
         },
         {
-            "Name": "Raffadax.RCP_L.bulgaricus",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_L.bulgaricus"
         },
         {
-            "Name": "Raffadax.RCP_L.helveticus",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_L.helveticus"
         },
         {
-            "Name": "Raffadax.RCP_L.lactis",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_L.lactis"
         },
         {
-            "Name": "Raffadax.RCP_Lipase",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Lipase"
         },
         {
-            "Name": "Raffadax.RCP_P.camemberti",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_P.camemberti"
         },
         {
-            "Name": "Raffadax.RCP_P.candidum",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_P.candidum"
         },
         {
-            "Name": "Raffadax.RCP_P.freudenreichii",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_P.freudenreichii"
         },
         {
-            "Name": "Raffadax.RCP_P.glaucum",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_P.glaucum"
         },
         {
-            "Name": "Raffadax.RCP_P.roqueforti",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_P.roqueforti"
         },
         {
-            "Name": "Raffadax.RCP_P.rubens",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_P.rubens"
         },
         {
-            "Name": "Raffadax.RCP_P.shermanii",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_P.shermanii"
         },
         {
-            "Name": "Raffadax.RCP_RedAlgae",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedAlgae"
         },
         {
-            "Name": "Raffadax.RCP_Rennet",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Rennet"
         },
         {
-            "Name": "Raffadax.RCP_SCOBY",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SCOBY"
         },
         {
-            "Name": "Raffadax.RCP_Yeast",
+            "Name": null,
             "IsBigCraftable": false,
             "HasQualities": false,
-            "RequiredSize": "Small"
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Yeast"
         }
     ]
 }
