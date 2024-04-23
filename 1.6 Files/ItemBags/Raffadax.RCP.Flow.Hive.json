@@ -1,0 +1,754 @@
+{
+    "IsEnabled": true,
+    "ModUniqueId": "Raffadax.RCP",
+    "BagId": "Raffadax.Flow.Hive",
+    "BagName": "Raffadax Flow Hive Products",
+    "BagDescription": "A bag for storing Raffadax Flow Hive Products.",
+    "IconTexture": "SpringObjects",
+    "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
+    "Prices": {
+        "Small": 900,
+        "Medium": 2700,
+        "Large": 9000,
+        "Giant": 27000,
+        "Massive": 90000
+    },
+    "Capacities": {
+        "Small": 30,
+        "Medium": 99,
+        "Large": 300,
+        "Giant": 999,
+        "Massive": 9999
+    },
+    "SizeSellers": {
+        "Small": [
+            "Pierre"
+        ],
+        "Medium": [
+            "Pierre"
+        ],
+        "Large": [
+            "Pierre"
+        ],
+        "Giant": [
+            "Pierre"
+        ],
+        "Massive": [
+            "Pierre"
+        ]
+    },
+    "SizeMenuOptions": {
+        "Small": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Medium": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Large": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Giant": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Massive": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        }
+    },
+    "Items": [
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AlliumHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AncientHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ArtemisiaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AstralHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Beeswax"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BifrostHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlueJazzHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlueLotusHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BrassicaFlowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CactusHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CannabisHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CarawayHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ChamomileHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ChicoryFlowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CintamaniHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ClematisHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CloverHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CorianderHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CorpseFlowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CrocusHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DaffodilHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DaisyHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DandelionHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DogwoodHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DragonHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DryadHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ElderflowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FairyRoseHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FennelHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FernFlowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FireWheelHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FlindersRoseHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FlowHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ForestRoseHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ForsythiaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FoxgloveHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GentianHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GultheriaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HarmonicHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HawkweedHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HeliconiaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HibiscusHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Honeycomb"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HoneyofStrife"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HoneysuckleHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_IndigoHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_InfernalHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_JacarandaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_JasmineHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LavenderHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LilacHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LindenHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LunarHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MaenadHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MandrakeHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MimosaFlowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MintFlowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_NettleBlossomHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_NigellaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OpuntiaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OsmanthusHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PassionFlowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PeriwinkleHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PoinsettiaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PolarHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PoppyFlowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RainforestHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RooibosHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RoseHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RosemaryHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RoyalPoincianaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SakuraHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SolarHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SquashFlowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StardropHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StellarHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SummerSpangleHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SunflowerHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SweetGemHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SweetPeaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TopinamburHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TulipHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_VanillaOrchidHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_VioletHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WaldmeisterHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WisteriaHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WitchHazelHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WolfsbaneHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_YarrowHoney"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_YateveoHoney"
+        }
+    ]
+}

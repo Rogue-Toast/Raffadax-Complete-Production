@@ -176,13 +176,13 @@
             "Action": "EditData",
             "Target": "Data/CustomNPCExclusions",
             "Entries": {
-                "Amanra": "All",
-                "Astrid": "All",
-                "Coyote": "All",
-		        "Mephisto": "All",
-		        "Puck": "All",
-		        "Shuck": "All",
-		        "Xolotl": "All"
+                "{{Amanra}}": "All",
+                "{{Astrid}}": "All",
+                "{{Coyote}}": "All",
+		        "{{Mephisto}}": "All",
+		        "{{Puck}}": "All",
+		        "{{Shuck}}": "All",
+		        "{{Xolotl}}": "All"
             }
         },
 

@@ -1,0 +1,256 @@
+{
+    "IsEnabled": true,
+    "ModUniqueId": "Raffadax.RCP",
+    "BagId": "Raffadax.Special",
+    "BagName": "Raffadax Special",
+    "BagDescription": "A bag for storing Raffadax Special Crops and Gems",
+    "IconTexture": "SpringObjects",
+    "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
+    "Prices": {
+        "Small": 220,
+        "Medium": 660,
+        "Large": 2200,
+        "Giant": 6600,
+        "Massive": 22000
+    },
+    "Capacities": {
+        "Small": 30,
+        "Medium": 99,
+        "Large": 300,
+        "Giant": 999,
+        "Massive": 9999
+    },
+    "SizeSellers": {
+        "Small": [
+            "Pierre"
+        ],
+        "Medium": [
+            "Pierre"
+        ],
+        "Large": [
+            "Pierre"
+        ],
+        "Giant": [
+            "Pierre"
+        ],
+        "Massive": [
+            "Pierre"
+        ]
+    },
+    "SizeMenuOptions": {
+        "Small": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Medium": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Large": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Giant": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Massive": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        }
+    },
+    "Items": [
+        {
+            "Name": "Raffadax.RCP_GemCap",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_Sapphire",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_PricklyPear",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_Nopal",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_OpuntiaFlower",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_GoldenChest",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_GoldenLeaf",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SilverCoin",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SilverLeaf",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_Sapphire",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_BlackPearl",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_AncientCoin",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_GiantPearl",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_GoldenAntler",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_GoldenFeather",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SilverAntler",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SilverFeather",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_IridiumFeather",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_MythrilFeather",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_Xoconostle",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_Nopal",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_OpuntiaFlower",
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small"
+        }
+    ]
+}
