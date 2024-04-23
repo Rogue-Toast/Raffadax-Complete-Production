@@ -1,0 +1,334 @@
+{
+    "IsEnabled": true,
+    "ModUniqueId": "Raffadax.RCP",
+    "BagId": "Raffadax.Oil.Maker",
+    "BagName": "Raffadax Oil Maker Products",
+    "BagDescription": "A bag for storing Raffadax Oil Maker Products.",
+    "IconTexture": "SpringObjects",
+    "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
+    "Prices": {
+        "Small": 350,
+        "Medium": 1050,
+        "Large": 3500,
+        "Giant": 10500,
+        "Massive": 35000
+    },
+    "Capacities": {
+        "Small": 30,
+        "Medium": 99,
+        "Large": 300,
+        "Giant": 999,
+        "Massive": 9999
+    },
+    "SizeSellers": {
+        "Small": [
+            "Pierre"
+        ],
+        "Medium": [
+            "Pierre"
+        ],
+        "Large": [
+            "Pierre"
+        ],
+        "Giant": [
+            "Pierre"
+        ],
+        "Massive": [
+            "Pierre"
+        ]
+    },
+    "SizeMenuOptions": {
+        "Small": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Medium": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Large": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Giant": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Massive": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        }
+    },
+    "Items": [
+        {
+            "Name": "Raffadax.RCP_AcornOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_AlmondOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_ApricotOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_AvocadoOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_BlackSesameOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_BlackTruffleOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_BlackWalnutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_BrazilNutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_CannabisOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_CashewOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_ChestnutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_CocodeMerOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_CoconutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_CoeurdelaMerOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_CornOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_ExtraVirginOliveOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_FireOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_GrapeseedOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_HazelnutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_HornNutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_MacadamiaNutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_MahoganySeedOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_MapleSeedOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_MarconaAlmondOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_OliveOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_PalmOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_PeanutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_PecanOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_PineNutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_PistachioOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_PoppySeedOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SoybeanOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SunflowerSeedOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_WalnutOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_WhiteTruffleOil",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        }
+    ]
+}

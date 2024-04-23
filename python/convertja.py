@@ -578,7 +578,7 @@ def buildSprites(spriteList, dstDir, fileName, spriteType="objects"):
     base.save(outPath)
 
 
-def buildTrees(srcDir, modId, objectData, objectSprites, i18n, spritesheet):
+def buildTrees(srcDir, modId, objectData, objectSprites, i18n, vanillaObjects, spritesheet):
     treeDir = "{}FruitTrees".format(srcDir)
     newTrees = {"LogName": "Raffadax New Trees",
                 "Action": "EditData",
@@ -634,7 +634,10 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, spritesheet):
         i18n["en"]["{}.TreeName"] = data["Name"]
         newTree.Seasons = [data["Season"]]
         fruitName = re.sub(NAMERE, "", data["Product"])
-        fruit = {"ItemId": "{}_{}".format(modId, fruitName)}
+        if fruitName in vanillaObjects:
+            fruit = {"ItemId": "(O){}".format(vanillaObjects[fruitName])}
+        else:
+            fruit = {"ItemId": "{}_{}".format(modId, fruitName)}
         newTree.Fruit.append(fruit)
         newTree.Texture = "Mods/{}/Trees".format(modId)
         newTree.TextureSpriteRow = j
@@ -864,7 +867,7 @@ if __name__ == "__main__":
         # Trees
         print("Generating Fruit Tree Data")
         objectData, objectSprites, treegiftData, i18n, objTexture, treeconditionalGifts, treecontextTags, treeraffgifts = buildObjects(treeDir, modId, "treeobjects", "FruitTrees", i18n)
-        objectData, treeData, treeSprites, objectSprites, i18n, treeTexture = buildTrees(treeDir, modId, objectData, objectSprites, i18n, "treeobjects")
+        objectData, treeData, treeSprites, objectSprites, i18n, treeTexture = buildTrees(treeDir, modId, objectData, objectSprites, i18n, vanillaObjects, "treeobjects")
         objectsOut["Changes"].append(objectData)
         fruittreesOut["Changes"].append(treeData)
         loadDataOut["Changes"].append(objTexture)

@@ -1,0 +1,346 @@
+{
+    "IsEnabled": true,
+    "ModUniqueId": "Raffadax.RCP",
+    "BagId": "Raffadax.Loom",
+    "BagName": "Raffadax Loom Products",
+    "BagDescription": "A bag for storing Raffadax Loom Products.",
+    "IconTexture": "SpringObjects",
+    "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
+    "Prices": {
+        "Small": 370,
+        "Medium": 1110,
+        "Large": 3700,
+        "Giant": 11100,
+        "Massive": 37000
+    },
+    "Capacities": {
+        "Small": 30,
+        "Medium": 99,
+        "Large": 300,
+        "Giant": 999,
+        "Massive": 9999
+    },
+    "SizeSellers": {
+        "Small": [
+            "Pierre"
+        ],
+        "Medium": [
+            "Pierre"
+        ],
+        "Large": [
+            "Pierre"
+        ],
+        "Giant": [
+            "Pierre"
+        ],
+        "Massive": [
+            "Pierre"
+        ]
+    },
+    "SizeMenuOptions": {
+        "Small": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Medium": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Large": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Giant": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Massive": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        }
+    },
+    "Items": [
+        {
+            "Name": "Raffadax.RCP_AbyssalFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_AureolinFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_AuroraFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_BoltofMoss",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_CelestialFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_EnchantedFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_FabricofChaos",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_FlameFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_FrostFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_FurPelt",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_GoldenFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_HarmonicFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_HempRope",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_IridescentFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_LotusSilk",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_LuckFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_LuminousFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_MidnightFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_MoonbeamFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_MysticalFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_MythrilFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_NightshadeFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_PlatinumFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_RosePetalFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SacredFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_ScaleCloth",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SilverFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SnowFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SpiderFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_StarlightFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_StormFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SunbeamFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SunsetFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_SylvanFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_ThunderFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_VertigoFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        },
+        {
+            "Name": "Raffadax.RCP_VoidFabric",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small"
+        }
+    ]
+}
