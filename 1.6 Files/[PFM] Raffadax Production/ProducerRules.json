@@ -2736,7 +2736,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterPowder",
         "OutputTranslationKey": "WaldmeisterPowder.DisplayName",
         "MinutesUntilReady": 1600,
@@ -14595,7 +14595,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterJelly",
         "OutputTranslationKey": "WaldmeisterJelly.DisplayName",
         "MinutesUntilReady": 4000,
@@ -15356,7 +15356,7 @@
         "Sounds": [
             "Ship"
         ],
-        "FuelIdentifier": "Raffadax.RCP_Waldmeister",
+        "FuelIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "FuelStack": 1,
         "KeepInputQuality": true
     },
@@ -16162,7 +16162,7 @@
         "Sounds": [
             "Ship"
         ],
-        "FuelIdentifier": "Raffadax.RCP_Waldmeister",
+        "FuelIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "FuelStack": 1,
         "KeepInputQuality": true
     },
@@ -27774,7 +27774,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxeWineKeg",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterWine",
         "OutputTranslationKey": "WaldmeisterWine.DisplayName",
         "MinutesUntilReady": 10000,
@@ -41059,7 +41059,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DistillationTank",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterLiqueur",
         "OutputTranslationKey": "WaldmeisterLiqueur.DisplayName",
         "MinutesUntilReady": 10080,
@@ -50662,7 +50662,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterPetals",
         "OutputTranslationKey": "WaldmeisterPetals.DisplayName",
         "MinutesUntilReady": 180,
@@ -65899,7 +65899,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FlowHive",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterHoney",
         "OutputTranslationKey": "WaldmeisterHoney.DisplayName",
         "MinutesUntilReady": 2880,
@@ -67884,7 +67884,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FragranceExtractor",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_EnchantedForest",
         "OutputTranslationKey": "EnchantedForest.DisplayName",
         "MinutesUntilReady": 5000,
@@ -74658,7 +74658,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_JuiceKeg",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterFlowerWater",
         "OutputTranslationKey": "WaldmeisterFlowerWater.DisplayName",
         "MinutesUntilReady": 360,
@@ -78518,7 +78518,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_Oxidizer",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_DriedWaldmeister",
         "OutputTranslationKey": "DriedWaldmeister.DisplayName",
         "MinutesUntilReady": 2000,
@@ -83037,7 +83037,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_PureeJar",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterPuree",
         "OutputTranslationKey": "WaldmeisterPuree.DisplayName",
         "MinutesUntilReady": 720,
@@ -88063,7 +88063,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterTea",
         "OutputTranslationKey": "WaldmeisterTea.DisplayName",
         "MinutesUntilReady": 240,
@@ -115182,7 +115182,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)15",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterJelly",
         "OutputTranslationKey": "WaldmeisterJelly.DisplayName",
         "MinutesUntilReady": 4000,
@@ -118259,7 +118259,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)25",
-        "InputIdentifier": "Raffadax.RCP_Waldmeister",
+        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
         "OutputIdentifier": "Raffadax.RCP_WoodruffSeeds",
         "OutputTranslationKey": "WoodruffSeeds.DisplayName",
         "MinutesUntilReady": 20,

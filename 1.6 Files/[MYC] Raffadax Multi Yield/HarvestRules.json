@@ -1283,7 +1283,7 @@
             "CropName": "Raffadax.RCP_Woodruff",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RCP_Waldmeister",
+                    "ItemName": "Raffadax.RCP_WaldmeisterFlower",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0

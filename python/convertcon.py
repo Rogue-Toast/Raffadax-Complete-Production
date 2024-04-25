@@ -120,7 +120,7 @@ def convertCon(fileIn: str):
                 ei = {"ItemId": thisItem,
                       "MinItems": di["minAmount"],
                       "MaxItems": di["maxAmount"],
-                      "Chance": di["dropChance"]}
+                      "Chance": di["dropChance"] / 100}
                 on.ExtraItems.append(ei)
         change["Entries"][nodeName] = on.to_dict()
     outData["Changes"].append(change)

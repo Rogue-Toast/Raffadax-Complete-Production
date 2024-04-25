@@ -26,7 +26,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.5
                 },
                 "{{ModId}}_AloePod": {
@@ -47,8 +46,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_AmanitaStarter": {
                     "Seasons": [
@@ -68,8 +66,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_AnemushroomStarter": {
                     "Seasons": [
@@ -89,8 +86,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_AsparagusSeeds": {
                     "Seasons": [
@@ -110,7 +106,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_BasilSeeds": {
@@ -131,7 +126,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_BerserkerMushroomStarter": {
@@ -151,8 +145,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_BlackBeanStarter": {
                     "Seasons": [
@@ -174,7 +167,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.5
                 },
                 "{{ModId}}_BlackCloverSeeds": {
@@ -195,7 +187,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_BlackCuminSeeds": {
@@ -216,7 +207,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_BlackSesameSeeds": {
@@ -238,7 +228,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_BlueCornSeeds": {
@@ -261,7 +250,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_BlueLotusStarter": {
@@ -286,8 +274,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 50
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_BlueOysterStarter": {
                     "Seasons": [
@@ -311,7 +298,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_BluePotatoSeeds": {
@@ -333,7 +319,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_BrusselsSproutSeeds": {
@@ -355,7 +340,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_CactushroomStarter": {
@@ -375,8 +359,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_CantaloupeSeeds": {
                     "Seasons": [
@@ -396,8 +379,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_CaperBushStarter": {
                     "Seasons": [
@@ -419,7 +401,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_CarawaySeeds": {
@@ -441,7 +422,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_CassavaStarter": {
@@ -464,8 +444,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_CaveCarrotSeeds": {
                     "Seasons": [
@@ -485,7 +464,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_CayennePepperSeeds": {
@@ -507,7 +485,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_CelerySeeds": {
@@ -528,8 +505,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_ChamomileSeeds": {
                     "Seasons": [
@@ -550,7 +526,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_ChanterelleStarter": {
@@ -570,8 +545,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_ChervilSeeds": {
                     "Seasons": [
@@ -591,7 +565,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_ChicorySeeds": {
@@ -612,7 +585,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_ChiveSeeds": {
@@ -635,7 +607,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_CilantroSeeds": {
@@ -656,7 +627,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_CloverPatchStarter": {
@@ -677,7 +647,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_CommonMushroomStarter": {
@@ -697,8 +666,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_CrocusSeeds": {
                     "Seasons": [
@@ -718,8 +686,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_CucumberStarter": {
                     "Seasons": [
@@ -741,7 +708,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_DaffodilSeeds": {
@@ -761,8 +727,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_DaisySeeds": {
                     "Seasons": [
@@ -781,8 +746,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_DandelionSeeds": {
                     "Seasons": [
@@ -802,7 +766,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_DarkRainbowCarrotSeeds": {
@@ -823,7 +786,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_DillSeeds": {
@@ -844,7 +806,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_DryadsSaddleStarter": {
@@ -869,7 +830,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_FennelSeeds": {
@@ -890,8 +850,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_FenugreekSeeds": {
                     "Seasons": [
@@ -911,7 +870,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_FernFlowerSeeds": {
@@ -933,8 +891,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 50
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_FernStarter": {
                     "Seasons": [
@@ -955,7 +912,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_FireWheelSeeds": {
@@ -976,8 +932,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_FoxgloveSeeds": {
                     "Seasons": [
@@ -996,8 +951,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_FrostCapMushroomStarter": {
                     "Seasons": [
@@ -1016,8 +970,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_GarbanzoBeanStarter": {
                     "Seasons": [
@@ -1039,7 +992,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_GemCapStarter": {
@@ -1059,8 +1011,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_GentianFlowerSeeds": {
                     "Seasons": [
@@ -1081,7 +1032,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_GlassGemCornSeeds": {
@@ -1104,7 +1054,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_GlassPumpkinSeeds": {
@@ -1125,8 +1074,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 50
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_GoldenCauliflowerSeeds": {
                     "Seasons": [
@@ -1146,8 +1094,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_GoldenPumpkinSeeds": {
                     "Seasons": [
@@ -1167,8 +1114,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 50
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_GreenBellPepperSeeds": {
                     "Seasons": [
@@ -1189,7 +1135,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_GreenCabbageSeeds": {
@@ -1210,8 +1155,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_GreenCardamomSeeds": {
                     "Seasons": [
@@ -1232,7 +1176,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_GreenLeafLettuceSeeds": {
@@ -1253,8 +1196,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_GreenPeaStarter": {
                     "Seasons": [
@@ -1276,7 +1218,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_HawkweedSeeds": {
@@ -1296,8 +1237,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_HoneydewSeeds": {
                     "Seasons": [
@@ -1317,8 +1257,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_HornNutStarter": {
                     "Seasons": [
@@ -1341,7 +1280,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 10,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_IndigoSeeds": {
@@ -1364,7 +1302,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_JackOLanternSeeds": {
@@ -1385,8 +1322,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 50
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_LeekSeeds": {
                     "Seasons": [
@@ -1405,8 +1341,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_LemongrassSeeds": {
                     "Seasons": [
@@ -1427,7 +1362,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_LentilSeeds": {
@@ -1448,7 +1382,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.5
                 },
                 "{{ModId}}_LichenStarter": {
@@ -1472,7 +1405,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_LiverwortStarter": {
@@ -1497,7 +1429,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_LuminushroomStarter": {
@@ -1517,8 +1448,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_MagmaCapMushroomStarter": {
                     "Seasons": [
@@ -1537,8 +1467,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_MandrakeSeeds": {
                     "Seasons": [
@@ -1558,8 +1487,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 50
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_MarjoramSeeds": {
                     "Seasons": [
@@ -1579,7 +1507,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_MaryJaneSeeds": {
@@ -1601,7 +1528,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_MatsutakeMushroomStarter": {
@@ -1622,7 +1548,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_MorelStarter": {
@@ -1642,8 +1567,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_MosshroomStarter": {
                     "Seasons": [
@@ -1662,8 +1586,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_MugwortSeeds": {
                     "Seasons": [
@@ -1684,7 +1607,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_MustardSeeds": {
@@ -1705,8 +1627,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_OkraSeeds": {
                     "Seasons": [
@@ -1727,7 +1648,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_OreganoSeeds": {
@@ -1748,7 +1668,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_PaprikaSeeds": {
@@ -1770,7 +1689,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_ParsleySeeds": {
@@ -1791,7 +1709,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_PassionFruitStarter": {
@@ -1813,8 +1730,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_PeanutSeeds": {
                     "Seasons": [
@@ -1836,7 +1752,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 2,
                     "HarvestMaxStack": 2,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_PeppercornStarter": {
@@ -1859,7 +1774,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_PeppermintSeeds": {
@@ -1880,7 +1794,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_PeriwinkleSeeds": {
@@ -1902,7 +1815,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_PeyoteCactusStarter": {
@@ -1923,8 +1835,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_PoinsettiaSeeds": {
                     "Seasons": [
@@ -1945,7 +1856,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_PortobelloMushroomStarter": {
@@ -1965,8 +1875,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_PricklyPearCactusStarter": {
                     "Seasons": null,
@@ -1986,7 +1895,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1,
                     "PlantableLocationRules": [
                         {
@@ -2014,7 +1922,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_PuffballMushroomStarter": {
@@ -2034,8 +1941,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_PurpleAsparagusSeeds": {
                     "Seasons": [
@@ -2055,7 +1961,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_PurpleBellPepperSeeds": {
@@ -2077,7 +1982,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_PurpleCauliflowerSeeds": {
@@ -2098,8 +2002,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_PurpleMushroomStarter": {
                     "Seasons": [
@@ -2118,8 +2021,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_RadioactiveMushroomStarter": {
                     "Seasons": [
@@ -2138,8 +2040,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_RainbowCarrotSeeds": {
                     "Seasons": [
@@ -2159,7 +2060,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_RapiniSeeds": {
@@ -2179,8 +2079,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_AntlerGanodermaStarter": {
                     "Seasons": [
@@ -2199,8 +2098,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 25
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_RedBellPepperSeeds": {
                     "Seasons": [
@@ -2221,7 +2119,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_RedCornSeeds": {
@@ -2244,7 +2141,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_RedMushroomStarter": {
@@ -2264,8 +2160,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_RedOnionSeeds": {
                     "Seasons": [
@@ -2285,8 +2180,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_RedPotatoSeeds": {
                     "Seasons": [
@@ -2307,7 +2201,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_RomanescoSeeds": {
@@ -2328,8 +2221,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_RoseVineStarter": {
                     "Seasons": [
@@ -2351,7 +2243,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_RutabagaSeeds": {
@@ -2371,8 +2262,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_RyeSeeds": {
                     "Seasons": [
@@ -2393,7 +2283,6 @@
                     "HarvestMethod": "Scythe",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_SageSeeds": {
@@ -2414,7 +2303,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_SarsaparillaSeeds": {
@@ -2437,7 +2325,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_SavorySeeds": {
@@ -2458,7 +2345,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_ScotchBonnetPepperSeeds": {
@@ -2480,7 +2366,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_ShisoSeeds": {
@@ -2501,7 +2386,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_SnowPeaStarter": {
@@ -2524,7 +2408,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_SnowYamSeeds": {
@@ -2544,8 +2427,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_SoybeanStarter": {
                     "Seasons": [
@@ -2567,7 +2449,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_SpearmintSeeds": {
@@ -2588,7 +2469,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_SpinachSeeds": {
@@ -2609,7 +2489,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_SpringOnionSeeds": {
@@ -2630,7 +2509,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_SquashSeeds": {
@@ -2651,8 +2529,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_StingingNettleStarter": {
                     "Seasons": [
@@ -2674,7 +2551,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_SweetPeaSeeds": {
@@ -2695,7 +2571,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_SweetPotatoSeeds": {
@@ -2716,7 +2591,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_TarragonSeeds": {
@@ -2737,7 +2611,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_DevilsLettuceSeeds": {
@@ -2759,7 +2632,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_ThunderCapMushroomStarter": {
@@ -2779,8 +2651,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_ThymeSeeds": {
                     "Seasons": [
@@ -2800,7 +2671,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_TobaccoSeeds": {
@@ -2822,7 +2692,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_TomatilloSeeds": {
@@ -2844,7 +2713,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_TopinamburSeeds": {
@@ -2865,7 +2733,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_TreasurePlantStarter": {
@@ -2889,8 +2756,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 50
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_TruffleStarter": {
                     "Seasons": [
@@ -2913,8 +2779,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_TurmericSeeds": {
                     "Seasons": [
@@ -2934,7 +2799,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_TurnipSeeds": {
@@ -2954,8 +2818,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_VanillaVineStarter": {
                     "Seasons": [
@@ -2977,7 +2840,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_VioletSeeds": {
@@ -2997,8 +2859,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_VoidMushroomStarter": {
                     "Seasons": [
@@ -3017,8 +2878,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_WatermelonSeeds": {
                     "Seasons": [
@@ -3038,8 +2898,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_WaxBeanStarter": {
                     "Seasons": [
@@ -3061,7 +2920,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_WhiteAsparagusSeeds": {
@@ -3082,7 +2940,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_WhiteBellPepperSeeds": {
@@ -3104,7 +2961,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.2
                 },
                 "{{ModId}}_WhiteGrapeStarter": {
@@ -3127,8 +2983,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_WhiteOnionSeeds": {
                     "Seasons": [
@@ -3148,8 +3003,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_WhiteTeaSeeds": {
                     "Seasons": [
@@ -3171,7 +3025,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.25
                 },
                 "{{ModId}}_WildBarleySeeds": {
@@ -3193,7 +3046,6 @@
                     "HarvestMethod": "Scythe",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_WildGingerSeeds": {
@@ -3214,7 +3066,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_WildGrapeStarter": {
@@ -3238,7 +3089,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_HorseradishSeeds": {
@@ -3259,8 +3109,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_WildOatSeeds": {
                     "Seasons": [
@@ -3281,7 +3130,6 @@
                     "HarvestMethod": "Scythe",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_WinterRootSeeds": {
@@ -3301,8 +3149,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_WintergreenSeeds": {
                     "Seasons": [
@@ -3322,7 +3169,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_WolfsbaneSeeds": {
@@ -3343,8 +3189,7 @@
                     "NeedsWatering": true,
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
-                    "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5
+                    "HarvestMaxStack": 1
                 },
                 "{{ModId}}_WoodruffSeeds": {
                     "Seasons": [
@@ -3365,7 +3210,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_WormwoodSeeds": {
@@ -3387,7 +3231,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_XoconostleCactusStarter": {
@@ -3408,7 +3251,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.1,
                     "PlantableLocationRules": [
                         {
@@ -3437,7 +3279,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 10,
                     "ExtraHarvestChance": 0.1
                 },
                 "{{ModId}}_ZucchiniSeeds": {
@@ -3459,7 +3300,6 @@
                     "HarvestMethod": "Grab",
                     "HarvestMinStack": 1,
                     "HarvestMaxStack": 1,
-                    "HarvestMaxIncreasePerFarmingLevel": 5,
                     "ExtraHarvestChance": 0.3
                 }
             }

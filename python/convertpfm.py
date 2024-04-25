@@ -42,6 +42,8 @@ def convertRules(ruleFile, vo, vbc):
             newRule.ProducerQualifiedItemId = "(BC){}".format(translateName(rule["ProducerName"], vo))
         if not rule["InputIdentifier"]:
             newRule.InputIdentifier = None
+        elif rule["InputIdentifier"] == "Waldmeister":
+            newRule.InputIdentifier = translateName("Waldmeister Flower", vo)
         else:
             newRule.InputIdentifier = translateName(rule["InputIdentifier"], vo)
         newRule.OutputIdentifier = translateName(rule["OutputIdentifier"], vo)
@@ -53,7 +55,10 @@ def convertRules(ruleFile, vo, vbc):
         # optional fields
         if "AdditionalFuel" in rule:
             for oldItem, qty in rule["AdditionalFuel"].items():
-                newItem = translateName(oldItem, vo)
+                if oldItem == "Waldmeister":
+                    newItem = translateName("Waldmeister Flower", vo)
+                else:
+                    newItem = translateName(oldItem, vo)
                 newRule.AdditionalFuel[newItem] = qty
         if "AdditionalOutputs" in rule:
             for ao in rule["AdditionalOutputs"]:
@@ -64,7 +69,10 @@ def convertRules(ruleFile, vo, vbc):
             for i in rule["ExcludeIdentifiers"]:
                 newRule.ExcludeIdentifiers.append(translateName(i, vo))
         if "FuelIdentifier" in rule:
-            newRule.FuelIdentifier = translateName(rule["FuelIdentifier"], vo)
+            if rule["FuelIdentifier"] == "Waldmeister":
+                newRule.FuelIdentifier = translateName("Waldmeister Flower", vo)
+            else:
+                newRule.FuelIdentifier = translateName(rule["FuelIdentifier"], vo)
         if "keepInputQuality" in rule and rule["keepInputQuality"]:  # Raff munges the case on this
             newRule.KeepInputQuality = True
         for dk in directImports:

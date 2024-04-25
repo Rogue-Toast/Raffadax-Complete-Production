@@ -329,8 +329,8 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
                 cropObj.HarvestMinStack = data["Bonus"]["MinimumPerHarvest"]
             if "MaximumPerHarvest" in data["Bonus"]:
                 cropObj.HarvestMaxStack = data["Bonus"]["MinimumPerHarvest"]
-            if "MaxIncreasePerFarmLevel" in data["Bonus"]:
-                cropObj.HarvestMaxIncreasePerFarmingLevel = data["Bonus"]["MaxIncreasePerFarmLevel"]
+            # if "MaxIncreasePerFarmLevel" in data["Bonus"]:
+            #     cropObj.HarvestMaxIncreasePerFarmingLevel = data["Bonus"]["MaxIncreasePerFarmLevel"]
             if "ExtraChance" in data["Bonus"]:
                 cropObj.ExtraHarvestChance = data["Bonus"]["ExtraChance"]
         if "Colors" in data and data["Colors"]:
@@ -386,7 +386,10 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
         if objData["Name"] in ["Broccoli", "Raisins"]:
             continue
         newObj = SVObject()
-        nameStr = unidecode(objData["Name"])
+        if objData["Name"] == "Waldmeister" and objData["Category"] == "Flower":
+            nameStr = "Waldmeister Flower"
+        else:
+            nameStr = unidecode(objData["Name"])
         nameStr = re.sub(NAMERE, "", nameStr)
         newObj.Name = "{}_{}".format(modId, nameStr)
         newObj.DisplayName = "{{{{i18n:{}.DisplayName}}}}".format(nameStr)
