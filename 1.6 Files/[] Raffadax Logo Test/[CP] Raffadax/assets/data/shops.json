@@ -396,15 +396,18 @@
                     "Owners": [
                         {
                             "Name": "{{Amanra}}",
-                            "Portrait": "assets/textures/Portraits/Amanra.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Amanra.ShopClosed}}",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "AmanraDialogue_1",
                                     "Dialogue": "{{i18n:Amanra.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Amanra.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -811,15 +814,18 @@
                     "Owners": [
                         {
                             "Name": "{{Astrid}}",
-                            "Portrait": "assets/textures/Portraits/Astrid.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Astrid.ShopClosed}}",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "AstridDialogue_1",
                                     "Dialogue": "{{i18n:Astrid.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Astrid.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -1218,15 +1224,18 @@
                     "Owners": [
                         {
                             "Name": "{{Coyote}}",
-                            "Portrait": "assets/textures/Portraits/Coyote.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Coyote.ShopClosed}}",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "CoyoteDialogue_1",
                                     "Dialogue": "{{i18n:Coyote.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Coyote.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -1738,15 +1747,18 @@
                     "Owners": [
                         {
                             "Name": "{{Mephisto}}",
-                            "Portrait": "assets/textures/Portraits/Mephisto.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Mephisto.ShopClosed}}",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "MephistoDialogue_1",
                                     "Dialogue": "{{i18n:Mephisto.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Mephisto.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -2152,15 +2164,18 @@
                     "Owners": [
                         {
                             "Name": "{{Puck}}",
-                            "Portrait": "assets/textures/Portraits/Puck.png",
-                            "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Puck.ShopClosed}}",
+                            "Condition": "TIME 0600 2600",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "PuckDialogue_1",
                                     "Dialogue": "{{i18n:Puck.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Puck.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -2565,15 +2580,18 @@
                     "Owners": [
                         {
                             "Name": "{{Shuck}}",
-                            "Portrait": "assets/textures/Portraits/Shuck.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Shuck.ShopClosed}}",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "ShuckDialogue_1",
                                     "Dialogue": "{{i18n:Shuck.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Shuck.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -2968,15 +2986,18 @@
                     "Owners": [
                         {
                             "Name": "{{Xolotl}}",
-                            "Portrait": "assets/textures/Portraits/Xolotl.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Xolotl.ShopClosed}}",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "XolotlDialogue_1",
                                     "Dialogue": "{{i18n:Xolotl.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Xolotl.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -3502,15 +3523,18 @@
                     "Owners": [
                         {
                             "Name": "AnyOrNone",
-                            "Portrait": "assets/textures/Portraits/Valkyrie.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Valkyrie.ShopClosed}}",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "ValkyrieDialogue_1",
                                     "Dialogue": "{{i18n:Valkyrie.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Valkyrie.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -3566,15 +3590,18 @@
                     "Owners": [
                         {
                             "Name": "AnyOrNone",
-                            "Portrait": "assets/textures/Portraits/Humidor.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Humidor.ShopClosed}}",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "HumidorDialogue_1",
                                     "Dialogue": "{{i18n:Humidor.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Humidor.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -3683,15 +3710,18 @@
                     "Owners": [
                         {
                             "Name": "AnyOrNone",
-                            "Portrait": "assets/textures/Portraits/SodaMachine.png",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:SodaMachine.ShopClosed}}",
+                            "Type": "AnyOrNone",
                             "Dialogues": [
                                 {
                                     "Id": "SodaMachineDialogue_1",
                                     "Dialogue": "{{i18n:SodaMachine.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:SodaMachine.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
