@@ -160,11 +160,10 @@ def buildShops(fileIn: str, fileOut: str):
         newShop.SalableItemTags = [CATEGORIES[str(x)] for x in oldshop["CategoriesToSellHere"]]
         timeParts = oldshop["When"][0].split(" ")
         ownerName = SHOPTONPC[oldshop["ShopName"]]
-        portrait = "assets/textures/Portraits/{}.png".format(newShopName)
-        ownerDict = {"Name": "{{{{{}}}}}".format(ownerName) if ownerName != "AnyOrNone" else ownerName,
-                     "Portrait": portrait,
+        # portrait = "assets/textures/Portraits/{}.png".format(newShopName)
+        ownerDict = {"Name": "{{{{{}}}}}".format(ownerName),
+                     "Type": "AnyOrNone",
                      "Condition": "TIME {} {}".format(timeParts[1], timeParts[2]),
-                     "ClosedMessage": "{{{{i18n:{}.ShopClosed}}}}".format(newShopName),
                      "Dialogues": [{"Id": "{}Dialogue_1".format(newShopName),
                                     "Dialogue": "{{{{i18n:{}.ShopDialogue}}}}".format(newShopName)}
                                    ]
@@ -172,6 +171,9 @@ def buildShops(fileIn: str, fileOut: str):
         i18n["default"]["{}.ShopDialogue".format(newShopName)] = oldshop["Quote"]
         i18n["default"]["{}.ShopClosed".format(newShopName)] = oldshop["ClosedMessage"]
         newShop.Owners.append(ownerDict)
+        closedDict = {"Name": None,
+                      "ClosedMessage": "{{{{i18n:{}.ShopClosed}}}}".format(newShopName)}
+        newShop.Owners.append(closedDict)
         pmDict = {"Id": "{}_SellPriceModifier".format(newShopName),
                   "Modification": "Multiply",
                   "Amount": 1.5}

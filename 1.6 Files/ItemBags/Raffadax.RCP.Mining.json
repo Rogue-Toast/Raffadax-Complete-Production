@@ -1,0 +1,350 @@
+{
+    "IsEnabled": true,
+    "ModUniqueId": "Raffadax.RCP",
+    "BagId": "Raffadax.Mining",
+    "BagName": "Raffadax Mining",
+    "BagDescription": "A bag for storing Raffadax Items found in the mines.",
+    "IconTexture": "SpringObjects",
+    "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
+    "Prices": {
+        "Small": 340,
+        "Medium": 1020,
+        "Large": 3400,
+        "Giant": 10200,
+        "Massive": 34000
+    },
+    "Capacities": {
+        "Small": 30,
+        "Medium": 99,
+        "Large": 300,
+        "Giant": 999,
+        "Massive": 9999
+    },
+    "SizeSellers": {
+        "Small": [
+            "Marlon"
+        ],
+        "Medium": [
+            "Marlon"
+        ],
+        "Large": [
+            "Marlon"
+        ],
+        "Giant": [
+            "Marlon"
+        ],
+        "Massive": [
+            "Marlon"
+        ]
+    },
+    "SizeMenuOptions": {
+        "Small": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Medium": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Large": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Giant": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Massive": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        }
+    },
+    "Items": [
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackBamboo"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_EbonyWood"
+        },
+        {
+            "Name": "Hardwood",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Sandalwood"
+        },
+        {
+            "Name": "Clay",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": "Broken Glasses",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": "Driftwood",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Garbage"
+        },
+        {
+            "Name": "Glass Shards",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Junk"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PlasticBag"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PlasticBottle"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SodaPopRing"
+        },
+        {
+            "Name": "Soggy Newspaper",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": "Trash",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Lodestone"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Nahcolite"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Onyx"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RockSalt"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Sapphire"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SilverOre"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MythrilOre"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Alicorn"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AncientCoin"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackPearl"
+        },
+        {
+            "Name": "Diamond",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": "Emerald",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GiantPearl"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GlassPumpkin"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MythrilBar"
+        },
+        {
+            "Name": "Pearl",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": "Prismatic Shard",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": "Ruby",
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": false,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SilverCoin"
+        },
+    ]
+}

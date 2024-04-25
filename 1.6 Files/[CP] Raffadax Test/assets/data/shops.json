@@ -277,7 +277,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -396,15 +396,18 @@
                     "Owners": [
                         {
                             "Name": "{{Amanra}}",
-                            "Portrait": "assets/textures/Portraits/Amanra.png",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Amanra.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "AmanraDialogue_1",
                                     "Dialogue": "{{i18n:Amanra.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:Amanra.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -693,7 +696,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -811,15 +814,18 @@
                     "Owners": [
                         {
                             "Name": "{{Astrid}}",
-                            "Portrait": "assets/textures/Portraits/Astrid.png",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Astrid.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "AstridDialogue_1",
                                     "Dialogue": "{{i18n:Astrid.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:Astrid.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -1102,7 +1108,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -1218,15 +1224,18 @@
                     "Owners": [
                         {
                             "Name": "{{Coyote}}",
-                            "Portrait": "assets/textures/Portraits/Coyote.png",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Coyote.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "CoyoteDialogue_1",
                                     "Dialogue": "{{i18n:Coyote.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:Coyote.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -1738,15 +1747,18 @@
                     "Owners": [
                         {
                             "Name": "{{Mephisto}}",
-                            "Portrait": "assets/textures/Portraits/Mephisto.png",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Mephisto.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "MephistoDialogue_1",
                                     "Dialogue": "{{i18n:Mephisto.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:Mephisto.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -2038,7 +2050,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2152,15 +2164,18 @@
                     "Owners": [
                         {
                             "Name": "{{Puck}}",
-                            "Portrait": "assets/textures/Portraits/Puck.png",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Puck.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "PuckDialogue_1",
                                     "Dialogue": "{{i18n:Puck.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:Puck.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -2454,7 +2469,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2565,15 +2580,18 @@
                     "Owners": [
                         {
                             "Name": "{{Shuck}}",
-                            "Portrait": "assets/textures/Portraits/Shuck.png",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Shuck.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "ShuckDialogue_1",
                                     "Dialogue": "{{i18n:Shuck.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:Shuck.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -2857,7 +2875,7 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500",
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shuck 2500, PLAYER_FRIENDSHIP_POINTS Current Amanra 2500, PLAYER_FRIENDSHIP_POINTS Current Astrid 2500, PLAYER_FRIENDSHIP_POINTS Current Xolotl 2500, PLAYER_FRIENDSHIP_POINTS Current Coyote 2500, PLAYER_FRIENDSHIP_POINTS Current Puck 2500",
                             "Price": 50000,
                             "IgnoreShopPriceModifiers": true
                         },
@@ -2968,15 +2986,18 @@
                     "Owners": [
                         {
                             "Name": "{{Xolotl}}",
-                            "Portrait": "assets/textures/Portraits/Xolotl.png",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Xolotl.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "XolotlDialogue_1",
                                     "Dialogue": "{{i18n:Xolotl.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:Xolotl.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -3501,16 +3522,19 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "AnyOrNone",
-                            "Portrait": "assets/textures/Portraits/Valkyrie.png",
+                            "Name": "{{AnyOrNone}}",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Valkyrie.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "ValkyrieDialogue_1",
                                     "Dialogue": "{{i18n:Valkyrie.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:Valkyrie.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -3565,16 +3589,19 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "AnyOrNone",
-                            "Portrait": "assets/textures/Portraits/Humidor.png",
+                            "Name": "{{AnyOrNone}}",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:Humidor.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "HumidorDialogue_1",
                                     "Dialogue": "{{i18n:Humidor.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:Humidor.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",
@@ -3682,16 +3709,19 @@
                     ],
                     "Owners": [
                         {
-                            "Name": "AnyOrNone",
-                            "Portrait": "assets/textures/Portraits/SodaMachine.png",
+                            "Name": "{{AnyOrNone}}",
+                            "Type": "AnyOrNone",
                             "Condition": "TIME 600 2600",
-                            "ClosedMessage": "{{i18n:SodaMachine.ShopClosed}}",
                             "Dialogues": [
                                 {
                                     "Id": "SodaMachineDialogue_1",
                                     "Dialogue": "{{i18n:SodaMachine.ShopDialogue}}"
                                 }
                             ]
+                        },
+                        {
+                            "Name": null,
+                            "ClosedMessage": "{{i18n:SodaMachine.ShopClosed}}"
                         }
                     ],
                     "StackSizeVisibility": "ShowIfMultiple",

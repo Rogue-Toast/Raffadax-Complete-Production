@@ -109,18 +109,6 @@
             "Action": "Include",
             "FromFile": "assets/data/mapedits.json"
         },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/Shops.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/Mail.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/TriggerActions.json"
-        },
         // NPCS
         {
             "Action": "Include",
@@ -149,6 +137,19 @@
         {
             "Action": "Include",
             "FromFile": "assets/data/Characters/Xolotl.json"
+        },
+        //Things done with NPCS
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Shops.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Mail.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/TriggerActions.json"
         },
         // GIFT PREFS
         {
