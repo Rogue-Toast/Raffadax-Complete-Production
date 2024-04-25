@@ -135,7 +135,7 @@
             "ObjectId": "Raffadax.RCP_EbonyWood"
         },
         {
-            "Name": "Hardwood",
+            "Id": "709",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
@@ -148,19 +148,19 @@
             "ObjectId": "Raffadax.RCP_Sandalwood"
         },
         {
-            "Name": "Clay",
+            "Id": "330",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
         },
         {
-            "Name": "Broken Glasses",
+            "Id": "170",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
         },
         {
-            "Name": "Driftwood",
+            "Id": "169",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
@@ -173,7 +173,7 @@
             "ObjectId": "Raffadax.RCP_Garbage"
         },
         {
-            "Name": "Glass Shards",
+            "Id": "118",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
@@ -207,13 +207,13 @@
             "ObjectId": "Raffadax.RCP_SodaPopRing"
         },
         {
-            "Name": "Soggy Newspaper",
+            "Id": "172",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
         },
         {
-            "Name": "Trash",
+            "Id": "168",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
@@ -289,13 +289,13 @@
             "ObjectId": "Raffadax.RCP_BlackPearl"
         },
         {
-            "Name": "Diamond",
+            "Id": "72",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
         },
         {
-            "Name": "Emerald",
+            "Id": "60",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
@@ -322,19 +322,19 @@
             "ObjectId": "Raffadax.RCP_MythrilBar"
         },
         {
-            "Name": "Pearl",
+            "Id": "797",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
         },
         {
-            "Name": "Prismatic Shard",
+            "Id": "74",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",
         },
         {
-            "Name": "Ruby",
+            "Id": "64",
             "IsBigCraftable": false,
             "HasQualities": false,
             "RequiredSize": "Small",

@@ -25,8 +25,11 @@ if __name__ == "__main__":
             outRule["CropName"] = "{}_{}".format(MODNAME, nameStr)
         for hr in outRule["HarvestRules"]:
             if hr["ItemName"] not in vanillaData:
-                hnameStr = unidecode(hr["ItemName"])
-                hnameStr = re.sub(NAMERE, "", hnameStr)
+                if hr["ItemName"] == "Waldmeister":
+                    hnameStr = re.sub(NAMERE, "", "Waldmeister Flower")
+                else:
+                    hnameStr = unidecode(hr["ItemName"])
+                    hnameStr = re.sub(NAMERE, "", hnameStr)
                 hr["ItemName"] = "{}_{}".format(MODNAME, hnameStr)
         outList.append(outRule)
     outDict = {"Harvests": outList}

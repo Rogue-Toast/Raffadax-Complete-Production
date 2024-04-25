@@ -145,7 +145,7 @@ def buildShops(fileIn: str, fileOut: str):
                         for c in conditions:
                             cp = c.split(" ")
                             if cp[0] == "f":
-                                outStr = "PLAYER_FRIENDSHIP_POINTS Current {} {}".format(cp[1], cp[2])
+                                outStr = "PLAYER_FRIENDSHIP_POINTS Current {{{{{}}}}} {}".format(cp[1], cp[2])
                             elif cp[0] == "y":
                                 outStr = "YEAR {}".format(cp[1])
                             else:
@@ -161,7 +161,7 @@ def buildShops(fileIn: str, fileOut: str):
         timeParts = oldshop["When"][0].split(" ")
         ownerName = SHOPTONPC[oldshop["ShopName"]]
         # portrait = "assets/textures/Portraits/{}.png".format(newShopName)
-        ownerDict = {"Name": "{{{{{}}}}}".format(ownerName),
+        ownerDict = {"Name": "{{{{{}}}}}".format(ownerName) if ownerName != "AnyOrNone" else ownerName,
                      "Type": "AnyOrNone",
                      "Condition": "TIME {} {}".format(timeParts[1], timeParts[2]),
                      "Dialogues": [{"Id": "{}Dialogue_1".format(newShopName),
@@ -232,7 +232,7 @@ def buildShops(fileIn: str, fileOut: str):
                     for c in conditions:
                         cp = c.split(" ")
                         if cp[0] == "f":
-                            outStr = "PLAYER_FRIENDSHIP_POINTS Current {} {}".format(cp[1], cp[2])
+                            outStr = "PLAYER_FRIENDSHIP_POINTS Current {{{{{}}}}} {}".format(cp[1], cp[2])
                         elif cp[0] == "y":
                             outStr = "YEAR {}".format(cp[1])
                         elif cp[0] == "d":
