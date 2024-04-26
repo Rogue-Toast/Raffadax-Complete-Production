@@ -11,6 +11,7 @@ import pyjson5
 from unidecode import unidecode
 
 NAMERE = r"[^a-zA-Z0-9_\.]"
+NEWIDS = pyjson5.load(open("newids.json", encoding="utf-8"))
 
 
 def convertMachines(machineFile):
@@ -42,23 +43,22 @@ def convertRules(ruleFile, vo, vbc):
             newRule.ProducerQualifiedItemId = "(BC){}".format(translateName(rule["ProducerName"], vo))
         if not rule["InputIdentifier"]:
             newRule.InputIdentifier = None
-        elif rule["InputIdentifier"] == "Waldmeister":
-            newRule.InputIdentifier = translateName("Waldmeister Flower", vo)
         else:
             newRule.InputIdentifier = translateName(rule["InputIdentifier"], vo)
+        if "InputStack" in rule and rule["InputStack"] != 1:
+            newRule.InputStack = int(rule["InputStack"])
         newRule.OutputIdentifier = translateName(rule["OutputIdentifier"], vo)
         if "Raffadax" in newRule.OutputIdentifier:
             strippedOI = unidecode(rule["OutputIdentifier"])
             newRule.OutputTranslationKey = "{}.DisplayName".format(re.sub(NAMERE, "", strippedOI))
+        if "OutputStack" in rule and rule["OutputStack"] != 1:
+            newRule.OutputStack = int(rule["OutputStack"])
         newRule.MinutesUntilReady = rule["MinutesUntilReady"]
         newRule.Sounds = rule["Sounds"]
         # optional fields
         if "AdditionalFuel" in rule:
             for oldItem, qty in rule["AdditionalFuel"].items():
-                if oldItem == "Waldmeister":
-                    newItem = translateName("Waldmeister Flower", vo)
-                else:
-                    newItem = translateName(oldItem, vo)
+                newItem = translateName(oldItem, vo)
                 newRule.AdditionalFuel[newItem] = qty
         if "AdditionalOutputs" in rule:
             for ao in rule["AdditionalOutputs"]:
@@ -69,21 +69,44 @@ def convertRules(ruleFile, vo, vbc):
             for i in rule["ExcludeIdentifiers"]:
                 newRule.ExcludeIdentifiers.append(translateName(i, vo))
         if "FuelIdentifier" in rule:
-            if rule["FuelIdentifier"] == "Waldmeister":
-                newRule.FuelIdentifier = translateName("Waldmeister Flower", vo)
-            else:
-                newRule.FuelIdentifier = translateName(rule["FuelIdentifier"], vo)
+            newRule.FuelIdentifier = translateName(rule["FuelIdentifier"], vo)
+        if "FuelStack" in rule:
+            newRule.FuelStack = int(rule["FuelStack"])
         if "keepInputQuality" in rule and rule["keepInputQuality"]:  # Raff munges the case on this
             newRule.KeepInputQuality = True
         for dk in directImports:
             if dk in rule:
                 setattr(newRule, dk, rule[dk])
         newRules.append(newRule.to_dict())
+        # duplicate furnace rules for Heavy Furnace
+        if rule["ProducerName"] == "Furnace":
+            hRule = copy.deepcopy(newRule)
+            hRule.ProducerQualifiedItemId = "(BC)HeavyFurnace"
+            hRule.InputStack = 5 * hRule.InputStack
+            outMin = hRule.OutputStack * 5
+            outMax = int(1.2 * outMin)
+            hRule.OutputStack = outMin
+            hRule.OutputMaxStack = outMax
+            if "AdditionalFuel" in rule:
+                for k, v in hRule.AdditionalFuel.items():
+                    v = v * 5
+            hRule.FuelStack = 3 * hRule.FuelStack
+            newRules.append(hRule.to_dict())
     return newRules
 
 
 def translateName(instr: str, vanillaObjects):
     if instr in vanillaObjects or isinstance(instr, int) or instr.isnumeric() or instr[1:].isnumeric():
+        return instr
+    elif instr in NEWIDS:
+        newStr = NEWIDS[instr]
+        out = "Raffadax.RCP_{}".format(re.sub(NAMERE, "", newStr))
+        return out
+    elif instr.endswith("_item"):  # context Tags
+        return instr
+    elif instr.endswith("-item"):  # misspelled context tags
+        return instr.replace("-", "_")
+    elif instr.startswith("-") and instr[1:].isnumeric():  # category
         return instr
     else:
         newStr = unidecode(instr)

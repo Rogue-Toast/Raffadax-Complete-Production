@@ -2736,7 +2736,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterPowder",
         "OutputTranslationKey": "WaldmeisterPowder.DisplayName",
         "MinutesUntilReady": 1600,
@@ -4080,7 +4080,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
-        "InputIdentifier": "Raffadax.RCP_Allspice",
+        "InputIdentifier": "Raffadax.RCP_PackedAllspice",
         "OutputIdentifier": "Raffadax.RCP_GroundAllspice",
         "OutputTranslationKey": "GroundAllspice.DisplayName",
         "MinutesUntilReady": 800,
@@ -4465,7 +4465,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
-        "InputIdentifier": "Raffadax.RCP_Juniper",
+        "InputIdentifier": "Raffadax.RCP_PackedJuniper",
         "OutputIdentifier": "Raffadax.RCP_GroundJuniper",
         "OutputTranslationKey": "GroundJuniper.DisplayName",
         "MinutesUntilReady": 1600,
@@ -4498,7 +4498,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
-        "InputIdentifier": "Raffadax.RCP_Mace",
+        "InputIdentifier": "Raffadax.RCP_PackedMace",
         "OutputIdentifier": "Raffadax.RCP_GroundMace",
         "OutputTranslationKey": "GroundMace.DisplayName",
         "MinutesUntilReady": 1600,
@@ -4532,7 +4532,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
         "InputIdentifier": "Raffadax.RCP_MyristicaAril",
-        "OutputIdentifier": "Raffadax.RCP_Nutmeg",
+        "OutputIdentifier": "Raffadax.RCP_NutmegSeed",
         "OutputTranslationKey": "Nutmeg.DisplayName",
         "MinutesUntilReady": 1600,
         "Sounds": [
@@ -4549,7 +4549,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_NutmegSeed",
         "OutputIdentifier": "Raffadax.RCP_GroundNutmeg",
         "OutputTranslationKey": "GroundNutmeg.DisplayName",
         "MinutesUntilReady": 1600,
@@ -4560,7 +4560,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_PackedNutmeg",
         "OutputIdentifier": "Raffadax.RCP_GroundNutmeg",
         "OutputTranslationKey": "GroundNutmeg.DisplayName",
         "MinutesUntilReady": 1600,
@@ -4648,7 +4648,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
-        "InputIdentifier": "Raffadax.RCP_Saffron",
+        "InputIdentifier": "Raffadax.RCP_PackedSaffron",
         "OutputIdentifier": "Raffadax.RCP_GroundSaffron",
         "OutputTranslationKey": "GroundSaffron.DisplayName",
         "MinutesUntilReady": 1600,
@@ -4703,7 +4703,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_AutoMill",
-        "InputIdentifier": "Raffadax.RCP_Sumac",
+        "InputIdentifier": "Raffadax.RCP_PackedSumac",
         "OutputIdentifier": "Raffadax.RCP_GroundSumac",
         "OutputTranslationKey": "GroundSumac.DisplayName",
         "MinutesUntilReady": 800,
@@ -8073,7 +8073,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_BeverageKeg",
         "InputIdentifier": "Raffadax.RCP_Sarsaparilla",
-        "OutputIdentifier": "Raffadax.RCP_Sarsaparilla",
+        "OutputIdentifier": "Raffadax.RCP_SarsaparillaSoda",
         "OutputTranslationKey": "Sarsaparilla.DisplayName",
         "MinutesUntilReady": 180,
         "Sounds": [
@@ -9878,7 +9878,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_Churn",
-        "InputIdentifier": "Raffadax.RCP_oilitem",
+        "InputIdentifier": "oil_item",
         "OutputIdentifier": "Raffadax.RCP_Margarine",
         "OutputTranslationKey": "Margarine.DisplayName",
         "MinutesUntilReady": 800,
@@ -14595,7 +14595,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterJelly",
         "OutputTranslationKey": "WaldmeisterJelly.DisplayName",
         "MinutesUntilReady": 4000,
@@ -15356,7 +15356,7 @@
         "Sounds": [
             "Ship"
         ],
-        "FuelIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "FuelIdentifier": "Raffadax.RCP_Waldmeister",
         "FuelStack": 1,
         "KeepInputQuality": true
     },
@@ -16162,7 +16162,7 @@
         "Sounds": [
             "Ship"
         ],
-        "FuelIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "FuelIdentifier": "Raffadax.RCP_Waldmeister",
         "FuelStack": 1,
         "KeepInputQuality": true
     },
@@ -16983,7 +16983,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_NutmegSeed",
         "OutputIdentifier": "Raffadax.RCP_NutmegJelly",
         "OutputTranslationKey": "NutmegJelly.DisplayName",
         "MinutesUntilReady": 4000,
@@ -22527,7 +22527,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxeWineKeg",
         "InputIdentifier": "Raffadax.RCP_RoseGrapes",
-        "OutputIdentifier": "Raffadax.RCP_Rose",
+        "OutputIdentifier": "Raffadax.RCP_Rosee",
         "OutputTranslationKey": "Rose.DisplayName",
         "MinutesUntilReady": 10000,
         "Sounds": [
@@ -24350,8 +24350,8 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxeWineKeg",
-        "InputIdentifier": "Raffadax.RCP_Rose",
-        "OutputIdentifier": "Raffadax.RCP_RoseBrandy",
+        "InputIdentifier": "Raffadax.RCP_Rosee",
+        "OutputIdentifier": "Raffadax.RCP_RoseeBrandy",
         "OutputTranslationKey": "RoseBrandy.DisplayName",
         "MinutesUntilReady": 5000,
         "Sounds": [
@@ -26349,7 +26349,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxeWineKeg",
-        "InputIdentifier": "Raffadax.RCP_RoseBrandy",
+        "InputIdentifier": "Raffadax.RCP_RoseeBrandy",
         "OutputIdentifier": "Raffadax.RCP_RosePort",
         "OutputTranslationKey": "RosePort.DisplayName",
         "MinutesUntilReady": 5000,
@@ -26361,7 +26361,7 @@
                 "bubbles": 50
             }
         ],
-        "FuelIdentifier": "Raffadax.RCP_Rose",
+        "FuelIdentifier": "Raffadax.RCP_Rosee",
         "FuelStack": 1,
         "OutputStack": 2,
         "PlacingAnimation": "Bubbles"
@@ -27774,7 +27774,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxeWineKeg",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterWine",
         "OutputTranslationKey": "WaldmeisterWine.DisplayName",
         "MinutesUntilReady": 10000,
@@ -37378,7 +37378,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DistillationTank",
-        "InputIdentifier": "Raffadax.RCP_RoseBrandy",
+        "InputIdentifier": "Raffadax.RCP_RoseeBrandy",
         "OutputIdentifier": "Raffadax.RCP_Sherry",
         "OutputTranslationKey": "Sherry.DisplayName",
         "MinutesUntilReady": 10080,
@@ -41059,7 +41059,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DistillationTank",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterLiqueur",
         "OutputTranslationKey": "WaldmeisterLiqueur.DisplayName",
         "MinutesUntilReady": 10080,
@@ -43034,7 +43034,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DistillationTank",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_NutmegSeed",
         "OutputIdentifier": "Raffadax.RCP_NutmegLiqueur",
         "OutputTranslationKey": "NutmegLiqueur.DisplayName",
         "MinutesUntilReady": 10080,
@@ -46050,8 +46050,8 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DistillationTank",
-        "InputIdentifier": "Raffadax.RCP_Rose",
-        "OutputIdentifier": "Raffadax.RCP_RoseBrandy",
+        "InputIdentifier": "Raffadax.RCP_Rosee",
+        "OutputIdentifier": "Raffadax.RCP_RoseeBrandy",
         "OutputTranslationKey": "RoseBrandy.DisplayName",
         "MinutesUntilReady": 1080,
         "Sounds": [
@@ -50276,7 +50276,7 @@
         "AdditionalOutputs": [
             {
                 "OutputProbability": 0.1,
-                "OutputIdentifier": "Raffadax.RCP_FennelPollen",
+                "OutputIdentifier": "Raffadax.RCP_PackedFennelPollen",
                 "MinutesUntilReady": 180,
                 "OutputStack": 1
             },
@@ -50662,7 +50662,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterPetals",
         "OutputTranslationKey": "WaldmeisterPetals.DisplayName",
         "MinutesUntilReady": 180,
@@ -50811,7 +50811,7 @@
         "AdditionalOutputs": [
             {
                 "OutputProbability": 0.2,
-                "OutputIdentifier": "Raffadax.RCP_Saffron",
+                "OutputIdentifier": "Raffadax.RCP_PackedSaffron",
                 "MinutesUntilReady": 1600
             }
         ],
@@ -51539,7 +51539,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
         "InputIdentifier": "Raffadax.RCP_Allspice",
-        "OutputIdentifier": "Raffadax.RCP_Allspice",
+        "OutputIdentifier": "Raffadax.RCP_PackedAllspice",
         "OutputTranslationKey": "Allspice.DisplayName",
         "MinutesUntilReady": 60,
         "Sounds": [
@@ -51693,7 +51693,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
         "InputIdentifier": "Raffadax.RCP_FennelPollen",
-        "OutputIdentifier": "Raffadax.RCP_FennelPollen",
+        "OutputIdentifier": "Raffadax.RCP_PackedFennelPollen",
         "OutputTranslationKey": "FennelPollen.DisplayName",
         "MinutesUntilReady": 60,
         "Sounds": [
@@ -51759,7 +51759,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
         "InputIdentifier": "Raffadax.RCP_Juniper",
-        "OutputIdentifier": "Raffadax.RCP_Juniper",
+        "OutputIdentifier": "Raffadax.RCP_PackedJuniper",
         "OutputTranslationKey": "Juniper.DisplayName",
         "MinutesUntilReady": 180,
         "Sounds": [
@@ -51770,7 +51770,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
         "InputIdentifier": "Raffadax.RCP_DriedJuniper",
-        "OutputIdentifier": "Raffadax.RCP_Juniper",
+        "OutputIdentifier": "Raffadax.RCP_PackedJuniper",
         "OutputTranslationKey": "Juniper.DisplayName",
         "MinutesUntilReady": 60,
         "Sounds": [
@@ -51781,7 +51781,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
         "InputIdentifier": "Raffadax.RCP_Mace",
-        "OutputIdentifier": "Raffadax.RCP_Mace",
+        "OutputIdentifier": "Raffadax.RCP_PackedMace",
         "OutputTranslationKey": "Mace.DisplayName",
         "MinutesUntilReady": 60,
         "Sounds": [
@@ -51802,8 +51802,8 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
-        "OutputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_NutmegSeed",
+        "OutputIdentifier": "Raffadax.RCP_PackedNutmeg",
         "OutputTranslationKey": "Nutmeg.DisplayName",
         "MinutesUntilReady": 60,
         "Sounds": [
@@ -51814,7 +51814,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
         "InputIdentifier": "Raffadax.RCP_PimentoBerry",
-        "OutputIdentifier": "Raffadax.RCP_Allspice",
+        "OutputIdentifier": "Raffadax.RCP_PackedAllspice",
         "OutputTranslationKey": "Allspice.DisplayName",
         "MinutesUntilReady": 180,
         "Sounds": [
@@ -51847,7 +51847,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
         "InputIdentifier": "Raffadax.RCP_Saffron",
-        "OutputIdentifier": "Raffadax.RCP_Saffron",
+        "OutputIdentifier": "Raffadax.RCP_PackedSaffron",
         "OutputTranslationKey": "Saffron.DisplayName",
         "MinutesUntilReady": 60,
         "Sounds": [
@@ -51858,7 +51858,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
         "InputIdentifier": "Raffadax.RCP_Sumac",
-        "OutputIdentifier": "Raffadax.RCP_Sumac",
+        "OutputIdentifier": "Raffadax.RCP_PackedSumac",
         "OutputTranslationKey": "Sumac.DisplayName",
         "MinutesUntilReady": 180,
         "Sounds": [
@@ -51869,7 +51869,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DryPacker",
         "InputIdentifier": "Raffadax.RCP_DriedSumac",
-        "OutputIdentifier": "Raffadax.RCP_Sumac",
+        "OutputIdentifier": "Raffadax.RCP_PackedSumac",
         "OutputTranslationKey": "Sumac.DisplayName",
         "MinutesUntilReady": 60,
         "Sounds": [
@@ -52580,7 +52580,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FermentationTank",
         "InputIdentifier": "Raffadax.RCP_Woodruff",
-        "OutputIdentifier": "Raffadax.RCP_Waldmeister",
+        "OutputIdentifier": "Raffadax.RCP_WaldmeisterBeer",
         "OutputTranslationKey": "Waldmeister.DisplayName",
         "MinutesUntilReady": 2000,
         "Sounds": [
@@ -54369,7 +54369,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FermentationTank",
-        "InputIdentifier": "Raffadax.RCP_Rose",
+        "InputIdentifier": "Raffadax.RCP_Rosee",
         "OutputIdentifier": "Raffadax.RCP_PinkChampagne",
         "OutputTranslationKey": "PinkChampagne.DisplayName",
         "MinutesUntilReady": 6000,
@@ -65899,7 +65899,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FlowHive",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterHoney",
         "OutputTranslationKey": "WaldmeisterHoney.DisplayName",
         "MinutesUntilReady": 2880,
@@ -67884,7 +67884,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FragranceExtractor",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_EnchantedForest",
         "OutputTranslationKey": "EnchantedForest.DisplayName",
         "MinutesUntilReady": 5000,
@@ -68174,7 +68174,7 @@
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FragranceExtractor",
         "InputIdentifier": "Raffadax.RCP_CocodeMer",
-        "OutputIdentifier": "Raffadax.RCP_CocodeMer",
+        "OutputIdentifier": "Raffadax.RCP_CocoDeMerFragrance",
         "OutputTranslationKey": "CocodeMer.DisplayName",
         "MinutesUntilReady": 5000,
         "Sounds": [
@@ -74658,7 +74658,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_JuiceKeg",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterFlowerWater",
         "OutputTranslationKey": "WaldmeisterFlowerWater.DisplayName",
         "MinutesUntilReady": 360,
@@ -76851,7 +76851,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_JuiceKeg",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_NutmegSeed",
         "OutputIdentifier": "Raffadax.RCP_NutmegExtract",
         "OutputTranslationKey": "NutmegExtract.DisplayName",
         "MinutesUntilReady": 360,
@@ -78518,7 +78518,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_Oxidizer",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_DriedWaldmeister",
         "OutputTranslationKey": "DriedWaldmeister.DisplayName",
         "MinutesUntilReady": 2000,
@@ -78905,7 +78905,7 @@
         "AdditionalOutputs": [
             {
                 "OutputProbability": 0.2,
-                "OutputIdentifier": "Raffadax.RCP_Nutmeg",
+                "OutputIdentifier": "Raffadax.RCP_NutmegSeed",
                 "MinutesUntilReady": 2000
             }
         ],
@@ -80495,7 +80495,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_Oxidizer",
-        "InputIdentifier": "Raffadax.RCP_honey_item",
+        "InputIdentifier": "honey_item",
         "OutputIdentifier": "Raffadax.RCP_CrystalizedHoney",
         "OutputTranslationKey": "CrystalizedHoney.DisplayName",
         "MinutesUntilReady": 2000,
@@ -80506,7 +80506,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_Oxidizer",
-        "InputIdentifier": "Raffadax.RCP_mythic_honey_item",
+        "InputIdentifier": "mythic_honey_item",
         "OutputIdentifier": "Raffadax.RCP_CrystalizedMythicHoney",
         "OutputTranslationKey": "CrystalizedMythicHoney.DisplayName",
         "MinutesUntilReady": 4000,
@@ -80517,7 +80517,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_Oxidizer",
-        "InputIdentifier": "Raffadax.RCP_poison_mythic_honey_item",
+        "InputIdentifier": "poison_mythic_honey_item",
         "OutputIdentifier": "Raffadax.RCP_DireCrystalizedMythicHoney",
         "OutputTranslationKey": "DireCrystalizedMythicHoney.DisplayName",
         "MinutesUntilReady": 4000,
@@ -80528,7 +80528,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_Oxidizer",
-        "InputIdentifier": "Raffadax.RCP_poison_honey_item",
+        "InputIdentifier": "poison_honey_item",
         "OutputIdentifier": "Raffadax.RCP_CrystalizedToxicHoney",
         "OutputTranslationKey": "CrystalizedToxicHoney.DisplayName",
         "MinutesUntilReady": 2000,
@@ -80911,7 +80911,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_PureeJar",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_NutmegSeed",
         "OutputIdentifier": "Raffadax.RCP_NutmegButter",
         "OutputTranslationKey": "NutmegButter.DisplayName",
         "MinutesUntilReady": 720,
@@ -83037,7 +83037,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_PureeJar",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterPuree",
         "OutputTranslationKey": "WaldmeisterPuree.DisplayName",
         "MinutesUntilReady": 720,
@@ -88063,7 +88063,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterTea",
         "OutputTranslationKey": "WaldmeisterTea.DisplayName",
         "MinutesUntilReady": 240,
@@ -94734,7 +94734,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
-        "InputIdentifier": "Raffadax.RCP_Allspice",
+        "InputIdentifier": "Raffadax.RCP_PackedAllspice",
         "OutputIdentifier": "Raffadax.RCP_AllspiceTea",
         "OutputTranslationKey": "AllspiceTea.DisplayName",
         "MinutesUntilReady": 120,
@@ -95448,7 +95448,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
-        "InputIdentifier": "Raffadax.RCP_Juniper",
+        "InputIdentifier": "Raffadax.RCP_PackedJuniper",
         "OutputIdentifier": "Raffadax.RCP_JuniperTea",
         "OutputTranslationKey": "JuniperTea.DisplayName",
         "MinutesUntilReady": 120,
@@ -95516,7 +95516,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
-        "InputIdentifier": "Raffadax.RCP_Mace",
+        "InputIdentifier": "Raffadax.RCP_PackedMace",
         "OutputIdentifier": "Raffadax.RCP_MaceTea",
         "OutputTranslationKey": "MaceTea.DisplayName",
         "MinutesUntilReady": 240,
@@ -95601,7 +95601,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_NutmegSeed",
         "OutputIdentifier": "Raffadax.RCP_NutmegTea",
         "OutputTranslationKey": "NutmegTea.DisplayName",
         "MinutesUntilReady": 240,
@@ -95618,7 +95618,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_PackedNutmeg",
         "OutputIdentifier": "Raffadax.RCP_NutmegTea",
         "OutputTranslationKey": "NutmegTea.DisplayName",
         "MinutesUntilReady": 240,
@@ -95669,7 +95669,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
-        "InputIdentifier": "Raffadax.RCP_Saffron",
+        "InputIdentifier": "Raffadax.RCP_PackedSaffron",
         "OutputIdentifier": "Raffadax.RCP_SaffronTea",
         "OutputTranslationKey": "SaffronTea.DisplayName",
         "MinutesUntilReady": 240,
@@ -95771,7 +95771,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_TeaKeg",
-        "InputIdentifier": "Raffadax.RCP_Sumac",
+        "InputIdentifier": "Raffadax.RCP_PackedSumac",
         "OutputIdentifier": "Raffadax.RCP_SumacTea",
         "OutputTranslationKey": "SumacTea.DisplayName",
         "MinutesUntilReady": 120,
@@ -101681,6 +101681,26 @@
         "FuelStack": 1
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_BeachGlass",
+        "OutputIdentifier": "Raffadax.RCP_GlassPane",
+        "OutputTranslationKey": "GlassPane.DisplayName",
+        "MinutesUntilReady": 300,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 5,
+        "OutputMaxStack": 6
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Raffadax.RCP_GlassBuoy",
         "OutputIdentifier": "Raffadax.RCP_GlassPane",
@@ -101699,6 +101719,26 @@
         "OutputStack": 10
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_GlassBuoy",
+        "OutputIdentifier": "Raffadax.RCP_GlassPane",
+        "OutputTranslationKey": "GlassPane.DisplayName",
+        "MinutesUntilReady": 500,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 50,
+        "OutputMaxStack": 60
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Glass Shards",
         "OutputIdentifier": "Raffadax.RCP_GlassPane",
@@ -101714,6 +101754,26 @@
         ],
         "FuelIdentifier": "Coal",
         "FuelStack": 1
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Glass Shards",
+        "OutputIdentifier": "Raffadax.RCP_GlassPane",
+        "OutputTranslationKey": "GlassPane.DisplayName",
+        "MinutesUntilReady": 300,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 5,
+        "OutputMaxStack": 6
     },
     {
         "ProducerQualifiedItemId": "(BC)13",
@@ -101734,6 +101794,26 @@
         "InputStack": 5
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_MythrilOre",
+        "OutputIdentifier": "Raffadax.RCP_MythrilBar",
+        "OutputTranslationKey": "MythrilBar.DisplayName",
+        "MinutesUntilReady": 1440,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 25,
+        "OutputStack": 5,
+        "OutputMaxStack": 6
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Raffadax.RCP_SilverOre",
         "OutputIdentifier": "Raffadax.RCP_SilverBar",
@@ -101750,6 +101830,26 @@
         "FuelIdentifier": "Coal",
         "FuelStack": 1,
         "InputStack": 5
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_SilverOre",
+        "OutputIdentifier": "Raffadax.RCP_SilverBar",
+        "OutputTranslationKey": "SilverBar.DisplayName",
+        "MinutesUntilReady": 240,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 25,
+        "OutputStack": 5,
+        "OutputMaxStack": 6
     },
     {
         "ProducerQualifiedItemId": "(BC)13",
@@ -101770,6 +101870,26 @@
         "OutputStack": 25
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_GlassPumpkin",
+        "OutputIdentifier": "Raffadax.RCP_GlassPane",
+        "OutputTranslationKey": "GlassPane.DisplayName",
+        "MinutesUntilReady": 500,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 125,
+        "OutputMaxStack": 150
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Raffadax.RCP_GoldenAntler",
         "OutputIdentifier": "Gold Bar",
@@ -101787,6 +101907,25 @@
         "OutputStack": 3
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_GoldenAntler",
+        "OutputIdentifier": "Gold Bar",
+        "MinutesUntilReady": 500,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 15,
+        "OutputMaxStack": 18
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Golden Coconut",
         "OutputIdentifier": "Gold Bar",
@@ -101801,6 +101940,25 @@
         ],
         "FuelIdentifier": "Coal",
         "FuelStack": 1
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Golden Coconut",
+        "OutputIdentifier": "Gold Bar",
+        "MinutesUntilReady": 500,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 5,
+        "OutputMaxStack": 6
     },
     {
         "ProducerQualifiedItemId": "(BC)13",
@@ -101820,6 +101978,25 @@
         "OutputStack": 5
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_GoldenFeather",
+        "OutputIdentifier": "Gold Bar",
+        "MinutesUntilReady": 750,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 25,
+        "OutputMaxStack": 30
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Raffadax.RCP_GoldenLeaf",
         "OutputIdentifier": "Gold Bar",
@@ -101834,6 +102011,25 @@
         ],
         "FuelIdentifier": "Coal",
         "FuelStack": 1
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_GoldenLeaf",
+        "OutputIdentifier": "Gold Bar",
+        "MinutesUntilReady": 500,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 5,
+        "OutputMaxStack": 6
     },
     {
         "ProducerQualifiedItemId": "(BC)13",
@@ -101853,6 +102049,25 @@
         "OutputStack": 5
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Golden Pumpkin",
+        "OutputIdentifier": "Gold Bar",
+        "MinutesUntilReady": 750,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 25,
+        "OutputMaxStack": 30
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Raffadax.RCP_GoldenThread",
         "OutputIdentifier": "Gold Bar",
@@ -101870,6 +102085,25 @@
         "OutputStack": 5
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_GoldenThread",
+        "OutputIdentifier": "Gold Bar",
+        "MinutesUntilReady": 500,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 25,
+        "OutputMaxStack": 30
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Raffadax.RCP_IridiumFeather",
         "OutputIdentifier": "Iridium Bar",
@@ -101885,6 +102119,25 @@
         "FuelIdentifier": "Coal",
         "FuelStack": 1,
         "OutputStack": 5
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_IridiumFeather",
+        "OutputIdentifier": "Iridium Bar",
+        "MinutesUntilReady": 750,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 25,
+        "OutputMaxStack": 30
     },
     {
         "ProducerQualifiedItemId": "(BC)13",
@@ -101905,6 +102158,26 @@
         "OutputStack": 5
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_MythrilFeather",
+        "OutputIdentifier": "Raffadax.RCP_MythrilBar",
+        "OutputTranslationKey": "MythrilBar.DisplayName",
+        "MinutesUntilReady": 750,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 25,
+        "OutputMaxStack": 30
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Raffadax.RCP_RadioactiveFeather",
         "OutputIdentifier": "Radioactive Bar",
@@ -101920,6 +102193,25 @@
         "FuelIdentifier": "Coal",
         "FuelStack": 1,
         "OutputStack": 5
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_RadioactiveFeather",
+        "OutputIdentifier": "Radioactive Bar",
+        "MinutesUntilReady": 750,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 25,
+        "OutputMaxStack": 30
     },
     {
         "ProducerQualifiedItemId": "(BC)13",
@@ -101940,6 +102232,26 @@
         "OutputStack": 3
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_SilverAntler",
+        "OutputIdentifier": "Raffadax.RCP_SilverBar",
+        "OutputTranslationKey": "SilverBar.DisplayName",
+        "MinutesUntilReady": 300,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 15,
+        "OutputMaxStack": 18
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Raffadax.RCP_SilverCoin",
         "OutputIdentifier": "Raffadax.RCP_SilverBar",
@@ -101956,6 +102268,26 @@
         "FuelIdentifier": "Coal",
         "FuelStack": 1,
         "InputStack": 2
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_SilverCoin",
+        "OutputIdentifier": "Raffadax.RCP_SilverBar",
+        "OutputTranslationKey": "SilverBar.DisplayName",
+        "MinutesUntilReady": 300,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 10,
+        "OutputStack": 5,
+        "OutputMaxStack": 6
     },
     {
         "ProducerQualifiedItemId": "(BC)13",
@@ -101976,6 +102308,26 @@
         "OutputStack": 5
     },
     {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_SilverFeather",
+        "OutputIdentifier": "Raffadax.RCP_SilverBar",
+        "OutputTranslationKey": "SilverBar.DisplayName",
+        "MinutesUntilReady": 500,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 25,
+        "OutputMaxStack": 30
+    },
+    {
         "ProducerQualifiedItemId": "(BC)13",
         "InputIdentifier": "Raffadax.RCP_SilverLeaf",
         "OutputIdentifier": "Raffadax.RCP_SilverBar",
@@ -101991,6 +102343,26 @@
         ],
         "FuelIdentifier": "Coal",
         "FuelStack": 1
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)HeavyFurnace",
+        "InputIdentifier": "Raffadax.RCP_SilverLeaf",
+        "OutputIdentifier": "Raffadax.RCP_SilverBar",
+        "OutputTranslationKey": "SilverBar.DisplayName",
+        "MinutesUntilReady": 300,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "furnace": 50
+            }
+        ],
+        "FuelIdentifier": "Coal",
+        "FuelStack": 3,
+        "InputStack": 5,
+        "OutputStack": 5,
+        "OutputMaxStack": 6
     },
     {
         "ProducerQualifiedItemId": "(BC)12",
@@ -105672,7 +106044,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)12",
-        "InputIdentifier": "Raffadax.RCP_Juniper",
+        "InputIdentifier": "Raffadax.RCP_PackedJuniper",
         "OutputIdentifier": "Raffadax.RCP_JuniperTea",
         "OutputTranslationKey": "JuniperTea.DisplayName",
         "MinutesUntilReady": 240,
@@ -105689,7 +106061,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)12",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_NutmegSeed",
         "OutputIdentifier": "Raffadax.RCP_NutmegTea",
         "OutputTranslationKey": "NutmegTea.DisplayName",
         "MinutesUntilReady": 240,
@@ -105706,7 +106078,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)12",
-        "InputIdentifier": "Raffadax.RCP_Nutmeg",
+        "InputIdentifier": "Raffadax.RCP_PackedNutmeg",
         "OutputIdentifier": "Raffadax.RCP_NutmegTea",
         "OutputTranslationKey": "NutmegTea.DisplayName",
         "MinutesUntilReady": 240,
@@ -107117,7 +107489,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)12",
-        "InputIdentifier": "Raffadax.RCP_RoseBrandy",
+        "InputIdentifier": "Raffadax.RCP_RoseeBrandy",
         "OutputIdentifier": "Raffadax.RCP_RosePort",
         "OutputTranslationKey": "RosePort.DisplayName",
         "MinutesUntilReady": 5000,
@@ -107129,7 +107501,7 @@
                 "bubbles": 50
             }
         ],
-        "FuelIdentifier": "Raffadax.RCP_Rose",
+        "FuelIdentifier": "Raffadax.RCP_Rosee",
         "FuelStack": 1,
         "OutputStack": 2,
         "PlacingAnimation": "Bubbles"
@@ -115182,7 +115554,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)15",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WaldmeisterJelly",
         "OutputTranslationKey": "WaldmeisterJelly.DisplayName",
         "MinutesUntilReady": 4000,
@@ -118259,7 +118631,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)25",
-        "InputIdentifier": "Raffadax.RCP_WaldmeisterFlower",
+        "InputIdentifier": "Raffadax.RCP_Waldmeister",
         "OutputIdentifier": "Raffadax.RCP_WoodruffSeeds",
         "OutputTranslationKey": "WoodruffSeeds.DisplayName",
         "MinutesUntilReady": 20,

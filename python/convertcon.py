@@ -101,13 +101,16 @@ def convertCon(fileIn: str):
         on.MaxDrops = firstItem["maxAmount"]
         if "Onyx" in nodeName or "Sapphire" in nodeName:
             on.CountTowards = "OtherGems"
+            maxChance = 0.003  # vanilla gem spawn rate
+        else:
+            maxChance = 0.029  # vanilla ore node spawn rate
         for olr in node["oreLevelRanges"]:
             if olr["maxLevel"] > 249:
                 maxLevel = "-999"
             else:
                 maxLevel = olr["maxLevel"]
             spawn = {"Floors": "{}/{}".format(olr["minLevel"], maxLevel),
-                     "SpawnFrequency": int((olr["spawnChanceMult"] * node["spawnChance"]) * 1000) / 1000,
+                     "SpawnFrequency": min(maxChance, int((olr["spawnChanceMult"] * node["spawnChance"]) * 1000) / 1000),
                      "Type": "All"}
             on.MineSpawns.append(spawn)
         if len(node["dropItems"]) > 1:

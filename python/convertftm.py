@@ -36,10 +36,6 @@ def translateName(instr: str):
         return vanillaObjects[instr]
     elif isinstance(instr, int) or instr.isnumeric() or instr[1:].isnumeric():
         return instr
-    elif instr == "Sarsaparilla":
-        return "Raffadax.RCP_SarsaparillaBerry"
-    elif instr == "Waldmeister":
-        return "Raffadax.RCP_WaldmeisterFlower"
     else:
         newStr = unidecode(instr)
         out = "Raffadax.RCP_{}".format(re.sub(NAMERE, "", newStr))
