@@ -190,6 +190,7 @@ class Rule():
     OutputPriceMultiplier: Optional[float] = 1.0
     OutputQuality: Optional[int] = 0
     OutputStack: Optional[int] = 1
+    OutputMaxStack: Optional[int] = 1
     PlacingAnimation: Optional[str] = ""
     PlacingAnimationColorName: Optional[str] = "White"
 
@@ -199,7 +200,7 @@ class Rule():
                          "OutputIdentifier", "OutputTranslationKey"
                          "MinutesUntilReady", "Sounds"]
         for k, v in self.__dict__.items():
-            if k in mandatoryKeys or (k not in ["OutputPriceMultiplier", "PlacingAnimationColorName", "OutputStack", "InputStack"] and v) or (k == "OutputPriceMultiplier" and v != 1.0) or (k == "PlacingAnimationColorName" and v != "White") or (k in ["InputStack", "OutputStack"] and v != 1):
+            if k in mandatoryKeys or (k not in ["OutputPriceMultiplier", "PlacingAnimationColorName", "OutputStack", "InputStack", "OutputMaxStack"] and v) or (k == "OutputPriceMultiplier" and v != 1.0) or (k == "PlacingAnimationColorName" and v != "White") or (k in ["InputStack", "OutputStack", "OutputMaxStack"] and v != 1):
                 outDict[k] = v
         return outDict
 

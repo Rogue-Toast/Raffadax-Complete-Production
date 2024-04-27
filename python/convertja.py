@@ -106,6 +106,10 @@ MODNPCS = {
 
 NAMERE = r"[^a-zA-Z0-9_\.]"
 
+EXISTINGIDS = []
+
+NEWIDS = pyjson5.load(open("newids.json", encoding="utf-8"))
+
 
 def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
     newObjects = {"LogName": "Raffadax New Big Objects - {}".format(mode),
@@ -279,7 +283,12 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
         seedObj = SVObject()
         nameStr = unidecode(data["SeedName"])
         nameStr = re.sub(NAMERE, "", nameStr)
-        seedObj.Name = "{}_{}".format(modId, nameStr)
+        itemID = "{}_{}".format(modId, nameStr)
+        if itemID not in EXISTINGIDS:
+            EXISTINGIDS.append(itemID)
+        else:
+            print("{} from '{}' in Crops already exists.".format(itemID, data["Name"]))
+        seedObj.Name = itemID
         i18n["en"]["{}.Displayname".format(nameStr)] = data["SeedName"]
         seedObj.DisplayName = "{{{{i18n: {}.Displayname}}}}".format(nameStr)
         # build the description.
@@ -386,12 +395,17 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
         if objData["Name"] in ["Broccoli", "Raisins"]:
             continue
         newObj = SVObject()
-        if objData["Name"] == "Waldmeister" and objData["Category"] == "Flower":
-            nameStr = "Waldmeister Flower"
+        if objData["Name"] in NEWIDS:
+            nameStr = NEWIDS[objData["Name"]]
         else:
             nameStr = unidecode(objData["Name"])
         nameStr = re.sub(NAMERE, "", nameStr)
-        newObj.Name = "{}_{}".format(modId, nameStr)
+        itemID = "{}_{}".format(modId, nameStr)
+        if itemID not in EXISTINGIDS:
+            EXISTINGIDS.append(itemID)
+        else:
+            print("{} from '{}' in {} already exists.".format(itemID, objData["Name"], mode))
+        newObj.Name = itemID
         newObj.DisplayName = "{{{{i18n:{}.DisplayName}}}}".format(nameStr)
         i18n["en"]["{}.DisplayName".format(nameStr)] = objData["Name"]
         if "Category" in objData:
@@ -603,7 +617,12 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, vanillaObjects, s
         saplingObj = SVObject()
         nameStr = unidecode(data["SaplingName"])
         nameStr = re.sub(NAMERE, "", nameStr)
-        saplingObj.Name = "{}_{}".format(modId, nameStr)
+        itemID = "{}_{}".format(modId, nameStr)
+        if itemID not in EXISTINGIDS:
+            EXISTINGIDS.append(itemID)
+        else:
+            print("{} from '{}' in Trees already exists.".format(itemID, data["Name"]))
+        saplingObj.Name = itemID
         i18n["en"]["{}.Displayname".format(nameStr)] = data["SaplingName"]
         saplingObj.Displayname = "{{{{i18n:{}.Displayname}}}}".format(nameStr)
         # build the description.
