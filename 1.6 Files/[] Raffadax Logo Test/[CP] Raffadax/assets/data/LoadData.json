@@ -1,0 +1,94 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax Object Textures - Crops",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Objects/Crops",
+            "FromFile": "assets/textures/cropobjects.png"
+        },
+        {
+            "LogName": "Raffadax Crop Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Crops",
+            "FromFile": "assets/textures/crops.png"
+        },
+        {
+            "LogName": "Raffadax Object Textures - FruitTrees",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Objects/FruitTrees",
+            "FromFile": "assets/textures/treeobjects.png"
+        },
+        {
+            "LogName": "Raffadax Tree Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Trees",
+            "FromFile": "assets/textures/fruittrees.png"
+        },
+        {
+            "LogName": "Raffadax Weapon Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Weapons",
+            "FromFile": "assets/textures/weaponobjects.png"
+        },
+        {
+            "LogName": "Raffadax Object Textures - Artisan",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Objects/Artisan",
+            "FromFile": "assets/textures/artisanobjects.png"
+        },
+        {
+            "LogName": "Raffadax Big Object Textures - Artisan",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/BigObjects/Artisan",
+            "FromFile": "assets/textures/artisanmachines.png"
+        },
+        {
+            "LogName": "Raffadax Mail Backgrounds",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/MailBackgrounds/AmanraBG",
+            "FromFile": "assets/textures/Mail/AmanraBG.png"
+        },
+        {
+            "LogName": "Raffadax Mail Backgrounds",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/MailBackgrounds/AstridBG",
+            "FromFile": "assets/textures/Mail/AstridBG.png"
+        },
+        {
+            "LogName": "Raffadax Mail Backgrounds",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/MailBackgrounds/CoyoteBG",
+            "FromFile": "assets/textures/Mail/CoyoteBG.png"
+        },
+        {
+            "LogName": "Raffadax Mail Backgrounds",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/MailBackgrounds/MephistoBG",
+            "FromFile": "assets/textures/Mail/MephistoBG.png"
+        },
+        {
+            "LogName": "Raffadax Mail Backgrounds",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/MailBackgrounds/PuckBG",
+            "FromFile": "assets/textures/Mail/PuckBG.png"
+        },
+        {
+            "LogName": "Raffadax Mail Backgrounds",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/MailBackgrounds/ShuckBG",
+            "FromFile": "assets/textures/Mail/ShuckBG.png"
+        },
+        {
+            "LogName": "Raffadax Mail Backgrounds",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/MailBackgrounds/XolotlBG",
+            "FromFile": "assets/textures/Mail/XolotlBG.png"
+        },
+        {
+            "LogName": "Raffadax Mail Backgrounds",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/MailBackgrounds/AllBG",
+            "FromFile": "assets/textures/Mail/AllBG.png"
+        }
+    ]
+}

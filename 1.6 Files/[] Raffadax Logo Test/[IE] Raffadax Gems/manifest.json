@@ -5,11 +5,14 @@
     "UniqueID": "Raffadax.Gems",
     "Version": "5.0",
     "ContentPackFor": {
-        "UniqueID": "mistyspring.ItemExtensions"
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [{
+            "UniqueID": "Raffadax.RCP",
+            "IsRequired": false
         },
-    "Dependencies": [
         {
-            "UniqueID": "Raffadax.CompleteProduction",
+            "UniqueID": "mistyspring.ItemExtensions",
             "IsRequired": true
         }
     ]

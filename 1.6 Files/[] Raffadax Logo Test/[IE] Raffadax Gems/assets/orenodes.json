@@ -44,7 +44,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/-999",
-                            "SpawnFrequency": 0.08,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -65,7 +65,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "75/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -86,7 +86,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "1/100",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -107,7 +107,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/120",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -128,7 +128,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/-999",
-                            "SpawnFrequency": 0.1,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -149,7 +149,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "1/100",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -158,7 +158,7 @@
                             "ItemId": "(O)72",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 1.0
+                            "Chance": 0.01
                         }
                     ],
                     "MinDrops": 1,
@@ -178,7 +178,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/-999",
-                            "SpawnFrequency": 0.06,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -187,7 +187,7 @@
                             "ItemId": "(O)72",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 2.5
+                            "Chance": 0.025
                         }
                     ],
                     "MinDrops": 2,
@@ -207,7 +207,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "50/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -216,7 +216,7 @@
                             "ItemId": "(O)72",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 5.0
+                            "Chance": 0.05
                         }
                     ],
                     "MinDrops": 2,
@@ -257,7 +257,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/-999",
-                            "SpawnFrequency": 0.08,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -278,7 +278,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "75/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -299,7 +299,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "1/100",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -308,55 +308,55 @@
                             "ItemId": "(O)168",
                             "MinItems": -2,
                             "MaxItems": 1,
-                            "Chance": 100.0
+                            "Chance": 1.0
                         },
                         {
                             "ItemId": "(O)170",
                             "MinItems": -2,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)171",
                             "MinItems": -2,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)118",
                             "MinItems": -2,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PlasticBag",
                             "MinItems": -2,
                             "MaxItems": 1,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SodaPopRing",
                             "MinItems": -2,
                             "MaxItems": 1,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PlasticBottle",
                             "MinItems": -2,
                             "MaxItems": 1,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Garbage",
                             "MinItems": -2,
                             "MaxItems": 1,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Junk",
                             "MinItems": -2,
                             "MaxItems": 1,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         }
                     ],
                     "MinDrops": 1,
@@ -376,7 +376,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "0/120",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -385,55 +385,55 @@
                             "ItemId": "(O)168",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 100.0
+                            "Chance": 1.0
                         },
                         {
                             "ItemId": "(O)170",
                             "MinItems": -1,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)171",
                             "MinItems": -1,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)118",
                             "MinItems": -1,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PlasticBag",
                             "MinItems": -1,
                             "MaxItems": 1,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SodaPopRing",
                             "MinItems": -1,
                             "MaxItems": 1,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PlasticBottle",
                             "MinItems": -1,
                             "MaxItems": 1,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Garbage",
                             "MinItems": -1,
                             "MaxItems": 1,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Junk",
                             "MinItems": -1,
                             "MaxItems": 1,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         }
                     ],
                     "MinDrops": 1,
@@ -453,7 +453,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/-999",
-                            "SpawnFrequency": 0.1,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -462,55 +462,55 @@
                             "ItemId": "(O)168",
                             "MinItems": 1,
                             "MaxItems": 2,
-                            "Chance": 100.0
+                            "Chance": 1.0
                         },
                         {
                             "ItemId": "(O)170",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)171",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)118",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PlasticBag",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SodaPopRing",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PlasticBottle",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Garbage",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Junk",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         }
                     ],
                     "MinDrops": 1,
@@ -551,7 +551,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/-999",
-                            "SpawnFrequency": 0.08,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -572,7 +572,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "75/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -593,7 +593,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/-999",
-                            "SpawnFrequency": 0.03,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -614,7 +614,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "50/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -635,7 +635,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "100/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -656,7 +656,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "1/-999",
-                            "SpawnFrequency": 0.06,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -677,7 +677,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/100",
-                            "SpawnFrequency": 0.03,
+                            "SpawnFrequency": 0.003,
                             "Type": "All"
                         }
                     ],
@@ -699,7 +699,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "50/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.003,
                             "Type": "All"
                         }
                     ],
@@ -721,7 +721,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "100/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.003,
                             "Type": "All"
                         }
                     ],
@@ -743,7 +743,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "1/-999",
-                            "SpawnFrequency": 0.1,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -764,7 +764,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/-999",
-                            "SpawnFrequency": 0.16,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -806,7 +806,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/-999",
-                            "SpawnFrequency": 0.08,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -827,7 +827,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "75/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -848,7 +848,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "25/100",
-                            "SpawnFrequency": 0.02,
+                            "SpawnFrequency": 0.003,
                             "Type": "All"
                         }
                     ],
@@ -870,7 +870,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "50/-999",
-                            "SpawnFrequency": 0.08,
+                            "SpawnFrequency": 0.003,
                             "Type": "All"
                         }
                     ],
@@ -892,7 +892,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "75/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.003,
                             "Type": "All"
                         }
                     ],
@@ -914,7 +914,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "30/100",
-                            "SpawnFrequency": 0.1,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -935,7 +935,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "50/-999",
-                            "SpawnFrequency": 0.2,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -956,7 +956,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "75/-999",
-                            "SpawnFrequency": 0.3,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -998,7 +998,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "100/-999",
-                            "SpawnFrequency": 0.08,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -1019,7 +1019,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "120/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -1028,7 +1028,7 @@
                             "ItemId": "(O)74",
                             "MinItems": -50,
                             "MaxItems": 1,
-                            "Chance": 1.0
+                            "Chance": 0.01
                         }
                     ],
                     "MinDrops": 2,
@@ -1057,55 +1057,55 @@
                             "ItemId": "(O)Raffadax.RCP_AncientCoin",
                             "MinItems": 1,
                             "MaxItems": 2,
-                            "Chance": 100.0
+                            "Chance": 1.0
                         },
                         {
                             "ItemId": "(O)60",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)64",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Sapphire",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)72",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Onyx",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         },
                         {
                             "ItemId": "(O)797",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 15.0
+                            "Chance": 0.15
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackPearl",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 10.0
+                            "Chance": 0.1
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GiantPearl",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 5.0
+                            "Chance": 0.05
                         }
                     ],
                     "MinDrops": 1,
@@ -1125,7 +1125,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "120/-999",
-                            "SpawnFrequency": 0.08,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -1134,67 +1134,67 @@
                             "ItemId": "(O)Raffadax.RCP_AncientCoin",
                             "MinItems": 2,
                             "MaxItems": 3,
-                            "Chance": 100.0
+                            "Chance": 1.0
                         },
                         {
                             "ItemId": "(O)60",
                             "MinItems": 1,
                             "MaxItems": 2,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)64",
                             "MinItems": 1,
                             "MaxItems": 2,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Sapphire",
                             "MinItems": 1,
                             "MaxItems": 2,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)72",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Onyx",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 33.0
+                            "Chance": 0.33
                         },
                         {
                             "ItemId": "(O)797",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackPearl",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 15.0
+                            "Chance": 0.15
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GiantPearl",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 10.0
+                            "Chance": 0.1
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GlassPumpkin",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 5.0
+                            "Chance": 0.05
                         },
                         {
                             "ItemId": "(O)74",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 1.0
+                            "Chance": 0.01
                         }
                     ],
                     "MinDrops": 2,
@@ -1214,7 +1214,7 @@
                     "MineSpawns": [
                         {
                             "Floors": "200/-999",
-                            "SpawnFrequency": 0.12,
+                            "SpawnFrequency": 0.029,
                             "Type": "All"
                         }
                     ],
@@ -1223,79 +1223,79 @@
                             "ItemId": "(O)Raffadax.RCP_AncientCoin",
                             "MinItems": 3,
                             "MaxItems": 5,
-                            "Chance": 100.0
+                            "Chance": 1.0
                         },
                         {
                             "ItemId": "(O)60",
                             "MinItems": 1,
                             "MaxItems": 3,
-                            "Chance": 75.0
+                            "Chance": 0.75
                         },
                         {
                             "ItemId": "(O)64",
                             "MinItems": 1,
                             "MaxItems": 3,
-                            "Chance": 75.0
+                            "Chance": 0.75
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Sapphire",
                             "MinItems": 1,
                             "MaxItems": 3,
-                            "Chance": 75.0
+                            "Chance": 0.75
                         },
                         {
                             "ItemId": "(O)72",
                             "MinItems": 1,
                             "MaxItems": 2,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Onyx",
                             "MinItems": 1,
                             "MaxItems": 2,
-                            "Chance": 50.0
+                            "Chance": 0.5
                         },
                         {
                             "ItemId": "(O)797",
                             "MinItems": 1,
                             "MaxItems": 2,
-                            "Chance": 25.0
+                            "Chance": 0.25
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackPearl",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 20.0
+                            "Chance": 0.2
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GiantPearl",
                             "MinItems": 1,
                             "MaxItems": 1,
-                            "Chance": 15.0
+                            "Chance": 0.15
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GlassPumpkin",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 7.0
+                            "Chance": 0.07
                         },
                         {
                             "ItemId": "(O)74",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 5.0
+                            "Chance": 0.05
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MythrilBar",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 2.0
+                            "Chance": 0.02
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_Alicorn",
                             "MinItems": 0,
                             "MaxItems": 1,
-                            "Chance": 1.0
+                            "Chance": 0.01
                         }
                     ],
                     "MinDrops": 3,
