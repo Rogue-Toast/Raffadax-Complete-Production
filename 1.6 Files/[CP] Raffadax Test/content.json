@@ -103,6 +103,10 @@
         },
         {
             "Action": "Include",
+            "FromFile": "assets/data/GiantCrops.json"
+        },
+        {
+            "Action": "Include",
             "FromFile": "assets/data/Machines.json"
         },
         {

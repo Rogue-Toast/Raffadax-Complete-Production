@@ -93,191 +93,240 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackSesameSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BrusselsSproutSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CantaloupeSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CarawaySeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CelerySeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChamomileSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FenugreekSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GarbanzoBeanStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GreenCardamomSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MarjoramSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_OreganoSeeds"
+                            "ItemId": "(O)Raffadax.RCP_OreganoSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PricklyPearCactusStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RomanescoSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SquashSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_ThymeSeeds"
+                            "ItemId": "(O)Raffadax.RCP_ThymeSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WaxBeanStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteAsparagusSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_WhiteBellPepperSeeds"
+                            "ItemId": "(O)Raffadax.RCP_WhiteBellPepperSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_WhiteOnionSeeds"
+                            "ItemId": "(O)Raffadax.RCP_WhiteOnionSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteTeaSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_XoconostleCactusStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CactushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LuminushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AcaiSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AchioteSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BaobabSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_BayLaurelSapling"
+                            "ItemId": "(O)Raffadax.RCP_BayLaurelSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BuddhasHandSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_CurrySapling"
+                            "ItemId": "(O)Raffadax.RCP_CurrySapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DateSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_IlliciumSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LavenderSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MarconaAlmondSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MyristicaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_OsmanthusSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PimentoSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PineNutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_QuinceSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_RooibosSapling"
+                            "ItemId": "(O)Raffadax.RCP_RooibosSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SaguaroCactusSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SandalwoodSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StarFruitSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SumacSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)251"
+                            "ItemId": "(O)251",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteCacaoSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SunberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BodhiSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FusangSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "RandomItemId": [
@@ -500,41 +549,51 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AdzukiBeanStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlueCornSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlueLotusStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlueOysterStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BluePotatoSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CaperBushStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChervilSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_DillSeeds"
+                            "ItemId": "(O)Raffadax.RCP_DillSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GentianFlowerSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_GlassGemCornSeeds"
+                            "ItemId": "(O)Raffadax.RCP_GlassGemCornSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenCauliflowerSeeds",
@@ -542,161 +601,202 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GreenPeaStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_IndigoSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_LentilSeeds"
+                            "ItemId": "(O)Raffadax.RCP_LentilSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeppermintSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RyeSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SnowPeaStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SpearmintSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_WildBarleySeeds"
+                            "ItemId": "(O)Raffadax.RCP_WildBarleySeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WildOatSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WintergreenSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_YarrowSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ZucchiniSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AnemushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BerserkerMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FrostCapMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AnjouPearSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CarambolaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CocodeMerSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CrystalFruitSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_ElderberrySapling"
+                            "ItemId": "(O)Raffadax.RCP_ElderberrySapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_GoldenPlumSapling"
+                            "ItemId": "(O)Raffadax.RCP_GoldenPlumSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HibiscusSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HoneycrispSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_IslandCoconutSapling"
+                            "ItemId": "(O)Raffadax.RCP_IslandCoconutSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_KumquatSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PersimmonSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_MandarinSapling"
+                            "ItemId": "(O)Raffadax.RCP_MandarinSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MeyerLemonSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MonkeyLianaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedGrapefruitSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SakuraSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StarAppleSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StarJasmineSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SweetGemSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhitePeachSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WillowSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlueRaspberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PinkLemonSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PolarBerrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_YggdrasilSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "RandomItemId": [
@@ -915,200 +1015,250 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CayennePepperSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChanterelleStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChicorySeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_CommonMushroomStarter"
+                            "ItemId": "(O)Raffadax.RCP_CommonMushroomStarter",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CrocusSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DaffodilSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DaisySeeds",
                             "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500"
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_DandelionSeeds"
+                            "ItemId": "(O)Raffadax.RCP_DandelionSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FernStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FireWheelSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HawkweedSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HorseradishSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LeekSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MorelStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeyoteCactusStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PsilocybinMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PurpleMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SnowYamSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_SpringOnionSeeds"
+                            "ItemId": "(O)Raffadax.RCP_SpringOnionSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SweetPeaSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TruffleStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WildGingerSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WinterRootSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GemCapStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AgaveSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AvocadoSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BirchSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_BlackberrySapling"
+                            "ItemId": "(O)Raffadax.RCP_BlackberrySapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackWalnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_BlueberryBushSapling"
+                            "ItemId": "(O)Raffadax.RCP_BlueberryBushSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackCurrantSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ForsythiaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GuaranaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HollySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HoneysuckleSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_KeyLimeSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MacadamiaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MulberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PapayaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PecanSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PlantainSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_SalmonberrySapling"
+                            "ItemId": "(O)Raffadax.RCP_SalmonberrySapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_SpiceBerrySapling"
+                            "ItemId": "(O)Raffadax.RCP_SpiceBerrySapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TamarindSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WildHazelnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WitchHazelSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BearberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MoonberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SummerStarberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "RandomItemId": [
@@ -1853,80 +2003,100 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AntlerGanodermaStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_AsparagusSeeds"
+                            "ItemId": "(O)Raffadax.RCP_AsparagusSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CucumberStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DryadsSaddleStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FoxgloveSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_GreenBellPepperSeeds"
+                            "ItemId": "(O)Raffadax.RCP_GreenBellPepperSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GreenLeafLettuceSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HoneydewSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MaryJaneSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MatsutakeMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_OkraSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RainbowCarrotSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RapiniSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RoseVineStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_SageSeeds"
+                            "ItemId": "(O)Raffadax.RCP_SageSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ShisoSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SoybeanStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SpinachSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TopinamburSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TurnipSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_VioletSeeds",
@@ -1934,123 +2104,154 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteGrapeStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WoodruffSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CloverPatchStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FernFlowerSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MosshroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BergamotSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CashewAppleSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChestnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ElderSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_ForestPlumSapling"
+                            "ItemId": "(O)Raffadax.RCP_ForestPlumSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GinkgoSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HoneyberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HuckleberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_KiwiSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LilacSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LindenSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MimosaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RaspberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_RosemarySapling"
+                            "ItemId": "(O)Raffadax.RCP_RosemarySapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RowanSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SaskatoonSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_SpruceSapling"
+                            "ItemId": "(O)Raffadax.RCP_SpruceSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_StrawberrySapling"
+                            "ItemId": "(O)Raffadax.RCP_StrawberrySapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WisteriaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FoxberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RoseGrapeSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ForestRoseSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WinterStarberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DryadSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MaenadSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "RandomItemId": [
@@ -2273,18 +2474,22 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AmanitaStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_ChiveSeeds"
+                            "ItemId": "(O)Raffadax.RCP_ChiveSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DarkRainbowCarrotSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DevilsLettuceSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GreenCabbageSeeds",
@@ -2292,52 +2497,65 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HornNutStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LiverwortStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MugwortSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeppercornStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeriwinkleSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PortobelloMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_PuffballMushroomStarter"
+                            "ItemId": "(O)Raffadax.RCP_PuffballMushroomStarter",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PurpleAsparagusSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_PurpleBellPepperSeeds"
+                            "ItemId": "(O)Raffadax.RCP_PurpleBellPepperSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RutabagaSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SarsaparillaSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StingingNettleStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_TarragonSeeds"
+                            "ItemId": "(O)Raffadax.RCP_TarragonSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TobaccoSeeds",
@@ -2345,100 +2563,125 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WildGrapeStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WolfsbaneSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WormwoodSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RadioactiveMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_VoidMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackCloverSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MandrakeSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AngosturaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackCherrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackOakSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackOliveSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackthornSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ClematisSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CloveSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CrabappleSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_CranberryBushSapling"
+                            "ItemId": "(O)Raffadax.RCP_CranberryBushSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DeadMansSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DogwoodSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DurianSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_EbonySapling"
+                            "ItemId": "(O)Raffadax.RCP_EbonySapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FicusSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_HawthornSapling"
+                            "ItemId": "(O)Raffadax.RCP_HawthornSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JacarandaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JuniperSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LarahaOrangeSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PistachioSapling",
@@ -2446,30 +2689,36 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PoincianaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_SassafrasSapling"
+                            "ItemId": "(O)Raffadax.RCP_SassafrasSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HagTreeSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WolfberrySapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CorpseFlowerSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_InfernalSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500"
                         },
                         {
                             "RandomItemId": [
@@ -2681,83 +2930,104 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BasilSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackBeanStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CassavaStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CilantroSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FennelSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LemongrassSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LichenStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MustardSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PaprikaSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_ParsleySeeds"
+                            "ItemId": "(O)Raffadax.RCP_ParsleySeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PassionFruitStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeanutSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PoinsettiaSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PurpleCauliflowerSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_RedBellPepperSeeds"
+                            "ItemId": "(O)Raffadax.RCP_RedBellPepperSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedCornSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_RedOnionSeeds"
+                            "ItemId": "(O)Raffadax.RCP_RedOnionSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedPotatoSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SavorySeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ScotchBonnetPepperSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_SweetPotatoSeeds"
+                            "ItemId": "(O)Raffadax.RCP_SweetPotatoSeeds",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TomatilloSeeds",
@@ -2765,103 +3035,129 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TurmericSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_VanillaVineStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WatermelonSeeds",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MagmaCapMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ThunderCapMushroomStarter",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_BlackBambooSapling"
+                            "ItemId": "(O)Raffadax.RCP_BlackBambooSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BrazilNutSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CacaoSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_CinchonaSapling"
+                            "ItemId": "(O)Raffadax.RCP_CinchonaSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CinnamomumSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DaccaBananaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DragonFruitCactusSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GrosMichelSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GuavaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HeliconiaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HuaMoaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JabuticabaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JavaBananaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_KolaSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LycheeSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MonsteraSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_NinoBananaSapling"
+                            "ItemId": "(O)Raffadax.RCP_NinoBananaSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PalmGroveSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RainbowEucalyptusSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RambutanSapling",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000"
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
-                            "ItemId": "(O)Raffadax.RCP_SugarcaneSapling"
+                            "ItemId": "(O)Raffadax.RCP_SugarcaneSapling",
+                            "IgnoreShopPriceModifiers": true
                         },
                         {
                             "RandomItemId": [
@@ -2875,7 +3171,7 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
                             "Price": 50000,
                             "IgnoreShopPriceModifiers": true
                         },

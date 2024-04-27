@@ -77,10 +77,20 @@
     // INCLUDE DATA ASSETS
 
         //Item & object assets
+        //BCs, Objects and Weapons first.
         {
             "Action": "Include",
             "FromFile": "assets/data/BigCraftables.json"
         },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Objects.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Weapons.json"
+        },
+        // Scripts that work with BCs, objects and weapons
         {
             "Action": "Include",
             "FromFile": "assets/data/Crops.json"
@@ -88,6 +98,10 @@
         {
             "Action": "Include",
             "FromFile": "assets/data/FruitTrees.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/GiantCrops.json"
         },
         {
             "Action": "Include",
@@ -99,35 +113,12 @@
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/Objects.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/Weapons.json"
-        },
-
-        // Text Assets
-        {
-            "Action": "Include",
             "FromFile": "assets/data/CookingRecipes.json"
         },
         {
             "Action": "Include",
             "FromFile": "assets/data/CraftingRecipes.json"
         },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/Mail.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/Shops.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/TriggerActions.json"
-        },
-
         // NPCs
         {
             "Action": "Include",
@@ -157,7 +148,19 @@
             "Action": "Include",
             "FromFile": "assets/data/Characters/Xolotl.json"
         },
-
+        // Scripts requiring NPCs
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Mail.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/Shops.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/TriggerActions.json"
+        },
         // NPC Gift Tastes
         {
             "Action": "Include",
