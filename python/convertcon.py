@@ -99,18 +99,44 @@ def convertCon(fileIn: str):
         on.ItemDropped = newName
         on.MinDrops = firstItem["minAmount"]
         on.MaxDrops = firstItem["maxAmount"]
-        if "Onyx" in nodeName or "Sapphire" in nodeName:
+        oreLevels = [0.03, 0.06, 0.09]
+        gemLevels = [0.003, 0.006, 0.009]
+        if any(x in nodeName for x in ["Onyx", "Sapphire", "Treasure"]):
             on.CountTowards = "OtherGems"
-            maxChance = 0.003  # vanilla gem spawn rate
-        else:
-            maxChance = 0.029  # vanilla ore node spawn rate
         for olr in node["oreLevelRanges"]:
             if olr["maxLevel"] > 249:
                 maxLevel = "-999"
             else:
                 maxLevel = olr["maxLevel"]
-            spawn = {"Floors": "{}/{}".format(olr["minLevel"], maxLevel),
-                     "SpawnFrequency": min(maxChance, int((olr["spawnChanceMult"] * node["spawnChance"]) * 1000) / 1000),
+            originalFreq = int((olr["spawnChanceMult"] * node["spawnChance"]) * 1000) / 1000
+            print(originalFreq)
+            scaledNames = ["Hardwood", "Bamboo", "Ebony", "Sandalwood", "Salt", "Silver", "Lodestone", "Mythril"]
+            constantNames = ["Nahcolite", "Coal", "Garbage", "Clay"]
+            if originalFreq < 0.003:
+                sf = 0.003
+            elif any(x in nodeName for x in scaledNames):
+                if originalFreq < 0.3:
+                    sf = oreLevels[0]
+                elif originalFreq < 0.9:
+                    sf = oreLevels[1]
+                else:
+                    sf = oreLevels[2]
+            elif any(x in nodeName for x in constantNames):
+                sf = oreLevels[1]
+            elif olr["minLevel"] < 50:
+                sf = gemLevels[0]
+            elif olr["minLevel"] < 75:
+                sf = gemLevels[1]
+            else:
+                sf = gemLevels[2]
+            if olr["minLevel"] == 50:
+                minLevel = 40
+            elif olr["minLevel"] == 75:
+                minLevel = 80
+            else:
+                minLevel = olr["minLevel"]
+            spawn = {"Floors": "{}/{}".format(minLevel, maxLevel),
+                     "SpawnFrequency": sf,
                      "Type": "All"}
             on.MineSpawns.append(spawn)
         if len(node["dropItems"]) > 1:

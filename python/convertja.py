@@ -181,6 +181,23 @@ def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
                     i18n[langKey] = {}
                 i18n[langKey]["{}.Description".format(nameStr)] = langStr
         i += idxIncrement
+    # # Mythril Anvil
+    # ma = BigObject()
+    # ma.Name = "{}_MythrilAnvil".format(modId)
+    # ma.DisplayName = "{{i18n:MythrilAnvil.DisplayName}}"
+    # ma.Description = "{{i18n:MythrilAnvil.Description}}"
+    # ma.Texture = "Mods/{}/BigObjects/{}".format(modId, mode)
+    # ma.Price = 1
+    # ma.SpriteIndex = i
+    # idxIncrement = 1
+    # spritename = "mythrilanvil.png"
+    # spriteFiles[spritename] = ma.SpriteIndex
+    # ma.ContextTags.append("raffadax_bigcraftable")
+    # ma.ContextTags.append("raffadax_crafted_bigcraftable")
+    # ma.ContextTags.append("raffadax_machine")
+    # newObjects["Entries"][ma.Name] = ma.to_dict()
+    # i18n["en"]["MythrilAnvil.DisplayName"] = "Mythril Anvil"
+    # i18n["en"]["MythrilAnvil.Description"] = "Unbelievably light for such a large object, this mystic anvil can imbue common weapons with the essence of divine libations to create sacred blades."
     return [newObjects, spriteFiles, i18n, objTexture]
 
 
@@ -256,6 +273,12 @@ def buildCrafting(srcDir, modId, vanillaObjects, i18n):
                 ingredients.append(iStr)
             newRecipes["Entries"]["{}_{}".format(modId, outName)] = "{}/Home/{}/{}/null/{{{{i18n:{}.RecipeName}}}}".format(" ".join(ingredients), output, isBC, outName)
             i18n["en"]["{}.RecipeName".format(outName)] = objData["Name"]
+    # # mythril Anvil
+    # anvilIngredients = "{}_MythrilBar 50".format(modId)
+    # anvilOutput = "{}_MythrilAnvil 1".format(modId)
+    # anvilStr = "{}/Home/{}/{}/null/{{{{i18n:MythrilAnvil.RecipeName}}}}".format(anvilIngredients, anvilOutput, True)
+    # newRecipes["Entries"]["{}_MythrilAnvil".format(modId)] = anvilStr
+    # i18n["en"]["MythrilAnvil.RecipeName"] = "Mythril Anvil"
     return [newRecipes, i18n]
 
 
@@ -265,14 +288,25 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
                    "Action": "Load",
                    "Target": "Mods/{}/Crops".format(modId),
                    "FromFile": "assets/textures/crops.png"}
+    giantTexture = {"LogName": "Raffadax Giant Crop Textures",
+                    "Action": "Load",
+                    "Target": "Mods/{}/GiantCrops".format(modId),
+                    "FromFile": "assets/textures/giantcrops.png"}
     newCrops = {"LogName": "Raffadax New Crops",
                 "Action": "EditData",
                 "Target": "Data/Crops",
                 "Entries": {}}
+    newGiants = {"LogName": "Raffadax New Giant Crops",
+                 "Action": "EditData",
+                 "Target": "Data/GiantCrops",
+                 "Entries": {}}
     jsonFiles = []
     cropSprites = {}
-    i = len(objectSprites)
-    j = 0
+    giantSprites = {}
+    i = len(objectSprites)  # object sprite indices
+    j = 0  # Crop sprite indices
+    x = 0  # Giant sprite indices
+    y = 0
     for entry in objectscan(cropDir):
         jsonFiles.append(entry.path.replace("\\", "/"))
     for jf in jsonFiles:
@@ -356,9 +390,31 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
                            "Condition": "LOCATION_IS_OUTDOORS Here"}
                 cropObj.PlantableLocationRules.append(newRule)
         newCrops["Entries"][seedObj.Name] = cropObj.to_dict()
+        filepath = jf.rsplit("/", 1)[0]
+        giantpath = "{}/giant.png".format(filepath)
+        if os.path.exists(giantpath):
+            giantID = "{}_{}_Giant".format(modId, cropName)
+            giantDict = {"FromItemID": cropObj.HarvestItemID,
+                         "HarvestItems": [{"Chance": 1.0,
+                                           "ForShavingEnchantment": None,
+                                           "ScaledMinStackWhenShaving": 2,
+                                           "ScaledMaxStackWhenShaving": 2,
+                                           "ItemId": cropObj.HarvestItemID,
+                                           "MinStack": 15,
+                                           "MaxStack": 21}],
+                         "Texture": "Mods/{}/GiantCrops".format(modId),
+                         "TexturePosition": {"X": x, "Y": y}}
+            giantSprites[giantpath] = {"X": x, "Y": y}
+            newGiants["Entries"][giantID] = giantDict
+            if x < 288:
+                x += 48
+            else:
+                x = 0
+                y += 64
+        # giant crops
         i += 1
         j += 1
-    return [objectData, newCrops, cropSprites, objectSprites, i18n, cropTexture]
+    return [objectData, newCrops, cropSprites, objectSprites, i18n, cropTexture, giantTexture, newGiants, giantSprites]
 
 
 def buildObjects(srcDir, modId, spritesheet, mode, i18n):
@@ -589,6 +645,15 @@ def buildSprites(spriteList, dstDir, fileName, spriteType="objects"):
             img = Image.open(imgpath)
             x = (sidx % 8) * 16
             y = floor(sidx / 8) * 32
+            base.paste(img, (x, y))
+    elif spriteType == "giants":
+        imgHeight = ceil(len(spriteList) / 5) * 64
+        imgWidth = 5 * 48
+        base = Image.new("RGBA", (imgWidth, imgHeight))
+        for imgpath, coords in spriteList.items():
+            img = Image.open(imgpath)
+            x = coords["X"]
+            y = coords["Y"]
             base.paste(img, (x, y))
     # base.show()
     outPath = "{}{}.png".format(dstDir, fileName)
@@ -871,21 +936,25 @@ if __name__ == "__main__":
         objectsOut = {"Changes": []}
         loadDataOut = {"Changes": []}
         weaponsOut = {"Changes": []}
+        giantsOut = {"Changes": []}
         vanillaObjects = pyjson5.load(open("vanillaObjects.json"), encoding="utf-8")
         # Crops
         print("Generating Crop Data")
         objectData, objectSprites, cropgiftData, i18n, objTexture, cropconditionalGifts, objcontextTags, cropraffgifts = buildObjects(cropDir, modId, "cropobjects", "Crops", i18n)
         # seed objects and cropdata
-        objectData, cropData, cropSprites, objectSprites, i18n, cropTexture = buildCrops(cropDir, modId, objectData, objectSprites, i18n, "cropobjects", vanillaObjects)
+        objectData, cropData, cropSprites, objectSprites, i18n, cropTexture, giantTexture, giantData, giantSprites = buildCrops(cropDir, modId, objectData, objectSprites, i18n, "cropobjects", vanillaObjects)
         objectsOut["Changes"].append(objectData)
         cropsOut["Changes"].append(cropData)
+        giantsOut["Changes"].append(giantData)
         loadDataOut["Changes"].append(objTexture)
         loadDataOut["Changes"].append(cropTexture)
+        loadDataOut["Changes"].append(giantTexture)
         # write data to file
         # writeData([objTexture, cropTexture], [objectData, cropData], dstDir, "crops")
         # # make sprites
         buildSprites(objectSprites, spriteDir, "cropobjects", "objects")
         buildSprites(cropSprites, spriteDir, "crops", "crops")
+        buildSprites(giantSprites, spriteDir, "giantcrops", "giants")
         # Trees
         print("Generating Fruit Tree Data")
         objectData, objectSprites, treegiftData, i18n, objTexture, treeconditionalGifts, treecontextTags, treeraffgifts = buildObjects(treeDir, modId, "treeobjects", "FruitTrees", i18n)
@@ -931,6 +1000,7 @@ if __name__ == "__main__":
         writeData(loadDataOut, dstDir, "LoadData")
         writeData(objectsOut, dstDir, "Objects")
         writeData(weaponsOut, dstDir, "Weapons")
+        writeData(giantsOut, dstDir, "GiantCrops")
         # # write i18n data
         print("Generating i18n")
         npcLang = "{}/1.6 Files/npcdefault.json".format(rootDir)

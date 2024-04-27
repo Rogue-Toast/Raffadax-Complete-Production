@@ -17,7 +17,12 @@ OUTFILE = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP
 CASKFILE = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.5.6 Files/[CCM] Raffadax Wine/CaskData.json"
 CRYSFILE = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.5.6 Files/[CCM] Raffadax Gems/ClonersData.json"
 MILLFILE = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.5.6 Files/[MT] Raffadax Mill/content.json"
+ANVILFILE = "mythrilanvilitems.json"
 VANILLAOBJECTS = pyjson5.load(open("vanillaObjects.json"))
+VANILLAWEAPONS = pyjson5.load(open("H:/Stardew Decompiled/1.6.0 Content (unpacked)/Data/Weapons.json", encoding="utf-8"))
+weaponToID = {}
+for k, v in VANILLAWEAPONS.items():
+    weaponToID[v["Name"]] = k
 NAMERE = r"[^a-zA-Z0-9_\.]"
 QUALITYSTRINGS = [{"Postfix": "Normal", "Quantity": 1, "Tag": "quality_none"},
                   {"Postfix": "Silver", "Quantity": 2, "Tag": "quality_silver"},
@@ -196,9 +201,47 @@ def convertSaplings(filepath: str):
     return outData
 
 
+def buildAnvil():
+    anvilData = pyjson5.load(open(ANVILFILE, encoding="utf-8"))
+    changeNode = {"LogName": "Raffadax Mythril Anvil Rules",
+                  "Action": "EditData",
+                  "Target": "Data/Machines",
+                  "Entries": {}}
+    anvilDict = {"Id": "(BC)Raffadax.RCP_MythrilAnvil",
+                 "OutputRules": [],
+                 "AdditionalConsumedItems": None,
+                 "LoadEffects": [{"Id": "Default",
+                                  "Condition": None,
+                                  "Sounds": [{"Id": "metal-tap",
+                                              "Delay": 0}]}],
+                 "AllowFairyDust": False}
+    for weapon, wData in anvilData.items():
+        wName = unidecode(weapon)
+        wName = re.sub(NAMERE, "", wName)
+        rule = {"Id": "MythrilAnvil_{}".format(wName),
+                "Triggers": [{"Id": "ItemPlacedInMachine",
+                              "Trigger": "ItemPlacedInMachine",
+                              "RequiredItemId": "(O){}".format(translateName(wData["Wine"])),
+                              "RequiredCount": 1}],
+                "UseFirstValidOutput": True,
+                "OutputItem": [{"CustomData": {"selph.ExtraMachineConfig.RequirementId.1": "{}".format(translateName(wData["Weapon"])),
+                                               "selph.ExtraMachineConfig.RequirementCount.1": "1",
+                                               "selph.ExtraMachineConfig.RequirementInvalidMsg": "Need 1 {} and 1 {}".format(wData["Wine"], wData["Weapon"])},
+                                "ItemId": "(W){}".format(translateName(weapon)),
+                                "MinStack": 1
+                                }],
+                "MinutesUntilReady": 10
+                }
+        anvilDict["OutputRules"].append(rule)
+    changeNode["Entries"][anvilDict["Id"]] = anvilDict
+    return changeNode
+
+
 def translateName(instr: str):
     if instr in VANILLAOBJECTS:
         return VANILLAOBJECTS[instr]
+    elif instr in weaponToID:
+        return "(W){}".format(weaponToID[instr])
     elif isinstance(instr, int) or instr.isnumeric() or instr[1:].isnumeric():
         return instr
     else:
@@ -215,6 +258,9 @@ if __name__ == "__main__":
 
     crysRules = convertCrystalarium(CRYSFILE)
     saplingRules["Changes"].append(crysRules)
+
+    # anvilRules = buildAnvil()
+    # saplingRules["Changes"].append(anvilRules)
 
     machinesFile = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/data/Machines.json"
     with open(machinesFile, 'w', encoding='utf-8') as f:

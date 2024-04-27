@@ -13,6 +13,12 @@
             "FromFile": "assets/textures/crops.png"
         },
         {
+            "LogName": "Raffadax Giant Crop Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/GiantCrops",
+            "FromFile": "assets/textures/giantcrops.png"
+        },
+        {
             "LogName": "Raffadax Object Textures - FruitTrees",
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Objects/FruitTrees",
