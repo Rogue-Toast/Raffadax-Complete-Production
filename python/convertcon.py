@@ -110,7 +110,7 @@ def convertCon(fileIn: str):
                 maxLevel = olr["maxLevel"]
             originalFreq = int((olr["spawnChanceMult"] * node["spawnChance"]) * 1000) / 1000
             print(originalFreq)
-            scaledNames = ["Hardwood", "Bamboo", "Ebony", "Sandalwood", "Salt", "Silver", "Lodestone", "Mythril"]
+            scaledNames = ["Hardwood", "Bamboo", "Ebony", "Sandalwood", "Salt", "Silver", "Magnet", "Mythril"]
             constantNames = ["Nahcolite", "Coal", "Garbage", "Clay"]
             if originalFreq < 0.003:
                 sf = 0.003
@@ -121,6 +121,11 @@ def convertCon(fileIn: str):
                     sf = oreLevels[1]
                 else:
                     sf = oreLevels[2]
+                # per discussion with Raff
+                if "Silver" in nodeName:
+                    sf = sf * 4
+                if "Mythril" in nodeName or "Lodestone":
+                    sf = sf * 2
             elif any(x in nodeName for x in constantNames):
                 sf = oreLevels[1]
             elif olr["minLevel"] < 50:
