@@ -1,0 +1,29 @@
+{
+    "Name": "Raffadax 1.6 alpha test",
+    "Author": "Raffadax",
+    "Version": "5.0.0-alpha.01",
+    "Description": "A massive expansion mod that adds thousands of items to the game.",
+    "UniqueID": "Raffadax.RCP",
+    "MinimumApiVersion": "4.0.0",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        },
+    "Dependencies": [
+        {
+            "UniqueID": "Esca.CustomNPCExclusions",
+        },
+        {
+            "UniqueID": "Digus.ProducerFrameworkMod",
+        },
+        {
+            "UniqueID": "mistyspring.ItemExtensions",
+        },
+        {
+            "UniqueID": "Cherry.MultiYieldCrops",
+        },
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "IsRequired": "False"
+        }
+    ]
+}

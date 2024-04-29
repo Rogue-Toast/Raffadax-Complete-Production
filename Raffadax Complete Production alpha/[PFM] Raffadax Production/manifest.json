@@ -1,0 +1,16 @@
+{
+    "Name": "[PFM] Raffadax Complete Production",
+    "Author": "Raffadax",
+    "Description": "Base production for Raffadax Crops.",
+    "UniqueID": "Raffadax.Complete.Production",
+    "Version": "5.0",
+    "ContentPackFor": {
+        "UniqueID": "DIGUS.ProducerFrameworkMod"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "Raffadax.RCP",
+            "IsRequired": true
+        },
+    ]
+}

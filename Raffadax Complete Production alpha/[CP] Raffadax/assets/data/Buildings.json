@@ -1,0 +1,1991 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax Mill Rules",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [
+                "Mill",
+                "ItemConversions"
+            ],
+            "Entries": {
+                "Raffadax_Mill_LeachedAcorns": {
+                    "Id": "Raffadax_Mill_LeachedAcorns",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_leachedacorns"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AcornFlour",
+                            "ItemId": "(O)Raffadax.RCP_AcornFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Almond": {
+                    "Id": "Raffadax_Mill_Almond",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_almond"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AlmondFlour",
+                            "ItemId": "(O)Raffadax.RCP_AlmondFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Bahidaj": {
+                    "Id": "Raffadax_Mill_Bahidaj",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_bahidaj"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SaguaroFlour",
+                            "ItemId": "(O)Raffadax.RCP_SaguaroFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_BahidajSeeds": {
+                    "Id": "Raffadax_Mill_BahidajSeeds",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_bahidajseeds"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SaguaroFlour",
+                            "ItemId": "(O)Raffadax.RCP_SaguaroFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_BlackCacaoPod": {
+                    "Id": "Raffadax_Mill_BlackCacaoPod",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_blackcacaopod"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CocoaFlour",
+                            "ItemId": "(O)Raffadax.RCP_CocoaFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_BlackSesameSeeds": {
+                    "Id": "Raffadax_Mill_BlackSesameSeeds",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_blacksesameseeds"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SesameFlour",
+                            "ItemId": "(O)Raffadax.RCP_SesameFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_BlackWalnut": {
+                    "Id": "Raffadax_Mill_BlackWalnut",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_blackwalnut"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_WalnutFlour",
+                            "ItemId": "(O)Raffadax.RCP_WalnutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_BrazilNut": {
+                    "Id": "Raffadax_Mill_BrazilNut",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_brazilnut"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_BrazilNutFlour",
+                            "ItemId": "(O)Raffadax.RCP_BrazilNutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_CacaoPod": {
+                    "Id": "Raffadax_Mill_CacaoPod",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_cacaopod"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CocoaFlour",
+                            "ItemId": "(O)Raffadax.RCP_CocoaFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Cashew": {
+                    "Id": "Raffadax_Mill_Cashew",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_cashew"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CashewFlour",
+                            "ItemId": "(O)Raffadax.RCP_CashewFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Chestnut": {
+                    "Id": "Raffadax_Mill_Chestnut",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_chestnut"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_ChestnutFlour",
+                            "ItemId": "(O)Raffadax.RCP_ChestnutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_CocodeMer": {
+                    "Id": "Raffadax_Mill_CocodeMer",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_cocodemer"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CocodeMerFlour",
+                            "ItemId": "(O)Raffadax.RCP_CocodeMerFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_88": {
+                    "Id": "Raffadax_Mill_88",
+                    "RequiredTags": [
+                        "id_o_88"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CoconutFlour",
+                            "ItemId": "(O)Raffadax.RCP_CoconutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_CoffeeBeans": {
+                    "Id": "Raffadax_Mill_CoffeeBeans",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_coffeebeans"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CoffeeFlour",
+                            "ItemId": "(O)Raffadax.RCP_CoffeeFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_408": {
+                    "Id": "Raffadax_Mill_408",
+                    "RequiredTags": [
+                        "id_o_408"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_HazelnutFlour",
+                            "ItemId": "(O)Raffadax.RCP_HazelnutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_LeachedHornNuts": {
+                    "Id": "Raffadax_Mill_LeachedHornNuts",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_leachedhornnuts"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_HornNutFlour",
+                            "ItemId": "(O)Raffadax.RCP_HornNutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_KolaNut": {
+                    "Id": "Raffadax_Mill_KolaNut",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_kolanut"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_ColaPowder",
+                            "ItemId": "(O)Raffadax.RCP_ColaPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_MacadamiaNut": {
+                    "Id": "Raffadax_Mill_MacadamiaNut",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_macadamianut"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_MacadamiaNutFlour",
+                            "ItemId": "(O)Raffadax.RCP_MacadamiaNutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_ShelledSamaras": {
+                    "Id": "Raffadax_Mill_ShelledSamaras",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_shelledsamaras"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SamaraFlour",
+                            "ItemId": "(O)Raffadax.RCP_SamaraFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_MarconaAlmond": {
+                    "Id": "Raffadax_Mill_MarconaAlmond",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_marconaalmond"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AlmondFlour",
+                            "ItemId": "(O)Raffadax.RCP_AlmondFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Peanut": {
+                    "Id": "Raffadax_Mill_Peanut",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_peanut"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_PeanutFlour",
+                            "ItemId": "(O)Raffadax.RCP_PeanutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Pecan": {
+                    "Id": "Raffadax_Mill_Pecan",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_pecan"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_PecanFlour",
+                            "ItemId": "(O)Raffadax.RCP_PecanFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_PineNut": {
+                    "Id": "Raffadax_Mill_PineNut",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_pinenut"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_PineNutFlour",
+                            "ItemId": "(O)Raffadax.RCP_PineNutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Pistachio": {
+                    "Id": "Raffadax_Mill_Pistachio",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_pistachio"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_PistachioFlour",
+                            "ItemId": "(O)Raffadax.RCP_PistachioFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_LeachedSeaHearts": {
+                    "Id": "Raffadax_Mill_LeachedSeaHearts",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_leachedseahearts"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CoeurdelaMerFlour",
+                            "ItemId": "(O)Raffadax.RCP_CoeurdelaMerFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_ShelledSunflowerSeeds": {
+                    "Id": "Raffadax_Mill_ShelledSunflowerSeeds",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_shelledsunflowerseeds"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SunflowerSeedFlour",
+                            "ItemId": "(O)Raffadax.RCP_SunflowerSeedFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Walnut": {
+                    "Id": "Raffadax_Mill_Walnut",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_walnut"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_WalnutFlour",
+                            "ItemId": "(O)Raffadax.RCP_WalnutFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_300": {
+                    "Id": "Raffadax_Mill_300",
+                    "RequiredTags": [
+                        "id_o_300"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AmaranthFlour",
+                            "ItemId": "(O)Raffadax.RCP_AmaranthFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_BlueCorn": {
+                    "Id": "Raffadax_Mill_BlueCorn",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_bluecorn"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_Cornmeal",
+                            "ItemId": "(O)Raffadax.RCP_Cornmeal",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_270": {
+                    "Id": "Raffadax_Mill_270",
+                    "RequiredTags": [
+                        "id_o_270"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CornFlour",
+                            "ItemId": "(O)Raffadax.RCP_CornFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Ergot": {
+                    "Id": "Raffadax_Mill_Ergot",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_ergot"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_ErgotFlour",
+                            "ItemId": "(O)Raffadax.RCP_ErgotFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_GlassGemCorn": {
+                    "Id": "Raffadax_Mill_GlassGemCorn",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_glassgemcorn"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CornStarch",
+                            "ItemId": "(O)Raffadax.RCP_CornStarch",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_RedCorn": {
+                    "Id": "Raffadax_Mill_RedCorn",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_redcorn"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_Cornmeal",
+                            "ItemId": "(O)Raffadax.RCP_Cornmeal",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_423": {
+                    "Id": "Raffadax_Mill_423",
+                    "RequiredTags": [
+                        "id_o_423"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_RiceFlour",
+                            "ItemId": "(O)Raffadax.RCP_RiceFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Rye": {
+                    "Id": "Raffadax_Mill_Rye",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_rye"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_RyeFlour",
+                            "ItemId": "(O)Raffadax.RCP_RyeFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_WildBarley": {
+                    "Id": "Raffadax_Mill_WildBarley",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_wildbarley"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_BarleyFlour",
+                            "ItemId": "(O)Raffadax.RCP_BarleyFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_WildOats": {
+                    "Id": "Raffadax_Mill_WildOats",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_wildoats"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_OatFlour",
+                            "ItemId": "(O)Raffadax.RCP_OatFlour",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_BlackPearl": {
+                    "Id": "Raffadax_Mill_BlackPearl",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_blackpearl"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_BlackPearlDust",
+                            "ItemId": "(O)Raffadax.RCP_BlackPearlDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_393": {
+                    "Id": "Raffadax_Mill_393",
+                    "RequiredTags": [
+                        "id_o_393"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CoralDust",
+                            "ItemId": "(O)Raffadax.RCP_CoralDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_EbonyWood": {
+                    "Id": "Raffadax_Mill_EbonyWood",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_ebonywood"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_EbonyPowder",
+                            "ItemId": "(O)Raffadax.RCP_EbonyPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_GiantPearl": {
+                    "Id": "Raffadax_Mill_GiantPearl",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_giantpearl"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_PearlDust",
+                            "ItemId": "(O)Raffadax.RCP_PearlDust",
+                            "MinStack": 5
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Manioc": {
+                    "Id": "Raffadax_Mill_Manioc",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_manioc"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_TapiocaStarch",
+                            "ItemId": "(O)Raffadax.RCP_TapiocaStarch",
+                            "MinStack": 4
+                        }
+                    ]
+                },
+                "Raffadax_Mill_797": {
+                    "Id": "Raffadax_Mill_797",
+                    "RequiredTags": [
+                        "id_o_797"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_PearlDust",
+                            "ItemId": "(O)Raffadax.RCP_PearlDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_RockSalt": {
+                    "Id": "Raffadax_Mill_RockSalt",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_rocksalt"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_TableSalt",
+                            "ItemId": "(O)Raffadax.RCP_TableSalt",
+                            "MinStack": 4
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Sandalwood": {
+                    "Id": "Raffadax_Mill_Sandalwood",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_sandalwood"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_ChandanPowder",
+                            "ItemId": "(O)Raffadax.RCP_ChandanPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_245": {
+                    "Id": "Raffadax_Mill_245",
+                    "RequiredTags": [
+                        "id_o_245"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_PowderedSugar",
+                            "ItemId": "(O)Raffadax.RCP_PowderedSugar",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Sugarcane": {
+                    "Id": "Raffadax_Mill_Sugarcane",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_sugarcane"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_CaneSugar",
+                            "ItemId": "(O)Raffadax.RCP_CaneSugar",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_AppleofDiscord": {
+                    "Id": "Raffadax_Mill_AppleofDiscord",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_appleofdiscord"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SandofChaos",
+                            "ItemId": "(O)Raffadax.RCP_SandofChaos",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_AppleofIdunn": {
+                    "Id": "Raffadax_Mill_AppleofIdunn",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_appleofidunn"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_HarmonicPowder",
+                            "ItemId": "(O)Raffadax.RCP_HarmonicPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Bifrost": {
+                    "Id": "Raffadax_Mill_Bifrost",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_bifrost"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AuroraPowder",
+                            "ItemId": "(O)Raffadax.RCP_AuroraPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_CintamaniFlower": {
+                    "Id": "Raffadax_Mill_CintamaniFlower",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_cintamaniflower"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_Azoth",
+                            "ItemId": "(O)Raffadax.RCP_Azoth",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_DeepJungleMoss": {
+                    "Id": "Raffadax_Mill_DeepJungleMoss",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_deepjunglemoss"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_GroundJungleMoss",
+                            "ItemId": "(O)Raffadax.RCP_GroundJungleMoss",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_DragonBerry": {
+                    "Id": "Raffadax_Mill_DragonBerry",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_dragonberry"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_InfernoPowder",
+                            "ItemId": "(O)Raffadax.RCP_InfernoPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_FernFlower": {
+                    "Id": "Raffadax_Mill_FernFlower",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_fernflower"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_FernFlowerDust",
+                            "ItemId": "(O)Raffadax.RCP_FernFlowerDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_FruitoftheNetherworld": {
+                    "Id": "Raffadax_Mill_FruitoftheNetherworld",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_fruitofthenetherworld"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AbyssalSand",
+                            "ItemId": "(O)Raffadax.RCP_AbyssalSand",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Hesperidium": {
+                    "Id": "Raffadax_Mill_Hesperidium",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_hesperidium"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AuricPowder",
+                            "ItemId": "(O)Raffadax.RCP_AuricPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_LuckyClover": {
+                    "Id": "Raffadax_Mill_LuckyClover",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_luckyclover"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_LuckPowder",
+                            "ItemId": "(O)Raffadax.RCP_LuckPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_MandragoraFlower": {
+                    "Id": "Raffadax_Mill_MandragoraFlower",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_mandragoraflower"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_NightshadePowder",
+                            "ItemId": "(O)Raffadax.RCP_NightshadePowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Mandrake": {
+                    "Id": "Raffadax_Mill_Mandrake",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_mandrake"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_MandrakePowder",
+                            "ItemId": "(O)Raffadax.RCP_MandrakePowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Moonberry": {
+                    "Id": "Raffadax_Mill_Moonberry",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_moonberry"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_LunarDust",
+                            "ItemId": "(O)Raffadax.RCP_LunarDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_PolarBerry": {
+                    "Id": "Raffadax_Mill_PolarBerry",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_polarberry"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_ArcticDust",
+                            "ItemId": "(O)Raffadax.RCP_ArcticDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_RoseofAvalon": {
+                    "Id": "Raffadax_Mill_RoseofAvalon",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_roseofavalon"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_ForestRosePowder",
+                            "ItemId": "(O)Raffadax.RCP_ForestRosePowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_SummerStarberry": {
+                    "Id": "Raffadax_Mill_SummerStarberry",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_summerstarberry"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_RedStarPowder",
+                            "ItemId": "(O)Raffadax.RCP_RedStarPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Sunberry": {
+                    "Id": "Raffadax_Mill_Sunberry",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_sunberry"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SolarDust",
+                            "ItemId": "(O)Raffadax.RCP_SolarDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_UnluckyClover": {
+                    "Id": "Raffadax_Mill_UnluckyClover",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_unluckyclover"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_BadLuckPowder",
+                            "ItemId": "(O)Raffadax.RCP_BadLuckPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_VakkhicGrape": {
+                    "Id": "Raffadax_Mill_VakkhicGrape",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_vakkhicgrape"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_PowderofArgent",
+                            "ItemId": "(O)Raffadax.RCP_PowderofArgent",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_WinterStarberry": {
+                    "Id": "Raffadax_Mill_WinterStarberry",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_winterstarberry"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_BlueStarPowder",
+                            "ItemId": "(O)Raffadax.RCP_BlueStarPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Yateveo": {
+                    "Id": "Raffadax_Mill_Yateveo",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_yateveo"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_VoodooDust",
+                            "ItemId": "(O)Raffadax.RCP_VoodooDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Zaminkand": {
+                    "Id": "Raffadax_Mill_Zaminkand",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_zaminkand"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_NoxiousPowder",
+                            "ItemId": "(O)Raffadax.RCP_NoxiousPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_Alicorn": {
+                    "Id": "Raffadax_Mill_Alicorn",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_alicorn"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_Catholicon",
+                            "ItemId": "(O)Raffadax.RCP_Catholicon",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_AlkonostFeather": {
+                    "Id": "Raffadax_Mill_AlkonostFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_alkonostfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_ArcticDust",
+                            "ItemId": "(O)Raffadax.RCP_ArcticDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_GarudaFeather": {
+                    "Id": "Raffadax_Mill_GarudaFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_garudafeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_Azoth",
+                            "ItemId": "(O)Raffadax.RCP_Azoth",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_GoldenAntler": {
+                    "Id": "Raffadax_Mill_GoldenAntler",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_goldenantler"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)384",
+                            "ItemId": "(O)384",
+                            "MinStack": 10
+                        }
+                    ]
+                },
+                "Raffadax_Mill_GoldenFeather": {
+                    "Id": "Raffadax_Mill_GoldenFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_goldenfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AuricPowder",
+                            "ItemId": "(O)Raffadax.RCP_AuricPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_GoldenLeaf": {
+                    "Id": "Raffadax_Mill_GoldenLeaf",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_goldenleaf"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)384",
+                            "ItemId": "(O)384",
+                            "MinStack": 5
+                        }
+                    ]
+                },
+                "Raffadax_Mill_HellhoundFang": {
+                    "Id": "Raffadax_Mill_HellhoundFang",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_hellhoundfang"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AbyssalSand",
+                            "ItemId": "(O)Raffadax.RCP_AbyssalSand",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_IridiumFeather": {
+                    "Id": "Raffadax_Mill_IridiumFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_iridiumfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)386",
+                            "ItemId": "(O)386",
+                            "MinStack": 15
+                        }
+                    ]
+                },
+                "Raffadax_Mill_JackalopeAntlers": {
+                    "Id": "Raffadax_Mill_JackalopeAntlers",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_jackalopeantlers"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SylvanPowder",
+                            "ItemId": "(O)Raffadax.RCP_SylvanPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_KrakenHook": {
+                    "Id": "Raffadax_Mill_KrakenHook",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_krakenhook"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_VoodooDust",
+                            "ItemId": "(O)Raffadax.RCP_VoodooDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_LeviathanScale": {
+                    "Id": "Raffadax_Mill_LeviathanScale",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_leviathanscale"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_LunarDust",
+                            "ItemId": "(O)Raffadax.RCP_LunarDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_MythrilFeather": {
+                    "Id": "Raffadax_Mill_MythrilFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_mythrilfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_MythrilOre",
+                            "ItemId": "(O)Raffadax.RCP_MythrilOre",
+                            "MinStack": 15
+                        }
+                    ]
+                },
+                "Raffadax_Mill_NagualWhiskers": {
+                    "Id": "Raffadax_Mill_NagualWhiskers",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_nagualwhiskers"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_StarDust",
+                            "ItemId": "(O)Raffadax.RCP_StarDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_PhoenixFeather": {
+                    "Id": "Raffadax_Mill_PhoenixFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_phoenixfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_InfernoPowder",
+                            "ItemId": "(O)Raffadax.RCP_InfernoPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_RadioactiveFeather": {
+                    "Id": "Raffadax_Mill_RadioactiveFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_radioactivefeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)909",
+                            "ItemId": "(O)909",
+                            "MinStack": 15
+                        }
+                    ]
+                },
+                "Raffadax_Mill_RocFeather": {
+                    "Id": "Raffadax_Mill_RocFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_rocfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SolarDust",
+                            "ItemId": "(O)Raffadax.RCP_SolarDust",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_ResplendentFeather": {
+                    "Id": "Raffadax_Mill_ResplendentFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_resplendentfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AuroraPowder",
+                            "ItemId": "(O)Raffadax.RCP_AuroraPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_SeraphFeather": {
+                    "Id": "Raffadax_Mill_SeraphFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_seraphfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_Catholicon",
+                            "ItemId": "(O)Raffadax.RCP_Catholicon",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_SilverAntler": {
+                    "Id": "Raffadax_Mill_SilverAntler",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_silverantler"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SilverOre",
+                            "ItemId": "(O)Raffadax.RCP_SilverOre",
+                            "MinStack": 10
+                        }
+                    ]
+                },
+                "Raffadax_Mill_SilverFeather": {
+                    "Id": "Raffadax_Mill_SilverFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_silverfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_PowderofArgent",
+                            "ItemId": "(O)Raffadax.RCP_PowderofArgent",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_SilverLeaf": {
+                    "Id": "Raffadax_Mill_SilverLeaf",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_silverleaf"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_SilverOre",
+                            "ItemId": "(O)Raffadax.RCP_SilverOre",
+                            "MinStack": 5
+                        }
+                    ]
+                },
+                "Raffadax_Mill_ThunderbirdFeather": {
+                    "Id": "Raffadax_Mill_ThunderbirdFeather",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_thunderbirdfeather"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_TempestPowder",
+                            "ItemId": "(O)Raffadax.RCP_TempestPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_TulikkoFur": {
+                    "Id": "Raffadax_Mill_TulikkoFur",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_tulikkofur"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_AuroraPowder",
+                            "ItemId": "(O)Raffadax.RCP_AuroraPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_WendigoAntler": {
+                    "Id": "Raffadax_Mill_WendigoAntler",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_wendigoantler"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_NoxiousPowder",
+                            "ItemId": "(O)Raffadax.RCP_NoxiousPowder",
+                            "MinStack": 1
+                        }
+                    ]
+                },
+                "Raffadax_Mill_WerewolfClaw": {
+                    "Id": "Raffadax_Mill_WerewolfClaw",
+                    "RequiredTags": [
+                        "id_o_raffadax.rcp_werewolfclaw"
+                    ],
+                    "RequiredCount": 1,
+                    "MaxDailyConversions": -1,
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "ProducedItems": [
+                        {
+                            "Id": "(O)Raffadax.RCP_LunarDust",
+                            "ItemId": "(O)Raffadax.RCP_LunarDust",
+                            "MinStack": 1
+                        }
+                    ]
+                }
+            },
+            "MoveEntries": [
+                {
+                    "ID": "Raffadax_Mill_LeachedAcorns",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Almond",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Bahidaj",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_BahidajSeeds",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_BlackCacaoPod",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_BlackSesameSeeds",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_BlackWalnut",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_BrazilNut",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_CacaoPod",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Cashew",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Chestnut",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_CocodeMer",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_88",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_CoffeeBeans",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_408",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_LeachedHornNuts",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_KolaNut",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_MacadamiaNut",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_ShelledSamaras",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_MarconaAlmond",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Peanut",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Pecan",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_PineNut",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Pistachio",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_LeachedSeaHearts",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_ShelledSunflowerSeeds",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Walnut",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_300",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_BlueCorn",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_270",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Ergot",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_GlassGemCorn",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_RedCorn",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_423",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Rye",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_WildBarley",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_WildOats",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_BlackPearl",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_393",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_EbonyWood",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_GiantPearl",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Manioc",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_797",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_RockSalt",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Sandalwood",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_245",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Sugarcane",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_AppleofDiscord",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_AppleofIdunn",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Bifrost",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_CintamaniFlower",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_DeepJungleMoss",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_DragonBerry",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_FernFlower",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_FruitoftheNetherworld",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Hesperidium",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_LuckyClover",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_MandragoraFlower",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Mandrake",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Moonberry",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_PolarBerry",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_RoseofAvalon",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_SummerStarberry",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Sunberry",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_UnluckyClover",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_VakkhicGrape",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_WinterStarberry",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Yateveo",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Zaminkand",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_Alicorn",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_AlkonostFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_GarudaFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_GoldenAntler",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_GoldenFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_GoldenLeaf",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_HellhoundFang",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_IridiumFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_JackalopeAntlers",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_KrakenHook",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_LeviathanScale",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_MythrilFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_NagualWhiskers",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_PhoenixFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_RadioactiveFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_RocFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_ResplendentFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_SeraphFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_SilverAntler",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_SilverFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_SilverLeaf",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_ThunderbirdFeather",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_TulikkoFur",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_WendigoAntler",
+                    "BeforeID": "Default_UnmilledRice"
+                },
+                {
+                    "ID": "Raffadax_Mill_WerewolfClaw",
+                    "BeforeID": "Default_UnmilledRice"
+                }
+            ]
+        }
+    ]
+}

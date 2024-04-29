@@ -1,0 +1,14 @@
+{
+    "Name": "[FTM] Raffadax Forage",
+    "Author": "Raffadax",
+    "Description": "Adds forage for Raffadax Complete Production. Requires Farm Type Manager.",
+    "UniqueID": "Raffadax.Forage",
+    "Version": "5.0",
+    "ContentPackFor": {
+        "UniqueID": "Esca.FarmTypeManager"
+    },
+    "Dependencies": [{
+        "UniqueID": "Raffadax.RCP",
+        "IsRequired": true,
+    }]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="1" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="2">
+ <tileset firstgid="1" name="z_Valkyrie" tilewidth="16" tileheight="16" tilecount="2" columns="1">
+  <image source="z_Valkyrie.png" width="16" height="32"/>
+ </tileset>
+ <layer id="1" name="Buildings" width="1" height="2">
+  <data encoding="csv">
+1,
+2
+</data>
+ </layer>
+ <objectgroup id="2" name="Buildings">
+  <object id="1" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Valkyrie_Shop"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
