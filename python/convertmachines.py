@@ -21,6 +21,7 @@ ANVILFILE = "mythrilanvilitems.json"
 VANILLAOBJECTS = pyjson5.load(open("vanillaObjects.json"))
 VANILLAWEAPONS = pyjson5.load(open("H:/Stardew Decompiled/1.6.0 Content (unpacked)/Data/Weapons.json", encoding="utf-8"))
 weaponToID = {}
+NEWIDS = pyjson5.load(open("newids.json", encoding="utf-8"))
 for k, v in VANILLAWEAPONS.items():
     weaponToID[v["Name"]] = k
 NAMERE = r"[^a-zA-Z0-9_\.]"
@@ -39,8 +40,11 @@ def convertCasks(filepath: str):
                   "Entries": {},
                   "MoveEntries": []}
     for item, multiplier in jsonData.items():
-        cleanName = unidecode(item)
-        cleanName = re.sub(NAMERE, "", cleanName)
+        if item in NEWIDS:
+            cleanName = NEWIDS[item]
+        else:
+            cleanName = unidecode(item)
+            cleanName = re.sub(NAMERE, "", cleanName)
         newRule = CPRule()
         ruleId = "Raffadax.RCP_Cask_{}".format(cleanName)
         newRule.Id = ruleId
@@ -155,6 +159,8 @@ def convertSaplings(filepath: str):
                    "When": {"SeedMakerSaplings": "Better Saplings"}}
     for rule in jsonData:
         # direct version
+        if rule["InputIdentifier"] == "Spice Berry":
+            continue
         cleanName = unidecode(rule["OutputIdentifier"])
         cleanName = re.sub(NAMERE, "", cleanName)
         cleanOutput = unidecode(rule["InputIdentifier"])
@@ -244,6 +250,8 @@ def translateName(instr: str):
         return "(W){}".format(weaponToID[instr])
     elif isinstance(instr, int) or instr.isnumeric() or instr[1:].isnumeric():
         return instr
+    elif instr in NEWIDS:
+        return "Raffadax_RCP_{}".format(re.sub(NAMERE, "", NEWIDS[instr]))
     else:
         newStr = unidecode(instr)
         out = "Raffadax.RCP_{}".format(re.sub(NAMERE, "", newStr))
