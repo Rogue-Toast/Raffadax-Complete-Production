@@ -717,12 +717,12 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, vanillaObjects, s
 
         # tree object
         newTree = FruitTree()
-        newTree.DisplayName = "{{{{i18n: {}.TreeName}}}}".format(nameStr)
+        newTree.DisplayName = "{{{{i18n:{}.TreeName}}}}".format(nameStr)
         i18n["en"]["{}.TreeName"] = data["Name"]
         newTree.Seasons = [data["Season"]]
         fruitName = re.sub(NAMERE, "", data["Product"])
-        if fruitName in vanillaObjects:
-            fruit = {"ItemId": "(O){}".format(vanillaObjects[fruitName])}
+        if data["Product"] in vanillaObjects:
+            fruit = {"ItemId": "(O){}".format(vanillaObjects[data["Product"]])}
         else:
             fruit = {"ItemId": "{}_{}".format(modId, fruitName)}
         newTree.Fruit.append(fruit)
