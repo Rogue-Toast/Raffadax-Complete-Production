@@ -670,7 +670,7 @@
             "CropName": "Hot Pepper",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RCP_JalapeAoPepper",
+                    "ItemName": "Raffadax.RCP_JalapenoPepper",
                     "minHarvest": -2,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
