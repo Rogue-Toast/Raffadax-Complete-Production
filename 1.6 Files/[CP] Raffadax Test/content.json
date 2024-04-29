@@ -87,6 +87,10 @@
         // THINGS DONE WITH OBJECTS
         {
             "Action": "Include",
+            "FromFile": "assets/data/Buildings.json"
+        },
+        {
+            "Action": "Include",
             "FromFile": "assets/data/CookingRecipes.json"
         },
         {
