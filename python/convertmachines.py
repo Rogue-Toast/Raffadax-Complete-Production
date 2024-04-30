@@ -82,7 +82,8 @@ def convertCrystalarium(filepath: str):
         newRule.Id = ruleId
         octrigger = {"Id": "OutputCollected",
                      "Trigger": "OutputCollected",
-                     "RequiredCount": 1}
+                     "RequiredCount": 1,
+                     "RequiredItemId": "(O){}".format(translateName(itemName))}
         newRule.Triggers.append(octrigger)
         pltrigger = {"Id": "ItemPlacedInMachine",
                      "Trigger": "ItemPlacedInMachine",
@@ -159,7 +160,7 @@ def convertSaplings(filepath: str):
                    "When": {"SeedMakerSaplings": "Better Saplings"}}
     for rule in jsonData:
         # direct version
-        if rule["InputIdentifier"] == "Spice Berry":
+        if rule["InputIdentifier"] in VANILLAOBJECTS:
             continue
         cleanName = unidecode(rule["OutputIdentifier"])
         cleanName = re.sub(NAMERE, "", cleanName)

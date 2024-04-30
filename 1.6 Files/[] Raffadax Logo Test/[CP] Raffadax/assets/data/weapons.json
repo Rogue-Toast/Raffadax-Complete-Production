@@ -1,12 +1,6 @@
 {
     "Changes": [
         {
-            "LogName": "Raffadax Tree Textures",
-            "Action": "Load",
-            "Target": "Mods/{{ModId}}/Weapons",
-            "FromFile": "assets/textures/weaponobjects.png"
-        },
-        {
             "LogName": "Raffadax New Weapons",
             "Action": "EditData",
             "Target": "Data/Weapons",

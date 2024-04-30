@@ -8,7 +8,7 @@
                 "{{ModId}}Raffadax.RCP_Amanra.Introduction_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Amanra.Introduction_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 252",
+                    "Condition": "PLAYER_HEARTS Current {{Amanra}} 1",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Amanra.Introduction"
                     ]
@@ -16,7 +16,7 @@
                 "{{ModId}}Raffadax.RCP_Amanra.2Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Amanra.2Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Amanra}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Amanra.2Heart"
                     ]
@@ -24,7 +24,7 @@
                 "{{ModId}}Raffadax.RCP_Amanra.4Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Amanra.4Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1002",
+                    "Condition": "PLAYER_HEARTS Current {{Amanra}} 4",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Amanra.4Heart"
                     ]
@@ -32,7 +32,7 @@
                 "{{ModId}}Raffadax.RCP_Amanra.6Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Amanra.6Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1502",
+                    "Condition": "PLAYER_HEARTS Current {{Amanra}} 6",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Amanra.6Heart"
                     ]
@@ -40,7 +40,7 @@
                 "{{ModId}}Raffadax.RCP_Amanra.8Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Amanra.8Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2002",
+                    "Condition": "PLAYER_HEARTS Current {{Amanra}} 8",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Amanra.8Heart"
                     ]
@@ -48,7 +48,7 @@
                 "{{ModId}}Raffadax.RCP_Amanra.10Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Amanra.10Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2502",
+                    "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Amanra.10Heart"
                     ]
@@ -56,7 +56,7 @@
                 "{{ModId}}Raffadax.RCP_Astrid.Introduction_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Astrid.Introduction_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 252",
+                    "Condition": "PLAYER_HEARTS Current {{Astrid}} 1",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Astrid.Introduction"
                     ]
@@ -64,7 +64,7 @@
                 "{{ModId}}Raffadax.RCP_Astrid.2Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Astrid.2Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Astrid.2Heart"
                     ]
@@ -72,7 +72,7 @@
                 "{{ModId}}Raffadax.RCP_Astrid.4Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Astrid.4Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1002",
+                    "Condition": "PLAYER_HEARTS Current {{Astrid}} 4",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Astrid.4Heart"
                     ]
@@ -80,7 +80,7 @@
                 "{{ModId}}Raffadax.RCP_Astrid.6Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Astrid.6Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1502",
+                    "Condition": "PLAYER_HEARTS Current {{Astrid}} 6",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Astrid.6Heart"
                     ]
@@ -88,7 +88,7 @@
                 "{{ModId}}Raffadax.RCP_Astrid.8Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Astrid.8Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2002",
+                    "Condition": "PLAYER_HEARTS Current {{Astrid}} 8",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Astrid.8Heart"
                     ]
@@ -96,7 +96,7 @@
                 "{{ModId}}Raffadax.RCP_Astrid.10Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Astrid.10Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2502",
+                    "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Astrid.10Heart"
                     ]
@@ -104,7 +104,7 @@
                 "{{ModId}}Raffadax.RCP_Coyote.Introduction_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Coyote.Introduction_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 252",
+                    "Condition": "PLAYER_HEARTS Current {{Coyote}} 1",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Coyote.Introduction"
                     ]
@@ -112,7 +112,7 @@
                 "{{ModId}}Raffadax.RCP_Coyote.2Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Coyote.2Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Coyote}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Coyote.2Heart"
                     ]
@@ -120,7 +120,7 @@
                 "{{ModId}}Raffadax.RCP_Coyote.4Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Coyote.4Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1002",
+                    "Condition": "PLAYER_HEARTS Current {{Coyote}} 4",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Coyote.4Heart"
                     ]
@@ -128,7 +128,7 @@
                 "{{ModId}}Raffadax.RCP_Coyote.6Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Coyote.6Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1502",
+                    "Condition": "PLAYER_HEARTS Current {{Coyote}} 6",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Coyote.6Heart"
                     ]
@@ -136,7 +136,7 @@
                 "{{ModId}}Raffadax.RCP_Coyote.8Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Coyote.8Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2002",
+                    "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Coyote.8Heart"
                     ]
@@ -144,7 +144,7 @@
                 "{{ModId}}Raffadax.RCP_Coyote.10Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Coyote.10Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2502",
+                    "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Coyote.10Heart"
                     ]
@@ -152,7 +152,7 @@
                 "{{ModId}}Raffadax.RCP_Mephisto.Introduction_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Mephisto.Introduction_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 252",
+                    "Condition": "PLAYER_HEARTS Current {{Mephisto}} 1",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Mephisto.Introduction"
                     ]
@@ -160,7 +160,7 @@
                 "{{ModId}}Raffadax.RCP_Mephisto.2Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Mephisto.2Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Mephisto}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Mephisto.2Heart"
                     ]
@@ -168,7 +168,7 @@
                 "{{ModId}}Raffadax.RCP_Mephisto.4Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Mephisto.4Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 1002",
+                    "Condition": "PLAYER_HEARTS Current {{Mephisto}} 4",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Mephisto.4Heart"
                     ]
@@ -176,7 +176,7 @@
                 "{{ModId}}Raffadax.RCP_Mephisto.6Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Mephisto.6Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 1502",
+                    "Condition": "PLAYER_HEARTS Current {{Mephisto}} 6",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Mephisto.6Heart"
                     ]
@@ -184,7 +184,7 @@
                 "{{ModId}}Raffadax.RCP_Mephisto.8Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Mephisto.8Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 2002",
+                    "Condition": "PLAYER_HEARTS Current {{Mephisto}} 8",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Mephisto.8Heart"
                     ]
@@ -192,7 +192,7 @@
                 "{{ModId}}Raffadax.RCP_Mephisto.10Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Mephisto.10Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 2502",
+                    "Condition": "PLAYER_HEARTS Current {{Mephisto}} 10",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Mephisto.10Heart"
                     ]
@@ -200,7 +200,7 @@
                 "{{ModId}}Raffadax.RCP_Puck.Greeting_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Puck.Greeting_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 252",
+                    "Condition": "PLAYER_HEARTS Current {{Puck}} 1",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Puck.Greeting"
                     ]
@@ -208,7 +208,7 @@
                 "{{ModId}}Raffadax.RCP_Puck.2Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Puck.2Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Puck.2Heart"
                     ]
@@ -216,7 +216,7 @@
                 "{{ModId}}Raffadax.RCP_Puck.4Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Puck.4Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1002",
+                    "Condition": "PLAYER_HEARTS Current {{Puck}} 4",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Puck.4Heart"
                     ]
@@ -224,7 +224,7 @@
                 "{{ModId}}Raffadax.RCP_Puck.6Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Puck.6Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1502",
+                    "Condition": "PLAYER_HEARTS Current {{Puck}} 6",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Puck.6Heart"
                     ]
@@ -232,7 +232,7 @@
                 "{{ModId}}Raffadax.RCP_Puck.8Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Puck.8Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2002",
+                    "Condition": "PLAYER_HEARTS Current {{Puck}} 8",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Puck.8Heart"
                     ]
@@ -240,7 +240,7 @@
                 "{{ModId}}Raffadax.RCP_Puck.10Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Puck.10Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2502",
+                    "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Puck.10Heart"
                     ]
@@ -248,7 +248,7 @@
                 "{{ModId}}Raffadax.RCP_Shuck.Greeting_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Shuck.Greeting_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 252",
+                    "Condition": "PLAYER_HEARTS Current {{Shuck}} 1",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Shuck.Greeting"
                     ]
@@ -256,7 +256,7 @@
                 "{{ModId}}Raffadax.RCP_Shuck.2Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Shuck.2Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Shuck}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Shuck.2Heart"
                     ]
@@ -264,7 +264,7 @@
                 "{{ModId}}Raffadax.RCP_Shuck.4Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Shuck.4Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1002",
+                    "Condition": "PLAYER_HEARTS Current {{Shuck}} 4",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Shuck.4Heart"
                     ]
@@ -272,7 +272,7 @@
                 "{{ModId}}Raffadax.RCP_Shuck.6Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Shuck.6Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1502",
+                    "Condition": "PLAYER_HEARTS Current {{Shuck}} 6",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Shuck.6Heart"
                     ]
@@ -280,7 +280,7 @@
                 "{{ModId}}Raffadax.RCP_Shuck.8Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Shuck.8Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2002",
+                    "Condition": "PLAYER_HEARTS Current {{Shuck}} 8",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Shuck.8Heart"
                     ]
@@ -288,7 +288,7 @@
                 "{{ModId}}Raffadax.RCP_Shuck.10Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Shuck.10Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2502",
+                    "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Shuck.10Heart"
                     ]
@@ -296,7 +296,7 @@
                 "{{ModId}}Raffadax.RCP_Xolotl.Greeting_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Xolotl.Greeting_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 252",
+                    "Condition": "PLAYER_HEARTS Current {{Xolotl}} 1",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Xolotl.Greeting"
                     ]
@@ -304,7 +304,7 @@
                 "{{ModId}}Raffadax.RCP_Xolotl.2Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Xolotl.2Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Xolotl}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Xolotl.2Heart"
                     ]
@@ -312,7 +312,7 @@
                 "{{ModId}}Raffadax.RCP_Xolotl.4Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Xolotl.4Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1002",
+                    "Condition": "PLAYER_HEARTS Current {{Xolotl}} 4",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Xolotl.4Heart"
                     ]
@@ -320,7 +320,7 @@
                 "{{ModId}}Raffadax.RCP_Xolotl.6Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Xolotl.6Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1502",
+                    "Condition": "PLAYER_HEARTS Current {{Xolotl}} 6",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Xolotl.6Heart"
                     ]
@@ -328,7 +328,7 @@
                 "{{ModId}}Raffadax.RCP_Xolotl.8Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Xolotl.8Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2002",
+                    "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Xolotl.8Heart"
                     ]
@@ -336,7 +336,7 @@
                 "{{ModId}}Raffadax.RCP_Xolotl.10Heart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Xolotl.10Heart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2502",
+                    "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Xolotl.10Heart"
                     ]
@@ -344,7 +344,7 @@
                 "{{ModId}}Raffadax.RCP_All.AllHeart_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_All.AllHeart_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2502, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2502, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2502, PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 2502, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2502, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2502, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2502",
+                    "Condition": "PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Mephisto}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_All.AllHeart"
                     ]
@@ -352,7 +352,7 @@
                 "{{ModId}}Raffadax.RCP_Clint.Auto.Mill_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Clint.Auto.Mill_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Clint 1252",
+                    "Condition": "PLAYER_HEARTS Current Clint 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Clint.Auto.Mill"
                     ]
@@ -360,7 +360,7 @@
                 "{{ModId}}Raffadax.RCP_Sam.Beverage.Keg_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Sam.Beverage.Keg_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1252",
+                    "Condition": "PLAYER_HEARTS Current Sam 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Sam.Beverage.Keg"
                     ]
@@ -368,7 +368,7 @@
                 "{{ModId}}Raffadax.RCP_Kent.Fermentation.Tank_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Kent.Fermentation.Tank_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Kent 1252",
+                    "Condition": "PLAYER_HEARTS Current Kent 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Kent.Fermentation.Tank"
                     ]
@@ -376,7 +376,7 @@
                 "{{ModId}}Raffadax.RCP_Lewis.Distillation.Tank_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Lewis.Distillation.Tank_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Lewis 1252",
+                    "Condition": "PLAYER_HEARTS Current Lewis 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Lewis.Distillation.Tank"
                     ]
@@ -384,7 +384,7 @@
                 "{{ModId}}Raffadax.RCP_Pierre.Dry.Packer_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Pierre.Dry.Packer_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Lewis 1252",
+                    "Condition": "PLAYER_HEARTS Current Lewis 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Pierre.Dry.Packer"
                     ]
@@ -392,7 +392,7 @@
                 "{{ModId}}Raffadax.RCP_Gus.DW.Keg_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Gus.DW.Keg_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Gus 1252",
+                    "Condition": "PLAYER_HEARTS Current Gus 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Gus.DW.Keg"
                     ]
@@ -400,7 +400,7 @@
                 "{{ModId}}Raffadax.RCP_Robin.Flow.Hive_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Robin.Flow.Hive_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Robin 1252",
+                    "Condition": "PLAYER_HEARTS Current Robin 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Robin.Flow.Hive"
                     ]
@@ -408,7 +408,7 @@
                 "{{ModId}}Raffadax.RCP_Sandy.Fragrance.Extractor_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Sandy.Fragrance.Extractor_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sandy 1252",
+                    "Condition": "PLAYER_HEARTS Current Sandy 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Sandy.Fragrance.Extractor"
                     ]
@@ -416,7 +416,7 @@
                 "{{ModId}}Raffadax.RCP_Demetrius.Incubation.Tank_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Demetrius.Incubation.Tank_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Demetrius 1252",
+                    "Condition": "PLAYER_HEARTS Current Demetrius 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Demetrius.Incubation.Tank"
                     ]
@@ -424,7 +424,7 @@
                 "{{ModId}}Raffadax.RCP_Alex.Juice.Keg_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Alex.Juice.Keg_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1252",
+                    "Condition": "PLAYER_HEARTS Current Alex 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Alex.Juice.Keg"
                     ]
@@ -432,7 +432,7 @@
                 "{{ModId}}Raffadax.RCP_Maru.Milk.Keg_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Maru.Milk.Keg_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Maru 1252",
+                    "Condition": "PLAYER_HEARTS Current Maru 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Maru.Milk.Keg"
                     ]
@@ -440,7 +440,7 @@
                 "{{ModId}}Raffadax.RCP_Caroline.Oxidizer_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Caroline.Oxidizer_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 1252",
+                    "Condition": "PLAYER_HEARTS Current Caroline 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Caroline.Oxidizer"
                     ]
@@ -448,7 +448,7 @@
                 "{{ModId}}Raffadax.RCP_Pam.Puree.Jar_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Pam.Puree.Jar_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Pam 1252",
+                    "Condition": "PLAYER_HEARTS Current Pam 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Pam.Puree.Jar"
                     ]
@@ -456,7 +456,7 @@
                 "{{ModId}}Raffadax.RCP_Wizard.Magic.Cauldron_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Wizard.Magic.Cauldron_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Wizard 2002, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1252, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1252, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1252, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1252, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1252, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1252",
+                    "Condition": "PLAYER_HEARTS Current Wizard 8, PLAYER_HEARTS Current {{Amanra}} 5, PLAYER_HEARTS Current {{Astrid}} 5, PLAYER_HEARTS Current {{Coyote}} 5, PLAYER_HEARTS Current {{Puck}} 5, PLAYER_HEARTS Current {{Shuck}} 5, PLAYER_HEARTS Current {{Xolotl}} 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Wizard.Magic.Cauldron"
                     ]
@@ -464,7 +464,7 @@
                 "{{ModId}}Raffadax.RCP_Krobus.Azoth_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Krobus.Azoth_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Krobus 2002",
+                    "Condition": "PLAYER_HEARTS Current Krobus 8",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Krobus.Azoth"
                     ]
@@ -472,7 +472,7 @@
                 "{{ModId}}Raffadax.RCP_Evelyn.DP.Jar_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Evelyn.DP.Jar_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Evelyn 1252",
+                    "Condition": "PLAYER_HEARTS Current Evelyn 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Evelyn.DP.Jar"
                     ]
@@ -480,7 +480,7 @@
                 "{{ModId}}Raffadax.RCP_George.Tea.Keg_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_George.Tea.Keg_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current George 1252",
+                    "Condition": "PLAYER_HEARTS Current George 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_George.Tea.Keg"
                     ]
@@ -488,7 +488,7 @@
                 "{{ModId}}Raffadax.RCP_Harvey.Mold.Colony_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Harvey.Mold.Colony_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 1252",
+                    "Condition": "PLAYER_HEARTS Current Harvey 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Harvey.Mold.Colony"
                     ]
@@ -496,7 +496,7 @@
                 "{{ModId}}Raffadax.RCP_Marnie.Cheese.Processor_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Marnie.Cheese.Processor_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marnie 1252",
+                    "Condition": "PLAYER_HEARTS Current Marnie 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Marnie.Cheese.Processor"
                     ]
@@ -504,7 +504,7 @@
                 "{{ModId}}Raffadax.RCP_Shane.Churn_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Shane.Churn_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shane 1252",
+                    "Condition": "PLAYER_HEARTS Current Shane 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Shane.Churn"
                     ]
@@ -512,7 +512,7 @@
                 "{{ModId}}Raffadax.RCP_Demetrius.Astral.Tea_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Demetrius.Astral.Tea_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Demetrius 1752",
+                    "Condition": "PLAYER_HEARTS Current Demetrius 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Demetrius.Astral.Tea"
                     ]
@@ -520,7 +520,7 @@
                 "{{ModId}}Raffadax.RCP_Elliot.Chandan_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Elliot.Chandan_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Elliott 1752",
+                    "Condition": "PLAYER_HEARTS Current Elliott 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Elliot.Chandan"
                     ]
@@ -528,7 +528,7 @@
                 "{{ModId}}Raffadax.RCP_Emily.Serendipit_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Emily.Serendipit_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Emily 1752",
+                    "Condition": "PLAYER_HEARTS Current Emily 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Emily.Serendipit"
                     ]
@@ -536,7 +536,7 @@
                 "{{ModId}}Raffadax.RCP_Kent.Bongsutang_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Kent.Bongsutang_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Kent 1752",
+                    "Condition": "PLAYER_HEARTS Current Kent 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Kent.Bongsutang"
                     ]
@@ -544,7 +544,7 @@
                 "{{ModId}}Raffadax.RCP_Krobus.CalamiTea_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Krobus.CalamiTea_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Krobus 1752",
+                    "Condition": "PLAYER_HEARTS Current Krobus 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Krobus.CalamiTea"
                     ]
@@ -552,7 +552,7 @@
                 "{{ModId}}Raffadax.RCP_Lewis.EGrey_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Lewis.EGrey_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Lewis 1752",
+                    "Condition": "PLAYER_HEARTS Current Lewis 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Lewis.EGrey"
                     ]
@@ -560,7 +560,7 @@
                 "{{ModId}}Raffadax.RCP_Linus.Yaupon_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Linus.Yaupon_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Linus 1752",
+                    "Condition": "PLAYER_HEARTS Current Linus 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Linus.Yaupon"
                     ]
@@ -568,7 +568,7 @@
                 "{{ModId}}Raffadax.RCP_Sandy.Cinnabar_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Sandy.Cinnabar_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sandy 1752",
+                    "Condition": "PLAYER_HEARTS Current Sandy 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Sandy.Cinnabar"
                     ]
@@ -576,7 +576,7 @@
                 "{{ModId}}Raffadax.RCP_Wizard.Felici_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Wizard.Felici_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Wizard 1752, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2502",
+                    "Condition": "PLAYER_HEARTS Current Wizard 7, PLAYER_HEARTS Current {{Astrid}} 10",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Wizard.Felici"
                     ]
@@ -584,7 +584,7 @@
                 "{{ModId}}Raffadax.RCP_Wizard.Azeban_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Wizard.Azeban_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Mephisto}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Wizard.Azeban"
                     ]
@@ -592,7 +592,7 @@
                 "{{ModId}}Raffadax.RCP_Wizard.Barghest_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Wizard.Barghest_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Shuck}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Wizard.Barghest"
                     ]
@@ -600,7 +600,7 @@
                 "{{ModId}}Raffadax.RCP_Wizard.Coyotl_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Wizard.Coyotl_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Coyote}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Wizard.Coyotl"
                     ]
@@ -608,7 +608,7 @@
                 "{{ModId}}Raffadax.RCP_Wizard.Djinn_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Wizard.Djinn_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Amanra}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Wizard.Djinn"
                     ]
@@ -616,7 +616,7 @@
                 "{{ModId}}Raffadax.RCP_Wizard.Nagual_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Wizard.Nagual_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Xolotl}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Wizard.Nagual"
                     ]
@@ -624,7 +624,7 @@
                 "{{ModId}}Raffadax.RCP_Wizard.Pookah_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Wizard.Pookah_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Wizard.Pookah"
                     ]
@@ -632,7 +632,7 @@
                 "{{ModId}}Raffadax.RCP_Wizard.Selkie_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Wizard.Selkie_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 502",
+                    "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Wizard.Selkie"
                     ]
@@ -640,7 +640,7 @@
                 "{{ModId}}Raffadax.RCP_Alex.Spirulina_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Alex.Spirulina_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1752",
+                    "Condition": "PLAYER_HEARTS Current Alex 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Alex.Spirulina"
                     ]
@@ -648,7 +648,7 @@
                 "{{ModId}}Raffadax.RCP_Clint.GoldFeather_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Clint.GoldFeather_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Clint 1752",
+                    "Condition": "PLAYER_HEARTS Current Clint 7",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Clint.GoldFeather"
                     ]
@@ -656,7 +656,7 @@
                 "{{ModId}}Raffadax.RCP_Linus_Samaras_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Linus_Samaras_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Linus 1252",
+                    "Condition": "PLAYER_HEARTS Current Linus 5",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Linus_Samaras"
                     ]
@@ -664,7 +664,7 @@
                 "{{ModId}}Raffadax.RCP_Robin.Glass_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Robin.Glass_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Robin 252",
+                    "Condition": "PLAYER_HEARTS Current Robin 1",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Robin.Glass"
                     ]
@@ -672,7 +672,7 @@
                 "{{ModId}}Raffadax.RCP_Marnie.Cheese.Making_trigger": {
                     "Id": "{{ModId}}Raffadax.RCP_Marnie.Cheese.Making_trigger",
                     "Trigger": "DayStarted",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marnie 252",
+                    "Condition": "PLAYER_HEARTS Current Marnie 1",
                     "Actions": [
                         "AddMail Current Raffadax.RCP_Marnie.Cheese.Making"
                     ]

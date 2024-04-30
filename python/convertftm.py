@@ -10,7 +10,9 @@ from unidecode import unidecode
 vanillaObjects = pyjson5.load(open("vanillaObjects.json", encoding="utf-8"))
 INFILE = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.5.6 Files/[FTM] Forage/content.json"
 OUTFILE = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[FTM] Forage/content.json"
+NEWIDS = pyjson5.load(open("newids.json"))
 NAMERE = r"[^a-zA-Z0-9_\.]"
+FORAGE = []
 
 
 def convertftm():
@@ -28,6 +30,10 @@ def convertftm():
                         anode["contents"] = newcontents
                     else:
                         anode["name"] = translateName(anode["name"])
+                        if anode["name"] not in FORAGE and anode["name"].startswith("Raffadax"):
+                            FORAGE.append(anode["name"])
+    with open("forageitems.json", 'w', encoding='utf-8') as f:
+        json.dump(FORAGE, f, indent=4, ensure_ascii=False)
     return outdata
 
 
@@ -36,6 +42,8 @@ def translateName(instr: str):
         return vanillaObjects[instr]
     elif isinstance(instr, int) or instr.isnumeric() or instr[1:].isnumeric():
         return instr
+    elif instr in NEWIDS:
+        out = "Raffadax.RCP_{}".format(re.sub(NAMERE, "", NEWIDS[instr]))
     else:
         newStr = unidecode(instr)
         out = "Raffadax.RCP_{}".format(re.sub(NAMERE, "", newStr))
