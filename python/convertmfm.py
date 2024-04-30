@@ -26,7 +26,7 @@ TEXTCOLORS = {"-1": "red",
               "6": "green",
               "7": "cyan",
               "8": "gray"}
-oldTrans = pyjson5.load(open(SRCI18N))
+oldTrans = pyjson5.load(open(SRCI18N, encoding="utf-8"))
 
 
 def convertMail():

@@ -64,7 +64,7 @@
                     ],
                     "Fruit": [
                         {
-                            "ItemId": "{{ModId}}_AncientFruit"
+                            "ItemId": "(O)454"
                         }
                     ],
                     "Texture": "Mods/{{ModId}}/Trees",
@@ -519,7 +519,7 @@
                     ],
                     "Fruit": [
                         {
-                            "ItemId": "{{ModId}}_CrystalFruit"
+                            "ItemId": "(O)414"
                         }
                     ],
                     "Texture": "Mods/{{ModId}}/Trees",
@@ -675,7 +675,7 @@
                     ],
                     "Fruit": [
                         {
-                            "ItemId": "{{ModId}}_WildPlum"
+                            "ItemId": "(O)406"
                         }
                     ],
                     "Texture": "Mods/{{ModId}}/Trees",
@@ -740,7 +740,7 @@
                     ],
                     "Fruit": [
                         {
-                            "ItemId": "{{ModId}}_GoldenCoconut"
+                            "ItemId": "(O)791"
                         }
                     ],
                     "Texture": "Mods/{{ModId}}/Trees",
@@ -753,7 +753,7 @@
                     ],
                     "Fruit": [
                         {
-                            "ItemId": "{{ModId}}_GoldenWalnut"
+                            "ItemId": "(O)73"
                         }
                     ],
                     "Texture": "Mods/{{ModId}}/Trees",
@@ -1767,7 +1767,7 @@
                     ],
                     "Fruit": [
                         {
-                            "ItemId": "{{ModId}}_SpiceBerry"
+                            "ItemId": "(O)396"
                         }
                     ],
                     "Texture": "Mods/{{ModId}}/Trees",
@@ -1832,7 +1832,7 @@
                     ],
                     "Fruit": [
                         {
-                            "ItemId": "(O)434"
+                            "ItemId": "{{ModId}}_Stardrop"
                         }
                     ],
                     "Texture": "Mods/{{ModId}}/Trees",
@@ -1910,7 +1910,7 @@
                     ],
                     "Fruit": [
                         {
-                            "ItemId": "{{ModId}}_SweetGemBerry"
+                            "ItemId": "(O)417"
                         }
                     ],
                     "Texture": "Mods/{{ModId}}/Trees",
