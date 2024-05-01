@@ -1,4 +1,5 @@
 import json
+import math
 import os
 import pprint
 import re
@@ -113,7 +114,8 @@ def buildShops(fileIn: str, fileOut: str):
                     for c in conditions:
                         cp = c.split(" ")
                         if cp[0] == "f":
-                            outStr = "PLAYER_FRIENDSHIP_POINTS Current {} {}".format(cp[1], cp[2])
+                            hearts = math.floor(int(cp[2]) / 250)
+                            outStr = "PLAYER_HEARTS Current {{{{{}}}}} {}".format(cp[1], hearts)
                         elif cp[0] == "y":
                             outStr = "YEAR {}".format(cp[1])
                         else:
@@ -147,7 +149,8 @@ def buildShops(fileIn: str, fileOut: str):
                         for c in conditions:
                             cp = c.split(" ")
                             if cp[0] == "f":
-                                outStr = "PLAYER_FRIENDSHIP_POINTS Current {{{{{}}}}} {}".format(cp[1], cp[2])
+                                hearts = math.floor(int(cp[2]) / 250)
+                                outStr = "PLAYER_HEARTS Current {{{{{}}}}} {}".format(cp[1], hearts)
                             elif cp[0] == "y":
                                 outStr = "YEAR {}".format(cp[1])
                             else:

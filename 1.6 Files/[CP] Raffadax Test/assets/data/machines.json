@@ -529,110 +529,6 @@
                     "DaysUntilReady": -1,
                     "RecalculateOnCollect": false
                 },
-                "Raffadax.RCP_SeedMaker_BlackberrySapling_Normal": {
-                    "Id": "Raffadax.RCP_SeedMaker_BlackberrySapling_Normal",
-                    "Triggers": [
-                        {
-                            "Id": "Blackberry_Normal",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)410",
-                            "RequiredTags": [
-                                "quality_none"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_BlackberrySapling",
-                            "Id": "Raffadax.RCP_BlackberrySapling",
-                            "MinStack": 1,
-                            "MaxStack": 1
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_BlackberrySapling_Silver": {
-                    "Id": "Raffadax.RCP_SeedMaker_BlackberrySapling_Silver",
-                    "Triggers": [
-                        {
-                            "Id": "Blackberry_Silver",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)410",
-                            "RequiredTags": [
-                                "quality_silver"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_BlackberrySapling",
-                            "Id": "Raffadax.RCP_BlackberrySapling",
-                            "MinStack": 2,
-                            "MaxStack": 2
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_BlackberrySapling_Gold": {
-                    "Id": "Raffadax.RCP_SeedMaker_BlackberrySapling_Gold",
-                    "Triggers": [
-                        {
-                            "Id": "Blackberry_Gold",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)410",
-                            "RequiredTags": [
-                                "quality_gold"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_BlackberrySapling",
-                            "Id": "Raffadax.RCP_BlackberrySapling",
-                            "MinStack": 3,
-                            "MaxStack": 3
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_BlackberrySapling_Iridium": {
-                    "Id": "Raffadax.RCP_SeedMaker_BlackberrySapling_Iridium",
-                    "Triggers": [
-                        {
-                            "Id": "Blackberry_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)410",
-                            "RequiredTags": [
-                                "quality_iridium"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_BlackberrySapling",
-                            "Id": "Raffadax.RCP_BlackberrySapling",
-                            "MinStack": 4,
-                            "MaxStack": 4
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
                 "Raffadax.RCP_SeedMaker_BlackCherrySapling_Normal": {
                     "Id": "Raffadax.RCP_SeedMaker_BlackCherrySapling_Normal",
                     "Triggers": [
@@ -1353,110 +1249,6 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_CrabappleSapling",
                             "Id": "Raffadax.RCP_CrabappleSapling",
-                            "MinStack": 4,
-                            "MaxStack": 4
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Normal": {
-                    "Id": "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Normal",
-                    "Triggers": [
-                        {
-                            "Id": "CrystalFruit_Normal",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)414",
-                            "RequiredTags": [
-                                "quality_none"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_CrystalFruitSapling",
-                            "Id": "Raffadax.RCP_CrystalFruitSapling",
-                            "MinStack": 1,
-                            "MaxStack": 1
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Silver": {
-                    "Id": "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Silver",
-                    "Triggers": [
-                        {
-                            "Id": "CrystalFruit_Silver",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)414",
-                            "RequiredTags": [
-                                "quality_silver"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_CrystalFruitSapling",
-                            "Id": "Raffadax.RCP_CrystalFruitSapling",
-                            "MinStack": 2,
-                            "MaxStack": 2
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Gold": {
-                    "Id": "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Gold",
-                    "Triggers": [
-                        {
-                            "Id": "CrystalFruit_Gold",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)414",
-                            "RequiredTags": [
-                                "quality_gold"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_CrystalFruitSapling",
-                            "Id": "Raffadax.RCP_CrystalFruitSapling",
-                            "MinStack": 3,
-                            "MaxStack": 3
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Iridium": {
-                    "Id": "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Iridium",
-                    "Triggers": [
-                        {
-                            "Id": "CrystalFruit_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)414",
-                            "RequiredTags": [
-                                "quality_iridium"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_CrystalFruitSapling",
-                            "Id": "Raffadax.RCP_CrystalFruitSapling",
                             "MinStack": 4,
                             "MaxStack": 4
                         }
@@ -6041,110 +5833,6 @@
                     "DaysUntilReady": -1,
                     "RecalculateOnCollect": false
                 },
-                "Raffadax.RCP_SeedMaker_SalmonberrySapling_Normal": {
-                    "Id": "Raffadax.RCP_SeedMaker_SalmonberrySapling_Normal",
-                    "Triggers": [
-                        {
-                            "Id": "Salmonberry_Normal",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)296",
-                            "RequiredTags": [
-                                "quality_none"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_SalmonberrySapling",
-                            "Id": "Raffadax.RCP_SalmonberrySapling",
-                            "MinStack": 1,
-                            "MaxStack": 1
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_SalmonberrySapling_Silver": {
-                    "Id": "Raffadax.RCP_SeedMaker_SalmonberrySapling_Silver",
-                    "Triggers": [
-                        {
-                            "Id": "Salmonberry_Silver",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)296",
-                            "RequiredTags": [
-                                "quality_silver"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_SalmonberrySapling",
-                            "Id": "Raffadax.RCP_SalmonberrySapling",
-                            "MinStack": 2,
-                            "MaxStack": 2
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_SalmonberrySapling_Gold": {
-                    "Id": "Raffadax.RCP_SeedMaker_SalmonberrySapling_Gold",
-                    "Triggers": [
-                        {
-                            "Id": "Salmonberry_Gold",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)296",
-                            "RequiredTags": [
-                                "quality_gold"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_SalmonberrySapling",
-                            "Id": "Raffadax.RCP_SalmonberrySapling",
-                            "MinStack": 3,
-                            "MaxStack": 3
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_SalmonberrySapling_Iridium": {
-                    "Id": "Raffadax.RCP_SeedMaker_SalmonberrySapling_Iridium",
-                    "Triggers": [
-                        {
-                            "Id": "Salmonberry_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)296",
-                            "RequiredTags": [
-                                "quality_iridium"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_SalmonberrySapling",
-                            "Id": "Raffadax.RCP_SalmonberrySapling",
-                            "MinStack": 4,
-                            "MaxStack": 4
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
                 "Raffadax.RCP_SeedMaker_SaskatoonSapling_Normal": {
                     "Id": "Raffadax.RCP_SeedMaker_SaskatoonSapling_Normal",
                     "Triggers": [
@@ -6761,110 +6449,6 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_WhitePeachSapling",
                             "Id": "Raffadax.RCP_WhitePeachSapling",
-                            "MinStack": 4,
-                            "MaxStack": 4
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_ForestPlumSapling_Normal": {
-                    "Id": "Raffadax.RCP_SeedMaker_ForestPlumSapling_Normal",
-                    "Triggers": [
-                        {
-                            "Id": "WildPlum_Normal",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)406",
-                            "RequiredTags": [
-                                "quality_none"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_ForestPlumSapling",
-                            "Id": "Raffadax.RCP_ForestPlumSapling",
-                            "MinStack": 1,
-                            "MaxStack": 1
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_ForestPlumSapling_Silver": {
-                    "Id": "Raffadax.RCP_SeedMaker_ForestPlumSapling_Silver",
-                    "Triggers": [
-                        {
-                            "Id": "WildPlum_Silver",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)406",
-                            "RequiredTags": [
-                                "quality_silver"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_ForestPlumSapling",
-                            "Id": "Raffadax.RCP_ForestPlumSapling",
-                            "MinStack": 2,
-                            "MaxStack": 2
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_ForestPlumSapling_Gold": {
-                    "Id": "Raffadax.RCP_SeedMaker_ForestPlumSapling_Gold",
-                    "Triggers": [
-                        {
-                            "Id": "WildPlum_Gold",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)406",
-                            "RequiredTags": [
-                                "quality_gold"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_ForestPlumSapling",
-                            "Id": "Raffadax.RCP_ForestPlumSapling",
-                            "MinStack": 3,
-                            "MaxStack": 3
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_ForestPlumSapling_Iridium": {
-                    "Id": "Raffadax.RCP_SeedMaker_ForestPlumSapling_Iridium",
-                    "Triggers": [
-                        {
-                            "Id": "WildPlum_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)406",
-                            "RequiredTags": [
-                                "quality_iridium"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_ForestPlumSapling",
-                            "Id": "Raffadax.RCP_ForestPlumSapling",
                             "MinStack": 4,
                             "MaxStack": 4
                         }
@@ -9889,214 +9473,6 @@
                     "DaysUntilReady": -1,
                     "RecalculateOnCollect": false
                 },
-                "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Normal": {
-                    "Id": "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Normal",
-                    "Triggers": [
-                        {
-                            "Id": "Coconut_Normal",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)88",
-                            "RequiredTags": [
-                                "quality_none"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_IslandCoconutSapling",
-                            "Id": "Raffadax.RCP_IslandCoconutSapling",
-                            "MinStack": 1,
-                            "MaxStack": 1
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Silver": {
-                    "Id": "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Silver",
-                    "Triggers": [
-                        {
-                            "Id": "Coconut_Silver",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)88",
-                            "RequiredTags": [
-                                "quality_silver"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_IslandCoconutSapling",
-                            "Id": "Raffadax.RCP_IslandCoconutSapling",
-                            "MinStack": 2,
-                            "MaxStack": 2
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Gold": {
-                    "Id": "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Gold",
-                    "Triggers": [
-                        {
-                            "Id": "Coconut_Gold",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)88",
-                            "RequiredTags": [
-                                "quality_gold"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_IslandCoconutSapling",
-                            "Id": "Raffadax.RCP_IslandCoconutSapling",
-                            "MinStack": 3,
-                            "MaxStack": 3
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Iridium": {
-                    "Id": "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Iridium",
-                    "Triggers": [
-                        {
-                            "Id": "Coconut_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)88",
-                            "RequiredTags": [
-                                "quality_iridium"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_IslandCoconutSapling",
-                            "Id": "Raffadax.RCP_IslandCoconutSapling",
-                            "MinStack": 4,
-                            "MaxStack": 4
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Normal": {
-                    "Id": "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Normal",
-                    "Triggers": [
-                        {
-                            "Id": "Hazelnut_Normal",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)408",
-                            "RequiredTags": [
-                                "quality_none"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_WildHazelnutSapling",
-                            "Id": "Raffadax.RCP_WildHazelnutSapling",
-                            "MinStack": 1,
-                            "MaxStack": 1
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Silver": {
-                    "Id": "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Silver",
-                    "Triggers": [
-                        {
-                            "Id": "Hazelnut_Silver",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)408",
-                            "RequiredTags": [
-                                "quality_silver"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_WildHazelnutSapling",
-                            "Id": "Raffadax.RCP_WildHazelnutSapling",
-                            "MinStack": 2,
-                            "MaxStack": 2
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Gold": {
-                    "Id": "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Gold",
-                    "Triggers": [
-                        {
-                            "Id": "Hazelnut_Gold",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)408",
-                            "RequiredTags": [
-                                "quality_gold"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_WildHazelnutSapling",
-                            "Id": "Raffadax.RCP_WildHazelnutSapling",
-                            "MinStack": 3,
-                            "MaxStack": 3
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Iridium": {
-                    "Id": "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Iridium",
-                    "Triggers": [
-                        {
-                            "Id": "Hazelnut_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)408",
-                            "RequiredTags": [
-                                "quality_iridium"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_WildHazelnutSapling",
-                            "Id": "Raffadax.RCP_WildHazelnutSapling",
-                            "MinStack": 4,
-                            "MaxStack": 4
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
                 "Raffadax.RCP_SeedMaker_KolaSapling_Normal": {
                     "Id": "Raffadax.RCP_SeedMaker_KolaSapling_Normal",
                     "Triggers": [
@@ -11657,110 +11033,6 @@
                     "DaysUntilReady": -1,
                     "RecalculateOnCollect": false
                 },
-                "Raffadax.RCP_SeedMaker_HollySapling_Normal": {
-                    "Id": "Raffadax.RCP_SeedMaker_HollySapling_Normal",
-                    "Triggers": [
-                        {
-                            "Id": "Holly_Normal",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)283",
-                            "RequiredTags": [
-                                "quality_none"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_HollySapling",
-                            "Id": "Raffadax.RCP_HollySapling",
-                            "MinStack": 1,
-                            "MaxStack": 1
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_HollySapling_Silver": {
-                    "Id": "Raffadax.RCP_SeedMaker_HollySapling_Silver",
-                    "Triggers": [
-                        {
-                            "Id": "Holly_Silver",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)283",
-                            "RequiredTags": [
-                                "quality_silver"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_HollySapling",
-                            "Id": "Raffadax.RCP_HollySapling",
-                            "MinStack": 2,
-                            "MaxStack": 2
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_HollySapling_Gold": {
-                    "Id": "Raffadax.RCP_SeedMaker_HollySapling_Gold",
-                    "Triggers": [
-                        {
-                            "Id": "Holly_Gold",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)283",
-                            "RequiredTags": [
-                                "quality_gold"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_HollySapling",
-                            "Id": "Raffadax.RCP_HollySapling",
-                            "MinStack": 3,
-                            "MaxStack": 3
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_HollySapling_Iridium": {
-                    "Id": "Raffadax.RCP_SeedMaker_HollySapling_Iridium",
-                    "Triggers": [
-                        {
-                            "Id": "Holly_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)283",
-                            "RequiredTags": [
-                                "quality_iridium"
-                            ],
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_HollySapling",
-                            "Id": "Raffadax.RCP_HollySapling",
-                            "MinStack": 4,
-                            "MaxStack": 4
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
                 "Raffadax.RCP_SeedMaker_RainbowEucalyptusSapling_Normal": {
                     "Id": "Raffadax.RCP_SeedMaker_RainbowEucalyptusSapling_Normal",
                     "Triggers": [
@@ -12988,22 +12260,6 @@
                     "BeforeID": "Default"
                 },
                 {
-                    "ID": "Raffadax.RCP_SeedMaker_BlackberrySapling_Normal",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_BlackberrySapling_Silver",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_BlackberrySapling_Gold",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_BlackberrySapling_Iridium",
-                    "BeforeID": "Default"
-                },
-                {
                     "ID": "Raffadax.RCP_SeedMaker_BlackCherrySapling_Normal",
                     "BeforeID": "Default"
                 },
@@ -13113,22 +12369,6 @@
                 },
                 {
                     "ID": "Raffadax.RCP_SeedMaker_CrabappleSapling_Iridium",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Normal",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Silver",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Gold",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_CrystalFruitSapling_Iridium",
                     "BeforeID": "Default"
                 },
                 {
@@ -13868,22 +13108,6 @@
                     "BeforeID": "Default"
                 },
                 {
-                    "ID": "Raffadax.RCP_SeedMaker_SalmonberrySapling_Normal",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_SalmonberrySapling_Silver",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_SalmonberrySapling_Gold",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_SalmonberrySapling_Iridium",
-                    "BeforeID": "Default"
-                },
-                {
                     "ID": "Raffadax.RCP_SeedMaker_SaskatoonSapling_Normal",
                     "BeforeID": "Default"
                 },
@@ -13977,22 +13201,6 @@
                 },
                 {
                     "ID": "Raffadax.RCP_SeedMaker_WhitePeachSapling_Iridium",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_ForestPlumSapling_Normal",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_ForestPlumSapling_Silver",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_ForestPlumSapling_Gold",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_ForestPlumSapling_Iridium",
                     "BeforeID": "Default"
                 },
                 {
@@ -14476,38 +13684,6 @@
                     "BeforeID": "Default"
                 },
                 {
-                    "ID": "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Normal",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Silver",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Gold",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_IslandCoconutSapling_Iridium",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Normal",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Silver",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Gold",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_WildHazelnutSapling_Iridium",
-                    "BeforeID": "Default"
-                },
-                {
                     "ID": "Raffadax.RCP_SeedMaker_KolaSapling_Normal",
                     "BeforeID": "Default"
                 },
@@ -14745,22 +13921,6 @@
                 },
                 {
                     "ID": "Raffadax.RCP_SeedMaker_GinkgoSapling_Iridium",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_HollySapling_Normal",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_HollySapling_Silver",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_HollySapling_Gold",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_HollySapling_Iridium",
                     "BeforeID": "Default"
                 },
                 {
@@ -15063,28 +14223,6 @@
                     "DaysUntilReady": -1,
                     "RecalculateOnCollect": false
                 },
-                "Raffadax.RCP_SeedMaker_BlackberrySapling": {
-                    "Id": "Raffadax.RCP_SeedMaker_BlackberrySapling",
-                    "Triggers": [
-                        {
-                            "Id": "Blackberry_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)410",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_BlackberrySapling",
-                            "Id": "Raffadax.RCP_BlackberrySapling",
-                            "CopyQuality": true
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
                 "Raffadax.RCP_SeedMaker_BlackCherrySapling": {
                     "Id": "Raffadax.RCP_SeedMaker_BlackCherrySapling",
                     "Triggers": [
@@ -15232,28 +14370,6 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_CrabappleSapling",
                             "Id": "Raffadax.RCP_CrabappleSapling",
-                            "CopyQuality": true
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_CrystalFruitSapling": {
-                    "Id": "Raffadax.RCP_SeedMaker_CrystalFruitSapling",
-                    "Triggers": [
-                        {
-                            "Id": "CrystalFruit_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)414",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_CrystalFruitSapling",
-                            "Id": "Raffadax.RCP_CrystalFruitSapling",
                             "CopyQuality": true
                         }
                     ],
@@ -16229,28 +15345,6 @@
                     "DaysUntilReady": -1,
                     "RecalculateOnCollect": false
                 },
-                "Raffadax.RCP_SeedMaker_SalmonberrySapling": {
-                    "Id": "Raffadax.RCP_SeedMaker_SalmonberrySapling",
-                    "Triggers": [
-                        {
-                            "Id": "Salmonberry_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)296",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_SalmonberrySapling",
-                            "Id": "Raffadax.RCP_SalmonberrySapling",
-                            "CopyQuality": true
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
                 "Raffadax.RCP_SeedMaker_SaskatoonSapling": {
                     "Id": "Raffadax.RCP_SeedMaker_SaskatoonSapling",
                     "Triggers": [
@@ -16376,28 +15470,6 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_WhitePeachSapling",
                             "Id": "Raffadax.RCP_WhitePeachSapling",
-                            "CopyQuality": true
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_ForestPlumSapling": {
-                    "Id": "Raffadax.RCP_SeedMaker_ForestPlumSapling",
-                    "Triggers": [
-                        {
-                            "Id": "WildPlum_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)406",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_ForestPlumSapling",
-                            "Id": "Raffadax.RCP_ForestPlumSapling",
                             "CopyQuality": true
                         }
                     ],
@@ -17043,50 +16115,6 @@
                     "DaysUntilReady": -1,
                     "RecalculateOnCollect": false
                 },
-                "Raffadax.RCP_SeedMaker_IslandCoconutSapling": {
-                    "Id": "Raffadax.RCP_SeedMaker_IslandCoconutSapling",
-                    "Triggers": [
-                        {
-                            "Id": "Coconut_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)88",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_IslandCoconutSapling",
-                            "Id": "Raffadax.RCP_IslandCoconutSapling",
-                            "CopyQuality": true
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
-                "Raffadax.RCP_SeedMaker_WildHazelnutSapling": {
-                    "Id": "Raffadax.RCP_SeedMaker_WildHazelnutSapling",
-                    "Triggers": [
-                        {
-                            "Id": "Hazelnut_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)408",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_WildHazelnutSapling",
-                            "Id": "Raffadax.RCP_WildHazelnutSapling",
-                            "CopyQuality": true
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
                 "Raffadax.RCP_SeedMaker_KolaSapling": {
                     "Id": "Raffadax.RCP_SeedMaker_KolaSapling",
                     "Triggers": [
@@ -17417,28 +16445,6 @@
                     "DaysUntilReady": -1,
                     "RecalculateOnCollect": false
                 },
-                "Raffadax.RCP_SeedMaker_HollySapling": {
-                    "Id": "Raffadax.RCP_SeedMaker_HollySapling",
-                    "Triggers": [
-                        {
-                            "Id": "Holly_Iridium",
-                            "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)283",
-                            "RequiredCount": 1
-                        }
-                    ],
-                    "UseFirstValidOutput": false,
-                    "OutputItem": [
-                        {
-                            "ItemId": "(O)Raffadax.RCP_HollySapling",
-                            "Id": "Raffadax.RCP_HollySapling",
-                            "CopyQuality": true
-                        }
-                    ],
-                    "MinutesUntilReady": 20,
-                    "DaysUntilReady": -1,
-                    "RecalculateOnCollect": false
-                },
                 "Raffadax.RCP_SeedMaker_RainbowEucalyptusSapling": {
                     "Id": "Raffadax.RCP_SeedMaker_RainbowEucalyptusSapling",
                     "Triggers": [
@@ -17704,10 +16710,6 @@
                     "BeforeID": "Default"
                 },
                 {
-                    "ID": "Raffadax.RCP_SeedMaker_BlackberrySapling",
-                    "BeforeID": "Default"
-                },
-                {
                     "ID": "Raffadax.RCP_SeedMaker_BlackCherrySapling",
                     "BeforeID": "Default"
                 },
@@ -17733,10 +16735,6 @@
                 },
                 {
                     "ID": "Raffadax.RCP_SeedMaker_CrabappleSapling",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_CrystalFruitSapling",
                     "BeforeID": "Default"
                 },
                 {
@@ -17924,10 +16922,6 @@
                     "BeforeID": "Default"
                 },
                 {
-                    "ID": "Raffadax.RCP_SeedMaker_SalmonberrySapling",
-                    "BeforeID": "Default"
-                },
-                {
                     "ID": "Raffadax.RCP_SeedMaker_SaskatoonSapling",
                     "BeforeID": "Default"
                 },
@@ -17949,10 +16943,6 @@
                 },
                 {
                     "ID": "Raffadax.RCP_SeedMaker_WhitePeachSapling",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_ForestPlumSapling",
                     "BeforeID": "Default"
                 },
                 {
@@ -18076,14 +17066,6 @@
                     "BeforeID": "Default"
                 },
                 {
-                    "ID": "Raffadax.RCP_SeedMaker_IslandCoconutSapling",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_WildHazelnutSapling",
-                    "BeforeID": "Default"
-                },
-                {
                     "ID": "Raffadax.RCP_SeedMaker_KolaSapling",
                     "BeforeID": "Default"
                 },
@@ -18141,10 +17123,6 @@
                 },
                 {
                     "ID": "Raffadax.RCP_SeedMaker_GinkgoSapling",
-                    "BeforeID": "Default"
-                },
-                {
-                    "ID": "Raffadax.RCP_SeedMaker_HollySapling",
                     "BeforeID": "Default"
                 },
                 {
@@ -57968,7 +56946,8 @@
                         {
                             "Id": "OutputCollected",
                             "Trigger": "OutputCollected",
-                            "RequiredCount": 1
+                            "RequiredCount": 1,
+                            "RequiredItemId": "(O)Raffadax.RCP_Onyx"
                         },
                         {
                             "Id": "ItemPlacedInMachine",
@@ -57994,7 +56973,8 @@
                         {
                             "Id": "OutputCollected",
                             "Trigger": "OutputCollected",
-                            "RequiredCount": 1
+                            "RequiredCount": 1,
+                            "RequiredItemId": "(O)Raffadax.RCP_Nahcolite"
                         },
                         {
                             "Id": "ItemPlacedInMachine",
@@ -58020,7 +57000,8 @@
                         {
                             "Id": "OutputCollected",
                             "Trigger": "OutputCollected",
-                            "RequiredCount": 1
+                            "RequiredCount": 1,
+                            "RequiredItemId": "(O)74"
                         },
                         {
                             "Id": "ItemPlacedInMachine",
@@ -58046,7 +57027,8 @@
                         {
                             "Id": "OutputCollected",
                             "Trigger": "OutputCollected",
-                            "RequiredCount": 1
+                            "RequiredCount": 1,
+                            "RequiredItemId": "(O)Raffadax.RCP_Sapphire"
                         },
                         {
                             "Id": "ItemPlacedInMachine",
@@ -58072,7 +57054,8 @@
                         {
                             "Id": "OutputCollected",
                             "Trigger": "OutputCollected",
-                            "RequiredCount": 1
+                            "RequiredCount": 1,
+                            "RequiredItemId": "(O)Raffadax.RCP_RockSalt"
                         },
                         {
                             "Id": "ItemPlacedInMachine",

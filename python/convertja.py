@@ -109,6 +109,7 @@ NAMERE = r"[^a-zA-Z0-9_\.]"
 EXISTINGIDS = []
 
 NEWIDS = pyjson5.load(open("newids.json", encoding="utf-8"))
+FORAGEITEMS = pyjson5.load(open("forageitems.json", encoding="utf-8"))
 
 
 def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
@@ -254,7 +255,7 @@ def buildCrafting(srcDir, modId, vanillaObjects, i18n):
         except Exception:
             print(jf)
             quit()
-        if "Recipe" in objData and objData["Recipe"] and (("Category" in objData and objData["Category"] == "Crafting") or jf.endswith("big-craftable.json")):
+        if "Recipe" in objData and objData["Recipe"] and (("Category" in objData and objData["Category"] != "Cooking" and objData["Category"] != -7) or jf.endswith("big-craftable.json")):
             output = "{}_{} {}".format(modId, objData["Name"].replace(" ", ""), objData["Recipe"]["ResultCount"])
             outName = unidecode(objData["Name"])
             outName = re.sub(NAMERE, "", outName)
@@ -481,6 +482,8 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
             else:
                 newObj.Category = objData["Category"]
                 newObj.Type = CATINDICES[str(objData["Category"])]
+                if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
+                    newObj.Type = "Basic"
                 # print("Non string cat for {}".format(newObj.Name))
         else:
             print("No Category data for {}".format(objData["Name"]))
@@ -510,6 +513,9 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
             contextTags += objData["ContextTags"]
         newObj.ContextTags.append("raffadax_object")
         newObj.ContextTags.append("raffadax_{}_object".format(mode).lower())
+        parsedID = "Raffadax.RCP_{}".format(nameStr)
+        if parsedID in FORAGEITEMS:
+            newObj.ContextTags.append("forage_item")
         if "Recipe" in objData and isinstance(objData["Recipe"], dict) and objData["Recipe"]:
             if objData["Category"] in ["Cooking", "-7"]:
                 newObj.ContextTags.append("raffadax_cooked_object")

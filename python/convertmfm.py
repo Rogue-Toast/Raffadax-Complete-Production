@@ -98,7 +98,7 @@ def convertMail():
                     npc = "{{{{{}}}}}".format(fc["NpcName"])
                 else:
                     npc = fc["NpcName"]
-                cs = "PLAYER_FRIENDSHIP_POINTS Current {} {}".format(npc, (fc["FriendshipLevel"] * 250) + 2)
+                cs = "PLAYER_HEARTS Current {} {}".format(npc, fc["FriendshipLevel"])
                 cStrings.append(cs)
             tEntry["Condition"] = ", ".join(cStrings)
             tchangeNode["Entries"][triggerID] = tEntry

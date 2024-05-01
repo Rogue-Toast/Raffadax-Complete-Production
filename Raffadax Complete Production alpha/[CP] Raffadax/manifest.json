@@ -1,10 +1,11 @@
 {
     "Name": "Raffadax 1.6 alpha test",
     "Author": "Raffadax",
-    "Version": "5.0.0-alpha.02",
+    "Version": "5.0.0-alpha.03",
     "Description": "A massive expansion mod that adds thousands of items to the game.",
     "UniqueID": "Raffadax.RCP",
     "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Github:Rogue-Toast/RCP-Alpha"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher",
         },
