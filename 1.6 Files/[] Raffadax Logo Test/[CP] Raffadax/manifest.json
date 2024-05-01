@@ -23,7 +23,11 @@
         },
         {
             "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-            "IsRequired": "False"
+            "IsRequired": false,
+        },
+        {
+            "UniqueID": "ZoeDoll.NPCAlecto",
+            "IsRequired": false
         }
     ]
 }

@@ -325,7 +325,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
                             "IgnoreShopPriceModifiers": true
                         },
                         {
@@ -795,7 +795,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
                             "IgnoreShopPriceModifiers": true
                         },
                         {
@@ -1257,7 +1257,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
                             "IgnoreShopPriceModifiers": true
                         },
                         {
@@ -2250,7 +2250,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
                             "IgnoreShopPriceModifiers": true
                         },
                         {
@@ -2718,7 +2718,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Xolotl}} 10"
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10"
                         },
                         {
                             "RandomItemId": [
@@ -3171,7 +3171,7 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
                             "Price": 50000,
                             "IgnoreShopPriceModifiers": true
                         },
@@ -4720,7 +4720,7 @@
                         "(O)Raffadax.RCP_Pixie",
                         "(O)Raffadax.RCP_RootBeer",
                         "(O)Raffadax.RCP_SakuraSoda",
-                        "(O)Raffadax.RCP_Sarsaparilla",
+                        "(O)Raffadax.RCP_SarsaparillaSoda",
                         "(O)Raffadax.RCP_Seltzer",
                         "(O)Raffadax.RCP_SourAppleSoda",
                         "(O)Raffadax.RCP_SpruceBeer",
@@ -4824,7 +4824,7 @@
                         "(O)Raffadax.RCP_Porter",
                         "(O)Raffadax.RCP_RedAle",
                         "(O)Raffadax.RCP_RedWine",
-                        "(O)Raffadax.RCP_Rose",
+                        "(O)Raffadax.RCP_Rosee",
                         "(O)Raffadax.RCP_RowanberrySour",
                         "(O)Raffadax.RCP_Sake",
                         "(O)Raffadax.RCP_Schwarzbier",
@@ -4832,7 +4832,7 @@
                         "(O)Raffadax.RCP_SourAle",
                         "(O)Raffadax.RCP_SparklingCider",
                         "(O)Raffadax.RCP_Stout",
-                        "(O)Raffadax.RCP_Waldmeister",
+                        "(O)Raffadax.RCP_WaldmeisterBeer",
                         "(O)Raffadax.RCP_WheatBeer",
                         "(O)Raffadax.RCP_WhiteWine"
                     ],
@@ -5247,7 +5247,7 @@
                 },
                 "Raffadax.RCP_RandomNode_6": {
                     "RandomItemId": [
-                        "(O)Raffadax.RCP_Allspice",
+                        "(O)Raffadax.RCP_PackedAllspice",
                         "(O)Raffadax.RCP_Amchoor",
                         "(O)Raffadax.RCP_Anardana",
                         "(O)Raffadax.RCP_AniseStars",
@@ -5272,7 +5272,7 @@
                         "(O)Raffadax.RCP_CurryLeaves",
                         "(O)Raffadax.RCP_DillWeed",
                         "(O)Raffadax.RCP_DillSeed",
-                        "(O)Raffadax.RCP_FennelPollen",
+                        "(O)Raffadax.RCP_PackedFennelPollen",
                         "(O)Raffadax.RCP_FennelSeed",
                         "(O)Raffadax.RCP_FenugreekLeaves",
                         "(O)Raffadax.RCP_FenugreekSeed",
@@ -5288,7 +5288,7 @@
                         "(O)Raffadax.RCP_GroundWhitePepper",
                         "(O)Raffadax.RCP_KalaNamak",
                         "(O)Raffadax.RCP_Kalpasi",
-                        "(O)Raffadax.RCP_Mace",
+                        "(O)Raffadax.RCP_PackedMace",
                         "(O)Raffadax.RCP_MarjoramLeaves",
                         "(O)Raffadax.RCP_MincedGarlic",
                         "(O)Raffadax.RCP_MincedOnion",
@@ -5300,7 +5300,7 @@
                         "(O)Raffadax.RCP_RedChiliPowder",
                         "(O)Raffadax.RCP_RedPepperFlakes",
                         "(O)Raffadax.RCP_RosemaryNeedles",
-                        "(O)Raffadax.RCP_Saffron",
+                        "(O)Raffadax.RCP_PackedSaffron",
                         "(O)Raffadax.RCP_SageLeaves",
                         "(O)Raffadax.RCP_SavoryLeaves",
                         "(O)Raffadax.RCP_SeaweedFlakes",
@@ -5907,7 +5907,7 @@
                 },
                 "Raffadax.RCP_RandomNode_6": {
                     "RandomItemId": [
-                        "(O)Raffadax.RCP_Allspice",
+                        "(O)Raffadax.RCP_PackedAllspice",
                         "(O)Raffadax.RCP_Amchoor",
                         "(O)Raffadax.RCP_Anardana",
                         "(O)Raffadax.RCP_AniseStars",
@@ -5932,7 +5932,7 @@
                         "(O)Raffadax.RCP_CurryLeaves",
                         "(O)Raffadax.RCP_DillWeed",
                         "(O)Raffadax.RCP_DillSeed",
-                        "(O)Raffadax.RCP_FennelPollen",
+                        "(O)Raffadax.RCP_PackedFennelPollen",
                         "(O)Raffadax.RCP_FennelSeed",
                         "(O)Raffadax.RCP_FenugreekLeaves",
                         "(O)Raffadax.RCP_FenugreekSeed",
@@ -5948,7 +5948,7 @@
                         "(O)Raffadax.RCP_GroundWhitePepper",
                         "(O)Raffadax.RCP_KalaNamak",
                         "(O)Raffadax.RCP_Kalpasi",
-                        "(O)Raffadax.RCP_Mace",
+                        "(O)Raffadax.RCP_PackedMace",
                         "(O)Raffadax.RCP_MarjoramLeaves",
                         "(O)Raffadax.RCP_MincedGarlic",
                         "(O)Raffadax.RCP_MincedOnion",
@@ -5960,7 +5960,7 @@
                         "(O)Raffadax.RCP_RedChiliPowder",
                         "(O)Raffadax.RCP_RedPepperFlakes",
                         "(O)Raffadax.RCP_RosemaryNeedles",
-                        "(O)Raffadax.RCP_Saffron",
+                        "(O)Raffadax.RCP_PackedSaffron",
                         "(O)Raffadax.RCP_SageLeaves",
                         "(O)Raffadax.RCP_SavoryLeaves",
                         "(O)Raffadax.RCP_SeaweedFlakes",
@@ -6114,7 +6114,7 @@
                         "(O)Raffadax.RCP_ChildhoodsEnd",
                         "(O)Raffadax.RCP_CobaltKodiak",
                         "(O)Raffadax.RCP_CocoCabana",
-                        "(O)Raffadax.RCP_CocodeMer",
+                        "(O)Raffadax.RCP_CocoDeMerFragrance",
                         "(O)Raffadax.RCP_ComfortablyNumb",
                         "(O)Raffadax.RCP_CountryGarden",
                         "(O)Raffadax.RCP_CountryMorning",
@@ -6402,7 +6402,7 @@
                         "(O)Raffadax.RCP_Nigella",
                         "(O)Raffadax.RCP_NinoBananas",
                         "(O)Raffadax.RCP_Nopal",
-                        "(O)Raffadax.RCP_Nutmeg",
+                        "(O)Raffadax.RCP_NutmegSeed",
                         "(O)Raffadax.RCP_Okra",
                         "(O)Raffadax.RCP_Olive",
                         "(O)Raffadax.RCP_OpuntiaFlower",

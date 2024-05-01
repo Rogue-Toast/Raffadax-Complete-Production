@@ -158,13 +158,14 @@ def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
         idxIncrement = 1
         if "ReserveExtraIndexCount" in objData:
             frameCount = objData["ReserveExtraIndexCount"]
-            idxIncrement = frameCount
+            idxIncrement += frameCount
         spritename = jf[0:-5] + ".png"
         spriteFiles[spritename] = bo.SpriteIndex
         if idxIncrement > 1:
             for j in range(1, frameCount + 1):
                 frameName = "{}-{}.png".format(jf[0:-5], j + 1)
                 spriteFiles[frameName] = bo.SpriteIndex + j
+        # pprint.pprint(spriteFiles)
         bo.ContextTags.append("raffadax_bigcraftable")
         if "Recipe" in objData and objData["Recipe"] and isinstance(objData["Recipe"], dict):
             bo.ContextTags.append("raffadax_crafted_bigcraftable")
@@ -337,6 +338,7 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
         seedObj.SpriteIndex = i
         seedObj.ContextTags.append("raffadax_seeds_object")
         seedObj.ContextTags.append("raffadax_object")
+        seedObj.Edibility = -300
         spritename = jf.rsplit("/", 1)[0] + "/seeds.png"
         if "SeedNameLocalization" in data:
             for langKey, langStr in data["NameLocalization"]:
@@ -354,6 +356,8 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
         # crop object
         cropObj = Crop()
         cropObj.Seasons = data["Seasons"]
+        if not cropObj.Seasons:
+            cropObj.Seasons = ["Spring", "Summer", "Fall", "Winter"]
         cropObj.DaysInPhase = data["Phases"]
         cropName = unidecode(data["Product"])
         cropName = re.sub(NAMERE, "", cropName)
@@ -386,9 +390,12 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
             if data["CropType"] == "Paddy":
                 cropObj.IsPaddyCrop = True
             if data["CropType"] == "IndoorsOnly":
-                newRule = {"Id": "{}_Rule".format(seedObj.Name),
+                newRule = {"Id": "IndoorsOnly",
+                           "Condition": "LOCATION_IS_OUTDOORS Here",
+                           "PlantedIn": "Any",
                            "Result": "Deny",
-                           "Condition": "LOCATION_IS_OUTDOORS Here"}
+                           "DeniedMessage": "{{{{i18n:{}.IndoorsOnly}}}}.".format(nameStr)}
+                i18n["en"]["{}.IndoorsOnly".format(nameStr)] = "{} can only be planted indoors.".format(data["SeedName"])
                 cropObj.PlantableLocationRules.append(newRule)
         newCrops["Entries"][seedObj.Name] = cropObj.to_dict()
         filepath = jf.rsplit("/", 1)[0]
@@ -473,12 +480,16 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                         newObj.Type = CATINDICES[str(objData["Category"])]
                     else:
                         print("No Cat found for {}".format(objData["Category"]))
+                    if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
+                        newObj.Type = "Basic"
                 else:
                     newObj.Type = objData["Category"]
                     if newObj.Type in CATEGORIES:
                         newObj.Category = CATEGORIES[newObj.Type]
                     else:
                         print("No Cat found for {}".format(newObj.Type))
+                    if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
+                        newObj.Type = "Basic"
             else:
                 newObj.Category = objData["Category"]
                 newObj.Type = CATINDICES[str(objData["Category"])]
@@ -707,6 +718,7 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, vanillaObjects, s
         saplingObj.SpriteIndex = i
         saplingObj.ContextTags.append("raffadax_sapling_object")
         saplingObj.ContextTags.append("raffadax_object")
+        saplingObj.Edibility = -300
         spritename = jf.rsplit("/", 1)[0] + "/sapling.png"
         if "SaplingNameLocalization" in data:
             for langKey, langStr in data["NameLocalization"]:
@@ -724,7 +736,7 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, vanillaObjects, s
         # tree object
         newTree = FruitTree()
         newTree.DisplayName = "{{{{i18n:{}.TreeName}}}}".format(nameStr)
-        i18n["en"]["{}.TreeName"] = data["Name"]
+        i18n["en"]["{}.TreeName".format(nameStr)] = data["Name"]
         newTree.Seasons = [data["Season"]]
         fruitName = re.sub(NAMERE, "", data["Product"])
         if data["Product"] in vanillaObjects:
