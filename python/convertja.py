@@ -68,7 +68,7 @@ MODNPCS = {
     # "Puck": "Raffadax.NPCs",
     # "Shuck": "Raffadax.NPCs",
     # "Xolotl": "Raffadax.NPCs",
-    "Beatrice": "attonbomb.Beatrice",
+    "Beatrice": "Lemurkat.EastScarpNPCs.CP",
     "Marlon": "FlashShifter.StardewValleyExpandedCP",
     "Olivia": "FlashShifter.StardewValleyExpandedCP",
     "Susan": "FlashShifter.StardewValleyExpandedCP",
@@ -85,8 +85,8 @@ MODNPCS = {
     "Sheila": "CPBoardingHouse",
     "Hekate": "Tarniyar.NPC.GV.mod",
     "Hephaestus": "Tarniyar.NPC.GV.mod",
-    "Jacob": "Lemurkat.JacobEloise.CP",
-    "Eloise": "Lemurkat.JacobEloise.CP",
+    "Jacob": "Lemurkat.EastScarpNPCs.CP",
+    "Eloise": "Lemurkat.EastScarpNPCs.CP",
     "Madam": "FishingIslandNPC",
     "Jade": "malic.cp.jadeNPC",
     "Alecto": "ZoeDoll.NPCAlecto",
@@ -176,7 +176,7 @@ def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
             for langKey, langStr in objData["NameLocalization"]:
                 if langKey not in i18n:
                     i18n[langKey] = {}
-                i18n[langKey]["{}.Displayname".format(nameStr)] = langStr
+                i18n[langKey]["{}.DisplayName".format(nameStr)] = langStr
         if "DescriptionLocalization" in objData:
             for langKey, langStr in objData["DescriptionLocalization"]:
                 if langKey not in i18n:
@@ -325,8 +325,8 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
         else:
             print("{} from '{}' in Crops already exists.".format(itemID, data["Name"]))
         seedObj.Name = itemID
-        i18n["en"]["{}.Displayname".format(nameStr)] = data["SeedName"]
-        seedObj.DisplayName = "{{{{i18n: {}.Displayname}}}}".format(nameStr)
+        i18n["en"]["{}.DisplayName".format(nameStr)] = data["SeedName"]
+        seedObj.DisplayName = "{{{{i18n: {}.DisplayName}}}}".format(nameStr)
         # build the description.
         i18n["en"]["{}.Description".format(nameStr)] = data["SeedDescription"]
         seedObj.Description = "{{{{i18n: {}.Description}}}}".format(nameStr)
@@ -344,7 +344,7 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
             for langKey, langStr in data["NameLocalization"]:
                 if langKey not in i18n:
                     i18n[langKey] = {}
-                i18n[langKey]["{}.Displayname".format(nameStr)] = langStr
+                i18n[langKey]["{}.DisplayName".format(nameStr)] = langStr
         if "SeedDescriptionLocalization" in data:
             for langKey, langStr in data["DescriptionLocalization"]:
                 if langKey not in i18n:
@@ -539,7 +539,7 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
             for langKey, langStr in objData["NameLocalization"]:
                 if langKey not in i18n:
                     i18n[langKey] = {}
-                i18n[langKey]["{}.Displayname".format(nameStr)] = langStr
+                i18n[langKey]["{}.DisplayName".format(nameStr)] = langStr
         if "DescriptionLocalization" in objData:
             for langKey, langStr in objData["DescriptionLocalization"]:
                 if langKey not in i18n:
@@ -705,8 +705,8 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, vanillaObjects, s
         else:
             print("{} from '{}' in Trees already exists.".format(itemID, data["Name"]))
         saplingObj.Name = itemID
-        i18n["en"]["{}.Displayname".format(nameStr)] = data["SaplingName"]
-        saplingObj.Displayname = "{{{{i18n:{}.Displayname}}}}".format(nameStr)
+        i18n["en"]["{}.DisplayName".format(nameStr)] = data["SaplingName"]
+        saplingObj.DisplayName = "{{{{i18n:{}.DisplayName}}}}".format(nameStr)
         # build the description.
         i18n["en"]["{}.Description".format(nameStr)] = data["SaplingDescription"]
         saplingObj.Description = "{{{{i18n:{}.Description}}}}".format(nameStr)
@@ -724,7 +724,7 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, vanillaObjects, s
             for langKey, langStr in data["NameLocalization"]:
                 if langKey not in i18n:
                     i18n[langKey] = {}
-                i18n[langKey]["{}.Displayname".format(nameStr)] = langStr
+                i18n[langKey]["{}.DisplayName".format(nameStr)] = langStr
         if "SaplingDescriptionLocalization" in data:
             for langKey, langStr in data["DescriptionLocalization"]:
                 if langKey not in i18n:
@@ -778,8 +778,8 @@ def buildWeapons(srcDir, modId, spritesheet, i18n):
         nameStr = unidecode(data["Name"])
         nameStr = re.sub(NAMERE, "", nameStr)
         newMW.Name = "{}_{}".format(modId, nameStr)
-        i18n["en"]["{}.Displayname".format(nameStr)] = data["Name"]
-        newMW.DisplayName = "{{{{i18n:{}.Displayname}}}}".format(nameStr)
+        i18n["en"]["{}.DisplayName".format(nameStr)] = data["Name"]
+        newMW.DisplayName = "{{{{i18n:{}.DisplayName}}}}".format(nameStr)
         i18n["en"]["{}.Description".format(nameStr)] = data["Description"]
         newMW.Description = "{{{{i18n:{}.Description}}}}".format(nameStr)
         newMW.Type = weaponTypes[data["Type"]]

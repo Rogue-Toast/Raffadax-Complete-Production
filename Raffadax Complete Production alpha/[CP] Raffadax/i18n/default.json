@@ -422,8 +422,6 @@
     "YellowCarrot.Description": "A rainbow carrot that has a bright yellow color. Yellow carrots have a sweeter, milder flavor than other varieties.",
     "Zucchini.DisplayName": "Zucchini",
     "Zucchini.Description": "A vining squash with an earthy, mildly bitter-sweet flavor.",
-
-	//Crops.json - Seeds and starters
     "AdzukiBeanStarter.DisplayName": "Adzuki Bean Starter",
     "AdzukiBeanStarter.Description": "A trellised crop which produces light brown seed pods containing sweet, red beans. Matures in 10 days, and continues to produce every four days after. Plant in the spring or summer.",
     "AloePod.DisplayName": "Aloe Pod",
@@ -1040,8 +1038,6 @@
     "Yateveo.Description": "A highly peculiar fruit from a legendary carnivorous plant. The taste of this fruit is said to be delectable beyond compare, and the fruit is known to have a highly intoxicating effect. Those who eat it to become drowsy and clumsy, often falling victim to the Yateveo flower when they reach for a second piece of fruit.",
     "Zaminkand.DisplayName": "Zaminkand",
     "Zaminkand.Description": "A toxic fruit which grew on the stalk of a corpse flower.  It can be processed into a variety of items, none of which are safe for human consumption. Zaminkand have a foul stench like rotting flesh, which will attract polinators if left near the flower.",
-
-	//Trees.json - Tree Saplings
     "AcaiSapling.DisplayName": "Acai Sapling",
     "AcaiSapling.Description": "A palm tree that produces nutritious purple berries. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Bears fruit in the summer.",
     "AcaiSapling.TreeName": "Acai Palm",
@@ -1519,8 +1515,6 @@
     "YggdrasilSapling.DisplayName": "Yggdrasil Sapling",
     "YggdrasilSapling.Description": "A shoot from the World Tree, Yggdrasil; its roots will continue to grow until they connect to those of its parent tree deep within the earth. Takes 28 days to mature. Only grows if the 8 surrounding tiles are empty. Produces radiant Bifrost flowers in the spring.",
     "YggdrasilSapling.TreeName": "Yggdrasil",
-
-	//Weapons.json - Weapons
     "Airgetlam.DisplayName": "Airgetlám",
     "Airgetlam.Description": "The gleaming, silver arm of an ancient king. It shines with the enigmatic power of the Tuatha Dé Danann.",
     "AntlerofCernunnos.DisplayName": "Antler of Cernunnos",
@@ -6742,6 +6736,8 @@
     "LarahaOrangeZest.Description": "A bitter green citrus zest made from the rind of Laraha oranges. It is traditionally mixed with dye and distilled to make Blue Curacao liqueur.",
     "LastDance.DisplayName": "Last Dance",
     "LastDance.Description": "A perfume made from the extract of cannabis leaves. It has an earthy, woody, herbal fragrance.",
+
+	//NPCS - COYOTE
     "LaughingCoyote.DisplayName": "Laughing Coyote",
     "LaughingCoyote.Description": "A wine invented by the trixter, Coyote, that is made from the fruit of a divine, man-eating flower. It is said that those who drink this wine attain great knowledge, but are too overcome with laughter to do anything with it.",
     "LavenderBalsam.DisplayName": "Lavender Balsam",
@@ -8336,6 +8332,7 @@
     "PickleJuice.Description": "Sour, refreshing juice made from dill pickles. It can be used as a component in cold pasta salads, deviled eggs, and sandwich salads.",
     "PickledAcorns.DisplayName": "Pickled Acorns",
     "PickledAcorns.Description": "Crushed acorns pickled with fragrant spices. They can be chopped and added to dressings and baked goods, and make an excellent addition to cheese and charcuterie boards.",
+	//crops.json - Crops
     "PickledAdzukiBeans.DisplayName": "Pickled Adzuki Beans",
     "PickledAdzukiBeans.Description": "Whole adzuki beans pickled in a brine solution.",
     "PickledAgave.DisplayName": "Pickled Agave",

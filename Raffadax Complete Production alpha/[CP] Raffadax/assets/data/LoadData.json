@@ -47,54 +47,6 @@
             "Action": "Load",
             "Target": "Mods/{{ModId}}/BigObjects/Artisan",
             "FromFile": "assets/textures/artisanmachines.png"
-        },
-        {
-            "LogName": "Raffadax Mail Backgrounds",
-            "Action": "Load",
-            "Target": "Mods/{{ModId}}/MailBackgrounds/AmanraBG",
-            "FromFile": "assets/textures/Mail/AmanraBG.png"
-        },
-        {
-            "LogName": "Raffadax Mail Backgrounds",
-            "Action": "Load",
-            "Target": "Mods/{{ModId}}/MailBackgrounds/AstridBG",
-            "FromFile": "assets/textures/Mail/AstridBG.png"
-        },
-        {
-            "LogName": "Raffadax Mail Backgrounds",
-            "Action": "Load",
-            "Target": "Mods/{{ModId}}/MailBackgrounds/CoyoteBG",
-            "FromFile": "assets/textures/Mail/CoyoteBG.png"
-        },
-        {
-            "LogName": "Raffadax Mail Backgrounds",
-            "Action": "Load",
-            "Target": "Mods/{{ModId}}/MailBackgrounds/MephistoBG",
-            "FromFile": "assets/textures/Mail/MephistoBG.png"
-        },
-        {
-            "LogName": "Raffadax Mail Backgrounds",
-            "Action": "Load",
-            "Target": "Mods/{{ModId}}/MailBackgrounds/PuckBG",
-            "FromFile": "assets/textures/Mail/PuckBG.png"
-        },
-        {
-            "LogName": "Raffadax Mail Backgrounds",
-            "Action": "Load",
-            "Target": "Mods/{{ModId}}/MailBackgrounds/ShuckBG",
-            "FromFile": "assets/textures/Mail/ShuckBG.png"
-        },
-        {
-            "LogName": "Raffadax Mail Backgrounds",
-            "Action": "Load",
-            "Target": "Mods/{{ModId}}/MailBackgrounds/XolotlBG",
-            "FromFile": "assets/textures/Mail/XolotlBG.png"
-        },
-        {
-            "LogName": "Raffadax Mail Backgrounds",
-            "Action": "Load",
-            "Target": "Mods/{{ModId}}/MailBackgrounds/AllBG",
-            "FromFile": "assets/textures/Mail/AllBG.png"
         }
     ]
 }

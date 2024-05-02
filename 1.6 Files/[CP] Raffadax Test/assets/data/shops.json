@@ -69,7 +69,7 @@
                                 "(O)Raffadax.RCP_Mace",
                                 "(O)Raffadax.RCP_MarconaAlmond",
                                 "(O)Raffadax.RCP_Myristica",
-                                "(O)Raffadax.RCP_Nutmeg",
+                                "(O)Raffadax.RCP_NutmegSeed",
                                 "(O)Raffadax.RCP_Olive",
                                 "(O)Raffadax.RCP_Osmanthus",
                                 "(O)Raffadax.RCP_PimentoBerry",
@@ -325,7 +325,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
                             "IgnoreShopPriceModifiers": true
                         },
                         {
@@ -795,7 +795,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
                             "IgnoreShopPriceModifiers": true
                         },
                         {
@@ -1257,7 +1257,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
                             "IgnoreShopPriceModifiers": true
                         },
                         {
@@ -2250,7 +2250,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
                             "IgnoreShopPriceModifiers": true
                         },
                         {
@@ -2718,7 +2718,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10"
+                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10"
                         },
                         {
                             "RandomItemId": [
@@ -3171,7 +3171,7 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
                             "Price": 50000,
                             "IgnoreShopPriceModifiers": true
                         },
