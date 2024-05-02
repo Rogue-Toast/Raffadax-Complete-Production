@@ -32,7 +32,7 @@
             "CropName": "Raffadax.RCP_BlackStoneFlower",
             "HarvestRules": [
                 {
-                    "ItemName": "404",
+                    "ItemName": "Common Mushroom",
                     "minHarvest": -25,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -331,7 +331,7 @@
             "CropName": "Raffadax.RCP_FernFlower",
             "HarvestRules": [
                 {
-                    "ItemName": "259",
+                    "ItemName": "Fiddlehead Fern",
                     "minHarvest": 1,
                     "maxHarvest": 5,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -342,13 +342,13 @@
             "CropName": "Raffadax.RCP_GemCap",
             "HarvestRules": [
                 {
-                    "ItemName": "60",
+                    "ItemName": "Emerald",
                     "minHarvest": -3,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "64",
+                    "ItemName": "Ruby",
                     "minHarvest": -3,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -360,55 +360,55 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "66",
+                    "ItemName": "Amethyst",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "62",
+                    "ItemName": "Aquamarine",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "565",
+                    "ItemName": "Fire Opal",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "70",
+                    "ItemName": "Jade",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "564",
+                    "ItemName": "Opal",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "562",
+                    "ItemName": "Tigerseye",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "68",
+                    "ItemName": "Topaz",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "72",
+                    "ItemName": "Diamond",
                     "minHarvest": -10,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "74",
+                    "ItemName": "Prismatic Shard",
                     "minHarvest": -50,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -454,13 +454,13 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "60",
+                    "ItemName": "Emerald",
                     "minHarvest": 2,
                     "maxHarvest": 5,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "64",
+                    "ItemName": "Ruby",
                     "minHarvest": 2,
                     "maxHarvest": 5,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -478,55 +478,55 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "72",
+                    "ItemName": "Diamond",
                     "minHarvest": 1,
                     "maxHarvest": 3,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "797",
+                    "ItemName": "Pearl",
                     "minHarvest": 2,
                     "maxHarvest": 3,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "66",
+                    "ItemName": "Amethyst",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "62",
+                    "ItemName": "Aquamarine",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "565",
+                    "ItemName": "Fire Opal",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "70",
+                    "ItemName": "Jade",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "564",
+                    "ItemName": "Opal",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "562",
+                    "ItemName": "Tigerseye",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "68",
+                    "ItemName": "Topaz",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -538,7 +538,7 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "848",
+                    "ItemName": "Cinder Shard",
                     "minHarvest": -3,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -550,7 +550,7 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "104",
+                    "ItemName": "Elvish Jewelry",
                     "minHarvest": 0,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -568,13 +568,13 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "124",
+                    "ItemName": "Golden Mask",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "125",
+                    "ItemName": "Golden Relic",
                     "minHarvest": -7,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -604,7 +604,7 @@
                     "maxHarvestIncreasePerFarmingLevel": 0.0
                 },
                 {
-                    "ItemName": "74",
+                    "ItemName": "Prismatic Shard",
                     "minHarvest": -9,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -787,7 +787,7 @@
             "CropName": "Poppy",
             "HarvestRules": [
                 {
-                    "ItemName": "453",
+                    "ItemName": "Poppy Seeds",
                     "minHarvest": -1,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0
@@ -1222,7 +1222,7 @@
             "CropName": "Raffadax.RCP_WhiteTeaLeaf",
             "HarvestRules": [
                 {
-                    "ItemName": "815",
+                    "ItemName": "Tea Leaves",
                     "minHarvest": -10,
                     "maxHarvest": 1,
                     "maxHarvestIncreasePerFarmingLevel": 0.0

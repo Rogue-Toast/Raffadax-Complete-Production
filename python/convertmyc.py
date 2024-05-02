@@ -32,8 +32,7 @@ if __name__ == "__main__":
                     hnameStr = unidecode(hr["ItemName"])
                     hnameStr = re.sub(NAMERE, "", hnameStr)
                 hr["ItemName"] = "{}_{}".format(MODNAME, hnameStr)
-            else:
-                hr["ItemName"] = vanillaData[hr["ItemName"]]
+            # no conversion of vanilla items reqd
         outList.append(outRule)
     outDict = {"Harvests": outList}
     outJson = json.dumps(outDict, indent=4)
