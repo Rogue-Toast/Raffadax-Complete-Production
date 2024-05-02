@@ -11,6 +11,7 @@ from classes import Shop, Inventory
 STFPATH = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/NPCs - deprecated/[STF] Raffadax Shops/shops.json"
 OUTPATH = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/data/Shops.json"
 PORTRAITPATH = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/textures/shopportraits.json"
+NEWIDS = pyjson5.load(open("newids.json", encoding="utf-8"))
 NAMERE = r"[^a-zA-Z0-9_\.]"
 CATEGORIES = {"-5": "category_egg",
               "-9": "category_big_craftable",
@@ -301,6 +302,8 @@ def translateName(instr: str):
         return vanillaBC[instr]
     elif isinstance(instr, int) or instr.isnumeric() or instr[1:].isnumeric():
         return instr
+    elif instr in NEWIDS:
+        return "Raffadax.RCP_{}".format(re.sub(NAMERE, "", NEWIDS[instr]))
     else:
         newStr = unidecode(instr)
         out = "Raffadax.RCP_{}".format(re.sub(NAMERE, "", newStr))

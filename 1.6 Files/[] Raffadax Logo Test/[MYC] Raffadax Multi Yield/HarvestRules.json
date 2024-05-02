@@ -237,7 +237,7 @@
             ]
         },
         {
-            "CropName": "Raffadax.RCP_CuminFlower",
+            "CropName": "Raffadax.RCP_Nigella",
             "HarvestRules": [
                 {
                     "ItemName": "Raffadax.RCP_BlackCuminSeeds",
@@ -670,7 +670,7 @@
             "CropName": "Hot Pepper",
             "HarvestRules": [
                 {
-                    "ItemName": "Raffadax.RCP_JalapenoPepper",
+                    "ItemName": "Raffadax.RCP_JalapeAoPepper",
                     "minHarvest": -2,
                     "maxHarvest": 2,
                     "maxHarvestIncreasePerFarmingLevel": 0.0

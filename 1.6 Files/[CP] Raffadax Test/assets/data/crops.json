@@ -1878,7 +1878,12 @@
                     "HarvestMaxStack": 1
                 },
                 "{{ModId}}_PricklyPearCactusStarter": {
-                    "Seasons": null,
+                    "Seasons": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter"
+                    ],
                     "DaysInPhase": [
                         1,
                         4,
@@ -1898,9 +1903,11 @@
                     "ExtraHarvestChance": 0.1,
                     "PlantableLocationRules": [
                         {
-                            "Id": "{{ModId}}_PricklyPearCactusStarter_Rule",
+                            "Id": "IndoorsOnly",
+                            "Condition": "LOCATION_IS_OUTDOORS Here",
+                            "PlantedIn": "Any",
                             "Result": "Deny",
-                            "Condition": "LOCATION_IS_OUTDOORS Here"
+                            "DeniedMessage": "{{i18n:PricklyPearCactusStarter.IndoorsOnly}}."
                         }
                     ]
                 },
@@ -3234,7 +3241,12 @@
                     "ExtraHarvestChance": 0.3
                 },
                 "{{ModId}}_XoconostleCactusStarter": {
-                    "Seasons": null,
+                    "Seasons": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter"
+                    ],
                     "DaysInPhase": [
                         1,
                         5,
@@ -3254,9 +3266,11 @@
                     "ExtraHarvestChance": 0.1,
                     "PlantableLocationRules": [
                         {
-                            "Id": "{{ModId}}_XoconostleCactusStarter_Rule",
+                            "Id": "IndoorsOnly",
+                            "Condition": "LOCATION_IS_OUTDOORS Here",
+                            "PlantedIn": "Any",
                             "Result": "Deny",
-                            "Condition": "LOCATION_IS_OUTDOORS Here"
+                            "DeniedMessage": "{{i18n:XoconostleCactusStarter.IndoorsOnly}}."
                         }
                     ]
                 },
