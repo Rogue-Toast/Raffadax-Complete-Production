@@ -54,7 +54,7 @@
 						{
 							"Id": "Default",
 							"Location": "Woods",
-							"Tile": { "X": 26, "Y": 6 },
+							"Tile": { "X": 27, "Y": 7 },
 							"Direction": "down",
 							"When": {
 								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true

@@ -43,8 +43,24 @@
 							"Location": "Mountain",
 							"Tile": { "X": 113, "Y": 11 },
 							"Direction": "down",
+							"When": {
+								"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
+							}
 						}
-					]
+					],
+
+	// Home - More Lively Quarry Compat
+				"Home": [
+						{
+							"Id": "MLQ",
+							"Location": "Mountain",
+							"Tile": { "X": 111, "Y": 13 },
+							"Direction": "down",
+							"When": {
+								"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
+							}
+						}
+					],
 				}
 			}
 		},

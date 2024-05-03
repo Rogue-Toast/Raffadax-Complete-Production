@@ -357,7 +357,8 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP",
+                "HasSeenEvent |contains=7775927": true
             }
         },
         {
@@ -1377,7 +1378,8 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP",
+                "HasSeenEvent |contains=7775927": true
             }
         },
         {
@@ -1437,7 +1439,8 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP",
+                "HasSeenEvent |contains=7775927": true
             }
         },
         {
@@ -2917,7 +2920,8 @@
                 }
             ],
             "When": {
-                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+                "HasMod": "FlashShifter.StardewValleyExpandedCP",
+                "HasSeenEvent |contains=7775927": true
             }
         },
         {
