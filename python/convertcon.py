@@ -105,7 +105,7 @@ def convertCon(fileIn: str):
             on.CountTowards = "OtherGems"
         for olr in node["oreLevelRanges"]:
             if olr["maxLevel"] > 249:
-                maxLevel = "-999"
+                maxLevel = "77376, 77378/-999"
             else:
                 maxLevel = olr["maxLevel"]
             originalFreq = int((olr["spawnChanceMult"] * node["spawnChance"]) * 1000) / 1000
