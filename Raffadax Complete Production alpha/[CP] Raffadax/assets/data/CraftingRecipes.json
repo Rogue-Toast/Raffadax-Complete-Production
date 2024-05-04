@@ -42,7 +42,9 @@
                 "{{ModId}}_SeaMonsterScarecrow": "{{ModId}}_ScaleCloth 1 {{ModId}}_LeviathanScale 1 {{ModId}}_DragonsBreath 1 {{ModId}}_Sandalwood 50/Home/{{ModId}}_SeaMonsterScarecrow 1/true/null/{{i18n:SeaMonsterScarecrow.RecipeName}}",
                 "{{ModId}}_TeaKeg": "{{ModId}}_Sandalwood 10 60 1 537 2/Home/{{ModId}}_TeaKeg 1/true/null/{{i18n:TeaKeg.RecipeName}}",
                 "{{ModId}}_WendigoScarecrow": "{{ModId}}_FrostFabric 1 {{ModId}}_WendigoAntler 1 {{ModId}}_PuanteurdelaMort 1 {{ModId}}_EbonyWood 50/Home/{{ModId}}_WendigoScarecrow 1/true/null/{{i18n:WendigoScarecrow.RecipeName}}",
-                "{{ModId}}_WerewolfScarecrow": "{{ModId}}_FurPelt 1 {{ModId}}_WerewolfClaw 1 {{ModId}}_PrimalMoon 1 {{ModId}}_EbonyWood 50/Home/{{ModId}}_WerewolfScarecrow 1/true/null/{{i18n:WerewolfScarecrow.RecipeName}}"
+                "{{ModId}}_WerewolfScarecrow": "{{ModId}}_FurPelt 1 {{ModId}}_WerewolfClaw 1 {{ModId}}_PrimalMoon 1 {{ModId}}_EbonyWood 50/Home/{{ModId}}_WerewolfScarecrow 1/true/null/{{i18n:WerewolfScarecrow.RecipeName}}",
+                "{{ModId}}_AppleofIdunn": "{{ModId}}_Hesperidium 1 {{ModId}}_Azoth 1/Home/{{ModId}}_AppleofIdunn 1/false/null/{{i18n:AppleofIdunn.RecipeName}}",
+                "{{ModId}}_AppleofDiscord": "{{ModId}}_Hesperidium 1 {{ModId}}_AbyssalSand 1/Home/{{ModId}}_AppleofDiscord 1/false/null/{{i18n:AppleofDiscord.RecipeName}}"
             }
         }
     ]

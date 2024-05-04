@@ -110,6 +110,7 @@ EXISTINGIDS = []
 
 NEWIDS = pyjson5.load(open("newids.json", encoding="utf-8"))
 FORAGEITEMS = pyjson5.load(open("forageitems.json", encoding="utf-8"))
+TRASHITEMS = ["Raffadax.RCP_PlasticBag", "Raffadax.RCP_SodaPopRing", "Raffadax.RCP_PlasticBottle", "Raffadax.RCP_Garbage", "Raffadax.RCP_Junk"]
 
 
 def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
@@ -250,6 +251,9 @@ def buildCrafting(srcDir, modId, vanillaObjects, i18n):
         jsonFiles.append(entry.path.replace("\\", "/"))
     for entry in objectscan(bigObjDir):
         jsonFiles.append(entry.path.replace("\\", "/"))
+    # manually add Apple of Idunn and Apple of Discord as they're in the Trees directory instead of the Artisan directory
+    jsonFiles.append("H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.5.6 Files/[JA] Raffadax Trees/Objects/Apple of Idunn/object.json")
+    jsonFiles.append("H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.5.6 Files/[JA] Raffadax Trees/Objects/Apple of Discord/object.json")
     for jf in jsonFiles:
         try:
             objData = pyjson5.load(open(jf, encoding="utf-8"))
@@ -490,6 +494,9 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                         print("No Cat found for {}".format(newObj.Type))
                     if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
                         newObj.Type = "Basic"
+                    if "CategoryTextOverride" in objData and objData["CategoryTextOverride"] == "Live Culture":  # these are all cat Crafting in source
+                        newObj.Category = -26
+                        newObj.Type = "ArtisanGoods"
             else:
                 newObj.Category = objData["Category"]
                 newObj.Type = CATINDICES[str(objData["Category"])]
@@ -525,8 +532,10 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
         newObj.ContextTags.append("raffadax_object")
         newObj.ContextTags.append("raffadax_{}_object".format(mode).lower())
         parsedID = "Raffadax.RCP_{}".format(nameStr)
-        if parsedID in FORAGEITEMS:
+        if parsedID in FORAGEITEMS and parsedID not in TRASHITEMS:
             newObj.ContextTags.append("forage_item")
+        if parsedID in TRASHITEMS:
+            newObj.ContextTags.append("trash_item")
         if "Recipe" in objData and isinstance(objData["Recipe"], dict) and objData["Recipe"]:
             if objData["Category"] in ["Cooking", "-7"]:
                 newObj.ContextTags.append("raffadax_cooked_object")
@@ -603,7 +612,11 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                             }
                 conditionalGifts[outnpc]["TextOperations"].append(prefDict)
             modName = MODNPCS[npc]
-            conditionalGifts[outnpc]["When"] = {"HasMod": modName}
+            if npc == "Apples":
+                cParam = {"HasMod": modName, "HasSeenEvent |contains=7775927": True}
+            else:
+                cParam = {"HasMod": modName}
+            conditionalGifts[outnpc]["When"] = cParam
     # pprint.pprint(conditionalGifts)
     # convert dict to list
     cGiftList = []
@@ -735,8 +748,12 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, vanillaObjects, s
 
         # tree object
         newTree = FruitTree()
+        if data["Name"].endswith(" Tree"):
+            treeName = data["Name"].rsplit(" ", 1)[0]
+        else:
+            treeName = data["Name"]
         newTree.DisplayName = "{{{{i18n:{}.TreeName}}}}".format(nameStr)
-        i18n["en"]["{}.TreeName".format(nameStr)] = data["Name"]
+        i18n["en"]["{}.TreeName".format(nameStr)] = treeName
         newTree.Seasons = [data["Season"]]
         fruitName = re.sub(NAMERE, "", data["Product"])
         if data["Product"] in vanillaObjects:

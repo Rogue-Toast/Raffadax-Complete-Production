@@ -72,8 +72,10 @@ def convertRules(ruleFile, vo, vbc):
             newRule.FuelIdentifier = translateName(rule["FuelIdentifier"], vo)
         if "FuelStack" in rule:
             newRule.FuelStack = int(rule["FuelStack"])
-        if "keepInputQuality" in rule and rule["keepInputQuality"]:  # Raff munges the case on this
+        if "keepInputQuality" in rule and rule["keepInputQuality"] and rule["ProducerName"] != "Seed Maker":  # Raff munges the case on this
             newRule.KeepInputQuality = True
+        elif rule["ProducerName"] == "Seed Maker":
+            newRule.KeepInputQuality = False
         for dk in directImports:
             if dk in rule:
                 setattr(newRule, dk, rule[dk])
