@@ -94,239 +94,288 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackSesameSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BrusselsSproutSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CantaloupeSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CarawaySeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CelerySeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChamomileSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FenugreekSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GarbanzoBeanStarter",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GreenCardamomSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MarjoramSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_OreganoSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PricklyPearCactusStarter",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RomanescoSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SquashSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ThymeSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WaxBeanStarter",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteAsparagusSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteBellPepperSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteOnionSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteTeaSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_XoconostleCactusStarter",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CactushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LuminushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AcaiSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AchioteSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BaobabSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BayLaurelSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BuddhasHandSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CurrySapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DateSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_IlliciumSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LavenderSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MarconaAlmondSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MyristicaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_OsmanthusSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PimentoSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PineNutSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_QuinceSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RooibosSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SaguaroCactusSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SandalwoodSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StarFruitSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SumacSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)251",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteCacaoSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SunberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BodhiSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FusangSapling",
                             "Condition": "PLAYER_HEARTS Current {{Amanra}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "Condition": "PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "RandomItemId": [
@@ -550,50 +599,60 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_AdzukiBeanStarter",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlueCornSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlueLotusStarter",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlueOysterStarter",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BluePotatoSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CaperBushStarter",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChervilSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DillSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GentianFlowerSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GlassGemCornSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenCauliflowerSeeds",
@@ -602,201 +661,242 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_GreenPeaStarter",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_IndigoSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LentilSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeppermintSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RyeSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SnowPeaStarter",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SpearmintSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WildBarleySeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WildOatSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WintergreenSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_YarrowSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ZucchiniSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AnemushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BerserkerMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FrostCapMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AnjouPearSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CarambolaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CocodeMerSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CrystalFruitSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ElderberrySapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPlumSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HibiscusSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HoneycrispSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_IslandCoconutSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_KumquatSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PersimmonSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MandarinSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MeyerLemonSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MonkeyLianaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedGrapefruitSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SakuraSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StarAppleSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StarJasmineSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SweetGemSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WhitePeachSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WillowSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlueRaspberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PinkLemonSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PolarBerrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_YggdrasilSapling",
                             "Condition": "PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "Condition": "PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "RandomItemId": [
@@ -1016,31 +1116,37 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_CayennePepperSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChanterelleStarter",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChicorySeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CommonMushroomStarter",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CrocusSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DaffodilSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DaisySeeds",
@@ -1048,217 +1154,261 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DandelionSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FernStarter",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FireWheelSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HawkweedSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HorseradishSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LeekSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MorelStarter",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeyoteCactusStarter",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PsilocybinMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PurpleMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SnowYamSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SpringOnionSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SweetPeaSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TruffleStarter",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WildGingerSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WinterRootSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GemCapStarter",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AgaveSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AvocadoSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BirchSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackberrySapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackWalnutSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlueberryBushSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackCurrantSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ForsythiaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GuaranaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HollySapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HoneysuckleSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_KeyLimeSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MacadamiaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MulberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PapayaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PecanSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PlantainSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SalmonberrySapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SpiceBerrySapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TamarindSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WildHazelnutSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WitchHazelSapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BearberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MoonberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SummerStarberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Coyote}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "Condition": "PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "RandomItemId": [
@@ -2004,99 +2154,119 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_AntlerGanodermaStarter",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AsparagusSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CucumberStarter",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DryadsSaddleStarter",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FoxgloveSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GreenBellPepperSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GreenLeafLettuceSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HoneydewSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MaryJaneSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MatsutakeMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_OkraSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RainbowCarrotSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RapiniSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RoseVineStarter",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SageSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ShisoSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SoybeanStarter",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SpinachSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TopinamburSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TurnipSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_VioletSeeds",
@@ -2105,153 +2275,184 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_WhiteGrapeStarter",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WoodruffSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CloverPatchStarter",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FernFlowerSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MosshroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BergamotSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CashewAppleSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChestnutSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ElderSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ForestPlumSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GinkgoSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HoneyberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HuckleberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_KiwiSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LilacSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LindenSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MimosaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RaspberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RosemarySapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RowanSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SaskatoonSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SpruceSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StrawberrySapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WisteriaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FoxberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RoseGrapeSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ForestRoseSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WinterStarberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DryadSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MaenadSapling",
                             "Condition": "PLAYER_HEARTS Current {{Puck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "Condition": "PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "RandomItemId": [
@@ -2475,21 +2676,25 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_AmanitaStarter",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ChiveSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DarkRainbowCarrotSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DevilsLettuceSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GreenCabbageSeeds",
@@ -2498,64 +2703,77 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_HornNutStarter",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LiverwortStarter",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MugwortSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeppercornStarter",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeriwinkleSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PortobelloMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PuffballMushroomStarter",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PurpleAsparagusSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PurpleBellPepperSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RutabagaSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SarsaparillaSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StingingNettleStarter",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TarragonSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TobaccoSeeds",
@@ -2564,124 +2782,149 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_WildGrapeStarter",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WolfsbaneSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WormwoodSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RadioactiveMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_VoidMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackCloverSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MandrakeSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_AngosturaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackCherrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackOakSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackOliveSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackthornSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ClematisSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CloveSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CrabappleSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CranberryBushSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DeadMansSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DogwoodSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DurianSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_EbonySapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FicusSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HawthornSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JacarandaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JuniperSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LarahaOrangeSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PistachioSapling",
@@ -2690,35 +2933,41 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_PoincianaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SassafrasSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HagTreeSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WolfberrySapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CorpseFlowerSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_InfernalSapling",
                             "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10"
+                            "Condition": "PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Astrid}} 10"
                         },
                         {
                             "RandomItemId": [
@@ -2931,103 +3180,124 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_BasilSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackBeanStarter",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CassavaStarter",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CilantroSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_FennelSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LemongrassSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LichenStarter",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MustardSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PaprikaSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ParsleySeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PassionFruitStarter",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PeanutSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PoinsettiaSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PurpleCauliflowerSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedBellPepperSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedCornSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedOnionSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RedPotatoSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SavorySeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ScotchBonnetPepperSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SweetPotatoSeeds",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TomatilloSeeds",
@@ -3036,128 +3306,154 @@
                         {
                             "ItemId": "(O)Raffadax.RCP_TurmericSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_VanillaVineStarter",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_WatermelonSeeds",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MagmaCapMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_ThunderCapMushroomStarter",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BlackBambooSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_BrazilNutSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CacaoSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CinchonaSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_CinnamomumSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DaccaBananaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DragonFruitCactusSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GrosMichelSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GuavaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HeliconiaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HuaMoaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JabuticabaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_JavaBananaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 6",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_KolaSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_LycheeSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 4",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_MonsteraSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_NinoBananaSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_PalmGroveSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RainbowEucalyptusSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 2",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_RambutanSapling",
                             "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_SugarcaneSapling",
-                            "IgnoreShopPriceModifiers": true
+                            "IgnoreShopPriceModifiers": true,
+                            "UseObjectDataPrice": true
                         },
                         {
                             "RandomItemId": [
@@ -3171,7 +3467,7 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Astrid}} 10",
                             "Price": 50000,
                             "IgnoreShopPriceModifiers": true
                         },

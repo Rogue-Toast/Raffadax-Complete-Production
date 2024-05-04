@@ -32,6 +32,9 @@ def convertftm():
                         anode["name"] = translateName(anode["name"])
                         if anode["name"] not in FORAGE and anode["name"].startswith("Raffadax"):
                             FORAGE.append(anode["name"])
+        # sewer spawn area
+        if area["MapName"] == "Sewer":
+            area["IncludeCoordinates"] = ["12,11/20,20", "30,16/32,19", "2,20/34,22", "2,23/4,46", "15,23/18,28"]
     with open("forageitems.json", 'w', encoding='utf-8') as f:
         json.dump(FORAGE, f, indent=4, ensure_ascii=False)
     return outdata

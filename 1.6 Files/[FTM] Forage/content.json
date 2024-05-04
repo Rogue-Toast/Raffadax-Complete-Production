@@ -59764,7 +59764,13 @@
           "All"
         ],
         "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
+        "IncludeCoordinates": [
+          "12,11/20,20",
+          "30,16/32,19",
+          "2,20/34,22",
+          "2,23/4,46",
+          "15,23/18,28"
+        ],
         "ExcludeCoordinates": [],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
@@ -59926,7 +59932,13 @@
           "All"
         ],
         "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
+        "IncludeCoordinates": [
+          "12,11/20,20",
+          "30,16/32,19",
+          "2,20/34,22",
+          "2,23/4,46",
+          "15,23/18,28"
+        ],
         "ExcludeCoordinates": [],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {

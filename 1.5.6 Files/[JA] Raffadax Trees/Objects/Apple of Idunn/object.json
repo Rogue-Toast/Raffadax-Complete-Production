@@ -1,49 +1,107 @@
 {
-  	"Name": "Apple of Idunn",
-  	"Description": "A divine fruit that shines with radiant light. Swirls of silver and gold drift across the surface of this fruit in a seemingly arbitrary manner. Mortals who eat this fruit regularly will never age.",
-  	"Category": "Fruit",
-	"CategoryTextOverride": "Divine Fruit",
-    	"Edibility": 300,
-	"EdibleBuffs":
-		{
-        	"Farming": 10,
-        	"Fishing": 10,
-      		"Foraging": 10,
-        	"Mining": 10,
-
-        	"Luck": 20,
-        	"MaxStamina": 0,
-		"MagnetRadius": 0,
-        	"Speed": 0,
-
-		"Attack": 0,
-        	"Defense": 0,
-
-        	"Duration": 120,
-		},
-    	"Price": 20000,
-    	"IsColored": false,
-    	"Recipe":
-    		{
-        	"ResultCount": 1,
-		"Ingredients": 
-			[
-        		{
-            		"Object": "Hesperidium",
-            		"Count": 1,
-        		},
-        		{
-            		"Object": "Azoth",
-            		"Count": 1,
-       	 		}
-			],
-        	"CanPurchase": true,
-        	"PurchaseFrom": "Djinn",
-        	"PurchasePrice": 1000000,
-        	"PurchaseRequirements": [ "y 2" ],
-		},
-  	"GiftTastes": 
-		{
-        	"Love": [ "Abigail", "Alex", "Amanra", "Andy", "Apples", "Astrid", "Beatrice", "Caroline", "Claire", "Clint", "Coyote", "Demetrius", "Dwarf", "Elliott", "Eloise", "Emily", "Evelyn", "George", "Gregory", "Gunther", "Gus", "Haley", "Harvey", "Hekate", "Hephaestus", "Jacob", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Leo", "Lewis", "Linus", "Marlon", "Marnie", "Martin", "Maru", "Mephisto", "Morgan", "Morris", "Olivia", "Pam", "Penny", "Pierre", "Puck", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Sheila", "Shuck", "Sophia", "Susan", "Victor", "Vincent", "Wednesday", "Willy", "Alecto", "Wizard", "Xolotl" ],
-		},
+    "Name": "Apple of Idunn",
+    "Description": "A divine fruit that shines with radiant light. Swirls of silver and gold drift across the surface of this fruit in a seemingly arbitrary manner. Mortals who eat this fruit regularly will never age.",
+    "Category": "Fruit",
+    "CategoryTextOverride": "Divine Fruit",
+    "Edibility": 300,
+    "EdibleBuffs": {
+        "Farming": 10,
+        "Fishing": 10,
+        "Foraging": 10,
+        "Mining": 10,
+        "Luck": 20,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Duration": 120
+    },
+    "Price": 20000,
+    "IsColored": false,
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": "Hesperidium",
+                "Count": 1
+            },
+            {
+                "Object": "Azoth",
+                "Count": 1
+            }
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Djinn",
+        "PurchasePrice": 1000000,
+        "PurchaseRequirements": [
+            "y 2"
+        ]
+    },
+    "GiftTastes": {
+        "Love": [
+            "Abigail",
+            "Alex",
+            "Amanra",
+            "Andy",
+            "Apples",
+            "Astrid",
+            "Beatrice",
+            "Caroline",
+            "Claire",
+            "Clint",
+            "Coyote",
+            "Demetrius",
+            "Dwarf",
+            "Elliott",
+            "Eloise",
+            "Emily",
+            "Evelyn",
+            "George",
+            "Gregory",
+            "Gunther",
+            "Gus",
+            "Haley",
+            "Harvey",
+            "Hekate",
+            "Hephaestus",
+            "Jacob",
+            "Jas",
+            "Jodi",
+            "Kent",
+            "Krobus",
+            "Leah",
+            "Leo",
+            "Lewis",
+            "Linus",
+            "Marlon",
+            "Marnie",
+            "Martin",
+            "Maru",
+            "Mephisto",
+            "Morgan",
+            "Morris",
+            "Olivia",
+            "Pam",
+            "Penny",
+            "Pierre",
+            "Puck",
+            "Robin",
+            "Sam",
+            "Sandy",
+            "Sebastian",
+            "Shane",
+            "Sheila",
+            "Shuck",
+            "Sophia",
+            "Susan",
+            "Victor",
+            "Vincent",
+            "Wednesday",
+            "Willy",
+            "Alecto",
+            "Wizard",
+            "Xolotl"
+        ]
+    }
 }

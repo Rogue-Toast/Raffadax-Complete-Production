@@ -140,6 +140,7 @@ def buildShops(fileIn: str, fileOut: str):
                         inv.IgnoreShopPriceModifiers = True
                     elif inm.endswith("Seeds") or inm.endswith("Starter") or inm.endswith("Sapling"):
                         inv.IgnoreShopPriceModifiers = True
+                        inv.UseObjectDataPrice = True
                     if "Stock" in ist:
                         inv.AvailableStock = ist["Stock"]
                     if "IsRecipe" in ist and ist["IsRecipe"]:
