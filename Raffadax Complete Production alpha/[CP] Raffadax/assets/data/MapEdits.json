@@ -50,7 +50,7 @@
       		"Target": "Maps/Woods",
       		"FromFile": "assets/textures/Grimoires/z_GrimorumArcanorum.tmx",
             "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 26, "Y": 5, "Height": 2, "Width": 1 },
+            "ToArea": { "X": 30, "Y": 5, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
       	},
       	{

@@ -125,6 +125,26 @@
 			},
 		},
 
+// Schedule - More Lively Quarry compat
+		{
+			"LogName": "Coyote's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{Coyote}}",
+			"Entries": {
+				"rain": "0610 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain",
+				"Mon": "0610 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
+				"Tue": "GOTO Mon",
+				"Wed": "GOTO Mon",
+				"Thu": "GOTO Mon",
+				"Fri": "GOTO Mon",
+				"Sat": "GOTO Mon",
+				"Sun": "GOTO Mon"
+			},
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
+			}
+		},
+		
 // Gift Tastes
 		{
 			"LogName": "Coyote's Gift Tastes",

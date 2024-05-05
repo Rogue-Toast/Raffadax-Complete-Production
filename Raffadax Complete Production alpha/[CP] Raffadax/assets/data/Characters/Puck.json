@@ -54,7 +54,7 @@
 						{
 							"Id": "Default",
 							"Location": "Woods",
-							"Tile": { "X": 26, "Y": 6 },
+							"Tile": { "X": 29, "Y": 6 },
 							"Direction": "down",
 							"When": {
 								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
@@ -114,8 +114,8 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Puck}}",
 			"Entries": {
-				"rain": "0610 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Rain",
-				"Mon": "0610 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Sit",
+				"rain": "0610 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Rain",
+				"Mon": "0610 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Sit",
 				"Tue": "GOTO Mon",
 				"Wed": "GOTO Mon",
 				"Thu": "GOTO Mon",
