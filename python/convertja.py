@@ -17,6 +17,7 @@ from unidecode import unidecode  # converts diacritics to ascii
 from PIL import Image
 from classes import BigObject, Buff, Crop, FruitTree, MeleeWeapon, SVObject
 from writeLangData import writeLanguageData
+from convertmfm import buildMail
 
 CATEGORIES = {"ArtisanGoods": -26,
               "Building Resources": -16,
@@ -160,13 +161,15 @@ def buildBigObjects(srcDir, modId, spritesheet, mode, i18n=None):
         if "ReserveExtraIndexCount" in objData:
             frameCount = objData["ReserveExtraIndexCount"]
             idxIncrement += frameCount
+        elif "ReserveNextIndex" in objData:
+            frameCount = objData["ReserveNextIndex"]
+            idxIncrement += frameCount
         spritename = jf[0:-5] + ".png"
         spriteFiles[spritename] = bo.SpriteIndex
         if idxIncrement > 1:
             for j in range(1, frameCount + 1):
                 frameName = "{}-{}.png".format(jf[0:-5], j + 1)
                 spriteFiles[frameName] = bo.SpriteIndex + j
-        # pprint.pprint(spriteFiles)
         bo.ContextTags.append("raffadax_bigcraftable")
         if "Recipe" in objData and objData["Recipe"] and isinstance(objData["Recipe"], dict):
             bo.ContextTags.append("raffadax_crafted_bigcraftable")
@@ -677,8 +680,8 @@ def buildSprites(spriteList, dstDir, fileName, spriteType="objects"):
             y = floor(sidx / 8) * 32
             base.paste(img, (x, y))
     elif spriteType == "giants":
-        imgHeight = ceil(len(spriteList) / 5) * 64
-        imgWidth = 5 * 48
+        imgHeight = ceil(len(spriteList) / 7) * 64
+        imgWidth = 7 * 48
         base = Image.new("RGBA", (imgWidth, imgHeight))
         for imgpath, coords in spriteList.items():
             img = Image.open(imgpath)
@@ -1046,3 +1049,5 @@ if __name__ == "__main__":
         contextTags = list(set(contextTags))
         contextTags.sort()
         pprint.pprint(contextTags)
+        print("Adding Mail data")
+        buildMail()
