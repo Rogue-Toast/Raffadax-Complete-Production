@@ -121,6 +121,31 @@ def translateName(instr: str):
         return out
 
 
+def buildMail():
+    OUTDIR = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/assets/data"
+    mailData, loadData, triggerData, i18n = convertMail()
+
+    mailout = "{}/Mail.json".format(OUTDIR)
+    with open(mailout, 'w', encoding='utf-8') as f:
+        json.dump(mailData, f, indent=4, ensure_ascii=False)
+
+    loadOut = "{}/LoadData.json".format(OUTDIR)
+    existingLoadData = pyjson5.load(open(loadOut, encoding="utf-8"))
+    for change in loadData:
+        if change not in existingLoadData["Changes"]:
+            existingLoadData["Changes"].append(change)
+    with open(loadOut, 'w', encoding='utf-8') as f:
+        json.dump(existingLoadData, f, indent=4, ensure_ascii=False)
+
+    triggersOut = "{}/TriggerActions.json".format(OUTDIR)
+    with open(triggersOut, 'w', encoding='utf-8') as f:
+        json.dump(triggerData, f, indent=4, ensure_ascii=False)
+
+    langOut = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/maildefault.json"
+    with open(langOut, 'w', encoding="utf-8") as f:
+        json.dump(i18n, f, indent=4, ensure_ascii=False)
+
+
 if __name__ == "__main__":
     mailData, loadData, triggerData, i18n = convertMail()
 
@@ -140,13 +165,12 @@ if __name__ == "__main__":
     with open(triggersOut, 'w', encoding='utf-8') as f:
         json.dump(triggerData, f, indent=4, ensure_ascii=False)
 
+    langOut = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/maildefault.json"
+    with open(langOut, 'w', encoding="utf-8") as f:
+        json.dump(i18n, f, indent=4, ensure_ascii=False)
     MAINI18N = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/i18n/default.json"
     mainTrans = pyjson5.load(open(MAINI18N, encoding="utf-8"))
-    for k, v in i18n.items():
-        mainTrans[k] = v
-
-    transOut = {"default": mainTrans}
 
     npcLang = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/npcdefault.json"
     langDir = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/"
-    writeLanguageData(transOut, langDir, npcLang)
+    writeLanguageData(mainTrans, langDir, npcLang)

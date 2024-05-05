@@ -1,9 +1,11 @@
 import os
 import json
+import pprint
 import pyjson5
 
 
 def writeLanguageData(i18n, dstDir, npcLang):
+    mailData = pyjson5.load(open("H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/maildefault.json", encoding="utf-8"))
     comments = {"AdzukiBeans.DisplayName": "\t//crops.json - Crops\n",
                 "AdzukiBeanStarter.Displayname": "\n\t//Crops.json - Seeds and starters\n",
                 "AcaiBerry.DisplayName": "\n\t//Trees.json - Tree Produce\n",
@@ -35,6 +37,8 @@ def writeLanguageData(i18n, dstDir, npcLang):
         outPath = "{}i18n/{}.json".format(dstDir, outKey)
         if outKey == "default":
             for k, v in npcData.items():
+                langData[k] = v
+            for k, v in mailData.items():
                 langData[k] = v
         # outData = json.dumps(langData, indent=4)
         with open(outPath, 'w', encoding='utf-8') as f:
