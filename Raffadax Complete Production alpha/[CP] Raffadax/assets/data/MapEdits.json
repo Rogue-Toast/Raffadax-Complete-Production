@@ -1,26 +1,26 @@
 {
 	"Changes": [
 
-// MAP EDITS - GRIMOIRES
+	// MAP EDITS - GRIMOIRES
 		{
 			"LogName": "Add Amanra's Grimoire",
 			"Action": "EditMap",
       		"Target": "Maps/Desert",
       		"FromFile": "assets/textures/Grimoires/z_CorpusHermeticum.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 21, "Y": 6, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 21, "Y": 6, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay",
       		"When": {
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false,
-      		},
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      		}
       	},
       	{
       		"LogName": "Add Astrid's Grimoire",
       		"Action": "EditMap",
       		"Target": "Maps/Island_SE",
       		"FromFile": "assets/textures/Grimoires/z_Galdrabok.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 23, "Y": 11, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 23, "Y": 11, "Height": 2, "Width": 1 },
       		"PatchMode": "Overlay"
       	},
       	{
@@ -28,11 +28,11 @@
       		"Action": "EditMap",
       		"Target": "Maps/Mountain",
       		"FromFile": "assets/textures/Grimoires/z_JoJini.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 114, "Y": 10, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 114, "Y": 10, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay",
 	  		"When": {
-				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false,
+				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
       		}
       	},
       	{
@@ -40,8 +40,8 @@
       		"Action": "EditMap",
       		"Target": "Maps/Sewer",
       		"FromFile": "assets/textures/Grimoires/z_CodexGigas.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 13, "Y": 10, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 13, "Y": 10, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
       	},
       	{
@@ -49,49 +49,52 @@
       		"Action": "EditMap",
       		"Target": "Maps/Woods",
       		"FromFile": "assets/textures/Grimoires/z_GrimorumArcanorum.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 30, "Y": 5, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay"
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 30, "Y": 5, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay",
+			  "When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      		}
       	},
       	{
       		"LogName": "Add Shuck's Grimoire",
       		"Action": "EditMap",
       		"Target": "Maps/WitchSwamp",
       		"FromFile": "assets/textures/Grimoires/z_Necronomicon.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 23, "Y": 21, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 23, "Y": 21, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay"
       	},
       	{
       		"LogName": "Add Xolotl's Grimoire",
       		"Action": "EditMap",
       		"Target": "Maps/Island_Shrine",
       		"FromFile": "assets/textures/Grimoires/z_Amoxtli.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 21, "Y": 23, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 21, "Y": 23, "Height": 2, "Width": 1 },
 	   		"PatchMode": "Overlay"
       	},
 
-// MAP EDITS - SHOP SIGNS
+	// MAP EDITS - SHOP SIGNS
 		{
 			"LogName": "Add Amanra's shop sign to the desert",
 			"Action": "EditMap",
 			"Target": "Maps/Desert",
 			"FromFile": "assets/textures/Shops/z_Djinn.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 19, "Y": 6, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 19, "Y": 6, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay",
 	  		"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-			},
+			}
 		},
 		{
 			"LogName": "Add Astrid's shop sign to GI-SE",
 			"Action": "EditMap",
       		"Target": "Maps/Island_SE",
       		"FromFile": "assets/textures/Shops/z_Selkie.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 22, "Y": 10, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 22, "Y": 10, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
 		{
@@ -99,8 +102,8 @@
 			"Action": "EditMap",
       		"Target": "Maps/Mountain",
       		"FromFile": "assets/textures/Shops/z_Coyotl.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 112, "Y": 10, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 112, "Y": 10, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay",
 	  		"When": {
 	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
@@ -111,8 +114,8 @@
 			"Action": "EditMap",
       		"Target": "Maps/Sewer",
       		"FromFile": "assets/textures/Shops/z_Azeban.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 15, "Y": 9, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 15, "Y": 9, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
 		{
@@ -120,17 +123,20 @@
 			"Action": "EditMap",
       		"Target": "Maps/Woods",
       		"FromFile": "assets/textures/Shops/z_Pookah.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 28, "Y": 5, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay"
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 28, "Y": 5, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay",
+				"When": {
+					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+			}
 		},
 		{
 			"LogName": "Add Shuck's shop sign to the Witch's Swamp",
 			"Action": "EditMap",
       		"Target": "Maps/WitchSwamp",
       		"FromFile": "assets/textures/Shops/z_Barghest.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 21, "Y": 21, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 21, "Y": 21, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
 		{
@@ -138,8 +144,8 @@
 			"Action": "EditMap",
       		"Target": "Maps/Island_Shrine",
       		"FromFile": "assets/textures/Shops/z_Nagual.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 19, "Y": 23, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 19, "Y": 23, "Height": 2, "Width": 1 },
 	   		"PatchMode": "Overlay"
 		},
 		{
@@ -147,38 +153,58 @@
 			"Action": "EditMap",
      		"Target": "Maps/Caldera",
       		"FromFile": "assets/textures/Shops/z_Valkyrie.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 24, "Y": 22, "Height": 2, "Width": 1 },
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 24, "Y": 22, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
 
-// MAP EDITS - SVE COMPAT
+	// MAP EDITS - SVE COMPAT
 		{
 			"LogName": "Add Amanra's Grimoire - SVE",
 			"Action": "EditMap",
       		"Target": "Maps/Desert",
       		"FromFile": "assets/textures/Grimoires/z_CorpusHermeticum.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 31, "Y": 44, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 31, "Y": 44, "Height": 2, "Width": 1 },
       		"When": {
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-			},
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
 		},
 		{
 			"LogName": "Add Amanra's shop to the desert - SVE",
 			"Action": "EditMap",
 			"Target": "Maps/Desert",
 			"FromFile": "assets/textures/Shops/z_Djinn.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 29, "Y": 44, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 29, "Y": 44, "Height": 2, "Width": 1 },
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{
+			"LogName": "Add Puck's Grimoire - SVE",
+			"Action": "EditMap",
+			"Target": "Maps/Woods",
+			"FromFile": "assets/textures/Grimoires/z_GrimorumArcanorum.tmx",
+		  		"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+		  		"ToArea": { "X": 32, "Y": 45, "Height": 2, "Width": 1 },
+			"When": {
+			  "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{
+			"LogName": "Add Puck's shop sign to the Secret Woods - SVE",
+			"Action": "EditMap",
+      		"Target": "Maps/Woods",
+      		"FromFile": "assets/textures/Shops/z_Pookah.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 34, "Y": 45, "Height": 2, "Width": 1 },
 			"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 
-// MAP EDITS - MORE LIVELY QUARRY COMPAT
+	// MAP EDITS - MORE LIVELY QUARRY COMPAT
 		{
       		"LogName": "Add Coyote's Grimoire - MLQ",
       		"Action": "EditMap",
@@ -186,9 +212,8 @@
       		"FromFile": "assets/textures/Grimoires/z_JoJini.tmx",
             "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             "ToArea": { "X": 112, "Y": 12, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
 	  		"When": {
-	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true,
+	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
 	  		}
       	},
       	{
@@ -198,13 +223,12 @@
       		"FromFile": "assets/textures/Shops/z_Coyotl.tmx",
             "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             "ToArea": { "X": 110, "Y": 12, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
 	  		"When": {
 	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
 	  		}
 		},
 
-// MAP EDITS - MISC
+	// MAP EDITS - MISC
 		{
 			"LogName": "Add Humidor to Saloon",
 			"Action": "EditMap",
@@ -215,7 +239,7 @@
 	  		"PatchMode": "Overlay",
 	  		"When": {
 	  			"Humidor": "true"
-	  		},
+	  		}
 		},
 		{
 			"LogName": "Add Soda Machine to Saloon",
@@ -224,8 +248,7 @@
       		"FromFile": "assets/textures/Shops/z_SodaMachine.tmx",
             "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 2 },
             "ToArea": { "X": 37, "Y": 17, "Height": 1, "Width": 2 },
-	  		"PatchMode": "Overlay",
-		},
-
+	  		"PatchMode": "Overlay"
+		}
 	]
 }

@@ -3,7 +3,7 @@
     "Author": "Raffadax",
     "Description": "Base production for Raffadax Crops.",
     "UniqueID": "Raffadax.Complete.Production",
-    "Version": "5.0.0-alpha.05",
+    "Version": "5.0.0-alpha.06",
     "UpdateKeys": ["Github:Rogue-Toast/RCP-Alpha"],
     "ContentPackFor": {
         "UniqueID": "DIGUS.ProducerFrameworkMod"
@@ -12,6 +12,6 @@
         {
             "UniqueID": "Raffadax.RCP",
             "IsRequired": true
-        },
+        }
     ]
 }
