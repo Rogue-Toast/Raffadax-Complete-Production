@@ -252,7 +252,7 @@ def translateName(instr: str):
     elif isinstance(instr, int) or instr.isnumeric() or instr[1:].isnumeric():
         return instr
     elif instr in NEWIDS:
-        return "Raffadax_RCP_{}".format(re.sub(NAMERE, "", NEWIDS[instr]))
+        return "Raffadax.RCP_{}".format(re.sub(NAMERE, "", NEWIDS[instr]))
     else:
         newStr = unidecode(instr)
         out = "Raffadax.RCP_{}".format(re.sub(NAMERE, "", newStr))

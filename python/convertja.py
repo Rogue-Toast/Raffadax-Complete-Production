@@ -100,7 +100,7 @@ MODNPCS = {
     "Mona": "Zilsara.Mona",
     "Muadhnait": "Asari.Muadhnait",
     "Nikolai": "Fellowclown.PC",
-    "Paul": "Ginnyclaire.Paul",
+    "Paul": "Ginnyclaire.PaulNPC",
     "Shiko": "Papaya.ShikoTakahashi",
     "Zoro": "EmpressKimi.Zoro"
 }
@@ -601,6 +601,8 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                 outnpc = "MorrisTod"
             elif npc == "Gunther":
                 outnpc = "GuntherSilvian"
+            elif npc == "Nikolai":
+                outnpc = "FC.Nikolai"
             else:
                 outnpc = npc
             conditionalGifts[outnpc] = {"LogName": "Raffadax Gift Taste Edit - {} - {}".format(outnpc, mode),

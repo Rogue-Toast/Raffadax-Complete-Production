@@ -14,6 +14,12 @@
             "UniqueID":"Esca.CustomNPCExclusions"
         },
         {
+            "UniqueID": "mistyspring.ItemExtensions"
+        },
+        {
+            "UniqueID": "Cherry.MultiYieldCrops"
+        },
+        {
             "UniqueID": "ZoeDoll.NPCAlecto",
             "IsRequired": false
         },
@@ -74,7 +80,7 @@
             "IsRequired": false
         },
         {
-            "UniqueID": "Ginnyclaire.Paul",
+            "UniqueID": "Ginnyclaire.PaulNPC",
             "IsRequired": false
         },
         {
