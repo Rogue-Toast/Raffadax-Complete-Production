@@ -5659,6 +5659,8 @@
     "GroundHibiscus.DisplayName": "Ground Hibiscus",
     "GroundHibiscus.Description": "A magenta dust made from pulverised tropical hibiscus flowers. It can be used as a flavor component and colorant for baked goods and beverages.",
     "GroundHolly.DisplayName": "Ground Holly",
+
+	//Object.json - Vanilla Edits
     "GroundHolly.Description": "A fine dust made from just the leaves of a holly tree. This powder can be used as a medicinal component.",
     "GroundJacaranda.DisplayName": "Ground Jacaranda",
     "GroundJacaranda.Description": "A fine violet dust made from jacaranda flowers. It is toxic to humans, but used by artisans in other realms. This dust can also be used to create paints and dyes.",
@@ -13282,5 +13284,11 @@
     "Robin.Glass.MailText": "Hey @!^^I started selling panes of glass a little while ago, you can use them to craft certain machines. Since I'm now selling them, I'll also buy any glass panes you make if you put them in your shipping chest before bed. You can recycle glass shards into panes of glass using a furnace.^^I've also started carrying a few new production tools, and a couple exotic varieties of wood.^^Stop by the next time you're near the mountain, we need to catch up!^^- Robin",
     "Robin.Glass.MailTitle": "New Crafting Materials!",
     "Marnie.Cheese.Making.MailText": "Hello @,^^Not only do I sell a variety of animals and husbandry equipment; I also have a variety of specialty milks and enzymes for making gourmet cheeses. I'm not sure if you have a cheese press or not, but I've included a couple of samples for you to try out.^^- Marnie",
-    "Marnie.Cheese.Making.MailTitle": "Specialty Cheese Making"
+    "Marnie.Cheese.Making.MailTitle": "Specialty Cheese Making",
+
+	//Object.json - Vanilla Edits
+    "Holly.Description": "The leaves and bright red berries make a popular winter decoration. The berries are toxic, but the leaves can be brewed into tea or gin.",
+    "SunflowerSeeds.Description": "Seeds for a large variety of yellow flower which yields more seeds at harvest. The seeds themselves can be used for baking and are often eaten roasted or raw. Takes 8 days to mature. Plant in the summer or fall.",
+    "PoppySeeds.Description": "Seeds for a bright red flower which may yield more seeds at harvest. The seeds themselves are commonly used for baking due to their nutty flavor. Takes 7 days to mature. Plant in the summer.",
+    "PumpkinSeeds.Description": "Seeds for a large variety of orange squash. The seeds themselves can be used for baking and are sometimes eaten roasted. Takes 13 days to mature. Plant in the fall."
 }

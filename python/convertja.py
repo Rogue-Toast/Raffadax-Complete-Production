@@ -18,6 +18,7 @@ from PIL import Image
 from classes import BigObject, Buff, Crop, FruitTree, MeleeWeapon, SVObject
 from writeLangData import writeLanguageData
 from convertmfm import buildMail
+from convertcp import buildCPData
 
 CATEGORIES = {"ArtisanGoods": -26,
               "Building Resources": -16,
@@ -1022,7 +1023,12 @@ if __name__ == "__main__":
         cookingData, i18n = buildCooking(artiDir, modId, vanillaObjects, i18n)
         print("Generating Crafting Data")
         craftingData, i18n = buildCrafting(artiDir, modId, vanillaObjects, i18n)
+        # build CP Data as it changes Objects
+        print("Converting old Content Patcher Data")
+        cpobjectChanges, cpimageChanges = buildCPData()
         objectsOut["Changes"].append(objectData)
+        objectsOut["Changes"] += cpobjectChanges
+        objectsOut["Changes"] += cpimageChanges
         bigCraftablesOut["Changes"].append(bigObjectData)
         loadDataOut["Changes"].append(objTexture)
         loadDataOut["Changes"].append(bigObjTexture)
@@ -1041,6 +1047,9 @@ if __name__ == "__main__":
         writeData(objectsOut, dstDir, "Objects")
         writeData(weaponsOut, dstDir, "Weapons")
         writeData(giantsOut, dstDir, "GiantCrops")
+        # build MFM data, as it edits i18n
+        print("Adding Mail data")
+        buildMail()
         # # write i18n data
         print("Generating i18n")
         npcLang = "{}/1.6 Files/npcdefault.json".format(rootDir)
@@ -1051,5 +1060,3 @@ if __name__ == "__main__":
         contextTags = list(set(contextTags))
         contextTags.sort()
         pprint.pprint(contextTags)
-        print("Adding Mail data")
-        buildMail()
