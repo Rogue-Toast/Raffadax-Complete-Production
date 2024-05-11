@@ -6,6 +6,7 @@ import pyjson5
 
 def writeLanguageData(i18n, dstDir, npcLang):
     mailData = pyjson5.load(open("H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/maildefault.json", encoding="utf-8"))
+    cpData = pyjson5.load(open("H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/cpdefault.json", encoding="utf-8"))
     comments = {"AdzukiBeans.DisplayName": "\t//crops.json - Crops\n",
                 "AdzukiBeanStarter.Displayname": "\n\t//Crops.json - Seeds and starters\n",
                 "AcaiBerry.DisplayName": "\n\t//Trees.json - Tree Produce\n",
@@ -24,6 +25,7 @@ def writeLanguageData(i18n, dstDir, npcLang):
                 "AdoboSeasoning.RecipeName": "\n\t//Artisan.json - Cooking Recipes\n",
                 "BlanchingPowder.RecipeName": "\n\t//Artisan.json - Crafting Recipes\n",
                 "Amanra.Introduction.MailText": "\n\t//Mail.json - Mail\n",
+                "Holly.Description": "\n\t//Object.json - Vanilla Edits\n"
                 }
     if not os.path.exists("{}i18n".format(dstDir)):
         os.mkdir("{}i18n".format(dstDir))
@@ -39,6 +41,8 @@ def writeLanguageData(i18n, dstDir, npcLang):
             for k, v in npcData.items():
                 langData[k] = v
             for k, v in mailData.items():
+                langData[k] = v
+            for k, v in cpData.items():
                 langData[k] = v
         # outData = json.dumps(langData, indent=4)
         with open(outPath, 'w', encoding='utf-8') as f:

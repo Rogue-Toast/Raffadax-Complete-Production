@@ -4279,7 +4279,7 @@
                         {
                             "Id": "Nutmeg_Normal",
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Raffadax_RCP_NutmegSeed",
+                            "RequiredItemId": "(O)Raffadax.RCP_NutmegSeed",
                             "RequiredTags": [
                                 "quality_none"
                             ],
@@ -4305,7 +4305,7 @@
                         {
                             "Id": "Nutmeg_Silver",
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Raffadax_RCP_NutmegSeed",
+                            "RequiredItemId": "(O)Raffadax.RCP_NutmegSeed",
                             "RequiredTags": [
                                 "quality_silver"
                             ],
@@ -4331,7 +4331,7 @@
                         {
                             "Id": "Nutmeg_Gold",
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Raffadax_RCP_NutmegSeed",
+                            "RequiredItemId": "(O)Raffadax.RCP_NutmegSeed",
                             "RequiredTags": [
                                 "quality_gold"
                             ],
@@ -4357,7 +4357,7 @@
                         {
                             "Id": "Nutmeg_Iridium",
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Raffadax_RCP_NutmegSeed",
+                            "RequiredItemId": "(O)Raffadax.RCP_NutmegSeed",
                             "RequiredTags": [
                                 "quality_iridium"
                             ],
@@ -15021,7 +15021,7 @@
                         {
                             "Id": "Nutmeg_Iridium",
                             "Trigger": "ItemPlacedInMachine",
-                            "RequiredItemId": "(O)Raffadax_RCP_NutmegSeed",
+                            "RequiredItemId": "(O)Raffadax.RCP_NutmegSeed",
                             "RequiredCount": 1
                         }
                     ],

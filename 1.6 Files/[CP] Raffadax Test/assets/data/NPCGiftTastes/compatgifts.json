@@ -3934,7 +3934,7 @@
             }
         },
         {
-            "LogName": "Raffadax Gift Taste Edit - Nikolai - Artisan",
+            "LogName": "Raffadax Gift Taste Edit - FC.Nikolai - Artisan",
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "TextOperations": [
@@ -3942,7 +3942,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Fields",
-                        "Nikolai",
+                        "FC.Nikolai",
                         1
                     ],
                     "Value": "{{ModId}}_DragonBerryJuice {{ModId}}_PolarBerryJuice",
@@ -3970,7 +3970,7 @@
                 }
             ],
             "When": {
-                "HasMod": "Ginnyclaire.Paul"
+                "HasMod": "Ginnyclaire.PaulNPC"
             }
         },
         {

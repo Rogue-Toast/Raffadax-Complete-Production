@@ -35,7 +35,7 @@ def convertftm():
         # sewer spawn area
         if area["MapName"] == "Sewer":
             area["IncludeCoordinates"] = ["12,11/20,20", "30,16/32,19", "2,20/34,22", "2,23/4,46", "15,23/18,28"]
-            area["ExcludeCoordinates"] = ["12,0/34,8", "21,8/34,12", "21,12/27,17"]
+            area["ExcludeCoordinates"] = ["0,0/4,19", "0,20/1,49", "12,0/34,8", "21,8/34,12", "21,12/27,17", "5,32/39,49"]
     with open("forageitems.json", 'w', encoding='utf-8') as f:
         json.dump(FORAGE, f, indent=4, ensure_ascii=False)
     return outdata

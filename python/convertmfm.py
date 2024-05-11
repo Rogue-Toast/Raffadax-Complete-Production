@@ -168,9 +168,9 @@ if __name__ == "__main__":
     langOut = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/maildefault.json"
     with open(langOut, 'w', encoding="utf-8") as f:
         json.dump(i18n, f, indent=4, ensure_ascii=False)
-    MAINI18N = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/i18n/default.json"
-    mainTrans = pyjson5.load(open(MAINI18N, encoding="utf-8"))
-
-    npcLang = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/npcdefault.json"
-    langDir = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/"
-    writeLanguageData(mainTrans, langDir, npcLang)
+    # MAINI18N = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/i18n/default.json"
+    # mainTrans = pyjson5.load(open(MAINI18N, encoding="utf-8"))
+    #
+    # npcLang = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/npcdefault.json"
+    # langDir = "H:/Stardew Raffadax Update/Raffadax-Complete-Production/1.6 Files/[CP] Raffadax Test/"
+    # writeLanguageData(mainTrans, langDir, npcLang)
