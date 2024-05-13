@@ -3,6 +3,7 @@
 Run convertstf.py first to generate i18n strings."""
 
 import argparse
+import csv
 import copy
 import json  # for writing
 import os
@@ -434,6 +435,8 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
 
 
 def buildObjects(srcDir, modId, spritesheet, mode, i18n):
+    # ctOut = "contexttags.csv"
+    # csvFieldNames = ["Item", "Tags"]
     newObjects = {"LogName": "Raffadax New Objects - {}".format(mode),
                   "Action": "EditData",
                   "Target": "Data/Objects",
@@ -501,6 +504,9 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                     if "CategoryTextOverride" in objData and objData["CategoryTextOverride"] == "Live Culture":  # these are all cat Crafting in source
                         newObj.Category = -26
                         newObj.Type = "ArtisanGoods"
+                    if objData["Name"] in ["Silver Bar", "Mythril Bar"]:
+                        newObj.Category = -15
+                        newObj.Type = "Metal Resource"
             else:
                 newObj.Category = objData["Category"]
                 newObj.Type = CATINDICES[str(objData["Category"])]
@@ -548,6 +554,10 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
         if "CategoryTextOverride" in objData:  # this may have to become a CustomField
             catName = re.sub(NAMERE, "", objData["CategoryTextOverride"])
             newObj.ContextTags.append("category_{}".format(catName.lower()))
+        # with open(ctOut, "a", newline='') as f:
+        #     writer = csv.DictWriter(f, fieldnames=csvFieldNames)
+        #     # writer.writeheader()
+        #     writer.writerow({"Item": itemID, "Tags": ", ".join(newObj.ContextTags)})
         if "NameLocalization" in objData:
             for langKey, langStr in objData["NameLocalization"]:
                 if langKey not in i18n:
