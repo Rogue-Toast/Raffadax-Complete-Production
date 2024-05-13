@@ -42,24 +42,21 @@
 							"Id": "Default",
 							"Location": "Desert",
 							"Tile": { "X": 20, "Y": 8 },
-							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-							}
+							"Direction": "down"
 						},
-                        {
-							"Id": "SVE",
-							"Location": "Desert",
-							"Tile": { "X": 30, "Y": 45 },
-							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-							}
-						}
 					],
 				}
 			}
 		},
+        {
+            "LogName": "Amanra Home w SVE",
+            "Target": "Data/Characters/{{Amanra}}/Home/0",
+            "Action": "EditData",
+            "Fields": {"Tile": {"X": 30, "Y": 45}},
+            "When": {
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
 
 // Display Name
 		{

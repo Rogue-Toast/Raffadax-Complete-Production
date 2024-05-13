@@ -108,6 +108,14 @@
                     "MaxNumItemsSoldInItemStock": 1,
                     "When": ["f Amanra 2000"],
                     "ItemNames": [
+                        "Black Cumin Seeds",
+                    ],
+                },
+                {
+                    "ItemType": "Object",
+                    "MaxNumItemsSoldInItemStock": 1,
+                    "When": ["f Amanra 2000"],
+                    "ItemNames": [
                         "Black Sesame Seeds",
                     ],
                 },

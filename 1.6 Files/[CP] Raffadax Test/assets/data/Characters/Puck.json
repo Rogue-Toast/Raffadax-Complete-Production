@@ -43,27 +43,21 @@
 							"Location": "Woods",
 							"Tile": { "X": 26, "Y": 6 },
 							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-							}
 						}
 					],
-
-	// Home - SVE compat
-					"Home": [
-						{
-							"Id": "Default",
-							"Location": "Woods",
-							"Tile": { "X": 26, "Y": 6 },
-							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-							}
-						}
-					]
 				}
 			}
 		},
+
+        {
+            "LogName": "Puck Home w SVE",
+            "Target": "Data/Characters/{{Puck}}/Home/0",
+            "Action": "EditData",
+            "Fields": {"Tile": {"X": 33, "Y": 45}},
+            "When": {
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
 
 // Display Name
 		{
