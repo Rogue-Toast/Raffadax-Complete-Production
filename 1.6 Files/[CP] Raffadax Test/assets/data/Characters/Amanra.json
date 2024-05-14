@@ -1,7 +1,7 @@
 {
 	"Changes": [
 
-// Add Amanra as NPC
+	// Add Amanra as NPC
 		{
 			"LogName": "Add Amanra",
 			"Action": "EditData",
@@ -36,29 +36,34 @@
 						}
 					],
 
-	// Default Home
+		// Default Home
 					"Home": [
 						{
 							"Id": "Default",
 							"Location": "Desert",
 							"Tile": { "X": 20, "Y": 8 },
-							"Direction": "down"
+							"Direction": "down",
+							"When": {
+								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+							}
 						},
-					],
+					
+		// Home - SVE compat
+						{
+							"Id": "SVE",
+							"Location": "Desert",
+							"Tile": { "X": 30, "Y": 45 },
+							"Direction": "down",
+							"When": {
+								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+							}
+						}
+					]
 				}
 			}
 		},
-        {
-            "LogName": "Amanra Home w SVE",
-            "Target": "Data/Characters/{{Amanra}}/Home/0",
-            "Action": "EditData",
-            "Fields": {"Tile": {"X": 30, "Y": 45}},
-            "When": {
-                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-            }
-        },
 
-// Display Name
+	// Display Name
 		{
 			"LogName": "Display name in standard location",
 			"Target": "Strings/NPCNames",
@@ -68,7 +73,7 @@
 			}
 		},
 
-// Portraits & sprites
+	// Portraits & sprites
 		{
 			"LogName": "Amanra's portraits",
 			"Action": "Load",
@@ -82,17 +87,17 @@
 			"FromFile": "assets/textures/Characters/Amanra.png"
 		},
 
-// Animations
+	// Animations
 		{
 			"LogName": "Amanra's Animations",
 			"Action": "EditData",
       		"Target": "Data/animationDescriptions",
       		"Entries": {
-				"{{Lowercase:{{ModID}}}}_amanra_Stand": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 16 16 19 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16/16",
+				"{{Lowercase:{{ModID}}}}_amanra_Stand": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 18 18 19 19 16 16 19 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16/16"
       		}
 		},
 
-// Schedule - load blank
+	// Schedule - load blank
 		{
 			"LogName": "Blank Schedule",
 			"Action": "Load",
@@ -100,27 +105,20 @@
 			"FromFile": "assets/data/blank.json"
 		},
 
-// Schedule - Default
+	// Schedule - Default
 		{
 			"LogName": "Amanra's Schedule",
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Amanra}}",
 			"When": {
 					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-			},
-
+				},
 			"Entries": {
-				"Mon": "0610 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
-			},
+				"spring": "0 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand"
+			}
 		},
 
-// Schedule - SVE compat
+	// Schedule - SVE compat
 		{
 			"LogName": "Amanra's Schedule SVE",
 			"Action": "EditData",
@@ -129,17 +127,11 @@
 					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 				},
 			"Entries": {
-				"Mon": "0610 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
-			},
+				"spring": "0 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand"
+			}
 		},
 
-// Gift Tastes
+	// Gift Tastes
 		{
 			"LogName": "Amanra's Gift Tastes",
 			"Action": "EditData",
@@ -149,7 +141,7 @@
 			}
 		},
 
-// Dialogue - load blank
+	// Dialogue - load blank
 		{
 			"LogName": "Dialogue Amanra",
 			"Action": "Load",
@@ -157,7 +149,7 @@
 			"FromFile": "assets/data/blank.json"
 		},
 
-// Dialogue
+	// Dialogue
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/{{Amanra}}",
@@ -165,7 +157,7 @@
 				"Introduction": "{{i18n:Amanra.Introduction}}",
 				"summer_21_1": "{{i18n:Amanra.summer_21_1}}",
                 "AcceptGift_(O)StardropTea": "{{i18n:Amanra.GiftLoved}}",
-	// 0 HEARTS
+		// 0 HEARTS
 				"Mon": "{{i18n:Amanra.Mon}}",
 				"Tue": "{{i18n:Amanra.Tue}}",
 				"Wed": "{{i18n:Amanra.Wed}}",
@@ -173,7 +165,7 @@
 				"Fri": "{{i18n:Amanra.Fri}}",
 				"Sat": "{{i18n:Amanra.Sat}}",
 				"Sun": "{{i18n:Amanra.Sun}}",
-	// 2 HEARTS
+		// 2 HEARTS
 				"Mon2": "{{i18n:Amanra.Mon2}}",
 				"Tue2": "{{i18n:Amanra.Tue2}}",
 				"Wed2": "{{i18n:Amanra.Wed2}}",
@@ -181,7 +173,7 @@
 				"Fri2": "{{i18n:Amanra.Fri2}}",
 				"Sat2": "{{i18n:Amanra.Sat2}}",
 				"Sun2": "{{i18n:Amanra.Sun2}}",
-	// 4 HEARTS
+		// 4 HEARTS
 				"Mon4": "{{i18n:Amanra.Mon4}}",
 				"Tue4": "{{i18n:Amanra.Tue4}}",
 				"Wed4": "{{i18n:Amanra.Wed4}}",
@@ -189,7 +181,7 @@
 				"Fri4": "{{i18n:Amanra.Fri4}}",
 				"Sat4": "{{i18n:Amanra.Sat4}}",
 				"Sun4": "{{i18n:Amanra.Sun4}}",
-	// 6 HEARTS
+		// 6 HEARTS
 				"Mon6": "{{i18n:Amanra.Mon6}}",
 				"Tue6": "{{i18n:Amanra.Tue6}}",
 				"Wed6": "{{i18n:Amanra.Wed6}}",
@@ -197,7 +189,7 @@
 				"Fri6": "{{i18n:Amanra.Fri6}}",
 				"Sat6": "{{i18n:Amanra.Sat6}}",
 				"Sun6": "{{i18n:Amanra.Sun6}}",
-	// 8 HEARTS
+		// 8 HEARTS
 				"Mon8": "{{i18n:Amanra.Mon8}}",
 				"Tue8": "{{i18n:Amanra.Tue8}}",
 				"Wed8": "{{i18n:Amanra.Wed8}}",
@@ -206,7 +198,7 @@
 				"Sat8": "{{i18n:Amanra.Sat8}}",
 				"Sun8": "{{i18n:Amanra.Sun8}}",
 
-	// 10 HEARTS - SPRING
+		// 10 HEARTS - SPRING
 				"spring_Mon10": "{{i18n:Amanra.springMon10}}",
 				"spring_Tue10": "{{i18n:Amanra.springTue10}}",
 				"spring_Wed10": "{{i18n:Amanra.springWed10}}",
@@ -215,7 +207,7 @@
 				"spring_Sat10": "{{i18n:Amanra.springSat10}}",
 				"spring_Sun10": "{{i18n:Amanra.springSun10}}",
 
-	// 10 HEARTS - SUMMER
+		// 10 HEARTS - SUMMER
 				"summer_Mon10": "{{i18n:Amanra.summerMon10}}",
 				"summer_Tue10": "{{i18n:Amanra.summerTue10}}",
 				"summer_Wed10": "{{i18n:Amanra.summerWed10}}",
@@ -224,7 +216,7 @@
 				"summer_Sat10": "{{i18n:Amanra.summerSat10}}",
 				"summer_Sun10": "{{i18n:Amanra.summerSun10}}",
 
-	// 10 HEARTS - FALL
+		// 10 HEARTS - FALL
 				"fall_Mon10": "{{i18n:Amanra.fallMon10}}",
 				"fall_Tue10": "{{i18n:Amanra.fallTue10}}",
 				"fall_Wed10": "{{i18n:Amanra.fallWed10}}",
@@ -233,7 +225,7 @@
 				"fall_Sat10": "{{i18n:Amanra.fallSat10}}",
 				"fall_Sun10": "{{i18n:Amanra.fallSun10}}",
 
-	// 10 HEARTS - WINTER
+		// 10 HEARTS - WINTER
 				"winter_Mon10": "{{i18n:Amanra.winterMon10}}",
 				"winter_Tue10": "{{i18n:Amanra.winterTue10}}",
 				"winter_Wed10": "{{i18n:Amanra.winterWed10}}",
