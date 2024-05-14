@@ -114,13 +114,7 @@
 					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 				},
 			"Entries": {
-				"Mon": "0610 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
+				"spring": "0 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand"
 			}
 		},
 
@@ -133,13 +127,7 @@
 					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 				},
 			"Entries": {
-				"Mon": "0610 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
+				"spring": "0 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand"
 			}
 		},
 

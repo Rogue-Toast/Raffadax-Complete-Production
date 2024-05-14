@@ -46,11 +46,9 @@
 							"When": {
 								"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
 							}
-						}
-					],
+						},
 
 	// Home - More Lively Quarry Compat
-				"Home": [
 						{
 							"Id": "MLQ",
 							"Location": "Mountain",
@@ -60,7 +58,7 @@
 								"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
 							}
 						}
-					],
+					]
 				}
 			}
 		},
@@ -114,15 +112,9 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Coyote}}",
 			"Entries": {
-				"rain": "0610 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain",
-				"Mon": "0610 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
-			},
+				"rain": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain",
+				"spring": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit"
+			}
 		},
 
 // Schedule - More Lively Quarry compat
@@ -131,14 +123,8 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Coyote}}",
 			"Entries": {
-				"rain": "0610 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain",
-				"Mon": "0610 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
+				"rain": "0 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain",
+				"spring": "0 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit"
 			},
 			"When": {
 				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
