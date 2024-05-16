@@ -111,6 +111,9 @@
 			"LogName": "Puck's Schedule",
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Puck}}",
+            "When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+			},
 			"Entries": {
 				"rain": "0 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Rain",
 				"spring": "0 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Sit"
@@ -122,6 +125,9 @@
 			"LogName": "Puck's Schedule SVE",
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Puck}}",
+            "When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			},
 			"Entries": {
 				"rain": "0 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain",
 				"spring": "0 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit"
