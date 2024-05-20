@@ -3,15 +3,15 @@
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Spring.Crops",
     "BagName": "Raffadax Spring Crops",
-    "BagDescription": "A bag for storing Raffadax Spring Crops.",
+    "BagDescription": "A bag for storing Raffadax Spring Crops",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
-        "Small": 650,
-        "Medium": 1950,
-        "Large": 6500,
-        "Giant": 19500,
-        "Massive": 65000
+        "Small": 770,
+        "Medium": 2310,
+        "Large": 7700,
+        "Giant": 23100,
+        "Massive": 77000
     },
     "Capacities": {
         "Small": 30,
@@ -22,19 +22,19 @@
     },
     "SizeSellers": {
         "Small": [
-            "Sandy"
+            "Pierre"
         ],
         "Medium": [
-            "Sandy"
+            "Pierre"
         ],
         "Large": [
-            "Sandy"
+            "Pierre"
         ],
         "Giant": [
-            "Sandy"
+            "Pierre"
         ],
         "Massive": [
-            "Sandy"
+            "Pierre"
         ]
     },
     "SizeMenuOptions": {
@@ -426,6 +426,27 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PricklyPear"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Nopal"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OpuntiaFlower"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_OrangeCarrot"
         },
         {
@@ -531,13 +552,6 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhiteTeaLeaf"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WildBarley"
         },
         {
@@ -574,6 +588,69 @@
             "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Waldmeister"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Xoconostle"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DandelionGreens"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DandelionPuffball"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DandelionRoot"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DandelionSeeds"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RhubarbStalks"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Scallion"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackTruffle"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteTruffle"
         }
     ]
 }

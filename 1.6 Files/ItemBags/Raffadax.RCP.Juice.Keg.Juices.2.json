@@ -1,0 +1,957 @@
+{
+    "IsEnabled": true,
+    "ModUniqueId": "Raffadax.RCP",
+    "BagId": "Raffadax.Juice.Keg.Juices.2",
+    "BagName": "Raffadax Juice Keg Products (Juices Lo-Z)",
+    "BagDescription": "A bag for storing Raffadax Juice Keg Products (Juices Lo-Z)",
+    "IconTexture": "SpringObjects",
+    "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
+    "Prices": {
+        "Small": 1190,
+        "Medium": 3570,
+        "Large": 11900,
+        "Giant": 35700,
+        "Massive": 119000
+    },
+    "Capacities": {
+        "Small": 30,
+        "Medium": 99,
+        "Large": 300,
+        "Giant": 999,
+        "Massive": 9999
+    },
+    "SizeSellers": {
+        "Small": [
+            "Pierre"
+        ],
+        "Medium": [
+            "Pierre"
+        ],
+        "Large": [
+            "Pierre"
+        ],
+        "Giant": [
+            "Pierre"
+        ],
+        "Massive": [
+            "Pierre"
+        ]
+    },
+    "SizeMenuOptions": {
+        "Small": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Medium": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Large": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Giant": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Massive": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        }
+    },
+    "Items": [
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LotusRootJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LycheeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MandarinOrangeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MandrakeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MangoJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ManiocJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MelonJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MeyerLemonJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MistletoeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MonsteraJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MoonberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MulberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MustardGreenJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MyristicaJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_NettleJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_NinoBananaJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_NopalJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OkraJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OliveJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OnionJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OrangeBellPepperJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OrangeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PalmHeartJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PapayaJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PaprikaPepperJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ParsnipJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PassionFruitJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PeachJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PearJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PersimmonJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PickleJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PimentoBerryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PineappleJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PinkGrapeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PinkLemonJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PlantainJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PoisonAppleJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PolarBerryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PomegranateJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PotatoJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PricklyPearJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PruneJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PumpkinJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PurpleAsparagusJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PurpleBellPepperJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PurpleCarrotJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PurpleCauliflowerJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_QiBeanJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_QiFruitJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_QuinceJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RadishJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RaisinJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RambutanJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RapiniJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RaspberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedBellPepperJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedCabbageJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedCarrotJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedCornJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedOnionJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedPotatoJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RhubarbJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RomanescoJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RoseHipJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RowanberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RubyRedGrapefruitJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RutabagaJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SalmonberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SarsaparillaBerryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SaskatoonJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ScallionJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ScotchBonnetPepperJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SeaweedJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SloePlumJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SnowPeaJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SnowYamJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SourAppleJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SpiceBerryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SpinachJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SpringOnionJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SquashJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StarAppleJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StardropJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StarfruitJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StrawberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SumacJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SummerStarberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SunberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SunchokeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SweetGemJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SweetPotatoJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TamarindJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TaroJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TomatilloJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TomatoJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TurmericJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TurnipGreenJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TurnipJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_VakkhicGrapeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WatermelonJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WaxBeanJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteAsparagusJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteBellPepperJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteCarrotJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteGrapeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhitePeachJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WildGrapeJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WildPlumJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WinterRootJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WinterStarberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WolfberryJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_XoconostleJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_YamJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_YarrowRootJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_YateveoJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_YellowBellPepperJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_YellowCarrotJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ZaminkandJuice"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ZucchiniJuice"
+        }
+    ]
+}

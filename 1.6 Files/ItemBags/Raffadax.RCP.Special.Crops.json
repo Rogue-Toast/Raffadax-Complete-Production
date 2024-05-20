@@ -3,15 +3,15 @@
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Special.Crops",
     "BagName": "Raffadax Special Crops",
-    "BagDescription": "A bag for storing Raffadax Special Crops.",
+    "BagDescription": "A bag for storing Raffadax Special Crops",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
-        "Small": 220,
-        "Medium": 660,
-        "Large": 2200,
-        "Giant": 6600,
-        "Massive": 22000
+        "Small": 180,
+        "Medium": 540,
+        "Large": 1800,
+        "Giant": 5400,
+        "Massive": 18000
     },
     "Capacities": {
         "Small": 30,
@@ -139,27 +139,6 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PricklyPear"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Nopal"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OpuntiaFlower"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GoldenChest"
         },
         {
@@ -182,13 +161,6 @@
             "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SilverLeaf"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Sapphire"
         },
         {
             "Name": null,
@@ -258,21 +230,14 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Xoconostle"
+            "ObjectId": "Raffadax.RCP_WhiteTeaLeaf"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Nopal"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OpuntiaFlower"
+            "ObjectId": "Raffadax.RCP_CactusBlossom"
         }
     ]
 }

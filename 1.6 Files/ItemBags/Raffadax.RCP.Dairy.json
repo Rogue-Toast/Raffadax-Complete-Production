@@ -3,7 +3,7 @@
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Dairy",
     "BagName": "Raffadax Dairy Products",
-    "BagDescription": "A bag for storing Raffadax Dairy Products.",
+    "BagDescription": "A bag for storing Raffadax Dairy Products",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
@@ -22,19 +22,19 @@
     },
     "SizeSellers": {
         "Small": [
-            "Marnie"
+            "Pierre"
         ],
         "Medium": [
-            "Marnie"
+            "Pierre"
         ],
         "Large": [
-            "Marnie"
+            "Pierre"
         ],
         "Giant": [
-            "Marnie"
+            "Pierre"
         ],
         "Massive": [
-            "Marnie"
+            "Pierre"
         ]
     },
     "SizeMenuOptions": {
@@ -123,434 +123,434 @@
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AsiagoCheese"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Avocado"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AvocadoMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackGarlic"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackGarlicMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueCheese"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Brie"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BuffaloCheese"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BuffaloMilk"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Camembert"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Chevre"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChipotleMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChipotlePepper"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Chymosin"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Cilantro"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CilantroLimeMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CottageCheese"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Cream"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Dill"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Domiati"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ExtraVirginMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ExtraVirginOliveOil"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GarlicMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Gorgonzola"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JalapenoMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JalapenoPepper"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Ketchup"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_L.helveticus"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_L.lactis"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LacauneSheepMilk"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Lemon"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LemonDillMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LemonJuice"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Lime"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Lipase"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ManchegaSheepMilk"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Manchego"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Mascarpone"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Mayoketchup"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Mozzarella"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_OliveOil"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_OliveOilMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_P.camemberti"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_P.candidum"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_P.glaucum"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_P.roqueforti"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Paneer"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Parmesan"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Pecorino"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Rennet"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Ricotta"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Roquefort"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Rosemary"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RosemaryGarlicMayonnaise"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SheepCheese"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SheepMilk"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SoyMilk"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_TableSalt"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_VeganCheese"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_VoidCheese"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_VoidMilk"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Whey"
         }

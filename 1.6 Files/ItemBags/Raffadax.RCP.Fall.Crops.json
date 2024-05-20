@@ -3,15 +3,15 @@
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Fall.Crops",
     "BagName": "Raffadax Fall Crops",
-    "BagDescription": "A bag for storing Raffadax Fall Crops.",
+    "BagDescription": "A bag for storing Raffadax Fall Crops",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
-        "Small": 660,
-        "Medium": 1980,
-        "Large": 6600,
-        "Giant": 19800,
-        "Massive": 66000
+        "Small": 770,
+        "Medium": 2310,
+        "Large": 7700,
+        "Giant": 23100,
+        "Massive": 77000
     },
     "Capacities": {
         "Small": 30,
@@ -22,19 +22,19 @@
     },
     "SizeSellers": {
         "Small": [
-            "Sandy"
+            "Pierre"
         ],
         "Medium": [
-            "Sandy"
+            "Pierre"
         ],
         "Large": [
-            "Sandy"
+            "Pierre"
         ],
         "Giant": [
-            "Sandy"
+            "Pierre"
         ],
         "Massive": [
-            "Sandy"
+            "Pierre"
         ]
     },
     "SizeMenuOptions": {
@@ -314,13 +314,6 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Liverwort"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Mandrake"
         },
         {
@@ -392,6 +385,27 @@
             "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CreminiMushroom"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PricklyPear"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Nopal"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OpuntiaFlower"
         },
         {
             "Name": null,
@@ -581,6 +595,48 @@
             "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Artemisia"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Xoconostle"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BabyCorn"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GoldenLeaf"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SquashFlower"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackTruffle"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteTruffle"
         }
     ]
 }

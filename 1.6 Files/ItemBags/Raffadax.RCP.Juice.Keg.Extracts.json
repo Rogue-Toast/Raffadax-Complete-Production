@@ -1,0 +1,1160 @@
+{
+    "IsEnabled": true,
+    "ModUniqueId": "Raffadax.RCP",
+    "BagId": "Raffadax.Juice.Keg.Extracts",
+    "BagName": "Raffadax Juice Keg Products (Extracts)",
+    "BagDescription": "A bag for storing Raffadax Juice Keg Products (Extracts)",
+    "IconTexture": "SpringObjects",
+    "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
+    "Prices": {
+        "Small": 1480,
+        "Medium": 4440,
+        "Large": 14800,
+        "Giant": 44400,
+        "Massive": 148000
+    },
+    "Capacities": {
+        "Small": 30,
+        "Medium": 99,
+        "Large": 300,
+        "Giant": 999,
+        "Massive": 9999
+    },
+    "SizeSellers": {
+        "Small": [
+            "Pierre"
+        ],
+        "Medium": [
+            "Pierre"
+        ],
+        "Large": [
+            "Pierre"
+        ],
+        "Giant": [
+            "Pierre"
+        ],
+        "Massive": [
+            "Pierre"
+        ]
+    },
+    "SizeMenuOptions": {
+        "Small": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Medium": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Large": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Giant": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        },
+        "Massive": {
+            "GroupByQuality": true,
+            "InventoryColumns": 12,
+            "InventorySlotSize": 64,
+            "GroupedLayoutOptions": {
+                "GroupsPerRow": 5,
+                "ShowValueColumn": true,
+                "SlotSize": 64
+            },
+            "UngroupedLayoutOptions": {
+                "Columns": 12,
+                "LineBreakIndices": [],
+                "LineBreakHeights": [],
+                "SlotSize": 64
+            }
+        }
+    },
+    "Items": [
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AcornExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AgaveExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AllspiceExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AlmondExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AloeExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AngosturaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AniseExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AnnattoExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BambooExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BasilExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BayLaurelExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BergamotExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BirchExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BitterOrangeExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackGarlicExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackPepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackTruffleExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackWalnutExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BrazilNutExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BuddhasHandExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ButterscotchExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CannabisExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CarambolaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CaramelExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CarawayExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CardamomExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CashewExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CayennePepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CelerySeedExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ChervilExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ChestnutExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ChicoryExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ChicoryRootExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ChipotlePepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ChiveExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CilantroExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CinnamonExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CloveExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CocoaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CocodeMerExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CoconutExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CoffeeExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ColaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CorianderExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CuminExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CurryLeafExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CurseExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DandelionExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DandelionRootExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DarkCocoaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_DillExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_EbonyExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_EucalyptusExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ExtractofErgot"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FennelExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FennelSeedExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FenugreekExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FenugreekSeedExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_FernExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GarlicExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GentianExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GingerExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GinkgoExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GrapeVineExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GrapefruitExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GreenOnionExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GreenPepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GreenTeaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HazelnutExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HollyExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HornNutExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HorseradishExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_HotPepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_JalapenoPepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_JungleMossExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_JuniperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_KalpasiExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_KelpExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LemonExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LemongrassExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LimeExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LindenExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LiverwortExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LotusRootExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LuckExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MacadamiaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MaceExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MahoganyExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MapleSeedExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MarconaAlmondExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MarjoramExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MugwortExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MustardExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MyristicaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_NutmegExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OnionExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OrangeExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OreganoExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PaprikaPepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ParsleyExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PeanutExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PecanExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PeppermintExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PineExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PineNutExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PinkLemonExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PistachioExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PoppySeedExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PsilocybinExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedOnionExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RedPepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RoseHipExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RosemaryExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SaffronExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SageExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SandalwoodExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SarsaparillaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SassafrasExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SavoryExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ScallionExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ScotchBonnetPepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SeaHeartExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SeaweedExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SesameExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ShisoExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SpearmintExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SpiceBerryExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SpringOnionExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SpruceExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_StarfruitExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SumacExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TamarindExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TaroExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TarragonExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ThymeExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TruffleExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_TurmericExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_VanillaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WalnutExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteCocoaExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhitePepperExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteTruffleExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WillowExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WintergreenExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WitchHazelExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WoodruffExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WormwoodExtract"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_YarrowExtract"
+        }
+    ]
+}

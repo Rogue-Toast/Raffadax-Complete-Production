@@ -3,15 +3,15 @@
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Winter.Seeds",
     "BagName": "Raffadax Winter Seeds",
-    "BagDescription": "A bag for storing Raffadax Winter Seeds.",
+    "BagDescription": "A bag for storing Raffadax Winter Seeds",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
-        "Small": 410,
-        "Medium": 1230,
-        "Large": 4100,
-        "Giant": 12300,
-        "Massive": 41000
+        "Small": 430,
+        "Medium": 1290,
+        "Large": 4300,
+        "Giant": 12900,
+        "Massive": 43000
     },
     "Capacities": {
         "Small": 30,
@@ -123,287 +123,301 @@
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BerserkerMushroomStarter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackBeanStarter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCloverSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackSesameSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueCornSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BluePotatoSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CaveCarrotSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CelerySeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChiveSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrocusSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DarkRainbowCarrotSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FrostCapMushroomStarter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GlassGemCornSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GlassPumpkinSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LentilSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LichenStarter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LuminushroomStarter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MarjoramSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MugwortSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PeppermintSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PeriwinkleSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PoinsettiaSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PricklyPearCactusStarter"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RomanescoSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RutabagaSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RyeSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SageSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SnowPeaStarter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SnowYamSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SpearmintSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SquashSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ThymeSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_TurnipSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WaxBeanStarter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WhiteAsparagusSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WhiteBellPepperSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WhiteOnionSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WildOatSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WinterRootSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WintergreenSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WolfsbaneSeeds"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_XoconostleCactusStarter"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_YarrowSeeds"
         }

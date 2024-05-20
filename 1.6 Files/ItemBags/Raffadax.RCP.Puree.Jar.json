@@ -2,16 +2,16 @@
     "IsEnabled": true,
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Puree.Jar",
-    "BagName": "Raffadax Puree Jar Products",
-    "BagDescription": "A bag for storing Raffadax Puree Jar Products.",
+    "BagName": "Raffadax Puree Jar Products (Ac-Ku)",
+    "BagDescription": "A bag for storing Raffadax Puree Jar Products (Ac-Ku)",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
-        "Small": 2820,
-        "Medium": 8460,
-        "Large": 28200,
-        "Giant": 84600,
-        "Massive": 282000
+        "Small": 1410,
+        "Medium": 4230,
+        "Large": 14100,
+        "Giant": 42300,
+        "Massive": 141000
     },
     "Capacities": {
         "Small": 30,
@@ -123,1976 +123,989 @@
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AcaiPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AcornButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AlfredoSauce"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AlliumPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AllspicePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AlmondButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AloeSalve"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AncientFruitPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AnjouPearButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Anko"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AppleButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AppleSauce"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ApricotPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ArtemisiaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BahidajPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BananaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BaobabButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BarbecueSauce"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BearberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BergamotOrangeCurd"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BifrostPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackBeanPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCherryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCurrantPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackGarlicPaste"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackSesameButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackTahini"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackWalnutButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueJazzPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueLotusPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueRaspberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BoxberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrassicaFlowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrazilNutButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrownMustard"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BuddhasHandFruitCurd"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ButterscotchPudding"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CactusBlossomPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CactusFruitPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CantaloupePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarambolaFruitCurd"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CaramelPudding"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarawayFlowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CashewApplePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CashewButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CayennePepperSauce"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChamomilePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CheKhoaiMon"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CherryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChestnutButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChewingTobacco"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChicoryFlowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChileconQueso"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChipotlePepperSauce"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChocolatePudding"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CintamaniPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ClematisPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CloverPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CocoaButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CocodeMerButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CoconutButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CoconutPudding"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CoffeeButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CoffeePudding"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CorianderFlowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CranberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrocusPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrystalFruitPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaccaBananaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaffodilPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaisyPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DandelionPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DarkChocolatePudding"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DarkCocoaButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DatePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DeadMansPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DijonMustard"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DogwoodPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DragonBerryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DragonFruitPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DurianPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ElderberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ElderflowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FairyRosePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FennelFlowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FernFlowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FigPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FireWheelPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FlindersRosePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ForestRosePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ForsythiaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FoxberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FoxglovePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GarlicPaste"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GentianFlowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GingerPaste"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GingerPudding"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GoldenPlumButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GoldenPrunePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GoldenRaisinPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GrapePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GrapefruitCurd"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GreenTomatoPaste"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GreenTomatoSauce"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GrosMichelPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Guacamole"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GuaranaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GuavaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GultheriaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HarmonicPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HawkweedPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HawthornBerryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HazelnutButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HeliconiaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HesperidiumPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HibiscusPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HoneyBarbecueSauce"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HoneyMustard"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HoneyberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HoneycrispAppleButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HoneydewPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HoneysucklePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HornNutButter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HotPepperSauce"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HuaMoaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HuckleberryPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Hummus"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_IndigoFlowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_InfernalPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JabuticabaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JacarandaFlowerPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JalapenoPepperSauce"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JasminePuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JavaBananaPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JuniperPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Ketchup"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_KeyLimeCurd"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_KiwiPuree"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_KumquatCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LarahaOrangeCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LavenderPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LemonCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LilacPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LimeCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LindenPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LycheePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MacadamiaNutButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MahoganySeedButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandarinOrangeCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandragoraFlowerPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandrakePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MangoPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MaplePudding"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MapleSeedButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MarconaAlmondButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Marzipan"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MelonPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MeyerLemonCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MimosaFlowerPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MintFlowerPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MistletoePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Molasses"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MonsteraPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MoonberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MulberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MyristicaPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NettleBlossomPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NigellaPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NinoBananaPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Nougat"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NutmegButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OlivePaste"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OpuntiaPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OrangeCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OsmanthusFlowerPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PapayaPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PaprikaPepperSauce"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PassionFlowerPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PassionFruitPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeachPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeanutButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PearButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PecanButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeriwinklePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PersimmonPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Pesto"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PimentoBerryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PineHoney"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PineNutButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PineapplePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PinkLemonCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PistachioButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PlantainPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoincianaFlowerPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoinsettiaPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoisonAppleButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoisonAppleSauce"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PolarBerryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Pomace"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PomegranatePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoppyButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoppyFlowerPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PreparedHorseradish"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PricklyPearPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PrunePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PumpkinPudding"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PumpkinPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PureedTaroRoot"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PureedVakkhicGrapes"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PureedYarrowFlower"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PureeofDiscord"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_QiFruitPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_QuincePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RaisinPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RambutanPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RaspberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RedGrapefruitCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RhubarbPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoseGrapePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoseHipPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RosePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RowanberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SakuraPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SalmonberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Salsa"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SarsaparillaBerryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SaskatoonPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ScotchBonnetPepperSauce"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SeaHeartButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SloePlumPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SourAppleButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SourCreamOnionDip"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SpiceBerrySauce"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SpinachArtichokeDip"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SquashFlowerPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StarApplePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StardropPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StarfruitCurd"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StrawberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SumacBerryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SummerSpanglePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SummerStarberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunflowerPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunflowerSeedButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SweetGemPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SweetPeaPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TamarindPaste"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TapiocaPearls"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TapiocaPudding"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Tofu"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TomatilloSalsa"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TomatoPaste"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TomatoSauce"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TopinamburPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Treacle"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TulipPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VanillaOrchidPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VanillaPaste"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VanillaPudding"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VioletPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VodkaSauce"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaldmeisterPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WalnutButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WatermelonPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhiteChocolatePudding"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhiteCocoaButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhiteGrapePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhitePeachPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WildGrapePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WildPlumButter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WinterStarberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WisteriaPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WitchHazelPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WolfberryPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WolfsbanePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_XoconostlePuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YateveoPuree"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YellowMustard"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ZaminkandPuree"
         }
     ]
 }

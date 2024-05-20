@@ -3,7 +3,7 @@
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Saplings",
     "BagName": "Raffadax Saplings",
-    "BagDescription": "A bag for storing Raffadax Saplings.",
+    "BagDescription": "A bag for storing Raffadax Saplings",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
@@ -123,1113 +123,1113 @@
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AcaiSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AchioteSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AgaveSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AlmondSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AncientPalmSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AngosturaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AvocadoSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BaobabSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BayLaurelSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BearberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BergamotSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BirchSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackBambooSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCacaoSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCherrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCurrantSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackOakSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackOliveSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackWalnutSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackthornSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JavaBananaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueRaspberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueberryBushSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BodhiSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrazilNutSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BuddhasHandSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CacaoSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarambolaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CashewAppleSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChestnutSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CinchonaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CinnamomumSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ClematisSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CloveSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CocodeMerSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CorpseFlowerSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrabappleSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CranberryBushSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrystalFruitSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CurrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DateSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DeadMansSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DogwoodSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DragonFruitCactusSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DryadSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DurianSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_EbonySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ElderSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ElderberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FicusSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ForestPlumSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ForestRoseSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ForsythiaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FoxberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_FusangSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GildedCoconutSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GildedWalnutSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GinkgoSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GoldenPlumSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GrapefruitSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GrosMichelSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GuaranaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GuavaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HagTreeSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HawthornSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HeliconiaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HibiscusSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HollySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HoneyberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HoneycrispSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HoneysuckleSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HuaMoaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_HuckleberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_IlliciumSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_InfernalSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_IslandCoconutSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JabuticabaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JacarandaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JungleMossSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_JuniperSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_KeyLimeSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_KiwiSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_KolaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_KumquatSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LarahaOrangeSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LavenderSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LemonSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LilacSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LimeSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LindenSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_LycheeSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MacadamiaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MaenadSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MandarinSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MarconaAlmondSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MeyerLemonSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MimosaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MonkeyLianaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MonsteraSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MoonberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MulberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_MyristicaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_NinoBananaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_OliveSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_OsmanthusSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PalmGroveSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PapayaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PearSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PecanSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PersimmonSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PimentoSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PineNutSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PinkLemonSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PistachioSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PlantainSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PolarBerrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_QuinceSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RainbowEucalyptusSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RambutanSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RaspberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AnjouPearSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaccaBananaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RooibosSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RoseGrapeSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RosemarySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RowanSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_PoincianaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RedGrapefruitSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SaguaroCactusSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SakuraSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SalmonberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SandalwoodSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SaskatoonSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SassafrasSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SpiceBerrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SpruceSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_StarAppleSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_StarFruitSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_StarJasmineSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_StardropSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_StrawberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SugarcaneSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SumacSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SummerStarberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SunberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SweetGemSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_TamarindSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WalnutSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WhiteCacaoSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WhitePeachSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WildHazelnutSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WillowSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WinterStarberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WisteriaSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WitchHazelSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WolfberrySapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_YateveoSapling"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_YggdrasilSapling"
         }

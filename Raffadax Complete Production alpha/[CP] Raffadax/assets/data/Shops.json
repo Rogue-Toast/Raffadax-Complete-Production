@@ -379,7 +379,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_TreasurePlantStarter",
-                            "Condition": "PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Coyote}} 10",
                             "IgnoreShopPriceModifiers": true,
                             "UseObjectDataPrice": true
                         },
@@ -900,7 +900,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedCoconutSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Coyote}} 10",
                             "IgnoreShopPriceModifiers": true,
                             "UseObjectDataPrice": true
                         },
@@ -1412,7 +1412,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_StardropSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Coyote}} 10",
                             "IgnoreShopPriceModifiers": true,
                             "UseObjectDataPrice": true
                         },
@@ -2456,7 +2456,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GildedWalnutSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Coyote}} 10",
                             "IgnoreShopPriceModifiers": true,
                             "UseObjectDataPrice": true
                         },
@@ -2973,7 +2973,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_GoldenPumpkinSeeds",
-                            "Condition": "PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10"
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Coyote}} 10"
                         },
                         {
                             "RandomItemId": [
@@ -3487,7 +3487,7 @@
                         },
                         {
                             "ItemId": "(O)928",
-                            "Condition": "PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Coyote}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Puck}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Puck}} 10, PLAYER_HEARTS Current {{Amanra}} 10, PLAYER_HEARTS Current {{Astrid}} 10, PLAYER_HEARTS Current {{Shuck}} 10, PLAYER_HEARTS Current {{Xolotl}} 10, PLAYER_HEARTS Current {{Coyote}} 10",
                             "Price": 50000,
                             "IgnoreShopPriceModifiers": true
                         },
@@ -6995,6 +6995,109 @@
                     ],
                     "AvoidRepeat": true,
                     "AvailableStock": 1
+                }
+            }
+        },
+        {
+            "LogName": "Raffadax Vanilla Shop Edit - IceCreamStand Recipes",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "IceCreamStand",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_ChocolateIceCream": {
+                    "ItemId": "{{ModId}}_ChocolateIceCream",
+                    "IsRecipe": true,
+                    "Price": 100
+                },
+                "{{ModId}}_CookiesCream": {
+                    "ItemId": "{{ModId}}_CookiesCream",
+                    "IsRecipe": true,
+                    "Price": 100
+                },
+                "{{ModId}}_GreenTeaIceCream": {
+                    "ItemId": "{{ModId}}_GreenTeaIceCream",
+                    "IsRecipe": true,
+                    "Price": 100
+                },
+                "{{ModId}}_MintChipIceCream": {
+                    "ItemId": "{{ModId}}_MintChipIceCream",
+                    "IsRecipe": true,
+                    "Price": 100
+                },
+                "{{ModId}}_PistachioIceCream": {
+                    "ItemId": "{{ModId}}_PistachioIceCream",
+                    "IsRecipe": true,
+                    "Price": 100
+                },
+                "{{ModId}}_RedBeanIceCream": {
+                    "ItemId": "{{ModId}}_RedBeanIceCream",
+                    "IsRecipe": true,
+                    "Price": 100
+                },
+                "{{ModId}}_SakuraIceCream": {
+                    "ItemId": "{{ModId}}_SakuraIceCream",
+                    "IsRecipe": true,
+                    "Price": 100
+                },
+                "{{ModId}}_StrawberryIceCream": {
+                    "ItemId": "{{ModId}}_StrawberryIceCream",
+                    "IsRecipe": true,
+                    "Price": 100
+                },
+                "{{ModId}}_VanillaIceCream": {
+                    "ItemId": "{{ModId}}_VanillaIceCream",
+                    "IsRecipe": true,
+                    "Price": 100
+                }
+            }
+        },
+        {
+            "LogName": "Raffadax Vanilla Shop Edit - IceCreamStand objects",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "IceCreamStand",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_ChocolateIceCream": {
+                    "ItemId": "{{ModId}}_ChocolateIceCream",
+                    "Price": 1000
+                },
+                "{{ModId}}_CookiesCream": {
+                    "ItemId": "{{ModId}}_CookiesCream",
+                    "Price": 300
+                },
+                "{{ModId}}_GreenTeaIceCream": {
+                    "ItemId": "{{ModId}}_GreenTeaIceCream",
+                    "Price": 730
+                },
+                "{{ModId}}_MintChipIceCream": {
+                    "ItemId": "{{ModId}}_MintChipIceCream",
+                    "Price": 3750
+                },
+                "{{ModId}}_PistachioIceCream": {
+                    "ItemId": "{{ModId}}_PistachioIceCream",
+                    "Price": 940
+                },
+                "{{ModId}}_RedBeanIceCream": {
+                    "ItemId": "{{ModId}}_RedBeanIceCream",
+                    "Price": 640
+                },
+                "{{ModId}}_SakuraIceCream": {
+                    "ItemId": "{{ModId}}_SakuraIceCream",
+                    "Price": 740
+                },
+                "{{ModId}}_StrawberryIceCream": {
+                    "ItemId": "{{ModId}}_StrawberryIceCream",
+                    "Price": 980
+                },
+                "{{ModId}}_VanillaIceCream": {
+                    "ItemId": "{{ModId}}_VanillaIceCream",
+                    "Price": 800
                 }
             }
         }
