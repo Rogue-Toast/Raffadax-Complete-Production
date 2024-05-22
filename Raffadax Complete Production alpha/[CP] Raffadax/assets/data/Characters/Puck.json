@@ -41,7 +41,7 @@
 						{
 							"Id": "Default",
 							"Location": "Woods",
-							"Tile": { "X": 29, "Y": 6 },
+							"Tile": { "X": 26, "Y": 6 },
 							"Direction": "down",
 							"When": {
 								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
@@ -93,8 +93,8 @@
 			"Action": "EditData",
       		"Target": "Data/animationDescriptions",
       		"Entries": {
-				"{{Lowercase:{{ModID}}}}_puck_Rain": "19/19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 17 17 19 19 17 19 17 19 19 19 19 19/19",
-				"{{Lowercase:{{ModID}}}}_puck_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 18 18 16 18 16 18 16 16 16 16 16 16 16 17 17 16 17 16 16 16 16 16 16 16 16 16 16 16/16"
+				"{{Lowercase:{{ModID}}}}_puck_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 18 18 16 18 16 18 16 16 16 16 16 16 16 17 17 16 17 16 16 16 16 16 16 16 16 16 16 16/16",
+				"{{Lowercase:{{ModID}}}}_puck_Rain": "19/19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 17 17 19 19 17 19 17 19 19 19 19 19/19"
       		}
 		},
 
@@ -115,8 +115,8 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			},
 			"Entries": {
-				"rain": "0 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Rain",
-				"spring": "0 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 29 6 2 {{Lowercase:{{ModID}}}}_puck_Sit"
+				"spring": "0 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Sit",
+				"rain": "0 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Rain"
 			}
 		},
 
@@ -129,8 +129,8 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			},
 			"Entries": {
-				"rain": "0 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain",
-				"spring": "0 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit"
+				"spring": "0 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit",
+				"rain": "0 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain"
 			}
 		},
 
