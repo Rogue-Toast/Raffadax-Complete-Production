@@ -3,15 +3,15 @@
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Summer.Crops",
     "BagName": "Raffadax Summer Crops",
-    "BagDescription": "A bag for storing Raffadax Summer Crops.",
+    "BagDescription": "A bag for storing Raffadax Summer Crops",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
-        "Small": 540,
-        "Medium": 1620,
-        "Large": 5400,
-        "Giant": 16200,
-        "Massive": 54000
+        "Small": 630,
+        "Medium": 1890,
+        "Large": 6300,
+        "Giant": 18900,
+        "Massive": 63000
     },
     "Capacities": {
         "Small": 30,
@@ -22,19 +22,19 @@
     },
     "SizeSellers": {
         "Small": [
-            "Sandy"
+            "Pierre"
         ],
         "Medium": [
-            "Sandy"
+            "Pierre"
         ],
         "Large": [
-            "Sandy"
+            "Pierre"
         ],
         "Giant": [
-            "Sandy"
+            "Pierre"
         ],
         "Massive": [
-            "Sandy"
+            "Pierre"
         ]
     },
     "SizeMenuOptions": {
@@ -370,6 +370,27 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PricklyPear"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Nopal"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_OpuntiaFlower"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_RadioactiveMushroom"
         },
         {
@@ -468,13 +489,6 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhiteTeaLeaf"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_WildBarley"
         },
         {
@@ -489,6 +503,13 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Xoconostle"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Zucchini"
         },
         {
@@ -497,6 +518,41 @@
             "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_SquashFlower"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BabyCorn"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_JalapenoPepper"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GreenTomato"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_BlackTruffle"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WhiteTruffle"
         }
     ]
 }

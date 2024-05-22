@@ -3,15 +3,15 @@
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Special.Seeds",
     "BagName": "Raffadax Special Seeds",
-    "BagDescription": "A bag for storing Raffadax Special Seeds.",
+    "BagDescription": "A bag for storing Raffadax Special Seeds",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
-        "Small": 40,
-        "Medium": 120,
-        "Large": 400,
-        "Giant": 1200,
-        "Massive": 4000
+        "Small": 20,
+        "Medium": 60,
+        "Large": 200,
+        "Giant": 600,
+        "Massive": 2000
     },
     "Capacities": {
         "Small": 30,
@@ -123,30 +123,16 @@
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_GemCapStarter"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PricklyPearCactusStarter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_TreasurePlantStarter"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_XoconostleCactusStarter"
         }
     ]
 }

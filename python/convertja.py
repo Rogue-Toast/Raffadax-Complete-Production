@@ -216,6 +216,7 @@ def buildCooking(srcDir, modId, vanillaObjects, i18n):
                   "Target": "Data/CookingRecipes",
                   "Entries": {}}
     jsonFiles = []
+    buyableRecipes = {}
     for entry in objectscan(objDir):
         jsonFiles.append(entry.path.replace("\\", "/"))
     for jf in jsonFiles:
@@ -241,6 +242,12 @@ def buildCooking(srcDir, modId, vanillaObjects, i18n):
                 ingredients.append(iStr)
             newRecipes["Entries"]["{}_{}".format(modId, outName)] = "{}/2 2/{}/null/{{{{i18n:{}.RecipeName}}}}".format(" ".join(ingredients), output, outName)
             i18n["en"]["{}.RecipeName".format(outName)] = objData["Name"]
+            if "CanPurchase" in objData["Recipe"] and objData["Recipe"]["CanPurchase"] and "PurchaseFrom" in objData["Recipe"]:
+                buyableRecipes["{}_{}".format(modId, outName)] = {"Source": objData["Recipe"]["PurchaseFrom"]}
+                if "PurchasePrice" in objData["Recipe"]:
+                    buyableRecipes["{}_{}".format(modId, outName)]["Price"] = objData["Recipe"]["PurchasePrice"]
+    with open("jarecipeshops.json", 'w') as f:
+        json.dump(buyableRecipes, f, indent=4, ensure_ascii=False)
     return [newRecipes, i18n]
 
 
@@ -452,6 +459,7 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                   "Action": "Load",
                   "Target": "Mods/{}/Objects/{}".format(modId, mode),
                   "FromFile": "assets/textures/{}.png".format(spritesheet)}
+    buyableObjects = {}
     i = 0
     jsonFiles = []
     spriteFiles = {}
@@ -529,12 +537,13 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
             newObj.IsDrink = objData["EdibleIsDrink"]
         if "EdibleBuffs" in objData and objData["EdibleBuffs"]:
             newBuff = Buff()
-            newBuff.Id = "{}_buff".format(newObj.Name)
+            newBuff.Id = "food" if not newObj.IsDrink else "drink"
             for bk, bv in objData["EdibleBuffs"].items():
                 if bk in ["Farming", "Mining", "Foraging", "Luck", "Fishing"]:
                     setattr(newBuff, "{}Level".format(bk), bv)
                 else:
                     setattr(newBuff, bk, bv)
+            pprint.pprint(newBuff.to_dict())
             newObj.Buffs.append(newBuff.to_dict())
         if "ContextTags" in objData:
             newObj.ContextTags = objData["ContextTags"]
@@ -583,6 +592,10 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
         newObjects["Entries"][newObj.Name] = newObj.to_dict()
         spritename = jf[0:-5] + ".png"
         spriteFiles[spritename] = newObj.SpriteIndex
+        if "CanPurchase" in objData and "PurchaseFrom" in objData:
+            buyableObjects[newObj.Name] = {"Source": objData["PurchaseFrom"]}
+            if "PurchasePrice" in objData:
+                buyableObjects[newObj.Name]["Price"] = objData["PurchasePrice"]
         i += 1
     for npc, tierData in giftprefs.items():
         if npc in VANILLANPCS:
@@ -639,6 +652,14 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
     for npc, prefData in conditionalGifts.items():
         cGiftList.append(prefData)
     contextTags = list(set(contextTags))
+    if os.path.exists("jaobjectshops.json"):
+        existingBuyables = pyjson5.load(open("jaobjectshops.json", encoding="utf-8"))
+        for k, v in buyableObjects.items():
+            existingBuyables[k] = v
+    else:
+        existingBuyables = buyableObjects
+    with open("jaobjectshops.json", "w") as f:
+        json.dump(existingBuyables, f, indent=4, ensure_ascii=False)
     return [newObjects, spriteFiles, newGifts, i18n, objTexture, cGiftList, contextTags, raffGifts]
 
 
