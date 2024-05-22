@@ -42,13 +42,12 @@ class Buff():
     MaxStamina: Optional[int] = 0
 
     def to_dict(self):
-        outDict = {"Id": "",
-                   "Duration": 0,
+        outDict = {"Duration": 0,
                    "IsDebuff": False,
                    "CustomAttributes": {}}
         for k, v in self.__dict__.items():
             if k in ["Id", "Duration"]:
-                outDict[k] == v
+                outDict[k] = v
             else:
                 if v:
                     outDict["CustomAttributes"][k] = v

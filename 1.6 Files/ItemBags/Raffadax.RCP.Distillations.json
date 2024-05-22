@@ -2,16 +2,16 @@
     "IsEnabled": true,
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Distillations",
-    "BagName": "Raffadax Distillations Products",
-    "BagDescription": "A bag for storing Raffadax Distillations Products.",
+    "BagName": "Raffadax Distillations Products (Ab-Da)",
+    "BagDescription": "A bag for storing Raffadax Distillations Products (Ab-Da)",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
-        "Small": 7160,
-        "Medium": 21480,
-        "Large": 71600,
-        "Giant": 214800,
-        "Massive": 716000
+        "Small": 1800,
+        "Medium": 5400,
+        "Large": 18000,
+        "Giant": 54000,
+        "Massive": 180000
     },
     "Capacities": {
         "Small": 30,
@@ -123,5014 +123,1262 @@
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Absinthe"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AbyssalBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AcaiBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AcaiLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AcornLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Akvavit"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Alkahest"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AlliumBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AlliumBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AlliumFlowerLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AlliumNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AllspiceBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AllspiceLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Amaretto"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Amaro"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Amrita"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AncientFruitBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AncientFruitLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AncientNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AngosturaBitters"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AnjouPearBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AnjouPearLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AnnattoLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Aperitif"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AppleBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AppleLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Applejack"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ApricotBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ApricotLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ArcticBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ArcticVerglas"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ArtemisiaBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ArtemisiaBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ArtemisiaNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_AuroraBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BadLuckTonic"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BahidajBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BahidajLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BananaBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BaobabBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BaobabLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Barenjager"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BasilLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BearTonic"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BearberryBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BergamotBitters"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BergamotBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BergamotLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BerserkerTonic"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BifrostBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BifrostDrakas"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BifrostNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BirchBarkBitters"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCherryBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCherryLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCremedeCacao"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackCurrantBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackWalnutNocino"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackberryBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackberryLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlackthornBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueCuracao"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueJazzLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueJazzNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueLotusBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueLotusBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueLotusLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueLotusNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueRaspberryBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueRaspberryLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueberryBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BlueberryLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Bourbon"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BoxberryBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BoxberryLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Brandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrandyofChaos"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrandyofDiscord"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrandyofTranquility"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrassicaFlowerBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrassicaFlowerBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrassicaFlowerLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrassicaFlowerNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BrazilNutLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BuddhasHandBitters"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BuddhasHandBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_BuddhasHandLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ButterscotchSchnapps"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CactusBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CactusBlossomBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CactusBlossomLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CactusFruitBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CactusFruitLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CactusNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CaltropLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Calvados"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CannabisBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CannabisLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CannabisNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CantaloupeBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CantaloupeLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarambolaBitters"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarambolaBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarambolaLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CaramelLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarawayBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarawayFlowerBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarawayFlowerLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CarawayNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CardamomBitters"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CardamomLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CashewAppleBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CashewLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChamomileBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChamomileBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChamomileLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChamomileNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChaoticDrakas"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CherryBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CherryLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChervilLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChestnutLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChicoryBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChicoryFlowerBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChicoryFlowerLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChicoryFlowerNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChicoryRootLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ChocolateLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CilantroLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CinnamonSchnapps"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CintamaniBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CintamaniMidus"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CintamaniNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ClematisBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ClematisBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ClematisLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ClematisNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CloverBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CloverBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CloverLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CloverNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CocodeMerBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CoconutBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CoconutLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CoconutRum"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CoeurdelaMerLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CoffeeLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_Cognac"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_ColaLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CorianderBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CorianderFlowerBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CorianderFlowerLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CorianderNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CorpseFlowerDrakas"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CorpseFlowerNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CranberryBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CranberryLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CremedeBanana"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CremedeCacao"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CremedeCassis"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CremedeCocodeMer"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CremedeMenthe"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CremedeNoyaux"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CremedeViolette"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrocusLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrocusNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrownRevontulet"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrystalFruitBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CrystalFruitLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CucumberLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_CurryLeafBitters"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaccaBananaBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaccaBananaLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaffodilLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaffodilNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaisyBalsam"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaisyBrandy"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaisyLiqueur"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DaisyNectar"
         },
         {
             "Name": null,
             "IsBigCraftable": false,
-            "HasQualities": false,
+            "HasQualities": true,
             "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_DandelionLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DandelionNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DarkChocolateLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DarkRum"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DateBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DateLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DeadMansBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DeadMansGin"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Digestif"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DillLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DogwoodBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DogwoodBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DogwoodLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DogwoodNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DragonBerryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DragonBerryNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DragonFruitBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DragonFruitLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DryVermouth"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DryadMidus"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DryadNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DurianBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_DurianLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_EaudeVie"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ElderberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ElderberryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ElderflowerBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ElderflowerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ElderflowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ElderflowerNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Ethanol"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FairyRoseLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FairyRoseNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FairyTonic"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Feni"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FennelBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FennelFlowerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FennelFlowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FennelNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FenugreekBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FernFlowerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FernFlowerMidus"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FernFlowerNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FernFlowerTonic"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Fernet"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FigBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FigLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FireWheelBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FireWheelBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FireWheelLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FireWheelNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FlameDrakas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FlindersRoseBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FlindersRoseBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FlindersRoseLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FlindersRoseNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ForestRoseBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ForestRoseLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ForestRoseMidus"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ForestRoseNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ForsythiaBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ForsythiaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ForsythiaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ForsythiaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FoxTonic"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FoxberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FoxgloveBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FoxgloveBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FoxgloveLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FoxgloveNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Frostmjod"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_FullMoonshine"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Genepi"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Genever"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Gentian"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GentianBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GentianBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GentianFlowerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GentianFlowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GentianNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GildedBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Gin"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GingerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GingerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GoldenPlumBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GoldenPlumLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GoldenPruneBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GoldenPruneLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GoldenRaisinBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GoldenRaisinLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GrapeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GrapefruitBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GrapefruitBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Grappa"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GreenTeaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GrosMichelBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GrosMichelLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GuaranaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GuaranaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GuardianSpirit"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GuavaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GuavaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GultheriaBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GultheriaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GultheriaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GultheriaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HarmonicBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HarmonicMidus"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HarmonicNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HawkweedBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HawkweedBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HawkweedLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HawkweedNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HawthornBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HawthornLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HazelnutLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HeliconiaBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HeliconiaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HeliconiaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HeliconiaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HerbsdeMajorca"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HesperidiumBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HibiscusBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HibiscusBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HibiscusLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HibiscusNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Hierbas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HolyBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HoneyberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HoneyberryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HoneycrispAppleBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HoneydewBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HoneydewLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HoneysuckleBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HoneysuckleBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HoneysuckleLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HoneysuckleNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HostileSpirit"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HotPepperBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HotPepperLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HuaMoaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HuaMoaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HuckleberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_HuckleberryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_IndigoBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_IndigoBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_IndigoLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_IndigoNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_InfernalBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_InfernalDrakas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_InfernalNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_InfernalNegus"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_IrishCream"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JabuticabaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JabuticabaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JacarandaBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JacarandaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JacarandaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JacarandaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JalapenoLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JasmineBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JasmineBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JasmineLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JasmineNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JavaBananaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JavaBananaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JuniperBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JuniperLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Kefir"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_KeyLimeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_KeyLimeLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_KiwiBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_KiwiLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Kummel"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_KumquatBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_KumquatLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LarahaOrangeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LavenderBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LavenderBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LavenderLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LavenderNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LemonBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LemonBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LemongrassLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LethalDram"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LilacBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LilacBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LilacLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LilacNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LimeBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LimeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LimeLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Limoncello"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LindenBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LindenBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LindenLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LindenNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LiquoreAlloro"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LuckTonic"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LuminousPotion"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LycheeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LycheeLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MacadamiaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MaelstromWater"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MaenadMidus"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MaenadNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MaltWhiskey"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandarinOrangeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandarinOrangeLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandragoraFlowerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandrakeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandrakeDrakas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandrakeNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MandrakeTears"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MangoBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MangoLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MapleLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MapleSeedLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MarconaAmaretto"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MelonBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MelonLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MeyerLemonBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MeyerLimoncello"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Mezcal"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MimosaFlowerBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MimosaFlowerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MimosaFlowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MimosaFlowerNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MintFlowerBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MintFlowerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MintFlowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MintFlowerNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MistletoeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MistletoeLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MonsteraBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MonsteraLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MoonbeamBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MoonberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MoonberryGin"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MoonlightDrakas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MoonlightNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MulberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MulberryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MyristicaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MyristicaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Nectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NectarofStrife"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NettleBlossomBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NettleBlossomBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NettleBlossomLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NettleBlossomNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NigellaBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NigellaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NigellaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NigellaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NightshadeLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NinoBananaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NinoBananaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Nocino"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NovumElementum"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NoxiousBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NutmegLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OatWhiskey"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OpuntiaBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OpuntiaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OpuntiaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OpuntiaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OrangeBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OrangeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OrangeLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OreganoLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OsmanthusBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OsmanthusBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OsmanthusLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_OsmanthusNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Ouzo"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Pamplemousse"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PamplemousseRouge"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PapayaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PapayaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PassionFlowerBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PassionFlowerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PassionFlowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PassionFlowerNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PassionFruitBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PassionFruitLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeachBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeachLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeachSchnapps"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeanutButterWhiskey"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeanutLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PearBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PearLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PecanLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeppercornBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeppermintSchnapps"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeriwinkleBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeriwinkleBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeriwinkleLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PeriwinkleNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PersimmonBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PersimmonLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PhoenixTears"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PimentoBerryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PimentoBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PineNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PineNutLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PineappleBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PineappleLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PinkLemonBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PinkLemonBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PinkLemonLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Piquette"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Pisco"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PistachioLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PlantainAmaro"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoinsettiaBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoinsettiaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoinsettiaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoinsettiaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoisonAppleBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoisonAppleLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Poitin"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PolarBerryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PolarNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PomegranateBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PomegranateLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoppyFlowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PoppyFlowerNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PotatoVodka"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PricklyPearBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PricklyPearLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PruneBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PruneLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PumpkinBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PumpkinLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_QiFruitBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_QiFruitLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_QuinceBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_QuinceLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RainforestDrakas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RainforestNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RainforestTonic"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RainsofBunzi"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RainsofYingarna"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RaisinBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RaisinLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RambutanBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RambutanLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RaspberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RaspberryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RedGrapefruitBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RhubarbAperitif"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RhubarbBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RhubarbLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RooibosBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RooibosLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RooibosNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RootBeerSchnapps"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoseBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoseBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoseGrappa"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoseHipBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoseHipLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoseNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RosemaryBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RosemaryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RosemaryNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Rosolio"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RowanberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RowanberrySchnapps"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoyalPoincianaBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoyalPoincianaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoyalPoincianaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RoyalPoincianaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Rum"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RyeWhiskey"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SacredForestBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SageLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SakuraBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SakuraBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SakuraLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SakuraNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SalmonberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SalmonberryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Sambuca"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SandalwoodBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SarsaparillaBerryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SarsaparillaBerryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SarsaparillaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SaskatoonBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SaskatoonLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SavoryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ScotchWhisky"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Sherry"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ShiningEverclear"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ShisoLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Shochu"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SloeGin"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Soju"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SourAppleBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SourAppleSchnapps"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SpiceBerryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SpiceBerryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SquashFlowerBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SquashFlowerBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SquashFlowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SquashFlowerNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StarAppleBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StarAppleLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StardropBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StardropLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StardropNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StarfireBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StarfruitBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StarfruitBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StarfruitLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StarlightBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SterlingBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StrawberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_StrawberryLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SumacBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SumacLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SummerSpangleLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SummerSpangleNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SummerStarLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SummerStarberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SummerStarlightMidus"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SummerStarlightNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunbeamBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunberryTequila"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunflowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunflowerNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunlightMidus"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SunlightNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SweetGemBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SweetGemLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SweetGemNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SweetPeaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SweetPeaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SweetPotatoVodka"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SweetVermouth"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TamarindBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TamarindLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TaroVodka"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TarragonLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TempestBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Tentura"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Tequila"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TequilaAnejo"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TequilaReposado"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TopinamburBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TopinamburBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TopinamburLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TopinamburNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TripleSec"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TulipLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TulipNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TurmericLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VakkhicBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VanillaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VanillaOrchidBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VanillaOrchidBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VanillaOrchidLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VanillaOrchidNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VenomofJormungandr"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VertigoDram"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VioletBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VioletBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VioletNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Vodka"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_VoidTonic"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaldmeisterBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaldmeisterDrakas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaldmeisterLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaldmeisterNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WatermelonBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WatermelonSchnapps"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofCocytus"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofHubur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofHvergelmir"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofLethe"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofMimir"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofNimue"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofPhlegethon"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofSanzu"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofStyx"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofUrdarbrunnr"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WaterofVaitarna"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WatersofAcheron"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WatersofGjoll"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WatersofUhlanga"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Whiskey"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Whisky"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhiteChocolateLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhiteCremedeCacao"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhiteGrapeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WhitePeachBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WildGrapeBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WildPlumBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WildPlumLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WinterStarLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WinterStarberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WinterStarlightDrakas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WinterStarlightNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WintergreenLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WisteriaBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WisteriaBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WisteriaLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WisteriaNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WitchHazelBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WitchHazelBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WitchHazelLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WitchHazelNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WolfTonic"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WolfberryBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WolfsbaneBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WolfsbaneDrakas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WolfsbaneLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WolfsbaneNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WoodruffLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_XoconostleBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_XoconostleLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YamVodka"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YarrowBalsam"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YarrowBitters"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YarrowBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YarrowFlowerLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YarrowLiqueur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YarrowNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YateveoBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YateveoDrakas"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YateveoNectar"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_YauponGin"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ZaminkandBrandy"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": false,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Zirbenschnaps"
         }
     ]
 }

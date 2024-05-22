@@ -3,7 +3,7 @@
     "ModUniqueId": "Raffadax.RCP",
     "BagId": "Raffadax.Rare.Forage",
     "BagName": "Raffadax Rare Forage",
-    "BagDescription": "A bag for storing Raffadax Rare Forage.",
+    "BagDescription": "A bag for storing Raffadax Rare Forage",
     "IconTexture": "SpringObjects",
     "IconPosition": "{X:0 Y:0 Width:0 Height:0}",
     "Prices": {
@@ -125,98 +125,7 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Turmeric"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ResplendentFeather"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SilverFeather"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SeraphFeather"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WendigoAntler"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RocFeather"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_LeviathanScale"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_MythrilFeather"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_JackalopeAntlers"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_PhoenixFeather"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_SilverLeaf"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_RadioactiveFeather"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_Mandrake"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_IridiumFeather"
+            "ObjectId": "Raffadax.RCP_TulikkoFur"
         },
         {
             "Name": null,
@@ -230,49 +139,7 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GoldenAntler"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_CassavaRoot"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GoldenLeaf"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_AlkonostFeather"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GoldenFeather"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GlassPumpkin"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_WerewolfClaw"
+            "ObjectId": "Raffadax.RCP_ThunderbirdFeather"
         },
         {
             "Name": null,
@@ -286,20 +153,6 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_TulikkoFur"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_NagualWhiskers"
-        },
-        {
-            "Name": null,
-            "IsBigCraftable": false,
-            "HasQualities": true,
-            "RequiredSize": "Small",
             "ObjectId": "Raffadax.RCP_KrakenHook"
         },
         {
@@ -307,7 +160,154 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_ThunderbirdFeather"
+            "ObjectId": "Raffadax.RCP_GoldenAntler"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SilverFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GlassPumpkin"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SilverLeaf"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GarudaFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_AlkonostFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_LeviathanScale"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WerewolfClaw"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RocFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_WendigoAntler"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GoldenFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_MythrilFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Mandrake"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_ResplendentFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_PhoenixFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_CassavaRoot"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_JackalopeAntlers"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_RadioactiveFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_SeraphFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_Turmeric"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_IridiumFeather"
+        },
+        {
+            "Name": null,
+            "IsBigCraftable": false,
+            "HasQualities": true,
+            "RequiredSize": "Small",
+            "ObjectId": "Raffadax.RCP_GoldenLeaf"
         },
         {
             "Name": null,
@@ -321,7 +321,7 @@
             "IsBigCraftable": false,
             "HasQualities": true,
             "RequiredSize": "Small",
-            "ObjectId": "Raffadax.RCP_GarudaFeather"
+            "ObjectId": "Raffadax.RCP_NagualWhiskers"
         }
     ]
 }

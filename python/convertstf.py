@@ -61,6 +61,8 @@ SHOPTONPC = {"Djinn": "Amanra",
              }
 vanillaObjects = pyjson5.load(open("vanillaObjects.json", encoding="utf-8"))
 vanillaBC = pyjson5.load(open("vanillaBigCraftables.json", encoding="utf-8"))
+jarecipes = pyjson5.load(open("jarecipeshops.json", encoding="utf-8"))  # recipes with purchase data only in JsonAssets source
+jaobjects = pyjson5.load(open("jaobjectshops.json", encoding="utf-8"))  # object with purchase data only in JA source
 RAFFNPCS = ["Amanra", "Astrid", "Coyote", "Mephisto", "Puck", "Shuck", "Xolotl",
             "Valkyrie"]
 GUSUNDERPRICED = ["Raffadax.RCP_Waldmeister", "Raffadax.RCP_AmberAle", "Raffadax.RCP_AppleSoda", "Raffadax.RCP_ArnoldPalmer", "Raffadax.RCP_BlueRaspberryLemonade", "Raffadax.RCP_BobaTea", "Raffadax.RCP_BongsutangTea", "Raffadax.RCP_Braggot", "Raffadax.RCP_ButterscotchBeer", "Raffadax.RCP_CafeCaramel", "Raffadax.RCP_Cauim", "Raffadax.RCP_CelticBreakfastTea", "Raffadax.RCP_ChaiTea", "Raffadax.RCP_ChandanTea", "Raffadax.RCP_CherryBlossomBeer", "Raffadax.RCP_CherryCola", "Raffadax.RCP_Chicha",
@@ -293,6 +295,34 @@ def buildShops(fileIn: str, fileOut: str):
                         inv.TradeItemAmount = ist["StockCurrencyStack"]
                     changeNode["Entries"][translateName(inm)] = inv.to_dict()
         newShops["Changes"].append(changeNode)
+    # Recipes with shop data from JA
+    changeNode = {"LogName": "Raffadax Vanilla Shop Edit - IceCreamStand Recipes",
+                  "Action": "EditData",
+                  "Target": "Data/Shops",
+                  "TargetField": ["IceCreamStand", "Items"],
+                  "Entries": {}
+                  }
+    for itemName, shopData in jarecipes.items():
+        if shopData["Source"] == "Town":
+            inv = Inventory()
+            inv.ItemId = itemName
+            inv.Price = int(shopData["Price"])
+            inv.IsRecipe = True
+            changeNode["Entries"][itemName] = inv.to_dict()
+    newShops["Changes"].append(changeNode)
+    changeNode = {"LogName": "Raffadax Vanilla Shop Edit - IceCreamStand objects",
+                  "Action": "EditData",
+                  "Target": "Data/Shops",
+                  "TargetField": ["IceCreamStand", "Items"],
+                  "Entries": {}
+                  }
+    for itemName, shopData in jaobjects.items():
+        if shopData["Source"] == "Town":
+            inv = Inventory()
+            inv.ItemId = itemName
+            inv.Price = int(shopData["Price"])
+            changeNode["Entries"][itemName] = inv.to_dict()
+    newShops["Changes"].append(changeNode)
     return [newShops, i18n]
 
 
