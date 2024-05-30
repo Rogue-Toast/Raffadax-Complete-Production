@@ -325,7 +325,7 @@ def artisanBag():
             buildBag("{}.Juices".format(bagid), "{} (Juices A-{})".format(bagContents, lastLetter), firstJuice, hasqualities=True)
             buildBag("{}.Juices.2".format(bagid), "{} (Juices {}-Z)".format(bagContents, firstLetter), secondJuice, hasqualities=True)
             buildBag("{}.Extracts".format(bagid), "{} (Extracts)".format(bagContents), extracts, hasqualities=True)
-            buildBag(bagid, "{} Waters & Misc", misc, hasqualities=True)
+            buildBag(bagid, "{} Waters & Misc".format(bagContents), misc, hasqualities=True)
         elif bagid == "Preserves.Jar":
             jelly = []
             jam = []

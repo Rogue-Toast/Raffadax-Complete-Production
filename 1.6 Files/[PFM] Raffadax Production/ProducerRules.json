@@ -19331,6 +19331,17 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
+        "InputIdentifier": "Raffadax.RCP_CaperLeaves",
+        "OutputIdentifier": "Raffadax.RCP_PickledCaperLeaves",
+        "OutputTranslationKey": "PickledCaperLeaves.DisplayName",
+        "MinutesUntilReady": 4000,
+        "Sounds": [
+            "Ship"
+        ],
+        "KeepInputQuality": true
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
         "InputIdentifier": "Raffadax.RCP_CarawayRoot",
         "OutputIdentifier": "Raffadax.RCP_PickledCarawayRoot",
         "OutputTranslationKey": "PickledCarawayRoot.DisplayName",
@@ -72504,6 +72515,17 @@
         "InputIdentifier": "Raffadax.RCP_CaperBerries",
         "OutputIdentifier": "Raffadax.RCP_CaperBerryJuice",
         "OutputTranslationKey": "CaperBerryJuice.DisplayName",
+        "MinutesUntilReady": 360,
+        "Sounds": [
+            "Ship"
+        ],
+        "KeepInputQuality": true
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_JuiceKeg",
+        "InputIdentifier": "Raffadax.RCP_CaperLeaves",
+        "OutputIdentifier": "Raffadax.RCP_CaperLeafJuice",
+        "OutputTranslationKey": "CaperLeafJuice.DisplayName",
         "MinutesUntilReady": 360,
         "Sounds": [
             "Ship"
