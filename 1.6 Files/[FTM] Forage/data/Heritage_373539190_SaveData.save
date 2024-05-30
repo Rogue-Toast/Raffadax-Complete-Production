@@ -122,5 +122,21 @@
       "150,107;150,107"
     ]
   },
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Summit",
+      "Name": "object:Raffadax.RCP_SilverLeaf",
+      "Tile": "12, 23",
+      "Type": "Forage",
+      "ID": "Raffadax.RCP_SilverLeaf",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object",
+        "Name": "Raffadax.RCP_SilverLeaf",
+        "SpawnWeight": 100
+      },
+      "MonType": null
+    }
+  ]
 }
