@@ -3399,7 +3399,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_HuaMoaSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Xolotl}} 8",
                             "IgnoreShopPriceModifiers": true,
                             "UseObjectDataPrice": true
                         },
