@@ -16168,6 +16168,19 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
+        "InputIdentifier": "Raffadax.RCP_WitchHazelJam",
+        "OutputIdentifier": "Raffadax.RCP_WitchHazelPreserves",
+        "OutputTranslationKey": "WitchHazelPreserves.DisplayName",
+        "MinutesUntilReady": 4000,
+        "Sounds": [
+            "Ship"
+        ],
+        "FuelIdentifier": "Raffadax.RCP_WitchHazel",
+        "FuelStack": 1,
+        "KeepInputQuality": true
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
         "InputIdentifier": "Raffadax.RCP_YarrowJam",
         "OutputIdentifier": "Raffadax.RCP_YarrowFlowerPreserves",
         "OutputTranslationKey": "YarrowFlowerPreserves.DisplayName",
