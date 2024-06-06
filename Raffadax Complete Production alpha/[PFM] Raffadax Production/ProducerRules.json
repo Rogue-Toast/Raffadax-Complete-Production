@@ -76030,6 +76030,23 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_JuiceKeg",
+        "InputIdentifier": "Raffadax.RCP_Mistletoe",
+        "OutputIdentifier": "Raffadax.RCP_MistletoeExtract",
+        "OutputTranslationKey": "MistletoeExtract.DisplayName",
+        "MinutesUntilReady": 360,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "bubbles": 50
+            }
+        ],
+        "KeepInputQuality": true,
+        "PlacingAnimation": "Bubbles"
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_JuiceKeg",
         "InputIdentifier": "Raffadax.RCP_Mugwort",
         "OutputIdentifier": "Raffadax.RCP_MugwortExtract",
         "OutputTranslationKey": "MugwortExtract.DisplayName",

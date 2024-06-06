@@ -65345,6 +65345,19 @@
 	"PlacingAnimation": "Bubbles",
 	"PlacingAnimationColorName": "White"
 },
+{ // MISTLETOE
+        "ProducerName": "Juice Keg",
+        "InputIdentifier": "Mistletoe",
+        "InputStack": 1,
+	"keepInputQuality": true,
+        "MinutesUntilReady": 360,
+        "OutputIdentifier": "Mistletoe Extract",
+	"InputPriceBased": false,
+        "Sounds": ["Ship"],
+	"DelayedSounds": [{ "bubbles": 50 }],
+	"PlacingAnimation": "Bubbles",
+	"PlacingAnimationColorName": "White"
+},
 { // MUGWORT
         "ProducerName": "Juice Keg",
         "InputIdentifier": "Mugwort",
