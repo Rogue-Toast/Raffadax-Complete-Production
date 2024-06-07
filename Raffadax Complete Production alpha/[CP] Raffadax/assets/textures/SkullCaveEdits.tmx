@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="3" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="3">
+ <tileset firstgid="1" name="AmanraFestival" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="AmanraFestival.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="81" name="mine_desert" tilewidth="16" tileheight="16" tilecount="384" columns="16">
+  <image source="z_mine_desert.png" width="256" height="384"/>
+ </tileset>
+ <layer id="10" name="Back" width="3" height="3">
+  <data encoding="csv">
+299,299,299,
+299,299,299,
+315,315,315
+</data>
+ </layer>
+ <layer id="9" name="Buildings" width="3" height="3">
+  <data encoding="csv">
+223,187,198,
+239,203,214,
+10,0,12
+</data>
+ </layer>
+ <layer id="8" name="Paths" width="3" height="3">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+25,0,25
+</data>
+ </layer>
+ <layer id="7" name="Front" width="3" height="3">
+  <data encoding="csv">
+2,0,0,
+6,0,8,
+0,0,0
+</data>
+ </layer>
+ <layer id="1" name="AlwaysFront" width="3" height="3">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <objectgroup id="5" name="Buildings">
+  <object id="1" name="TileData" x="0" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Amanra_Shop"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="32" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;CorpusHermeticum&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Paths"/>
+ <objectgroup id="3" name="Front"/>
+ <objectgroup id="2" name="AlwaysFront"/>
+</map>
