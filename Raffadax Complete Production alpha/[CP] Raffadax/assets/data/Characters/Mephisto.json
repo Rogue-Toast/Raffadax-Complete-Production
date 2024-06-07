@@ -42,7 +42,18 @@
 							"Id": "Default",
 							"Location": "Sewer",
 							"Tile": { "X": 14, "Y": 11 },
+							"Direction": "down"
+						},
+
+	// Home - More Lively Sewer Compat
+						{
+							"Id": "MLS",
+							"Location": "Sewer",
+							"Tile": { "X": 14, "Y": 12 },
 							"Direction": "down",
+							"When": {
+								"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
+							}
 						}
 					]
 				}
@@ -97,15 +108,21 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Mephisto}}",
 			"Entries": {
-				"rain": "GOTO Mon",
-				"Mon": "0610 Sewer 14 11 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/2350 Sewer 14 11 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/0150 Sewer 14 11 2 {{Lowercase:{{ModID}}}}_mephisto_Sit",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
+				"spring": "0610 Sewer 14 11 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/2350 Sewer 14 11 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/0150 Sewer 14 11 2 {{Lowercase:{{ModID}}}}_mephisto_Sit"
+			}
+		},
+
+//Schedule More Lively Sewer Compat
+		{
+			"LogName": "Mephisto's Schedule - MLS",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{Mephisto}}",
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
 			},
+			"Entries": {
+				"spring": "0610 Sewer 14 12 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/2350 Sewer 14 12 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/0150 Sewer 14 12 2 {{Lowercase:{{ModID}}}}_mephisto_Sit"
+			}
 		},
 
 // Gift Tastes

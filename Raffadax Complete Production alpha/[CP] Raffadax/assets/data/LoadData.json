@@ -1,5 +1,6 @@
 {
     "Changes": [
+    // OBJECTS    
         {
             "LogName": "Raffadax Object Textures - Crops",
             "Action": "Load",
@@ -48,6 +49,8 @@
             "Target": "Mods/{{ModId}}/BigObjects/Artisan",
             "FromFile": "assets/textures/artisanmachines.png"
         },
+
+    // MAIL BACKGROUNDS
         {
             "LogName": "Raffadax Mail Backgrounds",
             "Action": "Load",
@@ -95,6 +98,38 @@
             "Action": "Load",
             "Target": "Mods/{{ModId}}/MailBackgrounds/AllBG",
             "FromFile": "assets/textures/Mail/AllBG.png"
+        },
+
+    // MAP EDITS
+        {
+            "LogName": "Raffadax Desert Map edits",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Maps/DesertEdits",
+            "FromFile": "assets/textures/DesertEdits.tmx"
+        },
+        {
+            "LogName": "Raffadax Desert Map edits - SVE compat",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Maps/DesertEditsSVE",
+            "FromFile": "assets/textures/DesertEditsSVE.tmx"
+        },
+        {
+            "LogName": "Raffadax Desert Map edits - Festival",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Maps/SkullCaveEdits",
+            "FromFile": "assets/textures/SkullCaveEdits.tmx"
+        },
+        {
+            "LogName": "Raffadax Mountain Map edits",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Maps/MountainEdits",
+            "FromFile": "assets/textures/MountainEdits.tmx"
+        },
+        {
+            "LogName": "Raffadax Mountain Map edits - MLQ compat",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Maps/MountainEditsMLQ",
+            "FromFile": "assets/textures/MountainEditsMLQ.tmx"
         }
     ]
 }

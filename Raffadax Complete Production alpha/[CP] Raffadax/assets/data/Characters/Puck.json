@@ -52,7 +52,7 @@
 						{
 							"Id": "SVE",
 							"Location": "Woods",
-							"Tile": { "X": 33, "Y": 45 },
+							"Tile": { "X": 33, "Y": 46 },
 							"Direction": "down",
 							"When": {
 								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
@@ -129,8 +129,8 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			},
 			"Entries": {
-				"spring": "0 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Sit",
-				"rain": "0 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 33 45 2 {{Lowercase:{{ModID}}}}_puck_Rain"
+				"spring": "0 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Sit",
+				"rain": "0 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Rain"
 			}
 		},
 

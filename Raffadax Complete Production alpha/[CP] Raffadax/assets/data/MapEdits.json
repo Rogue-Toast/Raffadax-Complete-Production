@@ -1,19 +1,7 @@
 {
 	"Changes": [
 
-	// MAP EDITS - GRIMOIRES
-		{
-			"LogName": "Add Amanra's Grimoire",
-			"Action": "EditMap",
-      		"Target": "Maps/Desert",
-      		"FromFile": "assets/textures/Grimoires/z_CorpusHermeticum.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 21, "Y": 6, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-      		"When": {
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-      		}
-      	},
+	// MAP EDITS - GRIMOIRES - single asset
       	{
       		"LogName": "Add Astrid's Grimoire",
       		"Action": "EditMap",
@@ -22,18 +10,6 @@
             	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             	"ToArea": { "X": 23, "Y": 11, "Height": 2, "Width": 1 },
       		"PatchMode": "Overlay"
-      	},
-      	{
-      		"LogName": "Add Coyote's Grimoire",
-      		"Action": "EditMap",
-      		"Target": "Maps/Mountain",
-      		"FromFile": "assets/textures/Grimoires/z_JoJini.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 114, "Y": 10, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-	  		"When": {
-				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
-      		}
       	},
       	{
       		"LogName": "Add Mephisto's Grimoire",
@@ -75,19 +51,7 @@
 	   		"PatchMode": "Overlay"
       	},
 
-	// MAP EDITS - SHOP SIGNS
-		{
-			"LogName": "Add Amanra's shop sign to the desert",
-			"Action": "EditMap",
-			"Target": "Maps/Desert",
-			"FromFile": "assets/textures/Shops/z_Djinn.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 19, "Y": 6, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-	  		"When": {
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-			}
-		},
+	// MAP EDITS - SHOP SIGNS - single asset
 		{
 			"LogName": "Add Astrid's shop sign to GI-SE",
 			"Action": "EditMap",
@@ -98,24 +62,12 @@
 	  		"PatchMode": "Overlay"
 		},
 		{
-			"LogName": "Add Coyote's shop sign to the Quarry",
-			"Action": "EditMap",
-      		"Target": "Maps/Mountain",
-      		"FromFile": "assets/textures/Shops/z_Coyotl.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 112, "Y": 10, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-	  		"When": {
-	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
-	  		}
-		},
-		{
 			"LogName": "Add Mephisto's shop sign to the Sewer",
 			"Action": "EditMap",
       		"Target": "Maps/Sewer",
       		"FromFile": "assets/textures/Shops/z_Azeban.tmx",
             	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 15, "Y": 9, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 15, "Y": 10, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
 		},
 		{
@@ -158,31 +110,53 @@
 	  		"PatchMode": "Overlay"
 		},
 
+	// MAP EDITS - Shop & Grimoires - combined assets
+		{
+			"LogName": "Add Amanra's Shop and Grimoire to Desert",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/Desert",
+			"FromFile": "assets/textures/DesertEdits.tmx",
+				"ToArea": { "X": 18, "Y": 6, "Height": 4, "Width": 4 },
+			"When":{
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+			}
+		},
+		{
+			"LogName": "Add Amanra's Shop and Grimoire to Desert Festival",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/SkullCave",
+			"FromFile": "assets/textures/SkullCaveEdits.tmx",
+				"ToArea": { "X": 7, "Y": 3, "Height": 3, "Width": 3 },
+			"Condition": "IS_PASSIVE_FESTIVAL_TODAY DesertFestival"
+		},
+		{
+			"LogName": "Add Coyote's Shop & Grimoire to the Quarry",
+			"Action": "EditMap",
+			"Priority": "Late",
+      		"Target": "Maps/Mountain",
+      		"FromFile": "assets/textures/MountainEdits.tmx",
+            "ToArea": { "X": 114, "Y": 11, "Height": 2, "Width": 3 },
+            "When": {
+	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
+	  		}
+		},		
+
 	// MAP EDITS - SVE COMPAT
 		{
-			"LogName": "Add Amanra's Grimoire - SVE",
+			"LogName": "Add Amanra's Shop & Grimoire to Desert - SVE",
 			"Action": "EditMap",
+			"Priority": "Late",
       		"Target": "Maps/Desert",
-      		"FromFile": "assets/textures/Grimoires/z_CorpusHermeticum.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 31, "Y": 44, "Height": 2, "Width": 1 },
+      		"FromFile": "assets/textures/DesertEditsSVE.tmx",
+            	"ToArea": { "X": 29, "Y": 43, "Height": 4, "Width": 4 },
       		"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
-			"LogName": "Add Amanra's shop to the desert - SVE",
-			"Action": "EditMap",
-			"Target": "Maps/Desert",
-			"FromFile": "assets/textures/Shops/z_Djinn.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 29, "Y": 44, "Height": 2, "Width": 1 },
-			"When": {
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-		{
-			"LogName": "Add Puck's Grimoire - SVE",
+			"LogName": "Add Puck's Grimoire to the Secret Woods - SVE",
 			"Action": "EditMap",
 			"Target": "Maps/Woods",
 			"FromFile": "assets/textures/Grimoires/z_GrimorumArcanorum.tmx",
@@ -206,26 +180,41 @@
 
 	// MAP EDITS - MORE LIVELY QUARRY COMPAT
 		{
-      		"LogName": "Add Coyote's Grimoire - MLQ",
+      		"LogName": "Add Coyote's Shop & Grimoire - MLQ",
       		"Action": "EditMap",
+			"Priority": "Late",
       		"Target": "Maps/Mountain",
-      		"FromFile": "assets/textures/Grimoires/z_JoJini.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 112, "Y": 12, "Height": 2, "Width": 1 },
+      		"FromFile": "assets/textures/MountainEditsMLQ.tmx",
+            "ToArea": { "X": 118, "Y": 11, "Height": 2, "Width": 3 },
 	  		"When": {
 	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
 	  		}
       	},
-      	{
-			"LogName": "Add Coyote's shop sign to the Quarry - MLQ",
+
+	// MAP EDITS - MORE LIVELY SEWER OVERHAUL COMPAT
+		{
+      		"LogName": "Add Mephisto's Grimoire - MLS",
+      		"Action": "EditMap",
+      		"Target": "Maps/Sewer",
+      		"FromFile": "assets/textures/Grimoires/z_CodexGigas.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 13, "Y": 10, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay",
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
+			}
+      	},
+		{
+			"LogName": "Add Mephisto's shop sign to the Sewer - MLS",
 			"Action": "EditMap",
-      		"Target": "Maps/Mountain",
-      		"FromFile": "assets/textures/Shops/z_Coyotl.tmx",
-            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            "ToArea": { "X": 110, "Y": 12, "Height": 2, "Width": 1 },
-	  		"When": {
-	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
-	  		}
+      		"Target": "Maps/Sewer",
+      		"FromFile": "assets/textures/Shops/z_Azeban.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 15, "Y": 10, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay",
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
+			}
 		},
 
 	// MAP EDITS - MISC

@@ -52,7 +52,7 @@
 						{
 							"Id": "MLQ",
 							"Location": "Mountain",
-							"Tile": { "X": 111, "Y": 13 },
+							"Tile": { "X": 119, "Y": 12 },
 							"Direction": "down",
 							"When": {
 								"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
@@ -112,8 +112,8 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Coyote}}",
 			"Entries": {
-				"rain": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain",
-				"spring": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit"
+				"spring": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
+				"rain": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain"
 			}
 		},
 
@@ -123,8 +123,8 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Coyote}}",
 			"Entries": {
-				"rain": "0 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Rain",
-				"spring": "0 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 111 13 2 {{Lowercase:{{ModID}}}}_coyote_Sit"
+				"spring": "0 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
+				"rain": "0 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Rain"
 			},
 			"When": {
 				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true

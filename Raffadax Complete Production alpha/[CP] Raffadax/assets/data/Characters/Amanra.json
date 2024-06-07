@@ -114,7 +114,10 @@
 					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 				},
 			"Entries": {
-				"spring": "0 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand"
+				"spring": "0 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
+				"DesertFestival_1": "0 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
+				"DesertFestival_2": "GOTO DesertFestival_1",
+				"DesertFestival_3": "GOTO DesertFestival_1"
 			}
 		},
 
@@ -127,7 +130,10 @@
 					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 				},
 			"Entries": {
-				"spring": "0 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand"
+				"spring": "0 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
+				"DesertFestival_1": "0 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
+				"DesertFestival_2": "GOTO DesertFestival_1",
+				"DesertFestival_3": "GOTO DesertFestival_1"
 			}
 		},
 
