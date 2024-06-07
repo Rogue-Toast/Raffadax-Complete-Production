@@ -128,6 +128,12 @@ def buildShops(fileIn: str, fileOut: str):
                 if "StockItemCurrency" in ist:
                     inv.TradeItemId = "(O){}".format(translateName(ist["StockItemCurrency"]))
                     inv.TradeItemAmount = ist["StockCurrencyStack"]
+                if "Golden Coconut" in ist["ItemNames"]:
+                    zeroPricePM = {"ID": "Raffadax_ZeroPriceModifier",
+                                   "Modification": "Add",
+                                   "Amount": 1,
+                                   "Condition": "ITEM_PRICE Target 0 0"}
+                    inv.PriceModifiers.append(zeroPricePM)
                 newShop.Items.append(inv.to_dict())
             else:
                 if ist["ItemNames"] == ["Broccoli Seeds"]:

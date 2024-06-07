@@ -351,6 +351,8 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
         if "SeedPurchasePrice" in data:
             seedObj.Price = data["SeedPurchasePrice"]
         seedObj.Texture = "Mods/{}/Objects/Crops".format(modId)
+        if i == 238:  # reserved for mixed seeds
+            i += 1
         seedObj.SpriteIndex = i
         seedObj.ContextTags.append("raffadax_seeds_object")
         seedObj.ContextTags.append("raffadax_object")
@@ -543,7 +545,7 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                     setattr(newBuff, "{}Level".format(bk), bv)
                 else:
                     setattr(newBuff, bk, bv)
-            pprint.pprint(newBuff.to_dict())
+            # pprint.pprint(newBuff.to_dict())
             newObj.Buffs.append(newBuff.to_dict())
         if "ContextTags" in objData:
             newObj.ContextTags = objData["ContextTags"]
@@ -667,7 +669,12 @@ def buildSprites(spriteList, dstDir, fileName, spriteType="objects"):
     if not os.path.exists(dstDir):
         os.mkdir(dstDir)
     if spriteType == "objects":
-        imgHeight = ceil(len(spriteList) / 24) * 16
+        # skip index 238, reserved for mixed seeds
+        if fileName in ["cropobjects", "treeobjects"]:
+            spriteCount = len(spriteList) + 1
+        else:
+            spriteCount = len(spriteList)
+        imgHeight = ceil(spriteCount / 24) * 16
         imgWidth = 384
         base = Image.new("RGBA", (imgWidth, imgHeight))
         for imgpath, sidx in spriteList.items():
@@ -765,6 +772,8 @@ def buildTrees(srcDir, modId, objectData, objectSprites, i18n, vanillaObjects, s
         if "SaplingPurchasePrice" in data:
             saplingObj.Price = data["SaplingPurchasePrice"]
         saplingObj.Texture = "Mods/{}/Objects/FruitTrees".format(modId)
+        if i == 238:
+            i += 1
         saplingObj.SpriteIndex = i
         saplingObj.ContextTags.append("raffadax_sapling_object")
         saplingObj.ContextTags.append("raffadax_object")
@@ -1090,4 +1099,4 @@ if __name__ == "__main__":
         contextTags = objcontextTags + treecontextTags + artisancontextTags
         contextTags = list(set(contextTags))
         contextTags.sort()
-        pprint.pprint(contextTags)
+        # pprint.pprint(contextTags)

@@ -16168,6 +16168,19 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
+        "InputIdentifier": "Raffadax.RCP_WitchHazelJam",
+        "OutputIdentifier": "Raffadax.RCP_WitchHazelPreserves",
+        "OutputTranslationKey": "WitchHazelPreserves.DisplayName",
+        "MinutesUntilReady": 4000,
+        "Sounds": [
+            "Ship"
+        ],
+        "FuelIdentifier": "Raffadax.RCP_WitchHazel",
+        "FuelStack": 1,
+        "KeepInputQuality": true
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_DeluxePreservesJar",
         "InputIdentifier": "Raffadax.RCP_YarrowJam",
         "OutputIdentifier": "Raffadax.RCP_YarrowFlowerPreserves",
         "OutputTranslationKey": "YarrowFlowerPreserves.DisplayName",
@@ -56108,7 +56121,7 @@
     },
     {
         "ProducerQualifiedItemId": "(BC)Raffadax.RCP_FermentationTank",
-        "InputIdentifier": "Raffadax.RCP_WitchHazel",
+        "InputIdentifier": "Raffadax.RCP_WitchHazelWine",
         "OutputIdentifier": "Raffadax.RCP_SparklingWitchHazelWine",
         "OutputTranslationKey": "SparklingWitchHazelWine.DisplayName",
         "MinutesUntilReady": 6000,
@@ -76003,6 +76016,23 @@
         "InputIdentifier": "Raffadax.RCP_Liverwort",
         "OutputIdentifier": "Raffadax.RCP_LiverwortExtract",
         "OutputTranslationKey": "LiverwortExtract.DisplayName",
+        "MinutesUntilReady": 360,
+        "Sounds": [
+            "Ship"
+        ],
+        "DelayedSounds": [
+            {
+                "bubbles": 50
+            }
+        ],
+        "KeepInputQuality": true,
+        "PlacingAnimation": "Bubbles"
+    },
+    {
+        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_JuiceKeg",
+        "InputIdentifier": "Raffadax.RCP_Mistletoe",
+        "OutputIdentifier": "Raffadax.RCP_MistletoeExtract",
+        "OutputTranslationKey": "MistletoeExtract.DisplayName",
         "MinutesUntilReady": 360,
         "Sounds": [
             "Ship"

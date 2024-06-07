@@ -14889,6 +14889,18 @@
 	"InputPriceBased": false,
         "Sounds": ["Ship"]
 },
+{ // WITCH HAXEL
+        "ProducerName": "Deluxe Preserves Jar",
+        "InputIdentifier": "Witch Hazel Jam",
+        "InputStack": 1,
+  	"FuelIdentifier": "Witch Hazel",
+        "FuelStack": 1,
+	"keepInputQuality": true,
+        "MinutesUntilReady": 4000,
+        "OutputIdentifier": "Witch Hazel Preserves",
+	"InputPriceBased": false,
+        "Sounds": ["Ship"]
+},
 { // YARROW
         "ProducerName": "Deluxe Preserves Jar",
         "InputIdentifier": "Yarrow Jam",
@@ -48861,7 +48873,7 @@
 },
 { // WITCH HAZEL
         "ProducerName": "Fermentation Tank",
-        "InputIdentifier": "Witch Hazel",
+        "InputIdentifier": "Witch Hazel Wine",
         "InputStack": 1,
   	"FuelIdentifier": "Yeast",
         "FuelStack": 1,
@@ -65327,6 +65339,19 @@
 	"keepInputQuality": true,
         "MinutesUntilReady": 360,
         "OutputIdentifier": "Liverwort Extract",
+	"InputPriceBased": false,
+        "Sounds": ["Ship"],
+	"DelayedSounds": [{ "bubbles": 50 }],
+	"PlacingAnimation": "Bubbles",
+	"PlacingAnimationColorName": "White"
+},
+{ // MISTLETOE
+        "ProducerName": "Juice Keg",
+        "InputIdentifier": "Mistletoe",
+        "InputStack": 1,
+	"keepInputQuality": true,
+        "MinutesUntilReady": 360,
+        "OutputIdentifier": "Mistletoe Extract",
 	"InputPriceBased": false,
         "Sounds": ["Ship"],
 	"DelayedSounds": [{ "bubbles": 50 }],
