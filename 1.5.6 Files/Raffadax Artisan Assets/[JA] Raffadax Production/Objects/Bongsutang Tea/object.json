@@ -4,6 +4,7 @@
   	"Category": "ArtisanGoods",
   	"CategoryTextOverride": "Nut Tea",
   	"Edibility": 100,
+    "EdibleIsDrink": true,
 	"EdibleBuffs":
 		{
         	"Farming": 0,
