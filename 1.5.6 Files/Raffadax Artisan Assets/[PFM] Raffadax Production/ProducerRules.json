@@ -61189,6 +61189,14 @@
         "OutputIdentifier": "Mistletoe Juice",
 	"InputPriceBased": false,
         "Sounds": ["Ship"],
+    "AdditionalOutputs":
+		[
+            	{
+                "OutputProbability": 0.5,
+                "OutputIdentifier": "Mistletoe Extract",
+                "MinutesUntilReady": 360,
+            	}
+        	],
 	"DelayedSounds": [{ "bubbles": 50 }],
 	"PlacingAnimation": "Bubbles",
 	"PlacingAnimationColorName": "White"

@@ -70976,6 +70976,13 @@
                 "bubbles": 50
             }
         ],
+        "AdditionalOutputs": [
+            {
+                "OutputProbability": 0.5,
+                "OutputIdentifier": "Raffadax.RCP_MistletoeExtract",
+                "MinutesUntilReady": 360
+            }
+        ],
         "KeepInputQuality": true,
         "PlacingAnimation": "Bubbles"
     },
@@ -76016,23 +76023,6 @@
         "InputIdentifier": "Raffadax.RCP_Liverwort",
         "OutputIdentifier": "Raffadax.RCP_LiverwortExtract",
         "OutputTranslationKey": "LiverwortExtract.DisplayName",
-        "MinutesUntilReady": 360,
-        "Sounds": [
-            "Ship"
-        ],
-        "DelayedSounds": [
-            {
-                "bubbles": 50
-            }
-        ],
-        "KeepInputQuality": true,
-        "PlacingAnimation": "Bubbles"
-    },
-    {
-        "ProducerQualifiedItemId": "(BC)Raffadax.RCP_JuiceKeg",
-        "InputIdentifier": "Raffadax.RCP_Mistletoe",
-        "OutputIdentifier": "Raffadax.RCP_MistletoeExtract",
-        "OutputTranslationKey": "MistletoeExtract.DisplayName",
         "MinutesUntilReady": 360,
         "Sounds": [
             "Ship"
