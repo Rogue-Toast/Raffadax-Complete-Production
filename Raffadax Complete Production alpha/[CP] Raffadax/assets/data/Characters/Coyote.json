@@ -40,23 +40,19 @@
 				"Home": [
 						{
 							"Id": "Default",
+							"Condition": null,
 							"Location": "Mountain",
 							"Tile": { "X": 113, "Y": 11 },
-							"Direction": "down",
-							"When": {
-								"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
-							}
+							"Direction": "down"
 						},
 
 	// Home - More Lively Quarry Compat
 						{
 							"Id": "MLQ",
+							"Condition": "!{{HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul}}",
 							"Location": "Mountain",
 							"Tile": { "X": 119, "Y": 12 },
-							"Direction": "down",
-							"When": {
-								"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
-							}
+							"Direction": "down"
 						}
 					]
 				}
@@ -94,7 +90,7 @@
       		"Target": "Data/animationDescriptions",
       		"Entries": {
 				"{{Lowercase:{{ModID}}}}_coyote_Rain": "19/19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 17 17 19 19 17 19 17 19 19 19 19 19/19",
-				"{{Lowercase:{{ModID}}}}_coyote_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 18 18 16 18 16 18 16 16 16 16 16 16 16 17 17 16 17 16 16 16 16 16 16 16 16 16 16 16/16",
+				"{{Lowercase:{{ModID}}}}_coyote_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 18 18 16 18 16 18 16 16 16 16 16 16 16 17 17 16 17 16 16 16 16 16 16 16 16 16 16 16/16"
       		}
 		},
 
@@ -102,7 +98,7 @@
 		{
 			"LogName": "Blank Schedule",
 			"Action": "Load",
-			"Target": "Characters/schedules/{{Coyote}}",
+			"Target": "Characters/schedules/Raffadax.RCP_Coyote",
 			"FromFile": "assets/data/blank.json"
 		},
 
@@ -114,12 +110,15 @@
 			"Entries": {
 				"spring": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
 				"rain": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain"
+			},
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
 			}
 		},
 
 // Schedule - More Lively Quarry compat
 		{
-			"LogName": "Coyote's Schedule",
+			"LogName": "Coyote's Schedule - MLQ",
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Coyote}}",
 			"Entries": {

@@ -3654,7 +3654,7 @@
         		{
             		"ItemType": "Object",
             		"MaxNumItemsSoldInItemStock": 1,
-			"When": [ "f Shuck 2500" ],
+			"When": [ "f Shuck 2000" ],
             		"ItemNames": 
 				[
 				"Dead Man's Sapling",

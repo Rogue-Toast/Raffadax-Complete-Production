@@ -40,23 +40,19 @@
 					"Home": [
 						{
 							"Id": "Default",
+							"Condition": null,
 							"Location": "Woods",
-							"Tile": { "X": 26, "Y": 6 },
-							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-							}
+							"Tile": { "X": 29, "Y": 5 },
+							"Direction": "down"
 						},
 
 		// Home - SVE compat
 						{
 							"Id": "SVE",
+							"Condition": "!{{HasMod|contains=FlashShifter.StardewValleyExpandedCP}}",
 							"Location": "Woods",
-							"Tile": { "X": 33, "Y": 46 },
-							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-							}
+							"Tile": { "X": 34, "Y": 46 },
+							"Direction": "down"
 						}
 					]
 				}
@@ -115,8 +111,8 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			},
 			"Entries": {
-				"spring": "0 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Sit",
-				"rain": "0 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 26 6 2 {{Lowercase:{{ModID}}}}_puck_Rain"
+				"spring": "0 Woods 29 5 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 29 5 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 29 5 2 {{Lowercase:{{ModID}}}}_puck_Sit",
+				"rain": "0 Woods 29 5 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 29 5 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 29 5 2 {{Lowercase:{{ModID}}}}_puck_Rain"
 			}
 		},
 
@@ -129,8 +125,8 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			},
 			"Entries": {
-				"spring": "0 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Sit",
-				"rain": "0 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 33 46 2 {{Lowercase:{{ModID}}}}_puck_Rain"
+				"spring": "0 Woods 34 46 2 {{Lowercase:{{ModID}}}}_puck_Sit/2350 Woods 34 46 2 {{Lowercase:{{ModID}}}}_puck_Sit/0150 Woods 34 46 2 {{Lowercase:{{ModID}}}}_puck_Sit",
+				"rain": "0 Woods 34 46 2 {{Lowercase:{{ModID}}}}_puck_Rain/2350 Woods 34 46 2 {{Lowercase:{{ModID}}}}_puck_Rain/0150 Woods 34 46 2 {{Lowercase:{{ModID}}}}_puck_Rain"
 			}
 		},
 

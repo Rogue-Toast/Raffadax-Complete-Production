@@ -40,23 +40,19 @@
 					"Home": [
 						{
 							"Id": "Default",
+							"Condition": null,
 							"Location": "Desert",
 							"Tile": { "X": 20, "Y": 8 },
-							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-							}
+							"Direction": "down"
 						},
 					
 		// Home - SVE compat
 						{
 							"Id": "SVE",
+							"Condition": "!{{HasMod|contains=FlashShifter.StardewValleyExpandedCP}}",
 							"Location": "Desert",
-							"Tile": { "X": 30, "Y": 45 },
-							"Direction": "down",
-							"When": {
-								"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-							}
+							"Tile": { "X": 31, "Y": 45 },
+							"Direction": "down"
 						}
 					]
 				}
@@ -101,7 +97,7 @@
 		{
 			"LogName": "Blank Schedule",
 			"Action": "Load",
-			"Target": "Characters/schedules/{{Amanra}}",
+			"Target": "Characters/Schedules/Raffadax.RCP_Amanra",
 			"FromFile": "assets/data/blank.json"
 		},
 
@@ -109,15 +105,13 @@
 		{
 			"LogName": "Amanra's Schedule",
 			"Action": "EditData",
-			"Target": "Characters/schedules/{{Amanra}}",
-			"When": {
-					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-				},
+			"Target": "Characters/Schedules/{{Amanra}}",
 			"Entries": {
 				"spring": "0 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 20 8 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
-				"DesertFestival_1": "0 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
-				"DesertFestival_2": "GOTO DesertFestival_1",
-				"DesertFestival_3": "GOTO DesertFestival_1"
+				"DesertFestival": "0 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand"
+			},
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
 
@@ -125,15 +119,13 @@
 		{
 			"LogName": "Amanra's Schedule SVE",
 			"Action": "EditData",
-			"Target": "Characters/schedules/{{Amanra}}",
-			"When": {
-					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-				},
+			"Target": "Characters/Schedules/{{Amanra}}",
 			"Entries": {
-				"spring": "0 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 30 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
-				"DesertFestival_1": "0 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
-				"DesertFestival_2": "GOTO DesertFestival_1",
-				"DesertFestival_3": "GOTO DesertFestival_1"
+				"spring": "0 Desert 31 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 Desert 31 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 Desert 31 45 2 {{Lowercase:{{ModID}}}}_amanra_Stand",
+				"DesertFestival": "0 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/2350 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand/0150 SkullCave 8 5 2 {{Lowercase:{{ModID}}}}_amanra_Stand"
+			},
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 

@@ -42,7 +42,7 @@
 							"Id": "Default",
 							"Location": "WitchSwamp",
 							"Tile": { "X": 22, "Y": 22 },
-							"Direction": "down",
+							"Direction": "down"
 						}
 					]
 				}
@@ -80,7 +80,7 @@
       		"Target": "Data/animationDescriptions",
       		"Entries": {
 				"{{Lowercase:{{ModID}}}}_shuck_Midnight": "16/16 20 20 20 20 32 32 32 33 33 33 34 34 34 24 24 24 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 20 20 31 31 31 31 31 24 24 31 31 31 31 31 31 31 26 26 27 27 26 26 27 27 26 27 26 31 31 31 31 31 31 31 31 20 20 31 31 31 31 24 24 34 34 30 30 32 32 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16/16",
-				"{{Lowercase:{{ModID}}}}_shuck_Sit": "16/16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 18 18 19 19 18 18 19 19 18 18 19 19 18 18 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+				"{{Lowercase:{{ModID}}}}_shuck_Sit": "16/16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 18 18 19 19 18 18 19 19 18 18 19 19 18 18 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16"
       		}
 		},
 
@@ -98,14 +98,8 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Shuck}}",
 			"Entries": {
-				"Mon": "0610 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_shuck_Sit/2350 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_shuck_Midnight/0110 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_shuck_Sit",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
-			},
+				"spring": "0 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_shuck_Sit/2350 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_shuck_Midnight/0110 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_shuck_Sit"
+			}
 		},
 
 // Gift Tastes

@@ -42,7 +42,7 @@
 							"Id": "Default",
 							"Location": "IslandShrine",
 							"Tile": { "X": 20, "Y": 24 },
-							"Direction": "down",
+							"Direction": "down"
 						}
 					]
 				}
@@ -80,7 +80,7 @@
       		"Target": "Data/animationDescriptions",
       		"Entries": {
 				"{{Lowercase:{{ModID}}}}_xolotl_Midnight": "16/16 20 20 20 20 32 32 32 33 33 33 34 34 34 24 24 24 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 20 20 31 31 31 31 31 24 24 31 31 31 31 31 31 31 26 26 27 27 26 26 27 27 26 27 26 31 31 31 31 31 31 31 31 20 20 31 31 31 31 24 24 34 34 30 30 32 32 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16/16",
-				"{{Lowercase:{{ModID}}}}_xolotl_Sit": "16/16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 18 18 19 19 18 18 19 19 18 18 19 19 18 18 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+				"{{Lowercase:{{ModID}}}}_xolotl_Sit": "16/16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 18 18 19 19 18 18 19 19 18 18 19 19 18 18 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16"
       		}
 		},
 
@@ -98,14 +98,8 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Xolotl}}",
 			"Entries": {
-				"Mon": "0610 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Sit/2350 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Midnight/0110 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Sit",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
-			},
+				"spring": "0 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Sit/2350 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Midnight/0110 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Sit"
+			}
 		},
 
 // Gift Tastes

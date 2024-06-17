@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="3" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="3">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="3" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="3">
  <tileset firstgid="1" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet" width="400" height="1264"/>
   <tile id="150">
@@ -1562,6 +1562,12 @@
 1982,0,1984
 </data>
  </layer>
+ <layer id="13" name="Paths" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+1993,0,1993
+</data>
+ </layer>
  <layer id="7" name="Front" width="3" height="2">
   <data encoding="csv">
 1979,0,1981,
@@ -1575,7 +1581,7 @@
 </data>
  </layer>
  <objectgroup id="6" name="Back"/>
- <objectgroup id="5" name="Buldings">
+ <objectgroup id="5" name="Buildings">
   <object id="1" name="TileData" x="0" y="16" width="16" height="16">
    <properties>
     <property name="Action" value="OpenShop Raffadax.RCP_Coyote_Shop"/>
@@ -1587,6 +1593,7 @@
    </properties>
   </object>
  </objectgroup>
+ <objectgroup id="14" name="Paths"/>
  <objectgroup id="3" name="Front"/>
  <objectgroup id="2" name="AlwaysFront"/>
 </map>

@@ -12,27 +12,6 @@
       		"PatchMode": "Overlay"
       	},
       	{
-      		"LogName": "Add Mephisto's Grimoire",
-      		"Action": "EditMap",
-      		"Target": "Maps/Sewer",
-      		"FromFile": "assets/textures/Grimoires/z_CodexGigas.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 13, "Y": 10, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay"
-      	},
-      	{
-      		"LogName": "Add Puck's Grimoire",
-      		"Action": "EditMap",
-      		"Target": "Maps/Woods",
-      		"FromFile": "assets/textures/Grimoires/z_GrimorumArcanorum.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 30, "Y": 5, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-			  "When": {
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-      		}
-      	},
-      	{
       		"LogName": "Add Shuck's Grimoire",
       		"Action": "EditMap",
       		"Target": "Maps/WitchSwamp",
@@ -62,27 +41,6 @@
 	  		"PatchMode": "Overlay"
 		},
 		{
-			"LogName": "Add Mephisto's shop sign to the Sewer",
-			"Action": "EditMap",
-      		"Target": "Maps/Sewer",
-      		"FromFile": "assets/textures/Shops/z_Azeban.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 15, "Y": 10, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay"
-		},
-		{
-			"LogName": "Add Puck's shop sign to the Secret Woods",
-			"Action": "EditMap",
-      		"Target": "Maps/Woods",
-      		"FromFile": "assets/textures/Shops/z_Pookah.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 28, "Y": 5, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-				"When": {
-					"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
-			}
-		},
-		{
 			"LogName": "Add Shuck's shop sign to the Witch's Swamp",
 			"Action": "EditMap",
       		"Target": "Maps/WitchSwamp",
@@ -110,7 +68,7 @@
 	  		"PatchMode": "Overlay"
 		},
 
-	// MAP EDITS - Shop & Grimoires - combined assets
+	// MAP EDITS - SHOPS & GRIMOIRES - combined assets
 		{
 			"LogName": "Add Amanra's Shop and Grimoire to Desert",
 			"Action": "EditMap",
@@ -129,7 +87,11 @@
 			"Target": "Maps/SkullCave",
 			"FromFile": "assets/textures/SkullCaveEdits.tmx",
 				"ToArea": { "X": 7, "Y": 3, "Height": 3, "Width": 3 },
-			"Condition": "IS_PASSIVE_FESTIVAL_TODAY DesertFestival"
+			"When": {
+				"Season": "spring",
+				"Day": "15, 16, 17",
+				"HasFlag": "ccVault"
+			}
 		},
 		{
 			"LogName": "Add Coyote's Shop & Grimoire to the Quarry",
@@ -141,82 +103,31 @@
             "When": {
 	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
 	  		}
-		},		
-
-	// MAP EDITS - SVE COMPAT
+		},
 		{
-			"LogName": "Add Amanra's Shop & Grimoire to Desert - SVE",
+			"LogName": "Add Mephisto's Shop & Grimoire to the Sewer",
 			"Action": "EditMap",
 			"Priority": "Late",
-      		"Target": "Maps/Desert",
-      		"FromFile": "assets/textures/DesertEditsSVE.tmx",
-            	"ToArea": { "X": 29, "Y": 43, "Height": 4, "Width": 4 },
-      		"When": {
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			"Target": "Maps/Sewer",
+			"FromFile": "assets/textures/SewerEdits.tmx",
+				"ToArea": { "X": 13, "Y": 9, "Height": 3, "Width": 3 },
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": false
 			}
 		},
 		{
-			"LogName": "Add Puck's Grimoire to the Secret Woods - SVE",
+			"LogName": "Add Puck's Shop & Grimoire to the Secret Woods",
 			"Action": "EditMap",
+			"Priority": "Late",
 			"Target": "Maps/Woods",
-			"FromFile": "assets/textures/Grimoires/z_GrimorumArcanorum.tmx",
-		  		"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-		  		"ToArea": { "X": 32, "Y": 45, "Height": 2, "Width": 1 },
+			"FromFile": "assets/textures/WoodsEdits.tmx",
+				"ToArea": { "X": 28, "Y": 4, "Height": 2, "Width": 3 },
 			"When": {
-			  "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			"PatchMode": "Replace"	
 		},
-		{
-			"LogName": "Add Puck's shop sign to the Secret Woods - SVE",
-			"Action": "EditMap",
-      		"Target": "Maps/Woods",
-      		"FromFile": "assets/textures/Shops/z_Pookah.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 34, "Y": 45, "Height": 2, "Width": 1 },
-			"When": {
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-
-	// MAP EDITS - MORE LIVELY QUARRY COMPAT
-		{
-      		"LogName": "Add Coyote's Shop & Grimoire - MLQ",
-      		"Action": "EditMap",
-			"Priority": "Late",
-      		"Target": "Maps/Mountain",
-      		"FromFile": "assets/textures/MountainEditsMLQ.tmx",
-            "ToArea": { "X": 118, "Y": 11, "Height": 2, "Width": 3 },
-	  		"When": {
-	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
-	  		}
-      	},
-
-	// MAP EDITS - MORE LIVELY SEWER OVERHAUL COMPAT
-		{
-      		"LogName": "Add Mephisto's Grimoire - MLS",
-      		"Action": "EditMap",
-      		"Target": "Maps/Sewer",
-      		"FromFile": "assets/textures/Grimoires/z_CodexGigas.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 13, "Y": 10, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-			"When": {
-				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
-			}
-      	},
-		{
-			"LogName": "Add Mephisto's shop sign to the Sewer - MLS",
-			"Action": "EditMap",
-      		"Target": "Maps/Sewer",
-      		"FromFile": "assets/textures/Shops/z_Azeban.tmx",
-            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
-            	"ToArea": { "X": 15, "Y": 10, "Height": 2, "Width": 1 },
-	  		"PatchMode": "Overlay",
-			"When": {
-				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
-			}
-		},
-
+		
 	// MAP EDITS - MISC
 		{
 			"LogName": "Add Humidor to Saloon",
@@ -238,6 +149,73 @@
             "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 2 },
             "ToArea": { "X": 37, "Y": 17, "Height": 1, "Width": 2 },
 	  		"PatchMode": "Overlay"
+		},
+
+	// MAP EDITS - SVE COMPAT
+		{
+			"LogName": "Add Amanra's Shop & Grimoire to Desert - SVE",
+			"Action": "EditMap",
+			"Priority": "Late",
+      		"Target": "Maps/Desert",
+      		"FromFile": "assets/textures/DesertEditsSVE.tmx",
+            	"ToArea": { "X": 29, "Y": 43, "Height": 4, "Width": 4 },
+      		"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{
+			"LogName": "Add Puck's Shop & Grimoire to the Secret Woods - SVE",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/Woods",
+			"FromFile": "assets/textures/WoodsEditsSVE.tmx",
+		  		"ToArea": { "X": 33, "Y": 45, "Height": 2, "Width": 3 },
+			"When": {
+			  	"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+
+	// MAP EDITS - MORE LIVELY QUARRY COMPAT
+		{
+      		"LogName": "Add Coyote's Shop & Grimoire - MLQ",
+      		"Action": "EditMap",
+			"Priority": "Late",
+      		"Target": "Maps/Mountain",
+      		"FromFile": "assets/textures/MountainEditsMLQ.tmx",
+            "ToArea": { "X": 118, "Y": 11, "Height": 2, "Width": 3 },
+	  		"When": {
+	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
+	  		}
+      	},
+
+	// MAP EDITS - MORE LIVELY SEWER OVERHAUL COMPAT
+		{
+      		"LogName": "Add Mephisto's Shop & Grimoire to the Sewer - MLS",
+      		"Action": "EditMap",
+			"Priority": "Late",
+      		"Target": "Maps/Sewer",
+      		"FromFile": "assets/textures/SewerEditsMLS.tmx",
+            	"ToArea": { "X": 13, "Y": 10, "Height": 3, "Width": 3 },
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
+			},
+			"PatchMode": "Replace"
+      	},
+
+	// MAP EDITS - DESERT FESTIVAL RELOADED COMPAT
+		{
+			"LogName": "Add Amanra's Shop and Grimoire to Desert Festival",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/SkullCave",
+			"FromFile": "assets/textures/SkullCaveEdits.tmx",
+				"ToArea": { "X": 7, "Y": 3, "Height": 3, "Width": 3 },
+			"When": {
+				"Season": "fall",
+				"Day": "8, 9, 10",
+				"HasFlag": "ccVault",
+				"Hasmod|contains=agentlyoko.desertfest2": true	
+			}
 		}
 	]
 }

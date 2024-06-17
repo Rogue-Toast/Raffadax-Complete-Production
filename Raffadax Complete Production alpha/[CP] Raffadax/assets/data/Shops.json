@@ -2890,7 +2890,7 @@
                         },
                         {
                             "ItemId": "(O)Raffadax.RCP_DeadMansSapling",
-                            "Condition": "PLAYER_HEARTS Current {{Shuck}} 10",
+                            "Condition": "PLAYER_HEARTS Current {{Shuck}} 8",
                             "IgnoreShopPriceModifiers": true,
                             "UseObjectDataPrice": true
                         },
