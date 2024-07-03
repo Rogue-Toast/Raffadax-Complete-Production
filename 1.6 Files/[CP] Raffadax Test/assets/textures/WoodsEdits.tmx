@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="3" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="3">
+ <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="1976" name="PuckWoods" tilewidth="16" tileheight="16" tilecount="9" columns="3">
+  <image source="PuckWoods.png" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="1985" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <layer id="1" name="Back" width="3" height="2">
+  <data encoding="csv">
+1120,1120,1120,
+406,406,406
+</data>
+ </layer>
+ <layer id="6" name="Buildings" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+1982,0,1984
+</data>
+ </layer>
+ <layer id="7" name="Front" width="3" height="2">
+  <data encoding="csv">
+1979,0,1981,
+0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Paths" width="3" height="2">
+  <data encoding="csv">
+0,0,2011,
+1993,0,1993
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Puck_Shop"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="32" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;GrimorumArcanorum&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Front"/>
+ <objectgroup id="2" name="Paths"/>
+</map>

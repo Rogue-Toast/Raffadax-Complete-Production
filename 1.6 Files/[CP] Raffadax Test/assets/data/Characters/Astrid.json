@@ -42,7 +42,7 @@
 							"Id": "Default",
 							"Location": "IslandSouthEast",
 							"Tile": { "X": 21, "Y": 12 },
-							"Direction": "down",
+							"Direction": "down"
 						}
 					]
 
@@ -81,7 +81,7 @@
       		"Target": "Data/animationDescriptions",
       		"Entries": {
 				"{{Lowercase:{{ModID}}}}_astrid_Rain": "18/18 18 18 18 18 18 18 18 18 18 18 19 19 19 18 18 18 18 18 19 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18/18",
-				"{{Lowercase:{{ModID}}}}_astrid_Stand": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 17 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+				"{{Lowercase:{{ModID}}}}_astrid_Stand": "16/16 16 16 16 16 16 16 16 16 16 16 17 17 17 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16"
       		}
 		},
 
@@ -99,16 +99,9 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Astrid}}",
 			"Entries": {
-				"rain": "0610 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain/0620 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain/0630 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain/2350 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain/0150 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain",
-				"Mon": "0610 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand/0620 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand/0630 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand/2350 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand/0150 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand",
-				"Tue": "GOTO Mon",
-				"Wed": "GOTO Mon",
-				"Thu": "GOTO Mon",
-				"Fri": "GOTO Mon",
-				"Sat": "GOTO Mon",
-				"Sun": "GOTO Mon"
-			},
-
+				"spring": "0 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand/0620 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand/0630 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand/2350 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand/0150 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Stand",
+				"rain": "0 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain/0620 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain/0630 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain/2350 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain/0150 IslandSouthEast 21 12 2 {{Lowercase:{{ModID}}}}_astrid_Rain"
+			}
 		},
 
 // Gift Tastes

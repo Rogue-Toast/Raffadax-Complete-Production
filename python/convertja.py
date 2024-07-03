@@ -537,6 +537,8 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
             newObj.Edibility = objData["Edibility"]
         if "EdibleIsDrink" in objData:
             newObj.IsDrink = objData["EdibleIsDrink"]
+        elif mode == "Artisan" and nameStr.endswith(('Wine', 'Mead', "Kombucha", "Midus", "Mayonnaise", "Ketchup", "Tea", "Brandy", "Milk", "Sakurayu", "Liqueur", "Potion")):
+            newObj.IsDrink = True
         if "EdibleBuffs" in objData and objData["EdibleBuffs"]:
             newBuff = Buff()
             newBuff.Id = "food" if not newObj.IsDrink else "drink"

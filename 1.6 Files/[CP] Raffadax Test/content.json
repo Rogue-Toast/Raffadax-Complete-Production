@@ -1,77 +1,83 @@
 {
     "Format": "2.0.0",
 
-    // GMCM CONFIGURATION
+// GMCM CONFIGURATION
     "ConfigSchema": {
     	"ArtisanImages": {
       		"Default": "true",
-      		"AllowValues": "true, false",
-    	},
+      		"AllowValues": "true, false"
+    	   },
     	"GemImages": {
       		"Default": "true",
-      		"AllowValues": "true, false",
-    	},
+      		"AllowValues": "true, false"
+    	   },
     	"MilkImages": {
       		"Default": "true",
-      		"AllowValues": "true, false",
-    	},
+      		"AllowValues": "true, false"
+    	   },
     	"SeedsImages": {
       		"Default": "true",
-      		"AllowValues": "true, false",
-    	},
+      		"AllowValues": "true, false"
+    	   },
     	"SpecialImages": {
       		"Default": "true",
-      		"AllowValues": "true, false",
-    	},
+      		"AllowValues": "true, false"
+    	   },
     	"Humidor": {
       		"Default": "true",
-      		"AllowValues": "true, false",
-    	},
+      		"AllowValues": "true, false"
+            },
         "SeedMakerSaplings": {
             "Default": "More Saplings",
             "AllowValues": "More Saplings, Better Saplings"
-        }
-    },
-    // DYNAMIC TOKENS
+            }
+        },
+
+// DYNAMIC TOKENS
     "DynamicTokens": [
         {
             "Name": "Amanra",
-            "Value": "{{ModID}}_Amanra",
+            "Value": "{{ModID}}_Amanra"
         },
         {
             "Name": "Astrid",
-            "Value": "{{ModID}}_Astrid",
+            "Value": "{{ModID}}_Astrid"
         },
         {
             "Name": "Coyote",
-            "Value": "{{ModID}}_Coyote",
+            "Value": "{{ModID}}_Coyote"
         },
         {
             "Name": "Mephisto",
-            "Value": "{{ModID}}_Mephisto",
+            "Value": "{{ModID}}_Mephisto"
         },
         {
             "Name": "Puck",
-            "Value": "{{ModID}}_Puck",
+            "Value": "{{ModID}}_Puck"
         },
         {
             "Name": "Shuck",
-            "Value": "{{ModID}}_Shuck",
+            "Value": "{{ModID}}_Shuck"
         },
         {
             "Name": "Xolotl",
-            "Value": "{{ModID}}_Xolotl",
-        },
+            "Value": "{{ModID}}_Xolotl"
+        }
     ],
-    // CHANGES
+
+// CHANGES
     "Changes": [
-        // INCLUDE DATA ASSETS
-        // TEXTURES
+
+    // INCLUDE LOADING DATA
         {
             "Action": "Include",
             "FromFile": "assets/data/LoadData.json"
         },
-        // OBJECTS
+
+    // INCLUDE DATA ASSETS
+
+        //Item & object assets
+        //BCs, Objects and Weapons first.
         {
             "Action": "Include",
             "FromFile": "assets/data/BigCraftables.json"
@@ -84,18 +90,10 @@
             "Action": "Include",
             "FromFile": "assets/data/Weapons.json"
         },
-        // THINGS DONE WITH OBJECTS
+        // Scripts that work with BCs, objects and weapons
         {
             "Action": "Include",
             "FromFile": "assets/data/Buildings.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/CookingRecipes.json"
-        },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/CraftingRecipes.json"
         },
         {
             "Action": "Include",
@@ -115,9 +113,17 @@
         },
         {
             "Action": "Include",
-            "FromFile": "assets/data/mapedits.json"
+            "FromFile": "assets/data/MapEdits.json"
         },
-        // NPCS
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/CookingRecipes.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/CraftingRecipes.json"
+        },
+        // NPCs
         {
             "Action": "Include",
             "FromFile": "assets/data/Characters/Amanra.json"
@@ -146,23 +152,27 @@
             "Action": "Include",
             "FromFile": "assets/data/Characters/Xolotl.json"
         },
-        //Things done with NPCS
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/Shops.json"
-        },
+        // Scripts requiring NPCs
         {
             "Action": "Include",
             "FromFile": "assets/data/Mail.json"
         },
         {
             "Action": "Include",
+            "FromFile": "assets/data/Shops.json"
+        },
+        {
+            "Action": "Include",
             "FromFile": "assets/data/TriggerActions.json"
         },
-        // GIFT PREFS
+        // NPC Gift Tastes
         {
             "Action": "Include",
             "FromFile": "assets/data/NPCGiftTastes/vanillagifts.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/data/NPCGiftTastes/compatgifts.json"
         },
         {
             "Action": "Include",
@@ -192,11 +202,8 @@
             "Action": "Include",
             "FromFile": "assets/data/NPCGiftTastes/Xolotlgifts.json"
         },
-        {
-            "Action": "Include",
-            "FromFile": "assets/data/NPCGiftTastes/compatgifts.json"
-        },
-        // CUSTOM NPC EXCLUSIONS
+
+    // CUSTOM NPC EXCLUSIONS
         {
             "LogName": "NPC Exclusions",
             "Action": "EditData",
@@ -211,7 +218,8 @@
 		        "{{Xolotl}}": "All"
             }
         },
-        // STRINGS FROM MAPS
+
+    // STRINGS FROM MAPS
         {
             "LogName": "StringsFromMaps",
             "Action": "EditData",
