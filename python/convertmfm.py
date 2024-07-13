@@ -53,7 +53,7 @@ def convertMail():
     i18n = {}
     for mi in mailData:
         # build the mail string
-        mailID = "Raffadax.RCP_" + mi["Id"]
+        mailID = "{{ModId}}_" + mi["Id"]
         textcolorstr = ""
         if "TextColor" in mi:
             textcolor = TEXTCOLORS[str(mi["TextColor"])]
@@ -88,9 +88,9 @@ def convertMail():
         # triggers
         if "FriendshipConditions" in mi:
             cStrings = []
-            triggerID = "{{ModId}}" + mailID + "_trigger"
+            triggerID = mailID + "_trigger"
             tEntry = {"Id": triggerID,
-                      "Trigger": "DayStarted",
+                      "Trigger": "DayEnding",
                       "Condition": "",
                       "Actions": ["AddMail Current {}".format(mailID)]}
             for fc in mi["FriendshipConditions"]:
@@ -98,7 +98,8 @@ def convertMail():
                     npc = "{{{{{}}}}}".format(fc["NpcName"])
                 else:
                     npc = fc["NpcName"]
-                cs = "PLAYER_HEARTS Current {} {}".format(npc, fc["FriendshipLevel"])
+                fp = (250 * int(fc["FriendshipLevel"]))
+                cs = "PLAYER_FRIENDSHIP_POINTS Current {} {}".format(npc, fp)
                 cStrings.append(cs)
             tEntry["Condition"] = ", ".join(cStrings)
             tchangeNode["Entries"][triggerID] = tEntry
