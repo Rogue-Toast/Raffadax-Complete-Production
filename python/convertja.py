@@ -445,7 +445,8 @@ def buildCrops(srcDir, modId, objectData, objectSprites, i18n, spritesheet, vani
 
 def buildObjects(srcDir, modId, spritesheet, mode, i18n):
     # ctOut = "contexttags.csv"
-    # csvFieldNames = ["Item", "Tags"]
+    # csvFieldNames = ["Item", "Category", "Type", "Tags"]
+    newCatsTags = pyjson5.load(open("NewContextTags.json"))
     newObjects = {"LogName": "Raffadax New Objects - {}".format(mode),
                   "Action": "EditData",
                   "Target": "Data/Objects",
@@ -493,39 +494,41 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
         newObj.Name = itemID
         newObj.DisplayName = "{{{{i18n:{}.DisplayName}}}}".format(nameStr)
         i18n["en"]["{}.DisplayName".format(nameStr)] = objData["Name"]
-        if "Category" in objData:
-            if isinstance(objData["Category"], str):
-                if objData["Category"].strip("-").isnumeric():
-                    newObj.Category = int(objData["Category"])
-                    if str(objData["Category"]) in CATINDICES:
-                        newObj.Type = CATINDICES[str(objData["Category"])]
-                    else:
-                        print("No Cat found for {}".format(objData["Category"]))
-                    if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
-                        newObj.Type = "Basic"
-                else:
-                    newObj.Type = objData["Category"]
-                    if newObj.Type in CATEGORIES:
-                        newObj.Category = CATEGORIES[newObj.Type]
-                    else:
-                        print("No Cat found for {}".format(newObj.Type))
-                    if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
-                        newObj.Type = "Basic"
-                    if "CategoryTextOverride" in objData and objData["CategoryTextOverride"] == "Live Culture":  # these are all cat Crafting in source
-                        newObj.Category = -26
-                        newObj.Type = "ArtisanGoods"
-                    if objData["Name"] in ["Silver Bar", "Mythril Bar"]:
-                        newObj.Category = -15
-                        newObj.Type = "Metal Resource"
-            else:
-                newObj.Category = objData["Category"]
-                newObj.Type = CATINDICES[str(objData["Category"])]
-                if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
-                    newObj.Type = "Basic"
-                # print("Non string cat for {}".format(newObj.Name))
-        else:
-            print("No Category data for {}".format(objData["Name"]))
-            quit()
+        newObj.Category = int(newCatsTags[itemID]["Category"])
+        newObj.Type = str(newCatsTags[itemID]["Type"])
+        # if "Category" in objData:
+        #     if isinstance(objData["Category"], str):
+        #         if objData["Category"].strip("-").isnumeric():
+        #             newObj.Category = int(objData["Category"])
+        #             if str(objData["Category"]) in CATINDICES:
+        #                 newObj.Type = CATINDICES[str(objData["Category"])]
+        #             else:
+        #                 print("No Cat found for {}".format(objData["Category"]))
+        #             if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
+        #                 newObj.Type = "Basic"
+        #         else:
+        #             newObj.Type = objData["Category"]
+        #             if newObj.Type in CATEGORIES:
+        #                 newObj.Category = CATEGORIES[newObj.Type]
+        #             else:
+        #                 print("No Cat found for {}".format(newObj.Type))
+        #             if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
+        #                 newObj.Type = "Basic"
+        #             if "CategoryTextOverride" in objData and objData["CategoryTextOverride"] == "Live Culture":  # these are all cat Crafting in source
+        #                 newObj.Category = -26
+        #                 newObj.Type = "ArtisanGoods"
+        #             if objData["Name"] in ["Silver Bar", "Mythril Bar"]:
+        #                 newObj.Category = -15
+        #                 newObj.Type = "Metal Resource"
+        #     else:
+        #         newObj.Category = objData["Category"]
+        #         newObj.Type = CATINDICES[str(objData["Category"])]
+        #         if nameStr.endswith("Feather"):  # Feathers need to be Basic to have forage qualities.
+        #             newObj.Type = "Basic"
+        #         # print("Non string cat for {}".format(newObj.Name))
+        # else:
+        #     print("No Category data for {}".format(objData["Name"]))
+        #     quit()
         if "Description" in objData:
             newObj.Description = "{{{{i18n:{}.Description}}}}".format(nameStr)
             i18n["en"]["{}.Description".format(nameStr)] = objData["Description"]
@@ -549,28 +552,30 @@ def buildObjects(srcDir, modId, spritesheet, mode, i18n):
                     setattr(newBuff, bk, bv)
             # pprint.pprint(newBuff.to_dict())
             newObj.Buffs.append(newBuff.to_dict())
-        if "ContextTags" in objData:
-            newObj.ContextTags = objData["ContextTags"]
-            contextTags += objData["ContextTags"]
-        newObj.ContextTags.append("raffadax_object")
-        newObj.ContextTags.append("raffadax_{}_object".format(mode).lower())
-        parsedID = "Raffadax.RCP_{}".format(nameStr)
-        if parsedID in FORAGEITEMS and parsedID not in TRASHITEMS:
-            newObj.ContextTags.append("forage_item")
-        if parsedID in TRASHITEMS:
-            newObj.ContextTags.append("trash_item")
-        if "Recipe" in objData and isinstance(objData["Recipe"], dict) and objData["Recipe"]:
-            if objData["Category"] in ["Cooking", "-7"]:
-                newObj.ContextTags.append("raffadax_cooked_object")
-            else:
-                newObj.ContextTags.append("raffadax_crafted_object")
-        if "CategoryTextOverride" in objData:  # this may have to become a CustomField
-            catName = re.sub(NAMERE, "", objData["CategoryTextOverride"])
-            newObj.ContextTags.append("category_{}".format(catName.lower()))
+        if newCatsTags[itemID]["Tags"]:
+            newObj.ContextTags = newCatsTags[itemID]["Tags"]
+        # if "ContextTags" in objData:
+        #     newObj.ContextTags = objData["ContextTags"]
+        #     contextTags += objData["ContextTags"]
+        # newObj.ContextTags.append("raffadax_object")
+        # newObj.ContextTags.append("raffadax_{}_object".format(mode).lower())
+        # parsedID = "Raffadax.RCP_{}".format(nameStr)
+        # if parsedID in FORAGEITEMS and parsedID not in TRASHITEMS:
+        #     newObj.ContextTags.append("forage_item")
+        # if parsedID in TRASHITEMS:
+        #     newObj.ContextTags.append("trash_item")
+        # if "Recipe" in objData and isinstance(objData["Recipe"], dict) and objData["Recipe"]:
+        #     if objData["Category"] in ["Cooking", "-7"]:
+        #         newObj.ContextTags.append("raffadax_cooked_object")
+        #     else:
+        #         newObj.ContextTags.append("raffadax_crafted_object")
+        # if "CategoryTextOverride" in objData:  # this may have to become a CustomField
+        #     catName = re.sub(NAMERE, "", objData["CategoryTextOverride"])
+        #     newObj.ContextTags.append("category_{}".format(catName.lower()))
         # with open(ctOut, "a", newline='') as f:
         #     writer = csv.DictWriter(f, fieldnames=csvFieldNames)
         #     # writer.writeheader()
-        #     writer.writerow({"Item": itemID, "Tags": ", ".join(newObj.ContextTags)})
+        #     writer.writerow({"Item": itemID, "Category": newObj.Category, "Type": newObj.Type, "Tags": ", ".join(newObj.ContextTags)})
         if "NameLocalization" in objData:
             for langKey, langStr in objData["NameLocalization"]:
                 if langKey not in i18n:
