@@ -51,7 +51,7 @@
 							"Id": "MLS",
 							"Condition": "!{{HasMod|contains=Aimon111.MoreLivelySewerOverhaul}}",
 							"Location": "Sewer",
-							"Tile": { "X": 14, "Y": 12 },
+							"Tile": { "X": 14, "Y": 11 },
 							"Direction": "down"
 						}
 					]
@@ -120,7 +120,7 @@
 				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
 			},
 			"Entries": {
-				"spring": "0610 Sewer 14 12 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/2350 Sewer 14 12 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/0150 Sewer 14 12 2 {{Lowercase:{{ModID}}}}_mephisto_Sit"
+				"spring": "0610 Sewer 14 11 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/2350 Sewer 14 11 2 {{Lowercase:{{ModID}}}}_mephisto_Sit/0150 Sewer 14 11 2 {{Lowercase:{{ModID}}}}_mephisto_Sit"
 			}
 		},
 

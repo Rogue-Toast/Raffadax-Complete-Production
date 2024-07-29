@@ -42,7 +42,7 @@
 							"Id": "Default",
 							"Condition": null,
 							"Location": "Mountain",
-							"Tile": { "X": 113, "Y": 11 },
+							"Tile": { "X": 116, "Y": 11 },
 							"Direction": "down"
 						},
 
@@ -108,8 +108,8 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/{{Coyote}}",
 			"Entries": {
-				"spring": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
-				"rain": "0 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 113 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain"
+				"spring": "0 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
+				"rain": "0 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain"
 			},
 			"When": {
 				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false

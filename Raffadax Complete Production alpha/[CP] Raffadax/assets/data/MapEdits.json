@@ -6,7 +6,7 @@
       		"LogName": "Add Astrid's Grimoire",
       		"Action": "EditMap",
       		"Target": "Maps/Island_SE",
-      		"FromFile": "assets/textures/Grimoires/z_Galdrabok.tmx",
+      		"FromFile": "assets/textures/Maps/z_Galdrabok.tmx",
             	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             	"ToArea": { "X": 23, "Y": 11, "Height": 2, "Width": 1 },
       		"PatchMode": "Overlay"
@@ -15,7 +15,7 @@
       		"LogName": "Add Shuck's Grimoire",
       		"Action": "EditMap",
       		"Target": "Maps/WitchSwamp",
-      		"FromFile": "assets/textures/Grimoires/z_Necronomicon.tmx",
+      		"FromFile": "assets/textures/Maps/z_Necronomicon.tmx",
             	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             	"ToArea": { "X": 23, "Y": 21, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
@@ -24,7 +24,7 @@
       		"LogName": "Add Xolotl's Grimoire",
       		"Action": "EditMap",
       		"Target": "Maps/Island_Shrine",
-      		"FromFile": "assets/textures/Grimoires/z_Amoxtli.tmx",
+      		"FromFile": "assets/textures/Maps/z_Amoxtli.tmx",
             	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             	"ToArea": { "X": 21, "Y": 23, "Height": 2, "Width": 1 },
 	   		"PatchMode": "Overlay"
@@ -35,7 +35,7 @@
 			"LogName": "Add Astrid's shop sign to GI-SE",
 			"Action": "EditMap",
       		"Target": "Maps/Island_SE",
-      		"FromFile": "assets/textures/Shops/z_Selkie.tmx",
+      		"FromFile": "assets/textures/Maps/z_Selkie.tmx",
             	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             	"ToArea": { "X": 22, "Y": 10, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
@@ -44,7 +44,7 @@
 			"LogName": "Add Shuck's shop sign to the Witch's Swamp",
 			"Action": "EditMap",
       		"Target": "Maps/WitchSwamp",
-      		"FromFile": "assets/textures/Shops/z_Barghest.tmx",
+      		"FromFile": "assets/textures/Maps/z_Barghest.tmx",
             	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             	"ToArea": { "X": 21, "Y": 21, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
@@ -53,7 +53,7 @@
 			"LogName": "Add Xolotl's shop sign to GI-Jungle",
 			"Action": "EditMap",
       		"Target": "Maps/Island_Shrine",
-      		"FromFile": "assets/textures/Shops/z_Nagual.tmx",
+      		"FromFile": "assets/textures/Maps/z_Nagual.tmx",
             	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             	"ToArea": { "X": 19, "Y": 23, "Height": 2, "Width": 1 },
 	   		"PatchMode": "Overlay"
@@ -62,7 +62,7 @@
 			"LogName": "Add Valkyrie's shop sign to GI-Caldera",
 			"Action": "EditMap",
      		"Target": "Maps/Caldera",
-      		"FromFile": "assets/textures/Shops/z_Valkyrie.tmx",
+      		"FromFile": "assets/textures/Maps/z_Valkyrie.tmx",
             	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             	"ToArea": { "X": 24, "Y": 22, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay"
@@ -74,7 +74,7 @@
 			"Action": "EditMap",
 			"Priority": "Late",
 			"Target": "Maps/Desert",
-			"FromFile": "assets/textures/DesertEdits.tmx",
+			"FromFile": "assets/textures/Maps/DesertEdits.tmx",
 				"ToArea": { "X": 18, "Y": 6, "Height": 4, "Width": 4 },
 			"When":{
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
@@ -85,7 +85,7 @@
 			"Action": "EditMap",
 			"Priority": "Late",
 			"Target": "Maps/SkullCave",
-			"FromFile": "assets/textures/SkullCaveEdits.tmx",
+			"FromFile": "assets/textures/Maps/SkullCaveEdits.tmx",
 				"ToArea": { "X": 7, "Y": 3, "Height": 3, "Width": 3 },
 			"When": {
 				"Season": "spring",
@@ -98,8 +98,8 @@
 			"Action": "EditMap",
 			"Priority": "Late",
       		"Target": "Maps/Mountain",
-      		"FromFile": "assets/textures/MountainEdits.tmx",
-            "ToArea": { "X": 114, "Y": 11, "Height": 2, "Width": 3 },
+      		"FromFile": "assets/textures/Maps/MountainEdits.tmx",
+            "ToArea": { "X": 115, "Y": 10, "Height": 2, "Width": 3 },
             "When": {
 	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
 	  		}
@@ -109,8 +109,8 @@
 			"Action": "EditMap",
 			"Priority": "Late",
 			"Target": "Maps/Sewer",
-			"FromFile": "assets/textures/SewerEdits.tmx",
-				"ToArea": { "X": 13, "Y": 9, "Height": 3, "Width": 3 },
+			"FromFile": "assets/textures/Maps/SewerEdits.tmx",
+				"ToArea": { "X": 13, "Y": 10, "Height": 3, "Width": 3 },
 			"When": {
 				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": false
 			}
@@ -120,7 +120,7 @@
 			"Action": "EditMap",
 			"Priority": "Late",
 			"Target": "Maps/Woods",
-			"FromFile": "assets/textures/WoodsEdits.tmx",
+			"FromFile": "assets/textures/Maps/WoodsEdits.tmx",
 				"ToArea": { "X": 28, "Y": 4, "Height": 2, "Width": 3 },
 			"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
@@ -133,7 +133,7 @@
 			"LogName": "Add Humidor to Saloon",
 			"Action": "EditMap",
       		"Target": "Maps/Saloon",
-      		"FromFile": "assets/textures/Shops/z_Humidor.tmx",
+      		"FromFile": "assets/textures/Maps/z_Humidor.tmx",
             "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
             "ToArea": { "X": 24, "Y": 16, "Height": 2, "Width": 1 },
 	  		"PatchMode": "Overlay",
@@ -145,7 +145,7 @@
 			"LogName": "Add Soda Machine to Saloon",
 			"Action": "EditMap",
       		"Target": "Maps/Saloon",
-      		"FromFile": "assets/textures/Shops/z_SodaMachine.tmx",
+      		"FromFile": "assets/textures/Maps/z_SodaMachine.tmx",
             "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 2 },
             "ToArea": { "X": 37, "Y": 17, "Height": 1, "Width": 2 },
 	  		"PatchMode": "Overlay"
@@ -157,7 +157,7 @@
 			"Action": "EditMap",
 			"Priority": "Late",
       		"Target": "Maps/Desert",
-      		"FromFile": "assets/textures/DesertEditsSVE.tmx",
+      		"FromFile": "assets/textures/Maps/DesertEditsSVE.tmx",
             	"ToArea": { "X": 29, "Y": 43, "Height": 4, "Width": 4 },
       		"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
@@ -168,7 +168,7 @@
 			"Action": "EditMap",
 			"Priority": "Late",
 			"Target": "Maps/Woods",
-			"FromFile": "assets/textures/WoodsEditsSVE.tmx",
+			"FromFile": "assets/textures/Maps/WoodsEditsSVE.tmx",
 		  		"ToArea": { "X": 33, "Y": 45, "Height": 2, "Width": 3 },
 			"When": {
 			  	"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
@@ -181,7 +181,7 @@
       		"Action": "EditMap",
 			"Priority": "Late",
       		"Target": "Maps/Mountain",
-      		"FromFile": "assets/textures/MountainEditsMLQ.tmx",
+      		"FromFile": "assets/textures/Maps/MountainEditsMLQ.tmx",
             "ToArea": { "X": 118, "Y": 11, "Height": 2, "Width": 3 },
 	  		"When": {
 	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
@@ -194,8 +194,8 @@
       		"Action": "EditMap",
 			"Priority": "Late",
       		"Target": "Maps/Sewer",
-      		"FromFile": "assets/textures/SewerEditsMLS.tmx",
-            	"ToArea": { "X": 13, "Y": 10, "Height": 3, "Width": 3 },
+      		"FromFile": "assets/textures/Maps/SewerEditsMLS.tmx",
+            	"ToArea": { "X": 13, "Y": 9, "Height": 2, "Width": 3 },
 			"When": {
 				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
 			},
@@ -208,7 +208,7 @@
 			"Action": "EditMap",
 			"Priority": "Late",
 			"Target": "Maps/SkullCave",
-			"FromFile": "assets/textures/SkullCaveEdits.tmx",
+			"FromFile": "assets/textures/Maps/SkullCaveEdits.tmx",
 				"ToArea": { "X": 7, "Y": 3, "Height": 3, "Width": 3 },
 			"When": {
 				"Season": "fall",
