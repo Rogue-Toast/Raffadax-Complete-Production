@@ -44,15 +44,6 @@
 							"Location": "Sewer",
 							"Tile": { "X": 14, "Y": 11 },
 							"Direction": "down"
-						},
-
-	// Home - More Lively Sewer Compat
-						{
-							"Id": "MLS",
-							"Condition": "!{{HasMod|contains=Aimon111.MoreLivelySewerOverhaul}}",
-							"Location": "Sewer",
-							"Tile": { "X": 14, "Y": 11 },
-							"Direction": "down"
 						}
 					]
 				}
