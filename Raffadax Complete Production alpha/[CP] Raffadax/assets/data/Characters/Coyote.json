@@ -15,7 +15,7 @@
 					"SocialAnxiety": "Neutral",
 					"Optimism": "Neutral",
 					"BirthSeason": "Summer",
-					"BirthDay": 01,
+					"BirthDay": 1,
 					"HomeRegion": "Other",
 					"CanSocialize": true,
 					"CanCommentOnPurchasedShopItems": false,
@@ -127,16 +127,6 @@
 			},
 			"When": {
 				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
-			}
-		},
-		
-// Gift Tastes
-		{
-			"LogName": "Coyote's Gift Tastes",
-			"Action": "EditData",
-			"Target": "Data/NPCGiftTastes",
-			"Entries": {
-				"{{Coyote}}": "{{i18n:Coyote.GiftLoved}}/60 -2 303 308 346 348 373 417 454 459 772 773 872 879/{{i18n:Coyote.GiftLiked}}/-4 -5 -6 -14 -15 -28 -29 -75 -79 -80 -81 340 347 499 724/{{i18n:Coyote.GiftNeutral}}/-9 -25/{{i18n:Coyote.GiftDislike}}/-16 -19 -20 -21 -22 789/{{i18n:Coyote.GiftHate}}/-7 -8 -12 -27 -74/"
 			}
 		},
 
