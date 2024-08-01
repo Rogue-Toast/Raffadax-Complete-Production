@@ -105,55 +105,55 @@
             "LogName": "Raffadax Desert Map edits",
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Maps/DesertEdits",
-            "FromFile": "assets/textures/DesertEdits.tmx"
+            "FromFile": "assets/textures/Maps/DesertEdits.tmx"
         },
         {
             "LogName": "Raffadax Desert Map edits - SVE compat",
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Maps/DesertEditsSVE",
-            "FromFile": "assets/textures/DesertEditsSVE.tmx"
+            "FromFile": "assets/textures/Maps/DesertEditsSVE.tmx"
         },
         {
             "LogName": "Raffadax Desert Map edits - Festival",
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Maps/SkullCaveEdits",
-            "FromFile": "assets/textures/SkullCaveEdits.tmx"
+            "FromFile": "assets/textures/Maps/SkullCaveEdits.tmx"
         },
         {
             "LogName": "Raffadax Mountain Map edits",
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Maps/MountainEdits",
-            "FromFile": "assets/textures/MountainEdits.tmx"
+            "FromFile": "assets/textures/Maps/MountainEdits.tmx"
         },
         {
             "LogName": "Raffadax Mountain Map edits - MLQ compat",
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Maps/MountainEditsMLQ",
-            "FromFile": "assets/textures/MountainEditsMLQ.tmx"
+            "FromFile": "assets/textures/Maps/MountainEditsMLQ.tmx"
         },
         {
             "LogName": "Raffadax Sewer Map Edits",
             "Action": "Load",
             "Target": "Mods/{{ModID}}/Maps/SewerEdits",
-            "FromFile": "assets/textures/SewerEdits.tmx"
+            "FromFile": "assets/textures/Maps/SewerEdits.tmx"
         },
         {
             "LogName": "Raffadax Sewer Map Edits - MLS compat",
             "Action": "Load",
             "Target": "Mods/{{ModID}}/Maps/SewerEditsMLS",
-            "FromFile":"assets/textures/SewerEditsMLS.tmx"
+            "FromFile":"assets/textures/Maps/SewerEditsMLS.tmx"
         },
         {
             "LogName": "Raffadax Woods Map Edits",
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Maps/WoodsEdits",
-            "FromFile": "assets/textures/WoodsEdits.tmx"
+            "FromFile": "assets/textures/Maps/WoodsEdits.tmx"
         },
         {
             "LogName": "Raffadax Woods Map Edits - SVE compat",
             "Action": "Load",
             "Target": "Mods/{{ModId}}/Maps/WoodsEditsSVE",
-            "FromFile": "assets/textures/WoodsEditsSVE.tmx"
+            "FromFile": "assets/textures/Maps/WoodsEditsSVE.tmx"
         }
     ]
 }

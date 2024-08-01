@@ -102,16 +102,6 @@
 			}
 		},
 
-// Gift Tastes
-		{
-			"LogName": "Xolotl's Gift Tastes",
-			"Action": "EditData",
-			"Target": "Data/NPCGiftTastes",
-			"Entries": {
-				"{{Xolotl}}": "{{i18n:Xolotl.GiftLoved}}/575 -2 303 308 346 348 373 417 454 459 772 773 872 879/{{i18n:Xolotl.GiftLiked}}/-4 -5 -6 -14 -15 -28 -29 -75 -79 -80 -81 340 347 499 724/{{i18n:Xolotl.GiftNeutral}}/-9 -25/{{i18n:Xolotl.GiftDislike}}/-16 -19 -20 -21 -22 789/{{i18n:Xolotl.GiftHate}}/-7 -8 -12 -27 -74/"
-			}
-		},
-
 // Dialogue - load blank
 		{
 			"LogName": "Dialogue Xolotl",
