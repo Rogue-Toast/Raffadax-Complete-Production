@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="3">
+ <tileset firstgid="1" name="DesertTiles" tilewidth="16" tileheight="16" tilecount="368" columns="16">
+  <image source="DesertTiles.png" width="256" height="368"/>
+ </tileset>
+ <tileset firstgid="369" name="desert_festival_tilesheet" tilewidth="16" tileheight="16" tilecount="1088" columns="32">
+  <image source="desert_festival_tilesheet.png" width="512" height="544"/>
+ </tileset>
+ <tileset firstgid="1457" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="1521" name="AmanraFestival" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="AmanraFestival.png" width="64" height="64"/>
+ </tileset>
+ <layer id="10" name="Back" width="4" height="4">
+  <data encoding="csv">
+66,66,66,66,
+18,18,18,18,
+9,18,18,18,
+36,34,34,512
+</data>
+ </layer>
+ <layer id="9" name="Buildings" width="4" height="4">
+  <data encoding="csv">
+90,153,154,153,
+106,169,170,169,
+1529,1530,0,1532,
+0,1534,0,0
+</data>
+ </layer>
+ <layer id="8" name="Front" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+0,1526,0,1528,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="Paths" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+1465,0,1465,0,
+0,1465,0,1465,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="AlwaysFront2" width="4" height="4">
+  <data encoding="csv">
+0,0,0,0,
+1354,1355,1356,1357,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="AlwaysFront" width="4" height="4">
+  <data encoding="csv">
+0,0,414,414,
+443,444,445,446,
+0,0,0,0,
+388,389,390,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <objectgroup id="5" name="Buildings">
+  <object id="1" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Amanra_Shop"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="48" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;CorpusHermeticum&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Front"/>
+ <objectgroup id="3" name="Paths"/>
+ <objectgroup id="11" name="AlwaysFront2"/>
+ <objectgroup id="2" name="AlwaysFront"/>
+</map>

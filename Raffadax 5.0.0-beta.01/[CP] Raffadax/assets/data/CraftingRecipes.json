@@ -1,0 +1,51 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax New Crafting Recipes",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "{{ModId}}_BlanchingPowder": "80 1 157 1/Home/{{ModId}}_BlanchingPowder 10/false/null/{{i18n:BlanchingPowder.RecipeName}}",
+                "{{ModId}}_Catholicon": "{{ModId}}_Azoth 1 {{ModId}}_AuroraPowder 1/Home/{{ModId}}_Catholicon 1/false/null/{{i18n:Catholicon.RecipeName}}",
+                "{{ModId}}_ClimateControlPouch": "725 1 {{ModId}}_HempPaper 1/Home/{{ModId}}_ClimateControlPouch 10/false/null/{{i18n:ClimateControlPouch.RecipeName}}",
+                "{{ModId}}_CryonicPouch": "84 1 {{ModId}}_HempPaper 1/Home/{{ModId}}_CryonicPouch 10/false/null/{{i18n:CryonicPouch.RecipeName}}",
+                "{{ModId}}_MillingPouch": "568 1 {{ModId}}_HempPaper 1/Home/{{ModId}}_MillingPouch 10/false/null/{{i18n:MillingPouch.RecipeName}}",
+                "{{ModId}}_RoastingPouch": "82 1 {{ModId}}_HempPaper 1/Home/{{ModId}}_RoastingPouch 10/false/null/{{i18n:RoastingPouch.RecipeName}}",
+                "{{ModId}}_SolarPouch": "768 1 {{ModId}}_HempPaper 1/Home/{{ModId}}_SolarPouch 10/false/null/{{i18n:SolarPouch.RecipeName}}",
+                "{{ModId}}_StarDust": "{{ModId}}_BlueStarPowder 1 {{ModId}}_RedStarPowder 1/Home/{{ModId}}_StarDust 1/false/null/{{i18n:StarDust.RecipeName}}",
+                "{{ModId}}_SylvanPowder": "{{ModId}}_FernFlowerDust 1 {{ModId}}_ForestRosePowder 1 {{ModId}}_MandrakePowder 1/Home/{{ModId}}_SylvanPowder 1/false/null/{{i18n:SylvanPowder.RecipeName}}",
+                "{{ModId}}_TempestPowder": "{{ModId}}_ArcticDust 1 {{ModId}}_InfernoPowder 1/Home/{{ModId}}_TempestPowder 1/false/null/{{i18n:TempestPowder.RecipeName}}",
+                "{{ModId}}_UmbraPouch": "769 1 {{ModId}}_HempPaper 1/Home/{{ModId}}_UmbraPouch 10/false/null/{{i18n:UmbraPouch.RecipeName}}",
+                "{{ModId}}_AnpuScarecrow": "{{ModId}}_GoldenFabric 1 {{ModId}}_GoldenFeather 1 {{ModId}}_Aether 1 {{ModId}}_EbonyWood 50/Home/{{ModId}}_AnpuScarecrow 1/true/null/{{i18n:AnpuScarecrow.RecipeName}}",
+                "{{ModId}}_AutoMill": "{{ModId}}_Lodestone 2 335 2 787 1/Home/{{ModId}}_AutoMill 1/true/null/{{i18n:AutoMill.RecipeName}}",
+                "{{ModId}}_BeverageKeg": "{{ModId}}_BlackBamboo 25 338 5 {{ModId}}_Lodestone 1/Home/{{ModId}}_BeverageKeg 1/true/null/{{i18n:BeverageKeg.RecipeName}}",
+                "{{ModId}}_CheeseProcessor": "335 5 787 1 428 1 247 1/Home/{{ModId}}_CheeseProcessor 1/true/null/{{i18n:CheeseProcessor.RecipeName}}",
+                "{{ModId}}_Churn": "388 45 390 45 709 10 335 1/Home/{{ModId}}_Churn 1/true/null/{{i18n:Churn.RecipeName}}",
+                "{{ModId}}_DeluxePreservesJar": "{{ModId}}_EbonyWood 25 336 5 72 5/Home/{{ModId}}_DeluxePreservesJar 1/true/null/{{i18n:DeluxePreservesJar.RecipeName}}",
+                "{{ModId}}_DeluxeWineKeg": "{{ModId}}_EbonyWood 25 336 5 72 5/Home/{{ModId}}_DeluxeWineKeg 1/true/null/{{i18n:DeluxeWineKeg.RecipeName}}",
+                "{{ModId}}_DistillationTank": "{{ModId}}_SilverBar 10 766 50 382 10/Home/{{ModId}}_DistillationTank 1/true/null/{{i18n:DistillationTank.RecipeName}}",
+                "{{ModId}}_DryPacker": "388 25 {{ModId}}_HempRope 2 {{ModId}}_Lodestone 1/Home/{{ModId}}_DryPacker 1/true/null/{{i18n:DryPacker.RecipeName}}",
+                "{{ModId}}_FermentationTank": "334 10 766 10 {{ModId}}_Beeswax 1/Home/{{ModId}}_FermentationTank 1/true/null/{{i18n:FermentationTank.RecipeName}}",
+                "{{ModId}}_FlowHive": "709 25 {{ModId}}_GlassPane 2 {{ModId}}_Beeswax 5/Home/{{ModId}}_FlowHive 1/true/null/{{i18n:FlowHive.RecipeName}}",
+                "{{ModId}}_FragranceExtractor": "{{ModId}}_Sandalwood 25 {{ModId}}_GlassPane 2 337 1/Home/{{ModId}}_FragranceExtractor 1/true/null/{{i18n:FragranceExtractor.RecipeName}}",
+                "{{ModId}}_GoldenSpindle": "{{ModId}}_MythrilBar 10 336 5 337 5/Home/{{ModId}}_GoldenSpindle 1/true/null/{{i18n:GoldenSpindle.RecipeName}}",
+                "{{ModId}}_HellhoundScarecrow": "{{ModId}}_AbyssalFabric 1 {{ModId}}_HellhoundFang 1 {{ModId}}_Miasma 1 {{ModId}}_EbonyWood 50/Home/{{ModId}}_HellhoundScarecrow 1/true/null/{{i18n:HellhoundScarecrow.RecipeName}}",
+                "{{ModId}}_IncubationTank": "910 1 {{ModId}}_GlassPane 2 338 5/Home/{{ModId}}_IncubationTank 1/true/null/{{i18n:IncubationTank.RecipeName}}",
+                "{{ModId}}_JuiceKeg": "388 25 335 1 {{ModId}}_Lodestone 1/Home/{{ModId}}_JuiceKeg 1/true/null/{{i18n:JuiceKeg.RecipeName}}",
+                "{{ModId}}_MagicCauldron": "{{ModId}}_MythrilBar 5 {{ModId}}_Onyx 10 {{ModId}}_Azoth 1/Home/{{ModId}}_MagicCauldron 1/true/null/{{i18n:MagicCauldron.RecipeName}}",
+                "{{ModId}}_MilkKeg": "{{ModId}}_SilverBar 10 {{ModId}}_Sapphire 1 709 15/Home/{{ModId}}_MilkKeg 1/true/null/{{i18n:MilkKeg.RecipeName}}",
+                "{{ModId}}_MoldColony": "335 3 {{ModId}}_GlassPane 2 {{ModId}}_AgarPowder 1 {{ModId}}_P.rubens 1/Home/{{ModId}}_MoldColony 1/true/null/{{i18n:MoldColony.RecipeName}}",
+                "{{ModId}}_NagualScarecrow": "{{ModId}}_VertigoFabric 1 {{ModId}}_NagualWhiskers 1 {{ModId}}_JungleHunter 1 {{ModId}}_Sandalwood 50/Home/{{ModId}}_NagualScarecrow 1/true/null/{{i18n:NagualScarecrow.RecipeName}}",
+                "{{ModId}}_NinetailsScarecrow": "{{ModId}}_SylvanFabric 1 {{ModId}}_TulikkoFur 1 {{ModId}}_VolpeculasGlamour 1 {{ModId}}_Sandalwood 50/Home/{{ModId}}_NinetailsScarecrow 1/true/null/{{i18n:NinetailsScarecrow.RecipeName}}",
+                "{{ModId}}_Oxidizer": "388 50 335 5 {{ModId}}_Lodestone 2/Home/{{ModId}}_Oxidizer 1/true/null/{{i18n:Oxidizer.RecipeName}}",
+                "{{ModId}}_PureeJar": "{{ModId}}_BlackBamboo 25 335 2 {{ModId}}_Lodestone 2/Home/{{ModId}}_PureeJar 1/true/null/{{i18n:PureeJar.RecipeName}}",
+                "{{ModId}}_SeaMonsterScarecrow": "{{ModId}}_ScaleCloth 1 {{ModId}}_LeviathanScale 1 {{ModId}}_DragonsBreath 1 {{ModId}}_Sandalwood 50/Home/{{ModId}}_SeaMonsterScarecrow 1/true/null/{{i18n:SeaMonsterScarecrow.RecipeName}}",
+                "{{ModId}}_TeaKeg": "{{ModId}}_Sandalwood 10 60 1 537 2/Home/{{ModId}}_TeaKeg 1/true/null/{{i18n:TeaKeg.RecipeName}}",
+                "{{ModId}}_WendigoScarecrow": "{{ModId}}_FrostFabric 1 {{ModId}}_WendigoAntler 1 {{ModId}}_PuanteurdelaMort 1 {{ModId}}_EbonyWood 50/Home/{{ModId}}_WendigoScarecrow 1/true/null/{{i18n:WendigoScarecrow.RecipeName}}",
+                "{{ModId}}_WerewolfScarecrow": "{{ModId}}_FurPelt 1 {{ModId}}_WerewolfClaw 1 {{ModId}}_PrimalMoon 1 {{ModId}}_EbonyWood 50/Home/{{ModId}}_WerewolfScarecrow 1/true/null/{{i18n:WerewolfScarecrow.RecipeName}}",
+                "{{ModId}}_AppleofIdunn": "{{ModId}}_Hesperidium 1 {{ModId}}_Azoth 1/Home/{{ModId}}_AppleofIdunn 1/false/null/{{i18n:AppleofIdunn.RecipeName}}",
+                "{{ModId}}_AppleofDiscord": "{{ModId}}_Hesperidium 1 {{ModId}}_AbyssalSand 1/Home/{{ModId}}_AppleofDiscord 1/false/null/{{i18n:AppleofDiscord.RecipeName}}"
+            }
+        }
+    ]
+}

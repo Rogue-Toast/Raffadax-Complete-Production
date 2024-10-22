@@ -1,0 +1,387 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax New Big Objects - Artisan",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_AnpuScarecrow": {
+                    "Name": "{{ModId}}_AnpuScarecrow",
+                    "DisplayName": "{{i18n:AnpuScarecrow.DisplayName}}",
+                    "Description": "{{i18n:AnpuScarecrow.Description}}",
+                    "Price": 5000,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                },
+                "{{ModId}}_AutoMill": {
+                    "Name": "{{ModId}}_AutoMill",
+                    "DisplayName": "{{i18n:AutoMill.DisplayName}}",
+                    "Description": "{{i18n:AutoMill.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_BeverageKeg": {
+                    "Name": "{{ModId}}_BeverageKeg",
+                    "DisplayName": "{{i18n:BeverageKeg.DisplayName}}",
+                    "Description": "{{i18n:BeverageKeg.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 9,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_CheeseProcessor": {
+                    "Name": "{{ModId}}_CheeseProcessor",
+                    "DisplayName": "{{i18n:CheeseProcessor.DisplayName}}",
+                    "Description": "{{i18n:CheeseProcessor.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 17,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                },
+                "{{ModId}}_Churn": {
+                    "Name": "{{ModId}}_Churn",
+                    "DisplayName": "{{i18n:Churn.DisplayName}}",
+                    "Description": "{{i18n:Churn.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 24,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                },
+                "{{ModId}}_DeluxePreservesJar": {
+                    "Name": "{{ModId}}_DeluxePreservesJar",
+                    "DisplayName": "{{i18n:DeluxePreservesJar.DisplayName}}",
+                    "Description": "{{i18n:DeluxePreservesJar.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 25,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_DeluxeWineKeg": {
+                    "Name": "{{ModId}}_DeluxeWineKeg",
+                    "DisplayName": "{{i18n:DeluxeWineKeg.DisplayName}}",
+                    "Description": "{{i18n:DeluxeWineKeg.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 26,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_DistillationTank": {
+                    "Name": "{{ModId}}_DistillationTank",
+                    "DisplayName": "{{i18n:DistillationTank.DisplayName}}",
+                    "Description": "{{i18n:DistillationTank.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 27,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_DryPacker": {
+                    "Name": "{{ModId}}_DryPacker",
+                    "DisplayName": "{{i18n:DryPacker.DisplayName}}",
+                    "Description": "{{i18n:DryPacker.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 28,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_FermentationTank": {
+                    "Name": "{{ModId}}_FermentationTank",
+                    "DisplayName": "{{i18n:FermentationTank.DisplayName}}",
+                    "Description": "{{i18n:FermentationTank.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 36,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_FlowHive": {
+                    "Name": "{{ModId}}_FlowHive",
+                    "DisplayName": "{{i18n:FlowHive.DisplayName}}",
+                    "Description": "{{i18n:FlowHive.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 37,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_FragranceExtractor": {
+                    "Name": "{{ModId}}_FragranceExtractor",
+                    "DisplayName": "{{i18n:FragranceExtractor.DisplayName}}",
+                    "Description": "{{i18n:FragranceExtractor.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 38,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_GoldenSpindle": {
+                    "Name": "{{ModId}}_GoldenSpindle",
+                    "DisplayName": "{{i18n:GoldenSpindle.DisplayName}}",
+                    "Description": "{{i18n:GoldenSpindle.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 49,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_HellhoundScarecrow": {
+                    "Name": "{{ModId}}_HellhoundScarecrow",
+                    "DisplayName": "{{i18n:HellhoundScarecrow.DisplayName}}",
+                    "Description": "{{i18n:HellhoundScarecrow.Description}}",
+                    "Price": 5000,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 57,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                },
+                "{{ModId}}_IncubationTank": {
+                    "Name": "{{ModId}}_IncubationTank",
+                    "DisplayName": "{{i18n:IncubationTank.DisplayName}}",
+                    "Description": "{{i18n:IncubationTank.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 58,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_JuiceKeg": {
+                    "Name": "{{ModId}}_JuiceKeg",
+                    "DisplayName": "{{i18n:JuiceKeg.DisplayName}}",
+                    "Description": "{{i18n:JuiceKeg.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 59,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_MagicCauldron": {
+                    "Name": "{{ModId}}_MagicCauldron",
+                    "DisplayName": "{{i18n:MagicCauldron.DisplayName}}",
+                    "Description": "{{i18n:MagicCauldron.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 60,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_MilkKeg": {
+                    "Name": "{{ModId}}_MilkKeg",
+                    "DisplayName": "{{i18n:MilkKeg.DisplayName}}",
+                    "Description": "{{i18n:MilkKeg.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 69,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_MoldColony": {
+                    "Name": "{{ModId}}_MoldColony",
+                    "DisplayName": "{{i18n:MoldColony.DisplayName}}",
+                    "Description": "{{i18n:MoldColony.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 70,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                },
+                "{{ModId}}_NagualScarecrow": {
+                    "Name": "{{ModId}}_NagualScarecrow",
+                    "DisplayName": "{{i18n:NagualScarecrow.DisplayName}}",
+                    "Description": "{{i18n:NagualScarecrow.Description}}",
+                    "Price": 5000,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 72,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                },
+                "{{ModId}}_NinetailsScarecrow": {
+                    "Name": "{{ModId}}_NinetailsScarecrow",
+                    "DisplayName": "{{i18n:NinetailsScarecrow.DisplayName}}",
+                    "Description": "{{i18n:NinetailsScarecrow.Description}}",
+                    "Price": 5000,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 73,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                },
+                "{{ModId}}_Oxidizer": {
+                    "Name": "{{ModId}}_Oxidizer",
+                    "DisplayName": "{{i18n:Oxidizer.DisplayName}}",
+                    "Description": "{{i18n:Oxidizer.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 74,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_PureeJar": {
+                    "Name": "{{ModId}}_PureeJar",
+                    "DisplayName": "{{i18n:PureeJar.DisplayName}}",
+                    "Description": "{{i18n:PureeJar.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 82,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_SeaMonsterScarecrow": {
+                    "Name": "{{ModId}}_SeaMonsterScarecrow",
+                    "DisplayName": "{{i18n:SeaMonsterScarecrow.DisplayName}}",
+                    "Description": "{{i18n:SeaMonsterScarecrow.Description}}",
+                    "Price": 5000,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 90,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                },
+                "{{ModId}}_TeaKeg": {
+                    "Name": "{{ModId}}_TeaKeg",
+                    "DisplayName": "{{i18n:TeaKeg.DisplayName}}",
+                    "Description": "{{i18n:TeaKeg.Description}}",
+                    "Price": 1,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 91,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable",
+                        "raffadax_machine"
+                    ]
+                },
+                "{{ModId}}_WendigoScarecrow": {
+                    "Name": "{{ModId}}_WendigoScarecrow",
+                    "DisplayName": "{{i18n:WendigoScarecrow.DisplayName}}",
+                    "Description": "{{i18n:WendigoScarecrow.Description}}",
+                    "Price": 5000,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 92,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                },
+                "{{ModId}}_WerewolfScarecrow": {
+                    "Name": "{{ModId}}_WerewolfScarecrow",
+                    "DisplayName": "{{i18n:WerewolfScarecrow.DisplayName}}",
+                    "Description": "{{i18n:WerewolfScarecrow.Description}}",
+                    "Price": 5000,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": true,
+                    "Texture": "Mods/{{ModId}}/BigObjects/Artisan",
+                    "SpriteIndex": 93,
+                    "ContextTags": [
+                        "raffadax_bigcraftable",
+                        "raffadax_crafted_bigcraftable"
+                    ]
+                }
+            }
+        }
+    ]
+}

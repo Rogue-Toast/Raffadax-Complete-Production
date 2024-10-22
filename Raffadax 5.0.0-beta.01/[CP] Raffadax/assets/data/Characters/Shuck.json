@@ -1,0 +1,200 @@
+{
+	"Changes": [
+
+// Add Shuck as NPC
+		{
+			"LogName": "Add Shuck",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{Shuck}}": {
+					"DisplayName": "[LocalizedText Strings\\NPCNames:{{Shuck}}]",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"BirthSeason": "Winter",
+					"BirthDay": 21,
+					"HomeRegion": "Other",
+					"CanSocialize": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanGreetNearbyCharacters": false,
+					"CanVisitIsland": false,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": false,
+					"PerfectionScore": true,
+					"EndSlideShow": "TrailingGroup",
+
+					"Appearance": [
+						{
+							"Id": "Default",
+							"Portrait": "Portraits/{{Shuck}}",
+							"Sprite": "Characters/{{Shuck}}"
+						}
+					],
+
+	// Default Home
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "WitchSwamp",
+							"Tile": { "X": 22, "Y": 22 },
+							"Direction": "down"
+						}
+					]
+				}
+			}
+		},
+
+// Display Name
+		{
+			"LogName": "Display name in standard location",
+			"Target": "Strings/NPCNames",
+			"Action": "EditData",
+			"Entries": {
+				"{{Shuck}}": "{{i18n:Shuck.DisplayName}}"
+			}
+		},
+
+// Portraits & sprites
+		{
+			"LogName": "Shuck's portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{Shuck}}",
+			"FromFile": "assets/textures/Portraits/Shuck.png"
+		},
+		{
+			"LogName": "Shuck's sprites",
+			"Action": "Load",
+			"Target": "Characters/{{Shuck}}",
+			"FromFile": "assets/textures/Characters/Shuck.png"
+		},
+
+// Animations
+		{
+			"LogName": "Shuck's Animations",
+			"Action": "EditData",
+      		"Target": "Data/animationDescriptions",
+      		"Entries": {
+				"{{Lowercase:{{ModID}}}}_shuck_Midnight": "16/16 20 20 20 20 32 32 32 33 33 33 34 34 34 24 24 24 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 20 20 31 31 31 31 31 24 24 31 31 31 31 31 31 31 26 26 27 27 26 26 27 27 26 27 26 31 31 31 31 31 31 31 31 20 20 31 31 31 31 24 24 34 34 30 30 32 32 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16/16",
+				"{{Lowercase:{{ModID}}}}_shuck_Sit": "16/16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 18 18 19 19 18 18 19 19 18 18 19 19 18 18 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16"
+      		}
+		},
+
+// Schedule - load blank
+		{
+			"LogName": "Blank Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/{{Shuck}}",
+			"FromFile": "assets/data/blank.json"
+		},
+
+// Schedule - Default
+		{
+			"LogName": "Shuck's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{Shuck}}",
+			"Entries": {
+				"spring": "0 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_shuck_Sit/2350 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_shuck_Midnight/0110 WitchSwamp 22 22 2 {{Lowercase:{{ModID}}}}_shuck_Sit"
+			}
+		},
+
+// Dialogue - load blank
+		{
+			"LogName": "Dialogue Shuck",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{Shuck}}",
+			"FromFile": "assets/data/blank.json"
+		},
+
+// Dialogue
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Shuck}}",
+			"Entries": {
+				"Introduction": "{{i18n:Shuck.Introduction}}",
+				"summer_21_1": "{{i18n:Shuck.summer_21_1}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Shuck.GiftLoved}}",
+	// 0 HEARTS
+				"Mon": "{{i18n:Shuck.Mon}}",
+				"Tue": "{{i18n:Shuck.Tue}}",
+				"Wed": "{{i18n:Shuck.Wed}}",
+				"Thu": "{{i18n:Shuck.Thu}}",
+				"Fri": "{{i18n:Shuck.Fri}}",
+				"Sat": "{{i18n:Shuck.Sat}}",
+				"Sun": "{{i18n:Shuck.Sun}}",
+	// 2 HEARTS
+				"Mon2": "{{i18n:Shuck.Mon2}}",
+				"Tue2": "{{i18n:Shuck.Tue2}}",
+				"Wed2": "{{i18n:Shuck.Wed2}}",
+				"Thu2": "{{i18n:Shuck.Thu2}}",
+				"Fri2": "{{i18n:Shuck.Fri2}}",
+				"Sat2": "{{i18n:Shuck.Sat2}}",
+				"Sun2": "{{i18n:Shuck.Sun2}}",
+	// 4 HEARTS
+				"Mon4": "{{i18n:Shuck.Mon4}}",
+				"Tue4": "{{i18n:Shuck.Tue4}}",
+				"Wed4": "{{i18n:Shuck.Wed4}}",
+				"Thu4": "{{i18n:Shuck.Thu4}}",
+				"Fri4": "{{i18n:Shuck.Fri4}}",
+				"Sat4": "{{i18n:Shuck.Sat4}}",
+				"Sun4": "{{i18n:Shuck.Sun4}}",
+	// 6 HEARTS
+				"Mon6": "{{i18n:Shuck.Mon6}}",
+				"Tue6": "{{i18n:Shuck.Tue6}}",
+				"Wed6": "{{i18n:Shuck.Wed6}}",
+				"Thu6": "{{i18n:Shuck.Thu6}}",
+				"Fri6": "{{i18n:Shuck.Fri6}}",
+				"Sat6": "{{i18n:Shuck.Sat6}}",
+				"Sun6": "{{i18n:Shuck.Sun6}}",
+	// 8 HEARTS
+				"Mon8": "{{i18n:Shuck.Mon8}}",
+				"Tue8": "{{i18n:Shuck.Tue8}}",
+				"Wed8": "{{i18n:Shuck.Wed8}}",
+				"Thu8": "{{i18n:Shuck.Thu8}}",
+				"Fri8": "{{i18n:Shuck.Fri8}}",
+				"Sat8": "{{i18n:Shuck.Sat8}}",
+				"Sun8": "{{i18n:Shuck.Sun8}}",
+
+	// 10 HEARTS - SPRING
+				"spring_Mon10": "{{i18n:Shuck.springMon10}}",
+				"spring_Tue10": "{{i18n:Shuck.springTue10}}",
+				"spring_Wed10": "{{i18n:Shuck.springWed10}}",
+				"spring_Thu10": "{{i18n:Shuck.springThu10}}",
+				"spring_Fri10": "{{i18n:Shuck.springFri10}}",
+				"spring_Sat10": "{{i18n:Shuck.springSat10}}",
+				"spring_Sun10": "{{i18n:Shuck.springSun10}}",
+
+	// 10 HEARTS - SUMMER
+				"summer_Mon10": "{{i18n:Shuck.summerMon10}}",
+				"summer_Tue10": "{{i18n:Shuck.summerTue10}}",
+				"summer_Wed10": "{{i18n:Shuck.summerWed10}}",
+				"summer_Thu10": "{{i18n:Shuck.summerThu10}}",
+				"summer_Fri10": "{{i18n:Shuck.summerFri10}}",
+				"summer_Sat10": "{{i18n:Shuck.summerSat10}}",
+				"summer_Sun10": "{{i18n:Shuck.summerSun10}}",
+
+	// 10 HEARTS - FALL
+				"fall_Mon10": "{{i18n:Shuck.fallMon10}}",
+				"fall_Tue10": "{{i18n:Shuck.fallTue10}}",
+				"fall_Wed10": "{{i18n:Shuck.fallWed10}}",
+				"fall_Thu10": "{{i18n:Shuck.fallThu10}}",
+				"fall_Fri10": "{{i18n:Shuck.fallFri10}}",
+				"fall_Sat10": "{{i18n:Shuck.fallSat10}}",
+				"fall_Sun10": "{{i18n:Shuck.fallSun10}}",
+
+	// 10 HEARTS - WINTER
+				"winter_Mon10": "{{i18n:Shuck.winterMon10}}",
+				"winter_Tue10": "{{i18n:Shuck.winterTue10}}",
+				"winter_Wed10": "{{i18n:Shuck.winterWed10}}",
+				"winter_Thu10": "{{i18n:Shuck.winterThu10}}",
+				"winter_Fri10": "{{i18n:Shuck.winterFri10}}",
+				"winter_Sat10": "{{i18n:Shuck.winterSat10}}",
+				"winter_Sun10": "{{i18n:Shuck.winterSun10}}"
+			}
+		}
+	]
+}

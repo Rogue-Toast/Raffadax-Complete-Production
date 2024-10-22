@@ -1,0 +1,98 @@
+{
+    "Name": "Raffadax Complete Production",
+    "Author": "Raffadax",
+    "Version": "5.0.0-beta.01",
+    "Description": "A massive expansion mod that adds thousands of items to the game.",
+    "UniqueID": "Raffadax.RCP",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Github:Rogue-Toast/RCP-Alpha"],
+    "Dependencies": [
+        {
+            "UniqueID": "Pathoschild.ContentPatcher"
+        },
+        {
+            "UniqueID":"Esca.CustomNPCExclusions"
+        },
+        {
+            "UniqueID": "mistyspring.ItemExtensions"
+        },
+        {
+            "UniqueID": "Cherry.MultiYieldCrops"
+        },
+        {
+            "UniqueID": "ZoeDoll.NPCAlecto",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Lemurkat.EastScarpNPCs.CP",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "CPBoardingHouse",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Tarniyar.NPC.GV.mod",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "FishingIslandNPC",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "malic.cp.jadeNPC",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "RaddBlaster.Wednesday",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "annachibi.SorrenNPC",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "TheLimeyDragon.Ayeisha",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "KimJyeulNPC.ExnoticTest",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "SYS.mike",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Zilsara.Mona",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Asari.Muadhnait",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Fellowclown.PC",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Ginnyclaire.PaulNPC",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Papaya.ShikoTakahashi",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "EmpressKimi.Zoro",
+            "IsRequired": false
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

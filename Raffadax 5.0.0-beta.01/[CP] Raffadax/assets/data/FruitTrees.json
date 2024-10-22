@@ -1,0 +1,2078 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax New Trees",
+            "Action": "EditData",
+            "Target": "Data/fruitTrees",
+            "Entries": {
+                "{{ModId}}_AcaiSapling": {
+                    "DisplayName": "{{i18n:AcaiSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_AcaiBerry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 0
+                },
+                "{{ModId}}_AchioteSapling": {
+                    "DisplayName": "{{i18n:AchioteSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Annatto"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 1
+                },
+                "{{ModId}}_AgaveSapling": {
+                    "DisplayName": "{{i18n:AgaveSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Agave"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 2
+                },
+                "{{ModId}}_AlmondSapling": {
+                    "DisplayName": "{{i18n:AlmondSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Almond"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 3
+                },
+                "{{ModId}}_AncientPalmSapling": {
+                    "DisplayName": "{{i18n:AncientPalmSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)454"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 4
+                },
+                "{{ModId}}_AngosturaSapling": {
+                    "DisplayName": "{{i18n:AngosturaSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_AngosturaBark"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 5
+                },
+                "{{ModId}}_AvocadoSapling": {
+                    "DisplayName": "{{i18n:AvocadoSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Avocado"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 6
+                },
+                "{{ModId}}_BaobabSapling": {
+                    "DisplayName": "{{i18n:BaobabSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Baobab"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 7
+                },
+                "{{ModId}}_BayLaurelSapling": {
+                    "DisplayName": "{{i18n:BayLaurelSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BayLeaf"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 8
+                },
+                "{{ModId}}_BearberrySapling": {
+                    "DisplayName": "{{i18n:BearberrySapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Bearberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 9
+                },
+                "{{ModId}}_BergamotSapling": {
+                    "DisplayName": "{{i18n:BergamotSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BergamotOrange"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 10
+                },
+                "{{ModId}}_BirchSapling": {
+                    "DisplayName": "{{i18n:BirchSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BirchBark"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 11
+                },
+                "{{ModId}}_BlackBambooSapling": {
+                    "DisplayName": "{{i18n:BlackBambooSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BlackBamboo"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 12
+                },
+                "{{ModId}}_BlackCacaoSapling": {
+                    "DisplayName": "{{i18n:BlackCacaoSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BlackCacaoPod"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 13
+                },
+                "{{ModId}}_BlackCherrySapling": {
+                    "DisplayName": "{{i18n:BlackCherrySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BlackCherry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 14
+                },
+                "{{ModId}}_BlackCurrantSapling": {
+                    "DisplayName": "{{i18n:BlackCurrantSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BlackCurrants"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 15
+                },
+                "{{ModId}}_BlackOakSapling": {
+                    "DisplayName": "{{i18n:BlackOakSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Mistletoe"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 16
+                },
+                "{{ModId}}_BlackOliveSapling": {
+                    "DisplayName": "{{i18n:BlackOliveSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BlackOlive"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 17
+                },
+                "{{ModId}}_BlackWalnutSapling": {
+                    "DisplayName": "{{i18n:BlackWalnutSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BlackWalnut"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 18
+                },
+                "{{ModId}}_BlackberrySapling": {
+                    "DisplayName": "{{i18n:BlackberrySapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)410"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 19
+                },
+                "{{ModId}}_BlackthornSapling": {
+                    "DisplayName": "{{i18n:BlackthornSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_SloePlum"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 20
+                },
+                "{{ModId}}_JavaBananaSapling": {
+                    "DisplayName": "{{i18n:JavaBananaSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BlueJavaBanana"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 21
+                },
+                "{{ModId}}_BlueRaspberrySapling": {
+                    "DisplayName": "{{i18n:BlueRaspberrySapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BlueRaspberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 22
+                },
+                "{{ModId}}_BlueberryBushSapling": {
+                    "DisplayName": "{{i18n:BlueberryBushSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)258"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 23
+                },
+                "{{ModId}}_BodhiSapling": {
+                    "DisplayName": "{{i18n:BodhiSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_CintamaniFlower"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 24
+                },
+                "{{ModId}}_BrazilNutSapling": {
+                    "DisplayName": "{{i18n:BrazilNutSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BrazilNut"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 25
+                },
+                "{{ModId}}_BuddhasHandSapling": {
+                    "DisplayName": "{{i18n:BuddhasHandSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_BuddhasHand"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 26
+                },
+                "{{ModId}}_CacaoSapling": {
+                    "DisplayName": "{{i18n:CacaoSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_CacaoPod"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 27
+                },
+                "{{ModId}}_CarambolaSapling": {
+                    "DisplayName": "{{i18n:CarambolaSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Carambola"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 28
+                },
+                "{{ModId}}_CashewAppleSapling": {
+                    "DisplayName": "{{i18n:CashewAppleSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_CashewApple"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 29
+                },
+                "{{ModId}}_ChestnutSapling": {
+                    "DisplayName": "{{i18n:ChestnutSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Chestnut"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 30
+                },
+                "{{ModId}}_CinchonaSapling": {
+                    "DisplayName": "{{i18n:CinchonaSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_CinchonaBark"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 31
+                },
+                "{{ModId}}_CinnamomumSapling": {
+                    "DisplayName": "{{i18n:CinnamomumSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_CinnamonBark"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 32
+                },
+                "{{ModId}}_ClematisSapling": {
+                    "DisplayName": "{{i18n:ClematisSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Clematis"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 33
+                },
+                "{{ModId}}_CloveSapling": {
+                    "DisplayName": "{{i18n:CloveSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Clove"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 34
+                },
+                "{{ModId}}_CocodeMerSapling": {
+                    "DisplayName": "{{i18n:CocodeMerSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_CocodeMer"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 35
+                },
+                "{{ModId}}_CorpseFlowerSapling": {
+                    "DisplayName": "{{i18n:CorpseFlowerSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Zaminkand"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 36
+                },
+                "{{ModId}}_CrabappleSapling": {
+                    "DisplayName": "{{i18n:CrabappleSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Crabapple"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 37
+                },
+                "{{ModId}}_CranberryBushSapling": {
+                    "DisplayName": "{{i18n:CranberryBushSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)282"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 38
+                },
+                "{{ModId}}_CrystalFruitSapling": {
+                    "DisplayName": "{{i18n:CrystalFruitSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)414"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 39
+                },
+                "{{ModId}}_CurrySapling": {
+                    "DisplayName": "{{i18n:CurrySapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_CurryLeaf"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 40
+                },
+                "{{ModId}}_DateSapling": {
+                    "DisplayName": "{{i18n:DateSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Date"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 41
+                },
+                "{{ModId}}_DeadMansSapling": {
+                    "DisplayName": "{{i18n:DeadMansSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_DeadMansFingers"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 42
+                },
+                "{{ModId}}_DogwoodSapling": {
+                    "DisplayName": "{{i18n:DogwoodSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Dogwood"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 43
+                },
+                "{{ModId}}_DragonFruitCactusSapling": {
+                    "DisplayName": "{{i18n:DragonFruitCactusSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_DragonFruit"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 44
+                },
+                "{{ModId}}_DryadSapling": {
+                    "DisplayName": "{{i18n:DryadSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Hesperidium"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 45
+                },
+                "{{ModId}}_DurianSapling": {
+                    "DisplayName": "{{i18n:DurianSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Durian"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 46
+                },
+                "{{ModId}}_EbonySapling": {
+                    "DisplayName": "{{i18n:EbonySapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_EbonyWood"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 47
+                },
+                "{{ModId}}_ElderSapling": {
+                    "DisplayName": "{{i18n:ElderSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Elderflower"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 48
+                },
+                "{{ModId}}_ElderberrySapling": {
+                    "DisplayName": "{{i18n:ElderberrySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Elderberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 49
+                },
+                "{{ModId}}_FicusSapling": {
+                    "DisplayName": "{{i18n:FicusSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Fig"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 50
+                },
+                "{{ModId}}_ForestPlumSapling": {
+                    "DisplayName": "{{i18n:ForestPlumSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)406"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 51
+                },
+                "{{ModId}}_ForestRoseSapling": {
+                    "DisplayName": "{{i18n:ForestRoseSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_RoseofAvalon"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 52
+                },
+                "{{ModId}}_ForsythiaSapling": {
+                    "DisplayName": "{{i18n:ForsythiaSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Forsythia"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 53
+                },
+                "{{ModId}}_FoxberrySapling": {
+                    "DisplayName": "{{i18n:FoxberrySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Foxberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 54
+                },
+                "{{ModId}}_FusangSapling": {
+                    "DisplayName": "{{i18n:FusangSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_DragonBerry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 55
+                },
+                "{{ModId}}_GildedCoconutSapling": {
+                    "DisplayName": "{{i18n:GildedCoconutSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)791"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 56
+                },
+                "{{ModId}}_GildedWalnutSapling": {
+                    "DisplayName": "{{i18n:GildedWalnutSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)73"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 57
+                },
+                "{{ModId}}_GinkgoSapling": {
+                    "DisplayName": "{{i18n:GinkgoSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_GinkgoLeaf"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 58
+                },
+                "{{ModId}}_GoldenPlumSapling": {
+                    "DisplayName": "{{i18n:GoldenPlumSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_GoldenPlum"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 59
+                },
+                "{{ModId}}_GrapefruitSapling": {
+                    "DisplayName": "{{i18n:GrapefruitSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Grapefruit"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 60
+                },
+                "{{ModId}}_GrosMichelSapling": {
+                    "DisplayName": "{{i18n:GrosMichelSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_GrosMichel"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 61
+                },
+                "{{ModId}}_GuaranaSapling": {
+                    "DisplayName": "{{i18n:GuaranaSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Guarana"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 62
+                },
+                "{{ModId}}_GuavaSapling": {
+                    "DisplayName": "{{i18n:GuavaSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Guava"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 63
+                },
+                "{{ModId}}_HagTreeSapling": {
+                    "DisplayName": "{{i18n:HagTreeSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_PoisonApple"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 64
+                },
+                "{{ModId}}_HawthornSapling": {
+                    "DisplayName": "{{i18n:HawthornSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_HawthornBerry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 65
+                },
+                "{{ModId}}_HeliconiaSapling": {
+                    "DisplayName": "{{i18n:HeliconiaSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Heliconia"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 66
+                },
+                "{{ModId}}_HibiscusSapling": {
+                    "DisplayName": "{{i18n:HibiscusSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Hibiscus"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 67
+                },
+                "{{ModId}}_HollySapling": {
+                    "DisplayName": "{{i18n:HollySapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)283"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 68
+                },
+                "{{ModId}}_HoneyberrySapling": {
+                    "DisplayName": "{{i18n:HoneyberrySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Honeyberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 69
+                },
+                "{{ModId}}_HoneycrispSapling": {
+                    "DisplayName": "{{i18n:HoneycrispSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_HoneycrispApple"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 70
+                },
+                "{{ModId}}_HoneysuckleSapling": {
+                    "DisplayName": "{{i18n:HoneysuckleSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Honeysuckle"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 71
+                },
+                "{{ModId}}_HuaMoaSapling": {
+                    "DisplayName": "{{i18n:HuaMoaSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_HuaMoa"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 72
+                },
+                "{{ModId}}_HuckleberrySapling": {
+                    "DisplayName": "{{i18n:HuckleberrySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Huckleberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 73
+                },
+                "{{ModId}}_IlliciumSapling": {
+                    "DisplayName": "{{i18n:IlliciumSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_StarAnise"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 74
+                },
+                "{{ModId}}_InfernalSapling": {
+                    "DisplayName": "{{i18n:InfernalSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_FruitoftheNetherworld"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 75
+                },
+                "{{ModId}}_IslandCoconutSapling": {
+                    "DisplayName": "{{i18n:IslandCoconutSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)88"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 76
+                },
+                "{{ModId}}_JabuticabaSapling": {
+                    "DisplayName": "{{i18n:JabuticabaSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Jabuticaba"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 77
+                },
+                "{{ModId}}_JacarandaSapling": {
+                    "DisplayName": "{{i18n:JacarandaSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Jacaranda"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 78
+                },
+                "{{ModId}}_JungleMossSapling": {
+                    "DisplayName": "{{i18n:JungleMossSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_DeepJungleMoss"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 79
+                },
+                "{{ModId}}_JuniperSapling": {
+                    "DisplayName": "{{i18n:JuniperSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Juniper"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 80
+                },
+                "{{ModId}}_KeyLimeSapling": {
+                    "DisplayName": "{{i18n:KeyLimeSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_KeyLime"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 81
+                },
+                "{{ModId}}_KiwiSapling": {
+                    "DisplayName": "{{i18n:KiwiSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Kiwi"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 82
+                },
+                "{{ModId}}_KolaSapling": {
+                    "DisplayName": "{{i18n:KolaSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_KolaNut"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 83
+                },
+                "{{ModId}}_KumquatSapling": {
+                    "DisplayName": "{{i18n:KumquatSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Kumquat"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 84
+                },
+                "{{ModId}}_LarahaOrangeSapling": {
+                    "DisplayName": "{{i18n:LarahaOrangeSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_LarahaOrange"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 85
+                },
+                "{{ModId}}_LavenderSapling": {
+                    "DisplayName": "{{i18n:LavenderSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Lavender"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 86
+                },
+                "{{ModId}}_LemonSapling": {
+                    "DisplayName": "{{i18n:LemonSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Lemon"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 87
+                },
+                "{{ModId}}_LilacSapling": {
+                    "DisplayName": "{{i18n:LilacSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Lilac"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 88
+                },
+                "{{ModId}}_LimeSapling": {
+                    "DisplayName": "{{i18n:LimeSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Lime"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 89
+                },
+                "{{ModId}}_LindenSapling": {
+                    "DisplayName": "{{i18n:LindenSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Linden"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 90
+                },
+                "{{ModId}}_LycheeSapling": {
+                    "DisplayName": "{{i18n:LycheeSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Lychee"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 91
+                },
+                "{{ModId}}_MacadamiaSapling": {
+                    "DisplayName": "{{i18n:MacadamiaSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_MacadamiaNut"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 92
+                },
+                "{{ModId}}_MaenadSapling": {
+                    "DisplayName": "{{i18n:MaenadSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_VakkhicGrape"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 93
+                },
+                "{{ModId}}_MandarinSapling": {
+                    "DisplayName": "{{i18n:MandarinSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_MandarinOrange"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 94
+                },
+                "{{ModId}}_MarconaAlmondSapling": {
+                    "DisplayName": "{{i18n:MarconaAlmondSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_MarconaAlmond"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 95
+                },
+                "{{ModId}}_MeyerLemonSapling": {
+                    "DisplayName": "{{i18n:MeyerLemonSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_MeyerLemon"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 96
+                },
+                "{{ModId}}_MimosaSapling": {
+                    "DisplayName": "{{i18n:MimosaSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_MimosaFlower"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 97
+                },
+                "{{ModId}}_MonkeyLianaSapling": {
+                    "DisplayName": "{{i18n:MonkeyLianaSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_SeaHeart"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 98
+                },
+                "{{ModId}}_MonsteraSapling": {
+                    "DisplayName": "{{i18n:MonsteraSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_MonsteraDeliciosa"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 99
+                },
+                "{{ModId}}_MoonberrySapling": {
+                    "DisplayName": "{{i18n:MoonberrySapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Moonberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 100
+                },
+                "{{ModId}}_MulberrySapling": {
+                    "DisplayName": "{{i18n:MulberrySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Mulberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 101
+                },
+                "{{ModId}}_MyristicaSapling": {
+                    "DisplayName": "{{i18n:MyristicaSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Myristica"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 102
+                },
+                "{{ModId}}_NinoBananaSapling": {
+                    "DisplayName": "{{i18n:NinoBananaSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_NinoBananas"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 103
+                },
+                "{{ModId}}_OliveSapling": {
+                    "DisplayName": "{{i18n:OliveSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Olive"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 104
+                },
+                "{{ModId}}_OsmanthusSapling": {
+                    "DisplayName": "{{i18n:OsmanthusSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Osmanthus"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 105
+                },
+                "{{ModId}}_PalmGroveSapling": {
+                    "DisplayName": "{{i18n:PalmGroveSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_HeartsofPalm"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 106
+                },
+                "{{ModId}}_PapayaSapling": {
+                    "DisplayName": "{{i18n:PapayaSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Papaya"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 107
+                },
+                "{{ModId}}_PearSapling": {
+                    "DisplayName": "{{i18n:PearSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Pear"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 108
+                },
+                "{{ModId}}_PecanSapling": {
+                    "DisplayName": "{{i18n:PecanSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Pecan"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 109
+                },
+                "{{ModId}}_PersimmonSapling": {
+                    "DisplayName": "{{i18n:PersimmonSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Persimmon"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 110
+                },
+                "{{ModId}}_PimentoSapling": {
+                    "DisplayName": "{{i18n:PimentoSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_PimentoBerry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 111
+                },
+                "{{ModId}}_PineNutSapling": {
+                    "DisplayName": "{{i18n:PineNutSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_PineNut"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 112
+                },
+                "{{ModId}}_PinkLemonSapling": {
+                    "DisplayName": "{{i18n:PinkLemonSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_PinkLemon"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 113
+                },
+                "{{ModId}}_PistachioSapling": {
+                    "DisplayName": "{{i18n:PistachioSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Pistachio"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 114
+                },
+                "{{ModId}}_PlantainSapling": {
+                    "DisplayName": "{{i18n:PlantainSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Plantain"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 115
+                },
+                "{{ModId}}_PolarBerrySapling": {
+                    "DisplayName": "{{i18n:PolarBerrySapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_PolarBerry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 116
+                },
+                "{{ModId}}_QuinceSapling": {
+                    "DisplayName": "{{i18n:QuinceSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Quince"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 117
+                },
+                "{{ModId}}_RainbowEucalyptusSapling": {
+                    "DisplayName": "{{i18n:RainbowEucalyptusSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_RainbowEucalyptusLeaf"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 118
+                },
+                "{{ModId}}_RambutanSapling": {
+                    "DisplayName": "{{i18n:RambutanSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Rambutan"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 119
+                },
+                "{{ModId}}_RaspberrySapling": {
+                    "DisplayName": "{{i18n:RaspberrySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Raspberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 120
+                },
+                "{{ModId}}_AnjouPearSapling": {
+                    "DisplayName": "{{i18n:AnjouPearSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_RedAnjouPear"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 121
+                },
+                "{{ModId}}_DaccaBananaSapling": {
+                    "DisplayName": "{{i18n:DaccaBananaSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_RedDaccaBanana"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 122
+                },
+                "{{ModId}}_RooibosSapling": {
+                    "DisplayName": "{{i18n:RooibosSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Rooibos"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 123
+                },
+                "{{ModId}}_RoseGrapeSapling": {
+                    "DisplayName": "{{i18n:RoseGrapeSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_RoseGrapes"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 124
+                },
+                "{{ModId}}_RosemarySapling": {
+                    "DisplayName": "{{i18n:RosemarySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Rosemary"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 125
+                },
+                "{{ModId}}_RowanSapling": {
+                    "DisplayName": "{{i18n:RowanSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Rowanberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 126
+                },
+                "{{ModId}}_PoincianaSapling": {
+                    "DisplayName": "{{i18n:PoincianaSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_RoyalPoinciana"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 127
+                },
+                "{{ModId}}_RedGrapefruitSapling": {
+                    "DisplayName": "{{i18n:RedGrapefruitSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_RubyRedGrapefruit"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 128
+                },
+                "{{ModId}}_SaguaroCactusSapling": {
+                    "DisplayName": "{{i18n:SaguaroCactusSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Bahidaj"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 129
+                },
+                "{{ModId}}_SakuraSapling": {
+                    "DisplayName": "{{i18n:SakuraSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Sakura"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 130
+                },
+                "{{ModId}}_SalmonberrySapling": {
+                    "DisplayName": "{{i18n:SalmonberrySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)296"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 131
+                },
+                "{{ModId}}_SandalwoodSapling": {
+                    "DisplayName": "{{i18n:SandalwoodSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Sandalwood"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 132
+                },
+                "{{ModId}}_SaskatoonSapling": {
+                    "DisplayName": "{{i18n:SaskatoonSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Saskatoon"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 133
+                },
+                "{{ModId}}_SassafrasSapling": {
+                    "DisplayName": "{{i18n:SassafrasSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_SassafrasRoot"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 134
+                },
+                "{{ModId}}_SpiceBerrySapling": {
+                    "DisplayName": "{{i18n:SpiceBerrySapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)396"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 135
+                },
+                "{{ModId}}_SpruceSapling": {
+                    "DisplayName": "{{i18n:SpruceSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_SpruceTips"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 136
+                },
+                "{{ModId}}_StarAppleSapling": {
+                    "DisplayName": "{{i18n:StarAppleSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_StarApple"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 137
+                },
+                "{{ModId}}_StarFruitSapling": {
+                    "DisplayName": "{{i18n:StarFruitSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)268"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 138
+                },
+                "{{ModId}}_StarJasmineSapling": {
+                    "DisplayName": "{{i18n:StarJasmineSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_StarJasmine"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 139
+                },
+                "{{ModId}}_StardropSapling": {
+                    "DisplayName": "{{i18n:StardropSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Stardrop"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 140
+                },
+                "{{ModId}}_StrawberrySapling": {
+                    "DisplayName": "{{i18n:StrawberrySapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)400"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 141
+                },
+                "{{ModId}}_SugarcaneSapling": {
+                    "DisplayName": "{{i18n:SugarcaneSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Sugarcane"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 142
+                },
+                "{{ModId}}_SumacSapling": {
+                    "DisplayName": "{{i18n:SumacSapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Sumac"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 143
+                },
+                "{{ModId}}_SummerStarberrySapling": {
+                    "DisplayName": "{{i18n:SummerStarberrySapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_SummerStarberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 144
+                },
+                "{{ModId}}_SunberrySapling": {
+                    "DisplayName": "{{i18n:SunberrySapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Sunberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 145
+                },
+                "{{ModId}}_SweetGemSapling": {
+                    "DisplayName": "{{i18n:SweetGemSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)417"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 146
+                },
+                "{{ModId}}_TamarindSapling": {
+                    "DisplayName": "{{i18n:TamarindSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Tamarind"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 147
+                },
+                "{{ModId}}_WalnutSapling": {
+                    "DisplayName": "{{i18n:WalnutSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Walnut"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 148
+                },
+                "{{ModId}}_WhiteCacaoSapling": {
+                    "DisplayName": "{{i18n:WhiteCacaoSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_WhiteCacaoPod"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 149
+                },
+                "{{ModId}}_WhitePeachSapling": {
+                    "DisplayName": "{{i18n:WhitePeachSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_WhitePeach"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 150
+                },
+                "{{ModId}}_WildHazelnutSapling": {
+                    "DisplayName": "{{i18n:WildHazelnutSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "(O)408"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 151
+                },
+                "{{ModId}}_WillowSapling": {
+                    "DisplayName": "{{i18n:WillowSapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_WillowBark"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 152
+                },
+                "{{ModId}}_WinterStarberrySapling": {
+                    "DisplayName": "{{i18n:WinterStarberrySapling.TreeName}}",
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_WinterStarberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 153
+                },
+                "{{ModId}}_WisteriaSapling": {
+                    "DisplayName": "{{i18n:WisteriaSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Wisteria"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 154
+                },
+                "{{ModId}}_WitchHazelSapling": {
+                    "DisplayName": "{{i18n:WitchHazelSapling.TreeName}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_WitchHazel"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 155
+                },
+                "{{ModId}}_WolfberrySapling": {
+                    "DisplayName": "{{i18n:WolfberrySapling.TreeName}}",
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Wolfberry"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 156
+                },
+                "{{ModId}}_YateveoSapling": {
+                    "DisplayName": "{{i18n:YateveoSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Yateveo"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 157
+                },
+                "{{ModId}}_YggdrasilSapling": {
+                    "DisplayName": "{{i18n:YggdrasilSapling.TreeName}}",
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "Fruit": [
+                        {
+                            "ItemId": "{{ModId}}_Bifrost"
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/Trees",
+                    "TextureSpriteRow": 158
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax New Giant Crops",
+            "Action": "EditData",
+            "Target": "Data/GiantCrops",
+            "Entries": {
+                "{{ModId}}_Amanita_Giant": {
+                    "FromItemID": "{{ModId}}_Amanita",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_Amanita",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 0
+                    }
+                },
+                "{{ModId}}_Cantaloupe_Giant": {
+                    "FromItemID": "{{ModId}}_Cantaloupe",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_Cantaloupe",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 48,
+                        "Y": 0
+                    }
+                },
+                "{{ModId}}_GlassPumpkin_Giant": {
+                    "FromItemID": "{{ModId}}_GlassPumpkin",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_GlassPumpkin",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 96,
+                        "Y": 0
+                    }
+                },
+                "{{ModId}}_GoldenCauliflower_Giant": {
+                    "FromItemID": "{{ModId}}_GoldenCauliflower",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_GoldenCauliflower",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 144,
+                        "Y": 0
+                    }
+                },
+                "{{ModId}}_GoldenPumpkin_Giant": {
+                    "FromItemID": "373",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "373",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 192,
+                        "Y": 0
+                    }
+                },
+                "{{ModId}}_GreenLeafLettuce_Giant": {
+                    "FromItemID": "{{ModId}}_GreenLeafLettuce",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_GreenLeafLettuce",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 240,
+                        "Y": 0
+                    }
+                },
+                "{{ModId}}_HoneydewMelon_Giant": {
+                    "FromItemID": "{{ModId}}_HoneydewMelon",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_HoneydewMelon",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 288,
+                        "Y": 0
+                    }
+                },
+                "{{ModId}}_JackOLantern_Giant": {
+                    "FromItemID": "746",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "746",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 64
+                    }
+                },
+                "{{ModId}}_PortobelloMushroom_Giant": {
+                    "FromItemID": "{{ModId}}_PortobelloMushroom",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_PortobelloMushroom",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 48,
+                        "Y": 64
+                    }
+                },
+                "{{ModId}}_PuffballMushroom_Giant": {
+                    "FromItemID": "{{ModId}}_PuffballMushroom",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_PuffballMushroom",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 96,
+                        "Y": 64
+                    }
+                },
+                "{{ModId}}_PurpleCauliflower_Giant": {
+                    "FromItemID": "{{ModId}}_PurpleCauliflower",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_PurpleCauliflower",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 144,
+                        "Y": 64
+                    }
+                },
+                "{{ModId}}_Romanesco_Giant": {
+                    "FromItemID": "{{ModId}}_Romanesco",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_Romanesco",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 192,
+                        "Y": 64
+                    }
+                },
+                "{{ModId}}_Watermelon_Giant": {
+                    "FromItemID": "{{ModId}}_Watermelon",
+                    "HarvestItems": [
+                        {
+                            "Chance": 1.0,
+                            "ForShavingEnchantment": null,
+                            "ScaledMinStackWhenShaving": 2,
+                            "ScaledMaxStackWhenShaving": 2,
+                            "ItemId": "{{ModId}}_Watermelon",
+                            "MinStack": 15,
+                            "MaxStack": 21
+                        }
+                    ],
+                    "Texture": "Mods/{{ModId}}/GiantCrops",
+                    "TexturePosition": {
+                        "X": 240,
+                        "Y": 64
+                    }
+                }
+            }
+        }
+    ]
+}

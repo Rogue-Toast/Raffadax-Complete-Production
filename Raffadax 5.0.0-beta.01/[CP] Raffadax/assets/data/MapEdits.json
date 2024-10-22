@@ -1,0 +1,221 @@
+{
+	"Changes": [
+
+	// MAP EDITS - GRIMOIRES - single asset
+      	{
+      		"LogName": "Add Astrid's Grimoire",
+      		"Action": "EditMap",
+      		"Target": "Maps/Island_SE",
+      		"FromFile": "assets/textures/Maps/z_Galdrabok.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 23, "Y": 11, "Height": 2, "Width": 1 },
+      		"PatchMode": "Overlay"
+      	},
+      	{
+      		"LogName": "Add Shuck's Grimoire",
+      		"Action": "EditMap",
+      		"Target": "Maps/WitchSwamp",
+      		"FromFile": "assets/textures/Maps/z_Necronomicon.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 23, "Y": 21, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay"
+      	},
+      	{
+      		"LogName": "Add Xolotl's Grimoire",
+      		"Action": "EditMap",
+      		"Target": "Maps/Island_Shrine",
+      		"FromFile": "assets/textures/Maps/z_Amoxtli.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 21, "Y": 23, "Height": 2, "Width": 1 },
+	   		"PatchMode": "Overlay"
+      	},
+
+	// MAP EDITS - SHOP SIGNS - single asset
+		{
+			"LogName": "Add Astrid's shop sign to GI-SE",
+			"Action": "EditMap",
+      		"Target": "Maps/Island_SE",
+      		"FromFile": "assets/textures/Maps/z_Selkie.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 22, "Y": 10, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Add Shuck's shop sign to the Witch's Swamp",
+			"Action": "EditMap",
+      		"Target": "Maps/WitchSwamp",
+      		"FromFile": "assets/textures/Maps/z_Barghest.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 21, "Y": 21, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Add Xolotl's shop sign to GI-Jungle",
+			"Action": "EditMap",
+      		"Target": "Maps/Island_Shrine",
+      		"FromFile": "assets/textures/Maps/z_Nagual.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 19, "Y": 23, "Height": 2, "Width": 1 },
+	   		"PatchMode": "Overlay"
+		},
+		{
+			"LogName": "Add Valkyrie's shop sign to GI-Caldera",
+			"Action": "EditMap",
+     		"Target": "Maps/Caldera",
+      		"FromFile": "assets/textures/Maps/z_Valkyrie.tmx",
+            	"FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            	"ToArea": { "X": 24, "Y": 22, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay"
+		},
+
+	// MAP EDITS - SHOPS & GRIMOIRES - combined assets
+		{
+			"LogName": "Add Amanra's Shop and Grimoire to Desert",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/Desert",
+			"FromFile": "assets/textures/Maps/DesertEdits.tmx",
+				"ToArea": { "X": 18, "Y": 6, "Height": 4, "Width": 4 },
+			"When":{
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+			}
+		},
+		{
+			"LogName": "Add Amanra's Shop and Grimoire to Desert Festival",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/SkullCave",
+			"FromFile": "assets/textures/Maps/SkullCaveEdits.tmx",
+				"ToArea": { "X": 7, "Y": 3, "Height": 3, "Width": 3 },
+			"When": {
+				"Season": "spring",
+				"Day": "15, 16, 17",
+				"HasFlag": "ccVault"
+			}
+		},
+		{
+			"LogName": "Add Coyote's Shop & Grimoire to the Quarry",
+			"Action": "EditMap",
+			"Priority": "Late",
+      		"Target": "Maps/Mountain",
+      		"FromFile": "assets/textures/Maps/MountainEdits.tmx",
+            "ToArea": { "X": 115, "Y": 10, "Height": 2, "Width": 3 },
+            "When": {
+	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
+	  		}
+		},
+		{
+			"LogName": "Add Mephisto's Shop & Grimoire to the Sewer",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/Sewer",
+			"FromFile": "assets/textures/Maps/SewerEdits.tmx",
+				"ToArea": { "X": 13, "Y": 10, "Height": 3, "Width": 3 },
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": false
+			}
+		},
+		{
+			"LogName": "Add Puck's Shop & Grimoire to the Secret Woods",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/Woods",
+			"FromFile": "assets/textures/Maps/WoodsEdits.tmx",
+				"ToArea": { "X": 28, "Y": 4, "Height": 2, "Width": 3 },
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			"PatchMode": "Replace"	
+		},
+		
+	// MAP EDITS - MISC
+		{
+			"LogName": "Add Humidor to Saloon",
+			"Action": "EditMap",
+      		"Target": "Maps/Saloon",
+      		"FromFile": "assets/textures/Maps/z_Humidor.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Height": 2, "Width": 1 },
+            "ToArea": { "X": 24, "Y": 16, "Height": 2, "Width": 1 },
+	  		"PatchMode": "Overlay",
+	  		"When": {
+	  			"Humidor": "true"
+	  		}
+		},
+		{
+			"LogName": "Add Soda Machine to Saloon",
+			"Action": "EditMap",
+      		"Target": "Maps/Saloon",
+      		"FromFile": "assets/textures/Maps/z_SodaMachine.tmx",
+            "FromArea": { "X": 0, "Y": 0, "Height": 1, "Width": 2 },
+            "ToArea": { "X": 37, "Y": 17, "Height": 1, "Width": 2 },
+	  		"PatchMode": "Overlay"
+		},
+
+	// MAP EDITS - SVE COMPAT
+		{
+			"LogName": "Add Amanra's Shop & Grimoire to Desert - SVE",
+			"Action": "EditMap",
+			"Priority": "Late",
+      		"Target": "Maps/Desert",
+      		"FromFile": "assets/textures/Maps/DesertEditsSVE.tmx",
+            	"ToArea": { "X": 29, "Y": 43, "Height": 4, "Width": 4 },
+      		"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{
+			"LogName": "Add Puck's Shop & Grimoire to the Secret Woods - SVE",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/Woods",
+			"FromFile": "assets/textures/Maps/WoodsEditsSVE.tmx",
+		  		"ToArea": { "X": 33, "Y": 45, "Height": 2, "Width": 3 },
+			"When": {
+			  	"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+
+	// MAP EDITS - MORE LIVELY QUARRY COMPAT
+		{
+      		"LogName": "Add Coyote's Shop & Grimoire - MLQ",
+      		"Action": "EditMap",
+			"Priority": "Late",
+      		"Target": "Maps/Mountain",
+      		"FromFile": "assets/textures/Maps/MountainEditsMLQ.tmx",
+            "ToArea": { "X": 118, "Y": 11, "Height": 2, "Width": 3 },
+	  		"When": {
+	  			"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
+	  		}
+      	},
+
+	// MAP EDITS - MORE LIVELY SEWER OVERHAUL COMPAT
+		{
+      		"LogName": "Add Mephisto's Shop & Grimoire to the Sewer - MLS",
+      		"Action": "EditMap",
+			"Priority": "Late",
+      		"Target": "Maps/Sewer",
+      		"FromFile": "assets/textures/Maps/SewerEditsMLS.tmx",
+            	"ToArea": { "X": 13, "Y": 9, "Height": 2, "Width": 3 },
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelySewerOverhaul": true
+			},
+			"PatchMode": "Replace"
+      	},
+
+	// MAP EDITS - DESERT FESTIVAL RELOADED COMPAT
+		{
+			"LogName": "Add Amanra's Shop and Grimoire to Desert Festival",
+			"Action": "EditMap",
+			"Priority": "Late",
+			"Target": "Maps/SkullCave",
+			"FromFile": "assets/textures/Maps/SkullCaveEdits.tmx",
+				"ToArea": { "X": 7, "Y": 3, "Height": 3, "Width": 3 },
+			"When": {
+				"Season": "fall",
+				"Day": "8, 9, 10",
+				"HasFlag": "ccVault",
+				"Hasmod|contains=agentlyoko.desertfest2": true	
+			}
+		}
+	]
+}

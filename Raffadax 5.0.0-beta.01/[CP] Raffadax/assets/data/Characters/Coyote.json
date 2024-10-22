@@ -1,0 +1,229 @@
+{
+	"Changes": [
+
+// Add Coyote as NPC
+		{
+			"LogName": "Add Coyote",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{Coyote}}": {
+					"DisplayName": "[LocalizedText Strings\\NPCNames:{{Coyote}}]",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"BirthSeason": "Summer",
+					"BirthDay": 1,
+					"HomeRegion": "Other",
+					"CanSocialize": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanGreetNearbyCharacters": false,
+					"CanVisitIsland": false,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"IntroductionsQuest": true,
+					"ItemDeliveryQuests": false,
+					"PerfectionScore": true,
+					"EndSlideShow": "TrailingGroup",
+
+					"Appearance": [
+						{
+							"Id": "Default",
+							"Portrait": "Portraits/{{Coyote}}",
+							"Sprite": "Characters/{{Coyote}}"
+						}
+					],
+
+	// Default Home
+				"Home": [
+						{
+							"Id": "Default",
+							"Condition": null,
+							"Location": "Mountain",
+							"Tile": { "X": 116, "Y": 11 },
+							"Direction": "down"
+						},
+
+	// Home - More Lively Quarry Compat
+						{
+							"Id": "MLQ",
+							"Condition": "!{{HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul}}",
+							"Location": "Mountain",
+							"Tile": { "X": 119, "Y": 12 },
+							"Direction": "down"
+						}
+					]
+				}
+			}
+		},
+
+// Display Name
+		{
+			"LogName": "Display name in standard location",
+			"Target": "Strings/NPCNames",
+			"Action": "EditData",
+			"Entries": {
+				"{{Coyote}}": "{{i18n:Coyote.DisplayName}}"
+			}
+		},
+
+// Portraits & sprites
+		{
+			"LogName": "Coyote's portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{Coyote}}",
+			"FromFile": "assets/textures/Portraits/Coyote.png"
+		},
+		{
+			"LogName": "Coyote's sprites",
+			"Action": "Load",
+			"Target": "Characters/{{Coyote}}",
+			"FromFile": "assets/textures/Characters/Coyote.png"
+		},
+
+// Animations
+		{
+			"LogName": "Coyote's Animations",
+			"Action": "EditData",
+      		"Target": "Data/animationDescriptions",
+      		"Entries": {
+				"{{Lowercase:{{ModID}}}}_coyote_Rain": "19/19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 17 17 19 19 17 19 17 19 19 19 19 19/19",
+				"{{Lowercase:{{ModID}}}}_coyote_Sit": "16/16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 16 16 16 16 16 16 16 16 16 16 16 16 16 17 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 18 18 16 18 16 18 16 16 16 16 16 16 16 17 17 16 17 16 16 16 16 16 16 16 16 16 16 16/16"
+      		}
+		},
+
+// Schedule - load blank
+		{
+			"LogName": "Blank Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/Raffadax.RCP_Coyote",
+			"FromFile": "assets/data/blank.json"
+		},
+
+// Schedule - Default
+		{
+			"LogName": "Coyote's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{Coyote}}",
+			"Entries": {
+				"spring": "0 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
+				"rain": "0 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 116 11 2 {{Lowercase:{{ModID}}}}_coyote_Rain"
+			},
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": false
+			}
+		},
+
+// Schedule - More Lively Quarry compat
+		{
+			"LogName": "Coyote's Schedule - MLQ",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{Coyote}}",
+			"Entries": {
+				"spring": "0 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Sit/2350 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Sit/0150 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Sit",
+				"rain": "0 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Rain/2350 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Rain/0150 Mountain 119 12 2 {{Lowercase:{{ModID}}}}_coyote_Rain"
+			},
+			"When": {
+				"HasMod|contains=Aimon111.MoreLivelyQuarryOverhaul": true
+			}
+		},
+
+// Dialogue - load blank
+		{
+			"LogName": "Dialogue Coyote",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{Coyote}}",
+			"FromFile": "assets/data/blank.json"
+		},
+
+// Dialogue
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Coyote}}",
+			"Entries": {
+				"Introduction": "{{i18n:Coyote.Introduction}}",
+				"summer_21_1": "{{i18n:Coyote.summer_21_1}}",
+				"winter_21_1": "{{i18n:Coyote.winter_21_1}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Coyote.GiftLoved}}",
+	// 0 HEARTS
+				"Mon": "{{i18n:Coyote.Mon}}",
+				"Tue": "{{i18n:Coyote.Tue}}",
+				"Wed": "{{i18n:Coyote.Wed}}",
+				"Thu": "{{i18n:Coyote.Thu}}",
+				"Fri": "{{i18n:Coyote.Fri}}",
+				"Sat": "{{i18n:Coyote.Sat}}",
+				"Sun": "{{i18n:Coyote.Sun}}",
+	// 2 HEARTS
+				"Mon2": "{{i18n:Coyote.Mon2}}",
+				"Tue2": "{{i18n:Coyote.Tue2}}",
+				"Wed2": "{{i18n:Coyote.Wed2}}",
+				"Thu2": "{{i18n:Coyote.Thu2}}",
+				"Fri2": "{{i18n:Coyote.Fri2}}",
+				"Sat2": "{{i18n:Coyote.Sat2}}",
+				"Sun2": "{{i18n:Coyote.Sun2}}",
+	// 4 HEARTS
+				"Mon4": "{{i18n:Coyote.Mon4}}",
+				"Tue4": "{{i18n:Coyote.Tue4}}",
+				"Wed4": "{{i18n:Coyote.Wed4}}",
+				"Thu4": "{{i18n:Coyote.Thu4}}",
+				"Fri4": "{{i18n:Coyote.Fri4}}",
+				"Sat4": "{{i18n:Coyote.Sat4}}",
+				"Sun4": "{{i18n:Coyote.Sun4}}",
+	// 6 HEARTS
+				"Mon6": "{{i18n:Coyote.Mon6}}",
+				"Tue6": "{{i18n:Coyote.Tue6}}",
+				"Wed6": "{{i18n:Coyote.Wed6}}",
+				"Thu6": "{{i18n:Coyote.Thu6}}",
+				"Fri6": "{{i18n:Coyote.Fri6}}",
+				"Sat6": "{{i18n:Coyote.Sat6}}",
+				"Sun6": "{{i18n:Coyote.Sun6}}",
+	// 8 HEARTS
+				"Mon8": "{{i18n:Coyote.Mon8}}",
+				"Tue8": "{{i18n:Coyote.Tue8}}",
+				"Wed8": "{{i18n:Coyote.Wed8}}",
+				"Thu8": "{{i18n:Coyote.Thu8}}",
+				"Fri8": "{{i18n:Coyote.Fri8}}",
+				"Sat8": "{{i18n:Coyote.Sat8}}",
+				"Sun8": "{{i18n:Coyote.Sun8}}",
+
+	// 10 HEARTS - SPRING
+				"spring_Mon10": "{{i18n:Coyote.springMon10}}",
+				"spring_Tue10": "{{i18n:Coyote.springTue10}}",
+				"spring_Wed10": "{{i18n:Coyote.springWed10}}",
+				"spring_Thu10": "{{i18n:Coyote.springThu10}}",
+				"spring_Fri10": "{{i18n:Coyote.springFri10}}",
+				"spring_Sat10": "{{i18n:Coyote.springSat10}}",
+				"spring_Sun10": "{{i18n:Coyote.springSun10}}",
+
+	// 10 HEARTS - SUMMER
+				"summer_Mon10": "{{i18n:Coyote.summerMon10}}",
+				"summer_Tue10": "{{i18n:Coyote.summerTue10}}",
+				"summer_Wed10": "{{i18n:Coyote.summerWed10}}",
+				"summer_Thu10": "{{i18n:Coyote.summerThu10}}",
+				"summer_Fri10": "{{i18n:Coyote.summerFri10}}",
+				"summer_Sat10": "{{i18n:Coyote.summerSat10}}",
+				"summer_Sun10": "{{i18n:Coyote.summerSun10}}",
+
+	// 10 HEARTS - FALL
+				"fall_Mon10": "{{i18n:Coyote.fallMon10}}",
+				"fall_Tue10": "{{i18n:Coyote.fallTue10}}",
+				"fall_Wed10": "{{i18n:Coyote.fallWed10}}",
+				"fall_Thu10": "{{i18n:Coyote.fallThu10}}",
+				"fall_Fri10": "{{i18n:Coyote.fallFri10}}",
+				"fall_Sat10": "{{i18n:Coyote.fallSat10}}",
+				"fall_Sun10": "{{i18n:Coyote.fallSun10}}",
+
+	// 10 HEARTS - WINTER
+				"winter_Mon10": "{{i18n:Coyote.winterMon10}}",
+				"winter_Tue10": "{{i18n:Coyote.winterTue10}}",
+				"winter_Wed10": "{{i18n:Coyote.winterWed10}}",
+				"winter_Thu10": "{{i18n:Coyote.winterThu10}}",
+				"winter_Fri10": "{{i18n:Coyote.winterFri10}}",
+				"winter_Sat10": "{{i18n:Coyote.winterSat10}}",
+				"winter_Sun10": "{{i18n:Coyote.winterSun10}}"
+			}
+		}
+	]
+}

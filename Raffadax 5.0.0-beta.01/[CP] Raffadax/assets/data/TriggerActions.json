@@ -1,0 +1,683 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax Mail Triggers",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Amanra.Introduction_trigger": {
+                    "Id": "{{ModId}}_Amanra.Introduction_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Amanra.Introduction"
+                    ]
+                },
+                "{{ModId}}_Amanra.2Heart_trigger": {
+                    "Id": "{{ModId}}_Amanra.2Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Amanra.2Heart"
+                    ]
+                },
+                "{{ModId}}_Amanra.4Heart_trigger": {
+                    "Id": "{{ModId}}_Amanra.4Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Amanra.4Heart"
+                    ]
+                },
+                "{{ModId}}_Amanra.6Heart_trigger": {
+                    "Id": "{{ModId}}_Amanra.6Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Amanra.6Heart"
+                    ]
+                },
+                "{{ModId}}_Amanra.8Heart_trigger": {
+                    "Id": "{{ModId}}_Amanra.8Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Amanra.8Heart"
+                    ]
+                },
+                "{{ModId}}_Amanra.10Heart_trigger": {
+                    "Id": "{{ModId}}_Amanra.10Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Amanra.10Heart"
+                    ]
+                },
+                "{{ModId}}_Astrid.Introduction_trigger": {
+                    "Id": "{{ModId}}_Astrid.Introduction_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Astrid.Introduction"
+                    ]
+                },
+                "{{ModId}}_Astrid.2Heart_trigger": {
+                    "Id": "{{ModId}}_Astrid.2Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Astrid.2Heart"
+                    ]
+                },
+                "{{ModId}}_Astrid.4Heart_trigger": {
+                    "Id": "{{ModId}}_Astrid.4Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Astrid.4Heart"
+                    ]
+                },
+                "{{ModId}}_Astrid.6Heart_trigger": {
+                    "Id": "{{ModId}}_Astrid.6Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Astrid.6Heart"
+                    ]
+                },
+                "{{ModId}}_Astrid.8Heart_trigger": {
+                    "Id": "{{ModId}}_Astrid.8Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Astrid.8Heart"
+                    ]
+                },
+                "{{ModId}}_Astrid.10Heart_trigger": {
+                    "Id": "{{ModId}}_Astrid.10Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Astrid.10Heart"
+                    ]
+                },
+                "{{ModId}}_Coyote.Introduction_trigger": {
+                    "Id": "{{ModId}}_Coyote.Introduction_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Coyote.Introduction"
+                    ]
+                },
+                "{{ModId}}_Coyote.2Heart_trigger": {
+                    "Id": "{{ModId}}_Coyote.2Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Coyote.2Heart"
+                    ]
+                },
+                "{{ModId}}_Coyote.4Heart_trigger": {
+                    "Id": "{{ModId}}_Coyote.4Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Coyote.4Heart"
+                    ]
+                },
+                "{{ModId}}_Coyote.6Heart_trigger": {
+                    "Id": "{{ModId}}_Coyote.6Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Coyote.6Heart"
+                    ]
+                },
+                "{{ModId}}_Coyote.8Heart_trigger": {
+                    "Id": "{{ModId}}_Coyote.8Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Coyote.8Heart"
+                    ]
+                },
+                "{{ModId}}_Coyote.10Heart_trigger": {
+                    "Id": "{{ModId}}_Coyote.10Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Coyote.10Heart"
+                    ]
+                },
+                "{{ModId}}_Mephisto.Introduction_trigger": {
+                    "Id": "{{ModId}}_Mephisto.Introduction_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Mephisto.Introduction"
+                    ]
+                },
+                "{{ModId}}_Mephisto.2Heart_trigger": {
+                    "Id": "{{ModId}}_Mephisto.2Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Mephisto.2Heart"
+                    ]
+                },
+                "{{ModId}}_Mephisto.4Heart_trigger": {
+                    "Id": "{{ModId}}_Mephisto.4Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 1000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Mephisto.4Heart"
+                    ]
+                },
+                "{{ModId}}_Mephisto.6Heart_trigger": {
+                    "Id": "{{ModId}}_Mephisto.6Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 1500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Mephisto.6Heart"
+                    ]
+                },
+                "{{ModId}}_Mephisto.8Heart_trigger": {
+                    "Id": "{{ModId}}_Mephisto.8Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 2000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Mephisto.8Heart"
+                    ]
+                },
+                "{{ModId}}_Mephisto.10Heart_trigger": {
+                    "Id": "{{ModId}}_Mephisto.10Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 2500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Mephisto.10Heart"
+                    ]
+                },
+                "{{ModId}}_Puck.Greeting_trigger": {
+                    "Id": "{{ModId}}_Puck.Greeting_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Puck.Greeting"
+                    ]
+                },
+                "{{ModId}}_Puck.2Heart_trigger": {
+                    "Id": "{{ModId}}_Puck.2Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Puck.2Heart"
+                    ]
+                },
+                "{{ModId}}_Puck.4Heart_trigger": {
+                    "Id": "{{ModId}}_Puck.4Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Puck.4Heart"
+                    ]
+                },
+                "{{ModId}}_Puck.6Heart_trigger": {
+                    "Id": "{{ModId}}_Puck.6Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Puck.6Heart"
+                    ]
+                },
+                "{{ModId}}_Puck.8Heart_trigger": {
+                    "Id": "{{ModId}}_Puck.8Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Puck.8Heart"
+                    ]
+                },
+                "{{ModId}}_Puck.10Heart_trigger": {
+                    "Id": "{{ModId}}_Puck.10Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Puck.10Heart"
+                    ]
+                },
+                "{{ModId}}_Shuck.Greeting_trigger": {
+                    "Id": "{{ModId}}_Shuck.Greeting_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Shuck.Greeting"
+                    ]
+                },
+                "{{ModId}}_Shuck.2Heart_trigger": {
+                    "Id": "{{ModId}}_Shuck.2Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Shuck.2Heart"
+                    ]
+                },
+                "{{ModId}}_Shuck.4Heart_trigger": {
+                    "Id": "{{ModId}}_Shuck.4Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Shuck.4Heart"
+                    ]
+                },
+                "{{ModId}}_Shuck.6Heart_trigger": {
+                    "Id": "{{ModId}}_Shuck.6Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Shuck.6Heart"
+                    ]
+                },
+                "{{ModId}}_Shuck.8Heart_trigger": {
+                    "Id": "{{ModId}}_Shuck.8Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Shuck.8Heart"
+                    ]
+                },
+                "{{ModId}}_Shuck.10Heart_trigger": {
+                    "Id": "{{ModId}}_Shuck.10Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Shuck.10Heart"
+                    ]
+                },
+                "{{ModId}}_Xolotl.Greeting_trigger": {
+                    "Id": "{{ModId}}_Xolotl.Greeting_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Xolotl.Greeting"
+                    ]
+                },
+                "{{ModId}}_Xolotl.2Heart_trigger": {
+                    "Id": "{{ModId}}_Xolotl.2Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Xolotl.2Heart"
+                    ]
+                },
+                "{{ModId}}_Xolotl.4Heart_trigger": {
+                    "Id": "{{ModId}}_Xolotl.4Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Xolotl.4Heart"
+                    ]
+                },
+                "{{ModId}}_Xolotl.6Heart_trigger": {
+                    "Id": "{{ModId}}_Xolotl.6Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Xolotl.6Heart"
+                    ]
+                },
+                "{{ModId}}_Xolotl.8Heart_trigger": {
+                    "Id": "{{ModId}}_Xolotl.8Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Xolotl.8Heart"
+                    ]
+                },
+                "{{ModId}}_Xolotl.10Heart_trigger": {
+                    "Id": "{{ModId}}_Xolotl.10Heart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Xolotl.10Heart"
+                    ]
+                },
+                "{{ModId}}_All.AllHeart_trigger": {
+                    "Id": "{{ModId}}_All.AllHeart_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 2500, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 2500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_All.AllHeart"
+                    ]
+                },
+                "{{ModId}}_Clint.Auto.Mill_trigger": {
+                    "Id": "{{ModId}}_Clint.Auto.Mill_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Clint 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Clint.Auto.Mill"
+                    ]
+                },
+                "{{ModId}}_Sam.Beverage.Keg_trigger": {
+                    "Id": "{{ModId}}_Sam.Beverage.Keg_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sam 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Sam.Beverage.Keg"
+                    ]
+                },
+                "{{ModId}}_Kent.Fermentation.Tank_trigger": {
+                    "Id": "{{ModId}}_Kent.Fermentation.Tank_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Kent 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Kent.Fermentation.Tank"
+                    ]
+                },
+                "{{ModId}}_Lewis.Distillation.Tank_trigger": {
+                    "Id": "{{ModId}}_Lewis.Distillation.Tank_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Lewis 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Lewis.Distillation.Tank"
+                    ]
+                },
+                "{{ModId}}_Pierre.Dry.Packer_trigger": {
+                    "Id": "{{ModId}}_Pierre.Dry.Packer_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Lewis 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Pierre.Dry.Packer"
+                    ]
+                },
+                "{{ModId}}_Gus.DW.Keg_trigger": {
+                    "Id": "{{ModId}}_Gus.DW.Keg_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Gus 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Gus.DW.Keg"
+                    ]
+                },
+                "{{ModId}}_Robin.Flow.Hive_trigger": {
+                    "Id": "{{ModId}}_Robin.Flow.Hive_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Robin 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Robin.Flow.Hive"
+                    ]
+                },
+                "{{ModId}}_Sandy.Fragrance.Extractor_trigger": {
+                    "Id": "{{ModId}}_Sandy.Fragrance.Extractor_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sandy 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Sandy.Fragrance.Extractor"
+                    ]
+                },
+                "{{ModId}}_Demetrius.Incubation.Tank_trigger": {
+                    "Id": "{{ModId}}_Demetrius.Incubation.Tank_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Demetrius 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Demetrius.Incubation.Tank"
+                    ]
+                },
+                "{{ModId}}_Alex.Juice.Keg_trigger": {
+                    "Id": "{{ModId}}_Alex.Juice.Keg_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Alex.Juice.Keg"
+                    ]
+                },
+                "{{ModId}}_Maru.Milk.Keg_trigger": {
+                    "Id": "{{ModId}}_Maru.Milk.Keg_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Maru 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Maru.Milk.Keg"
+                    ]
+                },
+                "{{ModId}}_Caroline.Oxidizer_trigger": {
+                    "Id": "{{ModId}}_Caroline.Oxidizer_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Caroline 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Caroline.Oxidizer"
+                    ]
+                },
+                "{{ModId}}_Pam.Puree.Jar_trigger": {
+                    "Id": "{{ModId}}_Pam.Puree.Jar_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Pam 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Pam.Puree.Jar"
+                    ]
+                },
+                "{{ModId}}_Wizard.Magic.Cauldron_trigger": {
+                    "Id": "{{ModId}}_Wizard.Magic.Cauldron_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Wizard 2000, PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 1250, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 1250, PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 1250, PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 1250, PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 1250, PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard.Magic.Cauldron"
+                    ]
+                },
+                "{{ModId}}_Krobus.Azoth_trigger": {
+                    "Id": "{{ModId}}_Krobus.Azoth_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Krobus 2000",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Krobus.Azoth"
+                    ]
+                },
+                "{{ModId}}_Evelyn.DP.Jar_trigger": {
+                    "Id": "{{ModId}}_Evelyn.DP.Jar_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Evelyn 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Evelyn.DP.Jar"
+                    ]
+                },
+                "{{ModId}}_George.Tea.Keg_trigger": {
+                    "Id": "{{ModId}}_George.Tea.Keg_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current George 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_George.Tea.Keg"
+                    ]
+                },
+                "{{ModId}}_Harvey.Mold.Colony_trigger": {
+                    "Id": "{{ModId}}_Harvey.Mold.Colony_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Harvey.Mold.Colony"
+                    ]
+                },
+                "{{ModId}}_Marnie.Cheese.Processor_trigger": {
+                    "Id": "{{ModId}}_Marnie.Cheese.Processor_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marnie 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Marnie.Cheese.Processor"
+                    ]
+                },
+                "{{ModId}}_Shane.Churn_trigger": {
+                    "Id": "{{ModId}}_Shane.Churn_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shane 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Shane.Churn"
+                    ]
+                },
+                "{{ModId}}_Demetrius.Astral.Tea_trigger": {
+                    "Id": "{{ModId}}_Demetrius.Astral.Tea_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Demetrius 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Demetrius.Astral.Tea"
+                    ]
+                },
+                "{{ModId}}_Elliot.Chandan_trigger": {
+                    "Id": "{{ModId}}_Elliot.Chandan_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Elliott 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Elliot.Chandan"
+                    ]
+                },
+                "{{ModId}}_Emily.Serendipit_trigger": {
+                    "Id": "{{ModId}}_Emily.Serendipit_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Emily 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Emily.Serendipit"
+                    ]
+                },
+                "{{ModId}}_Kent.Bongsutang_trigger": {
+                    "Id": "{{ModId}}_Kent.Bongsutang_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Kent 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Kent.Bongsutang"
+                    ]
+                },
+                "{{ModId}}_Krobus.CalamiTea_trigger": {
+                    "Id": "{{ModId}}_Krobus.CalamiTea_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Krobus 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Krobus.CalamiTea"
+                    ]
+                },
+                "{{ModId}}_Lewis.EGrey_trigger": {
+                    "Id": "{{ModId}}_Lewis.EGrey_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Lewis 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Lewis.EGrey"
+                    ]
+                },
+                "{{ModId}}_Linus.Yaupon_trigger": {
+                    "Id": "{{ModId}}_Linus.Yaupon_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Linus 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Linus.Yaupon"
+                    ]
+                },
+                "{{ModId}}_Sandy.Cinnabar_trigger": {
+                    "Id": "{{ModId}}_Sandy.Cinnabar_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sandy 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Sandy.Cinnabar"
+                    ]
+                },
+                "{{ModId}}_Wizard.Felici_trigger": {
+                    "Id": "{{ModId}}_Wizard.Felici_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Wizard 1750, PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 2500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard.Felici"
+                    ]
+                },
+                "{{ModId}}_Wizard.Azeban_trigger": {
+                    "Id": "{{ModId}}_Wizard.Azeban_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Mephisto}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard.Azeban"
+                    ]
+                },
+                "{{ModId}}_Wizard.Barghest_trigger": {
+                    "Id": "{{ModId}}_Wizard.Barghest_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Shuck}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard.Barghest"
+                    ]
+                },
+                "{{ModId}}_Wizard.Coyotl_trigger": {
+                    "Id": "{{ModId}}_Wizard.Coyotl_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Coyote}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard.Coyotl"
+                    ]
+                },
+                "{{ModId}}_Wizard.Djinn_trigger": {
+                    "Id": "{{ModId}}_Wizard.Djinn_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Amanra}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard.Djinn"
+                    ]
+                },
+                "{{ModId}}_Wizard.Nagual_trigger": {
+                    "Id": "{{ModId}}_Wizard.Nagual_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Xolotl}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard.Nagual"
+                    ]
+                },
+                "{{ModId}}_Wizard.Pookah_trigger": {
+                    "Id": "{{ModId}}_Wizard.Pookah_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Puck}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard.Pookah"
+                    ]
+                },
+                "{{ModId}}_Wizard.Selkie_trigger": {
+                    "Id": "{{ModId}}_Wizard.Selkie_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Astrid}} 500",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Wizard.Selkie"
+                    ]
+                },
+                "{{ModId}}_Alex.Spirulina_trigger": {
+                    "Id": "{{ModId}}_Alex.Spirulina_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Alex.Spirulina"
+                    ]
+                },
+                "{{ModId}}_Clint.GoldFeather_trigger": {
+                    "Id": "{{ModId}}_Clint.GoldFeather_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Clint 1750",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Clint.GoldFeather"
+                    ]
+                },
+                "{{ModId}}_Linus_Samaras_trigger": {
+                    "Id": "{{ModId}}_Linus_Samaras_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Linus 1250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Linus_Samaras"
+                    ]
+                },
+                "{{ModId}}_Robin.Glass_trigger": {
+                    "Id": "{{ModId}}_Robin.Glass_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Robin 250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Robin.Glass"
+                    ]
+                },
+                "{{ModId}}_Marnie.Cheese.Making_trigger": {
+                    "Id": "{{ModId}}_Marnie.Cheese.Making_trigger",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marnie 250",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Marnie.Cheese.Making"
+                    ]
+                }
+            }
+        }
+    ]
+}

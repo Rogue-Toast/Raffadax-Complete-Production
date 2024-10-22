@@ -1,0 +1,201 @@
+{
+	"Changes": [
+
+// Add Xolotl as NPC
+		{
+			"LogName": "Add Xolotl",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"{{Xolotl}}": {
+					"DisplayName": "[LocalizedText Strings\\NPCNames:{{Xolotl}}]",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Neutral",
+					"BirthSeason": "Spring",
+					"BirthDay": 21,
+					"HomeRegion": "Other",
+					"CanSocialize": true,
+					"CanCommentOnPurchasedShopItems": false,
+					"CanGreetNearbyCharacters": false,
+					"CanVisitIsland": false,
+					"Calendar": "HiddenUntilMet",
+					"SocialTab": "UnknownUntilMet",
+					"IntroductionsQuest": false,
+					"ItemDeliveryQuests": false,
+					"PerfectionScore": true,
+					"EndSlideShow": "TrailingGroup",
+
+					"Appearance": [
+						{
+							"Id": "Default",
+							"Portrait": "Portraits/{{Xolotl}}",
+							"Sprite": "Characters/{{Xolotl}}"
+						}
+					],
+
+	// Default Home
+					"Home": [
+						{
+							"Id": "Default",
+							"Location": "IslandShrine",
+							"Tile": { "X": 20, "Y": 24 },
+							"Direction": "down"
+						}
+					]
+				}
+			}
+		},
+
+// Display Name
+		{
+			"LogName": "Display name in standard location",
+			"Target": "Strings/NPCNames",
+			"Action": "EditData",
+			"Entries": {
+				"{{Xolotl}}": "{{i18n:Xolotl.DisplayName}}"
+			}
+		},
+
+// Portraits & sprites
+		{
+			"LogName": "Xolotl's portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{Xolotl}}",
+			"FromFile": "assets/textures/Portraits/Xolotl.png"
+		},
+		{
+			"LogName": "Xolotl's sprites",
+			"Action": "Load",
+			"Target": "Characters/{{Xolotl}}",
+			"FromFile": "assets/textures/Characters/Xolotl.png"
+		},
+
+// Animations
+		{
+			"LogName": "Xolotl's Animations",
+			"Action": "EditData",
+      		"Target": "Data/animationDescriptions",
+      		"Entries": {
+				"{{Lowercase:{{ModID}}}}_xolotl_Midnight": "16/16 20 20 20 20 32 32 32 33 33 33 34 34 34 24 24 24 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 31 20 20 31 31 31 31 31 24 24 31 31 31 31 31 31 31 26 26 27 27 26 26 27 27 26 27 26 31 31 31 31 31 31 31 31 20 20 31 31 31 31 24 24 34 34 30 30 32 32 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 16 16 16/16",
+				"{{Lowercase:{{ModID}}}}_xolotl_Sit": "16/16 16 16 16 16 16 16 16 16 20 20 16 16 16 16 16 16 18 18 19 19 18 18 19 19 18 18 19 19 18 18 16 16 20 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 20 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16"
+      		}
+		},
+
+// Schedule - load blank
+		{
+			"LogName": "Blank Schedule",
+			"Action": "Load",
+			"Target": "Characters/schedules/{{Xolotl}}",
+			"FromFile": "assets/data/blank.json"
+		},
+
+// Schedule - Default
+		{
+			"LogName": "Xolotl's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/{{Xolotl}}",
+			"Entries": {
+				"spring": "0 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Sit/2350 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Midnight/0110 IslandShrine 20 24 2 {{Lowercase:{{ModID}}}}_xolotl_Sit"
+			}
+		},
+
+// Dialogue - load blank
+		{
+			"LogName": "Dialogue Xolotl",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/{{Xolotl}}",
+			"FromFile": "assets/data/blank.json"
+		},
+
+// Dialogue
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Xolotl}}",
+			"Entries": {
+				"Introduction": "{{i18n:Xolotl.Introduction}}",
+				"summer_21_1": "{{i18n:Xolotl.summer_21_1}}",
+				"winter_21_1": "{{i18n:Xolotl.winter_21_1}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Xolotl.GiftLoved}}",
+	// 0 HEARTS
+				"Mon": "{{i18n:Xolotl.Mon}}",
+				"Tue": "{{i18n:Xolotl.Tue}}",
+				"Wed": "{{i18n:Xolotl.Wed}}",
+				"Thu": "{{i18n:Xolotl.Thu}}",
+				"Fri": "{{i18n:Xolotl.Fri}}",
+				"Sat": "{{i18n:Xolotl.Sat}}",
+				"Sun": "{{i18n:Xolotl.Sun}}",
+	// 2 HEARTS
+				"Mon2": "{{i18n:Xolotl.Mon2}}",
+				"Tue2": "{{i18n:Xolotl.Tue2}}",
+				"Wed2": "{{i18n:Xolotl.Wed2}}",
+				"Thu2": "{{i18n:Xolotl.Thu2}}",
+				"Fri2": "{{i18n:Xolotl.Fri2}}",
+				"Sat2": "{{i18n:Xolotl.Sat2}}",
+				"Sun2": "{{i18n:Xolotl.Sun2}}",
+	// 4 HEARTS
+				"Mon4": "{{i18n:Xolotl.Mon4}}",
+				"Tue4": "{{i18n:Xolotl.Tue4}}",
+				"Wed4": "{{i18n:Xolotl.Wed4}}",
+				"Thu4": "{{i18n:Xolotl.Thu4}}",
+				"Fri4": "{{i18n:Xolotl.Fri4}}",
+				"Sat4": "{{i18n:Xolotl.Sat4}}",
+				"Sun4": "{{i18n:Xolotl.Sun4}}",
+	// 6 HEARTS
+				"Mon6": "{{i18n:Xolotl.Mon6}}",
+				"Tue6": "{{i18n:Xolotl.Tue6}}",
+				"Wed6": "{{i18n:Xolotl.Wed6}}",
+				"Thu6": "{{i18n:Xolotl.Thu6}}",
+				"Fri6": "{{i18n:Xolotl.Fri6}}",
+				"Sat6": "{{i18n:Xolotl.Sat6}}",
+				"Sun6": "{{i18n:Xolotl.Sun6}}",
+	// 8 HEARTS
+				"Mon8": "{{i18n:Xolotl.Mon8}}",
+				"Tue8": "{{i18n:Xolotl.Tue8}}",
+				"Wed8": "{{i18n:Xolotl.Wed8}}",
+				"Thu8": "{{i18n:Xolotl.Thu8}}",
+				"Fri8": "{{i18n:Xolotl.Fri8}}",
+				"Sat8": "{{i18n:Xolotl.Sat8}}",
+				"Sun8": "{{i18n:Xolotl.Sun8}}",
+
+	// 10 HEARTS - SPRING
+				"spring_Mon10": "{{i18n:Xolotl.springMon10}}",
+				"spring_Tue10": "{{i18n:Xolotl.springTue10}}",
+				"spring_Wed10": "{{i18n:Xolotl.springWed10}}",
+				"spring_Thu10": "{{i18n:Xolotl.springThu10}}",
+				"spring_Fri10": "{{i18n:Xolotl.springFri10}}",
+				"spring_Sat10": "{{i18n:Xolotl.springSat10}}",
+				"spring_Sun10": "{{i18n:Xolotl.springSun10}}",
+
+	// 10 HEARTS - SUMMER
+				"summer_Mon10": "{{i18n:Xolotl.summerMon10}}",
+				"summer_Tue10": "{{i18n:Xolotl.summerTue10}}",
+				"summer_Wed10": "{{i18n:Xolotl.summerWed10}}",
+				"summer_Thu10": "{{i18n:Xolotl.summerThu10}}",
+				"summer_Fri10": "{{i18n:Xolotl.summerFri10}}",
+				"summer_Sat10": "{{i18n:Xolotl.summerSat10}}",
+				"summer_Sun10": "{{i18n:Xolotl.summerSun10}}",
+
+	// 10 HEARTS - FALL
+				"fall_Mon10": "{{i18n:Xolotl.fallMon10}}",
+				"fall_Tue10": "{{i18n:Xolotl.fallTue10}}",
+				"fall_Wed10": "{{i18n:Xolotl.fallWed10}}",
+				"fall_Thu10": "{{i18n:Xolotl.fallThu10}}",
+				"fall_Fri10": "{{i18n:Xolotl.fallFri10}}",
+				"fall_Sat10": "{{i18n:Xolotl.fallSat10}}",
+				"fall_Sun10": "{{i18n:Xolotl.fallSun10}}",
+
+	// 10 HEARTS - WINTER
+				"winter_Mon10": "{{i18n:Xolotl.winterMon10}}",
+				"winter_Tue10": "{{i18n:Xolotl.winterTue10}}",
+				"winter_Wed10": "{{i18n:Xolotl.winterWed10}}",
+				"winter_Thu10": "{{i18n:Xolotl.winterThu10}}",
+				"winter_Fri10": "{{i18n:Xolotl.winterFri10}}",
+				"winter_Sat10": "{{i18n:Xolotl.winterSat10}}",
+				"winter_Sun10": "{{i18n:Xolotl.winterSun10}}"
+			}
+		}
+	]
+}

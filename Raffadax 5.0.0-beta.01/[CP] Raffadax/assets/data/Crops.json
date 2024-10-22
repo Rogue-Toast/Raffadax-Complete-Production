@@ -1,0 +1,3322 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax New Crops",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModId}}_AdzukiBeanStarter": {
+                    "Seasons": [
+                        "spring",
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_AdzukiBeans",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 0,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.5
+                },
+                "{{ModId}}_AloePod": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        6,
+                        6,
+                        6,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Aloe",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 1,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_AmanitaStarter": {
+                    "Seasons": [
+                        "summer",
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Amanita",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 2,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_AnemushroomStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Anemushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 3,
+                    "RegrowDays": -1,
+                    "IsPaddyCrop": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_AsparagusSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Asparagus",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 4,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_BasilSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Basil",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 5,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_BerserkerMushroomStarter": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        5,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BerserkerMushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 6,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_BlackBeanStarter": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BlackBeans",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 7,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.5
+                },
+                "{{ModId}}_BlackCloverSeeds": {
+                    "Seasons": [
+                        "fall",
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BlackShamrock",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 8,
+                    "RegrowDays": 4,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_BlackCuminSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Nigella",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 9,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_BlackSesameSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BlackSesameSeeds",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 10,
+                    "RegrowDays": 3,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_BlueCornSeeds": {
+                    "Seasons": [
+                        "fall",
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BlueCorn",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 11,
+                    "RegrowDays": 4,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_BlueLotusStarter": {
+                    "Seasons": [
+                        "spring",
+                        "summer",
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        7,
+                        8,
+                        8,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BlueLotusFlower",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 12,
+                    "RegrowDays": 21,
+                    "IsRaised": true,
+                    "IsPaddyCrop": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_BlueOysterStarter": {
+                    "Seasons": [
+                        "spring",
+                        "summer",
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BlueOysterMushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 13,
+                    "RegrowDays": 7,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_BluePotatoSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BluePotato",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 14,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_BrusselsSproutSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BrusselsSprouts",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 15,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_CactushroomStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Cactushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 16,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_CantaloupeSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        2
+                    ],
+                    "HarvestItemID": "{{ModId}}_Cantaloupe",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 17,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_CaperBushStarter": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Capers",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 18,
+                    "RegrowDays": 5,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_CarawaySeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_CarawayFlower",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 19,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_CassavaStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_CassavaRoot",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 20,
+                    "RegrowDays": -1,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_CaveCarrotSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "78",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 21,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_CayennePepperSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_CayennePepper",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 22,
+                    "RegrowDays": 3,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_CelerySeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Celery",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 23,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_ChamomileSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Chamomile",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 24,
+                    "RegrowDays": 7,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_ChanterelleStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "281",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 25,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_ChervilSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Chervil",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 26,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_ChicorySeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_ChicoryFlower",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 27,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_ChiveSeeds": {
+                    "Seasons": [
+                        "winter",
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Chives",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 28,
+                    "RegrowDays": 3,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_CilantroSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Cilantro",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 29,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_CloverPatchStarter": {
+                    "Seasons": [
+                        "spring",
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Shamrock",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 30,
+                    "RegrowDays": 4,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_CommonMushroomStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "404",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 31,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_CrocusSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "418",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 32,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_CucumberStarter": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Cucumber",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 33,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_DaffodilSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "18",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 34,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_DaisySeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Daisy",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 35,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_DandelionSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "22",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 36,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_DarkRainbowCarrotSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PurpleCarrot",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 37,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_DillSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Dill",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 38,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_DryadsSaddleStarter": {
+                    "Seasons": [
+                        "spring",
+                        "summer",
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_DryadsSaddle",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 39,
+                    "RegrowDays": 7,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_FennelSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Fennel",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 40,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_FenugreekSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Fenugreek",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 41,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_FernFlowerSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        3,
+                        5,
+                        5,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_FernFlower",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 42,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_FernStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "259",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 43,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_FireWheelSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_FireWheel",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 44,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_FoxgloveSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Foxglove",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 45,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_FrostCapMushroomStarter": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        3,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_FrostCap",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 46,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_GarbanzoBeanStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GarbanzoBeans",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 47,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_GemCapStarter": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GemCap",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 48,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_GentianFlowerSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GentianFlower",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 49,
+                    "RegrowDays": 7,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_GlassGemCornSeeds": {
+                    "Seasons": [
+                        "winter",
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GlassGemCorn",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 50,
+                    "RegrowDays": 4,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_GlassPumpkinSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        6,
+                        6,
+                        6,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GlassPumpkin",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 51,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_GoldenCauliflowerSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        3,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GoldenCauliflower",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 52,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_GoldenPumpkinSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        6,
+                        6,
+                        6,
+                        1
+                    ],
+                    "HarvestItemID": "373",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 53,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_GreenBellPepperSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GreenBellPepper",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 54,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_GreenCabbageSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GreenCabbage",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 55,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_GreenCardamomSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GreenCardamomPod",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 56,
+                    "RegrowDays": 4,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_GreenLeafLettuceSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GreenLeafLettuce",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 57,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_GreenPeaStarter": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GreenPea",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 58,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_HawkweedSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Hawkweed",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 59,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_HoneydewSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        2
+                    ],
+                    "HarvestItemID": "{{ModId}}_HoneydewMelon",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 60,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_HornNutStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_HornNut",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 61,
+                    "RegrowDays": 5,
+                    "IsRaised": true,
+                    "IsPaddyCrop": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_IndigoSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Indigo",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 62,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_JackOLanternSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "746",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 63,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_LeekSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "20",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 64,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_LemongrassSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Lemongrass",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 65,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_LentilSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Lentils",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 66,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.5
+                },
+                "{{ModId}}_LichenStarter": {
+                    "Seasons": [
+                        "fall",
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_BlackStoneFlower",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 67,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_LiverwortStarter": {
+                    "Seasons": [
+                        "spring",
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Liverwort",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 68,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "IsPaddyCrop": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_LuminushroomStarter": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        5,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Luminushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 69,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_MagmaCapMushroomStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        3,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "851",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 70,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_MandrakeSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        5,
+                        5,
+                        8,
+                        8,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Mandrake",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 71,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_MarjoramSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Marjoram",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 72,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_MaryJaneSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_IndicaBud",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 73,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_MatsutakeMushroomStarter": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        3,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_MatsutakeMushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 74,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_MorelStarter": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "257",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 75,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_MosshroomStarter": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Mosshroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 76,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_MugwortSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Mugwort",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 77,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_MustardSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_MustardGreens",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 78,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_OkraSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Okra",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 79,
+                    "RegrowDays": 4,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_OreganoSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Oregano",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 80,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_PaprikaSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PaprikaPepper",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 81,
+                    "RegrowDays": 3,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_ParsleySeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Parsley",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 82,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_PassionFruitStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PassionFruit",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 83,
+                    "RegrowDays": 7,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_PeanutSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Peanut",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 84,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 2,
+                    "HarvestMaxStack": 2,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_PeppercornStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_RedPeppercorns",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 85,
+                    "RegrowDays": 5,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_PeppermintSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Peppermint",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 86,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_PeriwinkleSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PeriwinkleFlower",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 87,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_PeyoteCactusStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        6,
+                        6,
+                        6,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Peyote",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 88,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_PoinsettiaSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        4,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Poinsettia",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 89,
+                    "RegrowDays": 7,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_PortobelloMushroomStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        3,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PortobelloMushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 90,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_PricklyPearCactusStarter": {
+                    "Seasons": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        5,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PricklyPear",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 91,
+                    "RegrowDays": 5,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1,
+                    "PlantableLocationRules": [
+                        {
+                            "Id": "IndoorsOnly",
+                            "Condition": "LOCATION_IS_OUTDOORS Here",
+                            "PlantedIn": "Any",
+                            "Result": "Deny",
+                            "DeniedMessage": "{{i18n:PricklyPearCactusStarter.IndoorsOnly}}."
+                        }
+                    ]
+                },
+                "{{ModId}}_PsilocybinMushroomStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        5,
+                        6,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PsilocybinMushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 92,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_PuffballMushroomStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PuffballMushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 93,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_PurpleAsparagusSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PurpleAsparagus",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 94,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_PurpleBellPepperSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PurpleBellPepper",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 95,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_PurpleCauliflowerSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        3,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_PurpleCauliflower",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 96,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_PurpleMushroomStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        5,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "422",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 97,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_RadioactiveMushroomStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_RadioactiveMushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 98,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_RainbowCarrotSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_OrangeCarrot",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 99,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_RapiniSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Rapini",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 100,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_AntlerGanodermaStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        4,
+                        7,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_RedAntlerReishi",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 101,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_RedBellPepperSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_RedBellPepper",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 102,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_RedCornSeeds": {
+                    "Seasons": [
+                        "spring",
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_RedCorn",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 103,
+                    "RegrowDays": 4,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_RedMushroomStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        5,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "420",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 104,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_RedOnionSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_RedOnion",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 105,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_RedPotatoSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_RedPotato",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 106,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_RomanescoSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        3,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Romanesco",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 107,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_RoseVineStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Rose",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 108,
+                    "RegrowDays": 7,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_RutabagaSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Rutabaga",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 109,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_RyeSeeds": {
+                    "Seasons": [
+                        "fall",
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Rye",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 110,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Scythe",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_SageSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Sage",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 111,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_SarsaparillaSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Sarsaparilla",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 112,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_SavorySeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Savory",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 113,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_ScotchBonnetPepperSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_ScotchBonnetPepper",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 114,
+                    "RegrowDays": 3,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_ShisoSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_ShisoLeaf",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 115,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_SnowPeaStarter": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_SnowPea",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 116,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_SnowYamSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "416",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 117,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_SoybeanStarter": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Soybean",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 118,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_SpearmintSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Spearmint",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 119,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_SpinachSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Spinach",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 120,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_SpringOnionSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "399",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 121,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_SquashSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Squash",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 122,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_StingingNettleStarter": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_StingingNettle",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 123,
+                    "RegrowDays": 3,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_SweetPeaSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "402",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 124,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_SweetPotatoSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_SweetPotato",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 125,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_TarragonSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Tarragon",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 126,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_DevilsLettuceSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_SativaBud",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 127,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_ThunderCapMushroomStarter": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        3,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_ThunderCap",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 128,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_ThymeSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Thyme",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 129,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_TobaccoSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Tobacco",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 130,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_TomatilloSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Tomatillo",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 131,
+                    "RegrowDays": 4,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_TopinamburSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Topinambur",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 132,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_TreasurePlantStarter": {
+                    "Seasons": [
+                        "spring",
+                        "summer",
+                        "fall",
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        5,
+                        10,
+                        10,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_GoldenChest",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 133,
+                    "RegrowDays": 28,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_TruffleStarter": {
+                    "Seasons": [
+                        "spring",
+                        "summer",
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        6,
+                        6,
+                        6,
+                        1
+                    ],
+                    "HarvestItemID": "430",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 134,
+                    "RegrowDays": 21,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_TurmericSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Turmeric",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 135,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_TurnipSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Turnip",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 136,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_VanillaVineStarter": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_VanillaBean",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 137,
+                    "RegrowDays": 5,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_VioletSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Violet",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 138,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_VoidMushroomStarter": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        5,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_VoidMushroom",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 139,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_WatermelonSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        2,
+                        5,
+                        5,
+                        5,
+                        3
+                    ],
+                    "HarvestItemID": "{{ModId}}_Watermelon",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 140,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_WaxBeanStarter": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_WaxBean",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 141,
+                    "RegrowDays": 4,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_WhiteAsparagusSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_WhiteAsparagus",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 142,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_WhiteBellPepperSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_WhiteBellPepper",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 143,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.2
+                },
+                "{{ModId}}_WhiteGrapeStarter": {
+                    "Seasons": [
+                        "summer",
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_WhiteGrapes",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 144,
+                    "RegrowDays": 3,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_WhiteOnionSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_WhiteOnion",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 145,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_WhiteTeaSeeds": {
+                    "Seasons": [
+                        "spring",
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_WhiteTeaLeaf",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 146,
+                    "RegrowDays": 5,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.25
+                },
+                "{{ModId}}_WildBarleySeeds": {
+                    "Seasons": [
+                        "spring",
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_WildBarley",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 147,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Scythe",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_WildGingerSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "829",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 148,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_WildGrapeStarter": {
+                    "Seasons": [
+                        "spring",
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_WildGrapes",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 149,
+                    "RegrowDays": 3,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_HorseradishSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "16",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 150,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_WildOatSeeds": {
+                    "Seasons": [
+                        "winter",
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_WildOats",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 151,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Scythe",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_WinterRootSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "412",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 152,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_WintergreenSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Wintergreen",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 153,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_WolfsbaneSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Wolfsbane",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 154,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1
+                },
+                "{{ModId}}_WoodruffSeeds": {
+                    "Seasons": [
+                        "spring"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Woodruff",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 155,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_WormwoodSeeds": {
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        4,
+                        4,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Wormwood",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 156,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                },
+                "{{ModId}}_XoconostleCactusStarter": {
+                    "Seasons": [
+                        "Spring",
+                        "Summer",
+                        "Fall",
+                        "Winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        5,
+                        5,
+                        5,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Xoconostle",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 157,
+                    "RegrowDays": 7,
+                    "IsRaised": true,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1,
+                    "PlantableLocationRules": [
+                        {
+                            "Id": "IndoorsOnly",
+                            "Condition": "LOCATION_IS_OUTDOORS Here",
+                            "PlantedIn": "Any",
+                            "Result": "Deny",
+                            "DeniedMessage": "{{i18n:XoconostleCactusStarter.IndoorsOnly}}."
+                        }
+                    ]
+                },
+                "{{ModId}}_YarrowSeeds": {
+                    "Seasons": [
+                        "winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Yarrow",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 158,
+                    "RegrowDays": -1,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.1
+                },
+                "{{ModId}}_ZucchiniSeeds": {
+                    "Seasons": [
+                        "summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        3,
+                        4,
+                        4,
+                        1
+                    ],
+                    "HarvestItemID": "{{ModId}}_Zucchini",
+                    "Texture": "Mods/{{ModId}}/Crops",
+                    "SpriteIndex": 159,
+                    "RegrowDays": 7,
+                    "NeedsWatering": true,
+                    "HarvestMethod": "Grab",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "ExtraHarvestChance": 0.3
+                }
+            }
+        }
+    ]
+}

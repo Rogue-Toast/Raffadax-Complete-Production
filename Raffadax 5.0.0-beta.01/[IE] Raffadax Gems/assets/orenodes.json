@@ -1,0 +1,1312 @@
+{
+    "Changes": [
+        {
+            "LogName": "Raffadax Ore Node Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/OreNodes",
+            "FromFile": "assets/orenodes.png"
+        },
+        {
+            "LogName": "Raffadax Item Extensions - Ore Nodes",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "Raffadax.Gems_BBambooChestOreL1": {
+                    "SpriteIndex": 0,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_BlackBamboo",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/100",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 3,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_BBambooChestOreL25": {
+                    "SpriteIndex": 0,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_BlackBamboo",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 4,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_BBambooChestOreL75": {
+                    "SpriteIndex": 0,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_BlackBamboo",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 3,
+                    "MaxDrops": 5,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_ClayOreL1": {
+                    "SpriteIndex": 1,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 1,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)330",
+                    "Tool": "Pickaxe",
+                    "Exp": 6,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/100",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_ClayOreL25": {
+                    "SpriteIndex": 1,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 1,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)330",
+                    "Tool": "Pickaxe",
+                    "Exp": 6,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/120",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 3,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_ClayOre1L25": {
+                    "SpriteIndex": 2,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)330",
+                    "Tool": "Pickaxe",
+                    "Exp": 13,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/77376, 77378/-999",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 5,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_CoalOre1L1": {
+                    "SpriteIndex": 3,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 1,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)382",
+                    "Tool": "Pickaxe",
+                    "Exp": 6,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/100",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)72",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.01
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_CoalOre1L25": {
+                    "SpriteIndex": 3,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)382",
+                    "Tool": "Pickaxe",
+                    "Exp": 13,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/77376, 77378/-999",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)72",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.025
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 3,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_CoalOre2L50": {
+                    "SpriteIndex": 4,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)382",
+                    "Tool": "Pickaxe",
+                    "Exp": 13,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/77376, 77378/-999",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)72",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.05
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 5,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_EbonyChestOreL1": {
+                    "SpriteIndex": 5,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_EbonyWood",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/100",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 3,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_EbonyChestOreL25": {
+                    "SpriteIndex": 5,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_EbonyWood",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 4,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_EbonyChestOreL75": {
+                    "SpriteIndex": 5,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_EbonyWood",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 3,
+                    "MaxDrops": 5,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_GarbageOreL1": {
+                    "SpriteIndex": 6,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 1,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)172",
+                    "Tool": "Pickaxe",
+                    "Exp": 6,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/100",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)168",
+                            "MinItems": -2,
+                            "MaxItems": 1,
+                            "Chance": 1.0
+                        },
+                        {
+                            "ItemId": "(O)170",
+                            "MinItems": -2,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)171",
+                            "MinItems": -2,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)118",
+                            "MinItems": -2,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_PlasticBag",
+                            "MinItems": -2,
+                            "MaxItems": 1,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_SodaPopRing",
+                            "MinItems": -2,
+                            "MaxItems": 1,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_PlasticBottle",
+                            "MinItems": -2,
+                            "MaxItems": 1,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Garbage",
+                            "MinItems": -2,
+                            "MaxItems": 1,
+                            "Chance": 0.25
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Junk",
+                            "MinItems": -2,
+                            "MaxItems": 1,
+                            "Chance": 0.25
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_GarbageOreL0": {
+                    "SpriteIndex": 6,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 1,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)172",
+                    "Tool": "Pickaxe",
+                    "Exp": 6,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "0/120",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)168",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 1.0
+                        },
+                        {
+                            "ItemId": "(O)170",
+                            "MinItems": -1,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)171",
+                            "MinItems": -1,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)118",
+                            "MinItems": -1,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_PlasticBag",
+                            "MinItems": -1,
+                            "MaxItems": 1,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_SodaPopRing",
+                            "MinItems": -1,
+                            "MaxItems": 1,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_PlasticBottle",
+                            "MinItems": -1,
+                            "MaxItems": 1,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Garbage",
+                            "MinItems": -1,
+                            "MaxItems": 1,
+                            "Chance": 0.25
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Junk",
+                            "MinItems": -1,
+                            "MaxItems": 1,
+                            "Chance": 0.25
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_GarbageOre1L25": {
+                    "SpriteIndex": 7,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)172",
+                    "Tool": "Pickaxe",
+                    "Exp": 13,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/77376, 77378/-999",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)168",
+                            "MinItems": 1,
+                            "MaxItems": 2,
+                            "Chance": 1.0
+                        },
+                        {
+                            "ItemId": "(O)170",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)171",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)118",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_PlasticBag",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_SodaPopRing",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_PlasticBottle",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Garbage",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.25
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Junk",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.25
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_HardwoodChestOreL1": {
+                    "SpriteIndex": 8,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)709",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/100",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 3,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_HardwoodChestOreL25": {
+                    "SpriteIndex": 8,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)709",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 4,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_HardwoodChestOreL75": {
+                    "SpriteIndex": 8,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)709",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 3,
+                    "MaxDrops": 5,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_MagnetOreL25": {
+                    "SpriteIndex": 9,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 4,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Lodestone",
+                    "Tool": "Pickaxe",
+                    "Exp": 15,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/77376, 77378/-999",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_MagnetOreL50": {
+                    "SpriteIndex": 9,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 4,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Lodestone",
+                    "Tool": "Pickaxe",
+                    "Exp": 15,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/77376, 77378/-999",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_MagnetOre1L100": {
+                    "SpriteIndex": 10,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 4,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Lodestone",
+                    "Tool": "Pickaxe",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "100/77376, 77378/-999",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 3,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_NahcoliteOreL1": {
+                    "SpriteIndex": 13,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Nahcolite",
+                    "Tool": "Pickaxe",
+                    "Exp": 11,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/77376, 77378/-999",
+                            "SpawnFrequency": 0.06,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_OnyxOreL25": {
+                    "SpriteIndex": 14,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 4,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Onyx",
+                    "Tool": "Pickaxe",
+                    "Exp": 15,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/100",
+                            "SpawnFrequency": 0.003,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack",
+                    "CountTowards": "OtherGems"
+                },
+                "Raffadax.Gems_OnyxOreL50": {
+                    "SpriteIndex": 14,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 4,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Onyx",
+                    "Tool": "Pickaxe",
+                    "Exp": 15,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/77376, 77378/-999",
+                            "SpawnFrequency": 0.006,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack",
+                    "CountTowards": "OtherGems"
+                },
+                "Raffadax.Gems_OnyxOre1L100": {
+                    "SpriteIndex": 15,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 4,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Onyx",
+                    "Tool": "Pickaxe",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "100/77376, 77378/-999",
+                            "SpawnFrequency": 0.009,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack",
+                    "CountTowards": "OtherGems"
+                },
+                "Raffadax.Gems_Rock_SaltL1": {
+                    "SpriteIndex": 16,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_RockSalt",
+                    "Tool": "Pickaxe",
+                    "Exp": 11,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_Rock_Salt1L25": {
+                    "SpriteIndex": 17,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_RockSalt",
+                    "Tool": "Pickaxe",
+                    "Exp": 11,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_SandalwoodChestOreL1": {
+                    "SpriteIndex": 18,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_Sandalwood",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "1/100",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 3,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_SandalwoodChestOreL25": {
+                    "SpriteIndex": 18,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_Sandalwood",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 4,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_SandalwoodChestOreL75": {
+                    "SpriteIndex": 18,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_Sandalwood",
+                    "Tool": "Any",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376, 77378/-999",
+                            "SpawnFrequency": 0.03,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 3,
+                    "MaxDrops": 5,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak"
+                },
+                "Raffadax.Gems_SapphireOreL25": {
+                    "SpriteIndex": 19,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Sapphire",
+                    "Tool": "Pickaxe",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "25/100",
+                            "SpawnFrequency": 0.003,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack",
+                    "CountTowards": "OtherGems"
+                },
+                "Raffadax.Gems_SapphireOreL50": {
+                    "SpriteIndex": 19,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Sapphire",
+                    "Tool": "Pickaxe",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/77376, 77378/-999",
+                            "SpawnFrequency": 0.006,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 1,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack",
+                    "CountTowards": "OtherGems"
+                },
+                "Raffadax.Gems_SapphireOre1L75": {
+                    "SpriteIndex": 20,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 5,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_Sapphire",
+                    "Tool": "Pickaxe",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376, 77378/-999",
+                            "SpawnFrequency": 0.009,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack",
+                    "CountTowards": "OtherGems"
+                },
+                "Raffadax.Gems_SilverOreL30": {
+                    "SpriteIndex": 21,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 6,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_SilverOre",
+                    "Tool": "Pickaxe",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "30/100",
+                            "SpawnFrequency": 0.12,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_SilverOreL50": {
+                    "SpriteIndex": 21,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 6,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_SilverOre",
+                    "Tool": "Pickaxe",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "40/77376, 77378/-999",
+                            "SpawnFrequency": 0.12,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_SilverOre1L75": {
+                    "SpriteIndex": 22,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 6,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_SilverOre",
+                    "Tool": "Pickaxe",
+                    "Exp": 30,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376, 77378/-999",
+                            "SpawnFrequency": 0.12,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 4,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_MythrilOreL75": {
+                    "SpriteIndex": 11,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 10,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_MythrilOre",
+                    "Tool": "Pickaxe",
+                    "Exp": 125,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "80/77376, 77378/-999",
+                            "SpawnFrequency": 0.003,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 2,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_MythrilOreL100": {
+                    "SpriteIndex": 11,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 10,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_MythrilOre",
+                    "Tool": "Pickaxe",
+                    "Exp": 125,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "100/77376, 77378/-999",
+                            "SpawnFrequency": 0.09,
+                            "Type": "All"
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_MythrilOre1L120": {
+                    "SpriteIndex": 12,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 10,
+                    "Sound": "hammer",
+                    "ItemDropped": "(O)Raffadax.RCP_MythrilOre",
+                    "Tool": "Pickaxe",
+                    "Exp": 25,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "120/77376, 77378/-999",
+                            "SpawnFrequency": 0.09,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)74",
+                            "MinItems": -50,
+                            "MaxItems": 1,
+                            "Chance": 0.01
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 3,
+                    "Debris": "stone",
+                    "BreakingSound": "stoneCrack"
+                },
+                "Raffadax.Gems_TreasureChestOreL100": {
+                    "SpriteIndex": 23,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 10,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_SilverCoin",
+                    "Tool": "Any",
+                    "Exp": 125,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "100/77376, 77378/-999",
+                            "SpawnFrequency": 0.003,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Raffadax.RCP_AncientCoin",
+                            "MinItems": 1,
+                            "MaxItems": 2,
+                            "Chance": 1.0
+                        },
+                        {
+                            "ItemId": "(O)60",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)64",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Sapphire",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)72",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.25
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Onyx",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.25
+                        },
+                        {
+                            "ItemId": "(O)797",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.15
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_BlackPearl",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.1
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_GiantPearl",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.05
+                        }
+                    ],
+                    "MinDrops": 1,
+                    "MaxDrops": 3,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak",
+                    "CountTowards": "OtherGems"
+                },
+                "Raffadax.Gems_TreasureChestOreL120": {
+                    "SpriteIndex": 23,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 10,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_SilverCoin",
+                    "Tool": "Any",
+                    "Exp": 125,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "120/77376, 77378/-999",
+                            "SpawnFrequency": 0.009,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Raffadax.RCP_AncientCoin",
+                            "MinItems": 2,
+                            "MaxItems": 3,
+                            "Chance": 1.0
+                        },
+                        {
+                            "ItemId": "(O)60",
+                            "MinItems": 1,
+                            "MaxItems": 2,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)64",
+                            "MinItems": 1,
+                            "MaxItems": 2,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Sapphire",
+                            "MinItems": 1,
+                            "MaxItems": 2,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)72",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Onyx",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.33
+                        },
+                        {
+                            "ItemId": "(O)797",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.25
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_BlackPearl",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.15
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_GiantPearl",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.1
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_GlassPumpkin",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.05
+                        },
+                        {
+                            "ItemId": "(O)74",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.01
+                        }
+                    ],
+                    "MinDrops": 2,
+                    "MaxDrops": 4,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak",
+                    "CountTowards": "OtherGems"
+                },
+                "Raffadax.Gems_TreasureChestOreL200": {
+                    "SpriteIndex": 23,
+                    "Texture": "Mods/{{ModId}}/OreNodes",
+                    "Health": 10,
+                    "Sound": "axchop",
+                    "ItemDropped": "(O)Raffadax.RCP_SilverCoin",
+                    "Tool": "Any",
+                    "Exp": 25,
+                    "Skill": "mining",
+                    "MineSpawns": [
+                        {
+                            "Floors": "200/77376, 77378/-999",
+                            "SpawnFrequency": 0.009,
+                            "Type": "All"
+                        }
+                    ],
+                    "ExtraItems": [
+                        {
+                            "ItemId": "(O)Raffadax.RCP_AncientCoin",
+                            "MinItems": 3,
+                            "MaxItems": 5,
+                            "Chance": 1.0
+                        },
+                        {
+                            "ItemId": "(O)60",
+                            "MinItems": 1,
+                            "MaxItems": 3,
+                            "Chance": 0.75
+                        },
+                        {
+                            "ItemId": "(O)64",
+                            "MinItems": 1,
+                            "MaxItems": 3,
+                            "Chance": 0.75
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Sapphire",
+                            "MinItems": 1,
+                            "MaxItems": 3,
+                            "Chance": 0.75
+                        },
+                        {
+                            "ItemId": "(O)72",
+                            "MinItems": 1,
+                            "MaxItems": 2,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Onyx",
+                            "MinItems": 1,
+                            "MaxItems": 2,
+                            "Chance": 0.5
+                        },
+                        {
+                            "ItemId": "(O)797",
+                            "MinItems": 1,
+                            "MaxItems": 2,
+                            "Chance": 0.25
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_BlackPearl",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.2
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_GiantPearl",
+                            "MinItems": 1,
+                            "MaxItems": 1,
+                            "Chance": 0.15
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_GlassPumpkin",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.07
+                        },
+                        {
+                            "ItemId": "(O)74",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.05
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_MythrilBar",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.02
+                        },
+                        {
+                            "ItemId": "(O)Raffadax.RCP_Alicorn",
+                            "MinItems": 0,
+                            "MaxItems": 1,
+                            "Chance": 0.01
+                        }
+                    ],
+                    "MinDrops": 3,
+                    "MaxDrops": 5,
+                    "Debris": "wood",
+                    "BreakingSound": "barrelBreak",
+                    "CountTowards": "OtherGems"
+                }
+            }
+        }
+    ]
+}

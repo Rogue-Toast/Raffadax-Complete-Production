@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="3" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="3">
+ <tileset firstgid="1" name="z_custom_sewertiles_aimon111" tilewidth="16" tileheight="16" tilecount="1892" columns="44">
+  <image source="z_custom_sewertiles_aimon111.png" width="704" height="688"/>
+ </tileset>
+ <tileset firstgid="1893" name="MephistoSewerMLS" tilewidth="16" tileheight="16" tilecount="9" columns="3">
+  <image source="MephistoSewerMLS.png" width="48" height="48"/>
+ </tileset>
+ <tileset firstgid="1902" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <layer id="6" name="Back3" width="3" height="2">
+  <data encoding="csv">
+138,138,138,
+0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Back4" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+409,409,409
+</data>
+ </layer>
+ <layer id="4" name="Back5" width="3" height="2">
+  <data encoding="csv">
+277,0,0,
+0,966,397
+</data>
+ </layer>
+ <layer id="7" name="Back6" width="3" height="2">
+  <data encoding="csv">
+0,1437,0,
+0,0,1898
+</data>
+ </layer>
+ <layer id="9" name="Buildings" width="3" height="2">
+  <data encoding="csv">
+0,884,1895,
+1899,928,1898
+</data>
+ </layer>
+ <layer id="12" name="Paths" width="3" height="2">
+  <data encoding="csv">
+0,0,0,
+1910,0,1910
+</data>
+ </layer>
+ <layer id="14" name="Front1" width="3" height="2">
+  <data encoding="csv">
+1896,0,1900,
+1900,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back3"/>
+ <objectgroup id="2" name="Back4"/>
+ <objectgroup id="3" name="Back5"/>
+ <objectgroup id="8" name="Back6"/>
+ <objectgroup id="10" name="Buildings">
+  <object id="1" name="TileData" x="32" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop Raffadax.RCP_Mephisto_Shop"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value=" Message &quot;CodexGigas&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="Paths"/>
+ <objectgroup id="13" name="Front1"/>
+</map>
