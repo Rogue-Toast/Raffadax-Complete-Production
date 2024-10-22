@@ -49,7 +49,7 @@
 		// Home - SVE compat
 						{
 							"Id": "SVE",
-							"Condition": "!{{HasMod|contains=FlashShifter.StardewValleyExpandedCP}}",
+							"Condition": "{{HasMod|contains=FlashShifter.StardewValleyExpandedCP}}",
 							"Location": "Desert",
 							"Tile": { "X": 31, "Y": 45 },
 							"Direction": "down"
