@@ -5,31 +5,38 @@
     "ConfigSchema": {
     	"ArtisanImages": {
       		"Default": "true",
-      		"AllowValues": "true, false"
+      		"AllowValues": "true, false",
+            "Description": "{{i18n:Config.ArtisanImages}}"
     	   },
     	"GemImages": {
       		"Default": "true",
-      		"AllowValues": "true, false"
+      		"AllowValues": "true, false",
+            "Description": "{{i18n:Config.GemOptions}}"
     	   },
     	"MilkImages": {
       		"Default": "true",
-      		"AllowValues": "true, false"
+      		"AllowValues": "true, false",
+            "Description": "{{i18n:Config.MilkImages}}"
     	   },
     	"SeedsImages": {
       		"Default": "true",
-      		"AllowValues": "true, false"
+      		"AllowValues": "true, false",
+            "Description": "{{i18n:Config.SeedsImages}}"
     	   },
     	"SpecialImages": {
       		"Default": "true",
-      		"AllowValues": "true, false"
+      		"AllowValues": "true, false",
+            "Description": "{{i18n:Config.SpecialImages}}"
     	   },
     	"Humidor": {
       		"Default": "true",
-      		"AllowValues": "true, false"
+      		"AllowValues": "true, false",
+            "Description": "{{i18n:Config.Humidor}}",
             },
         "SeedMakerSaplings": {
             "Default": "More Saplings",
-            "AllowValues": "More Saplings, Better Saplings"
+            "AllowValues": "More Saplings, Better Saplings",
+            "Description": "{{i18n:Config.SeedMakerSaplings}}"
             }
         },
 

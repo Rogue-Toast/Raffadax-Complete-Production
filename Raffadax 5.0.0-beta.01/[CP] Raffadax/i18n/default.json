@@ -1,4 +1,13 @@
 {
+    //Config options
+    "Config.ArtisanImages": "Retextures vanilla artisan sprites in Raffadax style when set to 'true.'",
+    "Config.GemOptions": "Retextures vanilla gem sprites in Raffadax style when set to 'true.'",
+    "Config.MilkImages": "Retextures vanilla animal goods sprites in Raffadax style when set to 'true.'",
+    "Config.SeedsImages": "Retextures vanilla seed sprites in Raffadax style when set to 'true.'",
+    "Config.SpecialImages": "Retextures various vanilla sprites in Raffadax style when set to 'true.'",
+    "Config.Humidor": "When set to 'true,' turns on the Humidor shop in the Saloon.",
+    "Config.SeedMakerSaplings": "Toggles between 'Better Saplings', where higher quality tree fruits placed in the seedmaker produce one matching quality sapling, and 'More Saplings,' where higher quality tree fruits placed in the seedmaker produce multiple normal quality saplings. NOTE: Players with Fruit Tree Tweaks will NOT benefit from the 'Better Saplings' option.",
+
 	//crops.json - Crops
     "AdzukiBeans.DisplayName": "Adzuki Beans",
     "AdzukiBeans.Description": "Small red beans with an earthy, sweet potato-like flavor. They are commonly made into a sweet paste used for deserts.",
